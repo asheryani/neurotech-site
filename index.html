@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neurotech AI Solutions GmbH — Berlin</title>
+<meta name="description" content="Neurotech AI Solutions GmbH is an applied-AI product studio in Berlin. We design and build AI-powered software products.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23B23A18' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23141310' stroke-width='2'/%3E%3Ccircle cx='27.5' cy='16' r='2.5' fill='%23B23A18'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FAF8F3;
+    --ink: #17150F;
+    --ink-soft: #57534A;
+    --hairline: #DDD8CC;
+    --oxide: #B23A18;
+    --serif: "Instrument Serif", Georgia, serif;
+    --sans: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Subtle paper grain */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.35;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.07 0 0 0 0 0.05 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+    z-index: 1;
+  }
+
+  .frame {
+    position: relative;
+    z-index: 2;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 clamp(20px, 5vw, 56px);
+  }
+
+  /* ---------- Header ---------- */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 28px;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 18px;
+  }
+  .brand {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+  }
+  .brand em { font-style: normal; color: var(--oxide); }
+  nav { display: flex; gap: 28px; }
+  nav a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    position: relative;
+  }
+  nav a::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -3px;
+    width: 100%; height: 1px;
+    background: var(--oxide);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+  }
+  nav a:hover::after, nav a:focus-visible::after { transform: scaleX(1); }
+  nav a:hover, nav a:focus-visible { color: var(--ink); }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: clamp(72px, 14vh, 150px) 0 clamp(56px, 10vh, 120px);
+    position: relative;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.6rem, 7.5vw, 5.4rem);
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    max-width: 15ch;
+    animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .hero h1 .accent {
+    font-style: italic;
+    color: var(--oxide);
+  }
+  .hero p {
+    margin-top: 32px;
+    max-width: 44ch;
+    font-size: clamp(1.02rem, 1.6vw, 1.18rem);
+    color: var(--ink-soft);
+    animation: rise 0.7s 0.12s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  /* Quiet orbital mark — a nod to what's being built here */
+  .hero .orbits {
+    position: absolute;
+    right: clamp(-40px, 2vw, 40px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: clamp(180px, 26vw, 320px);
+    height: auto;
+    opacity: 0;
+    animation: fade 1.2s 0.35s ease both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade { from { opacity: 0; } to { opacity: 0.9; } }
+
+  /* ---------- Sections ---------- */
+  section { border-top: 1px solid var(--hairline); padding: clamp(48px, 8vh, 88px) 0; }
+  .kicker {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .kicker .no {
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--oxide);
+    font-size: 1rem;
+  }
+  .kicker h2 {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .kicker .de {
+    color: var(--ink-soft);
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(28px, 6vw, 80px);
+  }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+
+  .lede {
+    font-family: var(--serif);
+    font-size: clamp(1.35rem, 2.6vw, 1.8rem);
+    line-height: 1.35;
+    max-width: 26ch;
+  }
+  .body-copy { color: var(--ink-soft); max-width: 52ch; }
+  .body-copy + .body-copy { margin-top: 1em; }
+
+  .fact-list { list-style: none; margin-top: 6px; }
+  .fact-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 15px;
+  }
+  .fact-list li span:first-child { color: var(--ink-soft); }
+  .fact-list li span:last-child { text-align: right; }
+
+  /* ---------- Contact ---------- */
+  .contact-mail {
+    font-family: var(--serif);
+    font-size: clamp(1.5rem, 3.4vw, 2.4rem);
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 2px solid var(--oxide);
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .contact-mail:hover, .contact-mail:focus-visible { color: var(--oxide); }
+
+  /* ---------- Legal ---------- */
+  .legal { font-size: 14px; color: var(--ink-soft); }
+  .legal h3 {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 14px;
+  }
+  .legal p + p { margin-top: 0.7em; }
+  .legal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(28px, 6vw, 80px);
+  }
+  @media (max-width: 720px) { .legal-grid { grid-template-columns: 1fr; } }
+
+  footer {
+    border-top: 1px solid var(--hairline);
+    padding: 26px 0 44px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+
+  <header>
+    <div class="brand">NEUROTECH <em>AI</em> SOLUTIONS</div>
+    <nav aria-label="Sections">
+      <a href="#studio">Studio</a>
+      <a href="#contact">Contact</a>
+      <a href="#impressum">Impressum</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Applied AI, built into <span class="accent">products people keep.</span></h1>
+    <p>Neurotech AI Solutions is an independent product studio in Berlin. We design
+       and engineer AI&#8209;powered software — carefully, end to end.</p>
+    <!-- Orbital mark: decorative only -->
+    <svg class="orbits" viewBox="0 0 300 300" aria-hidden="true" fill="none">
+      <circle cx="150" cy="150" r="132" stroke="#DDD8CC" stroke-width="1"/>
+      <circle cx="150" cy="150" r="96"  stroke="#DDD8CC" stroke-width="1"/>
+      <circle cx="150" cy="150" r="60"  stroke="#17150F" stroke-width="1.2"/>
+      <circle cx="150" cy="150" r="6"   fill="#17150F"/>
+      <circle cx="246" cy="150" r="5"   fill="#B23A18"/>
+      <circle cx="150" cy="18"  r="3.5" fill="#57534A"/>
+    </svg>
+  </div>
+
+  <section id="studio">
+    <div class="kicker">
+      <span class="no">01</span>
+      <h2>What we do</h2>
+      <span class="de" lang="de">— Was wir tun</span>
+    </div>
+    <div class="cols">
+      <div>
+        <p class="lede">Software products where machine intelligence does quiet,
+        useful work — not demos, not novelty.</p>
+      </div>
+      <div>
+        <p class="body-copy">We build consumer and professional software for Apple
+        platforms and the web, with applied AI at the core: systems that read
+        context, rank what matters, and act with restraint. Design, engineering,
+        and operations happen in&#8209;house.</p>
+        <p class="body-copy">Our first product — a personal chief&#8209;of&#8209;staff
+        for your working day — is currently in development in Berlin.</p>
+        <ul class="fact-list">
+          <li><span>Founded</span><span>2026, Berlin</span></li>
+          <li><span>Focus</span><span>AI&#8209;powered productivity software</span></li>
+          <li><span>Platforms</span><span>iOS &amp; web</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="kicker">
+      <span class="no">02</span>
+      <h2>Contact</h2>
+      <span class="de" lang="de">— Kontakt</span>
+    </div>
+    <p style="margin-bottom:18px;" class="body-copy">For inquiries, partnerships, or anything else:</p>
+    <a class="contact-mail" href="mailto:hello@neurotech-ai.de">hello@neurotech&#8209;ai.de</a>
+  </section>
+
+  <section id="impressum" class="legal" lang="de">
+    <div class="kicker" lang="en">
+      <span class="no">03</span>
+      <h2 lang="de">Impressum</h2>
+      <span class="de">— Legal notice</span>
+    </div>
+    <div class="legal-grid">
+      <div>
+        <h3>Angaben gemäß § 5 DDG</h3>
+        <p>
+          Neurotech AI Solutions GmbH<br>
+          C/O The Delta Campus<br>
+          Donaustraße 44<br>
+          12043 Berlin<br>
+          Deutschland
+        </p>
+        <p>
+          Vertreten durch den Geschäftsführer:<br>
+          Ashraf Al&#8209;Eryani
+        </p>
+        <p>
+          Registergericht: Amtsgericht Charlottenburg<br>
+          Handelsregisternummer: HRB 270776 B<br>
+          Umsatzsteuer&#8209;ID gemäß § 27a UStG: DE452138138
+        </p>
+        <p>
+          Kontakt: <a href="mailto:hello@neurotech-ai.de" style="color:inherit;">hello@neurotech&#8209;ai.de</a>
+        </p>
+      </div>
+      <div lang="en">
+        <h3>Datenschutz — Privacy</h3>
+        <p lang="de">Diese Website ist eine statische Seite. Sie verwendet keine Cookies,
+        keine Analyse&#8209;Tools und kein Tracking. Beim Aufruf der Seite verarbeitet
+        unser Hosting&#8209;Anbieter technisch notwendige Verbindungsdaten
+        (z.&nbsp;B. IP&#8209;Adresse) in Server&#8209;Logs auf Grundlage von
+        Art.&nbsp;6&nbsp;Abs.&nbsp;1&nbsp;lit.&nbsp;f DSGVO.</p>
+        <p>This is a static website. It sets no cookies and runs no analytics or
+        tracking. Our hosting provider processes technically necessary connection
+        data (e.g. IP addresses) in server logs under Art.&nbsp;6(1)(f) GDPR.
+        For data&#8209;protection requests, contact
+        <a href="mailto:hello@neurotech-ai.de" style="color:inherit;">hello@neurotech&#8209;ai.de</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Neurotech AI Solutions GmbH, Berlin</span>
+    <span>Made in Berlin</span>
+  </footer>
+
+</div>
+</body>
+</html>
