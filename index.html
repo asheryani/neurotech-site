@@ -50,12 +50,13 @@
     <p>Neurotech AI Solutions is an independent product studio in Berlin. We design
        and engineer AI&#8209;powered software — carefully, end to end.</p>
     <svg class="orbits" viewBox="0 0 300 300" aria-hidden="true" fill="none">
-      <circle cx="150" cy="150" r="132" stroke="#DDD8CC" stroke-width="1"/>
-      <circle cx="150" cy="150" r="96"  stroke="#DDD8CC" stroke-width="1"/>
-      <circle cx="150" cy="150" r="60"  stroke="#17150F" stroke-width="1.2"/>
-      <circle cx="150" cy="150" r="6"   fill="#17150F"/>
-      <circle cx="246" cy="150" r="5"   fill="#B23A18"/>
-      <circle cx="150" cy="18"  r="3.5" fill="#57534A"/>
+      <circle cx="150" cy="150" r="132" stroke="currentColor" opacity="0.25" stroke-width="1"/>
+      <circle cx="150" cy="150" r="96"  stroke="currentColor" opacity="0.25" stroke-width="1"/>
+      <circle cx="150" cy="150" r="60"  stroke="currentColor" opacity="0.7" stroke-width="1.2"/>
+      <circle cx="150" cy="150" r="6"   fill="currentColor" class="pulse"/>
+      <g class="spin-slow"><circle cx="246" cy="150" r="5" fill="#B23A18"/></g>
+      <g class="spin-fast"><circle cx="150" cy="54" r="3.5" fill="currentColor" opacity="0.55"/></g>
+      <g class="spin-slow" style="animation-delay:-16s"><circle cx="282" cy="150" r="2.5" fill="currentColor" opacity="0.4"/></g>
     </svg>
   </div>
 
@@ -66,7 +67,7 @@
       <span class="de" lang="de">— Was wir tun</span>
     </div>
     <div class="cols">
-      <div>
+      <div class="reveal">
         <p class="lede">Software products where machine intelligence does quiet,
         useful work — not demos, not novelty.</p>
       </div>
@@ -92,14 +93,23 @@
       <span class="de" lang="de">— Schwerpunkte</span>
     </div>
     <div class="card-grid">
-      <div class="card">
+      <div class="card reveal">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <path d="M17 5v4M17 25v4M5 17h4M25 17h4"/>
+          <circle cx="17" cy="17" r="6"/>
+          <path d="M17 14v3l2 2"/>
+        </svg></span>
         <span class="idx">i.</span>
         <h3>Attention &amp; time</h3>
         <p>Modern work drowns in notifications that all claim to be urgent. We build
         systems that decide what genuinely deserves attention right now — and stay
         silent about the rest. Silence is a feature, not a failure.</p>
       </div>
-      <div class="card">
+      <div class="card reveal">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 4l10 4v8c0 6.5-4.2 11.5-10 14-5.8-2.5-10-7.5-10-14V8l10-4z"/>
+          <path d="M12.5 17l3 3 6-6"/>
+        </svg></span>
         <span class="idx">ii.</span>
         <h3>Privacy-first AI</h3>
         <p>Machine intelligence over personal data demands engineering discipline:
@@ -107,7 +117,12 @@
         server&#8209;side privacy rendering, and GDPR compliance designed in from the
         first commit — not audited in later.</p>
       </div>
-      <div class="card">
+      <div class="card reveal">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="10" y="4" width="14" height="26" rx="3.5"/>
+          <path d="M14.5 7h5"/>
+          <path d="M13 26h8" opacity="0.5"/>
+        </svg></span>
         <span class="idx">iii.</span>
         <h3>Native Apple craft</h3>
         <p>Deep platform integration is where software stops feeling like a website
@@ -125,7 +140,7 @@
       <span class="de" lang="de">— In Arbeit</span>
     </div>
     <div class="cols">
-      <div>
+      <div class="reveal">
         <p class="lede">Purser — a proactive chief of staff for your
         working day.</p>
       </div>
@@ -146,18 +161,18 @@
       <span class="de" lang="de">— Arbeitsweise</span>
     </div>
     <ul class="principle-list">
-      <li>
+      <li class="reveal">
         <h3>Deterministic where it counts</h3>
         <p>Decisions about your attention are made by an explainable, testable rules
         engine. AI assists with understanding content; it never gets to interrupt
         you on its own authority.</p>
       </li>
-      <li>
+      <li class="reveal">
         <h3>Restraint as a product value</h3>
         <p>Every interruption must justify itself. Our software is engineered to
         interrupt less than it could, not as much as it may.</p>
       </li>
-      <li>
+      <li class="reveal">
         <h3>Owned end to end</h3>
         <p>Product design, iOS engineering, backend infrastructure, and security
         engineering happen in&#8209;house, in Berlin, under European data-protection
@@ -176,6 +191,10 @@
     <a class="contact-mail" href="mailto:hello@neurotech-ai.de">hello@neurotech&#8209;ai.de</a>
   </section>
 
+  <div class="foot-mark" aria-hidden="true">
+    <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="#B23A18" stroke-width="1.6"/><circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.6"/><circle cx="27.5" cy="16" r="2.2" fill="#B23A18"/></svg>
+  </div>
+
   <footer>
     <span>© 2026 Neurotech AI Solutions GmbH, Berlin</span>
     <span class="foot-links">
@@ -185,5 +204,6 @@
   </footer>
 
 </div>
+<script src="site.js" defer></script>
 </body>
 </html>
