@@ -12,7 +12,7 @@
       "standfirst": "Buyers spend a surprising share of their week turning emails and PDFs into structured data: requests into requisitions, quotes into comparison tables, supplier documents into onboarding checklists. AI agents do that part. Buyers keep the decisions, the relationships and the negotiations, with four-eyes approval wherever money is committed.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -220,7 +220,7 @@
       "standfirst": "Einkäufer verbringen einen erstaunlichen Teil ihrer Woche damit, E-Mails und PDFs in strukturierte Daten zu verwandeln: Bedarfe in Bestellanforderungen, Angebote in Vergleichstabellen, Lieferantendokumente in Onboarding-Checklisten. Diesen Teil übernehmen KI-Agenten. Einkäufer behalten Entscheidungen, Beziehungen und Verhandlungen – mit Vier-Augen-Freigabe überall dort, wo Geld gebunden wird.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

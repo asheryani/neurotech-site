@@ -10,8 +10,14 @@
       "title": "AI agents for customer service that",
       "titleAccent": "know when to hand over.",
       "standfirst": "Support teams answer the same questions all day: order status, returns, password resets, invoice copies. AI agents resolve those reliably, draft the harder replies with sources for your team and hand over to a person the moment confidence drops or money is involved. We design the thresholds, the escalation paths and the transparency your customers are entitled to.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,81 +30,180 @@
           "We start with triage and assist because they relieve the team within weeks at low risk, then automate categories with high volume and clear rules. Money, strong emotions and ambiguity stay with people."
         ],
         "facts": [
-          ["Typical entry point", "Triage and agent assist, then automated resolution per category"],
-          ["Systems", "Helpdesk or ticketing, CRM, shop and order systems, knowledge base, telephony"],
-          ["Human checkpoint", "Low confidence, refunds and credits, complaints, data-subject requests"],
-          ["First pilot", "Typically 6–8 weeks"]
+          [
+            "Typical entry point",
+            "Triage and agent assist, then automated resolution per category"
+          ],
+          [
+            "Systems",
+            "Helpdesk or ticketing, CRM, shop and order systems, knowledge base, telephony"
+          ],
+          [
+            "Human checkpoint",
+            "Low confidence, refunds and credits, complaints, data-subject requests"
+          ],
+          [
+            "First pilot",
+            "Typically 6–8 weeks"
+          ]
         ],
-        "link": { "label": "See our knowledge assistant service", "page": "services/knowledge-assistants" }
+        "link": {
+          "label": "See our knowledge assistant service",
+          "page": "services/knowledge-assistants"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases",
         "intro": "Six workflows, from low-risk relief for the team to automated resolution with escalation built in.",
         "items": [
-          { "icon": "layers", "title": "Ticket triage and routing", "text": "The agent classifies every incoming email, chat and form by intent, urgency, language and customer tier, detects duplicates, routes to the right queue and adds a two-line summary. Team leads adjust the rules in plain language, and misroutes are measured weekly." },
-          { "icon": "doc", "title": "Agent assist with sources", "text": "For each ticket the agent drafts a reply from your knowledge base, order data and previous conversations, cites its sources and checks tone and policy. The human agent edits and sends; every edit is fed back. New team members are productive faster because the context arrives with the ticket." },
-          { "icon": "bolt", "title": "Automated resolution for defined categories", "text": "Order status, return labels, address changes, password resets, invoice copies: the agent verifies the customer, executes the action through your shop, CRM or order system and confirms. The scope is a strict list. Anything outside it, and anything involving refunds or credits, goes to a person." },
-          { "icon": "chat", "title": "Email, chat and voice agents", "text": "Email and chat come first because they tolerate a second of thinking time. Voice agents for phone lines are emerging: latency, accents, identity verification and interruptions still need careful design. We plan them deliberately, starting with after-hours or narrow intents, always with a route to a human." },
-          { "icon": "book", "title": "Knowledge base maintenance", "text": "The agent finds questions without a good article, drafts new articles from resolved tickets and flags content that is outdated after a product or policy change. Your knowledge manager approves every article. An internal [knowledge assistant](page:services/knowledge-assistants) for the team is often the first step." },
-          { "icon": "gauge", "title": "Quality monitoring and root-cause analysis", "text": "The agent analyses ticket data for recurring causes (a confusing invoice layout, a shipping partner, a product defect) and briefs product, operations and finance. It reviews samples of conversations for quality and, in multilingual support, answers in the customer's language with human review where you have no native speakers." }
+          {
+            "icon": "layers",
+            "title": "Ticket triage and routing",
+            "text": "The agent classifies every incoming email, chat and form by intent, urgency, language and customer tier, detects duplicates, routes to the right queue and adds a two-line summary. Team leads adjust the rules in plain language, and misroutes are measured weekly."
+          },
+          {
+            "icon": "doc",
+            "title": "Agent assist with sources",
+            "text": "For each ticket the agent drafts a reply from your knowledge base, order data and previous conversations, cites its sources and checks tone and policy. The human agent edits and sends; every edit is fed back. New team members are productive faster because the context arrives with the ticket."
+          },
+          {
+            "icon": "bolt",
+            "title": "Automated resolution for defined categories",
+            "text": "Order status, return labels, address changes, password resets, invoice copies: the agent verifies the customer, executes the action through your shop, CRM or order system and confirms. The scope is a strict list. Anything outside it, and anything involving refunds or credits, goes to a person."
+          },
+          {
+            "icon": "chat",
+            "title": "Email, chat and voice agents",
+            "text": "Email and chat come first because they tolerate a second of thinking time. Voice agents for phone lines are emerging: latency, accents, identity verification and interruptions still need careful design. We plan them deliberately, starting with after-hours or narrow intents, always with a route to a human."
+          },
+          {
+            "icon": "book",
+            "title": "Knowledge base maintenance",
+            "text": "The agent finds questions without a good article, drafts new articles from resolved tickets and flags content that is outdated after a product or policy change. Your knowledge manager approves every article. An internal [knowledge assistant](page:services/knowledge-assistants) for the team is often the first step."
+          },
+          {
+            "icon": "gauge",
+            "title": "Quality monitoring and root-cause analysis",
+            "text": "The agent analyses ticket data for recurring causes (a confusing invoice layout, a shipping partner, a product defect) and briefs product, operations and finance. It reviews samples of conversations for quality and, in multilingual support, answers in the customer's language with human review where you have no native speakers."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Worked example",
         "content": [
-          { "h2": "An email support workflow with confidence thresholds" },
-          { "p": "A typical scenario: an online retailer or a SaaS company receives a few hundred support emails a day, half of them about a handful of topics. This is how an agent handles the inbox, with people where it matters." },
-          { "ol": [
-            "**Intake and context.** An email arrives in the helpdesk. The agent identifies the customer by address or order number and pulls orders, previous tickets and the contract or subscription.",
-            "**Classification.** It determines intent (“where is my order”, “cancel subscription”, “complaint”), urgency, sentiment and language, each with a confidence score.",
-            "**Automated path.** If the category is in scope and confidence is above the threshold set for that category, the agent answers from live data such as the carrier's tracking status, applies your policy and sends. The message says it comes from an AI assistant and offers a one-click route to a person.",
-            "**Assisted path (human gate).** If confidence is below the threshold, or the resolution needs an action with financial impact such as a refund or goodwill credit, the agent prepares draft, proposed action and sources, and a human agent approves or edits.",
-            "**Escalation path.** Complaints, legal threats, data-subject requests and emotionally charged messages go to a person immediately with a summary. The customer gets an acknowledgement, not an automated resolution attempt.",
-            "**Second round.** A customer reply runs through the same evaluation. A second unresolved round triggers escalation regardless of confidence, so nobody ends up in a loop.",
-            "**Logging and review.** Every automated conversation is stored with reasoning and sources. Team leads review a sample each week and adjust thresholds per category.",
-            "**Metrics.** A dashboard shows automation rate per category, first-contact resolution, handling time, escalation rate and satisfaction, separately for AI-handled and human-handled conversations."
-          ] },
-          { "note": "Thresholds start conservative. Widening automation is a decision you take per category with the numbers in front of you, never a default. We build and run these workflows through our [agent development](page:services/ai-agent-development) and [managed AI operations](page:services/managed-ai-operations) services." }
+          {
+            "h2": "An email support workflow with confidence thresholds"
+          },
+          {
+            "p": "A typical scenario: an online retailer or a SaaS company receives a few hundred support emails a day, half of them about a handful of topics. This is how an agent handles the inbox, with people where it matters."
+          },
+          {
+            "ol": [
+              "**Intake and context.** An email arrives in the helpdesk. The agent identifies the customer by address or order number and pulls orders, previous tickets and the contract or subscription.",
+              "**Classification.** It determines intent (“where is my order”, “cancel subscription”, “complaint”), urgency, sentiment and language, each with a confidence score.",
+              "**Automated path.** If the category is in scope and confidence is above the threshold set for that category, the agent answers from live data such as the carrier's tracking status, applies your policy and sends. The message says it comes from an AI assistant and offers a one-click route to a person.",
+              "**Assisted path (human gate).** If confidence is below the threshold, or the resolution needs an action with financial impact such as a refund or goodwill credit, the agent prepares draft, proposed action and sources, and a human agent approves or edits.",
+              "**Escalation path.** Complaints, legal threats, data-subject requests and emotionally charged messages go to a person immediately with a summary. The customer gets an acknowledgement, not an automated resolution attempt.",
+              "**Second round.** A customer reply runs through the same evaluation. A second unresolved round triggers escalation regardless of confidence, so nobody ends up in a loop.",
+              "**Logging and review.** Every automated conversation is stored with reasoning and sources. Team leads review a sample each week and adjust thresholds per category.",
+              "**Metrics.** A dashboard shows automation rate per category, first-contact resolution, handling time, escalation rate and satisfaction, separately for AI-handled and human-handled conversations."
+            ]
+          },
+          {
+            "note": "Thresholds start conservative. Widening automation is a decision you take per category with the numbers in front of you, never a default. We build and run these workflows through our [agent development](page:services/ai-agent-development) and [managed AI operations](page:services/managed-ai-operations) services."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Guardrails and risks in customer service",
         "items": [
-          { "title": "Transparency towards customers", "text": "The EU AI Act contains transparency duties for AI systems that interact with people, and being upfront is good service anyway. Every automated conversation identifies itself as AI and offers a way to a human. Check the current legal status with your counsel; our [EU AI Act guide](page:insights/eu-ai-act-guide) gives an overview." },
-          { "title": "No promises the agent cannot keep", "text": "The agent answers only from verified data and approved policy. It does not invent delivery dates, grant exceptions or interpret contracts. When it does not know, it says so and hands over instead of producing a confident guess." },
-          { "title": "Money needs a person", "text": "Refunds, credits, goodwill gestures and cancellations with financial consequences are prepared by the agent and approved by a human, with a second approver above defined amounts. The rules are yours; we make them executable." },
-          { "title": "Data protection", "text": "Customers are verified before order or account data is disclosed, prompts carry the minimum data needed, processing stays in the EU where required, and conversations are not used to train models without a legal basis. Your data-protection officer reviews the design before launch." },
-          { "title": "Measurement and drift", "text": "First-contact resolution, handling time, escalation rate and satisfaction are tracked continuously. Weekly samples catch quality drift, and every change to prompts, policies or models is tested against a fixed set of past tickets before it goes live." }
+          {
+            "title": "Transparency towards customers",
+            "text": "The EU AI Act contains transparency duties for AI systems that interact with people, and being upfront is good service anyway. Every automated conversation identifies itself as AI and offers a way to a human. Check the current legal status with your counsel; our [EU AI Act guide](page:insights/eu-ai-act-guide) gives an overview."
+          },
+          {
+            "title": "No promises the agent cannot keep",
+            "text": "The agent answers only from verified data and approved policy. It does not invent delivery dates, grant exceptions or interpret contracts. When it does not know, it says so and hands over instead of producing a confident guess."
+          },
+          {
+            "title": "Money needs a person",
+            "text": "Refunds, credits, goodwill gestures and cancellations with financial consequences are prepared by the agent and approved by a human, with a second approver above defined amounts. The rules are yours; we make them executable."
+          },
+          {
+            "title": "Data protection",
+            "text": "Customers are verified before order or account data is disclosed, prompts carry the minimum data needed, processing stays in the EU where required, and conversations are not used to train models without a legal basis. Your data-protection officer reviews the design before launch."
+          },
+          {
+            "title": "Measurement and drift",
+            "text": "First-contact resolution, handling time, escalation rate and satisfaction are tracked continuously. Weekly samples catch quality drift, and every change to prompts, policies or models is tested against a fixed set of past tickets before it goes live."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we start",
         "items": [
-          { "title": "Service assessment", "text": "We analyse your ticket data (categories, volumes, resolution paths), your systems and the state of the knowledge base, pick the first categories for assist and automation and record baseline metrics.", "meta": "2–3 weeks" },
-          { "title": "Design and governance", "text": "Escalation paths, confidence thresholds, disclosure texts, tone and refund rules are designed with team leads; data protection and, where relevant, works council questions are settled before the build." },
-          { "title": "Pilot", "text": "Agent assist for the whole team plus automated resolution for two or three categories. Weekly sample reviews, threshold tuning and a comparison against the baseline.", "meta": "6–8 weeks" },
-          { "title": "Scale and operate", "text": "More categories, further channels (chat, later voice), more languages, and managed operations that keep knowledge, prompts and integrations current. Roles such as AI supervisor and knowledge manager are defined along the way." }
+          {
+            "title": "Service assessment",
+            "text": "We analyse your ticket data (categories, volumes, resolution paths), your systems and the state of the knowledge base, pick the first categories for assist and automation and record baseline metrics.",
+            "meta": "2–3 weeks"
+          },
+          {
+            "title": "Design and governance",
+            "text": "Escalation paths, confidence thresholds, disclosure texts, tone and refund rules are designed with team leads; data protection and, where relevant, works council questions are settled before the build."
+          },
+          {
+            "title": "Pilot",
+            "text": "Agent assist for the whole team plus automated resolution for two or three categories. Weekly sample reviews, threshold tuning and a comparison against the baseline.",
+            "meta": "6–8 weeks"
+          },
+          {
+            "title": "Scale and operate",
+            "text": "More categories, further channels (chat, later voice), more languages, and managed operations that keep knowledge, prompts and integrations current. Roles such as AI supervisor and knowledge manager are defined along the way."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Do we have to tell customers they are talking to an AI?", "a": "In general, yes. The EU AI Act sets transparency duties for AI systems that interact with people; obligations are being phased in, so check the current status with your legal team. Disclosure is also good practice: customers who know they are talking to an assistant forgive its limits more readily and use the route to a person when they need it." },
-          { "q": "What happens when the agent is unsure or the customer is angry?", "a": "It hands over. Low confidence, negative sentiment, complaint language, legal keywords and repeated unresolved rounds all trigger escalation to a person, with a summary so the customer does not have to start again. The agent never loops a customer through the same answer twice." },
-          { "q": "Can the agent issue refunds or credits?", "a": "It can prepare them, not execute them. Refunds, credits and goodwill gestures are proposed with reasoning and customer history, a human agent approves, and a second approver is required above defined amounts. Whether you ever allow autonomous small credits is your decision, taken later, with data." },
-          { "q": "How is our customers' data protected?", "a": "Identity is verified before account data is disclosed, prompts carry only the data a case needs, processing stays in the EU where required and retention follows your policy. Processor agreements with model and platform providers are part of the design, which your data-protection officer reviews before launch. The legal assessment stays with your counsel." },
-          { "q": "What happens to our support team?", "a": "Agents remove tasks, not usually roles. Repetitive tickets leave the queue; complex cases, escalations, quality review and knowledge management remain and grow. Some teams stop backfilling attrition, others move people into onboarding or sales support. We plan the change with team leads and, where one exists, the works council." },
-          { "q": "Which helpdesk systems do you work with?", "a": "Zendesk, Freshdesk, ServiceNow, Salesforce Service Cloud, HubSpot Service Hub and custom systems, connected through their APIs. We are vendor-neutral and evaluate the native AI features of your platform first; sometimes they cover triage and assist, and the custom work goes into resolution and integration." }
+          {
+            "q": "Do we have to tell customers they are talking to an AI?",
+            "a": "In general, yes. The EU AI Act sets transparency duties for AI systems that interact with people; obligations are being phased in, so check the current status with your legal team. Disclosure is also good practice: customers who know they are talking to an assistant forgive its limits more readily and use the route to a person when they need it."
+          },
+          {
+            "q": "What happens when the agent is unsure or the customer is angry?",
+            "a": "It hands over. Low confidence, negative sentiment, complaint language, legal keywords and repeated unresolved rounds all trigger escalation to a person, with a summary so the customer does not have to start again. The agent never loops a customer through the same answer twice."
+          },
+          {
+            "q": "Can the agent issue refunds or credits?",
+            "a": "It can prepare them, not execute them. Refunds, credits and goodwill gestures are proposed with reasoning and customer history, a human agent approves, and a second approver is required above defined amounts. Whether you ever allow autonomous small credits is your decision, taken later, with data."
+          },
+          {
+            "q": "How is our customers' data protected?",
+            "a": "Identity is verified before account data is disclosed, prompts carry only the data a case needs, processing stays in the EU where required and retention follows your policy. Processor agreements with model and platform providers are part of the design, which your data-protection officer reviews before launch. The legal assessment stays with your counsel."
+          },
+          {
+            "q": "What happens to our support team?",
+            "a": "Agents remove tasks, not usually roles. Repetitive tickets leave the queue; complex cases, escalations, quality review and knowledge management remain and grow. Some teams stop backfilling attrition, others move people into onboarding or sales support. We plan the change with team leads and, where one exists, the works council."
+          },
+          {
+            "q": "Which helpdesk systems do you work with?",
+            "a": "Zendesk, Freshdesk, ServiceNow, Salesforce Service Cloud, HubSpot Service Hub and custom systems, connected through their APIs. We are vendor-neutral and evaluate the native AI features of your platform first; sometimes they cover triage and assist, and the custom work goes into resolution and integration."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["services/knowledge-assistants", "services/managed-ai-operations", "solutions/sales", "industries/ecommerce-retail"]
+        "pages": [
+          "services/knowledge-assistants",
+          "services/managed-ai-operations",
+          "solutions/sales",
+          "industries/ecommerce-retail"
+        ]
       }
     ]
   },
@@ -112,8 +217,14 @@
       "title": "KI-Agenten im Kundenservice, die",
       "titleAccent": "wissen, wann sie übergeben.",
       "standfirst": "Serviceteams beantworten den ganzen Tag dieselben Fragen: Bestellstatus, Retouren, Passwort zurücksetzen, Rechnungskopie. KI-Agenten lösen diese Anliegen zuverlässig, entwerfen die schwierigeren Antworten mit Quellen für Ihr Team und übergeben an einen Menschen, sobald die Sicherheit sinkt oder es um Geld geht. Wir gestalten die Schwellenwerte, die Eskalationswege und die Transparenz, auf die Ihre Kunden Anspruch haben.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -126,81 +237,180 @@
           "Wir beginnen mit Triage und Assist, weil sie das Team binnen Wochen bei geringem Risiko entlasten, und automatisieren dann Kategorien mit hohem Volumen und klaren Regeln. Geld, starke Emotionen und Mehrdeutigkeit bleiben bei Menschen."
         ],
         "facts": [
-          ["Typischer Einstieg", "Triage und Agent Assist, dann automatische Lösung je Kategorie"],
-          ["Systeme", "Helpdesk oder Ticketsystem, CRM, Shop- und Auftragssysteme, Wissensdatenbank, Telefonie"],
-          ["Kontrollpunkt", "Geringe Sicherheit, Erstattungen und Gutschriften, Beschwerden, Betroffenenanfragen"],
-          ["Erster Pilot", "In der Regel 6–8 Wochen"]
+          [
+            "Typischer Einstieg",
+            "Triage und Agent Assist, dann automatische Lösung je Kategorie"
+          ],
+          [
+            "Systeme",
+            "Helpdesk oder Ticketsystem, CRM, Shop- und Auftragssysteme, Wissensdatenbank, Telefonie"
+          ],
+          [
+            "Kontrollpunkt",
+            "Geringe Sicherheit, Erstattungen und Gutschriften, Beschwerden, Betroffenenanfragen"
+          ],
+          [
+            "Erster Pilot",
+            "In der Regel 6–8 Wochen"
+          ]
         ],
-        "link": { "label": "Unsere Leistung Wissensassistenten", "page": "services/knowledge-assistants" }
+        "link": {
+          "label": "Unsere Leistung Wissensassistenten",
+          "page": "services/knowledge-assistants"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases",
         "intro": "Sechs Workflows, von risikoarmer Entlastung des Teams bis zur automatischen Lösung mit eingebauter Eskalation.",
         "items": [
-          { "icon": "layers", "title": "Ticket-Triage und Verteilung", "text": "Der Agent klassifiziert jede eingehende E-Mail, jeden Chat und jedes Formular nach Anliegen, Dringlichkeit, Sprache und Kundenstatus, erkennt Dubletten, leitet in die richtige Warteschlange und ergänzt eine zweizeilige Zusammenfassung. Teamleitungen passen die Regeln in Alltagssprache an; Fehlzuordnungen werden wöchentlich gemessen." },
-          { "icon": "doc", "title": "Agent Assist mit Quellen", "text": "Zu jedem Ticket entwirft der Agent eine Antwort aus Wissensdatenbank, Auftragsdaten und früheren Gesprächen, nennt seine Quellen und prüft Ton und Richtlinien. Der Mitarbeiter bearbeitet und sendet; jede Korrektur fließt zurück. Neue Kolleginnen und Kollegen sind schneller produktiv, weil der Kontext mit dem Ticket kommt." },
-          { "icon": "bolt", "title": "Automatische Lösung definierter Kategorien", "text": "Bestellstatus, Retourenlabel, Adressänderung, Passwort zurücksetzen, Rechnungskopie: Der Agent verifiziert den Kunden, führt die Aktion über Shop, CRM oder Auftragssystem aus und bestätigt. Der Umfang ist eine feste Liste. Alles außerhalb, und alles mit Erstattung oder Gutschrift, geht an einen Menschen." },
-          { "icon": "chat", "title": "E-Mail-, Chat- und Voice-Agenten", "text": "E-Mail und Chat kommen zuerst, weil sie eine Sekunde Denkzeit verzeihen. Voice-Agenten für Telefonleitungen sind im Kommen: Latenz, Dialekte, Identitätsprüfung und Unterbrechungen brauchen noch sorgfältiges Design. Wir planen sie bewusst, beginnend mit Randzeiten oder eng begrenzten Anliegen, immer mit einem Weg zum Menschen." },
-          { "icon": "book", "title": "Pflege der Wissensdatenbank", "text": "Der Agent findet Fragen ohne guten Artikel, entwirft neue Artikel aus gelösten Tickets und markiert Inhalte, die nach einer Produkt- oder Richtlinienänderung veraltet sind. Ihr Wissensmanager gibt jeden Artikel frei. Ein interner [Wissensassistent](page:services/knowledge-assistants) für das Team ist oft der erste Schritt." },
-          { "icon": "gauge", "title": "Qualitätsmonitoring und Ursachenanalyse", "text": "Der Agent analysiert Ticketdaten auf wiederkehrende Ursachen (ein verwirrendes Rechnungslayout, ein Versanddienstleister, ein Produktfehler) und informiert Produkt, Operations und Finanzen. Er prüft Stichproben von Gesprächen auf Qualität und antwortet im mehrsprachigen Support in der Sprache des Kunden, mit menschlicher Prüfung, wo Ihnen Muttersprachler fehlen." }
+          {
+            "icon": "layers",
+            "title": "Ticket-Triage und Verteilung",
+            "text": "Der Agent klassifiziert jede eingehende E-Mail, jeden Chat und jedes Formular nach Anliegen, Dringlichkeit, Sprache und Kundenstatus, erkennt Dubletten, leitet in die richtige Warteschlange und ergänzt eine zweizeilige Zusammenfassung. Teamleitungen passen die Regeln in Alltagssprache an; Fehlzuordnungen werden wöchentlich gemessen."
+          },
+          {
+            "icon": "doc",
+            "title": "Agent Assist mit Quellen",
+            "text": "Zu jedem Ticket entwirft der Agent eine Antwort aus Wissensdatenbank, Auftragsdaten und früheren Gesprächen, nennt seine Quellen und prüft Ton und Richtlinien. Der Mitarbeiter bearbeitet und sendet; jede Korrektur fließt zurück. Neue Kolleginnen und Kollegen sind schneller produktiv, weil der Kontext mit dem Ticket kommt."
+          },
+          {
+            "icon": "bolt",
+            "title": "Automatische Lösung definierter Kategorien",
+            "text": "Bestellstatus, Retourenlabel, Adressänderung, Passwort zurücksetzen, Rechnungskopie: Der Agent verifiziert den Kunden, führt die Aktion über Shop, CRM oder Auftragssystem aus und bestätigt. Der Umfang ist eine feste Liste. Alles außerhalb, und alles mit Erstattung oder Gutschrift, geht an einen Menschen."
+          },
+          {
+            "icon": "chat",
+            "title": "E-Mail-, Chat- und Voice-Agenten",
+            "text": "E-Mail und Chat kommen zuerst, weil sie eine Sekunde Denkzeit verzeihen. Voice-Agenten für Telefonleitungen sind im Kommen: Latenz, Dialekte, Identitätsprüfung und Unterbrechungen brauchen noch sorgfältiges Design. Wir planen sie bewusst, beginnend mit Randzeiten oder eng begrenzten Anliegen, immer mit einem Weg zum Menschen."
+          },
+          {
+            "icon": "book",
+            "title": "Pflege der Wissensdatenbank",
+            "text": "Der Agent findet Fragen ohne guten Artikel, entwirft neue Artikel aus gelösten Tickets und markiert Inhalte, die nach einer Produkt- oder Richtlinienänderung veraltet sind. Ihr Wissensmanager gibt jeden Artikel frei. Ein interner [Wissensassistent](page:services/knowledge-assistants) für das Team ist oft der erste Schritt."
+          },
+          {
+            "icon": "gauge",
+            "title": "Qualitätsmonitoring und Ursachenanalyse",
+            "text": "Der Agent analysiert Ticketdaten auf wiederkehrende Ursachen (ein verwirrendes Rechnungslayout, ein Versanddienstleister, ein Produktfehler) und informiert Produkt, Operations und Finanzen. Er prüft Stichproben von Gesprächen auf Qualität und antwortet im mehrsprachigen Support in der Sprache des Kunden, mit menschlicher Prüfung, wo Ihnen Muttersprachler fehlen."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Beispiel-Workflow",
         "content": [
-          { "h2": "Ein E-Mail-Support-Workflow mit Konfidenzschwellen" },
-          { "p": "Beispiel: Ein Onlinehändler oder ein SaaS-Unternehmen erhält täglich einige hundert Support-E-Mails, die Hälfte davon zu einer Handvoll Themen. So bearbeitet ein Agent das Postfach, mit Menschen dort, wo es zählt." },
-          { "ol": [
-            "**Eingang und Kontext.** Eine E-Mail trifft im Helpdesk ein. Der Agent identifiziert den Kunden über Adresse oder Bestellnummer und lädt Bestellungen, frühere Tickets und Vertrag oder Abonnement.",
-            "**Klassifizierung.** Er bestimmt Anliegen („Wo ist meine Bestellung“, „Abo kündigen“, „Beschwerde“), Dringlichkeit, Stimmung und Sprache, jeweils mit Konfidenzwert.",
-            "**Automatischer Pfad.** Liegt die Kategorie im Umfang und die Konfidenz über der für sie definierten Schwelle, antwortet der Agent aus Live-Daten wie dem Sendungsstatus des Versanddienstleisters, wendet Ihre Richtlinie an und sendet. Die Nachricht sagt, dass sie von einem KI-Assistenten stammt, und bietet mit einem Klick den Weg zu einem Menschen.",
-            "**Assistierter Pfad (Freigabe durch Mensch).** Liegt die Konfidenz unter der Schwelle oder braucht die Lösung eine Aktion mit finanzieller Wirkung wie eine Erstattung oder Kulanzgutschrift, bereitet der Agent Entwurf, vorgeschlagene Aktion und Quellen vor, und ein Mitarbeiter gibt frei oder bearbeitet.",
-            "**Eskalationspfad.** Beschwerden, rechtliche Drohungen, Betroffenenanfragen und emotional aufgeladene Nachrichten gehen sofort mit Zusammenfassung an einen Menschen. Der Kunde erhält eine Eingangsbestätigung, keinen automatischen Lösungsversuch.",
-            "**Zweite Runde.** Eine Kundenantwort durchläuft dieselbe Bewertung. Eine zweite ungelöste Runde löst unabhängig von der Konfidenz eine Eskalation aus, damit niemand in einer Schleife landet.",
-            "**Protokoll und Durchsicht.** Jedes automatische Gespräch wird mit Begründung und Quellen gespeichert. Teamleitungen prüfen wöchentlich eine Stichprobe und justieren die Schwellen je Kategorie.",
-            "**Kennzahlen.** Ein Dashboard zeigt Automatisierungsquote je Kategorie, Erstlösungsquote, Bearbeitungszeit, Eskalationsquote und Zufriedenheit, getrennt für KI- und menschlich bearbeitete Gespräche."
-          ] },
-          { "note": "Die Schwellen starten konservativ. Mehr Automatisierung ist eine Entscheidung, die Sie je Kategorie mit den Zahlen vor Augen treffen, nie ein Standard. Wir bauen und betreiben solche Workflows über unsere Leistungen [KI-Agenten-Entwicklung](page:services/ai-agent-development) und [Managed AI Operations](page:services/managed-ai-operations)." }
+          {
+            "h2": "Ein E-Mail-Support-Workflow mit Konfidenzschwellen"
+          },
+          {
+            "p": "Beispiel: Ein Onlinehändler oder ein SaaS-Unternehmen erhält täglich einige hundert Support-E-Mails, die Hälfte davon zu einer Handvoll Themen. So bearbeitet ein Agent das Postfach, mit Menschen dort, wo es zählt."
+          },
+          {
+            "ol": [
+              "**Eingang und Kontext.** Eine E-Mail trifft im Helpdesk ein. Der Agent identifiziert den Kunden über Adresse oder Bestellnummer und lädt Bestellungen, frühere Tickets und Vertrag oder Abonnement.",
+              "**Klassifizierung.** Er bestimmt Anliegen („Wo ist meine Bestellung“, „Abo kündigen“, „Beschwerde“), Dringlichkeit, Stimmung und Sprache, jeweils mit Konfidenzwert.",
+              "**Automatischer Pfad.** Liegt die Kategorie im Umfang und die Konfidenz über der für sie definierten Schwelle, antwortet der Agent aus Live-Daten wie dem Sendungsstatus des Versanddienstleisters, wendet Ihre Richtlinie an und sendet. Die Nachricht sagt, dass sie von einem KI-Assistenten stammt, und bietet mit einem Klick den Weg zu einem Menschen.",
+              "**Assistierter Pfad (Freigabe durch Mensch).** Liegt die Konfidenz unter der Schwelle oder braucht die Lösung eine Aktion mit finanzieller Wirkung wie eine Erstattung oder Kulanzgutschrift, bereitet der Agent Entwurf, vorgeschlagene Aktion und Quellen vor, und ein Mitarbeiter gibt frei oder bearbeitet.",
+              "**Eskalationspfad.** Beschwerden, rechtliche Drohungen, Betroffenenanfragen und emotional aufgeladene Nachrichten gehen sofort mit Zusammenfassung an einen Menschen. Der Kunde erhält eine Eingangsbestätigung, keinen automatischen Lösungsversuch.",
+              "**Zweite Runde.** Eine Kundenantwort durchläuft dieselbe Bewertung. Eine zweite ungelöste Runde löst unabhängig von der Konfidenz eine Eskalation aus, damit niemand in einer Schleife landet.",
+              "**Protokoll und Durchsicht.** Jedes automatische Gespräch wird mit Begründung und Quellen gespeichert. Teamleitungen prüfen wöchentlich eine Stichprobe und justieren die Schwellen je Kategorie.",
+              "**Kennzahlen.** Ein Dashboard zeigt Automatisierungsquote je Kategorie, Erstlösungsquote, Bearbeitungszeit, Eskalationsquote und Zufriedenheit, getrennt für KI- und menschlich bearbeitete Gespräche."
+            ]
+          },
+          {
+            "note": "Die Schwellen starten konservativ. Mehr Automatisierung ist eine Entscheidung, die Sie je Kategorie mit den Zahlen vor Augen treffen, nie ein Standard. Wir bauen und betreiben solche Workflows über unsere Leistungen [KI-Agenten-Entwicklung](page:services/ai-agent-development) und [Managed AI Operations](page:services/managed-ai-operations)."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Leitplanken und Risiken im Kundenservice",
         "items": [
-          { "title": "Transparenz gegenüber Kunden", "text": "Der EU AI Act enthält Transparenzpflichten für KI-Systeme, die mit Menschen interagieren, und Offenheit ist ohnehin guter Service. Jedes automatische Gespräch gibt sich als KI zu erkennen und bietet einen Weg zum Menschen. Den aktuellen Rechtsstand prüfen Sie mit Ihrer Rechtsabteilung; unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide) gibt einen Überblick." },
-          { "title": "Keine Versprechen, die der Agent nicht halten kann", "text": "Der Agent antwortet nur aus verifizierten Daten und freigegebenen Richtlinien. Er erfindet keine Liefertermine, gewährt keine Ausnahmen und legt keine Verträge aus. Weiß er etwas nicht, sagt er das und übergibt, statt eine selbstbewusste Vermutung zu liefern." },
-          { "title": "Geld braucht einen Menschen", "text": "Erstattungen, Gutschriften, Kulanz und Kündigungen mit finanziellen Folgen bereitet der Agent vor, ein Mensch gibt sie frei, oberhalb definierter Beträge ein zweiter. Die Regeln sind Ihre; wir machen sie ausführbar." },
-          { "title": "Datenschutz", "text": "Kunden werden verifiziert, bevor Auftrags- oder Kontodaten offengelegt werden, Prompts enthalten nur die nötigen Daten, die Verarbeitung bleibt wo nötig in der EU, und Gespräche werden ohne Rechtsgrundlage nicht zum Training von Modellen verwendet. Ihr Datenschutzbeauftragter prüft das Design vor dem Start." },
-          { "title": "Messung und Drift", "text": "Erstlösungsquote, Bearbeitungszeit, Eskalationsquote und Zufriedenheit werden laufend erfasst. Wöchentliche Stichproben fangen Qualitätsdrift ab, und jede Änderung an Prompts, Richtlinien oder Modellen wird vor dem Livegang gegen einen festen Satz früherer Tickets getestet." }
+          {
+            "title": "Transparenz gegenüber Kunden",
+            "text": "Der EU AI Act enthält Transparenzpflichten für KI-Systeme, die mit Menschen interagieren, und Offenheit ist ohnehin guter Service. Jedes automatische Gespräch gibt sich als KI zu erkennen und bietet einen Weg zum Menschen. Den aktuellen Rechtsstand prüfen Sie mit Ihrer Rechtsabteilung; unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide) gibt einen Überblick."
+          },
+          {
+            "title": "Keine Versprechen, die der Agent nicht halten kann",
+            "text": "Der Agent antwortet nur aus verifizierten Daten und freigegebenen Richtlinien. Er erfindet keine Liefertermine, gewährt keine Ausnahmen und legt keine Verträge aus. Weiß er etwas nicht, sagt er das und übergibt, statt eine selbstbewusste Vermutung zu liefern."
+          },
+          {
+            "title": "Geld braucht einen Menschen",
+            "text": "Erstattungen, Gutschriften, Kulanz und Kündigungen mit finanziellen Folgen bereitet der Agent vor, ein Mensch gibt sie frei, oberhalb definierter Beträge ein zweiter. Die Regeln sind Ihre; wir machen sie ausführbar."
+          },
+          {
+            "title": "Datenschutz",
+            "text": "Kunden werden verifiziert, bevor Auftrags- oder Kontodaten offengelegt werden, Prompts enthalten nur die nötigen Daten, die Verarbeitung bleibt wo nötig in der EU, und Gespräche werden ohne Rechtsgrundlage nicht zum Training von Modellen verwendet. Ihr Datenschutzbeauftragter prüft das Design vor dem Start."
+          },
+          {
+            "title": "Messung und Drift",
+            "text": "Erstlösungsquote, Bearbeitungszeit, Eskalationsquote und Zufriedenheit werden laufend erfasst. Wöchentliche Stichproben fangen Qualitätsdrift ab, und jede Änderung an Prompts, Richtlinien oder Modellen wird vor dem Livegang gegen einen festen Satz früherer Tickets getestet."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So starten wir",
         "items": [
-          { "title": "Service-Assessment", "text": "Wir analysieren Ihre Ticketdaten (Kategorien, Volumina, Lösungswege), Ihre Systeme und den Zustand der Wissensdatenbank, wählen die ersten Kategorien für Assist und Automatisierung und erheben die Ausgangskennzahlen.", "meta": "2–3 Wochen" },
-          { "title": "Design und Governance", "text": "Eskalationswege, Konfidenzschwellen, Hinweistexte, Tonalität und Erstattungsregeln entwerfen wir mit den Teamleitungen; Datenschutz und, wo relevant, Betriebsratsfragen werden vor dem Bau geklärt." },
-          { "title": "Pilot", "text": "Agent Assist für das ganze Team plus automatische Lösung für zwei bis drei Kategorien. Wöchentliche Stichproben, Justierung der Schwellen und Vergleich mit dem Ausgangswert.", "meta": "6–8 Wochen" },
-          { "title": "Skalieren und betreiben", "text": "Weitere Kategorien, weitere Kanäle (Chat, später Voice), mehr Sprachen und ein Betrieb, der Wissen, Prompts und Integrationen aktuell hält. Rollen wie KI-Supervisor und Wissensmanager werden unterwegs definiert." }
+          {
+            "title": "Service-Assessment",
+            "text": "Wir analysieren Ihre Ticketdaten (Kategorien, Volumina, Lösungswege), Ihre Systeme und den Zustand der Wissensdatenbank, wählen die ersten Kategorien für Assist und Automatisierung und erheben die Ausgangskennzahlen.",
+            "meta": "2–3 Wochen"
+          },
+          {
+            "title": "Design und Governance",
+            "text": "Eskalationswege, Konfidenzschwellen, Hinweistexte, Tonalität und Erstattungsregeln entwerfen wir mit den Teamleitungen; Datenschutz und, wo relevant, Betriebsratsfragen werden vor dem Bau geklärt."
+          },
+          {
+            "title": "Pilot",
+            "text": "Agent Assist für das ganze Team plus automatische Lösung für zwei bis drei Kategorien. Wöchentliche Stichproben, Justierung der Schwellen und Vergleich mit dem Ausgangswert.",
+            "meta": "6–8 Wochen"
+          },
+          {
+            "title": "Skalieren und betreiben",
+            "text": "Weitere Kategorien, weitere Kanäle (Chat, später Voice), mehr Sprachen und ein Betrieb, der Wissen, Prompts und Integrationen aktuell hält. Rollen wie KI-Supervisor und Wissensmanager werden unterwegs definiert."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Müssen wir Kunden sagen, dass sie mit einer KI sprechen?", "a": "Grundsätzlich ja. Der EU AI Act setzt Transparenzpflichten für KI-Systeme, die mit Menschen interagieren; die Pflichten greifen stufenweise, prüfen Sie den aktuellen Stand also mit Ihrer Rechtsabteilung. Offenheit ist außerdem gute Praxis: Kunden, die wissen, dass sie mit einem Assistenten sprechen, verzeihen dessen Grenzen eher und nutzen den Weg zum Menschen, wenn sie ihn brauchen." },
-          { "q": "Was passiert, wenn der Agent unsicher ist oder der Kunde verärgert?", "a": "Er übergibt. Geringe Konfidenz, negative Stimmung, Beschwerdesprache, rechtliche Schlüsselwörter und wiederholt ungelöste Runden lösen die Eskalation an einen Menschen aus, mit Zusammenfassung, damit der Kunde nicht von vorn beginnen muss. Der Agent schickt einen Kunden nie zweimal durch dieselbe Antwort." },
-          { "q": "Kann der Agent Erstattungen oder Gutschriften auslösen?", "a": "Er kann sie vorbereiten, nicht ausführen. Erstattungen, Gutschriften und Kulanz werden mit Begründung und Kundenhistorie vorgeschlagen, ein Mitarbeiter gibt frei, oberhalb definierter Beträge ein zweiter. Ob Sie irgendwann kleine Gutschriften autonom erlauben, entscheiden Sie später, mit Daten." },
-          { "q": "Wie werden die Daten unserer Kunden geschützt?", "a": "Die Identität wird geprüft, bevor Kontodaten offengelegt werden, Prompts enthalten nur die Daten, die ein Fall braucht, die Verarbeitung bleibt wo nötig in der EU, und die Aufbewahrung folgt Ihrer Richtlinie. Auftragsverarbeitungsverträge mit Modell- und Plattformanbietern gehören zum Design, das Ihr Datenschutzbeauftragter vor dem Start prüft. Die rechtliche Bewertung bleibt bei Ihren Juristen." },
-          { "q": "Was passiert mit unserem Serviceteam?", "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Repetitive Tickets verlassen die Warteschlange; komplexe Fälle, Eskalationen, Qualitätsprüfung und Wissensmanagement bleiben und wachsen. Manche Teams besetzen Fluktuation nicht nach, andere setzen Menschen im Onboarding oder in der Vertriebsunterstützung ein. Wir planen den Wandel mit den Teamleitungen und, wo vorhanden, dem Betriebsrat." },
-          { "q": "Mit welchen Helpdesk-Systemen arbeiten Sie?", "a": "Zendesk, Freshdesk, ServiceNow, Salesforce Service Cloud, HubSpot Service Hub und Eigenentwicklungen, angebunden über deren APIs. Wir sind herstellerneutral und prüfen zuerst die KI-Funktionen Ihrer Plattform; manchmal decken sie Triage und Assist ab, und die eigene Arbeit fließt in Lösung und Integration." }
+          {
+            "q": "Müssen wir Kunden sagen, dass sie mit einer KI sprechen?",
+            "a": "Grundsätzlich ja. Der EU AI Act setzt Transparenzpflichten für KI-Systeme, die mit Menschen interagieren; die Pflichten greifen stufenweise, prüfen Sie den aktuellen Stand also mit Ihrer Rechtsabteilung. Offenheit ist außerdem gute Praxis: Kunden, die wissen, dass sie mit einem Assistenten sprechen, verzeihen dessen Grenzen eher und nutzen den Weg zum Menschen, wenn sie ihn brauchen."
+          },
+          {
+            "q": "Was passiert, wenn der Agent unsicher ist oder der Kunde verärgert?",
+            "a": "Er übergibt. Geringe Konfidenz, negative Stimmung, Beschwerdesprache, rechtliche Schlüsselwörter und wiederholt ungelöste Runden lösen die Eskalation an einen Menschen aus, mit Zusammenfassung, damit der Kunde nicht von vorn beginnen muss. Der Agent schickt einen Kunden nie zweimal durch dieselbe Antwort."
+          },
+          {
+            "q": "Kann der Agent Erstattungen oder Gutschriften auslösen?",
+            "a": "Er kann sie vorbereiten, nicht ausführen. Erstattungen, Gutschriften und Kulanz werden mit Begründung und Kundenhistorie vorgeschlagen, ein Mitarbeiter gibt frei, oberhalb definierter Beträge ein zweiter. Ob Sie irgendwann kleine Gutschriften autonom erlauben, entscheiden Sie später, mit Daten."
+          },
+          {
+            "q": "Wie werden die Daten unserer Kunden geschützt?",
+            "a": "Die Identität wird geprüft, bevor Kontodaten offengelegt werden, Prompts enthalten nur die Daten, die ein Fall braucht, die Verarbeitung bleibt wo nötig in der EU, und die Aufbewahrung folgt Ihrer Richtlinie. Auftragsverarbeitungsverträge mit Modell- und Plattformanbietern gehören zum Design, das Ihr Datenschutzbeauftragter vor dem Start prüft. Die rechtliche Bewertung bleibt bei Ihren Juristen."
+          },
+          {
+            "q": "Was passiert mit unserem Serviceteam?",
+            "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Repetitive Tickets verlassen die Warteschlange; komplexe Fälle, Eskalationen, Qualitätsprüfung und Wissensmanagement bleiben und wachsen. Manche Teams besetzen Fluktuation nicht nach, andere setzen Menschen im Onboarding oder in der Vertriebsunterstützung ein. Wir planen den Wandel mit den Teamleitungen und, wo vorhanden, dem Betriebsrat."
+          },
+          {
+            "q": "Mit welchen Helpdesk-Systemen arbeiten Sie?",
+            "a": "Zendesk, Freshdesk, ServiceNow, Salesforce Service Cloud, HubSpot Service Hub und Eigenentwicklungen, angebunden über deren APIs. Wir sind herstellerneutral und prüfen zuerst die KI-Funktionen Ihrer Plattform; manchmal decken sie Triage und Assist ab, und die eigene Arbeit fließt in Lösung und Integration."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["services/knowledge-assistants", "services/managed-ai-operations", "solutions/sales", "industries/ecommerce-retail"]
+        "pages": [
+          "services/knowledge-assistants",
+          "services/managed-ai-operations",
+          "solutions/sales",
+          "industries/ecommerce-retail"
+        ]
       }
     ]
   }

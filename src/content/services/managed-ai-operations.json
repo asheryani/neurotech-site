@@ -10,8 +10,14 @@
       "title": "Agents that still work",
       "titleAccent": "six months after launch.",
       "standfirst": "An agent that performed well in March can quietly degrade by June: the provider updated the model, someone edited a prompt, a data source changed shape. Managed AI operations is the discipline of noticing before your customers do. We monitor, evaluate, upgrade, control costs and handle incidents for your agents and LLM applications, and we review the results with you every month.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,45 +30,116 @@
           "AgentOps, as we practise it, borrows from what site reliability engineering did for web systems: observe everything, test every change, define what good looks like, respond to incidents with a plan and review regularly. The difference is that the thing observed is language rather than latency, which makes evaluation the centre of the work."
         ],
         "facts": [
-          ["Format", "Monthly retainer, scoped per system"],
-          ["Service levels", "Defined per contract"],
-          ["For", "Companies with agents or LLM applications in production"],
-          ["Outcome", "Stable quality, controlled costs, audit-ready documentation"]
+          [
+            "Format",
+            "Monthly retainer, scoped per system"
+          ],
+          [
+            "Service levels",
+            "Defined per contract"
+          ],
+          [
+            "For",
+            "Companies with agents or LLM applications in production"
+          ],
+          [
+            "Outcome",
+            "Stable quality, controlled costs, audit-ready documentation"
+          ]
         ],
-        "link": { "label": "Need something built first? See agent development", "page": "services/ai-agent-development" }
+        "link": {
+          "label": "Need something built first? See agent development",
+          "page": "services/ai-agent-development"
+        }
       },
       {
         "type": "cards",
         "heading": "What is included",
         "intro": "Scoped per system at the start, then run as a monthly service. The parts you already cover internally are simply left out.",
         "items": [
-          { "icon": "eye", "title": "Monitoring and tracing", "text": "Every request, tool call, retrieval and model response traced end to end, with dashboards for quality signals, latency, error rates and cost. We work with tools such as Langfuse, LangSmith and OpenTelemetry-based stacks, and with what you already run." },
-          { "icon": "target", "title": "Evaluation suites and regression tests", "text": "A curated set of real cases with expected outcomes for each agent, run automatically whenever a prompt, model, tool or data source changes. Nothing reaches production without passing the same tests it passed at launch." },
-          { "icon": "refresh", "title": "Model and version upgrades", "text": "When a provider deprecates a model or releases a better one, we test the candidate against your evaluation suite, compare cost and quality, migrate in a controlled window and keep a rollback path open." },
-          { "icon": "chart", "title": "Cost and token budget control", "text": "Budgets per agent and per team, alerts before they are exceeded, and regular optimisation: caching, routing simpler requests to cheaper models, trimming context. Cost reports are part of the monthly review." },
-          { "icon": "bolt", "title": "Incident handling and fallbacks", "text": "Defined severities, response within the times set in your contract, fallback paths that keep the process running when a model or tool is down, and a written post-incident review for anything that affected users." },
-          { "icon": "shield", "title": "Abuse monitoring and audit documentation", "text": "Detection of prompt-injection attempts, misuse and unusual patterns, plus the logs, change records and evaluation results that a GDPR or EU AI Act review will ask for. See [AI governance](page:services/ai-governance)." }
+          {
+            "icon": "eye",
+            "title": "Monitoring and tracing",
+            "text": "Every request, tool call, retrieval and model response traced end to end, with dashboards for quality signals, latency, error rates and cost. We work with tools such as Langfuse, LangSmith and OpenTelemetry-based stacks, and with what you already run."
+          },
+          {
+            "icon": "target",
+            "title": "Evaluation suites and regression tests",
+            "text": "A curated set of real cases with expected outcomes for each agent, run automatically whenever a prompt, model, tool or data source changes. Nothing reaches production without passing the same tests it passed at launch."
+          },
+          {
+            "icon": "refresh",
+            "title": "Model and version upgrades",
+            "text": "When a provider deprecates a model or releases a better one, we test the candidate against your evaluation suite, compare cost and quality, migrate in a controlled window and keep a rollback path open."
+          },
+          {
+            "icon": "chart",
+            "title": "Cost and token budget control",
+            "text": "Budgets per agent and per team, alerts before they are exceeded, and regular optimisation: caching, routing simpler requests to cheaper models, trimming context. Cost reports are part of the monthly review."
+          },
+          {
+            "icon": "bolt",
+            "title": "Incident handling and fallbacks",
+            "text": "Defined severities, response within the times set in your contract, fallback paths that keep the process running when a model or tool is down, and a written post-incident review for anything that affected users."
+          },
+          {
+            "icon": "shield",
+            "title": "Abuse monitoring and audit documentation",
+            "text": "Detection of prompt-injection attempts, misuse and unusual patterns, plus the logs, change records and evaluation results that a GDPR or EU AI Act review will ask for. See [AI governance](page:services/ai-governance)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How it works",
         "items": [
-          { "title": "Onboarding and baseline", "text": "We inventory the systems in scope, connect tracing, build or extend the evaluation suite from real traffic and record a quality and cost baseline. Existing agents get a health check; issues found are fixed or documented.", "meta": "Weeks 1–3" },
-          { "title": "Runbooks and service levels", "text": "Together we define severities, response times, escalation paths, fallback behaviour and who may approve a model change. Service levels are agreed per contract and written down.", "meta": "Weeks 2–4" },
-          { "title": "Steady-state operation", "text": "Continuous monitoring, weekly quality and drift review, automated regression tests on every change, cost tracking and incident response. Changes to prompts and models go through the same controlled process every time.", "meta": "Ongoing" },
-          { "title": "Monthly review with the business owner", "text": "One hour with the person who owns the process: quality trends, incidents, costs, upcoming model changes, improvement backlog. Decisions are recorded, and the report doubles as audit documentation.", "meta": "Monthly" },
-          { "title": "Quarterly deep review", "text": "A wider look at each agent: is it still solving the right problem, has the process around it changed, should its scope grow or shrink, what would a newer model make possible. Recommendations go to the roadmap.", "meta": "Quarterly" }
+          {
+            "title": "Onboarding and baseline",
+            "text": "We inventory the systems in scope, connect tracing, build or extend the evaluation suite from real traffic and record a quality and cost baseline. Existing agents get a health check; issues found are fixed or documented.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Runbooks and service levels",
+            "text": "Together we define severities, response times, escalation paths, fallback behaviour and who may approve a model change. Service levels are agreed per contract and written down.",
+            "meta": "Weeks 2–4"
+          },
+          {
+            "title": "Steady-state operation",
+            "text": "Continuous monitoring, weekly quality and drift review, automated regression tests on every change, cost tracking and incident response. Changes to prompts and models go through the same controlled process every time.",
+            "meta": "Ongoing"
+          },
+          {
+            "title": "Monthly review with the business owner",
+            "text": "One hour with the person who owns the process: quality trends, incidents, costs, upcoming model changes, improvement backlog. Decisions are recorded, and the report doubles as audit documentation.",
+            "meta": "Monthly"
+          },
+          {
+            "title": "Quarterly deep review",
+            "text": "A wider look at each agent: is it still solving the right problem, has the process around it changed, should its scope grow or shrink, what would a newer model make possible. Recommendations go to the roadmap.",
+            "meta": "Quarterly"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Who this is for",
         "items": [
-          { "title": "Companies whose agents we built", "text": "Most clients of our [agent development](page:services/ai-agent-development) and [workflow automation](page:services/agentic-workflows) services move straight into managed operations. The evaluation suite already exists; we keep it running." },
-          { "title": "Companies with agents built by others", "text": "In-house or by a previous partner, and now the person who built it has moved on. We start with a health check, add tracing and evaluation, and take over operation without a rewrite." },
-          { "title": "Regulated businesses that need evidence", "text": "If auditors, regulators or enterprise customers ask how your AI behaves and how you know, the logs, tests and change records from operations are the answer. See [financial services](page:industries/financial-services)." },
-          { "title": "Software companies with AI features in the product", "text": "Product teams that want quality and cost under control without building an internal platform team first. See [software & SaaS](page:industries/software-saas)." }
+          {
+            "title": "Companies whose agents we built",
+            "text": "Most clients of our [agent development](page:services/ai-agent-development) and [workflow automation](page:services/agentic-workflows) services move straight into managed operations. The evaluation suite already exists; we keep it running."
+          },
+          {
+            "title": "Companies with agents built by others",
+            "text": "In-house or by a previous partner, and now the person who built it has moved on. We start with a health check, add tracing and evaluation, and take over operation without a rewrite."
+          },
+          {
+            "title": "Regulated businesses that need evidence",
+            "text": "If auditors, regulators or enterprise customers ask how your AI behaves and how you know, the logs, tests and change records from operations are the answer. See [financial services](page:industries/financial-services)."
+          },
+          {
+            "title": "Software companies with AI features in the product",
+            "text": "Product teams that want quality and cost under control without building an internal platform team first. See [software & SaaS](page:industries/software-saas)."
+          }
         ]
       },
       {
@@ -70,33 +147,82 @@
         "heading": "How we run operations",
         "variant": "check",
         "items": [
-          { "title": "Evaluate before you change", "text": "No model swap, prompt edit or new tool goes live without passing the regression suite. Boring by design." },
-          { "title": "Humans see what matters", "text": "Alerts are tuned to the signals that predict user impact, not to everything that can be measured. The monthly review is with a business owner, not only with IT." },
-          { "title": "Vendor-neutral operations", "text": "We run agents on OpenAI, Anthropic, Google, Mistral, Azure, AWS Bedrock, Vertex AI or EU-hosted open-weight models. If a provider change makes sense, we recommend it, migrate and stay neutral about the destination." },
-          { "title": "Documentation is a by-product, not a project", "text": "Traces, test results and change records are generated by the process itself. When a review comes, nothing has to be reconstructed after the fact." }
+          {
+            "title": "Evaluate before you change",
+            "text": "No model swap, prompt edit or new tool goes live without passing the regression suite. Boring by design."
+          },
+          {
+            "title": "Humans see what matters",
+            "text": "Alerts are tuned to the signals that predict user impact, not to everything that can be measured. The monthly review is with a business owner, not only with IT."
+          },
+          {
+            "title": "Vendor-neutral operations",
+            "text": "We run agents on OpenAI, Anthropic, Google, Mistral, Azure, AWS Bedrock, Vertex AI or EU-hosted open-weight models. If a provider change makes sense, we recommend it, migrate and stay neutral about the destination."
+          },
+          {
+            "title": "Documentation is a by-product, not a project",
+            "text": "Traces, test results and change records are generated by the process itself. When a review comes, nothing has to be reconstructed after the fact."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Tools and platforms we operate with",
-        "items": ["Langfuse", "LangSmith", "OpenTelemetry", "Grafana", "LangGraph", "n8n", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI"],
+        "items": [
+          "Langfuse",
+          "LangSmith",
+          "OpenTelemetry",
+          "Grafana",
+          "LangGraph",
+          "n8n",
+          "OpenAI",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Azure OpenAI",
+          "AWS Bedrock",
+          "Google Vertex AI"
+        ],
         "note": "We name these because we work with them. We hold no partnerships or reseller agreements and choose tools per system."
       },
       {
         "type": "faq",
         "items": [
-          { "q": "What response times do you offer?", "a": "They are defined per contract and per severity, because a customer-facing agent and an internal summarisation tool need different levels. Typically the highest severity carries a short response window with an on-call path, and lower severities are handled within business hours. The levels are written down during onboarding and reported against every month." },
-          { "q": "Do you need access to our production systems?", "a": "Yes, but scoped: tracing endpoints, model provider dashboards, the deployment pipeline and, where agreed, the relevant logs. Access follows least privilege, is documented and can be revoked at any time. A data processing agreement (Auftragsverarbeitungsvertrag) under the GDPR is standard, and where you host in the EU, nothing leaves your environment." },
-          { "q": "Can you operate agents we built ourselves or with another partner?", "a": "Yes. We start with a health check of the system, its prompts, tools and data sources, then add tracing and an evaluation suite if they are missing. Framework and platform matter little. We sometimes recommend changes, but taking over operation does not require a rebuild." },
-          { "q": "What does the monthly review cover?", "a": "Quality trends against the baseline, incidents and what was learned, cost per agent and per team against budget, upcoming model deprecations with their migration plan, and a prioritised list of improvements. About an hour with the business owner; the written version serves as audit documentation." },
-          { "q": "How do you handle a model being deprecated?", "a": "We track provider announcements, so a deprecation rarely comes as a surprise. The candidate model is run against your evaluation suite, cost and quality are compared, and if the results hold, we migrate in an agreed window with a rollback path, usually well before the provider's deadline." },
-          { "q": "Is this the same as MLOps?", "a": "They overlap but are not the same. MLOps is about training, deploying and monitoring your own models. AgentOps is about LLM-based systems that call external models and tools, where evaluation, prompt versioning, tool reliability and cost control matter more than training pipelines. If you train your own models, [data foundations](page:services/data-foundations) is the place to start." }
+          {
+            "q": "What response times do you offer?",
+            "a": "They are defined per contract and per severity, because a customer-facing agent and an internal summarisation tool need different levels. Typically the highest severity carries a short response window with an on-call path, and lower severities are handled within business hours. The levels are written down during onboarding and reported against every month."
+          },
+          {
+            "q": "Do you need access to our production systems?",
+            "a": "Yes, but scoped: tracing endpoints, model provider dashboards, the deployment pipeline and, where agreed, the relevant logs. Access follows least privilege, is documented and can be revoked at any time. A data processing agreement (Auftragsverarbeitungsvertrag) under the GDPR is standard, and where you host in the EU, nothing leaves your environment."
+          },
+          {
+            "q": "Can you operate agents we built ourselves or with another partner?",
+            "a": "Yes. We start with a health check of the system, its prompts, tools and data sources, then add tracing and an evaluation suite if they are missing. Framework and platform matter little. We sometimes recommend changes, but taking over operation does not require a rebuild."
+          },
+          {
+            "q": "What does the monthly review cover?",
+            "a": "Quality trends against the baseline, incidents and what was learned, cost per agent and per team against budget, upcoming model deprecations with their migration plan, and a prioritised list of improvements. About an hour with the business owner; the written version serves as audit documentation."
+          },
+          {
+            "q": "How do you handle a model being deprecated?",
+            "a": "We track provider announcements, so a deprecation rarely comes as a surprise. The candidate model is run against your evaluation suite, cost and quality are compared, and if the results hold, we migrate in an agreed window with a rollback path, usually well before the provider's deadline."
+          },
+          {
+            "q": "Is this the same as MLOps?",
+            "a": "They overlap but are not the same. MLOps is about training, deploying and monitoring your own models. AgentOps is about LLM-based systems that call external models and tools, where evaluation, prompt versioning, tool reliability and cost control matter more than training pipelines. If you train your own models, [data foundations](page:services/data-foundations) is the place to start."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/ai-agent-development", "services/agentic-workflows", "services/ai-governance", "insights/guardrails-for-agents"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "insights/guardrails-for-agents"
+        ]
       }
     ]
   },
@@ -110,8 +236,14 @@
       "title": "Agenten, die auch sechs Monate",
       "titleAccent": "nach dem Start noch funktionieren.",
       "standfirst": "Ein Agent, der im März gut lief, kann bis Juni leise nachlassen: Der Anbieter hat das Modell aktualisiert, jemand hat einen Prompt geändert, eine Datenquelle sieht plötzlich anders aus. Managed AI Operations heißt, das zu bemerken, bevor Ihre Kunden es tun. Wir überwachen, evaluieren, aktualisieren, kontrollieren Kosten und behandeln Störungen für Ihre Agenten und LLM-Anwendungen – und besprechen die Ergebnisse jeden Monat mit Ihnen.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -124,45 +256,116 @@
           "AgentOps, wie wir es betreiben, übernimmt, was Site Reliability Engineering für Web-Systeme geleistet hat: alles beobachten, jede Änderung testen, definieren, was „gut“ heißt, auf Störungen mit einem Plan reagieren und regelmäßig überprüfen. Der Unterschied: Beobachtet wird Sprache, nicht Latenz – und das macht die Evaluation zum Kern der Arbeit."
         ],
         "facts": [
-          ["Format", "Monatlicher Retainer, je System zugeschnitten"],
-          ["Service-Level", "Vertraglich festgelegt"],
-          ["Für", "Unternehmen mit Agenten oder LLM-Anwendungen im Produktivbetrieb"],
-          ["Ergebnis", "Stabile Qualität, kontrollierte Kosten, prüfungsfähige Dokumentation"]
+          [
+            "Format",
+            "Monatlicher Retainer, je System zugeschnitten"
+          ],
+          [
+            "Service-Level",
+            "Vertraglich festgelegt"
+          ],
+          [
+            "Für",
+            "Unternehmen mit Agenten oder LLM-Anwendungen im Produktivbetrieb"
+          ],
+          [
+            "Ergebnis",
+            "Stabile Qualität, kontrollierte Kosten, prüfungsfähige Dokumentation"
+          ]
         ],
-        "link": { "label": "Erst etwas bauen lassen? Zur KI-Agenten-Entwicklung", "page": "services/ai-agent-development" }
+        "link": {
+          "label": "Erst etwas bauen lassen? Zur KI-Agenten-Entwicklung",
+          "page": "services/ai-agent-development"
+        }
       },
       {
         "type": "cards",
         "heading": "Was enthalten ist",
         "intro": "Zu Beginn je System abgegrenzt, danach als monatlicher Service betrieben. Was Sie intern bereits abdecken, lassen wir schlicht weg.",
         "items": [
-          { "icon": "eye", "title": "Monitoring und Tracing", "text": "Jede Anfrage, jeder Werkzeugaufruf, jede Recherche und jede Modellantwort wird durchgängig nachverfolgt, mit Dashboards für Qualitätssignale, Latenz, Fehlerraten und Kosten. Wir arbeiten mit Werkzeugen wie Langfuse, LangSmith und OpenTelemetry-basierten Stacks – und mit dem, was Sie bereits betreiben." },
-          { "icon": "target", "title": "Evaluationssuiten und Regressionstests", "text": "Ein kuratierter Satz echter Fälle mit erwarteten Ergebnissen je Agent, der automatisch läuft, sobald sich Prompt, Modell, Werkzeug oder Datenquelle ändern. Nichts geht in Produktion, ohne dieselben Tests zu bestehen wie beim Start." },
-          { "icon": "refresh", "title": "Modell- und Versions-Upgrades", "text": "Stellt ein Anbieter ein Modell ein oder veröffentlicht ein besseres, testen wir den Kandidaten gegen Ihre Evaluationssuite, vergleichen Kosten und Qualität, migrieren in einem kontrollierten Zeitfenster und halten einen Rückweg offen." },
-          { "icon": "chart", "title": "Kosten- und Token-Budgetkontrolle", "text": "Budgets je Agent und je Team, Warnungen, bevor sie überschritten werden, und regelmäßige Optimierung: Caching, einfachere Anfragen an günstigere Modelle leiten, Kontext kürzen. Kostenberichte sind Teil des monatlichen Reviews." },
-          { "icon": "bolt", "title": "Incident-Handling und Fallbacks", "text": "Definierte Schweregrade, Reaktion innerhalb der vertraglich vereinbarten Zeiten, Ausweichpfade, die den Prozess am Laufen halten, wenn ein Modell oder Werkzeug ausfällt, und eine schriftliche Nachbetrachtung für alles, was Nutzer betroffen hat." },
-          { "icon": "shield", "title": "Missbrauchserkennung und Audit-Dokumentation", "text": "Erkennung von Prompt-Injection-Versuchen, Missbrauch und ungewöhnlichen Mustern, plus die Protokolle, Änderungsnachweise und Evaluationsergebnisse, die eine Prüfung nach DSGVO oder EU AI Act verlangen wird. Siehe [KI-Governance](page:services/ai-governance)." }
+          {
+            "icon": "eye",
+            "title": "Monitoring und Tracing",
+            "text": "Jede Anfrage, jeder Werkzeugaufruf, jede Recherche und jede Modellantwort wird durchgängig nachverfolgt, mit Dashboards für Qualitätssignale, Latenz, Fehlerraten und Kosten. Wir arbeiten mit Werkzeugen wie Langfuse, LangSmith und OpenTelemetry-basierten Stacks – und mit dem, was Sie bereits betreiben."
+          },
+          {
+            "icon": "target",
+            "title": "Evaluationssuiten und Regressionstests",
+            "text": "Ein kuratierter Satz echter Fälle mit erwarteten Ergebnissen je Agent, der automatisch läuft, sobald sich Prompt, Modell, Werkzeug oder Datenquelle ändern. Nichts geht in Produktion, ohne dieselben Tests zu bestehen wie beim Start."
+          },
+          {
+            "icon": "refresh",
+            "title": "Modell- und Versions-Upgrades",
+            "text": "Stellt ein Anbieter ein Modell ein oder veröffentlicht ein besseres, testen wir den Kandidaten gegen Ihre Evaluationssuite, vergleichen Kosten und Qualität, migrieren in einem kontrollierten Zeitfenster und halten einen Rückweg offen."
+          },
+          {
+            "icon": "chart",
+            "title": "Kosten- und Token-Budgetkontrolle",
+            "text": "Budgets je Agent und je Team, Warnungen, bevor sie überschritten werden, und regelmäßige Optimierung: Caching, einfachere Anfragen an günstigere Modelle leiten, Kontext kürzen. Kostenberichte sind Teil des monatlichen Reviews."
+          },
+          {
+            "icon": "bolt",
+            "title": "Incident-Handling und Fallbacks",
+            "text": "Definierte Schweregrade, Reaktion innerhalb der vertraglich vereinbarten Zeiten, Ausweichpfade, die den Prozess am Laufen halten, wenn ein Modell oder Werkzeug ausfällt, und eine schriftliche Nachbetrachtung für alles, was Nutzer betroffen hat."
+          },
+          {
+            "icon": "shield",
+            "title": "Missbrauchserkennung und Audit-Dokumentation",
+            "text": "Erkennung von Prompt-Injection-Versuchen, Missbrauch und ungewöhnlichen Mustern, plus die Protokolle, Änderungsnachweise und Evaluationsergebnisse, die eine Prüfung nach DSGVO oder EU AI Act verlangen wird. Siehe [KI-Governance](page:services/ai-governance)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So läuft es ab",
         "items": [
-          { "title": "Onboarding und Ausgangsbasis", "text": "Wir erfassen die Systeme im Scope, schließen das Tracing an, bauen die Evaluationssuite aus echtem Verkehr auf oder erweitern sie und halten eine Qualitäts- und Kostenbasis fest. Bestehende Agenten bekommen einen Gesundheitscheck; gefundene Probleme werden behoben oder dokumentiert.", "meta": "Wochen 1–3" },
-          { "title": "Runbooks und Service-Level", "text": "Gemeinsam definieren wir Schweregrade, Reaktionszeiten, Eskalationswege, Ausweichverhalten und wer eine Modelländerung freigeben darf. Service-Level werden vertraglich vereinbart und schriftlich festgehalten.", "meta": "Wochen 2–4" },
-          { "title": "Regelbetrieb", "text": "Laufendes Monitoring, wöchentliche Qualitäts- und Drift-Prüfung, automatische Regressionstests bei jeder Änderung, Kostenverfolgung und Störungsbehandlung. Änderungen an Prompts und Modellen durchlaufen jedes Mal denselben kontrollierten Prozess.", "meta": "Laufend" },
-          { "title": "Monatliches Review mit der Fachverantwortung", "text": "Eine Stunde mit der Person, die den Prozess verantwortet: Qualitätsverlauf, Störungen, Kosten, anstehende Modelländerungen, Verbesserungsliste. Entscheidungen werden festgehalten, und der Bericht dient zugleich als Audit-Dokumentation.", "meta": "Monatlich" },
-          { "title": "Vierteljährliche Tiefenprüfung", "text": "Ein weiterer Blick auf jeden Agenten: Löst er noch das richtige Problem, hat sich der Prozess um ihn herum verändert, sollte sein Umfang wachsen oder schrumpfen, was würde ein neueres Modell ermöglichen. Empfehlungen fließen in die Roadmap.", "meta": "Vierteljährlich" }
+          {
+            "title": "Onboarding und Ausgangsbasis",
+            "text": "Wir erfassen die Systeme im Scope, schließen das Tracing an, bauen die Evaluationssuite aus echtem Verkehr auf oder erweitern sie und halten eine Qualitäts- und Kostenbasis fest. Bestehende Agenten bekommen einen Gesundheitscheck; gefundene Probleme werden behoben oder dokumentiert.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Runbooks und Service-Level",
+            "text": "Gemeinsam definieren wir Schweregrade, Reaktionszeiten, Eskalationswege, Ausweichverhalten und wer eine Modelländerung freigeben darf. Service-Level werden vertraglich vereinbart und schriftlich festgehalten.",
+            "meta": "Wochen 2–4"
+          },
+          {
+            "title": "Regelbetrieb",
+            "text": "Laufendes Monitoring, wöchentliche Qualitäts- und Drift-Prüfung, automatische Regressionstests bei jeder Änderung, Kostenverfolgung und Störungsbehandlung. Änderungen an Prompts und Modellen durchlaufen jedes Mal denselben kontrollierten Prozess.",
+            "meta": "Laufend"
+          },
+          {
+            "title": "Monatliches Review mit der Fachverantwortung",
+            "text": "Eine Stunde mit der Person, die den Prozess verantwortet: Qualitätsverlauf, Störungen, Kosten, anstehende Modelländerungen, Verbesserungsliste. Entscheidungen werden festgehalten, und der Bericht dient zugleich als Audit-Dokumentation.",
+            "meta": "Monatlich"
+          },
+          {
+            "title": "Vierteljährliche Tiefenprüfung",
+            "text": "Ein weiterer Blick auf jeden Agenten: Löst er noch das richtige Problem, hat sich der Prozess um ihn herum verändert, sollte sein Umfang wachsen oder schrumpfen, was würde ein neueres Modell ermöglichen. Empfehlungen fließen in die Roadmap.",
+            "meta": "Vierteljährlich"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Für wen das gedacht ist",
         "items": [
-          { "title": "Unternehmen, deren Agenten wir gebaut haben", "text": "Die meisten Kunden unserer Leistungen [KI-Agenten-Entwicklung](page:services/ai-agent-development) und [Workflow-Automatisierung](page:services/agentic-workflows) gehen direkt in den Managed-Betrieb über. Die Evaluationssuite existiert bereits; wir halten sie am Laufen." },
-          { "title": "Unternehmen mit Agenten von anderen", "text": "Intern gebaut oder von einem früheren Partner – und die Person, die es gebaut hat, ist inzwischen weg. Wir beginnen mit einem Gesundheitscheck, ergänzen Tracing und Evaluation und übernehmen den Betrieb ohne Neubau." },
-          { "title": "Regulierte Unternehmen, die Belege brauchen", "text": "Wenn Prüfer, Aufsicht oder Unternehmenskunden fragen, wie sich Ihre KI verhält und woher Sie das wissen, sind Protokolle, Tests und Änderungsnachweise aus dem Betrieb die Antwort. Mehr unter [Finanzdienstleister](page:industries/financial-services)." },
-          { "title": "Softwareunternehmen mit KI-Funktionen im Produkt", "text": "Produktteams, die Qualität und Kosten im Griff haben wollen, ohne zuerst ein internes Plattformteam aufzubauen. Mehr unter [Software & SaaS](page:industries/software-saas)." }
+          {
+            "title": "Unternehmen, deren Agenten wir gebaut haben",
+            "text": "Die meisten Kunden unserer Leistungen [KI-Agenten-Entwicklung](page:services/ai-agent-development) und [Workflow-Automatisierung](page:services/agentic-workflows) gehen direkt in den Managed-Betrieb über. Die Evaluationssuite existiert bereits; wir halten sie am Laufen."
+          },
+          {
+            "title": "Unternehmen mit Agenten von anderen",
+            "text": "Intern gebaut oder von einem früheren Partner – und die Person, die es gebaut hat, ist inzwischen weg. Wir beginnen mit einem Gesundheitscheck, ergänzen Tracing und Evaluation und übernehmen den Betrieb ohne Neubau."
+          },
+          {
+            "title": "Regulierte Unternehmen, die Belege brauchen",
+            "text": "Wenn Prüfer, Aufsicht oder Unternehmenskunden fragen, wie sich Ihre KI verhält und woher Sie das wissen, sind Protokolle, Tests und Änderungsnachweise aus dem Betrieb die Antwort. Mehr unter [Finanzdienstleister](page:industries/financial-services)."
+          },
+          {
+            "title": "Softwareunternehmen mit KI-Funktionen im Produkt",
+            "text": "Produktteams, die Qualität und Kosten im Griff haben wollen, ohne zuerst ein internes Plattformteam aufzubauen. Mehr unter [Software & SaaS](page:industries/software-saas)."
+          }
         ]
       },
       {
@@ -170,33 +373,82 @@
         "heading": "Wie wir den Betrieb führen",
         "variant": "check",
         "items": [
-          { "title": "Erst evaluieren, dann ändern", "text": "Kein Modellwechsel, keine Prompt-Änderung und kein neues Werkzeug geht live, ohne die Regressionssuite zu bestehen. Bewusst unspektakulär." },
-          { "title": "Menschen sehen, was zählt", "text": "Warnungen sind auf die Signale abgestimmt, die Auswirkungen auf Nutzer vorhersagen, nicht auf alles, was sich messen lässt. Das monatliche Review findet mit der Fachverantwortung statt, nicht nur mit der IT." },
-          { "title": "Herstellerneutraler Betrieb", "text": "Wir betreiben Agenten auf OpenAI, Anthropic, Google, Mistral, Azure, AWS Bedrock, Vertex AI oder in der EU gehosteten offenen Modellen. Wenn ein Anbieterwechsel sinnvoll ist, empfehlen wir ihn, migrieren und bleiben neutral, wohin es geht." },
-          { "title": "Dokumentation als Nebenprodukt, nicht als Projekt", "text": "Traces, Testergebnisse und Änderungsnachweise entstehen aus dem Prozess selbst. Wenn eine Prüfung ansteht, muss nichts nachträglich rekonstruiert werden." }
+          {
+            "title": "Erst evaluieren, dann ändern",
+            "text": "Kein Modellwechsel, keine Prompt-Änderung und kein neues Werkzeug geht live, ohne die Regressionssuite zu bestehen. Bewusst unspektakulär."
+          },
+          {
+            "title": "Menschen sehen, was zählt",
+            "text": "Warnungen sind auf die Signale abgestimmt, die Auswirkungen auf Nutzer vorhersagen, nicht auf alles, was sich messen lässt. Das monatliche Review findet mit der Fachverantwortung statt, nicht nur mit der IT."
+          },
+          {
+            "title": "Herstellerneutraler Betrieb",
+            "text": "Wir betreiben Agenten auf OpenAI, Anthropic, Google, Mistral, Azure, AWS Bedrock, Vertex AI oder in der EU gehosteten offenen Modellen. Wenn ein Anbieterwechsel sinnvoll ist, empfehlen wir ihn, migrieren und bleiben neutral, wohin es geht."
+          },
+          {
+            "title": "Dokumentation als Nebenprodukt, nicht als Projekt",
+            "text": "Traces, Testergebnisse und Änderungsnachweise entstehen aus dem Prozess selbst. Wenn eine Prüfung ansteht, muss nichts nachträglich rekonstruiert werden."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Werkzeuge und Plattformen im Betrieb",
-        "items": ["Langfuse", "LangSmith", "OpenTelemetry", "Grafana", "LangGraph", "n8n", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI"],
+        "items": [
+          "Langfuse",
+          "LangSmith",
+          "OpenTelemetry",
+          "Grafana",
+          "LangGraph",
+          "n8n",
+          "OpenAI",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Azure OpenAI",
+          "AWS Bedrock",
+          "Google Vertex AI"
+        ],
         "note": "Wir nennen diese Werkzeuge, weil wir mit ihnen arbeiten. Partnerschaften oder Reseller-Verträge haben wir nicht; wir wählen die Werkzeuge je System."
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Welche Reaktionszeiten bieten Sie an?", "a": "Sie werden vertraglich je Schweregrad festgelegt, weil ein kundenseitiger Agent und ein internes Zusammenfassungswerkzeug unterschiedliche Anforderungen haben. Üblicherweise hat der höchste Schweregrad ein kurzes Reaktionsfenster mit Bereitschaftspfad, niedrigere Schweregrade werden innerhalb der Geschäftszeiten bearbeitet. Die Stufen werden beim Onboarding schriftlich festgehalten und monatlich berichtet." },
-          { "q": "Brauchen Sie Zugriff auf unsere Produktivsysteme?", "a": "Ja, aber eng begrenzt: Tracing-Endpunkte, Dashboards der Modellanbieter, die Deployment-Pipeline und, wo vereinbart, die relevanten Protokolle. Der Zugriff folgt dem Prinzip der minimalen Rechte, ist dokumentiert und jederzeit widerrufbar. Ein Auftragsverarbeitungsvertrag nach DSGVO ist Standard, und wenn Sie in der EU hosten, verlässt nichts Ihre Umgebung." },
-          { "q": "Können Sie Agenten betreiben, die wir selbst oder mit einem anderen Partner gebaut haben?", "a": "Ja. Wir beginnen mit einem Gesundheitscheck des Systems, seiner Prompts, Werkzeuge und Datenquellen und ergänzen Tracing und eine Evaluationssuite, falls sie fehlen. Framework und Plattform spielen kaum eine Rolle. Manchmal empfehlen wir Änderungen, aber die Übernahme des Betriebs setzt keinen Neubau voraus." },
-          { "q": "Was umfasst das monatliche Review?", "a": "Qualitätsverlauf gegenüber der Ausgangsbasis, Störungen und was daraus gelernt wurde, Kosten je Agent und je Team gegenüber dem Budget, anstehende Modellabkündigungen mit Migrationsplan und eine priorisierte Liste von Verbesserungen. Etwa eine Stunde mit der Fachverantwortung; die schriftliche Fassung dient als Audit-Dokumentation." },
-          { "q": "Wie gehen Sie mit der Abkündigung eines Modells um?", "a": "Wir verfolgen die Ankündigungen der Anbieter, sodass eine Abkündigung selten überrascht. Das Kandidatenmodell läuft gegen Ihre Evaluationssuite, Kosten und Qualität werden verglichen, und wenn die Ergebnisse tragen, migrieren wir in einem vereinbarten Zeitfenster mit Rückweg – in der Regel deutlich vor der Frist des Anbieters." },
-          { "q": "Ist das dasselbe wie MLOps?", "a": "Es gibt Überschneidungen, aber es ist nicht dasselbe. MLOps dreht sich um Training, Bereitstellung und Überwachung eigener Modelle. AgentOps dreht sich um LLM-basierte Systeme, die externe Modelle und Werkzeuge aufrufen – dort zählen Evaluation, Prompt-Versionierung, Zuverlässigkeit der Werkzeuge und Kostenkontrolle mehr als Trainingspipelines. Wenn Sie eigene Modelle trainieren, ist [Datenbasis für KI](page:services/data-foundations) der richtige Einstieg." }
+          {
+            "q": "Welche Reaktionszeiten bieten Sie an?",
+            "a": "Sie werden vertraglich je Schweregrad festgelegt, weil ein kundenseitiger Agent und ein internes Zusammenfassungswerkzeug unterschiedliche Anforderungen haben. Üblicherweise hat der höchste Schweregrad ein kurzes Reaktionsfenster mit Bereitschaftspfad, niedrigere Schweregrade werden innerhalb der Geschäftszeiten bearbeitet. Die Stufen werden beim Onboarding schriftlich festgehalten und monatlich berichtet."
+          },
+          {
+            "q": "Brauchen Sie Zugriff auf unsere Produktivsysteme?",
+            "a": "Ja, aber eng begrenzt: Tracing-Endpunkte, Dashboards der Modellanbieter, die Deployment-Pipeline und, wo vereinbart, die relevanten Protokolle. Der Zugriff folgt dem Prinzip der minimalen Rechte, ist dokumentiert und jederzeit widerrufbar. Ein Auftragsverarbeitungsvertrag nach DSGVO ist Standard, und wenn Sie in der EU hosten, verlässt nichts Ihre Umgebung."
+          },
+          {
+            "q": "Können Sie Agenten betreiben, die wir selbst oder mit einem anderen Partner gebaut haben?",
+            "a": "Ja. Wir beginnen mit einem Gesundheitscheck des Systems, seiner Prompts, Werkzeuge und Datenquellen und ergänzen Tracing und eine Evaluationssuite, falls sie fehlen. Framework und Plattform spielen kaum eine Rolle. Manchmal empfehlen wir Änderungen, aber die Übernahme des Betriebs setzt keinen Neubau voraus."
+          },
+          {
+            "q": "Was umfasst das monatliche Review?",
+            "a": "Qualitätsverlauf gegenüber der Ausgangsbasis, Störungen und was daraus gelernt wurde, Kosten je Agent und je Team gegenüber dem Budget, anstehende Modellabkündigungen mit Migrationsplan und eine priorisierte Liste von Verbesserungen. Etwa eine Stunde mit der Fachverantwortung; die schriftliche Fassung dient als Audit-Dokumentation."
+          },
+          {
+            "q": "Wie gehen Sie mit der Abkündigung eines Modells um?",
+            "a": "Wir verfolgen die Ankündigungen der Anbieter, sodass eine Abkündigung selten überrascht. Das Kandidatenmodell läuft gegen Ihre Evaluationssuite, Kosten und Qualität werden verglichen, und wenn die Ergebnisse tragen, migrieren wir in einem vereinbarten Zeitfenster mit Rückweg – in der Regel deutlich vor der Frist des Anbieters."
+          },
+          {
+            "q": "Ist das dasselbe wie MLOps?",
+            "a": "Es gibt Überschneidungen, aber es ist nicht dasselbe. MLOps dreht sich um Training, Bereitstellung und Überwachung eigener Modelle. AgentOps dreht sich um LLM-basierte Systeme, die externe Modelle und Werkzeuge aufrufen – dort zählen Evaluation, Prompt-Versionierung, Zuverlässigkeit der Werkzeuge und Kostenkontrolle mehr als Trainingspipelines. Wenn Sie eigene Modelle trainieren, ist [Datenbasis für KI](page:services/data-foundations) der richtige Einstieg."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/ai-agent-development", "services/agentic-workflows", "services/ai-governance", "insights/guardrails-for-agents"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "insights/guardrails-for-agents"
+        ]
       }
     ]
   }

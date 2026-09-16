@@ -13,7 +13,7 @@
       "standfirst": "Long-form guides on agentic AI, automation, governance and the practical work of getting agents into production. Written for founders, executives and department heads, in plain language, with the trade-offs left in.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -46,7 +46,7 @@
       "standfirst": "Ausführliche Leitfäden zu Agentic AI, Automatisierung, Governance und der praktischen Arbeit, KI-Agenten in den Produktivbetrieb zu bringen. Geschrieben für Gründer, Geschäftsführung und Bereichsleitung, in klarer Sprache und mit den Abwägungen, die sonst wegfallen.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

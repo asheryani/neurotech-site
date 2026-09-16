@@ -10,8 +10,14 @@
       "title": "AI agents built for production,",
       "titleAccent": "not for the demo.",
       "standfirst": "Anyone can build an agent that works once. We design and build single- and multi-agent systems that work every day: with tool access to your systems, memory, planning, evaluation suites, guardrails and a deployment on EU infrastructure or in your own cloud. Vendor-neutral, and handed over so your team can run it.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,24 +30,63 @@
           "Everything we build comes with what makes it operable: evaluation suites, observability, permissions, fallbacks and cost controls. That is the difference between a pilot and a system, and the reason most agents never leave the pilot stage."
         ],
         "facts": [
-          ["Format", "Scoping, architecture, build, evaluation, hardening, hand-over"],
-          ["Duration", "Typically 6–8 weeks to a production-grade pilot"],
-          ["For", "CTOs, CIOs, heads of digital, product leads, founders"],
-          ["Outcome", "A deployed agent with tests, monitoring, documentation and a trained team"]
+          [
+            "Format",
+            "Scoping, architecture, build, evaluation, hardening, hand-over"
+          ],
+          [
+            "Duration",
+            "Typically 6–8 weeks to a production-grade pilot"
+          ],
+          [
+            "For",
+            "CTOs, CIOs, heads of digital, product leads, founders"
+          ],
+          [
+            "Outcome",
+            "A deployed agent with tests, monitoring, documentation and a trained team"
+          ]
         ],
-        "link": { "label": "Automating whole processes with agents", "page": "services/agentic-workflows" }
+        "link": {
+          "label": "Automating whole processes with agents",
+          "page": "services/agentic-workflows"
+        }
       },
       {
         "type": "cards",
         "heading": "Types of agents we build",
         "intro": "Most projects start with one of these. Multi-agent systems combine several behind one orchestrator.",
         "items": [
-          { "icon": "book", "title": "Knowledge agents", "text": "Answer questions and prepare documents from your internal knowledge, with citations and permission checks, and look things up in several systems before answering. See our [knowledge assistants](page:services/knowledge-assistants)." },
-          { "icon": "workflow", "title": "Workflow agents", "text": "Embedded in a business process: they receive a case, gather data from your systems, apply your rules, take the next step and escalate when unsure. The backbone of [agentic workflow automation](page:services/agentic-workflows)." },
-          { "icon": "chat", "title": "Customer-facing agents", "text": "Chat, email and voice agents that handle enquiries, order status, returns, appointment booking or first-level support within a defined scope, with a clean hand-over to your team and full transcripts. See [customer service](page:solutions/customer-service)." },
-          { "icon": "code", "title": "Coding agents", "text": "Agents inside your engineering workflow: triaging issues, writing and reviewing code against your standards, generating tests and documentation, migrating legacy code under human review. See [IT and engineering](page:solutions/it-engineering)." },
-          { "icon": "eye", "title": "Browser and computer-use agents", "text": "Agents that operate applications and websites the way a person would, for systems without an interface: supplier portals, legacy tools, public registers. Used sparingly, sandboxed and with strict permissions." },
-          { "icon": "layers", "title": "Multi-agent systems", "text": "Several specialised agents coordinated by an orchestrator: one researches, one drafts, one checks, with clear hand-offs and shared state. Useful where a single agent would become too large to test and too vague to trust." }
+          {
+            "icon": "book",
+            "title": "Knowledge agents",
+            "text": "Answer questions and prepare documents from your internal knowledge, with citations and permission checks, and look things up in several systems before answering. See our [knowledge assistants](page:services/knowledge-assistants)."
+          },
+          {
+            "icon": "workflow",
+            "title": "Workflow agents",
+            "text": "Embedded in a business process: they receive a case, gather data from your systems, apply your rules, take the next step and escalate when unsure. The backbone of [agentic workflow automation](page:services/agentic-workflows)."
+          },
+          {
+            "icon": "chat",
+            "title": "Customer-facing agents",
+            "text": "Chat, email and voice agents that handle enquiries, order status, returns, appointment booking or first-level support within a defined scope, with a clean hand-over to your team and full transcripts. See [customer service](page:solutions/customer-service)."
+          },
+          {
+            "icon": "code",
+            "title": "Coding agents",
+            "text": "Agents inside your engineering workflow: triaging issues, writing and reviewing code against your standards, generating tests and documentation, migrating legacy code under human review. See [IT and engineering](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "eye",
+            "title": "Browser and computer-use agents",
+            "text": "Agents that operate applications and websites the way a person would, for systems without an interface: supplier portals, legacy tools, public registers. Used sparingly, sandboxed and with strict permissions."
+          },
+          {
+            "icon": "layers",
+            "title": "Multi-agent systems",
+            "text": "Several specialised agents coordinated by an orchestrator: one researches, one drafts, one checks, with clear hand-offs and shared state. Useful where a single agent would become too large to test and too vague to trust."
+          }
         ]
       },
       {
@@ -49,45 +94,123 @@
         "heading": "What production-grade means to us",
         "variant": "check",
         "items": [
-          { "title": "Evaluation suites", "text": "A test set of real cases with expected outcomes, run on every change to prompts, models or tools. No release without a passing score; regressions are caught before users see them." },
-          { "title": "Observability", "text": "Every run is traced: inputs, reasoning steps, tool calls, outputs, latency and cost, visible to your team in tools such as Langfuse or your existing monitoring stack." },
-          { "title": "Permissions and fallbacks", "text": "Agents act with their own identity, least-privilege access and explicit allow-lists for actions. When a model is unavailable, a tool fails or confidence is low, the agent retries, switches model or hands over to a person with full context." },
-          { "title": "Cost controls", "text": "Budgets per run and per day, model routing by task difficulty, caching and rate limits. You know what an agent costs per case before it goes live." },
-          { "title": "Guardrails", "text": "Input and output checks against prompt injection, data leakage and off-policy behaviour, plus content rules specific to your industry. More in our [guide to guardrails for agents](page:insights/guardrails-for-agents)." }
+          {
+            "title": "Evaluation suites",
+            "text": "A test set of real cases with expected outcomes, run on every change to prompts, models or tools. No release without a passing score; regressions are caught before users see them."
+          },
+          {
+            "title": "Observability",
+            "text": "Every run is traced: inputs, reasoning steps, tool calls, outputs, latency and cost, visible to your team in tools such as Langfuse or your existing monitoring stack."
+          },
+          {
+            "title": "Permissions and fallbacks",
+            "text": "Agents act with their own identity, least-privilege access and explicit allow-lists for actions. When a model is unavailable, a tool fails or confidence is low, the agent retries, switches model or hands over to a person with full context."
+          },
+          {
+            "title": "Cost controls",
+            "text": "Budgets per run and per day, model routing by task difficulty, caching and rate limits. You know what an agent costs per case before it goes live."
+          },
+          {
+            "title": "Guardrails",
+            "text": "Input and output checks against prompt injection, data leakage and off-policy behaviour, plus content rules specific to your industry. More in our [guide to guardrails for agents](page:insights/guardrails-for-agents)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "From scoping to hand-over",
         "items": [
-          { "title": "Scoping", "text": "We define the agent's job on one page: goal, inputs, tools, decisions it may and may not take, success metrics, human checkpoints. If the scope is unclear, we prototype for two days before committing.", "meta": "Week 1" },
-          { "title": "Architecture and model choice", "text": "Single or multi-agent, which framework, which models for which steps, where memory lives, how tools are exposed (APIs, connectors, MCP servers), where it runs. Written down for your IT and security teams to review.", "meta": "Week 2" },
-          { "title": "Build", "text": "Tools and MCP servers for your systems, the agent logic, the memory layer, the approval interface. We work in your repository from day one, so nothing is a black box.", "meta": "Weeks 3–5" },
-          { "title": "Evaluation and hardening", "text": "The evaluation suite runs against real cases; we tune prompts, routing and tools until the numbers hold. Then we test the unhappy paths: bad inputs, broken tools, injection attempts, cost spikes.", "meta": "Weeks 5–6" },
-          { "title": "Controlled rollout", "text": "The agent goes live for a defined group, first with every action reviewed, then with sampling. Feedback flows back into the evaluation set.", "meta": "Week 7" },
-          { "title": "Hand-over", "text": "Documentation, runbook, training for your developers and operators, and a joint decision on what comes next: scale-out, a second agent, or [managed AI operations](page:services/managed-ai-operations) by us.", "meta": "Week 8" }
+          {
+            "title": "Scoping",
+            "text": "We define the agent's job on one page: goal, inputs, tools, decisions it may and may not take, success metrics, human checkpoints. If the scope is unclear, we prototype for two days before committing.",
+            "meta": "Week 1"
+          },
+          {
+            "title": "Architecture and model choice",
+            "text": "Single or multi-agent, which framework, which models for which steps, where memory lives, how tools are exposed (APIs, connectors, MCP servers), where it runs. Written down for your IT and security teams to review.",
+            "meta": "Week 2"
+          },
+          {
+            "title": "Build",
+            "text": "Tools and MCP servers for your systems, the agent logic, the memory layer, the approval interface. We work in your repository from day one, so nothing is a black box.",
+            "meta": "Weeks 3–5"
+          },
+          {
+            "title": "Evaluation and hardening",
+            "text": "The evaluation suite runs against real cases; we tune prompts, routing and tools until the numbers hold. Then we test the unhappy paths: bad inputs, broken tools, injection attempts, cost spikes.",
+            "meta": "Weeks 5–6"
+          },
+          {
+            "title": "Controlled rollout",
+            "text": "The agent goes live for a defined group, first with every action reviewed, then with sampling. Feedback flows back into the evaluation set.",
+            "meta": "Week 7"
+          },
+          {
+            "title": "Hand-over",
+            "text": "Documentation, runbook, training for your developers and operators, and a joint decision on what comes next: scale-out, a second agent, or [managed AI operations](page:services/managed-ai-operations) by us.",
+            "meta": "Week 8"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Frameworks, platforms and models we work with",
         "intro": "We choose per project and stay vendor-neutral. Naming a product means we build with it and evaluate it, not that we are partnered with or certified by its vendor.",
-        "items": ["LangGraph", "CrewAI", "OpenAI Agents SDK", "Anthropic Claude Agent SDK", "Microsoft Agent Framework", "Microsoft Copilot Studio", "Salesforce Agentforce", "Google Vertex AI Agent Builder", "AWS Bedrock AgentCore", "Model Context Protocol (MCP)", "OpenAI models", "Anthropic Claude", "Google Gemini", "Mistral", "Open-weight models (Llama, Qwen and others)", "Langfuse", "Azure OpenAI", "Hugging Face"]
+        "items": [
+          "LangGraph",
+          "CrewAI",
+          "OpenAI Agents SDK",
+          "Anthropic Claude Agent SDK",
+          "Microsoft Agent Framework",
+          "Microsoft Copilot Studio",
+          "Salesforce Agentforce",
+          "Google Vertex AI Agent Builder",
+          "AWS Bedrock AgentCore",
+          "Model Context Protocol (MCP)",
+          "OpenAI models",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Open-weight models (Llama, Qwen and others)",
+          "Langfuse",
+          "Azure OpenAI",
+          "Hugging Face"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Which framework do you recommend?", "a": "None by default. LangGraph suits complex, stateful flows with strict control; CrewAI and the OpenAI Agents SDK get straightforward multi-agent set-ups running quickly; the Anthropic Claude Agent SDK is strong for tool-heavy, long-running work; Copilot Studio, Agentforce, Vertex AI Agent Builder and Bedrock AgentCore make sense when you already live on that platform. We decide after scoping." },
-          { "q": "Can the agent run on EU infrastructure or on-premises?", "a": "Yes. Depending on the requirement we deploy in EU regions of the hyperscalers, with EU-based model providers or on your own infrastructure with open-weight models. Fully on-premises set-ups trade some model quality for control; we show you the difference on your own test cases before you decide. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "q": "What is an MCP server, and why would we need one?", "a": "The Model Context Protocol (MCP) is an open standard that lets an agent use external systems as tools in a uniform way. An MCP server for your ERP, for example, exposes actions such as finding a customer or creating an order with defined permissions, so every agent you build later can reuse it. See [MCP explained](page:insights/mcp-explained)." },
-          { "q": "How do you keep the agent from doing something harmful?", "a": "Through design rather than hope: least-privilege permissions, allow-lists for actions, approval steps for anything irreversible, input and output guardrails, rate and budget limits, and an evaluation suite that includes adversarial cases. Plus logging that lets you reconstruct every run." },
-          { "q": "Do we own the code, and how does this relate to your strategy work?", "a": "Yes. We work in your repository, on your accounts, with your licences; at hand-over you hold code, evaluation set, documentation and runbook. The [AI strategy](page:services/ai-strategy) and [readiness assessment](page:services/ai-readiness-assessment) identify and rank use cases; this service builds them. If you already have one, we start with a short scoping week." }
+          {
+            "q": "Which framework do you recommend?",
+            "a": "None by default. LangGraph suits complex, stateful flows with strict control; CrewAI and the OpenAI Agents SDK get straightforward multi-agent set-ups running quickly; the Anthropic Claude Agent SDK is strong for tool-heavy, long-running work; Copilot Studio, Agentforce, Vertex AI Agent Builder and Bedrock AgentCore make sense when you already live on that platform. We decide after scoping."
+          },
+          {
+            "q": "Can the agent run on EU infrastructure or on-premises?",
+            "a": "Yes. Depending on the requirement we deploy in EU regions of the hyperscalers, with EU-based model providers or on your own infrastructure with open-weight models. Fully on-premises set-ups trade some model quality for control; we show you the difference on your own test cases before you decide. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "What is an MCP server, and why would we need one?",
+            "a": "The Model Context Protocol (MCP) is an open standard that lets an agent use external systems as tools in a uniform way. An MCP server for your ERP, for example, exposes actions such as finding a customer or creating an order with defined permissions, so every agent you build later can reuse it. See [MCP explained](page:insights/mcp-explained)."
+          },
+          {
+            "q": "How do you keep the agent from doing something harmful?",
+            "a": "Through design rather than hope: least-privilege permissions, allow-lists for actions, approval steps for anything irreversible, input and output guardrails, rate and budget limits, and an evaluation suite that includes adversarial cases. Plus logging that lets you reconstruct every run."
+          },
+          {
+            "q": "Do we own the code, and how does this relate to your strategy work?",
+            "a": "Yes. We work in your repository, on your accounts, with your licences; at hand-over you hold code, evaluation set, documentation and runbook. The [AI strategy](page:services/ai-strategy) and [readiness assessment](page:services/ai-readiness-assessment) identify and rank use cases; this service builds them. If you already have one, we start with a short scoping week."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/agentic-workflows", "services/knowledge-assistants", "services/managed-ai-operations", "insights/guardrails-for-agents"]
+        "pages": [
+          "services/agentic-workflows",
+          "services/knowledge-assistants",
+          "services/managed-ai-operations",
+          "insights/guardrails-for-agents"
+        ]
       }
     ]
   },
@@ -101,8 +224,14 @@
       "title": "KI-Agenten für den Produktivbetrieb,",
       "titleAccent": "nicht für die Demo.",
       "standfirst": "Einen Agenten, der einmal funktioniert, kann jeder bauen. Wir entwerfen und entwickeln Single- und Multi-Agenten-Systeme, die jeden Tag funktionieren: mit Werkzeugzugriff auf Ihre Systeme, Gedächtnis, Planung, Evaluierungs-Suiten, Guardrails und Betrieb auf EU-Infrastruktur oder in Ihrer eigenen Cloud. Herstellerneutral – und so übergeben, dass Ihr Team damit arbeiten kann.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -115,24 +244,63 @@
           "Alles, was wir bauen, kommt mit dem, was es betreibbar macht: Evaluierungs-Suiten, Observability, Berechtigungen, Fallbacks und Kostenkontrolle. Das ist der Unterschied zwischen Pilot und System – und der Grund, warum die meisten Agenten nie über den Piloten hinauskommen."
         ],
         "facts": [
-          ["Format", "Scoping, Architektur, Umsetzung, Evaluierung, Härtung, Übergabe"],
-          ["Dauer", "In der Regel 6–8 Wochen bis zum produktionsreifen Piloten"],
-          ["Für", "CTOs, CIOs, Digitalverantwortliche, Produktleitung, Gründer"],
-          ["Ergebnis", "Ein betriebener Agent mit Tests, Monitoring, Dokumentation und geschultem Team"]
+          [
+            "Format",
+            "Scoping, Architektur, Umsetzung, Evaluierung, Härtung, Übergabe"
+          ],
+          [
+            "Dauer",
+            "In der Regel 6–8 Wochen bis zum produktionsreifen Piloten"
+          ],
+          [
+            "Für",
+            "CTOs, CIOs, Digitalverantwortliche, Produktleitung, Gründer"
+          ],
+          [
+            "Ergebnis",
+            "Ein betriebener Agent mit Tests, Monitoring, Dokumentation und geschultem Team"
+          ]
         ],
-        "link": { "label": "Ganze Prozesse mit Agenten automatisieren", "page": "services/agentic-workflows" }
+        "link": {
+          "label": "Ganze Prozesse mit Agenten automatisieren",
+          "page": "services/agentic-workflows"
+        }
       },
       {
         "type": "cards",
         "heading": "Agententypen, die wir bauen",
         "intro": "Die meisten Projekte beginnen mit einem dieser Typen. Multi-Agenten-Systeme kombinieren mehrere davon hinter einem Orchestrator.",
         "items": [
-          { "icon": "book", "title": "Wissensagenten", "text": "Beantworten Fragen und bereiten Dokumente aus Ihrem internen Wissen vor, mit Quellenangaben und Rechteprüfung, und schlagen vor der Antwort in mehreren Systemen nach. Mehr zu unseren [Wissensassistenten](page:services/knowledge-assistants)." },
-          { "icon": "workflow", "title": "Workflow-Agenten", "text": "In einen Geschäftsprozess eingebettet: Sie erhalten einen Fall, sammeln Daten aus Ihren Systemen, wenden Ihre Regeln an, gehen den nächsten Schritt und eskalieren bei Unsicherheit. Das Rückgrat der [agentischen Workflow-Automatisierung](page:services/agentic-workflows)." },
-          { "icon": "chat", "title": "Kundenorientierte Agenten", "text": "Chat-, E-Mail- und Sprachagenten, die Anfragen, Bestellstatus, Retouren, Terminbuchung oder First-Level-Support in einem definierten Rahmen übernehmen, mit sauberer Übergabe an Ihr Team und vollständigen Protokollen. Mehr unter [Kundenservice](page:solutions/customer-service)." },
-          { "icon": "code", "title": "Coding-Agenten", "text": "Agenten in Ihrem Entwicklungsprozess: Issues triagieren, Code nach Ihren Standards schreiben und prüfen, Tests und Dokumentation erzeugen, Legacy-Code unter menschlicher Kontrolle migrieren. Mehr unter [IT und Engineering](page:solutions/it-engineering)." },
-          { "icon": "eye", "title": "Browser- und Computer-Use-Agenten", "text": "Agenten, die Anwendungen und Websites so bedienen, wie ein Mensch es täte – für Systeme ohne Schnittstelle: Lieferantenportale, Altsysteme, öffentliche Register. Sparsam eingesetzt, in einer Sandbox und mit strengen Berechtigungen." },
-          { "icon": "layers", "title": "Multi-Agenten-Systeme", "text": "Mehrere spezialisierte Agenten, koordiniert von einem Orchestrator: einer recherchiert, einer entwirft, einer prüft, mit klaren Übergaben und gemeinsamem Zustand. Sinnvoll, wo ein einzelner Agent zu groß zum Testen und zu unscharf zum Vertrauen würde." }
+          {
+            "icon": "book",
+            "title": "Wissensagenten",
+            "text": "Beantworten Fragen und bereiten Dokumente aus Ihrem internen Wissen vor, mit Quellenangaben und Rechteprüfung, und schlagen vor der Antwort in mehreren Systemen nach. Mehr zu unseren [Wissensassistenten](page:services/knowledge-assistants)."
+          },
+          {
+            "icon": "workflow",
+            "title": "Workflow-Agenten",
+            "text": "In einen Geschäftsprozess eingebettet: Sie erhalten einen Fall, sammeln Daten aus Ihren Systemen, wenden Ihre Regeln an, gehen den nächsten Schritt und eskalieren bei Unsicherheit. Das Rückgrat der [agentischen Workflow-Automatisierung](page:services/agentic-workflows)."
+          },
+          {
+            "icon": "chat",
+            "title": "Kundenorientierte Agenten",
+            "text": "Chat-, E-Mail- und Sprachagenten, die Anfragen, Bestellstatus, Retouren, Terminbuchung oder First-Level-Support in einem definierten Rahmen übernehmen, mit sauberer Übergabe an Ihr Team und vollständigen Protokollen. Mehr unter [Kundenservice](page:solutions/customer-service)."
+          },
+          {
+            "icon": "code",
+            "title": "Coding-Agenten",
+            "text": "Agenten in Ihrem Entwicklungsprozess: Issues triagieren, Code nach Ihren Standards schreiben und prüfen, Tests und Dokumentation erzeugen, Legacy-Code unter menschlicher Kontrolle migrieren. Mehr unter [IT und Engineering](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "eye",
+            "title": "Browser- und Computer-Use-Agenten",
+            "text": "Agenten, die Anwendungen und Websites so bedienen, wie ein Mensch es täte – für Systeme ohne Schnittstelle: Lieferantenportale, Altsysteme, öffentliche Register. Sparsam eingesetzt, in einer Sandbox und mit strengen Berechtigungen."
+          },
+          {
+            "icon": "layers",
+            "title": "Multi-Agenten-Systeme",
+            "text": "Mehrere spezialisierte Agenten, koordiniert von einem Orchestrator: einer recherchiert, einer entwirft, einer prüft, mit klaren Übergaben und gemeinsamem Zustand. Sinnvoll, wo ein einzelner Agent zu groß zum Testen und zu unscharf zum Vertrauen würde."
+          }
         ]
       },
       {
@@ -140,45 +308,123 @@
         "heading": "Was produktionsreif für uns bedeutet",
         "variant": "check",
         "items": [
-          { "title": "Evaluierungs-Suiten", "text": "Ein Testdatensatz aus echten Fällen mit erwarteten Ergebnissen, der bei jeder Änderung an Prompts, Modellen oder Werkzeugen läuft. Kein Release ohne bestandene Bewertung; Regressionen werden abgefangen, bevor Nutzer sie sehen." },
-          { "title": "Observability", "text": "Jeder Durchlauf wird nachvollziehbar aufgezeichnet: Eingaben, Zwischenschritte, Werkzeugaufrufe, Ausgaben, Latenz und Kosten – sichtbar für Ihr Team in Werkzeugen wie Langfuse oder Ihrem bestehenden Monitoring." },
-          { "title": "Berechtigungen und Fallbacks", "text": "Agenten handeln mit eigener Identität, minimalen Rechten und expliziten Freigabelisten für Aktionen. Ist ein Modell nicht erreichbar, fällt ein Werkzeug aus oder ist die Antwort unsicher, versucht der Agent es erneut, wechselt das Modell oder übergibt mit vollem Kontext an einen Menschen." },
-          { "title": "Kostenkontrolle", "text": "Budgets je Durchlauf und je Tag, Modellwahl nach Schwierigkeit der Aufgabe, Caching und Ratenlimits. Sie wissen, was ein Agent je Fall kostet, bevor er live geht." },
-          { "title": "Guardrails", "text": "Ein- und Ausgabeprüfungen gegen Prompt Injection, Datenabfluss und regelwidriges Verhalten, plus inhaltliche Regeln für Ihre Branche. Mehr in unserem [Leitfaden zu Leitplanken für Agenten](page:insights/guardrails-for-agents)." }
+          {
+            "title": "Evaluierungs-Suiten",
+            "text": "Ein Testdatensatz aus echten Fällen mit erwarteten Ergebnissen, der bei jeder Änderung an Prompts, Modellen oder Werkzeugen läuft. Kein Release ohne bestandene Bewertung; Regressionen werden abgefangen, bevor Nutzer sie sehen."
+          },
+          {
+            "title": "Observability",
+            "text": "Jeder Durchlauf wird nachvollziehbar aufgezeichnet: Eingaben, Zwischenschritte, Werkzeugaufrufe, Ausgaben, Latenz und Kosten – sichtbar für Ihr Team in Werkzeugen wie Langfuse oder Ihrem bestehenden Monitoring."
+          },
+          {
+            "title": "Berechtigungen und Fallbacks",
+            "text": "Agenten handeln mit eigener Identität, minimalen Rechten und expliziten Freigabelisten für Aktionen. Ist ein Modell nicht erreichbar, fällt ein Werkzeug aus oder ist die Antwort unsicher, versucht der Agent es erneut, wechselt das Modell oder übergibt mit vollem Kontext an einen Menschen."
+          },
+          {
+            "title": "Kostenkontrolle",
+            "text": "Budgets je Durchlauf und je Tag, Modellwahl nach Schwierigkeit der Aufgabe, Caching und Ratenlimits. Sie wissen, was ein Agent je Fall kostet, bevor er live geht."
+          },
+          {
+            "title": "Guardrails",
+            "text": "Ein- und Ausgabeprüfungen gegen Prompt Injection, Datenabfluss und regelwidriges Verhalten, plus inhaltliche Regeln für Ihre Branche. Mehr in unserem [Leitfaden zu Leitplanken für Agenten](page:insights/guardrails-for-agents)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "Vom Scoping bis zur Übergabe",
         "items": [
-          { "title": "Scoping", "text": "Wir beschreiben die Aufgabe des Agenten auf einer Seite: Ziel, Eingaben, Werkzeuge, erlaubte und verbotene Entscheidungen, Erfolgskennzahlen, Kontrollpunkte für Menschen. Ist der Rahmen unklar, prototypisieren wir zwei Tage, bevor wir uns festlegen.", "meta": "Woche 1" },
-          { "title": "Architektur und Modellwahl", "text": "Single- oder Multi-Agent, welches Framework, welche Modelle für welche Schritte, wo das Gedächtnis liegt, wie Werkzeuge bereitgestellt werden (APIs, Konnektoren, MCP-Server), wo das Ganze läuft. Schriftlich, damit IT und Sicherheit es prüfen können.", "meta": "Woche 2" },
-          { "title": "Umsetzung", "text": "Werkzeuge und MCP-Server für Ihre Systeme, die Agentenlogik, die Gedächtnisschicht, die Freigabeoberfläche. Wir arbeiten vom ersten Tag an in Ihrem Repository, damit nichts eine Blackbox ist.", "meta": "Wochen 3–5" },
-          { "title": "Evaluierung und Härtung", "text": "Die Evaluierungs-Suite läuft gegen echte Fälle; wir justieren Prompts, Modellwahl und Werkzeuge, bis die Zahlen halten. Dann testen wir die unschönen Pfade: fehlerhafte Eingaben, ausgefallene Werkzeuge, Injection-Versuche, Kostenspitzen.", "meta": "Wochen 5–6" },
-          { "title": "Kontrollierter Rollout", "text": "Der Agent geht für eine definierte Gruppe live, zunächst mit Prüfung jeder Aktion, dann mit Stichproben. Rückmeldungen fließen in den Evaluierungsdatensatz zurück.", "meta": "Woche 7" },
-          { "title": "Übergabe", "text": "Dokumentation, Runbook, Schulung für Ihre Entwickler und Betreiber und eine gemeinsame Entscheidung über den nächsten Schritt: Ausbau, ein zweiter Agent oder [Managed AI Operations](page:services/managed-ai-operations) durch uns.", "meta": "Woche 8" }
+          {
+            "title": "Scoping",
+            "text": "Wir beschreiben die Aufgabe des Agenten auf einer Seite: Ziel, Eingaben, Werkzeuge, erlaubte und verbotene Entscheidungen, Erfolgskennzahlen, Kontrollpunkte für Menschen. Ist der Rahmen unklar, prototypisieren wir zwei Tage, bevor wir uns festlegen.",
+            "meta": "Woche 1"
+          },
+          {
+            "title": "Architektur und Modellwahl",
+            "text": "Single- oder Multi-Agent, welches Framework, welche Modelle für welche Schritte, wo das Gedächtnis liegt, wie Werkzeuge bereitgestellt werden (APIs, Konnektoren, MCP-Server), wo das Ganze läuft. Schriftlich, damit IT und Sicherheit es prüfen können.",
+            "meta": "Woche 2"
+          },
+          {
+            "title": "Umsetzung",
+            "text": "Werkzeuge und MCP-Server für Ihre Systeme, die Agentenlogik, die Gedächtnisschicht, die Freigabeoberfläche. Wir arbeiten vom ersten Tag an in Ihrem Repository, damit nichts eine Blackbox ist.",
+            "meta": "Wochen 3–5"
+          },
+          {
+            "title": "Evaluierung und Härtung",
+            "text": "Die Evaluierungs-Suite läuft gegen echte Fälle; wir justieren Prompts, Modellwahl und Werkzeuge, bis die Zahlen halten. Dann testen wir die unschönen Pfade: fehlerhafte Eingaben, ausgefallene Werkzeuge, Injection-Versuche, Kostenspitzen.",
+            "meta": "Wochen 5–6"
+          },
+          {
+            "title": "Kontrollierter Rollout",
+            "text": "Der Agent geht für eine definierte Gruppe live, zunächst mit Prüfung jeder Aktion, dann mit Stichproben. Rückmeldungen fließen in den Evaluierungsdatensatz zurück.",
+            "meta": "Woche 7"
+          },
+          {
+            "title": "Übergabe",
+            "text": "Dokumentation, Runbook, Schulung für Ihre Entwickler und Betreiber und eine gemeinsame Entscheidung über den nächsten Schritt: Ausbau, ein zweiter Agent oder [Managed AI Operations](page:services/managed-ai-operations) durch uns.",
+            "meta": "Woche 8"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Frameworks, Plattformen und Modelle, mit denen wir arbeiten",
         "intro": "Wir wählen je Projekt und bleiben herstellerneutral. Ein Produkt zu nennen bedeutet, dass wir damit bauen und es bewerten – nicht, dass wir Partner oder zertifiziert sind.",
-        "items": ["LangGraph", "CrewAI", "OpenAI Agents SDK", "Anthropic Claude Agent SDK", "Microsoft Agent Framework", "Microsoft Copilot Studio", "Salesforce Agentforce", "Google Vertex AI Agent Builder", "AWS Bedrock AgentCore", "Model Context Protocol (MCP)", "OpenAI-Modelle", "Anthropic Claude", "Google Gemini", "Mistral", "Open-Weight-Modelle (Llama, Qwen und andere)", "Langfuse", "Azure OpenAI", "Hugging Face"]
+        "items": [
+          "LangGraph",
+          "CrewAI",
+          "OpenAI Agents SDK",
+          "Anthropic Claude Agent SDK",
+          "Microsoft Agent Framework",
+          "Microsoft Copilot Studio",
+          "Salesforce Agentforce",
+          "Google Vertex AI Agent Builder",
+          "AWS Bedrock AgentCore",
+          "Model Context Protocol (MCP)",
+          "OpenAI-Modelle",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Open-Weight-Modelle (Llama, Qwen und andere)",
+          "Langfuse",
+          "Azure OpenAI",
+          "Hugging Face"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Welches Framework empfehlen Sie?", "a": "Keines pauschal. LangGraph eignet sich für komplexe, zustandsbehaftete Abläufe mit strenger Kontrolle; CrewAI und das OpenAI Agents SDK bringen überschaubare Multi-Agenten-Aufbauten schnell zum Laufen; das Anthropic Claude Agent SDK ist stark bei werkzeugintensiver, lang laufender Arbeit; Copilot Studio, Agentforce, Vertex AI Agent Builder und Bedrock AgentCore sind sinnvoll, wenn Sie ohnehin auf dieser Plattform zu Hause sind. Wir entscheiden nach dem Scoping." },
-          { "q": "Kann der Agent auf EU-Infrastruktur oder On-Premises laufen?", "a": "Ja. Je nach Anforderung betreiben wir in EU-Regionen der Hyperscaler, bei Modellanbietern mit Sitz in der EU oder auf Ihrer eigenen Infrastruktur mit Open-Weight-Modellen. Vollständig lokale Aufbauten tauschen etwas Modellqualität gegen Kontrolle; wir zeigen Ihnen den Unterschied an Ihren eigenen Testfällen, bevor Sie entscheiden. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "q": "Was ist ein MCP-Server, und warum sollten wir einen brauchen?", "a": "Das Model Context Protocol (MCP) ist ein offener Standard, mit dem ein Agent externe Systeme einheitlich als Werkzeuge nutzt. Ein MCP-Server für Ihr ERP stellt zum Beispiel Aktionen wie „Kunde suchen“ oder „Auftrag anlegen“ mit definierten Berechtigungen bereit, sodass jeder später gebaute Agent sie wiederverwenden kann. Mehr unter [MCP erklärt](page:insights/mcp-explained)." },
-          { "q": "Wie verhindern Sie, dass der Agent Schaden anrichtet?", "a": "Durch Design statt Hoffnung: minimale Rechte, Freigabelisten für Aktionen, Freigabeschritte für alles Unumkehrbare, Guardrails für Ein- und Ausgaben, Raten- und Budgetlimits und eine Evaluierungs-Suite, die auch gegnerische Fälle enthält. Dazu eine Protokollierung, mit der Sie jeden Durchlauf rekonstruieren können." },
-          { "q": "Gehört uns der Code, und wie hängt das mit Ihrer Strategiearbeit zusammen?", "a": "Ja. Wir arbeiten in Ihrem Repository, auf Ihren Konten, mit Ihren Lizenzen; bei der Übergabe halten Sie Code, Evaluierungsdatensatz, Dokumentation und Runbook in der Hand. Die [KI-Strategie](page:services/ai-strategy) und das [Readiness-Assessment](page:services/ai-readiness-assessment) identifizieren und priorisieren die Use Cases; diese Leistung setzt sie um. Haben Sie bereits einen, beginnen wir mit einer kurzen Scoping-Woche." }
+          {
+            "q": "Welches Framework empfehlen Sie?",
+            "a": "Keines pauschal. LangGraph eignet sich für komplexe, zustandsbehaftete Abläufe mit strenger Kontrolle; CrewAI und das OpenAI Agents SDK bringen überschaubare Multi-Agenten-Aufbauten schnell zum Laufen; das Anthropic Claude Agent SDK ist stark bei werkzeugintensiver, lang laufender Arbeit; Copilot Studio, Agentforce, Vertex AI Agent Builder und Bedrock AgentCore sind sinnvoll, wenn Sie ohnehin auf dieser Plattform zu Hause sind. Wir entscheiden nach dem Scoping."
+          },
+          {
+            "q": "Kann der Agent auf EU-Infrastruktur oder On-Premises laufen?",
+            "a": "Ja. Je nach Anforderung betreiben wir in EU-Regionen der Hyperscaler, bei Modellanbietern mit Sitz in der EU oder auf Ihrer eigenen Infrastruktur mit Open-Weight-Modellen. Vollständig lokale Aufbauten tauschen etwas Modellqualität gegen Kontrolle; wir zeigen Ihnen den Unterschied an Ihren eigenen Testfällen, bevor Sie entscheiden. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "Was ist ein MCP-Server, und warum sollten wir einen brauchen?",
+            "a": "Das Model Context Protocol (MCP) ist ein offener Standard, mit dem ein Agent externe Systeme einheitlich als Werkzeuge nutzt. Ein MCP-Server für Ihr ERP stellt zum Beispiel Aktionen wie „Kunde suchen“ oder „Auftrag anlegen“ mit definierten Berechtigungen bereit, sodass jeder später gebaute Agent sie wiederverwenden kann. Mehr unter [MCP erklärt](page:insights/mcp-explained)."
+          },
+          {
+            "q": "Wie verhindern Sie, dass der Agent Schaden anrichtet?",
+            "a": "Durch Design statt Hoffnung: minimale Rechte, Freigabelisten für Aktionen, Freigabeschritte für alles Unumkehrbare, Guardrails für Ein- und Ausgaben, Raten- und Budgetlimits und eine Evaluierungs-Suite, die auch gegnerische Fälle enthält. Dazu eine Protokollierung, mit der Sie jeden Durchlauf rekonstruieren können."
+          },
+          {
+            "q": "Gehört uns der Code, und wie hängt das mit Ihrer Strategiearbeit zusammen?",
+            "a": "Ja. Wir arbeiten in Ihrem Repository, auf Ihren Konten, mit Ihren Lizenzen; bei der Übergabe halten Sie Code, Evaluierungsdatensatz, Dokumentation und Runbook in der Hand. Die [KI-Strategie](page:services/ai-strategy) und das [Readiness-Assessment](page:services/ai-readiness-assessment) identifizieren und priorisieren die Use Cases; diese Leistung setzt sie um. Haben Sie bereits einen, beginnen wir mit einer kurzen Scoping-Woche."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/agentic-workflows", "services/knowledge-assistants", "services/managed-ai-operations", "insights/guardrails-for-agents"]
+        "pages": [
+          "services/agentic-workflows",
+          "services/knowledge-assistants",
+          "services/managed-ai-operations",
+          "insights/guardrails-for-agents"
+        ]
       }
     ]
   }

@@ -12,7 +12,7 @@
       "standfirst": "The German Mittelstand, the owner-managed and family businesses that carry most of the economy, does not need an AI transformation programme. It needs a handful of workflows that relieve people you cannot hire, run inside the ERP you already have, and pay for themselves in months. That is what we build, in German, with your team in the room.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "See how we work",
@@ -196,7 +196,7 @@
       "standfirst": "Der Mittelstand braucht kein KI-Transformationsprogramm. Er braucht eine Handvoll Workflows, die Menschen entlasten, die Sie nicht einstellen können, die im vorhandenen ERP laufen und sich in Monaten rechnen. Genau das bauen wir – auf Deutsch, mit Ihrem Team am Tisch.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

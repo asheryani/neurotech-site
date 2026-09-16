@@ -12,7 +12,7 @@
       "standfirst": "Freight forwarders, carriers, contract logistics providers and distribution companies handle thousands of orders, documents and exceptions a day, in many formats and languages, around the clock. We build AI agents that take the reading, retyping and chasing out of that work, connect to your TMS and WMS, and are scoped so the effect shows up within months, not years.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "See how we work",
@@ -200,7 +200,7 @@
       "standfirst": "Spediteure, Frachtführer, Kontraktlogistiker und Distributionsunternehmen bearbeiten täglich Tausende Aufträge, Dokumente und Störfälle – in vielen Formaten und Sprachen, rund um die Uhr. Wir bauen KI-Agenten, die das Lesen, Abtippen und Nachfassen aus dieser Arbeit herausnehmen, an Ihr TMS und WMS andocken und so zugeschnitten sind, dass sich der Effekt in Monaten zeigt, nicht in Jahren.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

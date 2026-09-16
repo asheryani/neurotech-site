@@ -10,8 +10,14 @@
       "title": "AI readiness, measured",
       "titleAccent": "rather than guessed.",
       "standfirst": "Before you fund a strategy, a platform or a first agent, it pays to know what will carry the weight: your data, systems, people and rules. In two to three weeks we score all six dimensions, name the quick wins and hand you a written report with three first use cases and a 90-day plan.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,44 +30,112 @@
           "If you already know your first use case, go straight to [agentic workflow automation](page:services/agentic-workflows). If you would rather form your own view first, our [AI readiness checklist](page:insights/ai-readiness-checklist) is a good start. If you are not sure where to begin, begin here."
         ],
         "facts": [
-          ["Format", "Interviews, system review, scorecard, written report"],
-          ["Duration", "Typically 2–3 weeks"],
-          ["For", "CEOs, COOs, CIOs, department heads, founders"],
-          ["Outcome", "Scorecard, quick wins, three first use cases, 90-day plan"]
+          [
+            "Format",
+            "Interviews, system review, scorecard, written report"
+          ],
+          [
+            "Duration",
+            "Typically 2–3 weeks"
+          ],
+          [
+            "For",
+            "CEOs, COOs, CIOs, department heads, founders"
+          ],
+          [
+            "Outcome",
+            "Scorecard, quick wins, three first use cases, 90-day plan"
+          ]
         ],
-        "link": { "label": "Compare with the full AI strategy", "page": "services/ai-strategy" }
+        "link": {
+          "label": "Compare with the full AI strategy",
+          "page": "services/ai-strategy"
+        }
       },
       {
         "type": "cards",
         "heading": "The six dimensions we score",
         "intro": "Each dimension gets a score, the evidence behind it and the one or two actions that would move it. Together they form your readiness scorecard.",
         "items": [
-          { "icon": "layers", "title": "Data", "text": "Where the documents, records and conversations for your candidate use cases actually live, how complete and current they are, and how hard they are to reach. Many companies score better here than they expect: agents work on unstructured material." },
-          { "icon": "puzzle", "title": "Systems and integration", "text": "Whether your ERP, CRM, ticketing, email and document systems offer usable interfaces or need workarounds, how identities and access are managed, and what it takes to let an agent read and write safely." },
-          { "icon": "people", "title": "Skills and AI literacy", "text": "Who already works with language models, how well, and where the gaps are. The EU AI Act expects a suitable level of AI literacy in organisations that use AI; we assess it plainly and name the [training](page:services/ai-training) that closes the gap." },
-          { "icon": "shield", "title": "Governance and compliance", "text": "Existing rules on data protection and information security, how decisions about new tools are made, whether a works council must be involved, and how far you are from a defensible position under GDPR and the EU AI Act." },
-          { "icon": "workflow", "title": "Processes", "text": "How well the candidate processes are documented, how many exceptions they carry and where hand-offs and waiting times sit. Stable but tedious processes are ideal for agents; processes that change every week are not, yet." },
-          { "icon": "compass", "title": "Culture and leadership", "text": "Whether leadership shares a view of what AI is for, how teams react to automation, and who would own a first agent. The best-scoring companies are rarely the most technical; they have a sponsor who shows up." }
+          {
+            "icon": "layers",
+            "title": "Data",
+            "text": "Where the documents, records and conversations for your candidate use cases actually live, how complete and current they are, and how hard they are to reach. Many companies score better here than they expect: agents work on unstructured material."
+          },
+          {
+            "icon": "puzzle",
+            "title": "Systems and integration",
+            "text": "Whether your ERP, CRM, ticketing, email and document systems offer usable interfaces or need workarounds, how identities and access are managed, and what it takes to let an agent read and write safely."
+          },
+          {
+            "icon": "people",
+            "title": "Skills and AI literacy",
+            "text": "Who already works with language models, how well, and where the gaps are. The EU AI Act expects a suitable level of AI literacy in organisations that use AI; we assess it plainly and name the [training](page:services/ai-training) that closes the gap."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance and compliance",
+            "text": "Existing rules on data protection and information security, how decisions about new tools are made, whether a works council must be involved, and how far you are from a defensible position under GDPR and the EU AI Act."
+          },
+          {
+            "icon": "workflow",
+            "title": "Processes",
+            "text": "How well the candidate processes are documented, how many exceptions they carry and where hand-offs and waiting times sit. Stable but tedious processes are ideal for agents; processes that change every week are not, yet."
+          },
+          {
+            "icon": "compass",
+            "title": "Culture and leadership",
+            "text": "Whether leadership shares a view of what AI is for, how teams react to automation, and who would own a first agent. The best-scoring companies are rarely the most technical; they have a sponsor who shows up."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How the assessment runs",
         "items": [
-          { "title": "Kick-off and scoping", "text": "We agree the functions in scope, the interview partners and the systems to review. You name one sponsor; we handle scheduling, preparation and a non-disclosure agreement before the first conversation.", "meta": "Day 1" },
-          { "title": "Interviews", "text": "Structured conversations with leadership, department heads and the people who do the work. We ask about volumes, exceptions, tools and frustrations, not about AI. The candidate use cases come out of these answers.", "meta": "Week 1" },
-          { "title": "System and data review", "text": "With your IT contact we look at integration options, data access, security controls and existing licences. Where useful, we run a small sample of your documents through a model to see how it copes.", "meta": "Weeks 1–2" },
-          { "title": "Scoring and quick wins", "text": "We score the six dimensions, identify quick wins that need no new infrastructure and shortlist the use cases. For the top three we sketch a rough business case: baseline, expected effect, effort, running cost.", "meta": "Week 2" },
-          { "title": "Report and 90-day plan", "text": "A written report, the scorecard and a 90-day plan you can start on the following Monday. We present it to your leadership team and answer the hard questions live.", "meta": "Week 3" }
+          {
+            "title": "Kick-off and scoping",
+            "text": "We agree the functions in scope, the interview partners and the systems to review. You name one sponsor; we handle scheduling, preparation and a non-disclosure agreement before the first conversation.",
+            "meta": "Day 1"
+          },
+          {
+            "title": "Interviews",
+            "text": "Structured conversations with leadership, department heads and the people who do the work. We ask about volumes, exceptions, tools and frustrations, not about AI. The candidate use cases come out of these answers.",
+            "meta": "Week 1"
+          },
+          {
+            "title": "System and data review",
+            "text": "With your IT contact we look at integration options, data access, security controls and existing licences. Where useful, we run a small sample of your documents through a model to see how it copes.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Scoring and quick wins",
+            "text": "We score the six dimensions, identify quick wins that need no new infrastructure and shortlist the use cases. For the top three we sketch a rough business case: baseline, expected effect, effort, running cost.",
+            "meta": "Week 2"
+          },
+          {
+            "title": "Report and 90-day plan",
+            "text": "A written report, the scorecard and a 90-day plan you can start on the following Monday. We present it to your leadership team and answer the hard questions live.",
+            "meta": "Week 3"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Who this is for",
         "items": [
-          { "title": "Companies at the very beginning", "text": "You have tried a chat assistant, and now the board wants a plan. The assessment gives you an honest baseline and a first move that fits, whether you are a [startup](page:for/startups), a [Mittelstand](page:for/mittelstand) company (Germany's mid-sized, often owner-managed businesses) or a corporate function." },
-          { "title": "Companies with stalled pilots", "text": "Something was built, it worked in a demo and never went live. The scorecard usually shows why: a missing integration, no owner, no permission concept, no metric. We name the block and the cheapest way around it." },
-          { "title": "Leaders who need to justify a budget", "text": "A CFO, an advisory board or group headquarters wants to know why AI, why now and why this amount. Three use cases with a rough business case and a plan with milestones answer that better than a market forecast." }
+          {
+            "title": "Companies at the very beginning",
+            "text": "You have tried a chat assistant, and now the board wants a plan. The assessment gives you an honest baseline and a first move that fits, whether you are a [startup](page:for/startups), a [Mittelstand](page:for/mittelstand) company (Germany's mid-sized, often owner-managed businesses) or a corporate function."
+          },
+          {
+            "title": "Companies with stalled pilots",
+            "text": "Something was built, it worked in a demo and never went live. The scorecard usually shows why: a missing integration, no owner, no permission concept, no metric. We name the block and the cheapest way around it."
+          },
+          {
+            "title": "Leaders who need to justify a budget",
+            "text": "A CFO, an advisory board or group headquarters wants to know why AI, why now and why this amount. Three use cases with a rough business case and a plan with milestones answer that better than a market forecast."
+          }
         ]
       },
       {
@@ -69,32 +143,81 @@
         "heading": "What you get at the end",
         "variant": "check",
         "items": [
-          { "title": "A readiness scorecard", "text": "Six dimensions, each scored, with the evidence behind the score and the actions that would move it. Written so it can be repeated in a year." },
-          { "title": "Quick wins", "text": "Improvements you can make within days with tools you already license: better prompts and templates, a shared assistant for a team, a permission fix, a folder cleaned up for search." },
-          { "title": "Three first use cases with a rough business case", "text": "Each with the process owner, the systems involved, the data needed, the baseline metric and a first estimate of effect, effort and running cost. Ranked, with the reasoning shown." },
-          { "title": "A 90-day plan", "text": "Who does what, in which order, with which decision points, and where an [agent pilot](page:services/ai-agent-development), [data work](page:services/data-foundations) or a full [strategy](page:services/ai-strategy) comes next." }
+          {
+            "title": "A readiness scorecard",
+            "text": "Six dimensions, each scored, with the evidence behind the score and the actions that would move it. Written so it can be repeated in a year."
+          },
+          {
+            "title": "Quick wins",
+            "text": "Improvements you can make within days with tools you already license: better prompts and templates, a shared assistant for a team, a permission fix, a folder cleaned up for search."
+          },
+          {
+            "title": "Three first use cases with a rough business case",
+            "text": "Each with the process owner, the systems involved, the data needed, the baseline metric and a first estimate of effect, effort and running cost. Ranked, with the reasoning shown."
+          },
+          {
+            "title": "A 90-day plan",
+            "text": "Who does what, in which order, with which decision points, and where an [agent pilot](page:services/ai-agent-development), [data work](page:services/data-foundations) or a full [strategy](page:services/ai-strategy) comes next."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Systems and tools we typically review",
         "intro": "The assessment is vendor-neutral. These are systems we regularly meet during the system review and know how to evaluate for agent use; we hold no reseller agreements or vendor certifications.",
-        "items": ["SAP", "Microsoft Dynamics 365", "Microsoft 365 and SharePoint", "Salesforce", "HubSpot", "ServiceNow", "Jira and Confluence", "DATEV", "Google Workspace", "Microsoft Copilot", "ChatGPT Enterprise", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI", "n8n", "Microsoft Power Automate"]
+        "items": [
+          "SAP",
+          "Microsoft Dynamics 365",
+          "Microsoft 365 and SharePoint",
+          "Salesforce",
+          "HubSpot",
+          "ServiceNow",
+          "Jira and Confluence",
+          "DATEV",
+          "Google Workspace",
+          "Microsoft Copilot",
+          "ChatGPT Enterprise",
+          "Azure OpenAI",
+          "AWS Bedrock",
+          "Google Vertex AI",
+          "n8n",
+          "Microsoft Power Automate"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "How is the readiness assessment different from the AI strategy?", "a": "The assessment is a diagnostic: where you stand on six dimensions, what to fix first and which three use cases to start with. The [AI strategy](page:services/ai-strategy) is the full plan: use-case portfolio, target architecture, governance model and business case, sequenced into a roadmap. Many clients do the assessment first; its findings feed the strategy directly." },
-          { "q": "What do we need to prepare?", "a": "One sponsor, a list of interview partners and read access to the process documentation and the systems in scope. We sign a non-disclosure agreement before the first interview and only look at personal data where a use case requires it." },
-          { "q": "What if the result is that we are not ready?", "a": "Then you have saved a considerable amount of money. Every dimension comes with the actions that would move it, so the 90-day plan simply starts earlier in the chain: data access, a permission concept, an AI-literacy course. Not ready today is a position, not a verdict." },
-          { "q": "How much of our team's time does it take?", "a": "Roughly one hour per interview partner, two to three hours for the sponsor across the engagement and about half a day for your IT contact during the system review. We work remotely or on site in Berlin and across Germany, in English and German." },
-          { "q": "Does the scorecard cover the EU AI Act?", "a": "The governance dimension shows where you stand against the obligations for companies that use AI, such as the AI-literacy duty and the documentation higher-risk use cases would need. It is a structured input for your legal and data-protection teams, not legal advice; the current legal status should be checked with counsel. See our [EU AI Act guide](page:insights/eu-ai-act-guide)." }
+          {
+            "q": "How is the readiness assessment different from the AI strategy?",
+            "a": "The assessment is a diagnostic: where you stand on six dimensions, what to fix first and which three use cases to start with. The [AI strategy](page:services/ai-strategy) is the full plan: use-case portfolio, target architecture, governance model and business case, sequenced into a roadmap. Many clients do the assessment first; its findings feed the strategy directly."
+          },
+          {
+            "q": "What do we need to prepare?",
+            "a": "One sponsor, a list of interview partners and read access to the process documentation and the systems in scope. We sign a non-disclosure agreement before the first interview and only look at personal data where a use case requires it."
+          },
+          {
+            "q": "What if the result is that we are not ready?",
+            "a": "Then you have saved a considerable amount of money. Every dimension comes with the actions that would move it, so the 90-day plan simply starts earlier in the chain: data access, a permission concept, an AI-literacy course. Not ready today is a position, not a verdict."
+          },
+          {
+            "q": "How much of our team's time does it take?",
+            "a": "Roughly one hour per interview partner, two to three hours for the sponsor across the engagement and about half a day for your IT contact during the system review. We work remotely or on site in Berlin and across Germany, in English and German."
+          },
+          {
+            "q": "Does the scorecard cover the EU AI Act?",
+            "a": "The governance dimension shows where you stand against the obligations for companies that use AI, such as the AI-literacy duty and the documentation higher-risk use cases would need. It is a structured input for your legal and data-protection teams, not legal advice; the current legal status should be checked with counsel. See our [EU AI Act guide](page:insights/eu-ai-act-guide)."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/ai-strategy", "services/agentic-workflows", "services/data-foundations", "services/ai-training"]
+        "pages": [
+          "services/ai-strategy",
+          "services/agentic-workflows",
+          "services/data-foundations",
+          "services/ai-training"
+        ]
       }
     ]
   },
@@ -108,8 +231,14 @@
       "title": "KI-Readiness, gemessen",
       "titleAccent": "statt vermutet.",
       "standfirst": "Bevor Sie Budget für eine Strategie, eine Plattform oder einen ersten Agenten freigeben, lohnt sich ein nüchterner Blick auf das Fundament: Ihre Daten, Systeme, Mitarbeitenden und Regeln. In zwei bis drei Wochen bewerten wir alle sechs Dimensionen, benennen die Quick Wins und übergeben einen schriftlichen Bericht mit drei ersten Use Cases und einem 90-Tage-Plan.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -122,44 +251,112 @@
           "Wenn Sie Ihren ersten Use Case bereits kennen, gehen Sie direkt zur [agentischen Workflow-Automatisierung](page:services/agentic-workflows). Wenn Sie sich zuerst ein eigenes Bild machen wollen, ist unsere [KI-Readiness-Checkliste](page:insights/ai-readiness-checklist) ein guter Einstieg. Wenn Sie nicht sicher sind, wo Sie anfangen sollen: hier."
         ],
         "facts": [
-          ["Format", "Interviews, Systemprüfung, Scorecard, schriftlicher Bericht"],
-          ["Dauer", "In der Regel 2–3 Wochen"],
-          ["Für", "Geschäftsführung, COOs, CIOs, Bereichsleitung, Gründer"],
-          ["Ergebnis", "Scorecard, Quick Wins, drei erste Use Cases, 90-Tage-Plan"]
+          [
+            "Format",
+            "Interviews, Systemprüfung, Scorecard, schriftlicher Bericht"
+          ],
+          [
+            "Dauer",
+            "In der Regel 2–3 Wochen"
+          ],
+          [
+            "Für",
+            "Geschäftsführung, COOs, CIOs, Bereichsleitung, Gründer"
+          ],
+          [
+            "Ergebnis",
+            "Scorecard, Quick Wins, drei erste Use Cases, 90-Tage-Plan"
+          ]
         ],
-        "link": { "label": "Zum Vergleich: die vollständige KI-Strategie", "page": "services/ai-strategy" }
+        "link": {
+          "label": "Zum Vergleich: die vollständige KI-Strategie",
+          "page": "services/ai-strategy"
+        }
       },
       {
         "type": "cards",
         "heading": "Die sechs Dimensionen, die wir bewerten",
         "intro": "Jede Dimension erhält eine Bewertung, die Belege dahinter und die ein, zwei Maßnahmen, die sie verbessern würden. Zusammen ergeben sie Ihre Readiness-Scorecard.",
         "items": [
-          { "icon": "layers", "title": "Daten", "text": "Wo die Dokumente, Datensätze und Konversationen für Ihre Use-Case-Kandidaten tatsächlich liegen, wie vollständig und aktuell sie sind und wie schwer sie zu erreichen sind. Viele Unternehmen schneiden hier besser ab als erwartet: Agenten arbeiten mit unstrukturiertem Material." },
-          { "icon": "puzzle", "title": "Systeme und Integration", "text": "Ob ERP, CRM, Ticketsystem, E-Mail und Dokumentenablage brauchbare Schnittstellen bieten oder Umwege nötig sind, wie Identitäten und Zugriffe verwaltet werden und was es braucht, damit ein Agent sicher lesen und schreiben darf." },
-          { "icon": "people", "title": "Know-how und KI-Kompetenz", "text": "Wer bereits mit Sprachmodellen arbeitet, wie gut, und wo die Lücken sind. Der EU AI Act erwartet von Organisationen, die KI einsetzen, ein angemessenes Maß an KI-Kompetenz; wir bewerten das nüchtern und benennen die [Schulungen](page:services/ai-training), die die Lücke schließen." },
-          { "icon": "shield", "title": "Governance und Compliance", "text": "Bestehende Regeln zu Datenschutz und Informationssicherheit, wie Entscheidungen über neue Werkzeuge fallen, ob der Betriebsrat einzubinden ist und wie weit Sie von einer belastbaren Position nach DSGVO und EU AI Act entfernt sind." },
-          { "icon": "workflow", "title": "Prozesse", "text": "Wie gut die Kandidatenprozesse dokumentiert sind, wie viele Ausnahmen sie mit sich führen und wo Übergaben und Wartezeiten liegen. Stabile, aber mühsame Prozesse sind ideal für Agenten; Prozesse, die sich wöchentlich ändern, sind es noch nicht." },
-          { "icon": "compass", "title": "Kultur und Führung", "text": "Ob die Führung ein gemeinsames Bild davon hat, wozu KI dienen soll, wie Teams auf Automatisierung reagieren und wer einen ersten Agenten verantworten würde. Die Unternehmen mit den besten Werten sind selten die technischsten; sie haben einen Sponsor, der präsent ist." }
+          {
+            "icon": "layers",
+            "title": "Daten",
+            "text": "Wo die Dokumente, Datensätze und Konversationen für Ihre Use-Case-Kandidaten tatsächlich liegen, wie vollständig und aktuell sie sind und wie schwer sie zu erreichen sind. Viele Unternehmen schneiden hier besser ab als erwartet: Agenten arbeiten mit unstrukturiertem Material."
+          },
+          {
+            "icon": "puzzle",
+            "title": "Systeme und Integration",
+            "text": "Ob ERP, CRM, Ticketsystem, E-Mail und Dokumentenablage brauchbare Schnittstellen bieten oder Umwege nötig sind, wie Identitäten und Zugriffe verwaltet werden und was es braucht, damit ein Agent sicher lesen und schreiben darf."
+          },
+          {
+            "icon": "people",
+            "title": "Know-how und KI-Kompetenz",
+            "text": "Wer bereits mit Sprachmodellen arbeitet, wie gut, und wo die Lücken sind. Der EU AI Act erwartet von Organisationen, die KI einsetzen, ein angemessenes Maß an KI-Kompetenz; wir bewerten das nüchtern und benennen die [Schulungen](page:services/ai-training), die die Lücke schließen."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance und Compliance",
+            "text": "Bestehende Regeln zu Datenschutz und Informationssicherheit, wie Entscheidungen über neue Werkzeuge fallen, ob der Betriebsrat einzubinden ist und wie weit Sie von einer belastbaren Position nach DSGVO und EU AI Act entfernt sind."
+          },
+          {
+            "icon": "workflow",
+            "title": "Prozesse",
+            "text": "Wie gut die Kandidatenprozesse dokumentiert sind, wie viele Ausnahmen sie mit sich führen und wo Übergaben und Wartezeiten liegen. Stabile, aber mühsame Prozesse sind ideal für Agenten; Prozesse, die sich wöchentlich ändern, sind es noch nicht."
+          },
+          {
+            "icon": "compass",
+            "title": "Kultur und Führung",
+            "text": "Ob die Führung ein gemeinsames Bild davon hat, wozu KI dienen soll, wie Teams auf Automatisierung reagieren und wer einen ersten Agenten verantworten würde. Die Unternehmen mit den besten Werten sind selten die technischsten; sie haben einen Sponsor, der präsent ist."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So läuft das Assessment ab",
         "items": [
-          { "title": "Kick-off und Scoping", "text": "Wir legen gemeinsam fest, welche Bereiche, Gesprächspartner und Systeme in den Blick kommen. Sie benennen einen Sponsor; Terminplanung, Vorbereitung und eine Vertraulichkeitsvereinbarung vor dem ersten Gespräch übernehmen wir.", "meta": "Tag 1" },
-          { "title": "Interviews", "text": "Strukturierte Gespräche mit der Geschäftsführung, den Bereichsleitungen und den Menschen, die die Arbeit machen. Wir fragen nach Mengen, Ausnahmen, Werkzeugen und Ärgernissen, nicht nach KI. Aus diesen Antworten entstehen die Use-Case-Kandidaten.", "meta": "Woche 1" },
-          { "title": "System- und Datenprüfung", "text": "Mit Ihrer IT sehen wir uns Integrationsmöglichkeiten, Datenzugriff, Sicherheitskontrollen und vorhandene Lizenzen an. Wo es sinnvoll ist, schicken wir eine kleine Stichprobe Ihrer Dokumente durch ein Modell, um zu sehen, wie gut es zurechtkommt.", "meta": "Wochen 1–2" },
-          { "title": "Bewertung und Quick Wins", "text": "Wir bewerten die sechs Dimensionen, identifizieren Quick Wins ohne neue Infrastruktur und erstellen eine Shortlist der Use Cases. Für die besten drei skizzieren wir einen groben Business Case: Ausgangslage, erwarteter Effekt, Aufwand, laufende Kosten.", "meta": "Woche 2" },
-          { "title": "Bericht und 90-Tage-Plan", "text": "Ein schriftlicher Bericht, die Scorecard und ein 90-Tage-Plan, mit dem Sie am folgenden Montag beginnen können. Wir stellen ihn Ihrer Führungsrunde vor und beantworten die schwierigen Fragen direkt.", "meta": "Woche 3" }
+          {
+            "title": "Kick-off und Scoping",
+            "text": "Wir legen gemeinsam fest, welche Bereiche, Gesprächspartner und Systeme in den Blick kommen. Sie benennen einen Sponsor; Terminplanung, Vorbereitung und eine Vertraulichkeitsvereinbarung vor dem ersten Gespräch übernehmen wir.",
+            "meta": "Tag 1"
+          },
+          {
+            "title": "Interviews",
+            "text": "Strukturierte Gespräche mit der Geschäftsführung, den Bereichsleitungen und den Menschen, die die Arbeit machen. Wir fragen nach Mengen, Ausnahmen, Werkzeugen und Ärgernissen, nicht nach KI. Aus diesen Antworten entstehen die Use-Case-Kandidaten.",
+            "meta": "Woche 1"
+          },
+          {
+            "title": "System- und Datenprüfung",
+            "text": "Mit Ihrer IT sehen wir uns Integrationsmöglichkeiten, Datenzugriff, Sicherheitskontrollen und vorhandene Lizenzen an. Wo es sinnvoll ist, schicken wir eine kleine Stichprobe Ihrer Dokumente durch ein Modell, um zu sehen, wie gut es zurechtkommt.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Bewertung und Quick Wins",
+            "text": "Wir bewerten die sechs Dimensionen, identifizieren Quick Wins ohne neue Infrastruktur und erstellen eine Shortlist der Use Cases. Für die besten drei skizzieren wir einen groben Business Case: Ausgangslage, erwarteter Effekt, Aufwand, laufende Kosten.",
+            "meta": "Woche 2"
+          },
+          {
+            "title": "Bericht und 90-Tage-Plan",
+            "text": "Ein schriftlicher Bericht, die Scorecard und ein 90-Tage-Plan, mit dem Sie am folgenden Montag beginnen können. Wir stellen ihn Ihrer Führungsrunde vor und beantworten die schwierigen Fragen direkt.",
+            "meta": "Woche 3"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Für wen das gedacht ist",
         "items": [
-          { "title": "Unternehmen ganz am Anfang", "text": "Sie haben einen Chat-Assistenten ausprobiert, und jetzt will die Geschäftsführung oder der Beirat einen Plan. Das Assessment liefert eine ehrliche Ausgangsbasis und einen ersten Schritt, der passt – ob [Startup](page:for/startups), [Mittelstand](page:for/mittelstand) oder Konzernbereich." },
-          { "title": "Unternehmen mit festgefahrenen Piloten", "text": "Etwas wurde gebaut, hat in der Demo funktioniert und ist nie live gegangen. Die Scorecard zeigt meist, warum: eine fehlende Integration, kein Verantwortlicher, kein Berechtigungskonzept, keine Kennzahl. Wir benennen die Blockade und den günstigsten Weg daran vorbei." },
-          { "title": "Führungskräfte, die ein Budget begründen müssen", "text": "Ein CFO, ein Beirat oder die Konzernzentrale will wissen: Warum KI, warum jetzt und warum dieser Betrag. Drei Use Cases mit grobem Business Case und ein Plan mit Meilensteinen beantworten das besser als eine Marktprognose." }
+          {
+            "title": "Unternehmen ganz am Anfang",
+            "text": "Sie haben einen Chat-Assistenten ausprobiert, und jetzt will die Geschäftsführung oder der Beirat einen Plan. Das Assessment liefert eine ehrliche Ausgangsbasis und einen ersten Schritt, der passt – ob [Startup](page:for/startups), [Mittelstand](page:for/mittelstand) oder Konzernbereich."
+          },
+          {
+            "title": "Unternehmen mit festgefahrenen Piloten",
+            "text": "Etwas wurde gebaut, hat in der Demo funktioniert und ist nie live gegangen. Die Scorecard zeigt meist, warum: eine fehlende Integration, kein Verantwortlicher, kein Berechtigungskonzept, keine Kennzahl. Wir benennen die Blockade und den günstigsten Weg daran vorbei."
+          },
+          {
+            "title": "Führungskräfte, die ein Budget begründen müssen",
+            "text": "Ein CFO, ein Beirat oder die Konzernzentrale will wissen: Warum KI, warum jetzt und warum dieser Betrag. Drei Use Cases mit grobem Business Case und ein Plan mit Meilensteinen beantworten das besser als eine Marktprognose."
+          }
         ]
       },
       {
@@ -167,32 +364,81 @@
         "heading": "Was Sie am Ende in der Hand haben",
         "variant": "check",
         "items": [
-          { "title": "Eine Readiness-Scorecard", "text": "Sechs Dimensionen, jede bewertet, mit den Belegen hinter der Bewertung und den Maßnahmen, die sie verbessern würden. So geschrieben, dass sie sich in einem Jahr wiederholen lässt." },
-          { "title": "Quick Wins", "text": "Verbesserungen, die Sie innerhalb von Tagen mit bereits lizenzierten Werkzeugen umsetzen: bessere Prompts und Vorlagen, ein gemeinsamer Assistent für ein Team, eine korrigierte Berechtigung, ein für die Suche aufgeräumter Ordner." },
-          { "title": "Drei erste Use Cases mit grobem Business Case", "text": "Jeweils mit Prozessverantwortlichem, beteiligten Systemen, benötigten Daten, Ausgangskennzahl und einer ersten Schätzung von Effekt, Aufwand und laufenden Kosten. Priorisiert, mit nachvollziehbarer Begründung." },
-          { "title": "Einen 90-Tage-Plan", "text": "Wer was in welcher Reihenfolge tut, mit welchen Entscheidungspunkten, und wo ein [Agenten-Pilot](page:services/ai-agent-development), [Datenarbeit](page:services/data-foundations) oder eine vollständige [Strategie](page:services/ai-strategy) anschließt." }
+          {
+            "title": "Eine Readiness-Scorecard",
+            "text": "Sechs Dimensionen, jede bewertet, mit den Belegen hinter der Bewertung und den Maßnahmen, die sie verbessern würden. So geschrieben, dass sie sich in einem Jahr wiederholen lässt."
+          },
+          {
+            "title": "Quick Wins",
+            "text": "Verbesserungen, die Sie innerhalb von Tagen mit bereits lizenzierten Werkzeugen umsetzen: bessere Prompts und Vorlagen, ein gemeinsamer Assistent für ein Team, eine korrigierte Berechtigung, ein für die Suche aufgeräumter Ordner."
+          },
+          {
+            "title": "Drei erste Use Cases mit grobem Business Case",
+            "text": "Jeweils mit Prozessverantwortlichem, beteiligten Systemen, benötigten Daten, Ausgangskennzahl und einer ersten Schätzung von Effekt, Aufwand und laufenden Kosten. Priorisiert, mit nachvollziehbarer Begründung."
+          },
+          {
+            "title": "Einen 90-Tage-Plan",
+            "text": "Wer was in welcher Reihenfolge tut, mit welchen Entscheidungspunkten, und wo ein [Agenten-Pilot](page:services/ai-agent-development), [Datenarbeit](page:services/data-foundations) oder eine vollständige [Strategie](page:services/ai-strategy) anschließt."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Systeme und Werkzeuge, die wir typischerweise prüfen",
         "intro": "Das Assessment ist herstellerneutral. Diese Systeme begegnen uns bei der Systemprüfung regelmäßig, und wir wissen, wie man sie für den Agenteneinsatz bewertet; Reseller-Verträge oder Herstellerzertifizierungen haben wir keine.",
-        "items": ["SAP", "Microsoft Dynamics 365", "Microsoft 365 und SharePoint", "Salesforce", "HubSpot", "ServiceNow", "Jira und Confluence", "DATEV", "Google Workspace", "Microsoft Copilot", "ChatGPT Enterprise", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI", "n8n", "Microsoft Power Automate"]
+        "items": [
+          "SAP",
+          "Microsoft Dynamics 365",
+          "Microsoft 365 und SharePoint",
+          "Salesforce",
+          "HubSpot",
+          "ServiceNow",
+          "Jira und Confluence",
+          "DATEV",
+          "Google Workspace",
+          "Microsoft Copilot",
+          "ChatGPT Enterprise",
+          "Azure OpenAI",
+          "AWS Bedrock",
+          "Google Vertex AI",
+          "n8n",
+          "Microsoft Power Automate"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Worin unterscheidet sich das Readiness-Assessment von der KI-Strategie?", "a": "Das Assessment ist eine Diagnose: wo Sie in sechs Dimensionen stehen, was zuerst zu beheben ist und mit welchen drei Use Cases Sie beginnen sollten. Die [KI-Strategie](page:services/ai-strategy) ist der vollständige Plan: Use-Case-Portfolio, Zielarchitektur, Governance-Modell und Business Case, geordnet in eine Roadmap. Viele Kunden beginnen mit dem Assessment; seine Ergebnisse fließen direkt in die Strategie ein." },
-          { "q": "Was müssen wir vorbereiten?", "a": "Einen Sponsor, eine Liste der Gesprächspartner und Lesezugriff auf die Prozessdokumentation und die betrachteten Systeme. Wir unterzeichnen vor dem ersten Interview eine Vertraulichkeitsvereinbarung und sehen uns personenbezogene Daten nur an, wo ein Use Case es erfordert." },
-          { "q": "Was, wenn das Ergebnis lautet: noch nicht bereit?", "a": "Dann haben Sie viel Geld gespart. Jede Dimension kommt mit den Maßnahmen, die sie verbessern würden, sodass der 90-Tage-Plan einfach früher in der Kette ansetzt: Datenzugriff, ein Berechtigungskonzept, eine Schulung zur KI-Kompetenz. „Heute noch nicht bereit“ ist eine Position, kein Urteil." },
-          { "q": "Wie viel Zeit muss unser Team investieren?", "a": "Etwa eine Stunde je Gesprächspartner, zwei bis drei Stunden für den Sponsor über das gesamte Projekt und rund einen halben Tag für Ihre IT während der Systemprüfung. Wir arbeiten remote oder vor Ort in Berlin und deutschlandweit, auf Deutsch und Englisch." },
-          { "q": "Deckt die Scorecard den EU AI Act ab?", "a": "Die Governance-Dimension zeigt, wo Sie im Verhältnis zu den Pflichten für KI-nutzende Unternehmen stehen, etwa der Pflicht zur KI-Kompetenz und der Dokumentation, die risikoreichere Use Cases bräuchten. Das ist ein strukturierter Input für Ihre Rechts- und Datenschutzverantwortlichen, keine Rechtsberatung; den aktuellen Rechtsstand sollten Sie anwaltlich prüfen lassen. Siehe unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)." }
+          {
+            "q": "Worin unterscheidet sich das Readiness-Assessment von der KI-Strategie?",
+            "a": "Das Assessment ist eine Diagnose: wo Sie in sechs Dimensionen stehen, was zuerst zu beheben ist und mit welchen drei Use Cases Sie beginnen sollten. Die [KI-Strategie](page:services/ai-strategy) ist der vollständige Plan: Use-Case-Portfolio, Zielarchitektur, Governance-Modell und Business Case, geordnet in eine Roadmap. Viele Kunden beginnen mit dem Assessment; seine Ergebnisse fließen direkt in die Strategie ein."
+          },
+          {
+            "q": "Was müssen wir vorbereiten?",
+            "a": "Einen Sponsor, eine Liste der Gesprächspartner und Lesezugriff auf die Prozessdokumentation und die betrachteten Systeme. Wir unterzeichnen vor dem ersten Interview eine Vertraulichkeitsvereinbarung und sehen uns personenbezogene Daten nur an, wo ein Use Case es erfordert."
+          },
+          {
+            "q": "Was, wenn das Ergebnis lautet: noch nicht bereit?",
+            "a": "Dann haben Sie viel Geld gespart. Jede Dimension kommt mit den Maßnahmen, die sie verbessern würden, sodass der 90-Tage-Plan einfach früher in der Kette ansetzt: Datenzugriff, ein Berechtigungskonzept, eine Schulung zur KI-Kompetenz. „Heute noch nicht bereit“ ist eine Position, kein Urteil."
+          },
+          {
+            "q": "Wie viel Zeit muss unser Team investieren?",
+            "a": "Etwa eine Stunde je Gesprächspartner, zwei bis drei Stunden für den Sponsor über das gesamte Projekt und rund einen halben Tag für Ihre IT während der Systemprüfung. Wir arbeiten remote oder vor Ort in Berlin und deutschlandweit, auf Deutsch und Englisch."
+          },
+          {
+            "q": "Deckt die Scorecard den EU AI Act ab?",
+            "a": "Die Governance-Dimension zeigt, wo Sie im Verhältnis zu den Pflichten für KI-nutzende Unternehmen stehen, etwa der Pflicht zur KI-Kompetenz und der Dokumentation, die risikoreichere Use Cases bräuchten. Das ist ein strukturierter Input für Ihre Rechts- und Datenschutzverantwortlichen, keine Rechtsberatung; den aktuellen Rechtsstand sollten Sie anwaltlich prüfen lassen. Siehe unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/ai-strategy", "services/agentic-workflows", "services/data-foundations", "services/ai-training"]
+        "pages": [
+          "services/ai-strategy",
+          "services/agentic-workflows",
+          "services/data-foundations",
+          "services/ai-training"
+        ]
       }
     ]
   }

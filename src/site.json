@@ -441,7 +441,7 @@
       "ctaTitle": "Let's find the first workflow worth automating.",
       "ctaText": "A 30-minute intro call, no slides and no obligation. We listen, ask about your processes, and tell you honestly where AI agents would pay off and where they would not.",
       "ctaLabel": "Book an intro call",
-      "ctaSecondary": "Or write to hello@neurotech-ai.de",
+      "ctaSecondary": "Or send us a message",
       "breadcrumb": "Breadcrumb",
       "notFoundTitle": "Page not found",
       "notFoundText": "The page you were looking for does not exist or has moved. The links below will get you back on track.",
@@ -510,7 +510,7 @@
       "ctaTitle": "Finden wir den ersten Workflow, der sich wirklich lohnt.",
       "ctaText": "Ein 30-minütiges Erstgespräch, ohne Folien und ohne Verpflichtung. Wir hören zu, fragen nach Ihren Prozessen und sagen Ihnen ehrlich, wo KI-Agenten sich rechnen – und wo nicht.",
       "ctaLabel": "Erstgespräch vereinbaren",
-      "ctaSecondary": "Oder schreiben Sie an hello@neurotech-ai.de",
+      "ctaSecondary": "Oder schreiben Sie uns",
       "breadcrumb": "Brotkrumennavigation",
       "notFoundTitle": "Seite nicht gefunden",
       "notFoundText": "Die gesuchte Seite existiert nicht oder wurde verschoben. Über die Links unten finden Sie zurück.",
@@ -549,5 +549,6 @@
         "success": "Vielen Dank. Wir melden uns innerhalb von zwei Werktagen."
       }
     }
-  }
+  },
+  "bookingUrl": "https://calendar.app.google/HXyo9UDaymRLVZmH8"
 }

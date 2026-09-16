@@ -12,7 +12,7 @@
       "standfirst": "Most AI strategies are slide decks. Ours is a ranked list of workflows worth automating, a target architecture that fits your systems, the guardrails you need under GDPR and the EU AI Act, and a business case with numbers you can defend. Then we help you build it.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "See how we work",
@@ -214,7 +214,7 @@
       "standfirst": "Die meisten KI-Strategien sind Foliensätze. Unsere ist eine Rangliste der Workflows, die sich automatisieren lohnen, eine Zielarchitektur, die zu Ihren Systemen passt, die nötigen Leitplanken nach DSGVO und EU AI Act und ein Business Case mit Zahlen, die Sie verteidigen können. Und anschließend helfen wir beim Bauen.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

@@ -13,7 +13,7 @@
       "standfirst": "Ten services that cover the full path: understanding where AI pays off, deciding what to build, building it with the right guardrails, enabling your people, and running it reliably. Take one, or the whole path.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -128,7 +128,7 @@
       "standfirst": "Zehn Leistungen, die den gesamten Weg abdecken: verstehen, wo KI sich rechnet, entscheiden, was gebaut wird, es mit den richtigen Leitplanken bauen, Ihre Mitarbeitenden befähigen und es zuverlässig betreiben. Nehmen Sie eine davon – oder den ganzen Weg.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

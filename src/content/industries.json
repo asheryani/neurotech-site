@@ -13,7 +13,7 @@
       "standfirst": "An agent that processes orders in a machine builder's ERP and an agent that triages claims at an insurer share most of their architecture. What differs is regulation, systems, data and the people who have to trust them. These pages cover what changes by industry.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -72,7 +72,7 @@
       "standfirst": "Ein Agent, der im ERP eines Maschinenbauers Aufträge verarbeitet, und ein Agent, der bei einem Versicherer Schadenmeldungen sortiert, teilen sich den Großteil ihrer Architektur. Was sich unterscheidet, sind Regulierung, Systeme, Daten und die Menschen, die ihnen vertrauen müssen. Diese Seiten zeigen, was sich je Branche ändert.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

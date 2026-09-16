@@ -39,13 +39,16 @@
             "h2": "4. Fonts"
           },
           {
-            "p": "The site loads the Instrument typefaces from Google Fonts (Google Ireland Ltd.). When your browser fetches a font file, Google receives the technical request data, including your IP address. The legal basis is Art. 6(1)(f) GDPR. If you prefer to avoid this, the site renders fully with system fonts when font loading is blocked."
+            "p": "The typefaces used on this site are hosted on our own web space and delivered together with the pages. No font requests are sent to Google or any other third party."
           },
           {
             "h2": "5. Contact form and email"
           },
           {
             "p": "The contact form does not transmit data to this website or to any third-party service. When you submit it, your browser opens your own email program with a pre-filled message; nothing is sent until you send that email yourself. Any details you enter reach us only as part of that email."
+          },
+          {
+            "p": "The \"Book an intro call\" buttons link to an appointment-booking page provided by Google Calendar (Google Ireland Ltd.). It opens only when you click the button; data you enter there is processed by Google to schedule the appointment and made available to us. Google's privacy policy applies to that page."
           },
           {
             "p": "If you email us, we process your email address, name and the content of your message to handle your request and any subsequent business relationship (Art. 6(1)(b) GDPR) or on the basis of our legitimate interest in answering inquiries (Art. 6(1)(f) GDPR). Messages are kept only as long as the correspondence requires or commercial-law and tax-law retention duties demand."
@@ -113,13 +116,16 @@
             "h2": "4. Schriftarten"
           },
           {
-            "p": "Die Website lädt die Schriftfamilie Instrument von Google Fonts (Google Ireland Ltd.). Wenn Ihr Browser eine Schriftdatei abruft, erhält Google die technischen Abrufdaten einschließlich Ihrer IP-Adresse. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Wenn Sie das vermeiden möchten: Die Website ist auch mit Systemschriften vollständig nutzbar, wenn das Laden der Schriften blockiert wird."
+            "p": "Die auf dieser Website verwendeten Schriftarten liegen auf unserem eigenen Webspace und werden zusammen mit den Seiten ausgeliefert. Es werden keine Schriftanfragen an Google oder andere Dritte gesendet."
           },
           {
             "h2": "5. Kontaktformular und E-Mail"
           },
           {
             "p": "Das Kontaktformular übermittelt keine Daten an diese Website oder an Drittdienste. Beim Absenden öffnet Ihr Browser Ihr eigenes E-Mail-Programm mit einer vorausgefüllten Nachricht; gesendet wird erst, wenn Sie diese E-Mail selbst abschicken. Ihre Angaben erreichen uns ausschließlich als Teil dieser E-Mail."
+          },
+          {
+            "p": "Die Schaltflächen „Erstgespräch vereinbaren“ verlinken auf eine Terminbuchungsseite von Google Kalender (Google Ireland Ltd.). Sie öffnet sich erst, wenn Sie die Schaltfläche anklicken; dort eingegebene Daten werden von Google zur Terminvereinbarung verarbeitet und uns zur Verfügung gestellt. Für diese Seite gilt die Datenschutzerklärung von Google."
           },
           {
             "p": "Wenn Sie uns eine E-Mail schreiben, verarbeiten wir Ihre E-Mail-Adresse, Ihren Namen und den Inhalt Ihrer Nachricht zur Bearbeitung Ihrer Anfrage und einer etwaigen anschließenden Geschäftsbeziehung (Art. 6 Abs. 1 lit. b DSGVO) beziehungsweise auf Grundlage unseres berechtigten Interesses an der Beantwortung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO). Nachrichten werden nur so lange aufbewahrt, wie es die Korrespondenz erfordert oder handels- und steuerrechtliche Aufbewahrungspflichten verlangen."

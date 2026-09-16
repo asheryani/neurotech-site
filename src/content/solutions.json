@@ -13,7 +13,7 @@
       "standfirst": "Agents are not a department of their own. They live inside marketing, sales, service, operations, finance, HR, legal, IT and procurement, doing the repetitive, document-heavy, communication-heavy work that keeps skilled people from their actual jobs. These pages show what that looks like in practice.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -117,7 +117,7 @@
       "standfirst": "Agenten sind keine eigene Abteilung. Sie leben in Marketing, Vertrieb, Service, Operations, Finanzen, HR, Recht, IT und Einkauf und erledigen die repetitive, dokumenten- und kommunikationslastige Arbeit, die qualifizierte Menschen von ihrer eigentlichen Aufgabe abhält. Diese Seiten zeigen, wie das in der Praxis aussieht.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

@@ -1,0 +1,6 @@
+Instrument Serif and Instrument Sans are licensed under the SIL Open Font
+License, Version 1.1 (https://openfontlicense.org). Copyright of the
+respective font authors (Instrument Serif: Rodrigo Fuenzalida & Jordan Egstad;
+Instrument Sans: Rodrigo Fuenzalida, Jordan Egstad and contributors).
+The font files in this directory are served from this website solely to
+render its own pages; no font requests are sent to third parties.

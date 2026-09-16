@@ -12,7 +12,7 @@
       "standfirst": "E-commerce and retail run on volume: product data for every SKU in every channel and language, service requests that spike with every campaign, returns and claims that each need a decision. AI agents handle the volume, humans handle the exceptions and the brand. We build it to survive Black Friday.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -200,7 +200,7 @@
       "standfirst": "E-Commerce und Handel laufen über Volumen: Produktdaten für jede Artikelnummer in jedem Kanal und jeder Sprache, Serviceanfragen, die mit jeder Kampagne hochschnellen, Retouren und Reklamationen, die jeweils eine Entscheidung brauchen. KI-Agenten übernehmen das Volumen, Menschen die Ausnahmen und die Marke. Wir bauen es so, dass es den Black Friday übersteht.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

@@ -12,7 +12,7 @@
       "standfirst": "Legal and compliance teams are asked to review more contracts, answer more questions and track more regulation with the same headcount. AI agents take on the first pass, the retrieval and the monitoring, so qualified people spend their time on judgement, negotiation and risk. Every output that leaves the department is approved by a lawyer.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -215,7 +215,7 @@
       "standfirst": "Rechts- und Compliance-Teams sollen mehr Verträge prüfen, mehr Fragen beantworten und mehr Regulierung im Blick behalten – mit gleichbleibender Besetzung. KI-Agenten übernehmen den ersten Durchgang, die Recherche und das Monitoring, damit qualifizierte Menschen ihre Zeit für Bewertung, Verhandlung und Risiko einsetzen. Jedes Ergebnis, das die Abteilung verlässt, wird von einem Juristen freigegeben.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

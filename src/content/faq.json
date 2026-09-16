@@ -9,8 +9,14 @@
       "eyebrow": "Company · FAQ",
       "title": "Questions we hear in almost every first call",
       "standfirst": "Twenty-four questions, answered the way we answer them on the phone: plainly, without a sales deck, and with the honest caveats. If yours is missing, [write to us](page:contact) and we will add it.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -18,12 +24,30 @@
         "heading": "About working with us",
         "anchor": "working-with-us",
         "items": [
-          { "q": "Who is Neurotech AI Solutions?", "a": "A founder-led, senior-only consultancy in Berlin for AI strategy, agentic workflows and AI agents, founded in 2025. We are vendor-neutral: we hold no reseller agreements and recommend models and platforms based on your data, your systems and your risk appetite. Our focus is production over pilots, governance built in, humans in the loop and a business case you can measure. Everyone who works on your engagement has built and run AI systems themselves. More on the [about page](page:about)." },
-          { "q": "Do you work remotely or on site?", "a": "Remote-first, on site when it helps. Discovery workshops, leadership sessions and the start of a pilot are often better in the same room, and we travel to you in Berlin, across Germany and, where it makes sense, in Austria and Switzerland. Day-to-day build work, reviews and check-ins run remotely in your tools. We agree the rhythm with you at the start so that nobody spends time on trains for a status update." },
-          { "q": "In which languages do you work?", "a": "English and German, natively in both. Workshops, documentation, roadmaps and the agents themselves can be delivered in either language or both, which matters when a German Mittelstand company has an English-speaking engineering team or an international group needs German-language agents for its local operations. Multilingual agents for further languages are part of the build, not a special request." },
-          { "q": "What size of company do you work with?", "a": "Startups from seed stage, Mittelstand companies (owner-managed German SMEs, typically between fifty and a few thousand employees) and business units of corporates. The work differs: startups need product and sequencing decisions, the Mittelstand needs a plan a lean IT team can execute, and corporates usually need governance and a reference architecture to get pilots into production. See [startups](page:for/startups), [Mittelstand](page:for/mittelstand) and [enterprise](page:for/enterprise)." },
-          { "q": "How does an engagement start?", "a": "With a 30-minute intro call. We listen, ask about your processes and tell you honestly where agents would pay off and where they would not. If it makes sense, the usual next step is a [readiness assessment](page:services/ai-readiness-assessment) of two to three weeks or a scoped pilot of six to eight weeks. After the call you receive a written proposal with scope, deliverables, timeline and price. No slide decks, no obligation." },
-          { "q": "How do you charge?", "a": "Fixed-scope packages for defined formats such as the readiness assessment, the strategy and roadmap or an agent pilot, and monthly retainers for managed AI operations, fractional Chief AI Officer roles and longer scale-out programmes. Every proposal is quoted after the intro call, once we understand the scope, and states what is included and what would be extra. We do not bill for the intro call, and we do not publish rate cards, because scope varies too much for a single number to be meaningful." }
+          {
+            "q": "Who is Neurotech AI Solutions?",
+            "a": "A founder-led, senior-only consultancy in Berlin for AI strategy, agentic workflows and AI agents, founded in 2025. We are vendor-neutral: we hold no reseller agreements and recommend models and platforms based on your data, your systems and your risk appetite. Our focus is production over pilots, governance built in, humans in the loop and a business case you can measure. Everyone who works on your engagement has built and run AI systems themselves. More on the [about page](page:about)."
+          },
+          {
+            "q": "Do you work remotely or on site?",
+            "a": "Remote-first, on site when it helps. Discovery workshops, leadership sessions and the start of a pilot are often better in the same room, and we travel to you in Berlin, across Germany and, where it makes sense, in Austria and Switzerland. Day-to-day build work, reviews and check-ins run remotely in your tools. We agree the rhythm with you at the start so that nobody spends time on trains for a status update."
+          },
+          {
+            "q": "In which languages do you work?",
+            "a": "English and German, natively in both. Workshops, documentation, roadmaps and the agents themselves can be delivered in either language or both, which matters when a German Mittelstand company has an English-speaking engineering team or an international group needs German-language agents for its local operations. Multilingual agents for further languages are part of the build, not a special request."
+          },
+          {
+            "q": "What size of company do you work with?",
+            "a": "Startups from seed stage, Mittelstand companies (owner-managed German SMEs, typically between fifty and a few thousand employees) and business units of corporates. The work differs: startups need product and sequencing decisions, the Mittelstand needs a plan a lean IT team can execute, and corporates usually need governance and a reference architecture to get pilots into production. See [startups](page:for/startups), [Mittelstand](page:for/mittelstand) and [enterprise](page:for/enterprise)."
+          },
+          {
+            "q": "How does an engagement start?",
+            "a": "With a 30-minute intro call. We listen, ask about your processes and tell you honestly where agents would pay off and where they would not. If it makes sense, the usual next step is a [readiness assessment](page:services/ai-readiness-assessment) of two to three weeks or a scoped pilot of six to eight weeks. After the call you receive a written proposal with scope, deliverables, timeline and price. No slide decks, no obligation."
+          },
+          {
+            "q": "How do you charge?",
+            "a": "Fixed-scope packages for defined formats such as the readiness assessment, the strategy and roadmap or an agent pilot, and monthly retainers for managed AI operations, fractional Chief AI Officer roles and longer scale-out programmes. Every proposal is quoted after the intro call, once we understand the scope, and states what is included and what would be extra. We do not bill for the intro call, and we do not publish rate cards, because scope varies too much for a single number to be meaningful."
+          }
         ]
       },
       {
@@ -31,13 +55,34 @@
         "heading": "About AI agents and automation",
         "anchor": "agents-and-automation",
         "items": [
-          { "q": "What is an AI agent?", "a": "Software that uses a language model to work toward a goal in several steps: it reads inputs, decides what to do next, uses tools such as your CRM, ERP, email or a database, checks the result and continues until the task is done or a person needs to decide. A chatbot answers a question; an agent processes the order, drafts the reply, updates the system and flags the exception. Our article [What is agentic AI?](page:insights/what-is-agentic-ai) goes into detail." },
-          { "q": "What is the difference between an agent, a chatbot and RPA?", "a": "A chatbot converses: it answers questions in a dialogue and stops there. RPA (robotic process automation) replays fixed click sequences on structured screens and breaks when a form changes. An agent understands unstructured input, decides between steps, uses systems through their interfaces and can hand over to a person when unsure. In practice they combine: an agent may use RPA-style connectors as tools and offer a chat interface. See [agents vs. RPA vs. chatbots](page:insights/agents-vs-rpa-vs-chatbots)." },
-          { "q": "Which processes are suited to agents?", "a": "Processes with high volume, unstructured input such as emails, documents and tickets, clear rules for the normal case and a measurable outcome: order intake, claims and invoice processing, customer service, onboarding, contract review, internal knowledge questions, reporting drafts. Poorly suited: rare, high-stakes decisions with little precedent, processes nobody can describe, and anything for which the data does not exist yet. Our guide to [choosing the first use case](page:insights/first-agent-use-case) includes a checklist." },
-          { "q": "How long does it take to get to a working pilot?", "a": "Typically six to eight weeks from kickoff to a production-grade pilot running on your real data and systems with the team that owns the process. The first two weeks go into scoping, access and the baseline, the rest into building, testing with real cases and iterating. Longer timelines are usually caused by access to systems and data, not by the AI, which is why we settle access in week one." },
-          { "q": "Should we build or buy?", "a": "Buy where a vendor's agent already covers your process well and the data may go there; build where the process is specific to you, the data is sensitive or the agent becomes part of your product. Many companies do both: a platform such as Microsoft Copilot Studio, n8n or a CRM vendor's agents for standard cases, custom agents for the workflows that set them apart. We are vendor-neutral and help you decide per use case. See [build vs. buy](page:insights/build-vs-buy)." },
-          { "q": "Which models and platforms do you work with?", "a": "Whatever fits the use case, the data and your existing landscape: models from OpenAI, Anthropic, Google, Mistral and open-weight models on EU infrastructure; platforms such as Microsoft Copilot Studio, Salesforce Agentforce, n8n, LangGraph or custom code; and the Model Context Protocol (MCP) to connect agents to systems. We have no partnerships or reseller agreements and no preference beyond what works for you and stays operable by your team." },
-          { "q": "What happens if the model provider changes or a model is discontinued?", "a": "This will happen, so we design for it. The model sits behind an abstraction layer, prompts and evaluations are versioned, and every agent has an evaluation suite so that a replacement model can be tested against real cases within days. Where data protection or contracts require it, we keep an EU-hosted or open-weight alternative ready. Your agents belong to you, not to a model." }
+          {
+            "q": "What is an AI agent?",
+            "a": "Software that uses a language model to work toward a goal in several steps: it reads inputs, decides what to do next, uses tools such as your CRM, ERP, email or a database, checks the result and continues until the task is done or a person needs to decide. A chatbot answers a question; an agent processes the order, drafts the reply, updates the system and flags the exception. Our article [What is agentic AI?](page:insights/what-is-agentic-ai) goes into detail."
+          },
+          {
+            "q": "What is the difference between an agent, a chatbot and RPA?",
+            "a": "A chatbot converses: it answers questions in a dialogue and stops there. RPA (robotic process automation) replays fixed click sequences on structured screens and breaks when a form changes. An agent understands unstructured input, decides between steps, uses systems through their interfaces and can hand over to a person when unsure. In practice they combine: an agent may use RPA-style connectors as tools and offer a chat interface. See [agents vs. RPA vs. chatbots](page:insights/agents-vs-rpa-vs-chatbots)."
+          },
+          {
+            "q": "Which processes are suited to agents?",
+            "a": "Processes with high volume, unstructured input such as emails, documents and tickets, clear rules for the normal case and a measurable outcome: order intake, claims and invoice processing, customer service, onboarding, contract review, internal knowledge questions, reporting drafts. Poorly suited: rare, high-stakes decisions with little precedent, processes nobody can describe, and anything for which the data does not exist yet. Our guide to [choosing the first use case](page:insights/first-agent-use-case) includes a checklist."
+          },
+          {
+            "q": "How long does it take to get to a working pilot?",
+            "a": "Typically six to eight weeks from kickoff to a production-grade pilot running on your real data and systems with the team that owns the process. The first two weeks go into scoping, access and the baseline, the rest into building, testing with real cases and iterating. Longer timelines are usually caused by access to systems and data, not by the AI, which is why we settle access in week one."
+          },
+          {
+            "q": "Should we build or buy?",
+            "a": "Buy where a vendor's agent already covers your process well and the data may go there; build where the process is specific to you, the data is sensitive or the agent becomes part of your product. Many companies do both: a platform such as Microsoft Copilot Studio, n8n or a CRM vendor's agents for standard cases, custom agents for the workflows that set them apart. We are vendor-neutral and help you decide per use case. See [build vs. buy](page:insights/build-vs-buy)."
+          },
+          {
+            "q": "Which models and platforms do you work with?",
+            "a": "Whatever fits the use case, the data and your existing landscape: models from OpenAI, Anthropic, Google, Mistral and open-weight models on EU infrastructure; platforms such as Microsoft Copilot Studio, Salesforce Agentforce, n8n, LangGraph or custom code; and the Model Context Protocol (MCP) to connect agents to systems. We have no partnerships or reseller agreements and no preference beyond what works for you and stays operable by your team."
+          },
+          {
+            "q": "What happens if the model provider changes or a model is discontinued?",
+            "a": "This will happen, so we design for it. The model sits behind an abstraction layer, prompts and evaluations are versioned, and every agent has an evaluation suite so that a replacement model can be tested against real cases within days. Where data protection or contracts require it, we keep an EU-hosted or open-weight alternative ready. Your agents belong to you, not to a model."
+          }
         ]
       },
       {
@@ -45,12 +90,30 @@
         "heading": "About data protection and compliance",
         "anchor": "data-protection",
         "items": [
-          { "q": "How do you handle GDPR?", "a": "As a design constraint from day one, not as a review at the end. Each use case starts with a look at which personal data is involved, whether it is needed and where it may be processed. We minimise the data sent to models, prefer EU processing, support your data-protection officer with data-flow documentation and, where required, provide the input for a data protection impact assessment. This is not legal advice; it is engineering that makes your legal review straightforward." },
-          { "q": "Can models run in the EU or on our own infrastructure?", "a": "Yes. Options include EU-region endpoints of the large providers, European providers, private cloud deployments and open-weight models on your own hardware. The trade-off is between capability, cost and control, and it differs per use case: a knowledge assistant for internal documents may run entirely on your own infrastructure while a customer-facing agent uses an EU-hosted frontier model. Our article on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting) explains the options." },
-          { "q": "Is the EU AI Act relevant for a normal company?", "a": "Yes, in a manageable way. The AI literacy duty applies to any organisation using AI in its operations; transparency duties apply when people interact with AI or read AI-generated content; and a small number of use cases, for example in HR, credit or critical infrastructure, count as high-risk with extensive obligations. Most business agents are outside the high-risk list. We classify each use case, document it and recommend confirming with counsel, since guidance and timelines are still evolving. Start with our [EU AI Act guide](page:insights/eu-ai-act-guide)." },
-          { "q": "Do we need to involve the works council?", "a": "In Germany, usually yes, whenever a system could be used to monitor performance or behaviour, which describes most agents that log who did what. Involving the works council early, with a clear description of what the agent does, what it logs and what it is not used for, is far quicker than a late objection. We bring templates for that description and experience with the questions works councils ask." },
-          { "q": "What data do the agents see?", "a": "Only what the task requires, and only through permissions you control. Agents access systems with their own scoped credentials, retrieval is limited to the documents the requesting person may see, and sensitive fields are masked or excluded where they are not needed. Everything the agent reads and writes is logged. We define this scope with you in writing before the build starts." },
-          { "q": "Who owns the code, the prompts and the IP?", "a": "You do. Everything we build for you, including code, prompts, evaluation suites, documentation and configurations, belongs to your company. We may reuse general know-how and patterns, never your data or your specifics. You are free to run, change or extend the system with your own team or another partner. Our proposals say this explicitly." }
+          {
+            "q": "How do you handle GDPR?",
+            "a": "As a design constraint from day one, not as a review at the end. Each use case starts with a look at which personal data is involved, whether it is needed and where it may be processed. We minimise the data sent to models, prefer EU processing, support your data-protection officer with data-flow documentation and, where required, provide the input for a data protection impact assessment. This is not legal advice; it is engineering that makes your legal review straightforward."
+          },
+          {
+            "q": "Can models run in the EU or on our own infrastructure?",
+            "a": "Yes. Options include EU-region endpoints of the large providers, European providers, private cloud deployments and open-weight models on your own hardware. The trade-off is between capability, cost and control, and it differs per use case: a knowledge assistant for internal documents may run entirely on your own infrastructure while a customer-facing agent uses an EU-hosted frontier model. Our article on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting) explains the options."
+          },
+          {
+            "q": "Is the EU AI Act relevant for a normal company?",
+            "a": "Yes, in a manageable way. The AI literacy duty applies to any organisation using AI in its operations; transparency duties apply when people interact with AI or read AI-generated content; and a small number of use cases, for example in HR, credit or critical infrastructure, count as high-risk with extensive obligations. Most business agents are outside the high-risk list. We classify each use case, document it and recommend confirming with counsel, since guidance and timelines are still evolving. Start with our [EU AI Act guide](page:insights/eu-ai-act-guide)."
+          },
+          {
+            "q": "Do we need to involve the works council?",
+            "a": "In Germany, usually yes, whenever a system could be used to monitor performance or behaviour, which describes most agents that log who did what. Involving the works council early, with a clear description of what the agent does, what it logs and what it is not used for, is far quicker than a late objection. We bring templates for that description and experience with the questions works councils ask."
+          },
+          {
+            "q": "What data do the agents see?",
+            "a": "Only what the task requires, and only through permissions you control. Agents access systems with their own scoped credentials, retrieval is limited to the documents the requesting person may see, and sensitive fields are masked or excluded where they are not needed. Everything the agent reads and writes is logged. We define this scope with you in writing before the build starts."
+          },
+          {
+            "q": "Who owns the code, the prompts and the IP?",
+            "a": "You do. Everything we build for you, including code, prompts, evaluation suites, documentation and configurations, belongs to your company. We may reuse general know-how and patterns, never your data or your specifics. You are free to run, change or extend the system with your own team or another partner. Our proposals say this explicitly."
+          }
         ]
       },
       {
@@ -58,17 +121,37 @@
         "heading": "About results and risk",
         "anchor": "results-and-risk",
         "items": [
-          { "q": "How do you measure ROI?", "a": "With a baseline before we build: hours per case, cycle time, error rate, response time, backlog, revenue effect, whatever the process actually turns on. The pilot measures the same numbers on real cases, and the business case uses your volumes and your cost rates, with the assumptions written down. We do not promise a figure in advance; we agree the metric, measure it and let the numbers decide whether to scale." },
-          { "q": "What if it does not work?", "a": "Then you find out in weeks, not years, and with a written explanation. Pilots are scoped so that failure is cheap: a bounded process, a fixed timeframe, real cases, a clear success criterion. If the agent does not meet it, the report says why, whether a smaller scope would work and what would need to change first. Sometimes the honest answer is that the process is not ready, and we say so." },
-          { "q": "What does this mean for jobs and for our people?", "a": "In most companies the first agents absorb backlog and growth rather than replace people, because the routine work they take over was crowding out the work that needs judgement. Change still needs managing: roles shift toward reviewing, deciding and handling exceptions. We involve the people who run the process from the first workshop, and we offer [training](page:services/ai-training) so that teams learn to work with agents instead of around them." },
-          { "q": "What about hallucinations and errors?", "a": "Language models can produce confident nonsense, so we never rely on the model alone. Agents are grounded in your documents and systems, cite their sources, work within guardrails and hand anything below a confidence threshold to a person. Evaluation suites measure the error rate before go-live and monitoring watches it afterwards. The goal is not zero errors, which no process achieves; it is an error rate you know, that is lower than today's and that is caught before it reaches a customer. See [guardrails for agents](page:insights/guardrails-for-agents)." },
-          { "q": "What happens after go-live?", "a": "Agents need care like any production system: models change, documents change, new edge cases appear. After go-live you get monitoring, an escalation path and a handover to your team. If you would rather not operate it yourself, [managed AI operations](page:services/managed-ai-operations) covers monitoring, evaluation, updates and improvements on a monthly retainer. Either way, the system is documented so that the choice remains yours." }
+          {
+            "q": "How do you measure ROI?",
+            "a": "With a baseline before we build: hours per case, cycle time, error rate, response time, backlog, revenue effect, whatever the process actually turns on. The pilot measures the same numbers on real cases, and the business case uses your volumes and your cost rates, with the assumptions written down. We do not promise a figure in advance; we agree the metric, measure it and let the numbers decide whether to scale."
+          },
+          {
+            "q": "What if it does not work?",
+            "a": "Then you find out in weeks, not years, and with a written explanation. Pilots are scoped so that failure is cheap: a bounded process, a fixed timeframe, real cases, a clear success criterion. If the agent does not meet it, the report says why, whether a smaller scope would work and what would need to change first. Sometimes the honest answer is that the process is not ready, and we say so."
+          },
+          {
+            "q": "What does this mean for jobs and for our people?",
+            "a": "In most companies the first agents absorb backlog and growth rather than replace people, because the routine work they take over was crowding out the work that needs judgement. Change still needs managing: roles shift toward reviewing, deciding and handling exceptions. We involve the people who run the process from the first workshop, and we offer [training](page:services/ai-training) so that teams learn to work with agents instead of around them."
+          },
+          {
+            "q": "What about hallucinations and errors?",
+            "a": "Language models can produce confident nonsense, so we never rely on the model alone. Agents are grounded in your documents and systems, cite their sources, work within guardrails and hand anything below a confidence threshold to a person. Evaluation suites measure the error rate before go-live and monitoring watches it afterwards. The goal is not zero errors, which no process achieves; it is an error rate you know, that is lower than today's and that is caught before it reaches a customer. See [guardrails for agents](page:insights/guardrails-for-agents)."
+          },
+          {
+            "q": "What happens after go-live?",
+            "a": "Agents need care like any production system: models change, documents change, new edge cases appear. After go-live you get monitoring, an escalation path and a handover to your team. If you would rather not operate it yourself, [managed AI operations](page:services/managed-ai-operations) covers monitoring, evaluation, updates and improvements on a monthly retainer. Either way, the system is documented so that the choice remains yours."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Where to go next",
-        "pages": ["services/ai-readiness-assessment", "approach", "insights/what-is-agentic-ai", "contact"]
+        "pages": [
+          "services/ai-readiness-assessment",
+          "approach",
+          "insights/what-is-agentic-ai",
+          "contact"
+        ]
       }
     ]
   },
@@ -81,8 +164,14 @@
       "eyebrow": "Unternehmen · FAQ",
       "title": "Fragen, die wir in fast jedem Erstgespräch hören",
       "standfirst": "Vierundzwanzig Fragen, beantwortet so, wie wir sie am Telefon beantworten: klar, ohne Verkaufsfolien und mit den ehrlichen Einschränkungen. Fehlt Ihre Frage, [schreiben Sie uns](page:contact) – wir ergänzen sie.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -90,12 +179,30 @@
         "heading": "Zur Zusammenarbeit mit uns",
         "anchor": "zusammenarbeit",
         "items": [
-          { "q": "Wer ist Neurotech AI Solutions?", "a": "Eine gründergeführte Boutique-Beratung in Berlin für KI-Strategie, agentische Workflows und KI-Agenten, gegründet 2025 und ausschließlich mit erfahrenen Beratern besetzt. Wir sind herstellerneutral: keine Reseller-Verträge, und Modell- wie Plattformempfehlungen richten sich nach Ihren Daten, Ihren Systemen und Ihrer Risikobereitschaft. Unser Fokus: Produktivbetrieb statt Pilotprojekte, Governance von Anfang an, Menschen im Prozess und ein messbarer Business Case. Jeder, der an Ihrem Projekt arbeitet, hat selbst KI-Systeme gebaut und betrieben. Mehr auf der Seite [Über uns](page:about)." },
-          { "q": "Arbeiten Sie remote oder vor Ort?", "a": "Remote-first, vor Ort, wenn es hilft. Discovery-Workshops, Führungssitzungen und der Start eines Piloten gelingen oft besser im selben Raum, und wir kommen zu Ihnen – in Berlin, deutschlandweit und, wo es sinnvoll ist, in Österreich und der Schweiz. Die tägliche Entwicklungsarbeit, Reviews und Abstimmungen laufen remote in Ihren Tools. Den Rhythmus vereinbaren wir zu Beginn, damit niemand für ein Status-Update im Zug sitzt." },
-          { "q": "In welchen Sprachen arbeiten Sie?", "a": "Deutsch und Englisch, beides auf muttersprachlichem Niveau. Workshops, Dokumentation, Roadmaps und die Agenten selbst liefern wir in einer der beiden Sprachen oder in beiden – wichtig, wenn ein Mittelständler ein englischsprachiges Entwicklungsteam hat oder ein internationaler Konzern deutschsprachige Agenten für den lokalen Betrieb braucht. Mehrsprachige Agenten für weitere Sprachen gehören zum Bau, nicht zu den Sonderwünschen." },
-          { "q": "Mit welchen Unternehmensgrößen arbeiten Sie?", "a": "Mit Startups ab der Seed-Phase, mit dem Mittelstand und mit Geschäftsbereichen von Konzernen. Die Arbeit unterscheidet sich: Startups brauchen Produkt- und Reihenfolgeentscheidungen, der Mittelstand einen Plan, den eine schlanke IT umsetzen kann, Konzerne meist Governance und eine Referenzarchitektur, um Piloten in den Produktivbetrieb zu bringen. Mehr unter [Startups](page:for/startups), [Mittelstand](page:for/mittelstand) und [Konzerne](page:for/enterprise)." },
-          { "q": "Wie beginnt eine Zusammenarbeit?", "a": "Mit einem 30-minütigen Erstgespräch. Wir hören zu, fragen nach Ihren Prozessen und sagen Ihnen ehrlich, wo Agenten sich rechnen und wo nicht. Passt es, ist der übliche nächste Schritt ein [Readiness-Assessment](page:services/ai-readiness-assessment) von zwei bis drei Wochen oder ein klar umrissener Pilot von sechs bis acht Wochen. Nach dem Gespräch erhalten Sie ein schriftliches Angebot mit Umfang, Ergebnissen, Zeitplan und Preis. Keine Folien, keine Verpflichtung." },
-          { "q": "Wie rechnen Sie ab?", "a": "Mit Festpreispaketen für definierte Formate wie das Readiness-Assessment, die Strategie und Roadmap oder einen Agenten-Piloten, und mit monatlichen Retainern für Managed AI Operations, Fractional-Chief-AI-Officer-Rollen und längere Ausbauprogramme. Jedes Angebot wird nach dem Erstgespräch kalkuliert, sobald wir den Umfang verstehen, und benennt, was enthalten ist und was zusätzlich wäre. Das Erstgespräch berechnen wir nicht, und wir veröffentlichen keine Tagessätze, weil der Umfang zu stark variiert, als dass eine einzelne Zahl aussagekräftig wäre." }
+          {
+            "q": "Wer ist Neurotech AI Solutions?",
+            "a": "Eine gründergeführte Boutique-Beratung in Berlin für KI-Strategie, agentische Workflows und KI-Agenten, gegründet 2025 und ausschließlich mit erfahrenen Beratern besetzt. Wir sind herstellerneutral: keine Reseller-Verträge, und Modell- wie Plattformempfehlungen richten sich nach Ihren Daten, Ihren Systemen und Ihrer Risikobereitschaft. Unser Fokus: Produktivbetrieb statt Pilotprojekte, Governance von Anfang an, Menschen im Prozess und ein messbarer Business Case. Jeder, der an Ihrem Projekt arbeitet, hat selbst KI-Systeme gebaut und betrieben. Mehr auf der Seite [Über uns](page:about)."
+          },
+          {
+            "q": "Arbeiten Sie remote oder vor Ort?",
+            "a": "Remote-first, vor Ort, wenn es hilft. Discovery-Workshops, Führungssitzungen und der Start eines Piloten gelingen oft besser im selben Raum, und wir kommen zu Ihnen – in Berlin, deutschlandweit und, wo es sinnvoll ist, in Österreich und der Schweiz. Die tägliche Entwicklungsarbeit, Reviews und Abstimmungen laufen remote in Ihren Tools. Den Rhythmus vereinbaren wir zu Beginn, damit niemand für ein Status-Update im Zug sitzt."
+          },
+          {
+            "q": "In welchen Sprachen arbeiten Sie?",
+            "a": "Deutsch und Englisch, beides auf muttersprachlichem Niveau. Workshops, Dokumentation, Roadmaps und die Agenten selbst liefern wir in einer der beiden Sprachen oder in beiden – wichtig, wenn ein Mittelständler ein englischsprachiges Entwicklungsteam hat oder ein internationaler Konzern deutschsprachige Agenten für den lokalen Betrieb braucht. Mehrsprachige Agenten für weitere Sprachen gehören zum Bau, nicht zu den Sonderwünschen."
+          },
+          {
+            "q": "Mit welchen Unternehmensgrößen arbeiten Sie?",
+            "a": "Mit Startups ab der Seed-Phase, mit dem Mittelstand und mit Geschäftsbereichen von Konzernen. Die Arbeit unterscheidet sich: Startups brauchen Produkt- und Reihenfolgeentscheidungen, der Mittelstand einen Plan, den eine schlanke IT umsetzen kann, Konzerne meist Governance und eine Referenzarchitektur, um Piloten in den Produktivbetrieb zu bringen. Mehr unter [Startups](page:for/startups), [Mittelstand](page:for/mittelstand) und [Konzerne](page:for/enterprise)."
+          },
+          {
+            "q": "Wie beginnt eine Zusammenarbeit?",
+            "a": "Mit einem 30-minütigen Erstgespräch. Wir hören zu, fragen nach Ihren Prozessen und sagen Ihnen ehrlich, wo Agenten sich rechnen und wo nicht. Passt es, ist der übliche nächste Schritt ein [Readiness-Assessment](page:services/ai-readiness-assessment) von zwei bis drei Wochen oder ein klar umrissener Pilot von sechs bis acht Wochen. Nach dem Gespräch erhalten Sie ein schriftliches Angebot mit Umfang, Ergebnissen, Zeitplan und Preis. Keine Folien, keine Verpflichtung."
+          },
+          {
+            "q": "Wie rechnen Sie ab?",
+            "a": "Mit Festpreispaketen für definierte Formate wie das Readiness-Assessment, die Strategie und Roadmap oder einen Agenten-Piloten, und mit monatlichen Retainern für Managed AI Operations, Fractional-Chief-AI-Officer-Rollen und längere Ausbauprogramme. Jedes Angebot wird nach dem Erstgespräch kalkuliert, sobald wir den Umfang verstehen, und benennt, was enthalten ist und was zusätzlich wäre. Das Erstgespräch berechnen wir nicht, und wir veröffentlichen keine Tagessätze, weil der Umfang zu stark variiert, als dass eine einzelne Zahl aussagekräftig wäre."
+          }
         ]
       },
       {
@@ -103,13 +210,34 @@
         "heading": "Zu KI-Agenten und Automatisierung",
         "anchor": "agenten-und-automatisierung",
         "items": [
-          { "q": "Was ist ein KI-Agent?", "a": "Software, die mit einem Sprachmodell in mehreren Schritten auf ein Ziel hinarbeitet: Sie liest Eingaben, entscheidet über den nächsten Schritt, nutzt Werkzeuge wie Ihr CRM, ERP, E-Mail oder eine Datenbank, prüft das Ergebnis und macht weiter, bis die Aufgabe erledigt ist oder ein Mensch entscheiden muss. Ein Chatbot beantwortet eine Frage; ein Agent verarbeitet die Bestellung, entwirft die Antwort, aktualisiert das System und markiert die Ausnahme. Unser Artikel [Was ist Agentic AI?](page:insights/what-is-agentic-ai) geht ins Detail." },
-          { "q": "Was unterscheidet einen Agenten von einem Chatbot und von RPA?", "a": "Ein Chatbot führt Dialoge: Er beantwortet Fragen und hört dort auf. RPA (Robotic Process Automation) spielt feste Klickfolgen auf strukturierten Masken ab und bricht, sobald sich ein Formular ändert. Ein Agent versteht unstrukturierte Eingaben, entscheidet zwischen Schritten, nutzt Systeme über ihre Schnittstellen und kann an einen Menschen übergeben, wenn er unsicher ist. In der Praxis kombinieren sie sich: Ein Agent kann RPA-artige Konnektoren als Werkzeuge nutzen und eine Chat-Oberfläche anbieten. Mehr unter [Agenten vs. RPA vs. Chatbots](page:insights/agents-vs-rpa-vs-chatbots)." },
-          { "q": "Welche Prozesse eignen sich für Agenten?", "a": "Prozesse mit hohem Volumen, unstrukturierten Eingaben wie E-Mails, Dokumenten und Tickets, klaren Regeln für den Normalfall und einem messbaren Ergebnis: Auftragserfassung, Schaden- und Rechnungsbearbeitung, Kundenservice, Onboarding, Vertragsprüfung, interne Wissensfragen, Berichtsentwürfe. Schlecht geeignet: seltene Entscheidungen mit hohem Einsatz und wenig Präzedenz, Prozesse, die niemand beschreiben kann, und alles, wofür die Daten noch nicht existieren. Unser Leitfaden zur [Auswahl des ersten Use Case](page:insights/first-agent-use-case) enthält eine Checkliste." },
-          { "q": "Wie lange dauert es bis zu einem funktionierenden Piloten?", "a": "In der Regel sechs bis acht Wochen vom Kickoff bis zu einem produktionsreifen Piloten, der auf Ihren echten Daten und Systemen mit dem Team läuft, das den Prozess verantwortet. Die ersten zwei Wochen gehen in Scoping, Zugänge und Ausgangsbasis, der Rest in Bau, Tests mit echten Fällen und Iteration. Längere Zeitpläne entstehen meist durch Zugänge zu Systemen und Daten, nicht durch die KI – deshalb klären wir Zugänge in Woche eins." },
-          { "q": "Selbst bauen oder kaufen?", "a": "Kaufen, wo der Agent eines Anbieters Ihren Prozess bereits gut abdeckt und die Daten dorthin dürfen; bauen, wo der Prozess spezifisch für Sie ist, die Daten sensibel sind oder der Agent Teil Ihres Produkts wird. Viele Unternehmen tun beides: eine Plattform wie Microsoft Copilot Studio, n8n oder die Agenten des CRM-Anbieters für Standardfälle, individuelle Agenten für die Workflows, die sie vom Wettbewerb unterscheiden. Wir sind herstellerneutral und helfen, das je Use Case zu entscheiden. Mehr unter [Selbst bauen oder kaufen](page:insights/build-vs-buy)." },
-          { "q": "Mit welchen Modellen und Plattformen arbeiten Sie?", "a": "Mit dem, was zu Use Case, Daten und Ihrer bestehenden Landschaft passt: Modelle von OpenAI, Anthropic, Google, Mistral und offene Modelle auf EU-Infrastruktur; Plattformen wie Microsoft Copilot Studio, Salesforce Agentforce, n8n, LangGraph oder eigener Code; und das Model Context Protocol (MCP), um Agenten mit Systemen zu verbinden. Wir haben keine Partnerschaften oder Reseller-Verträge und keine Präferenz jenseits dessen, was für Sie funktioniert und von Ihrem Team betreibbar bleibt." },
-          { "q": "Was passiert, wenn der Modellanbieter wechselt oder ein Modell eingestellt wird?", "a": "Das wird passieren, also planen wir es ein. Das Modell sitzt hinter einer Abstraktionsschicht, Prompts und Evaluationen sind versioniert, und jeder Agent hat eine Evaluationssuite, mit der ein Ersatzmodell innerhalb von Tagen an echten Fällen getestet werden kann. Wo Datenschutz oder Verträge es verlangen, halten wir eine EU-gehostete oder offene Alternative bereit. Ihre Agenten gehören Ihnen, nicht einem Modell." }
+          {
+            "q": "Was ist ein KI-Agent?",
+            "a": "Software, die mit einem Sprachmodell in mehreren Schritten auf ein Ziel hinarbeitet: Sie liest Eingaben, entscheidet über den nächsten Schritt, nutzt Werkzeuge wie Ihr CRM, ERP, E-Mail oder eine Datenbank, prüft das Ergebnis und macht weiter, bis die Aufgabe erledigt ist oder ein Mensch entscheiden muss. Ein Chatbot beantwortet eine Frage; ein Agent verarbeitet die Bestellung, entwirft die Antwort, aktualisiert das System und markiert die Ausnahme. Unser Artikel [Was ist Agentic AI?](page:insights/what-is-agentic-ai) geht ins Detail."
+          },
+          {
+            "q": "Was unterscheidet einen Agenten von einem Chatbot und von RPA?",
+            "a": "Ein Chatbot führt Dialoge: Er beantwortet Fragen und hört dort auf. RPA (Robotic Process Automation) spielt feste Klickfolgen auf strukturierten Masken ab und bricht, sobald sich ein Formular ändert. Ein Agent versteht unstrukturierte Eingaben, entscheidet zwischen Schritten, nutzt Systeme über ihre Schnittstellen und kann an einen Menschen übergeben, wenn er unsicher ist. In der Praxis kombinieren sie sich: Ein Agent kann RPA-artige Konnektoren als Werkzeuge nutzen und eine Chat-Oberfläche anbieten. Mehr unter [Agenten vs. RPA vs. Chatbots](page:insights/agents-vs-rpa-vs-chatbots)."
+          },
+          {
+            "q": "Welche Prozesse eignen sich für Agenten?",
+            "a": "Prozesse mit hohem Volumen, unstrukturierten Eingaben wie E-Mails, Dokumenten und Tickets, klaren Regeln für den Normalfall und einem messbaren Ergebnis: Auftragserfassung, Schaden- und Rechnungsbearbeitung, Kundenservice, Onboarding, Vertragsprüfung, interne Wissensfragen, Berichtsentwürfe. Schlecht geeignet: seltene Entscheidungen mit hohem Einsatz und wenig Präzedenz, Prozesse, die niemand beschreiben kann, und alles, wofür die Daten noch nicht existieren. Unser Leitfaden zur [Auswahl des ersten Use Case](page:insights/first-agent-use-case) enthält eine Checkliste."
+          },
+          {
+            "q": "Wie lange dauert es bis zu einem funktionierenden Piloten?",
+            "a": "In der Regel sechs bis acht Wochen vom Kickoff bis zu einem produktionsreifen Piloten, der auf Ihren echten Daten und Systemen mit dem Team läuft, das den Prozess verantwortet. Die ersten zwei Wochen gehen in Scoping, Zugänge und Ausgangsbasis, der Rest in Bau, Tests mit echten Fällen und Iteration. Längere Zeitpläne entstehen meist durch Zugänge zu Systemen und Daten, nicht durch die KI – deshalb klären wir Zugänge in Woche eins."
+          },
+          {
+            "q": "Selbst bauen oder kaufen?",
+            "a": "Kaufen, wo der Agent eines Anbieters Ihren Prozess bereits gut abdeckt und die Daten dorthin dürfen; bauen, wo der Prozess spezifisch für Sie ist, die Daten sensibel sind oder der Agent Teil Ihres Produkts wird. Viele Unternehmen tun beides: eine Plattform wie Microsoft Copilot Studio, n8n oder die Agenten des CRM-Anbieters für Standardfälle, individuelle Agenten für die Workflows, die sie vom Wettbewerb unterscheiden. Wir sind herstellerneutral und helfen, das je Use Case zu entscheiden. Mehr unter [Selbst bauen oder kaufen](page:insights/build-vs-buy)."
+          },
+          {
+            "q": "Mit welchen Modellen und Plattformen arbeiten Sie?",
+            "a": "Mit dem, was zu Use Case, Daten und Ihrer bestehenden Landschaft passt: Modelle von OpenAI, Anthropic, Google, Mistral und offene Modelle auf EU-Infrastruktur; Plattformen wie Microsoft Copilot Studio, Salesforce Agentforce, n8n, LangGraph oder eigener Code; und das Model Context Protocol (MCP), um Agenten mit Systemen zu verbinden. Wir haben keine Partnerschaften oder Reseller-Verträge und keine Präferenz jenseits dessen, was für Sie funktioniert und von Ihrem Team betreibbar bleibt."
+          },
+          {
+            "q": "Was passiert, wenn der Modellanbieter wechselt oder ein Modell eingestellt wird?",
+            "a": "Das wird passieren, also planen wir es ein. Das Modell sitzt hinter einer Abstraktionsschicht, Prompts und Evaluationen sind versioniert, und jeder Agent hat eine Evaluationssuite, mit der ein Ersatzmodell innerhalb von Tagen an echten Fällen getestet werden kann. Wo Datenschutz oder Verträge es verlangen, halten wir eine EU-gehostete oder offene Alternative bereit. Ihre Agenten gehören Ihnen, nicht einem Modell."
+          }
         ]
       },
       {
@@ -117,12 +245,30 @@
         "heading": "Zu Datenschutz und Compliance",
         "anchor": "datenschutz",
         "items": [
-          { "q": "Wie gehen Sie mit der DSGVO um?", "a": "Als Designvorgabe ab dem ersten Tag, nicht als Prüfung am Ende. Jeder Use Case beginnt mit dem Blick darauf, welche personenbezogenen Daten betroffen sind, ob sie gebraucht werden und wo sie verarbeitet werden dürfen. Wir minimieren die Daten, die an Modelle gehen, bevorzugen die Verarbeitung in der EU, unterstützen Ihren Datenschutzbeauftragten mit Datenflussdokumentation und liefern, wo nötig, den Input für eine Datenschutz-Folgenabschätzung. Das ist keine Rechtsberatung, sondern Engineering, das Ihre rechtliche Prüfung einfach macht." },
-          { "q": "Können Modelle in der EU oder auf unserer eigenen Infrastruktur laufen?", "a": "Ja. Die Optionen reichen von EU-Regionen der großen Anbieter über europäische Anbieter und Private-Cloud-Betrieb bis zu offenen Modellen auf eigener Hardware. Der Kompromiss liegt zwischen Leistungsfähigkeit, Kosten und Kontrolle und fällt je Use Case anders aus: Ein Wissensassistent für interne Dokumente kann vollständig auf Ihrer eigenen Infrastruktur laufen, während ein kundenseitiger Agent ein EU-gehostetes Spitzenmodell nutzt. Unser Beitrag zu [souveräner KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting) erklärt die Optionen." },
-          { "q": "Ist der EU AI Act für ein normales Unternehmen relevant?", "a": "Ja, in einem überschaubaren Maß. Die Pflicht zur KI-Kompetenz gilt für jede Organisation, die KI im Betrieb einsetzt; Transparenzpflichten greifen, wenn Menschen mit KI interagieren oder KI-generierte Inhalte lesen; und eine kleine Zahl von Anwendungen, etwa im Personalwesen, bei Krediten oder in kritischer Infrastruktur, gilt als Hochrisiko mit umfangreichen Pflichten. Die meisten Unternehmensagenten stehen nicht auf der Hochrisiko-Liste. Wir stufen jeden Use Case ein, dokumentieren ihn und empfehlen die Bestätigung durch Ihre Rechtsberatung, da sich Leitlinien und Fristen noch entwickeln. Einstieg: unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)." },
-          { "q": "Müssen wir den Betriebsrat einbeziehen?", "a": "In Deutschland in der Regel ja, sobald ein System geeignet ist, Leistung oder Verhalten zu überwachen – und das trifft auf die meisten Agenten zu, die protokollieren, wer was getan hat. Den Betriebsrat früh einzubeziehen, mit einer klaren Beschreibung, was der Agent tut, was er protokolliert und wofür er nicht verwendet wird, ist deutlich schneller als ein später Einspruch. Wir bringen Vorlagen für diese Beschreibung mit und wissen, was Betriebsräte fragen." },
-          { "q": "Welche Daten sehen die Agenten?", "a": "Nur das, was die Aufgabe erfordert, und nur über Berechtigungen, die Sie kontrollieren. Agenten greifen mit eigenen, eingeschränkten Zugangsdaten auf Systeme zu, Retrieval ist auf die Dokumente begrenzt, die die anfragende Person sehen darf, und sensible Felder werden maskiert oder ausgeschlossen, wo sie nicht gebraucht werden. Alles, was der Agent liest und schreibt, wird protokolliert. Diesen Rahmen legen wir mit Ihnen schriftlich fest, bevor der Bau beginnt." },
-          { "q": "Wem gehören Code, Prompts und geistiges Eigentum?", "a": "Ihnen. Alles, was wir für Sie bauen – Code, Prompts, Evaluationssuiten, Dokumentation und Konfigurationen –, gehört Ihrem Unternehmen. Wir dürfen allgemeines Know-how und Muster wiederverwenden, nie Ihre Daten oder Ihre Spezifika. Sie können das System mit Ihrem eigenen Team oder einem anderen Partner betreiben, ändern und erweitern. Unsere Angebote sagen das ausdrücklich." }
+          {
+            "q": "Wie gehen Sie mit der DSGVO um?",
+            "a": "Als Designvorgabe ab dem ersten Tag, nicht als Prüfung am Ende. Jeder Use Case beginnt mit dem Blick darauf, welche personenbezogenen Daten betroffen sind, ob sie gebraucht werden und wo sie verarbeitet werden dürfen. Wir minimieren die Daten, die an Modelle gehen, bevorzugen die Verarbeitung in der EU, unterstützen Ihren Datenschutzbeauftragten mit Datenflussdokumentation und liefern, wo nötig, den Input für eine Datenschutz-Folgenabschätzung. Das ist keine Rechtsberatung, sondern Engineering, das Ihre rechtliche Prüfung einfach macht."
+          },
+          {
+            "q": "Können Modelle in der EU oder auf unserer eigenen Infrastruktur laufen?",
+            "a": "Ja. Die Optionen reichen von EU-Regionen der großen Anbieter über europäische Anbieter und Private-Cloud-Betrieb bis zu offenen Modellen auf eigener Hardware. Der Kompromiss liegt zwischen Leistungsfähigkeit, Kosten und Kontrolle und fällt je Use Case anders aus: Ein Wissensassistent für interne Dokumente kann vollständig auf Ihrer eigenen Infrastruktur laufen, während ein kundenseitiger Agent ein EU-gehostetes Spitzenmodell nutzt. Unser Beitrag zu [souveräner KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting) erklärt die Optionen."
+          },
+          {
+            "q": "Ist der EU AI Act für ein normales Unternehmen relevant?",
+            "a": "Ja, in einem überschaubaren Maß. Die Pflicht zur KI-Kompetenz gilt für jede Organisation, die KI im Betrieb einsetzt; Transparenzpflichten greifen, wenn Menschen mit KI interagieren oder KI-generierte Inhalte lesen; und eine kleine Zahl von Anwendungen, etwa im Personalwesen, bei Krediten oder in kritischer Infrastruktur, gilt als Hochrisiko mit umfangreichen Pflichten. Die meisten Unternehmensagenten stehen nicht auf der Hochrisiko-Liste. Wir stufen jeden Use Case ein, dokumentieren ihn und empfehlen die Bestätigung durch Ihre Rechtsberatung, da sich Leitlinien und Fristen noch entwickeln. Einstieg: unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)."
+          },
+          {
+            "q": "Müssen wir den Betriebsrat einbeziehen?",
+            "a": "In Deutschland in der Regel ja, sobald ein System geeignet ist, Leistung oder Verhalten zu überwachen – und das trifft auf die meisten Agenten zu, die protokollieren, wer was getan hat. Den Betriebsrat früh einzubeziehen, mit einer klaren Beschreibung, was der Agent tut, was er protokolliert und wofür er nicht verwendet wird, ist deutlich schneller als ein später Einspruch. Wir bringen Vorlagen für diese Beschreibung mit und wissen, was Betriebsräte fragen."
+          },
+          {
+            "q": "Welche Daten sehen die Agenten?",
+            "a": "Nur das, was die Aufgabe erfordert, und nur über Berechtigungen, die Sie kontrollieren. Agenten greifen mit eigenen, eingeschränkten Zugangsdaten auf Systeme zu, Retrieval ist auf die Dokumente begrenzt, die die anfragende Person sehen darf, und sensible Felder werden maskiert oder ausgeschlossen, wo sie nicht gebraucht werden. Alles, was der Agent liest und schreibt, wird protokolliert. Diesen Rahmen legen wir mit Ihnen schriftlich fest, bevor der Bau beginnt."
+          },
+          {
+            "q": "Wem gehören Code, Prompts und geistiges Eigentum?",
+            "a": "Ihnen. Alles, was wir für Sie bauen – Code, Prompts, Evaluationssuiten, Dokumentation und Konfigurationen –, gehört Ihrem Unternehmen. Wir dürfen allgemeines Know-how und Muster wiederverwenden, nie Ihre Daten oder Ihre Spezifika. Sie können das System mit Ihrem eigenen Team oder einem anderen Partner betreiben, ändern und erweitern. Unsere Angebote sagen das ausdrücklich."
+          }
         ]
       },
       {
@@ -130,17 +276,37 @@
         "heading": "Zu Ergebnissen und Risiken",
         "anchor": "ergebnisse-und-risiken",
         "items": [
-          { "q": "Wie messen Sie den ROI?", "a": "Mit einer Ausgangsbasis, bevor wir bauen: Stunden pro Fall, Durchlaufzeit, Fehlerquote, Antwortzeit, Rückstand, Umsatzeffekt – was immer den Prozess tatsächlich bestimmt. Der Pilot misst dieselben Zahlen an echten Fällen, und der Business Case rechnet mit Ihren Volumina und Ihren Kostensätzen, mit dokumentierten Annahmen. Wir versprechen vorab keine Zahl; wir vereinbaren die Kennzahl, messen sie und lassen die Zahlen entscheiden, ob skaliert wird." },
-          { "q": "Was, wenn es nicht funktioniert?", "a": "Dann erfahren Sie es in Wochen statt Jahren, mit einer schriftlichen Erklärung. Piloten sind so zugeschnitten, dass Scheitern günstig ist: ein abgegrenzter Prozess, ein fester Zeitrahmen, echte Fälle, ein klares Erfolgskriterium. Erreicht der Agent es nicht, sagt der Bericht, warum, ob ein kleinerer Umfang funktionieren würde und was sich zuerst ändern müsste. Manchmal lautet die ehrliche Antwort, dass der Prozess noch nicht so weit ist – und das sagen wir dann auch." },
-          { "q": "Was bedeutet das für Arbeitsplätze und unsere Mitarbeitenden?", "a": "In den meisten Unternehmen fangen die ersten Agenten Rückstände und Wachstum auf, statt Menschen zu ersetzen – weil die Routinearbeit, die sie übernehmen, bisher die Arbeit verdrängt hat, die Urteilsvermögen braucht. Der Wandel muss trotzdem gestaltet werden: Rollen verschieben sich hin zu Prüfen, Entscheiden und Ausnahmen bearbeiten. Wir beziehen die Menschen, die den Prozess betreiben, ab dem ersten Workshop ein und bieten [Schulungen](page:services/ai-training) an, damit Teams lernen, mit Agenten zu arbeiten statt um sie herum." },
-          { "q": "Was ist mit Halluzinationen und Fehlern?", "a": "Sprachmodelle können selbstbewussten Unsinn produzieren, deshalb verlassen wir uns nie auf das Modell allein. Agenten sind in Ihren Dokumenten und Systemen verankert, nennen ihre Quellen, arbeiten innerhalb von Leitplanken und übergeben alles unterhalb einer Konfidenzschwelle an einen Menschen. Evaluationssuiten messen die Fehlerquote vor dem Go-live, Monitoring überwacht sie danach. Das Ziel sind nicht null Fehler – das erreicht kein Prozess –, sondern eine Fehlerquote, die Sie kennen, die niedriger ist als heute und die abgefangen wird, bevor sie einen Kunden erreicht. Mehr unter [Guardrails für Agenten](page:insights/guardrails-for-agents)." },
-          { "q": "Was passiert nach dem Go-live?", "a": "Agenten brauchen Pflege wie jedes Produktivsystem: Modelle ändern sich, Dokumente ändern sich, neue Sonderfälle tauchen auf. Nach dem Go-live erhalten Sie Monitoring, einen Eskalationsweg und eine Übergabe an Ihr Team. Wenn Sie den Betrieb lieber nicht selbst übernehmen, deckt [Managed AI Operations](page:services/managed-ai-operations) Monitoring, Evaluation, Updates und Verbesserungen im monatlichen Retainer ab. So oder so ist das System so dokumentiert, dass die Wahl bei Ihnen bleibt." }
+          {
+            "q": "Wie messen Sie den ROI?",
+            "a": "Mit einer Ausgangsbasis, bevor wir bauen: Stunden pro Fall, Durchlaufzeit, Fehlerquote, Antwortzeit, Rückstand, Umsatzeffekt – was immer den Prozess tatsächlich bestimmt. Der Pilot misst dieselben Zahlen an echten Fällen, und der Business Case rechnet mit Ihren Volumina und Ihren Kostensätzen, mit dokumentierten Annahmen. Wir versprechen vorab keine Zahl; wir vereinbaren die Kennzahl, messen sie und lassen die Zahlen entscheiden, ob skaliert wird."
+          },
+          {
+            "q": "Was, wenn es nicht funktioniert?",
+            "a": "Dann erfahren Sie es in Wochen statt Jahren, mit einer schriftlichen Erklärung. Piloten sind so zugeschnitten, dass Scheitern günstig ist: ein abgegrenzter Prozess, ein fester Zeitrahmen, echte Fälle, ein klares Erfolgskriterium. Erreicht der Agent es nicht, sagt der Bericht, warum, ob ein kleinerer Umfang funktionieren würde und was sich zuerst ändern müsste. Manchmal lautet die ehrliche Antwort, dass der Prozess noch nicht so weit ist – und das sagen wir dann auch."
+          },
+          {
+            "q": "Was bedeutet das für Arbeitsplätze und unsere Mitarbeitenden?",
+            "a": "In den meisten Unternehmen fangen die ersten Agenten Rückstände und Wachstum auf, statt Menschen zu ersetzen – weil die Routinearbeit, die sie übernehmen, bisher die Arbeit verdrängt hat, die Urteilsvermögen braucht. Der Wandel muss trotzdem gestaltet werden: Rollen verschieben sich hin zu Prüfen, Entscheiden und Ausnahmen bearbeiten. Wir beziehen die Menschen, die den Prozess betreiben, ab dem ersten Workshop ein und bieten [Schulungen](page:services/ai-training) an, damit Teams lernen, mit Agenten zu arbeiten statt um sie herum."
+          },
+          {
+            "q": "Was ist mit Halluzinationen und Fehlern?",
+            "a": "Sprachmodelle können selbstbewussten Unsinn produzieren, deshalb verlassen wir uns nie auf das Modell allein. Agenten sind in Ihren Dokumenten und Systemen verankert, nennen ihre Quellen, arbeiten innerhalb von Leitplanken und übergeben alles unterhalb einer Konfidenzschwelle an einen Menschen. Evaluationssuiten messen die Fehlerquote vor dem Go-live, Monitoring überwacht sie danach. Das Ziel sind nicht null Fehler – das erreicht kein Prozess –, sondern eine Fehlerquote, die Sie kennen, die niedriger ist als heute und die abgefangen wird, bevor sie einen Kunden erreicht. Mehr unter [Guardrails für Agenten](page:insights/guardrails-for-agents)."
+          },
+          {
+            "q": "Was passiert nach dem Go-live?",
+            "a": "Agenten brauchen Pflege wie jedes Produktivsystem: Modelle ändern sich, Dokumente ändern sich, neue Sonderfälle tauchen auf. Nach dem Go-live erhalten Sie Monitoring, einen Eskalationsweg und eine Übergabe an Ihr Team. Wenn Sie den Betrieb lieber nicht selbst übernehmen, deckt [Managed AI Operations](page:services/managed-ai-operations) Monitoring, Evaluation, Updates und Verbesserungen im monatlichen Retainer ab. So oder so ist das System so dokumentiert, dass die Wahl bei Ihnen bleibt."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Wie es weitergeht",
-        "pages": ["services/ai-readiness-assessment", "approach", "insights/what-is-agentic-ai", "contact"]
+        "pages": [
+          "services/ai-readiness-assessment",
+          "approach",
+          "insights/what-is-agentic-ai",
+          "contact"
+        ]
       }
     ]
   }

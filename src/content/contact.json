@@ -10,7 +10,15 @@
       "eyebrow": "Contact",
       "title": "Talk to a person,",
       "titleAccent": "not a funnel.",
-      "standfirst": "Tell us which processes, teams or goals you have in mind. We reply personally within two business days, usually with a proposed 30-minute call, a few questions, and an honest first take on whether and where AI agents would pay off for you."
+      "standfirst": "Tell us which processes, teams or goals you have in mind. We reply personally within two business days, usually with a proposed 30-minute call, a few questions, and an honest first take on whether and where AI agents would pay off for you.",
+      "cta": {
+        "label": "Pick a time for an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "Or use the form below",
+        "href": "#form"
+      }
     },
     "sections": [
       {
@@ -25,6 +33,10 @@
           "We work from Berlin-Lichtenberg and are happy to meet in person. Write first so the coffee is ready."
         ],
         "facts": [
+          [
+            "Book a call",
+            "[calendar.app.google](booking)"
+          ],
           [
             "Email",
             "hello@neurotech-ai.de"
@@ -94,7 +106,15 @@
       "eyebrow": "Kontakt",
       "title": "Sprechen Sie mit einem Menschen,",
       "titleAccent": "nicht mit einem Funnel.",
-      "standfirst": "Sagen Sie uns, welche Prozesse, Teams oder Ziele Sie im Blick haben. Wir antworten persönlich innerhalb von zwei Werktagen – meist mit einem Vorschlag für ein 30-minütiges Gespräch, ein paar Rückfragen und einer ehrlichen ersten Einschätzung, ob und wo sich KI-Agenten für Sie rechnen."
+      "standfirst": "Sagen Sie uns, welche Prozesse, Teams oder Ziele Sie im Blick haben. Wir antworten persönlich innerhalb von zwei Werktagen – meist mit einem Vorschlag für ein 30-minütiges Gespräch, ein paar Rückfragen und einer ehrlichen ersten Einschätzung, ob und wo sich KI-Agenten für Sie rechnen.",
+      "cta": {
+        "label": "Termin für ein Erstgespräch wählen",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "Oder das Formular nutzen",
+        "href": "#form"
+      }
     },
     "sections": [
       {
@@ -109,6 +129,10 @@
           "Wir arbeiten in Berlin-Lichtenberg und treffen Sie gern persönlich. Schreiben Sie vorher, damit der Kaffee fertig ist."
         ],
         "facts": [
+          [
+            "Termin buchen",
+            "[calendar.app.google](booking)"
+          ],
           [
             "E-Mail",
             "hello@neurotech-ai.de"

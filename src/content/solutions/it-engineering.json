@@ -12,7 +12,7 @@
       "standfirst": "IT teams get two things from AI agents: relief for their own work, from password resets to incident triage to legacy documentation, and the integration layer that lets agents in sales, finance and operations reach the systems they need. Both have to be done with least privilege, review gates and observability, or they will not survive the first security audit.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -220,7 +220,7 @@
       "standfirst": "IT-Teams bekommen zwei Dinge von KI-Agenten: Entlastung bei der eigenen Arbeit, vom Passwort-Reset über die Incident-Triage bis zur Legacy-Dokumentation, und die Integrationsschicht, über die Agenten in Vertrieb, Finanzen und Operations die Systeme erreichen, die sie brauchen. Beides muss mit Minimalrechten, Review-Gates und Observability umgesetzt werden – sonst übersteht es das erste Sicherheitsaudit nicht.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

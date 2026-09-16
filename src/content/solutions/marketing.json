@@ -10,8 +10,14 @@
       "title": "AI agents for marketing:",
       "titleAccent": "more output, same brand.",
       "standfirst": "Marketing was the first department to try generative AI and the first to learn its limit: more drafts, not more results. Agents change that by running whole workflows, from brief to published asset and from raw campaign data to the Monday report, while your editors and your legal team approve what matters.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "How we build agentic workflows", "page": "services/agentic-workflows" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "How we build agentic workflows",
+        "page": "services/agentic-workflows"
+      }
     },
     "sections": [
       {
@@ -24,81 +30,177 @@
           "We design agents around your editorial process rather than replacing it. The goal is production, not another pilot: a workflow that runs every week, with a baseline, a metric and a named owner."
         ],
         "facts": [
-          ["Typical entry point", "Weekly campaign reporting or one content pipeline"],
-          ["Systems", "CMS, DAM, analytics, ad platforms, marketing automation, CRM"],
-          ["Human checkpoint", "Editorial approval, claims and legal review, publishing"],
-          ["First pilot", "Typically 6–8 weeks"]
+          [
+            "Typical entry point",
+            "Weekly campaign reporting or one content pipeline"
+          ],
+          [
+            "Systems",
+            "CMS, DAM, analytics, ad platforms, marketing automation, CRM"
+          ],
+          [
+            "Human checkpoint",
+            "Editorial approval, claims and legal review, publishing"
+          ],
+          [
+            "First pilot",
+            "Typically 6–8 weeks"
+          ]
         ],
-        "link": { "label": "Read: choosing your first agent use case", "page": "insights/first-agent-use-case" }
+        "link": {
+          "label": "Read: choosing your first agent use case",
+          "page": "insights/first-agent-use-case"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases",
         "intro": "Six workflows we see in most marketing teams. Each names the systems involved and the point where a person decides.",
         "items": [
-          { "icon": "doc", "title": "Content operations agent", "text": "From brief to publishable asset: the agent drafts outline and copy from your brief, product pages and brand guide, localises with a glossary, and runs brand-voice, banned-term and claims checks before an editor sees it. Editors approve in their usual tool; the agent prepares the CMS entry and DAM assets. Nothing publishes without a human click." },
-          { "icon": "chart", "title": "Campaign performance reporting agent", "text": "Every Monday the agent pulls spend, impressions, conversions and pipeline from ad platforms, analytics, marketing automation and the CRM, reconciles the numbers, drafts commentary and flags anomalies against plan. The marketing lead reviews and annotates before the report reaches leadership." },
-          { "icon": "search", "title": "SEO and answer-engine research", "text": "The agent tracks what buyers ask search engines and AI assistants, checks whether your pages are cited in those answers, finds gaps against competitors and drafts content briefs with sources. Your content strategist decides what to pursue. Classic SEO and visibility in AI answers (GEO/AEO) are covered together." },
-          { "icon": "target", "title": "Personalisation and segment research", "text": "From CRM, product-usage and campaign data the agent proposes segments, explains what distinguishes them and drafts message variants for email, landing pages and ads. It checks the consent basis of the data, and a marketer approves segments and copy before anything runs." },
-          { "icon": "handshake", "title": "Lead enrichment and intent hand-off", "text": "New leads are enriched from permitted sources, scored on fit and intent signals (pages visited, downloads, event attendance), summarised in three sentences and routed to the right salesperson with a reason. Sales confirms or rejects the routing, which sharpens the rules. The other side is described under [AI agents for sales](page:solutions/sales)." },
-          { "icon": "gear", "title": "Marketing ops and market monitoring", "text": "The agent keeps CRM and marketing automation clean (duplicates, missing fields, UTM and asset naming), prepares bulk changes for approval, and watches competitors, pricing pages and industry news for a weekly digest. Bulk changes to customer records always need human approval." }
+          {
+            "icon": "doc",
+            "title": "Content operations agent",
+            "text": "From brief to publishable asset: the agent drafts outline and copy from your brief, product pages and brand guide, localises with a glossary, and runs brand-voice, banned-term and claims checks before an editor sees it. Editors approve in their usual tool; the agent prepares the CMS entry and DAM assets. Nothing publishes without a human click."
+          },
+          {
+            "icon": "chart",
+            "title": "Campaign performance reporting agent",
+            "text": "Every Monday the agent pulls spend, impressions, conversions and pipeline from ad platforms, analytics, marketing automation and the CRM, reconciles the numbers, drafts commentary and flags anomalies against plan. The marketing lead reviews and annotates before the report reaches leadership."
+          },
+          {
+            "icon": "search",
+            "title": "SEO and answer-engine research",
+            "text": "The agent tracks what buyers ask search engines and AI assistants, checks whether your pages are cited in those answers, finds gaps against competitors and drafts content briefs with sources. Your content strategist decides what to pursue. Classic SEO and visibility in AI answers (GEO/AEO) are covered together."
+          },
+          {
+            "icon": "target",
+            "title": "Personalisation and segment research",
+            "text": "From CRM, product-usage and campaign data the agent proposes segments, explains what distinguishes them and drafts message variants for email, landing pages and ads. It checks the consent basis of the data, and a marketer approves segments and copy before anything runs."
+          },
+          {
+            "icon": "handshake",
+            "title": "Lead enrichment and intent hand-off",
+            "text": "New leads are enriched from permitted sources, scored on fit and intent signals (pages visited, downloads, event attendance), summarised in three sentences and routed to the right salesperson with a reason. Sales confirms or rejects the routing, which sharpens the rules. The other side is described under [AI agents for sales](page:solutions/sales)."
+          },
+          {
+            "icon": "gear",
+            "title": "Marketing ops and market monitoring",
+            "text": "The agent keeps CRM and marketing automation clean (duplicates, missing fields, UTM and asset naming), prepares bulk changes for approval, and watches competitors, pricing pages and industry news for a weekly digest. Bulk changes to customer records always need human approval."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Worked example",
         "content": [
-          { "h2": "A content production pipeline with approval gates" },
-          { "p": "A typical scenario: a B2B company publishes in German and English across web, email and LinkedIn, and every asset passes through five inboxes. An agentic pipeline handles the same work like this, with a person deciding at each gate that matters." },
-          { "ol": [
-            "**Brief.** A campaign manager files the brief in the usual template: audience, goal, key message, channels, deadline. The agent checks it for completeness and asks for what is missing.",
-            "**Context.** The agent gathers product pages, previous pieces on the topic, the brand voice guide, the approved claims list and persona notes from your marketing platform.",
-            "**Outline (gate 1).** It proposes an outline and two angles. The content lead picks one or edits it. Nothing long is written before this decision.",
-            "**Draft and checks.** The agent writes the source-language draft and checks brand voice rules, banned terms, every claim against the approved list, links and readability. Results travel with the draft as a checklist.",
-            "**Localisation.** Further markets are produced with your glossary and market notes. Native reviewers see a side-by-side view instead of a blank page.",
-            "**Editorial approval (gate 2).** An editor edits inline in your CMS or document tool. Every change is logged and fed back as an example, so the next draft is closer.",
-            "**Claims and legal review (gate 3, where required).** Comparative, regulated or sustainability claims go to legal with their sources. Where policy or law requires it, AI-generated content is labelled.",
-            "**Publishing.** The agent prepares the CMS entry, metadata and DAM assets with licence checks, and schedules. In the first months a person presses publish.",
-            "**Feedback.** Performance flows back to the brief, and the weekly reporting agent picks it up."
-          ] },
-          { "note": "In the first weeks every step stops for a person. As the checklists show consistent quality you decide, gate by gate, what to relax; editorial and legal approval stay. We build these pipelines through our [agentic workflow](page:services/agentic-workflows) service, with [governance](page:services/ai-governance) designed in from the start." }
+          {
+            "h2": "A content production pipeline with approval gates"
+          },
+          {
+            "p": "A typical scenario: a B2B company publishes in German and English across web, email and LinkedIn, and every asset passes through five inboxes. An agentic pipeline handles the same work like this, with a person deciding at each gate that matters."
+          },
+          {
+            "ol": [
+              "**Brief.** A campaign manager files the brief in the usual template: audience, goal, key message, channels, deadline. The agent checks it for completeness and asks for what is missing.",
+              "**Context.** The agent gathers product pages, previous pieces on the topic, the brand voice guide, the approved claims list and persona notes from your marketing platform.",
+              "**Outline (gate 1).** It proposes an outline and two angles. The content lead picks one or edits it. Nothing long is written before this decision.",
+              "**Draft and checks.** The agent writes the source-language draft and checks brand voice rules, banned terms, every claim against the approved list, links and readability. Results travel with the draft as a checklist.",
+              "**Localisation.** Further markets are produced with your glossary and market notes. Native reviewers see a side-by-side view instead of a blank page.",
+              "**Editorial approval (gate 2).** An editor edits inline in your CMS or document tool. Every change is logged and fed back as an example, so the next draft is closer.",
+              "**Claims and legal review (gate 3, where required).** Comparative, regulated or sustainability claims go to legal with their sources. Where policy or law requires it, AI-generated content is labelled.",
+              "**Publishing.** The agent prepares the CMS entry, metadata and DAM assets with licence checks, and schedules. In the first months a person presses publish.",
+              "**Feedback.** Performance flows back to the brief, and the weekly reporting agent picks it up."
+            ]
+          },
+          {
+            "note": "In the first weeks every step stops for a person. As the checklists show consistent quality you decide, gate by gate, what to relax; editorial and legal approval stay. We build these pipelines through our [agentic workflow](page:services/agentic-workflows) service, with [governance](page:services/ai-governance) designed in from the start."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Guardrails and risks in marketing",
         "items": [
-          { "title": "Brand voice drift", "text": "Models default to a generic register. We encode your voice as rules and annotated examples, check every draft automatically and keep an editor as the last word. More in our guide to [guardrails for agents](page:insights/guardrails-for-agents)." },
-          { "title": "Claims, comparisons and legal exposure", "text": "An agent will happily write “the fastest on the market”. Every factual claim is checked against an approved list; comparative, health, financial or environmental claims go to legal, with the sources attached." },
-          { "title": "Personal data and consent", "text": "Segmentation, personalisation and enrichment run only on data with a valid legal basis under the GDPR: no scraping of personal profiles, data minimisation in prompts, EU hosting where required, a data-protection review before the pilot. Process design, not legal advice." },
-          { "title": "Disclosure of AI-generated content", "text": "The EU AI Act sets transparency duties for AI-generated and manipulated content, and platforms add their own rules. We build labelling into the workflow where it applies and recommend an internal policy checked against the current legal status." },
-          { "title": "Vanity metrics", "text": "More assets is not the goal. We baseline cycle time from brief to publication, cost per asset, first-pass approval rate and pipeline contribution before the pilot, so you can see what changed." }
+          {
+            "title": "Brand voice drift",
+            "text": "Models default to a generic register. We encode your voice as rules and annotated examples, check every draft automatically and keep an editor as the last word. More in our guide to [guardrails for agents](page:insights/guardrails-for-agents)."
+          },
+          {
+            "title": "Claims, comparisons and legal exposure",
+            "text": "An agent will happily write “the fastest on the market”. Every factual claim is checked against an approved list; comparative, health, financial or environmental claims go to legal, with the sources attached."
+          },
+          {
+            "title": "Personal data and consent",
+            "text": "Segmentation, personalisation and enrichment run only on data with a valid legal basis under the GDPR: no scraping of personal profiles, data minimisation in prompts, EU hosting where required, a data-protection review before the pilot. Process design, not legal advice."
+          },
+          {
+            "title": "Disclosure of AI-generated content",
+            "text": "The EU AI Act sets transparency duties for AI-generated and manipulated content, and platforms add their own rules. We build labelling into the workflow where it applies and recommend an internal policy checked against the current legal status."
+          },
+          {
+            "title": "Vanity metrics",
+            "text": "More assets is not the goal. We baseline cycle time from brief to publication, cost per asset, first-pass approval rate and pipeline contribution before the pilot, so you can see what changed."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we start",
         "items": [
-          { "title": "Marketing assessment", "text": "We map your content and campaign workflows, systems and volumes, interview the team and pick the first use case with a measurable baseline. Data protection and brand rules are reviewed here.", "meta": "2–3 weeks" },
-          { "title": "Workflow and gate design", "text": "We design the workflow with its approval gates, encode brand voice and claims rules, connect the systems and agree the governance with marketing, legal and IT." },
-          { "title": "Pilot", "text": "One team, one workflow, real campaigns. Weekly reviews of quality and metrics against the baseline, gates tuned, editors trained to work with the agent.", "meta": "6–8 weeks" },
-          { "title": "Scale and operate", "text": "Roll-out to more channels, markets and teams, further use cases from the list above, and [managed AI operations](page:services/managed-ai-operations) to keep prompts, rules and integrations current." }
+          {
+            "title": "Marketing assessment",
+            "text": "We map your content and campaign workflows, systems and volumes, interview the team and pick the first use case with a measurable baseline. Data protection and brand rules are reviewed here.",
+            "meta": "2–3 weeks"
+          },
+          {
+            "title": "Workflow and gate design",
+            "text": "We design the workflow with its approval gates, encode brand voice and claims rules, connect the systems and agree the governance with marketing, legal and IT."
+          },
+          {
+            "title": "Pilot",
+            "text": "One team, one workflow, real campaigns. Weekly reviews of quality and metrics against the baseline, gates tuned, editors trained to work with the agent.",
+            "meta": "6–8 weeks"
+          },
+          {
+            "title": "Scale and operate",
+            "text": "Roll-out to more channels, markets and teams, further use cases from the list above, and [managed AI operations](page:services/managed-ai-operations) to keep prompts, rules and integrations current."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Will the content sound generic or obviously AI-written?", "a": "Not if the workflow is built properly. The agent drafts from your briefs, product facts and an encoded brand voice, automated checks catch the usual tells, and an editor has the last word. Edits are fed back as examples, and we track the first-pass approval rate to show the trend." },
-          { "q": "How do you handle GDPR when the agent works with customer data?", "a": "We start with a data map: which fields the agent actually needs, where they come from and on what legal basis. Personal data stays out of prompts unless a use case needs it, tools are hosted in the EU where required, and your data-protection officer reviews the design before the pilot. The legal assessment stays with your counsel." },
-          { "q": "What happens to our content and campaign team?", "a": "Agents remove tasks, not usually roles. Retyping, versioning, reformatting and manual reporting disappear; briefing, editing, judgement about what to publish and maintaining the agent's rules grow. We plan that change with the team lead, including training, and are honest where a role does change." },
-          { "q": "Do we have to label AI-generated content?", "a": "In some cases, yes. The EU AI Act contains transparency duties for AI-generated and manipulated content, advertising and platform rules add their own, and obligations are being phased in. We build labelling into the workflow where it applies and recommend checking the current status with your legal team; our [EU AI Act guide](page:insights/eu-ai-act-guide) gives an overview." },
-          { "q": "Which tools do you use? We are on HubSpot and a headless CMS.", "a": "We are vendor-neutral. Agents connect to marketing automation, CMS, DAM, analytics and ad platforms through their APIs or the Model Context Protocol, and we evaluate the native AI features of your platforms before adding anything new. What we bring is workflow design, guardrails and integration work." }
+          {
+            "q": "Will the content sound generic or obviously AI-written?",
+            "a": "Not if the workflow is built properly. The agent drafts from your briefs, product facts and an encoded brand voice, automated checks catch the usual tells, and an editor has the last word. Edits are fed back as examples, and we track the first-pass approval rate to show the trend."
+          },
+          {
+            "q": "How do you handle GDPR when the agent works with customer data?",
+            "a": "We start with a data map: which fields the agent actually needs, where they come from and on what legal basis. Personal data stays out of prompts unless a use case needs it, tools are hosted in the EU where required, and your data-protection officer reviews the design before the pilot. The legal assessment stays with your counsel."
+          },
+          {
+            "q": "What happens to our content and campaign team?",
+            "a": "Agents remove tasks, not usually roles. Retyping, versioning, reformatting and manual reporting disappear; briefing, editing, judgement about what to publish and maintaining the agent's rules grow. We plan that change with the team lead, including training, and are honest where a role does change."
+          },
+          {
+            "q": "Do we have to label AI-generated content?",
+            "a": "In some cases, yes. The EU AI Act contains transparency duties for AI-generated and manipulated content, advertising and platform rules add their own, and obligations are being phased in. We build labelling into the workflow where it applies and recommend checking the current status with your legal team; our [EU AI Act guide](page:insights/eu-ai-act-guide) gives an overview."
+          },
+          {
+            "q": "Which tools do you use? We are on HubSpot and a headless CMS.",
+            "a": "We are vendor-neutral. Agents connect to marketing automation, CMS, DAM, analytics and ad platforms through their APIs or the Model Context Protocol, and we evaluate the native AI features of your platforms before adding anything new. What we bring is workflow design, guardrails and integration work."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["services/agentic-workflows", "services/ai-governance", "solutions/sales", "industries/ecommerce-retail"]
+        "pages": [
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "solutions/sales",
+          "industries/ecommerce-retail"
+        ]
       }
     ]
   },
@@ -112,8 +214,14 @@
       "title": "KI-Agenten im Marketing:",
       "titleAccent": "mehr Output, dieselbe Marke.",
       "standfirst": "Das Marketing hat generative KI als erste Abteilung ausprobiert – und als erste ihre Grenze erlebt: mehr Entwürfe, nicht mehr Ergebnisse. Agenten ändern das, weil sie ganze Workflows übernehmen, vom Briefing bis zum veröffentlichten Asset und von den Rohdaten bis zum Montagsreport, während Ihre Redaktion und Ihre Rechtsabteilung freigeben, was zählt.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So bauen wir agentische Workflows", "page": "services/agentic-workflows" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So bauen wir agentische Workflows",
+        "page": "services/agentic-workflows"
+      }
     },
     "sections": [
       {
@@ -126,81 +234,177 @@
           "Wir entwerfen Agenten entlang Ihres redaktionellen Prozesses, statt ihn zu ersetzen. Das Ziel ist Produktivbetrieb, nicht ein weiterer Pilot: ein Workflow, der jede Woche läuft, mit Ausgangswert, Kennzahl und einer verantwortlichen Person."
         ],
         "facts": [
-          ["Typischer Einstieg", "Wöchentliches Kampagnen-Reporting oder eine Content-Pipeline"],
-          ["Systeme", "CMS, DAM, Analytics, Werbeplattformen, Marketing-Automation, CRM"],
-          ["Kontrollpunkt", "Redaktionelle Freigabe, Claims- und Rechtsprüfung, Veröffentlichung"],
-          ["Erster Pilot", "In der Regel 6–8 Wochen"]
+          [
+            "Typischer Einstieg",
+            "Wöchentliches Kampagnen-Reporting oder eine Content-Pipeline"
+          ],
+          [
+            "Systeme",
+            "CMS, DAM, Analytics, Werbeplattformen, Marketing-Automation, CRM"
+          ],
+          [
+            "Kontrollpunkt",
+            "Redaktionelle Freigabe, Claims- und Rechtsprüfung, Veröffentlichung"
+          ],
+          [
+            "Erster Pilot",
+            "In der Regel 6–8 Wochen"
+          ]
         ],
-        "link": { "label": "Lesen: den ersten Agenten-Use-Case auswählen", "page": "insights/first-agent-use-case" }
+        "link": {
+          "label": "Lesen: den ersten Agenten-Use-Case auswählen",
+          "page": "insights/first-agent-use-case"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases",
         "intro": "Sechs Workflows, die wir in den meisten Marketingteams finden. Jeder nennt die beteiligten Systeme und den Punkt, an dem ein Mensch entscheidet.",
         "items": [
-          { "icon": "doc", "title": "Content-Operations-Agent", "text": "Vom Briefing zum veröffentlichungsreifen Asset: Der Agent entwirft Gliederung und Text aus Briefing, Produktseiten und Markenhandbuch, lokalisiert mit Glossar in Ihre Märkte und prüft Markenstimme, gesperrte Begriffe und Claims, bevor die Redaktion etwas sieht. Freigegeben wird im gewohnten Tool; der Agent bereitet CMS-Eintrag und DAM-Assets vor. Veröffentlicht wird nur per Klick eines Menschen." },
-          { "icon": "chart", "title": "Kampagnen-Reporting-Agent", "text": "Jeden Montag zieht der Agent Ausgaben, Impressionen, Conversions und Pipeline aus Werbeplattformen, Analytics, Marketing-Automation und CRM, gleicht die Zahlen ab, entwirft den Kommentar und markiert Abweichungen vom Plan. Die Marketingleitung prüft und ergänzt, bevor der Report die Geschäftsführung erreicht." },
-          { "icon": "search", "title": "SEO- und Answer-Engine-Recherche", "text": "Der Agent verfolgt, was Käufer Suchmaschinen und KI-Assistenten fragen, prüft, ob Ihre Seiten in diesen Antworten zitiert werden, findet Lücken gegenüber Wettbewerbern und entwirft Content-Briefings mit Quellen. Ihre Content-Strategin entscheidet, was umgesetzt wird. Klassisches SEO und Sichtbarkeit in KI-Antworten (GEO/AEO) werden gemeinsam abgedeckt." },
-          { "icon": "target", "title": "Personalisierung und Segment-Recherche", "text": "Aus CRM-, Produktnutzungs- und Kampagnendaten schlägt der Agent Segmente vor, erklärt, was sie unterscheidet, und entwirft Botschaftsvarianten für E-Mail, Landingpages und Anzeigen. Er prüft die Einwilligungsgrundlage der Daten, und eine Marketingverantwortliche gibt Segmente und Texte frei, bevor etwas läuft." },
-          { "icon": "handshake", "title": "Lead-Anreicherung und Übergabe mit Intent-Signalen", "text": "Neue Leads werden aus zulässigen Quellen angereichert, nach Passung und Intent-Signalen bewertet (besuchte Seiten, Downloads, Eventteilnahme), in drei Sätzen zusammengefasst und mit Begründung an die richtige Vertriebsperson geleitet. Der Vertrieb bestätigt oder verwirft die Zuordnung, was die Regeln schärft. Die andere Seite beschreiben wir unter [KI-Agenten im Vertrieb](page:solutions/sales)." },
-          { "icon": "gear", "title": "Marketing Operations und Marktbeobachtung", "text": "Der Agent hält CRM und Marketing-Automation sauber (Dubletten, fehlende Felder, UTM- und Asset-Benennung), bereitet Massenänderungen zur Freigabe vor und beobachtet Wettbewerber, Preisseiten und Branchennachrichten für einen wöchentlichen Überblick. Massenänderungen an Kundendaten brauchen immer eine menschliche Freigabe." }
+          {
+            "icon": "doc",
+            "title": "Content-Operations-Agent",
+            "text": "Vom Briefing zum veröffentlichungsreifen Asset: Der Agent entwirft Gliederung und Text aus Briefing, Produktseiten und Markenhandbuch, lokalisiert mit Glossar in Ihre Märkte und prüft Markenstimme, gesperrte Begriffe und Claims, bevor die Redaktion etwas sieht. Freigegeben wird im gewohnten Tool; der Agent bereitet CMS-Eintrag und DAM-Assets vor. Veröffentlicht wird nur per Klick eines Menschen."
+          },
+          {
+            "icon": "chart",
+            "title": "Kampagnen-Reporting-Agent",
+            "text": "Jeden Montag zieht der Agent Ausgaben, Impressionen, Conversions und Pipeline aus Werbeplattformen, Analytics, Marketing-Automation und CRM, gleicht die Zahlen ab, entwirft den Kommentar und markiert Abweichungen vom Plan. Die Marketingleitung prüft und ergänzt, bevor der Report die Geschäftsführung erreicht."
+          },
+          {
+            "icon": "search",
+            "title": "SEO- und Answer-Engine-Recherche",
+            "text": "Der Agent verfolgt, was Käufer Suchmaschinen und KI-Assistenten fragen, prüft, ob Ihre Seiten in diesen Antworten zitiert werden, findet Lücken gegenüber Wettbewerbern und entwirft Content-Briefings mit Quellen. Ihre Content-Strategin entscheidet, was umgesetzt wird. Klassisches SEO und Sichtbarkeit in KI-Antworten (GEO/AEO) werden gemeinsam abgedeckt."
+          },
+          {
+            "icon": "target",
+            "title": "Personalisierung und Segment-Recherche",
+            "text": "Aus CRM-, Produktnutzungs- und Kampagnendaten schlägt der Agent Segmente vor, erklärt, was sie unterscheidet, und entwirft Botschaftsvarianten für E-Mail, Landingpages und Anzeigen. Er prüft die Einwilligungsgrundlage der Daten, und eine Marketingverantwortliche gibt Segmente und Texte frei, bevor etwas läuft."
+          },
+          {
+            "icon": "handshake",
+            "title": "Lead-Anreicherung und Übergabe mit Intent-Signalen",
+            "text": "Neue Leads werden aus zulässigen Quellen angereichert, nach Passung und Intent-Signalen bewertet (besuchte Seiten, Downloads, Eventteilnahme), in drei Sätzen zusammengefasst und mit Begründung an die richtige Vertriebsperson geleitet. Der Vertrieb bestätigt oder verwirft die Zuordnung, was die Regeln schärft. Die andere Seite beschreiben wir unter [KI-Agenten im Vertrieb](page:solutions/sales)."
+          },
+          {
+            "icon": "gear",
+            "title": "Marketing Operations und Marktbeobachtung",
+            "text": "Der Agent hält CRM und Marketing-Automation sauber (Dubletten, fehlende Felder, UTM- und Asset-Benennung), bereitet Massenänderungen zur Freigabe vor und beobachtet Wettbewerber, Preisseiten und Branchennachrichten für einen wöchentlichen Überblick. Massenänderungen an Kundendaten brauchen immer eine menschliche Freigabe."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Beispiel-Workflow",
         "content": [
-          { "h2": "Eine Content-Pipeline mit Freigabestufen" },
-          { "p": "Beispiel: Ein B2B-Unternehmen veröffentlicht auf Deutsch und Englisch über Website, E-Mail und LinkedIn, und jedes Asset wandert durch fünf Postfächer. Eine agentische Pipeline erledigt dieselbe Arbeit so, mit einem Menschen an jeder Stufe, die zählt." },
-          { "ol": [
-            "**Briefing.** Eine Kampagnenmanagerin legt das Briefing in der gewohnten Vorlage an: Zielgruppe, Ziel, Kernbotschaft, Kanäle, Termin. Der Agent prüft es auf Vollständigkeit und fragt nach, was fehlt.",
-            "**Kontext.** Der Agent sammelt Produktseiten, frühere Beiträge zum Thema, das Markenhandbuch, die freigegebene Claims-Liste und die Persona-Notizen aus Ihrer Marketingplattform.",
-            "**Gliederung (Stufe 1).** Er schlägt eine Gliederung und zwei Blickwinkel vor. Die Content-Leitung wählt aus oder passt an. Vor dieser Entscheidung wird kein langer Text geschrieben.",
-            "**Entwurf und Prüfungen.** Der Agent schreibt den Entwurf in der Ausgangssprache und prüft Regeln zur Markenstimme, gesperrte Begriffe, jeden Claim gegen die freigegebene Liste, Links und Lesbarkeit. Die Ergebnisse hängen als Checkliste am Entwurf.",
-            "**Lokalisierung.** Weitere Märkte entstehen mit Ihrem Glossar und Ihren Marktnotizen. Muttersprachliche Prüfer sehen eine Gegenüberstellung statt einer leeren Seite.",
-            "**Redaktionelle Freigabe (Stufe 2).** Eine Redakteurin bearbeitet direkt im CMS oder Dokumententool. Jede Änderung wird protokolliert und als Beispiel zurückgespielt, damit der nächste Entwurf näher dran ist.",
-            "**Claims- und Rechtsprüfung (Stufe 3, wo nötig).** Vergleichende, regulierte oder Nachhaltigkeitsaussagen gehen mit Quellen an die Rechtsabteilung. Wo Richtlinie oder Gesetz es verlangen, werden KI-generierte Inhalte gekennzeichnet.",
-            "**Veröffentlichung.** Der Agent bereitet CMS-Eintrag, Metadaten und DAM-Assets mit Lizenzprüfung vor und plant den Termin. In den ersten Monaten drückt ein Mensch auf „Veröffentlichen“.",
-            "**Rückkopplung.** Die Performance fließt zurück ans Briefing, und der wöchentliche Reporting-Agent greift sie auf."
-          ] },
-          { "note": "In den ersten Wochen hält jeder Schritt für einen Menschen an. Zeigen die Checklisten stabile Qualität, entscheiden Sie Stufe für Stufe, was Sie lockern; redaktionelle und rechtliche Freigabe bleiben. Wir bauen solche Pipelines im Rahmen unserer Leistung [Agentische Workflows](page:services/agentic-workflows), mit [Governance](page:services/ai-governance) von Anfang an." }
+          {
+            "h2": "Eine Content-Pipeline mit Freigabestufen"
+          },
+          {
+            "p": "Beispiel: Ein B2B-Unternehmen veröffentlicht auf Deutsch und Englisch über Website, E-Mail und LinkedIn, und jedes Asset wandert durch fünf Postfächer. Eine agentische Pipeline erledigt dieselbe Arbeit so, mit einem Menschen an jeder Stufe, die zählt."
+          },
+          {
+            "ol": [
+              "**Briefing.** Eine Kampagnenmanagerin legt das Briefing in der gewohnten Vorlage an: Zielgruppe, Ziel, Kernbotschaft, Kanäle, Termin. Der Agent prüft es auf Vollständigkeit und fragt nach, was fehlt.",
+              "**Kontext.** Der Agent sammelt Produktseiten, frühere Beiträge zum Thema, das Markenhandbuch, die freigegebene Claims-Liste und die Persona-Notizen aus Ihrer Marketingplattform.",
+              "**Gliederung (Stufe 1).** Er schlägt eine Gliederung und zwei Blickwinkel vor. Die Content-Leitung wählt aus oder passt an. Vor dieser Entscheidung wird kein langer Text geschrieben.",
+              "**Entwurf und Prüfungen.** Der Agent schreibt den Entwurf in der Ausgangssprache und prüft Regeln zur Markenstimme, gesperrte Begriffe, jeden Claim gegen die freigegebene Liste, Links und Lesbarkeit. Die Ergebnisse hängen als Checkliste am Entwurf.",
+              "**Lokalisierung.** Weitere Märkte entstehen mit Ihrem Glossar und Ihren Marktnotizen. Muttersprachliche Prüfer sehen eine Gegenüberstellung statt einer leeren Seite.",
+              "**Redaktionelle Freigabe (Stufe 2).** Eine Redakteurin bearbeitet direkt im CMS oder Dokumententool. Jede Änderung wird protokolliert und als Beispiel zurückgespielt, damit der nächste Entwurf näher dran ist.",
+              "**Claims- und Rechtsprüfung (Stufe 3, wo nötig).** Vergleichende, regulierte oder Nachhaltigkeitsaussagen gehen mit Quellen an die Rechtsabteilung. Wo Richtlinie oder Gesetz es verlangen, werden KI-generierte Inhalte gekennzeichnet.",
+              "**Veröffentlichung.** Der Agent bereitet CMS-Eintrag, Metadaten und DAM-Assets mit Lizenzprüfung vor und plant den Termin. In den ersten Monaten drückt ein Mensch auf „Veröffentlichen“.",
+              "**Rückkopplung.** Die Performance fließt zurück ans Briefing, und der wöchentliche Reporting-Agent greift sie auf."
+            ]
+          },
+          {
+            "note": "In den ersten Wochen hält jeder Schritt für einen Menschen an. Zeigen die Checklisten stabile Qualität, entscheiden Sie Stufe für Stufe, was Sie lockern; redaktionelle und rechtliche Freigabe bleiben. Wir bauen solche Pipelines im Rahmen unserer Leistung [Agentische Workflows](page:services/agentic-workflows), mit [Governance](page:services/ai-governance) von Anfang an."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Leitplanken und Risiken im Marketing",
         "items": [
-          { "title": "Abdriftende Markenstimme", "text": "Modelle schreiben von Haus aus generisch. Wir kodieren Ihre Markenstimme als Regeln und kommentierte Beispiele, prüfen jeden Entwurf automatisch und lassen der Redaktion das letzte Wort. Mehr dazu in unserem Leitfaden zu [Leitplanken für Agenten](page:insights/guardrails-for-agents)." },
-          { "title": "Claims, Vergleiche und rechtliche Risiken", "text": "Ein Agent schreibt bereitwillig „die schnellste Lösung am Markt“. Jede Tatsachenbehauptung wird gegen eine freigegebene Liste geprüft; vergleichende, gesundheits-, finanz- oder umweltbezogene Aussagen gehen mit Quellen an die Rechtsabteilung." },
-          { "title": "Personenbezogene Daten und Einwilligung", "text": "Segmentierung, Personalisierung und Anreicherung laufen nur auf Daten mit gültiger Rechtsgrundlage nach DSGVO: kein Scraping persönlicher Profile, Datensparsamkeit in Prompts, EU-Hosting wo nötig, eine Datenschutzprüfung vor dem Pilot. Prozessgestaltung, keine Rechtsberatung." },
-          { "title": "Kennzeichnung KI-generierter Inhalte", "text": "Der EU AI Act enthält Transparenzpflichten für KI-generierte und manipulierte Inhalte, und Plattformen ergänzen eigene Regeln. Wir bauen die Kennzeichnung dort in den Workflow ein, wo sie greift, und empfehlen eine interne Richtlinie, die gegen den aktuellen Rechtsstand geprüft wird." },
-          { "title": "Scheinkennzahlen", "text": "Mehr Assets sind nicht das Ziel. Wir erheben vor dem Pilot Durchlaufzeit vom Briefing bis zur Veröffentlichung, Kosten je Asset, Freigabequote im ersten Durchgang und Pipeline-Beitrag, damit Sie sehen, was sich verändert hat." }
+          {
+            "title": "Abdriftende Markenstimme",
+            "text": "Modelle schreiben von Haus aus generisch. Wir kodieren Ihre Markenstimme als Regeln und kommentierte Beispiele, prüfen jeden Entwurf automatisch und lassen der Redaktion das letzte Wort. Mehr dazu in unserem Leitfaden zu [Leitplanken für Agenten](page:insights/guardrails-for-agents)."
+          },
+          {
+            "title": "Claims, Vergleiche und rechtliche Risiken",
+            "text": "Ein Agent schreibt bereitwillig „die schnellste Lösung am Markt“. Jede Tatsachenbehauptung wird gegen eine freigegebene Liste geprüft; vergleichende, gesundheits-, finanz- oder umweltbezogene Aussagen gehen mit Quellen an die Rechtsabteilung."
+          },
+          {
+            "title": "Personenbezogene Daten und Einwilligung",
+            "text": "Segmentierung, Personalisierung und Anreicherung laufen nur auf Daten mit gültiger Rechtsgrundlage nach DSGVO: kein Scraping persönlicher Profile, Datensparsamkeit in Prompts, EU-Hosting wo nötig, eine Datenschutzprüfung vor dem Pilot. Prozessgestaltung, keine Rechtsberatung."
+          },
+          {
+            "title": "Kennzeichnung KI-generierter Inhalte",
+            "text": "Der EU AI Act enthält Transparenzpflichten für KI-generierte und manipulierte Inhalte, und Plattformen ergänzen eigene Regeln. Wir bauen die Kennzeichnung dort in den Workflow ein, wo sie greift, und empfehlen eine interne Richtlinie, die gegen den aktuellen Rechtsstand geprüft wird."
+          },
+          {
+            "title": "Scheinkennzahlen",
+            "text": "Mehr Assets sind nicht das Ziel. Wir erheben vor dem Pilot Durchlaufzeit vom Briefing bis zur Veröffentlichung, Kosten je Asset, Freigabequote im ersten Durchgang und Pipeline-Beitrag, damit Sie sehen, was sich verändert hat."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So starten wir",
         "items": [
-          { "title": "Marketing-Assessment", "text": "Wir kartieren Ihre Content- und Kampagnen-Workflows, Systeme und Volumina, sprechen mit dem Team und wählen den ersten Use Case mit messbarem Ausgangswert. Datenschutz und Markenregeln werden hier geprüft.", "meta": "2–3 Wochen" },
-          { "title": "Workflow- und Freigabedesign", "text": "Wir entwerfen den Workflow mit seinen Freigabestufen, kodieren Markenstimme und Claims-Regeln, verbinden die Systeme und stimmen die Governance mit Marketing, Recht und IT ab." },
-          { "title": "Pilot", "text": "Ein Team, ein Workflow, echte Kampagnen. Wöchentliche Prüfung von Qualität und Kennzahlen gegen den Ausgangswert, Feinjustierung der Stufen, Schulung der Redaktion im Umgang mit dem Agenten.", "meta": "6–8 Wochen" },
-          { "title": "Skalieren und betreiben", "text": "Ausweitung auf weitere Kanäle, Märkte und Teams, weitere Use Cases aus der Liste oben und [Managed AI Operations](page:services/managed-ai-operations), damit Prompts, Regeln und Integrationen aktuell bleiben." }
+          {
+            "title": "Marketing-Assessment",
+            "text": "Wir kartieren Ihre Content- und Kampagnen-Workflows, Systeme und Volumina, sprechen mit dem Team und wählen den ersten Use Case mit messbarem Ausgangswert. Datenschutz und Markenregeln werden hier geprüft.",
+            "meta": "2–3 Wochen"
+          },
+          {
+            "title": "Workflow- und Freigabedesign",
+            "text": "Wir entwerfen den Workflow mit seinen Freigabestufen, kodieren Markenstimme und Claims-Regeln, verbinden die Systeme und stimmen die Governance mit Marketing, Recht und IT ab."
+          },
+          {
+            "title": "Pilot",
+            "text": "Ein Team, ein Workflow, echte Kampagnen. Wöchentliche Prüfung von Qualität und Kennzahlen gegen den Ausgangswert, Feinjustierung der Stufen, Schulung der Redaktion im Umgang mit dem Agenten.",
+            "meta": "6–8 Wochen"
+          },
+          {
+            "title": "Skalieren und betreiben",
+            "text": "Ausweitung auf weitere Kanäle, Märkte und Teams, weitere Use Cases aus der Liste oben und [Managed AI Operations](page:services/managed-ai-operations), damit Prompts, Regeln und Integrationen aktuell bleiben."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Klingen die Inhalte generisch oder erkennbar nach KI?", "a": "Nicht, wenn der Workflow richtig gebaut ist. Der Agent schreibt aus Ihren Briefings, Produktfakten und einer kodierten Markenstimme, automatische Prüfungen fangen die üblichen Verräter ab, und die Redaktion hat das letzte Wort. Korrekturen fließen als Beispiele zurück, und wir messen die Freigabequote im ersten Durchgang, um den Trend zu zeigen." },
-          { "q": "Wie gehen Sie mit der DSGVO um, wenn der Agent mit Kundendaten arbeitet?", "a": "Wir beginnen mit einer Datenlandkarte: Welche Felder braucht der Agent tatsächlich, woher kommen sie und auf welcher Rechtsgrundlage. Personenbezogene Daten bleiben aus Prompts heraus, sofern ein Use Case sie nicht benötigt, Tools werden wo nötig in der EU betrieben, und Ihr Datenschutzbeauftragter prüft das Design vor dem Pilot. Die rechtliche Bewertung bleibt bei Ihren Juristen." },
-          { "q": "Was passiert mit unserem Content- und Kampagnenteam?", "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Abtippen, Versionieren, Umformatieren und manuelles Reporting verschwinden; Briefen, Redigieren, das Urteil darüber, was veröffentlicht wird, und die Pflege der Regeln des Agenten wachsen. Diesen Wandel planen wir mit der Teamleitung, inklusive Schulung, und sagen ehrlich, wo sich eine Rolle tatsächlich verändert." },
-          { "q": "Müssen wir KI-generierte Inhalte kennzeichnen?", "a": "In manchen Fällen ja. Der EU AI Act enthält Transparenzpflichten für KI-generierte und manipulierte Inhalte, Werbe- und Plattformregeln kommen hinzu, und die Pflichten greifen stufenweise. Wir bauen die Kennzeichnung dort in den Workflow ein, wo sie gilt, und empfehlen, den aktuellen Stand mit Ihrer Rechtsabteilung zu prüfen; einen Überblick gibt unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)." },
-          { "q": "Mit welchen Tools arbeiten Sie? Wir nutzen HubSpot und ein Headless-CMS.", "a": "Wir sind herstellerneutral. Agenten binden Marketing-Automation, CMS, DAM, Analytics und Werbeplattformen über deren APIs oder das Model Context Protocol an, und wir prüfen die KI-Funktionen Ihrer Plattformen, bevor wir etwas Neues ergänzen. Was wir einbringen, sind Workflow-Design, Leitplanken und Integrationsarbeit." }
+          {
+            "q": "Klingen die Inhalte generisch oder erkennbar nach KI?",
+            "a": "Nicht, wenn der Workflow richtig gebaut ist. Der Agent schreibt aus Ihren Briefings, Produktfakten und einer kodierten Markenstimme, automatische Prüfungen fangen die üblichen Verräter ab, und die Redaktion hat das letzte Wort. Korrekturen fließen als Beispiele zurück, und wir messen die Freigabequote im ersten Durchgang, um den Trend zu zeigen."
+          },
+          {
+            "q": "Wie gehen Sie mit der DSGVO um, wenn der Agent mit Kundendaten arbeitet?",
+            "a": "Wir beginnen mit einer Datenlandkarte: Welche Felder braucht der Agent tatsächlich, woher kommen sie und auf welcher Rechtsgrundlage. Personenbezogene Daten bleiben aus Prompts heraus, sofern ein Use Case sie nicht benötigt, Tools werden wo nötig in der EU betrieben, und Ihr Datenschutzbeauftragter prüft das Design vor dem Pilot. Die rechtliche Bewertung bleibt bei Ihren Juristen."
+          },
+          {
+            "q": "Was passiert mit unserem Content- und Kampagnenteam?",
+            "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Abtippen, Versionieren, Umformatieren und manuelles Reporting verschwinden; Briefen, Redigieren, das Urteil darüber, was veröffentlicht wird, und die Pflege der Regeln des Agenten wachsen. Diesen Wandel planen wir mit der Teamleitung, inklusive Schulung, und sagen ehrlich, wo sich eine Rolle tatsächlich verändert."
+          },
+          {
+            "q": "Müssen wir KI-generierte Inhalte kennzeichnen?",
+            "a": "In manchen Fällen ja. Der EU AI Act enthält Transparenzpflichten für KI-generierte und manipulierte Inhalte, Werbe- und Plattformregeln kommen hinzu, und die Pflichten greifen stufenweise. Wir bauen die Kennzeichnung dort in den Workflow ein, wo sie gilt, und empfehlen, den aktuellen Stand mit Ihrer Rechtsabteilung zu prüfen; einen Überblick gibt unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)."
+          },
+          {
+            "q": "Mit welchen Tools arbeiten Sie? Wir nutzen HubSpot und ein Headless-CMS.",
+            "a": "Wir sind herstellerneutral. Agenten binden Marketing-Automation, CMS, DAM, Analytics und Werbeplattformen über deren APIs oder das Model Context Protocol an, und wir prüfen die KI-Funktionen Ihrer Plattformen, bevor wir etwas Neues ergänzen. Was wir einbringen, sind Workflow-Design, Leitplanken und Integrationsarbeit."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["services/agentic-workflows", "services/ai-governance", "solutions/sales", "industries/ecommerce-retail"]
+        "pages": [
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "solutions/sales",
+          "industries/ecommerce-retail"
+        ]
       }
     ]
   }

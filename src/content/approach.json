@@ -10,8 +10,14 @@
       "title": "Production over pilots.",
       "titleAccent": "Everything else follows from that.",
       "standfirst": "We are a small, senior-only consultancy. We do not resell software, we do not staff projects with juniors, and we do not count a pilot as a result. Governance is designed in from the first workshop, and every engagement has a number that tells you whether it worked. This page explains how that translates into phases, principles and formats.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See all services", "page": "services" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See all services",
+        "page": "services"
+      }
     },
     "sections": [
       {
@@ -25,23 +31,58 @@
           "Governance built in, results measured. Data protection, the EU AI Act, information security and works council involvement are handled inside the design, not in a compliance phase at the end. And every use case has a baseline and a target before the first prompt is written."
         ],
         "facts": [
-          ["Where", "Remote-first; on site in Berlin and across Germany"],
-          ["Languages", "German and English"],
-          ["Team", "Small, senior, founder-led"],
-          ["Clients", "Startups, Mittelstand and corporates in the DACH region and Europe"]
+          [
+            "Where",
+            "Remote-first; on site in Berlin and across Germany"
+          ],
+          [
+            "Languages",
+            "German and English"
+          ],
+          [
+            "Team",
+            "Small, senior, founder-led"
+          ],
+          [
+            "Clients",
+            "Startups, Mittelstand and corporates in the DACH region and Europe"
+          ]
         ],
-        "link": { "label": "Read more about us", "page": "about" }
+        "link": {
+          "label": "Read more about us",
+          "page": "about"
+        }
       },
       {
         "type": "steps",
         "heading": "The five phases",
         "intro": "Not every engagement runs through all five, but each one sits somewhere on this path, and you always know which phase you are in.",
         "items": [
-          { "title": "Assess", "text": "We establish where you stand: data, systems, skills, governance, and the two or three use cases that are obviously worth it. Interviews with leadership and the people who run the processes, a look at your systems, and a short written diagnosis. You get a readiness report, a first list of use cases and a clear next step.", "meta": "Typically 2–3 weeks" },
-          { "title": "Design", "text": "We turn the candidates into a plan: a scored use-case portfolio, a target architecture that fits your stack, a governance model and a business case with its assumptions visible. For a single use case the same happens in miniature. You get a roadmap, an architecture, a governance model and a business case your board can act on.", "meta": "Typically 4–6 weeks" },
-          { "title": "Pilot", "text": "We build the first agent or agentic workflow to production grade: real data, real integrations, an evaluation suite, human checkpoints and a security review. The pilot runs inside your process with a small group and is measured against the baseline from the design phase. You get a running system, evaluation results and a go/no-go decision based on numbers.", "meta": "Typically 6–8 weeks" },
-          { "title": "Scale", "text": "What worked is rolled out to more users, processes and teams. Shared components are hardened, internal owners are trained, and the governance framework is applied to each new use case without starting from zero. You get several use cases in production, trained owners and reusable building blocks.", "meta": "Typically 3–6 months" },
-          { "title": "Operate", "text": "Agents are monitored, evaluated after every change, upgraded when models change and reviewed monthly with the business owner. Either your team runs this with our playbooks, or we do it as a managed service. You get stable quality, controlled costs and documentation that stands up to an audit.", "meta": "Ongoing" }
+          {
+            "title": "Assess",
+            "text": "We establish where you stand: data, systems, skills, governance, and the two or three use cases that are obviously worth it. Interviews with leadership and the people who run the processes, a look at your systems, and a short written diagnosis. You get a readiness report, a first list of use cases and a clear next step.",
+            "meta": "Typically 2–3 weeks"
+          },
+          {
+            "title": "Design",
+            "text": "We turn the candidates into a plan: a scored use-case portfolio, a target architecture that fits your stack, a governance model and a business case with its assumptions visible. For a single use case the same happens in miniature. You get a roadmap, an architecture, a governance model and a business case your board can act on.",
+            "meta": "Typically 4–6 weeks"
+          },
+          {
+            "title": "Pilot",
+            "text": "We build the first agent or agentic workflow to production grade: real data, real integrations, an evaluation suite, human checkpoints and a security review. The pilot runs inside your process with a small group and is measured against the baseline from the design phase. You get a running system, evaluation results and a go/no-go decision based on numbers.",
+            "meta": "Typically 6–8 weeks"
+          },
+          {
+            "title": "Scale",
+            "text": "What worked is rolled out to more users, processes and teams. Shared components are hardened, internal owners are trained, and the governance framework is applied to each new use case without starting from zero. You get several use cases in production, trained owners and reusable building blocks.",
+            "meta": "Typically 3–6 months"
+          },
+          {
+            "title": "Operate",
+            "text": "Agents are monitored, evaluated after every change, upgraded when models change and reviewed monthly with the business owner. Either your team runs this with our playbooks, or we do it as a managed service. You get stable quality, controlled costs and documentation that stands up to an audit.",
+            "meta": "Ongoing"
+          }
         ]
       },
       {
@@ -49,12 +90,30 @@
         "heading": "Principles",
         "variant": "check",
         "items": [
-          { "title": "Start with the workflow, not the model", "text": "The question is never which model is best. It is which step in which process costs you the most, and what an agent would need in order to take it over. Models are chosen last, and they are replaceable." },
-          { "title": "Humans in the loop by design", "text": "Every agent has defined points where a person reviews, approves or takes over, sized to the risk of the decision. Oversight is part of the workflow, not a sentence in a policy." },
-          { "title": "Evaluate before you automate", "text": "A test set of real cases with expected outcomes exists before an agent goes live, and every later change has to pass it. Without evaluation, automation is a guess." },
-          { "title": "Small, senior teams", "text": "Two or three experienced people who understand your process outperform a large team that needs managing. It also keeps your own people's time investment low." },
-          { "title": "EU data protection by design", "text": "Data flows, legal bases, retention and hosting location are decided during design, not discovered during review. Where EU hosting or open-weight models are the right call, we say so. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "title": "Transfer knowledge, do not create dependency", "text": "Documentation, training and internal owners are deliverables, not extras. The measure of a good engagement is that you could carry on without us and choose to keep us anyway." }
+          {
+            "title": "Start with the workflow, not the model",
+            "text": "The question is never which model is best. It is which step in which process costs you the most, and what an agent would need in order to take it over. Models are chosen last, and they are replaceable."
+          },
+          {
+            "title": "Humans in the loop by design",
+            "text": "Every agent has defined points where a person reviews, approves or takes over, sized to the risk of the decision. Oversight is part of the workflow, not a sentence in a policy."
+          },
+          {
+            "title": "Evaluate before you automate",
+            "text": "A test set of real cases with expected outcomes exists before an agent goes live, and every later change has to pass it. Without evaluation, automation is a guess."
+          },
+          {
+            "title": "Small, senior teams",
+            "text": "Two or three experienced people who understand your process outperform a large team that needs managing. It also keeps your own people's time investment low."
+          },
+          {
+            "title": "EU data protection by design",
+            "text": "Data flows, legal bases, retention and hosting location are decided during design, not discovered during review. Where EU hosting or open-weight models are the right call, we say so. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "Transfer knowledge, do not create dependency",
+            "text": "Documentation, training and internal owners are deliverables, not extras. The measure of a good engagement is that you could carry on without us and choose to keep us anyway."
+          }
         ]
       },
       {
@@ -62,39 +121,106 @@
         "heading": "Engagement formats",
         "intro": "Each format maps to a phase. Durations are typical and are confirmed after the intro call.",
         "items": [
-          { "icon": "search", "title": "AI readiness assessment", "text": "A short diagnostic of data, systems, skills and governance, plus your first use cases and a recommendation. Typically 2–3 weeks.", "page": "services/ai-readiness-assessment" },
-          { "icon": "strategy", "title": "AI strategy sprint", "text": "Use-case portfolio, target architecture, governance model and business case, sequenced into a roadmap. Typically 4–6 weeks.", "page": "services/ai-strategy" },
-          { "icon": "agent", "title": "Agent pilot", "text": "One agent or agentic workflow built to production grade and measured inside your process. Typically 6–8 weeks.", "page": "services/ai-agent-development" },
-          { "icon": "layers", "title": "Scale programme", "text": "Rolling out proven use cases across teams and processes, with shared components, governance and internal owners. Typically 3–6 months.", "page": "services/agentic-workflows" },
-          { "icon": "gauge", "title": "Managed AI operations", "text": "Monitoring, evaluation, upgrades, cost control and incident handling after go-live. Monthly retainer.", "page": "services/managed-ai-operations" },
-          { "icon": "compass", "title": "Fractional Chief AI Officer", "text": "A senior AI leader inside your company one to two days a week, with a written mandate and exit criteria. Typically 3–12 months.", "page": "services/fractional-chief-ai-officer" },
-          { "icon": "people", "title": "Training and workshops", "text": "Executive briefings, AI literacy for all staff, department workshops and agent-builder enablement. Half a day to several weeks.", "page": "services/ai-training" }
+          {
+            "icon": "search",
+            "title": "AI readiness assessment",
+            "text": "A short diagnostic of data, systems, skills and governance, plus your first use cases and a recommendation. Typically 2–3 weeks.",
+            "page": "services/ai-readiness-assessment"
+          },
+          {
+            "icon": "strategy",
+            "title": "AI strategy sprint",
+            "text": "Use-case portfolio, target architecture, governance model and business case, sequenced into a roadmap. Typically 4–6 weeks.",
+            "page": "services/ai-strategy"
+          },
+          {
+            "icon": "agent",
+            "title": "Agent pilot",
+            "text": "One agent or agentic workflow built to production grade and measured inside your process. Typically 6–8 weeks.",
+            "page": "services/ai-agent-development"
+          },
+          {
+            "icon": "layers",
+            "title": "Scale programme",
+            "text": "Rolling out proven use cases across teams and processes, with shared components, governance and internal owners. Typically 3–6 months.",
+            "page": "services/agentic-workflows"
+          },
+          {
+            "icon": "gauge",
+            "title": "Managed AI operations",
+            "text": "Monitoring, evaluation, upgrades, cost control and incident handling after go-live. Monthly retainer.",
+            "page": "services/managed-ai-operations"
+          },
+          {
+            "icon": "compass",
+            "title": "Fractional Chief AI Officer",
+            "text": "A senior AI leader inside your company one to two days a week, with a written mandate and exit criteria. Typically 3–12 months.",
+            "page": "services/fractional-chief-ai-officer"
+          },
+          {
+            "icon": "people",
+            "title": "Training and workshops",
+            "text": "Executive briefings, AI literacy for all staff, department workshops and agent-builder enablement. Half a day to several weeks.",
+            "page": "services/ai-training"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "What we expect from you",
         "items": [
-          { "title": "A sponsor", "text": "Someone in leadership who wants the outcome, can take decisions within days rather than weeks and will remove obstacles when they appear. Without this, even well-designed projects stall." },
-          { "title": "A process owner", "text": "The person who knows how the work is actually done, can judge whether an agent's output is right and will own the system after go-live. Typically a team lead, not a manager two levels up." },
-          { "title": "Access to systems and people", "text": "Read access to the relevant systems and data early on, test environments where needed, and a few hours a week from the people who run the process. Security reviews and data processing agreements are handled properly, on your terms." },
-          { "title": "Willingness to measure", "text": "A baseline before we start and honesty about the number afterwards, including when the result is that a use case did not pay off. That is information, and it belongs in the roadmap." }
+          {
+            "title": "A sponsor",
+            "text": "Someone in leadership who wants the outcome, can take decisions within days rather than weeks and will remove obstacles when they appear. Without this, even well-designed projects stall."
+          },
+          {
+            "title": "A process owner",
+            "text": "The person who knows how the work is actually done, can judge whether an agent's output is right and will own the system after go-live. Typically a team lead, not a manager two levels up."
+          },
+          {
+            "title": "Access to systems and people",
+            "text": "Read access to the relevant systems and data early on, test environments where needed, and a few hours a week from the people who run the process. Security reviews and data processing agreements are handled properly, on your terms."
+          },
+          {
+            "title": "Willingness to measure",
+            "text": "A baseline before we start and honesty about the number afterwards, including when the result is that a use case did not pay off. That is information, and it belongs in the roadmap."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Do you work remotely or on site?", "a": "Remote-first, with on-site days where they matter: kick-offs, workshops, leadership sessions and the moments where being in the room changes the outcome. We are based in Berlin and travel across Germany, Austria and Switzerland. Most engagements mix both." },
-          { "q": "Which languages do you work in?", "a": "German and English, at native working level. Workshops are held in the team's language, and documents are delivered in either language or both, as you prefer." },
-          { "q": "How large is a project team?", "a": "Typically two or three senior people. A lead consultant stays with you from the first call to the handover, and specialists join for architecture, security or evaluation when needed. We do not staff pyramids, and you are not billed for people you have never met." },
-          { "q": "How do you price your work?", "a": "Fixed-scope packages for assessments, strategy sprints and pilots; monthly retainers for managed operations, the fractional Chief AI Officer role and longer programmes. Every offer is quoted after the intro call, once the scope is clear. We take no licence commissions or referral fees from vendors." },
-          { "q": "Who owns the IP, the code and the documents?", "a": "You do. All deliverables, including code, prompts, evaluation sets, architecture documents and roadmaps, belong to the client. We retain only our generic methods and templates, and open-source components keep their own licences. The details are in the contract before we start." }
+          {
+            "q": "Do you work remotely or on site?",
+            "a": "Remote-first, with on-site days where they matter: kick-offs, workshops, leadership sessions and the moments where being in the room changes the outcome. We are based in Berlin and travel across Germany, Austria and Switzerland. Most engagements mix both."
+          },
+          {
+            "q": "Which languages do you work in?",
+            "a": "German and English, at native working level. Workshops are held in the team's language, and documents are delivered in either language or both, as you prefer."
+          },
+          {
+            "q": "How large is a project team?",
+            "a": "Typically two or three senior people. A lead consultant stays with you from the first call to the handover, and specialists join for architecture, security or evaluation when needed. We do not staff pyramids, and you are not billed for people you have never met."
+          },
+          {
+            "q": "How do you price your work?",
+            "a": "Fixed-scope packages for assessments, strategy sprints and pilots; monthly retainers for managed operations, the fractional Chief AI Officer role and longer programmes. Every offer is quoted after the intro call, once the scope is clear. We take no licence commissions or referral fees from vendors."
+          },
+          {
+            "q": "Who owns the IP, the code and the documents?",
+            "a": "You do. All deliverables, including code, prompts, evaluation sets, architecture documents and roadmaps, belong to the client. We retain only our generic methods and templates, and open-source components keep their own licences. The details are in the contract before we start."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Where to start",
-        "pages": ["services/ai-readiness-assessment", "services/ai-strategy", "about", "contact"]
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/ai-strategy",
+          "about",
+          "contact"
+        ]
       }
     ]
   },
@@ -108,8 +234,14 @@
       "title": "Produktivbetrieb statt Pilotprojekte.",
       "titleAccent": "Alles andere folgt daraus.",
       "standfirst": "Wir sind eine kleine Beratung, in der ausschließlich erfahrene Berater arbeiten. Wir verkaufen keine Software weiter, besetzen Projekte nicht mit Juniors und zählen einen Piloten nicht als Ergebnis. Governance wird ab dem ersten Workshop mitgedacht, und jedes Projekt hat eine Kennzahl, die sagt, ob es funktioniert hat. Diese Seite erklärt, wie daraus Phasen, Prinzipien und Formate werden.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "Alle Leistungen", "page": "services" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "Alle Leistungen",
+        "page": "services"
+      }
     },
     "sections": [
       {
@@ -123,23 +255,58 @@
           "Governance eingebaut, Ergebnisse gemessen. Datenschutz, EU AI Act, Informationssicherheit und Betriebsratsbeteiligung werden im Design behandelt, nicht in einer Compliance-Phase am Ende. Und jeder Use Case hat eine Ausgangsbasis und ein Ziel, bevor der erste Prompt geschrieben wird."
         ],
         "facts": [
-          ["Wo", "Remote-first; vor Ort in Berlin und in ganz Deutschland"],
-          ["Sprachen", "Deutsch und Englisch"],
-          ["Team", "Klein, erfahren, gründergeführt"],
-          ["Kunden", "Startups, Mittelstand und Konzerne in der DACH-Region und Europa"]
+          [
+            "Wo",
+            "Remote-first; vor Ort in Berlin und in ganz Deutschland"
+          ],
+          [
+            "Sprachen",
+            "Deutsch und Englisch"
+          ],
+          [
+            "Team",
+            "Klein, erfahren, gründergeführt"
+          ],
+          [
+            "Kunden",
+            "Startups, Mittelstand und Konzerne in der DACH-Region und Europa"
+          ]
         ],
-        "link": { "label": "Mehr über uns", "page": "about" }
+        "link": {
+          "label": "Mehr über uns",
+          "page": "about"
+        }
       },
       {
         "type": "steps",
         "heading": "Die fünf Phasen",
         "intro": "Nicht jedes Projekt durchläuft alle fünf, aber jedes liegt irgendwo auf diesem Weg – und Sie wissen immer, in welcher Phase Sie sind.",
         "items": [
-          { "title": "Assess", "text": "Wir klären, wo Sie stehen: Daten, Systeme, Kompetenzen, Governance und die zwei, drei Use Cases, die sich offensichtlich lohnen. Interviews mit der Führung und mit den Menschen, die die Prozesse betreiben, ein Blick in Ihre Systeme und eine kurze schriftliche Diagnose. Sie erhalten einen Readiness-Bericht, eine erste Use-Case-Liste und einen klaren nächsten Schritt.", "meta": "In der Regel 2–3 Wochen" },
-          { "title": "Design", "text": "Wir machen aus den Kandidaten einen Plan: ein bewertetes Use-Case-Portfolio, eine Zielarchitektur, die zu Ihrer Landschaft passt, ein Governance-Modell und einen Business Case mit sichtbaren Annahmen. Für einen einzelnen Use Case passiert dasselbe im Kleinen. Sie erhalten Roadmap, Architektur, Governance-Modell und einen Business Case, den Ihre Geschäftsführung tragen kann.", "meta": "In der Regel 4–6 Wochen" },
-          { "title": "Pilot", "text": "Wir bauen den ersten Agenten oder agentischen Workflow in Produktionsqualität: echte Daten, echte Integrationen, eine Evaluationssuite, menschliche Kontrollpunkte und eine Sicherheitsprüfung. Der Pilot läuft in Ihrem Prozess mit einer kleinen Gruppe und wird an der Ausgangsbasis aus der Design-Phase gemessen. Sie erhalten ein laufendes System, Evaluationsergebnisse und eine Go/No-go-Entscheidung auf Basis von Zahlen.", "meta": "In der Regel 6–8 Wochen" },
-          { "title": "Scale", "text": "Was funktioniert hat, wird auf mehr Nutzer, Prozesse und Teams ausgerollt. Gemeinsame Komponenten werden gehärtet, interne Verantwortliche geschult, und das Governance-Rahmenwerk wird auf jeden neuen Use Case angewendet, ohne bei null zu beginnen. Sie erhalten mehrere Use Cases im Produktivbetrieb, geschulte Verantwortliche und wiederverwendbare Bausteine.", "meta": "In der Regel 3–6 Monate" },
-          { "title": "Operate", "text": "Agenten werden überwacht, nach jeder Änderung evaluiert, bei Modellwechseln aktualisiert und monatlich mit der Fachverantwortung besprochen. Entweder betreibt Ihr Team das mit unseren Playbooks, oder wir übernehmen es als Managed Service. Sie erhalten stabile Qualität, kontrollierte Kosten und eine Dokumentation, die einer Prüfung standhält.", "meta": "Laufend" }
+          {
+            "title": "Assess",
+            "text": "Wir klären, wo Sie stehen: Daten, Systeme, Kompetenzen, Governance und die zwei, drei Use Cases, die sich offensichtlich lohnen. Interviews mit der Führung und mit den Menschen, die die Prozesse betreiben, ein Blick in Ihre Systeme und eine kurze schriftliche Diagnose. Sie erhalten einen Readiness-Bericht, eine erste Use-Case-Liste und einen klaren nächsten Schritt.",
+            "meta": "In der Regel 2–3 Wochen"
+          },
+          {
+            "title": "Design",
+            "text": "Wir machen aus den Kandidaten einen Plan: ein bewertetes Use-Case-Portfolio, eine Zielarchitektur, die zu Ihrer Landschaft passt, ein Governance-Modell und einen Business Case mit sichtbaren Annahmen. Für einen einzelnen Use Case passiert dasselbe im Kleinen. Sie erhalten Roadmap, Architektur, Governance-Modell und einen Business Case, den Ihre Geschäftsführung tragen kann.",
+            "meta": "In der Regel 4–6 Wochen"
+          },
+          {
+            "title": "Pilot",
+            "text": "Wir bauen den ersten Agenten oder agentischen Workflow in Produktionsqualität: echte Daten, echte Integrationen, eine Evaluationssuite, menschliche Kontrollpunkte und eine Sicherheitsprüfung. Der Pilot läuft in Ihrem Prozess mit einer kleinen Gruppe und wird an der Ausgangsbasis aus der Design-Phase gemessen. Sie erhalten ein laufendes System, Evaluationsergebnisse und eine Go/No-go-Entscheidung auf Basis von Zahlen.",
+            "meta": "In der Regel 6–8 Wochen"
+          },
+          {
+            "title": "Scale",
+            "text": "Was funktioniert hat, wird auf mehr Nutzer, Prozesse und Teams ausgerollt. Gemeinsame Komponenten werden gehärtet, interne Verantwortliche geschult, und das Governance-Rahmenwerk wird auf jeden neuen Use Case angewendet, ohne bei null zu beginnen. Sie erhalten mehrere Use Cases im Produktivbetrieb, geschulte Verantwortliche und wiederverwendbare Bausteine.",
+            "meta": "In der Regel 3–6 Monate"
+          },
+          {
+            "title": "Operate",
+            "text": "Agenten werden überwacht, nach jeder Änderung evaluiert, bei Modellwechseln aktualisiert und monatlich mit der Fachverantwortung besprochen. Entweder betreibt Ihr Team das mit unseren Playbooks, oder wir übernehmen es als Managed Service. Sie erhalten stabile Qualität, kontrollierte Kosten und eine Dokumentation, die einer Prüfung standhält.",
+            "meta": "Laufend"
+          }
         ]
       },
       {
@@ -147,12 +314,30 @@
         "heading": "Prinzipien",
         "variant": "check",
         "items": [
-          { "title": "Beim Workflow anfangen, nicht beim Modell", "text": "Die Frage ist nie, welches Modell das beste ist. Sondern welcher Schritt in welchem Prozess Sie am meisten kostet – und was ein Agent bräuchte, um ihn zu übernehmen. Modelle werden zuletzt gewählt, und sie sind austauschbar." },
-          { "title": "Menschen im Prozess, von Anfang an", "text": "Jeder Agent hat definierte Punkte, an denen ein Mensch prüft, freigibt oder übernimmt, bemessen am Risiko der Entscheidung. Aufsicht ist Teil des Workflows, nicht ein Satz in einer Richtlinie." },
-          { "title": "Erst evaluieren, dann automatisieren", "text": "Ein Testsatz echter Fälle mit erwarteten Ergebnissen existiert, bevor ein Agent live geht, und jede spätere Änderung muss ihn bestehen. Ohne Evaluation ist Automatisierung eine Vermutung." },
-          { "title": "Kleine, erfahrene Teams", "text": "Zwei oder drei erfahrene Leute, die Ihren Prozess verstehen, sind einem großen Team überlegen, das gemanagt werden muss. Das hält auch den Zeitaufwand Ihrer eigenen Mitarbeitenden gering." },
-          { "title": "EU-Datenschutz von Anfang an", "text": "Datenflüsse, Rechtsgrundlagen, Speicherfristen und Hosting-Standort werden im Design entschieden, nicht in der Prüfung entdeckt. Wo EU-Hosting oder offene Modelle die richtige Wahl sind, sagen wir das. Siehe [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "title": "Wissen weitergeben, keine Abhängigkeit schaffen", "text": "Dokumentation, Schulung und interne Verantwortliche sind Lieferergebnisse, keine Extras. Ein gutes Projekt erkennt man daran, dass Sie ohne uns weitermachen könnten – und uns trotzdem behalten." }
+          {
+            "title": "Beim Workflow anfangen, nicht beim Modell",
+            "text": "Die Frage ist nie, welches Modell das beste ist. Sondern welcher Schritt in welchem Prozess Sie am meisten kostet – und was ein Agent bräuchte, um ihn zu übernehmen. Modelle werden zuletzt gewählt, und sie sind austauschbar."
+          },
+          {
+            "title": "Menschen im Prozess, von Anfang an",
+            "text": "Jeder Agent hat definierte Punkte, an denen ein Mensch prüft, freigibt oder übernimmt, bemessen am Risiko der Entscheidung. Aufsicht ist Teil des Workflows, nicht ein Satz in einer Richtlinie."
+          },
+          {
+            "title": "Erst evaluieren, dann automatisieren",
+            "text": "Ein Testsatz echter Fälle mit erwarteten Ergebnissen existiert, bevor ein Agent live geht, und jede spätere Änderung muss ihn bestehen. Ohne Evaluation ist Automatisierung eine Vermutung."
+          },
+          {
+            "title": "Kleine, erfahrene Teams",
+            "text": "Zwei oder drei erfahrene Leute, die Ihren Prozess verstehen, sind einem großen Team überlegen, das gemanagt werden muss. Das hält auch den Zeitaufwand Ihrer eigenen Mitarbeitenden gering."
+          },
+          {
+            "title": "EU-Datenschutz von Anfang an",
+            "text": "Datenflüsse, Rechtsgrundlagen, Speicherfristen und Hosting-Standort werden im Design entschieden, nicht in der Prüfung entdeckt. Wo EU-Hosting oder offene Modelle die richtige Wahl sind, sagen wir das. Siehe [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "Wissen weitergeben, keine Abhängigkeit schaffen",
+            "text": "Dokumentation, Schulung und interne Verantwortliche sind Lieferergebnisse, keine Extras. Ein gutes Projekt erkennt man daran, dass Sie ohne uns weitermachen könnten – und uns trotzdem behalten."
+          }
         ]
       },
       {
@@ -160,39 +345,106 @@
         "heading": "Formate der Zusammenarbeit",
         "intro": "Jedes Format gehört zu einer Phase. Die Dauern sind typisch und werden nach dem Erstgespräch bestätigt.",
         "items": [
-          { "icon": "search", "title": "KI-Readiness-Assessment", "text": "Eine kurze Diagnose von Daten, Systemen, Kompetenzen und Governance, plus Ihre ersten Use Cases und eine Empfehlung. In der Regel 2–3 Wochen.", "page": "services/ai-readiness-assessment" },
-          { "icon": "strategy", "title": "KI-Strategie-Sprint", "text": "Use-Case-Portfolio, Zielarchitektur, Governance-Modell und Business Case, geordnet in eine Roadmap. In der Regel 4–6 Wochen.", "page": "services/ai-strategy" },
-          { "icon": "agent", "title": "Agenten-Pilot", "text": "Ein Agent oder agentischer Workflow in Produktionsqualität, gemessen in Ihrem Prozess. In der Regel 6–8 Wochen.", "page": "services/ai-agent-development" },
-          { "icon": "layers", "title": "Skalierungsprogramm", "text": "Bewährte Use Cases über Teams und Prozesse hinweg ausrollen, mit gemeinsamen Komponenten, Governance und internen Verantwortlichen. In der Regel 3–6 Monate.", "page": "services/agentic-workflows" },
-          { "icon": "gauge", "title": "Managed AI Operations", "text": "Monitoring, Evaluation, Upgrades, Kostenkontrolle und Incident-Handling nach dem Go-live. Monatlicher Retainer.", "page": "services/managed-ai-operations" },
-          { "icon": "compass", "title": "Fractional Chief AI Officer", "text": "Eine erfahrene KI-Führungskraft in Ihrem Unternehmen, ein bis zwei Tage pro Woche, mit schriftlichem Mandat und Exit-Kriterien. In der Regel 3–12 Monate.", "page": "services/fractional-chief-ai-officer" },
-          { "icon": "people", "title": "Schulungen und Workshops", "text": "Executive Briefings, KI-Kompetenz für alle Mitarbeitenden, Abteilungsworkshops und Agent-Builder-Enablement. Ein halber Tag bis mehrere Wochen.", "page": "services/ai-training" }
+          {
+            "icon": "search",
+            "title": "KI-Readiness-Assessment",
+            "text": "Eine kurze Diagnose von Daten, Systemen, Kompetenzen und Governance, plus Ihre ersten Use Cases und eine Empfehlung. In der Regel 2–3 Wochen.",
+            "page": "services/ai-readiness-assessment"
+          },
+          {
+            "icon": "strategy",
+            "title": "KI-Strategie-Sprint",
+            "text": "Use-Case-Portfolio, Zielarchitektur, Governance-Modell und Business Case, geordnet in eine Roadmap. In der Regel 4–6 Wochen.",
+            "page": "services/ai-strategy"
+          },
+          {
+            "icon": "agent",
+            "title": "Agenten-Pilot",
+            "text": "Ein Agent oder agentischer Workflow in Produktionsqualität, gemessen in Ihrem Prozess. In der Regel 6–8 Wochen.",
+            "page": "services/ai-agent-development"
+          },
+          {
+            "icon": "layers",
+            "title": "Skalierungsprogramm",
+            "text": "Bewährte Use Cases über Teams und Prozesse hinweg ausrollen, mit gemeinsamen Komponenten, Governance und internen Verantwortlichen. In der Regel 3–6 Monate.",
+            "page": "services/agentic-workflows"
+          },
+          {
+            "icon": "gauge",
+            "title": "Managed AI Operations",
+            "text": "Monitoring, Evaluation, Upgrades, Kostenkontrolle und Incident-Handling nach dem Go-live. Monatlicher Retainer.",
+            "page": "services/managed-ai-operations"
+          },
+          {
+            "icon": "compass",
+            "title": "Fractional Chief AI Officer",
+            "text": "Eine erfahrene KI-Führungskraft in Ihrem Unternehmen, ein bis zwei Tage pro Woche, mit schriftlichem Mandat und Exit-Kriterien. In der Regel 3–12 Monate.",
+            "page": "services/fractional-chief-ai-officer"
+          },
+          {
+            "icon": "people",
+            "title": "Schulungen und Workshops",
+            "text": "Executive Briefings, KI-Kompetenz für alle Mitarbeitenden, Abteilungsworkshops und Agent-Builder-Enablement. Ein halber Tag bis mehrere Wochen.",
+            "page": "services/ai-training"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Was wir von Ihnen erwarten",
         "items": [
-          { "title": "Einen Sponsor", "text": "Jemanden in der Führung, der das Ergebnis will, Entscheidungen in Tagen statt Wochen treffen kann und Hindernisse aus dem Weg räumt, wenn sie auftauchen. Ohne das bleiben selbst gut geplante Projekte stecken." },
-          { "title": "Eine Prozessverantwortung", "text": "Die Person, die weiß, wie die Arbeit tatsächlich gemacht wird, beurteilen kann, ob die Ausgabe eines Agenten stimmt, und das System nach dem Go-live verantwortet. In der Regel eine Teamleitung, nicht eine Führungskraft zwei Ebenen darüber." },
-          { "title": "Zugang zu Systemen und Menschen", "text": "Früh Lesezugriff auf die relevanten Systeme und Daten, Testumgebungen, wo nötig, und ein paar Stunden pro Woche von den Menschen, die den Prozess betreiben. Sicherheitsprüfungen und Auftragsverarbeitungsverträge werden sauber geregelt, zu Ihren Bedingungen." },
-          { "title": "Bereitschaft zu messen", "text": "Eine Ausgangsbasis, bevor wir anfangen, und Ehrlichkeit über die Zahl danach – auch dann, wenn das Ergebnis lautet, dass sich ein Use Case nicht gerechnet hat. Das ist eine Information, und sie gehört in die Roadmap." }
+          {
+            "title": "Einen Sponsor",
+            "text": "Jemanden in der Führung, der das Ergebnis will, Entscheidungen in Tagen statt Wochen treffen kann und Hindernisse aus dem Weg räumt, wenn sie auftauchen. Ohne das bleiben selbst gut geplante Projekte stecken."
+          },
+          {
+            "title": "Eine Prozessverantwortung",
+            "text": "Die Person, die weiß, wie die Arbeit tatsächlich gemacht wird, beurteilen kann, ob die Ausgabe eines Agenten stimmt, und das System nach dem Go-live verantwortet. In der Regel eine Teamleitung, nicht eine Führungskraft zwei Ebenen darüber."
+          },
+          {
+            "title": "Zugang zu Systemen und Menschen",
+            "text": "Früh Lesezugriff auf die relevanten Systeme und Daten, Testumgebungen, wo nötig, und ein paar Stunden pro Woche von den Menschen, die den Prozess betreiben. Sicherheitsprüfungen und Auftragsverarbeitungsverträge werden sauber geregelt, zu Ihren Bedingungen."
+          },
+          {
+            "title": "Bereitschaft zu messen",
+            "text": "Eine Ausgangsbasis, bevor wir anfangen, und Ehrlichkeit über die Zahl danach – auch dann, wenn das Ergebnis lautet, dass sich ein Use Case nicht gerechnet hat. Das ist eine Information, und sie gehört in die Roadmap."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Arbeiten Sie remote oder vor Ort?", "a": "Remote-first, mit Präsenztagen dort, wo sie zählen: Kick-offs, Workshops, Führungssitzungen und die Momente, in denen es das Ergebnis verändert, im Raum zu sein. Wir sitzen in Berlin und reisen in ganz Deutschland, Österreich und der Schweiz. Die meisten Projekte mischen beides." },
-          { "q": "In welchen Sprachen arbeiten Sie?", "a": "Deutsch und Englisch, jeweils auf muttersprachlichem Arbeitsniveau. Workshops finden in der Sprache des Teams statt, und Dokumente liefern wir in einer der beiden Sprachen oder in beiden, ganz wie Sie es wünschen." },
-          { "q": "Wie groß ist ein Projektteam?", "a": "In der Regel zwei oder drei erfahrene Personen. Eine leitende Beraterin oder ein leitender Berater bleibt vom ersten Gespräch bis zur Übergabe bei Ihnen, Spezialisten kommen bei Bedarf für Architektur, Sicherheit oder Evaluation hinzu. Wir besetzen keine Pyramiden, und Sie zahlen nicht für Menschen, die Sie nie kennengelernt haben." },
-          { "q": "Wie berechnen Sie Ihre Leistungen?", "a": "Pakete mit festem Umfang für Assessments, Strategie-Sprints und Piloten, monatliche Retainer für Managed Operations, die Rolle des Fractional Chief AI Officer und längere Programme. Jedes Angebot wird nach dem Erstgespräch erstellt, sobald der Umfang klar ist. Lizenzprovisionen oder Vermittlungsgebühren von Anbietern nehmen wir nicht." },
-          { "q": "Wem gehören geistiges Eigentum, Code und Dokumente?", "a": "Ihnen. Alle Lieferergebnisse, einschließlich Code, Prompts, Evaluationssätzen, Architekturdokumenten und Roadmaps, gehören dem Kunden. Wir behalten nur unsere generischen Methoden und Vorlagen, und Open-Source-Komponenten behalten ihre eigenen Lizenzen. Die Einzelheiten stehen im Vertrag, bevor wir beginnen." }
+          {
+            "q": "Arbeiten Sie remote oder vor Ort?",
+            "a": "Remote-first, mit Präsenztagen dort, wo sie zählen: Kick-offs, Workshops, Führungssitzungen und die Momente, in denen es das Ergebnis verändert, im Raum zu sein. Wir sitzen in Berlin und reisen in ganz Deutschland, Österreich und der Schweiz. Die meisten Projekte mischen beides."
+          },
+          {
+            "q": "In welchen Sprachen arbeiten Sie?",
+            "a": "Deutsch und Englisch, jeweils auf muttersprachlichem Arbeitsniveau. Workshops finden in der Sprache des Teams statt, und Dokumente liefern wir in einer der beiden Sprachen oder in beiden, ganz wie Sie es wünschen."
+          },
+          {
+            "q": "Wie groß ist ein Projektteam?",
+            "a": "In der Regel zwei oder drei erfahrene Personen. Eine leitende Beraterin oder ein leitender Berater bleibt vom ersten Gespräch bis zur Übergabe bei Ihnen, Spezialisten kommen bei Bedarf für Architektur, Sicherheit oder Evaluation hinzu. Wir besetzen keine Pyramiden, und Sie zahlen nicht für Menschen, die Sie nie kennengelernt haben."
+          },
+          {
+            "q": "Wie berechnen Sie Ihre Leistungen?",
+            "a": "Pakete mit festem Umfang für Assessments, Strategie-Sprints und Piloten, monatliche Retainer für Managed Operations, die Rolle des Fractional Chief AI Officer und längere Programme. Jedes Angebot wird nach dem Erstgespräch erstellt, sobald der Umfang klar ist. Lizenzprovisionen oder Vermittlungsgebühren von Anbietern nehmen wir nicht."
+          },
+          {
+            "q": "Wem gehören geistiges Eigentum, Code und Dokumente?",
+            "a": "Ihnen. Alle Lieferergebnisse, einschließlich Code, Prompts, Evaluationssätzen, Architekturdokumenten und Roadmaps, gehören dem Kunden. Wir behalten nur unsere generischen Methoden und Vorlagen, und Open-Source-Komponenten behalten ihre eigenen Lizenzen. Die Einzelheiten stehen im Vertrag, bevor wir beginnen."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Wo Sie anfangen können",
-        "pages": ["services/ai-readiness-assessment", "services/ai-strategy", "about", "contact"]
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/ai-strategy",
+          "about",
+          "contact"
+        ]
       }
     ]
   }

@@ -12,7 +12,7 @@
       "standfirst": "Law firms, tax advisors, accountants, consultancies, agencies and engineering offices sell judgement by the hour. AI agents take on the reading, drafting, searching and checking around that judgement, which raises the question of what to do with the hours saved. We help you deploy the agents under professional secrecy and answer that question deliberately.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [
@@ -195,7 +195,7 @@
       "standfirst": "Kanzleien, Steuerberater, Wirtschaftsprüfer, Beratungen, Agenturen und Ingenieurbüros verkaufen Urteilsvermögen nach Stunden. KI-Agenten übernehmen das Lesen, Entwerfen, Suchen und Prüfen rund um dieses Urteil – und werfen die Frage auf, was mit den eingesparten Stunden geschieht. Wir helfen Ihnen, die Agenten unter Berufsgeheimnis einzuführen und diese Frage bewusst zu beantworten.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       }
     },
     "sections": [

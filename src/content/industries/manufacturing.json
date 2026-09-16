@@ -10,8 +10,14 @@
       "title": "AI agents for manufacturing,",
       "titleAccent": "from quote to after-sales.",
       "standfirst": "Machine builders, component suppliers and plant engineers run on documents: specifications, drawings, order confirmations, service reports, non-conformance forms. That is where language models and agents pay off first, well before anyone touches the shop floor. We build them to fit your ERP, your PLM, your export-control obligations and your works council.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "How we work with the Mittelstand", "page": "for/mittelstand" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "How we work with the Mittelstand",
+        "page": "for/mittelstand"
+      }
     },
     "sections": [
       {
@@ -24,37 +30,98 @@
           "We focus on these document- and knowledge-heavy processes because they are measurable, they relieve exactly the people who are hardest to hire, and they can be built without touching the production network. Our [agentic workflow](page:services/agentic-workflows) and [knowledge assistant](page:services/knowledge-assistants) services are the usual starting points."
         ],
         "facts": [
-          ["Typical clients", "Machine and plant builders, component suppliers, contract manufacturers, engineering offices"],
-          ["Systems", "SAP, Microsoft Dynamics, proALPHA, abas and other ERP; PLM and CAD vaults; ticketing and service tools"],
-          ["First results", "Typically a production-grade pilot in 6–8 weeks"],
-          ["Working mode", "On site at the plant when useful, in German or English"]
+          [
+            "Typical clients",
+            "Machine and plant builders, component suppliers, contract manufacturers, engineering offices"
+          ],
+          [
+            "Systems",
+            "SAP, Microsoft Dynamics, proALPHA, abas and other ERP; PLM and CAD vaults; ticketing and service tools"
+          ],
+          [
+            "First results",
+            "Typically a production-grade pilot in 6–8 weeks"
+          ],
+          [
+            "Working mode",
+            "On site at the plant when useful, in German or English"
+          ]
         ],
-        "link": { "label": "How we work with the Mittelstand", "page": "for/mittelstand" }
+        "link": {
+          "label": "How we work with the Mittelstand",
+          "page": "for/mittelstand"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases in manufacturing and engineering",
         "intro": "Each of these is a real workflow with a human checkpoint, not a chatbot on the website.",
         "items": [
-          { "icon": "doc", "title": "Quote and tender preparation from technical specs", "text": "The agent reads the customer specification and tender documents, extracts requirements, finds comparable past projects and configurations, flags deviations from your standard scope and drafts the technical and commercial sections. The sales engineer reviews, adjusts and releases." },
-          { "icon": "workflow", "title": "Order intake and confirmation", "text": "Incoming orders as PDF, email or portal download are read, matched against the quote and master data, entered into the ERP and confirmed to the customer. Discrepancies in prices, quantities or delivery dates go to a person before anything is booked." },
-          { "icon": "book", "title": "Service knowledge and spare-parts identification for technicians", "text": "Technicians in the field ask in plain language and get answers from manuals, wiring diagrams, service bulletins and past cases, with sources and the specific machine's configuration taken into account. From a photo, a description or a machine number to the right part number, its alternatives and availability." },
-          { "icon": "shield", "title": "Quality documentation and non-conformance reports", "text": "Deviations recorded on the line become structured non-conformance reports, 8D drafts and supplier claims in your templates. The quality engineer reviews the draft; the agent keeps the record consistent across ERP, QMS and the customer's portal." },
-          { "icon": "mail", "title": "Supplier communication and expediting", "text": "Order confirmations, delivery-date changes and quality queries from suppliers are read, compared with the purchase order and answered or escalated. Buyers see exceptions, not inboxes. Related: [AI agents for procurement](page:solutions/procurement)." },
-          { "icon": "people", "title": "Knowledge capture from retiring experts and document search", "text": "Structured interviews, annotated walkthroughs and the expert's own notes become a maintained knowledge base that answers the questions the next generation will ask. Add search across drawings, change notes, specifications and standards by meaning rather than filename." },
-          { "icon": "chat", "title": "After-sales service agents", "text": "Warranty questions, service scheduling and documentation requests are handled with the customer in the portal or by email. The agent knows the machine, the contract and the history, and hands over to a person as soon as goodwill, safety or money is involved." }
+          {
+            "icon": "doc",
+            "title": "Quote and tender preparation from technical specs",
+            "text": "The agent reads the customer specification and tender documents, extracts requirements, finds comparable past projects and configurations, flags deviations from your standard scope and drafts the technical and commercial sections. The sales engineer reviews, adjusts and releases."
+          },
+          {
+            "icon": "workflow",
+            "title": "Order intake and confirmation",
+            "text": "Incoming orders as PDF, email or portal download are read, matched against the quote and master data, entered into the ERP and confirmed to the customer. Discrepancies in prices, quantities or delivery dates go to a person before anything is booked."
+          },
+          {
+            "icon": "book",
+            "title": "Service knowledge and spare-parts identification for technicians",
+            "text": "Technicians in the field ask in plain language and get answers from manuals, wiring diagrams, service bulletins and past cases, with sources and the specific machine's configuration taken into account. From a photo, a description or a machine number to the right part number, its alternatives and availability."
+          },
+          {
+            "icon": "shield",
+            "title": "Quality documentation and non-conformance reports",
+            "text": "Deviations recorded on the line become structured non-conformance reports, 8D drafts and supplier claims in your templates. The quality engineer reviews the draft; the agent keeps the record consistent across ERP, QMS and the customer's portal."
+          },
+          {
+            "icon": "mail",
+            "title": "Supplier communication and expediting",
+            "text": "Order confirmations, delivery-date changes and quality queries from suppliers are read, compared with the purchase order and answered or escalated. Buyers see exceptions, not inboxes. Related: [AI agents for procurement](page:solutions/procurement)."
+          },
+          {
+            "icon": "people",
+            "title": "Knowledge capture from retiring experts and document search",
+            "text": "Structured interviews, annotated walkthroughs and the expert's own notes become a maintained knowledge base that answers the questions the next generation will ask. Add search across drawings, change notes, specifications and standards by meaning rather than filename."
+          },
+          {
+            "icon": "chat",
+            "title": "After-sales service agents",
+            "text": "Warranty questions, service scheduling and documentation requests are handled with the customer in the portal or by email. The agent knows the machine, the contract and the history, and hands over to a person as soon as goodwill, safety or money is involved."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Constraints specific to manufacturing",
         "items": [
-          { "title": "OT/IT separation stays intact", "text": "Agents live on the IT side: ERP, PLM, ticketing, document management. We do not connect language models to control systems or the production network. Where machine data is useful, it arrives read-only through the historian or MES exports that already cross the boundary." },
-          { "title": "Machine and master data quality", "text": "Sensor data is noisy, material masters are inconsistent, and the as-built configuration often lives in a technician's head. We check data readiness before promising a use case and plan the [data foundations](page:services/data-foundations) work where it is needed." },
-          { "title": "ERP and PLM landscape", "text": "SAP, Microsoft Dynamics, proALPHA, abas and a PLM or CAD vault with years of history. Agents connect through existing interfaces and respect the ERP as the system of record; nothing is booked without a person or a rule releasing it." },
-          { "title": "Export control and confidentiality of drawings", "text": "Drawings, specifications and customer data can be subject to export-control rules and NDAs. We define which documents may be processed by which model and where (EU hosting, on-premises) and keep the audit trail. Your legal counsel confirms the classification; we build to it." },
-          { "title": "Works council and shift work", "text": "Agents change how office and service staff work and touch performance-related data. We involve the works council early with plain descriptions and design the systems so that they support people rather than monitor them." },
-          { "title": "Multilingual plants and customers", "text": "Manuals in German, service reports in Polish, customer specifications in English. Language models handle this well, but terminology must be controlled: we build glossaries per product line so that a part is called the same thing in every language." }
+          {
+            "title": "OT/IT separation stays intact",
+            "text": "Agents live on the IT side: ERP, PLM, ticketing, document management. We do not connect language models to control systems or the production network. Where machine data is useful, it arrives read-only through the historian or MES exports that already cross the boundary."
+          },
+          {
+            "title": "Machine and master data quality",
+            "text": "Sensor data is noisy, material masters are inconsistent, and the as-built configuration often lives in a technician's head. We check data readiness before promising a use case and plan the [data foundations](page:services/data-foundations) work where it is needed."
+          },
+          {
+            "title": "ERP and PLM landscape",
+            "text": "SAP, Microsoft Dynamics, proALPHA, abas and a PLM or CAD vault with years of history. Agents connect through existing interfaces and respect the ERP as the system of record; nothing is booked without a person or a rule releasing it."
+          },
+          {
+            "title": "Export control and confidentiality of drawings",
+            "text": "Drawings, specifications and customer data can be subject to export-control rules and NDAs. We define which documents may be processed by which model and where (EU hosting, on-premises) and keep the audit trail. Your legal counsel confirms the classification; we build to it."
+          },
+          {
+            "title": "Works council and shift work",
+            "text": "Agents change how office and service staff work and touch performance-related data. We involve the works council early with plain descriptions and design the systems so that they support people rather than monitor them."
+          },
+          {
+            "title": "Multilingual plants and customers",
+            "text": "Manuals in German, service reports in Polish, customer specifications in English. Language models handle this well, but terminology must be controlled: we build glossaries per product line so that a part is called the same thing in every language."
+          }
         ]
       },
       {
@@ -62,26 +129,62 @@
         "heading": "How we start",
         "intro": "The path is the same as in other industries, with a plant visit at the beginning.",
         "items": [
-          { "title": "Plant visit and process walk", "text": "We walk the offices and the shop floor with sales, order processing, service and quality, look at the documents they handle and ask where the time goes.", "meta": "Day 1" },
-          { "title": "Readiness assessment", "text": "ERP, PLM and document systems, data quality, export-control and confidentiality requirements, works council situation. Output: the first three use cases with effort, prerequisites and metrics. See the [readiness assessment](page:services/ai-readiness-assessment).", "meta": "Weeks 1–3" },
-          { "title": "Pilot to production", "text": "One workflow, typically quoting, order intake or service knowledge, built inside your systems with the people who use it. Measured against the baseline, with human checkpoints wherever money or safety is involved.", "meta": "Weeks 4–11" },
-          { "title": "Scale across product lines and plants", "text": "Once the first agent runs, the pattern repeats: the next workflow, the next plant, the next language. Your IT and department heads take over operation with our documentation, or we run it as [managed AI operations](page:services/managed-ai-operations).", "meta": "Month 4 onward" }
+          {
+            "title": "Plant visit and process walk",
+            "text": "We walk the offices and the shop floor with sales, order processing, service and quality, look at the documents they handle and ask where the time goes.",
+            "meta": "Day 1"
+          },
+          {
+            "title": "Readiness assessment",
+            "text": "ERP, PLM and document systems, data quality, export-control and confidentiality requirements, works council situation. Output: the first three use cases with effort, prerequisites and metrics. See the [readiness assessment](page:services/ai-readiness-assessment).",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Pilot to production",
+            "text": "One workflow, typically quoting, order intake or service knowledge, built inside your systems with the people who use it. Measured against the baseline, with human checkpoints wherever money or safety is involved.",
+            "meta": "Weeks 4–11"
+          },
+          {
+            "title": "Scale across product lines and plants",
+            "text": "Once the first agent runs, the pattern repeats: the next workflow, the next plant, the next language. Your IT and department heads take over operation with our documentation, or we run it as [managed AI operations](page:services/managed-ai-operations).",
+            "meta": "Month 4 onward"
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Do we need to connect AI to our machines?", "a": "No. The use cases with the fastest payback are in quoting, order processing, service and quality documentation, all on the IT side. Machine data helps in some cases such as maintenance knowledge, but it comes through existing exports, read-only, never through a direct connection to controls." },
-          { "q": "How do you handle export-controlled drawings and customer NDAs?", "a": "By classifying documents before any model sees them and choosing the processing location accordingly: EU-hosted models, a German data centre or on-premises for the most sensitive material. Access follows your existing permissions. We describe the setup for your export-control officer and legal team; they decide the classification." },
-          { "q": "Our ERP is heavily customised. Is that a problem?", "a": "Usually not. Agents read from and write to the ERP through the interfaces you already use for EDI, portals or reporting, and a person or a rule releases every booking. Heavy customisation mostly affects the integration effort, which we estimate in the assessment." },
-          { "q": "How do we keep the knowledge of experts who retire next year?", "a": "Start now. Structured interviews, annotated walkthroughs of typical faults and the expert's own notes go into a knowledge base that the expert reviews while still on site. Combined with past service cases, it becomes the assistant the next generation uses." },
-          { "q": "What does the EU AI Act mean for industrial use?", "a": "Most office and service use cases described here are low-risk under the AI Act, but safety-related applications or systems that affect employees may fall into stricter categories. We classify each use case in the assessment and recommend confirming the status with legal counsel, since obligations phase in over time." }
+          {
+            "q": "Do we need to connect AI to our machines?",
+            "a": "No. The use cases with the fastest payback are in quoting, order processing, service and quality documentation, all on the IT side. Machine data helps in some cases such as maintenance knowledge, but it comes through existing exports, read-only, never through a direct connection to controls."
+          },
+          {
+            "q": "How do you handle export-controlled drawings and customer NDAs?",
+            "a": "By classifying documents before any model sees them and choosing the processing location accordingly: EU-hosted models, a German data centre or on-premises for the most sensitive material. Access follows your existing permissions. We describe the setup for your export-control officer and legal team; they decide the classification."
+          },
+          {
+            "q": "Our ERP is heavily customised. Is that a problem?",
+            "a": "Usually not. Agents read from and write to the ERP through the interfaces you already use for EDI, portals or reporting, and a person or a rule releases every booking. Heavy customisation mostly affects the integration effort, which we estimate in the assessment."
+          },
+          {
+            "q": "How do we keep the knowledge of experts who retire next year?",
+            "a": "Start now. Structured interviews, annotated walkthroughs of typical faults and the expert's own notes go into a knowledge base that the expert reviews while still on site. Combined with past service cases, it becomes the assistant the next generation uses."
+          },
+          {
+            "q": "What does the EU AI Act mean for industrial use?",
+            "a": "Most office and service use cases described here are low-risk under the AI Act, but safety-related applications or systems that affect employees may fall into stricter categories. We classify each use case in the assessment and recommend confirming the status with legal counsel, since obligations phase in over time."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["for/mittelstand", "services/agentic-workflows", "services/knowledge-assistants", "solutions/operations"]
+        "pages": [
+          "for/mittelstand",
+          "services/agentic-workflows",
+          "services/knowledge-assistants",
+          "solutions/operations"
+        ]
       }
     ]
   },
@@ -95,8 +198,14 @@
       "title": "KI-Agenten für die Industrie,",
       "titleAccent": "vom Angebot bis zum After-Sales.",
       "standfirst": "Maschinenbauer, Zulieferer und Anlagenbauer laufen auf Dokumenten: Lastenhefte, Zeichnungen, Auftragsbestätigungen, Serviceberichte, Abweichungsmeldungen. Genau dort zahlen sich Sprachmodelle und Agenten zuerst aus – lange bevor jemand die Fertigung anfasst. Wir bauen sie passend zu Ihrem ERP, Ihrem PLM, Ihren Exportkontrollpflichten und Ihrem Betriebsrat.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir mit dem Mittelstand", "page": "for/mittelstand" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir mit dem Mittelstand",
+        "page": "for/mittelstand"
+      }
     },
     "sections": [
       {
@@ -109,37 +218,98 @@
           "Wir konzentrieren uns auf diese dokumenten- und wissensintensiven Prozesse, weil sie messbar sind, weil sie genau die Menschen entlasten, die am schwersten zu finden sind, und weil sie sich umsetzen lassen, ohne das Produktionsnetz zu berühren. Unsere Leistungen [Agentische Workflows](page:services/agentic-workflows) und [Wissensassistenten](page:services/knowledge-assistants) sind die üblichen Einstiegspunkte."
         ],
         "facts": [
-          ["Typische Kunden", "Maschinen- und Anlagenbauer, Zulieferer, Lohnfertiger, Ingenieurbüros"],
-          ["Systeme", "SAP, Microsoft Dynamics, proALPHA, abas und andere ERP; PLM- und CAD-Systeme; Ticket- und Servicetools"],
-          ["Erste Ergebnisse", "In der Regel ein produktionsreifer Pilot in 6–8 Wochen"],
-          ["Arbeitsweise", "Vor Ort im Werk, wenn sinnvoll, auf Deutsch oder Englisch"]
+          [
+            "Typische Kunden",
+            "Maschinen- und Anlagenbauer, Zulieferer, Lohnfertiger, Ingenieurbüros"
+          ],
+          [
+            "Systeme",
+            "SAP, Microsoft Dynamics, proALPHA, abas und andere ERP; PLM- und CAD-Systeme; Ticket- und Servicetools"
+          ],
+          [
+            "Erste Ergebnisse",
+            "In der Regel ein produktionsreifer Pilot in 6–8 Wochen"
+          ],
+          [
+            "Arbeitsweise",
+            "Vor Ort im Werk, wenn sinnvoll, auf Deutsch oder Englisch"
+          ]
         ],
-        "link": { "label": "So arbeiten wir mit dem Mittelstand", "page": "for/mittelstand" }
+        "link": {
+          "label": "So arbeiten wir mit dem Mittelstand",
+          "page": "for/mittelstand"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases in Industrie und Maschinenbau",
         "intro": "Jeder dieser Fälle ist ein echter Workflow mit menschlichem Kontrollpunkt, kein Chatbot auf der Website.",
         "items": [
-          { "icon": "doc", "title": "Angebots- und Ausschreibungsvorbereitung aus Spezifikationen", "text": "Der Agent liest Lastenheft und Ausschreibungsunterlagen, extrahiert Anforderungen, findet vergleichbare Projekte und Konfigurationen, markiert Abweichungen von Ihrem Standardumfang und entwirft den technischen und kaufmännischen Teil. Der Vertriebsingenieur prüft, passt an und gibt frei." },
-          { "icon": "workflow", "title": "Auftragserfassung und -bestätigung", "text": "Eingehende Bestellungen als PDF, E-Mail oder Portal-Download werden gelesen, gegen Angebot und Stammdaten abgeglichen, ins ERP übernommen und dem Kunden bestätigt. Abweichungen bei Preisen, Mengen oder Lieferterminen gehen an einen Menschen, bevor etwas gebucht wird." },
-          { "icon": "book", "title": "Servicewissen und Ersatzteilidentifikation für Techniker", "text": "Techniker im Feld fragen in normaler Sprache und bekommen Antworten aus Handbüchern, Schaltplänen, Servicebulletins und alten Fällen, mit Quellen und unter Berücksichtigung der Konfiguration der konkreten Maschine. Aus Foto, Beschreibung oder Maschinennummer wird die richtige Teilenummer samt Alternativen und Verfügbarkeit." },
-          { "icon": "shield", "title": "Qualitätsdokumentation und Abweichungsmeldungen", "text": "Abweichungen aus der Linie werden zu strukturierten Abweichungsmeldungen, 8D-Entwürfen und Lieferantenreklamationen in Ihren Vorlagen. Der Qualitätsingenieur prüft den Entwurf; der Agent hält den Vorgang über ERP, QM-System und Kundenportal konsistent." },
-          { "icon": "mail", "title": "Lieferantenkommunikation und Terminverfolgung", "text": "Auftragsbestätigungen, Terminverschiebungen und Qualitätsrückfragen von Lieferanten werden gelesen, mit der Bestellung verglichen und beantwortet oder eskaliert. Einkäufer sehen Ausnahmen statt Postfächer. Siehe auch [KI-Agenten im Einkauf](page:solutions/procurement)." },
-          { "icon": "people", "title": "Wissenssicherung von ausscheidenden Experten und Dokumentensuche", "text": "Strukturierte Interviews, kommentierte Rundgänge und die eigenen Notizen des Experten werden zu einer gepflegten Wissensbasis, die die Fragen der nächsten Generation beantwortet. Dazu eine Suche über Zeichnungen, Änderungsmitteilungen, Spezifikationen und Normen nach Bedeutung statt nach Dateinamen." },
-          { "icon": "chat", "title": "After-Sales-Service-Agenten", "text": "Garantiefragen, Serviceterminierung und Dokumentationsanfragen werden mit dem Kunden im Portal oder per E-Mail geklärt. Der Agent kennt Maschine, Vertrag und Historie und übergibt an einen Menschen, sobald es um Kulanz, Sicherheit oder Geld geht." }
+          {
+            "icon": "doc",
+            "title": "Angebots- und Ausschreibungsvorbereitung aus Spezifikationen",
+            "text": "Der Agent liest Lastenheft und Ausschreibungsunterlagen, extrahiert Anforderungen, findet vergleichbare Projekte und Konfigurationen, markiert Abweichungen von Ihrem Standardumfang und entwirft den technischen und kaufmännischen Teil. Der Vertriebsingenieur prüft, passt an und gibt frei."
+          },
+          {
+            "icon": "workflow",
+            "title": "Auftragserfassung und -bestätigung",
+            "text": "Eingehende Bestellungen als PDF, E-Mail oder Portal-Download werden gelesen, gegen Angebot und Stammdaten abgeglichen, ins ERP übernommen und dem Kunden bestätigt. Abweichungen bei Preisen, Mengen oder Lieferterminen gehen an einen Menschen, bevor etwas gebucht wird."
+          },
+          {
+            "icon": "book",
+            "title": "Servicewissen und Ersatzteilidentifikation für Techniker",
+            "text": "Techniker im Feld fragen in normaler Sprache und bekommen Antworten aus Handbüchern, Schaltplänen, Servicebulletins und alten Fällen, mit Quellen und unter Berücksichtigung der Konfiguration der konkreten Maschine. Aus Foto, Beschreibung oder Maschinennummer wird die richtige Teilenummer samt Alternativen und Verfügbarkeit."
+          },
+          {
+            "icon": "shield",
+            "title": "Qualitätsdokumentation und Abweichungsmeldungen",
+            "text": "Abweichungen aus der Linie werden zu strukturierten Abweichungsmeldungen, 8D-Entwürfen und Lieferantenreklamationen in Ihren Vorlagen. Der Qualitätsingenieur prüft den Entwurf; der Agent hält den Vorgang über ERP, QM-System und Kundenportal konsistent."
+          },
+          {
+            "icon": "mail",
+            "title": "Lieferantenkommunikation und Terminverfolgung",
+            "text": "Auftragsbestätigungen, Terminverschiebungen und Qualitätsrückfragen von Lieferanten werden gelesen, mit der Bestellung verglichen und beantwortet oder eskaliert. Einkäufer sehen Ausnahmen statt Postfächer. Siehe auch [KI-Agenten im Einkauf](page:solutions/procurement)."
+          },
+          {
+            "icon": "people",
+            "title": "Wissenssicherung von ausscheidenden Experten und Dokumentensuche",
+            "text": "Strukturierte Interviews, kommentierte Rundgänge und die eigenen Notizen des Experten werden zu einer gepflegten Wissensbasis, die die Fragen der nächsten Generation beantwortet. Dazu eine Suche über Zeichnungen, Änderungsmitteilungen, Spezifikationen und Normen nach Bedeutung statt nach Dateinamen."
+          },
+          {
+            "icon": "chat",
+            "title": "After-Sales-Service-Agenten",
+            "text": "Garantiefragen, Serviceterminierung und Dokumentationsanfragen werden mit dem Kunden im Portal oder per E-Mail geklärt. Der Agent kennt Maschine, Vertrag und Historie und übergibt an einen Menschen, sobald es um Kulanz, Sicherheit oder Geld geht."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Besonderheiten der Branche",
         "items": [
-          { "title": "Die OT/IT-Trennung bleibt bestehen", "text": "Agenten leben auf der IT-Seite: ERP, PLM, Ticketsystem, Dokumentenmanagement. Wir verbinden Sprachmodelle nicht mit Steuerungen oder dem Produktionsnetz. Wo Maschinendaten nützlich sind, kommen sie nur lesend über Historian- oder MES-Exporte, die die Grenze ohnehin schon überschreiten." },
-          { "title": "Qualität von Maschinen- und Stammdaten", "text": "Sensordaten sind verrauscht, Materialstämme inkonsistent, und die As-built-Konfiguration steckt oft im Kopf eines Technikers. Wir prüfen die Datenreife, bevor wir einen Use Case versprechen, und planen die nötige [Datenbasis-Arbeit](page:services/data-foundations) ein, wo sie gebraucht wird." },
-          { "title": "ERP- und PLM-Landschaft", "text": "SAP, Microsoft Dynamics, proALPHA, abas und ein PLM- oder CAD-System mit jahrelanger Historie. Agenten docken über vorhandene Schnittstellen an und respektieren das ERP als führendes System; nichts wird gebucht, ohne dass ein Mensch oder eine Regel es freigibt." },
-          { "title": "Exportkontrolle und Vertraulichkeit von Zeichnungen", "text": "Zeichnungen, Spezifikationen und Kundendaten können Exportkontrollregeln und Geheimhaltungsvereinbarungen unterliegen. Wir legen fest, welche Dokumente von welchem Modell wo verarbeitet werden dürfen (EU-Hosting, On-Premises), und halten den Audit-Trail. Die Einstufung bestätigt Ihre Rechtsabteilung; wir bauen danach." },
-          { "title": "Betriebsrat und Schichtbetrieb", "text": "Agenten verändern die Arbeit in Büro und Service und berühren leistungsbezogene Daten. Wir binden den Betriebsrat früh mit verständlichen Beschreibungen ein und gestalten die Systeme so, dass sie Menschen unterstützen statt überwachen." },
-          { "title": "Mehrsprachige Werke und Kunden", "text": "Handbücher auf Deutsch, Serviceberichte auf Polnisch, Kundenspezifikationen auf Englisch. Sprachmodelle können das gut, aber die Terminologie muss kontrolliert sein: Wir bauen Glossare je Produktlinie, damit ein Teil in jeder Sprache gleich heißt." }
+          {
+            "title": "Die OT/IT-Trennung bleibt bestehen",
+            "text": "Agenten leben auf der IT-Seite: ERP, PLM, Ticketsystem, Dokumentenmanagement. Wir verbinden Sprachmodelle nicht mit Steuerungen oder dem Produktionsnetz. Wo Maschinendaten nützlich sind, kommen sie nur lesend über Historian- oder MES-Exporte, die die Grenze ohnehin schon überschreiten."
+          },
+          {
+            "title": "Qualität von Maschinen- und Stammdaten",
+            "text": "Sensordaten sind verrauscht, Materialstämme inkonsistent, und die As-built-Konfiguration steckt oft im Kopf eines Technikers. Wir prüfen die Datenreife, bevor wir einen Use Case versprechen, und planen die nötige [Datenbasis-Arbeit](page:services/data-foundations) ein, wo sie gebraucht wird."
+          },
+          {
+            "title": "ERP- und PLM-Landschaft",
+            "text": "SAP, Microsoft Dynamics, proALPHA, abas und ein PLM- oder CAD-System mit jahrelanger Historie. Agenten docken über vorhandene Schnittstellen an und respektieren das ERP als führendes System; nichts wird gebucht, ohne dass ein Mensch oder eine Regel es freigibt."
+          },
+          {
+            "title": "Exportkontrolle und Vertraulichkeit von Zeichnungen",
+            "text": "Zeichnungen, Spezifikationen und Kundendaten können Exportkontrollregeln und Geheimhaltungsvereinbarungen unterliegen. Wir legen fest, welche Dokumente von welchem Modell wo verarbeitet werden dürfen (EU-Hosting, On-Premises), und halten den Audit-Trail. Die Einstufung bestätigt Ihre Rechtsabteilung; wir bauen danach."
+          },
+          {
+            "title": "Betriebsrat und Schichtbetrieb",
+            "text": "Agenten verändern die Arbeit in Büro und Service und berühren leistungsbezogene Daten. Wir binden den Betriebsrat früh mit verständlichen Beschreibungen ein und gestalten die Systeme so, dass sie Menschen unterstützen statt überwachen."
+          },
+          {
+            "title": "Mehrsprachige Werke und Kunden",
+            "text": "Handbücher auf Deutsch, Serviceberichte auf Polnisch, Kundenspezifikationen auf Englisch. Sprachmodelle können das gut, aber die Terminologie muss kontrolliert sein: Wir bauen Glossare je Produktlinie, damit ein Teil in jeder Sprache gleich heißt."
+          }
         ]
       },
       {
@@ -147,26 +317,62 @@
         "heading": "So starten wir",
         "intro": "Der Weg ist derselbe wie in anderen Branchen, mit einem Werksbesuch am Anfang.",
         "items": [
-          { "title": "Werksbesuch und Prozessrundgang", "text": "Wir gehen mit Vertrieb, Auftragsabwicklung, Service und Qualität durch Büros und Halle, sehen uns die Dokumente an, mit denen sie arbeiten, und fragen, wohin die Zeit geht.", "meta": "Tag 1" },
-          { "title": "Readiness-Assessment", "text": "ERP, PLM und Dokumentensysteme, Datenqualität, Anforderungen aus Exportkontrolle und Vertraulichkeit, Situation mit dem Betriebsrat. Ergebnis: die ersten drei Use Cases mit Aufwand, Voraussetzungen und Kennzahlen. Mehr zum [Readiness-Assessment](page:services/ai-readiness-assessment).", "meta": "Wochen 1–3" },
-          { "title": "Pilot bis in den Produktivbetrieb", "text": "Ein Workflow, typischerweise Angebot, Auftragserfassung oder Servicewissen, gebaut in Ihren Systemen mit den Menschen, die ihn nutzen. Gemessen gegen die Ausgangsbasis, mit menschlichen Kontrollpunkten überall dort, wo es um Geld oder Sicherheit geht.", "meta": "Wochen 4–11" },
-          { "title": "Ausrollen über Produktlinien und Werke", "text": "Läuft der erste Agent, wiederholt sich das Muster: der nächste Workflow, das nächste Werk, die nächste Sprache. Ihre IT und Ihre Bereichsleitungen übernehmen den Betrieb mit unserer Dokumentation – oder wir betreiben ihn als [Managed AI Operations](page:services/managed-ai-operations).", "meta": "Ab Monat 4" }
+          {
+            "title": "Werksbesuch und Prozessrundgang",
+            "text": "Wir gehen mit Vertrieb, Auftragsabwicklung, Service und Qualität durch Büros und Halle, sehen uns die Dokumente an, mit denen sie arbeiten, und fragen, wohin die Zeit geht.",
+            "meta": "Tag 1"
+          },
+          {
+            "title": "Readiness-Assessment",
+            "text": "ERP, PLM und Dokumentensysteme, Datenqualität, Anforderungen aus Exportkontrolle und Vertraulichkeit, Situation mit dem Betriebsrat. Ergebnis: die ersten drei Use Cases mit Aufwand, Voraussetzungen und Kennzahlen. Mehr zum [Readiness-Assessment](page:services/ai-readiness-assessment).",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Pilot bis in den Produktivbetrieb",
+            "text": "Ein Workflow, typischerweise Angebot, Auftragserfassung oder Servicewissen, gebaut in Ihren Systemen mit den Menschen, die ihn nutzen. Gemessen gegen die Ausgangsbasis, mit menschlichen Kontrollpunkten überall dort, wo es um Geld oder Sicherheit geht.",
+            "meta": "Wochen 4–11"
+          },
+          {
+            "title": "Ausrollen über Produktlinien und Werke",
+            "text": "Läuft der erste Agent, wiederholt sich das Muster: der nächste Workflow, das nächste Werk, die nächste Sprache. Ihre IT und Ihre Bereichsleitungen übernehmen den Betrieb mit unserer Dokumentation – oder wir betreiben ihn als [Managed AI Operations](page:services/managed-ai-operations).",
+            "meta": "Ab Monat 4"
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Müssen wir KI mit unseren Maschinen verbinden?", "a": "Nein. Die Use Cases mit der schnellsten Amortisation liegen in Angebot, Auftragsabwicklung, Service und Qualitätsdokumentation, alle auf der IT-Seite. Maschinendaten helfen in manchen Fällen wie dem Instandhaltungswissen, kommen aber über vorhandene Exporte, nur lesend, und nie über eine direkte Verbindung zur Steuerung." },
-          { "q": "Wie gehen Sie mit exportkontrollierten Zeichnungen und Kunden-NDAs um?", "a": "Indem wir Dokumente einstufen, bevor ein Modell sie sieht, und den Verarbeitungsort entsprechend wählen: EU-gehostete Modelle, ein deutsches Rechenzentrum oder On-Premises für das sensibelste Material. Zugriffe folgen Ihren bestehenden Berechtigungen. Wir beschreiben den Aufbau für Ihren Exportkontrollbeauftragten und Ihre Rechtsabteilung; die Einstufung entscheiden sie." },
-          { "q": "Unser ERP ist stark angepasst. Ist das ein Problem?", "a": "Meist nicht. Agenten lesen und schreiben über die Schnittstellen, die Sie bereits für EDI, Portale oder Reporting nutzen, und jede Buchung gibt ein Mensch oder eine Regel frei. Starke Anpassung beeinflusst vor allem den Integrationsaufwand, den wir im Assessment schätzen." },
-          { "q": "Wie sichern wir das Wissen von Experten, die nächstes Jahr in Rente gehen?", "a": "Jetzt anfangen. Strukturierte Interviews, kommentierte Rundgänge zu typischen Störungen und die eigenen Notizen des Experten fließen in eine Wissensbasis, die er prüft, solange er noch da ist. Zusammen mit alten Servicefällen wird daraus der Assistent, den die nächste Generation nutzt." },
-          { "q": "Was bedeutet der EU AI Act für den industriellen Einsatz?", "a": "Die meisten hier beschriebenen Büro- und Service-Use-Cases sind nach dem AI Act risikoarm; sicherheitsrelevante Anwendungen oder Systeme mit Auswirkungen auf Beschäftigte können in strengere Kategorien fallen. Wir stufen jeden Use Case im Assessment ein und empfehlen, den Stand mit Ihrer Rechtsabteilung zu prüfen, da die Pflichten schrittweise in Kraft treten." }
+          {
+            "q": "Müssen wir KI mit unseren Maschinen verbinden?",
+            "a": "Nein. Die Use Cases mit der schnellsten Amortisation liegen in Angebot, Auftragsabwicklung, Service und Qualitätsdokumentation, alle auf der IT-Seite. Maschinendaten helfen in manchen Fällen wie dem Instandhaltungswissen, kommen aber über vorhandene Exporte, nur lesend, und nie über eine direkte Verbindung zur Steuerung."
+          },
+          {
+            "q": "Wie gehen Sie mit exportkontrollierten Zeichnungen und Kunden-NDAs um?",
+            "a": "Indem wir Dokumente einstufen, bevor ein Modell sie sieht, und den Verarbeitungsort entsprechend wählen: EU-gehostete Modelle, ein deutsches Rechenzentrum oder On-Premises für das sensibelste Material. Zugriffe folgen Ihren bestehenden Berechtigungen. Wir beschreiben den Aufbau für Ihren Exportkontrollbeauftragten und Ihre Rechtsabteilung; die Einstufung entscheiden sie."
+          },
+          {
+            "q": "Unser ERP ist stark angepasst. Ist das ein Problem?",
+            "a": "Meist nicht. Agenten lesen und schreiben über die Schnittstellen, die Sie bereits für EDI, Portale oder Reporting nutzen, und jede Buchung gibt ein Mensch oder eine Regel frei. Starke Anpassung beeinflusst vor allem den Integrationsaufwand, den wir im Assessment schätzen."
+          },
+          {
+            "q": "Wie sichern wir das Wissen von Experten, die nächstes Jahr in Rente gehen?",
+            "a": "Jetzt anfangen. Strukturierte Interviews, kommentierte Rundgänge zu typischen Störungen und die eigenen Notizen des Experten fließen in eine Wissensbasis, die er prüft, solange er noch da ist. Zusammen mit alten Servicefällen wird daraus der Assistent, den die nächste Generation nutzt."
+          },
+          {
+            "q": "Was bedeutet der EU AI Act für den industriellen Einsatz?",
+            "a": "Die meisten hier beschriebenen Büro- und Service-Use-Cases sind nach dem AI Act risikoarm; sicherheitsrelevante Anwendungen oder Systeme mit Auswirkungen auf Beschäftigte können in strengere Kategorien fallen. Wir stufen jeden Use Case im Assessment ein und empfehlen, den Stand mit Ihrer Rechtsabteilung zu prüfen, da die Pflichten schrittweise in Kraft treten."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["for/mittelstand", "services/agentic-workflows", "services/knowledge-assistants", "solutions/operations"]
+        "pages": [
+          "for/mittelstand",
+          "services/agentic-workflows",
+          "services/knowledge-assistants",
+          "solutions/operations"
+        ]
       }
     ]
   }

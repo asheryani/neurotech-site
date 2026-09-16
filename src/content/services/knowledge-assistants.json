@@ -10,8 +10,14 @@
       "title": "Answers from your own knowledge,",
       "titleAccent": "with the sources attached.",
       "standfirst": "Your company's knowledge sits in SharePoint, Confluence, the DMS, the ERP, tickets, contracts and manuals, and finding it costs hours every day. A knowledge assistant answers from those sources, shows only what each user may see, cites every answer and, when needed, looks things up across systems or takes an action. We build the kind that survives contact with real users.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,24 +30,63 @@
           "Agentic RAG goes one step further: the assistant can decide to run several searches, query the ERP for a live figure, compare two documents or draft the email that follows from the answer. That is where an assistant becomes a colleague, and where our [agent development](page:services/ai-agent-development) work comes in."
         ],
         "facts": [
-          ["Format", "Source analysis, pipeline, assistant, evaluation, rollout"],
-          ["Duration", "Typically 6–8 weeks to a production-grade pilot"],
-          ["For", "CIOs, heads of IT, HR, sales, service and knowledge management"],
-          ["Outcome", "A permission-aware assistant with citations, evaluation and monitoring"]
+          [
+            "Format",
+            "Source analysis, pipeline, assistant, evaluation, rollout"
+          ],
+          [
+            "Duration",
+            "Typically 6–8 weeks to a production-grade pilot"
+          ],
+          [
+            "For",
+            "CIOs, heads of IT, HR, sales, service and knowledge management"
+          ],
+          [
+            "Outcome",
+            "A permission-aware assistant with citations, evaluation and monitoring"
+          ]
         ],
-        "link": { "label": "Why most AI pilots fail, and how to avoid it", "page": "insights/why-ai-pilots-fail" }
+        "link": {
+          "label": "Why most AI pilots fail, and how to avoid it",
+          "page": "insights/why-ai-pilots-fail"
+        }
       },
       {
         "type": "cards",
         "heading": "Where knowledge assistants pay off",
         "intro": "Illustrative use cases. The common thread: many people ask similar questions, the answers exist somewhere, and finding them is slow.",
         "items": [
-          { "icon": "chat", "title": "Internal helpdesk for IT and HR", "text": "Password policies, VPN set-up, parental-leave rules, travel expenses: answered instantly from the current policy, with a link to the source and a ticket created when a person needs to act. See [HR](page:solutions/hr) and [IT](page:solutions/it-engineering)." },
-          { "icon": "briefcase", "title": "Sales and tender knowledge", "text": "Past proposals, product specifications, reference descriptions and compliance statements at the fingertips of the people writing the next bid. The assistant drafts answers to tender questions from approved sources only. See [sales](page:solutions/sales)." },
-          { "icon": "gear", "title": "Service technicians in the field", "text": "Manuals, error codes, the service history of the specific machine and spare-part data, searchable by voice or text on site. Answers cite the manual page so technicians can verify. See [manufacturing](page:industries/manufacturing)." },
-          { "icon": "scale", "title": "Policy and compliance Q&A", "text": "What the procurement policy says about gifts, which retention period applies, which clause governs this case: answered from the current versions with citations, so guidance is consistent and auditable. See [legal and compliance](page:solutions/legal-compliance)." },
-          { "icon": "people", "title": "Onboarding", "text": "New colleagues ask the assistant what they would otherwise ask a busy neighbour: how things are done, where things are, who is responsible. Time to productivity drops, and the questions reveal what your documentation is missing." },
-          { "icon": "doc", "title": "Contracts and technical documentation", "text": "Which contracts contain a change-of-control clause, what the specification says about tolerances, what was promised to this customer: questions across thousands of documents, answered with the passages that support them." }
+          {
+            "icon": "chat",
+            "title": "Internal helpdesk for IT and HR",
+            "text": "Password policies, VPN set-up, parental-leave rules, travel expenses: answered instantly from the current policy, with a link to the source and a ticket created when a person needs to act. See [HR](page:solutions/hr) and [IT](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "briefcase",
+            "title": "Sales and tender knowledge",
+            "text": "Past proposals, product specifications, reference descriptions and compliance statements at the fingertips of the people writing the next bid. The assistant drafts answers to tender questions from approved sources only. See [sales](page:solutions/sales)."
+          },
+          {
+            "icon": "gear",
+            "title": "Service technicians in the field",
+            "text": "Manuals, error codes, the service history of the specific machine and spare-part data, searchable by voice or text on site. Answers cite the manual page so technicians can verify. See [manufacturing](page:industries/manufacturing)."
+          },
+          {
+            "icon": "scale",
+            "title": "Policy and compliance Q&A",
+            "text": "What the procurement policy says about gifts, which retention period applies, which clause governs this case: answered from the current versions with citations, so guidance is consistent and auditable. See [legal and compliance](page:solutions/legal-compliance)."
+          },
+          {
+            "icon": "people",
+            "title": "Onboarding",
+            "text": "New colleagues ask the assistant what they would otherwise ask a busy neighbour: how things are done, where things are, who is responsible. Time to productivity drops, and the questions reveal what your documentation is missing."
+          },
+          {
+            "icon": "doc",
+            "title": "Contracts and technical documentation",
+            "text": "Which contracts contain a change-of-control clause, what the specification says about tolerances, what was promised to this customer: questions across thousands of documents, answered with the passages that support them."
+          }
         ]
       },
       {
@@ -49,44 +94,121 @@
         "heading": "Why document-chat pilots disappoint, and what we do differently",
         "variant": "check",
         "items": [
-          { "title": "Bad chunking and retrieval", "text": "Documents cut into arbitrary pieces lose their tables, headings and context, so the search finds the wrong passages. We parse documents by structure, keep metadata, combine keyword and semantic search and re-rank results before the model sees them." },
-          { "title": "No permissions", "text": "A pilot that indexes everything shows everyone everything, including salary lists and board minutes. Our retrieval checks the user's rights in the source system at query time, so the assistant only sees what the user may see." },
-          { "title": "No evaluation", "text": "Without a test set, quality is a matter of opinion. We build a set of real questions with reference answers, measure retrieval accuracy, answer correctness and citation quality, and run it on every change." },
-          { "title": "Stale content", "text": "An index built once is outdated within weeks. We connect sources through incremental synchronisation, track document versions and show the date of every source in the answer." },
-          { "title": "Answers without verification", "text": "Every answer carries citations that open the source passage, and a clear statement when the sources do not support an answer. Guessing is not a feature." }
+          {
+            "title": "Bad chunking and retrieval",
+            "text": "Documents cut into arbitrary pieces lose their tables, headings and context, so the search finds the wrong passages. We parse documents by structure, keep metadata, combine keyword and semantic search and re-rank results before the model sees them."
+          },
+          {
+            "title": "No permissions",
+            "text": "A pilot that indexes everything shows everyone everything, including salary lists and board minutes. Our retrieval checks the user's rights in the source system at query time, so the assistant only sees what the user may see."
+          },
+          {
+            "title": "No evaluation",
+            "text": "Without a test set, quality is a matter of opinion. We build a set of real questions with reference answers, measure retrieval accuracy, answer correctness and citation quality, and run it on every change."
+          },
+          {
+            "title": "Stale content",
+            "text": "An index built once is outdated within weeks. We connect sources through incremental synchronisation, track document versions and show the date of every source in the answer."
+          },
+          {
+            "title": "Answers without verification",
+            "text": "Every answer carries citations that open the source passage, and a clear statement when the sources do not support an answer. Guessing is not a feature."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we build a knowledge assistant",
         "items": [
-          { "title": "Source and question analysis", "text": "Which questions do people actually ask, and where do the answers live? We collect real questions from tickets, chats and interviews, inventory the sources and check their permission models and quality.", "meta": "Week 1" },
-          { "title": "Pipeline and permissions", "text": "Connectors for SharePoint, Confluence, your DMS and other sources, document parsing, chunking by structure, indexing in a vector store plus keyword search, and the permission check at query time.", "meta": "Weeks 2–3" },
-          { "title": "Assistant and interface", "text": "Retrieval logic, prompt and model set-up, citations, fallback behaviour and the interface: Teams, Slack, a web app or embedded in the tools your team already uses. Agentic capabilities where the use case needs them.", "meta": "Weeks 3–5" },
-          { "title": "Evaluation", "text": "The question set runs against the assistant; we tune retrieval, chunking and prompts until accuracy and citation quality hold. We test ambiguous, out-of-scope and adversarial questions too.", "meta": "Weeks 5–6" },
-          { "title": "Rollout and feedback", "text": "A pilot group uses the assistant in daily work; feedback and unanswered questions feed the evaluation set and the content owners. Dashboards show usage, answer quality and gaps in the documentation.", "meta": "Weeks 6–8" }
+          {
+            "title": "Source and question analysis",
+            "text": "Which questions do people actually ask, and where do the answers live? We collect real questions from tickets, chats and interviews, inventory the sources and check their permission models and quality.",
+            "meta": "Week 1"
+          },
+          {
+            "title": "Pipeline and permissions",
+            "text": "Connectors for SharePoint, Confluence, your DMS and other sources, document parsing, chunking by structure, indexing in a vector store plus keyword search, and the permission check at query time.",
+            "meta": "Weeks 2–3"
+          },
+          {
+            "title": "Assistant and interface",
+            "text": "Retrieval logic, prompt and model set-up, citations, fallback behaviour and the interface: Teams, Slack, a web app or embedded in the tools your team already uses. Agentic capabilities where the use case needs them.",
+            "meta": "Weeks 3–5"
+          },
+          {
+            "title": "Evaluation",
+            "text": "The question set runs against the assistant; we tune retrieval, chunking and prompts until accuracy and citation quality hold. We test ambiguous, out-of-scope and adversarial questions too.",
+            "meta": "Weeks 5–6"
+          },
+          {
+            "title": "Rollout and feedback",
+            "text": "A pilot group uses the assistant in daily work; feedback and unanswered questions feed the evaluation set and the content owners. Dashboards show usage, answer quality and gaps in the documentation.",
+            "meta": "Weeks 6–8"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Sources, platforms and models we work with",
         "intro": "Chosen per project, vendor-neutral. Naming a product means we integrate or evaluate it, not that we are partnered with or certified by its vendor.",
-        "items": ["Microsoft SharePoint", "Microsoft Teams", "Confluence", "Jira", "Google Workspace", "ServiceNow", "SAP", "Salesforce", "Azure AI Search", "Elasticsearch / OpenSearch", "pgvector", "Qdrant", "Weaviate", "LangGraph", "Microsoft Copilot Studio", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Aleph Alpha", "Langfuse"]
+        "items": [
+          "Microsoft SharePoint",
+          "Microsoft Teams",
+          "Confluence",
+          "Jira",
+          "Google Workspace",
+          "ServiceNow",
+          "SAP",
+          "Salesforce",
+          "Azure AI Search",
+          "Elasticsearch / OpenSearch",
+          "pgvector",
+          "Qdrant",
+          "Weaviate",
+          "LangGraph",
+          "Microsoft Copilot Studio",
+          "OpenAI",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Aleph Alpha",
+          "Langfuse"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Is RAG the same as fine-tuning a model on our data?", "a": "No. Fine-tuning changes how a model behaves; it does not reliably teach it facts, cannot be updated as documents change and cannot be restricted per user. Retrieval keeps the knowledge in your systems, current and permission-aware, and lets the model do what it is good at: reading and writing." },
-          { "q": "How do you make sure users only see what they are allowed to see?", "a": "The assistant checks permissions at query time against the source system, for example SharePoint groups or the access lists of your DMS, so retrieval only returns passages the user could open themselves. No separate copy of your permissions that drifts out of date, and dedicated test cases in the evaluation set." },
-          { "q": "Can the assistant also take actions?", "a": "Yes, when the use case calls for it. An agentic assistant can create a ticket, draft an email, look up a live figure in the ERP or compare two contract versions. Actions with consequences wait for confirmation. This is where knowledge assistants and [agentic workflows](page:services/agentic-workflows) meet." },
-          { "q": "Where does our data go?", "a": "Where you decide. Options range from EU regions of Azure, AWS or Google Cloud to EU-based model providers and on-premises set-ups with open-weight models. Index and logs stay under your control in every option. Our article on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting) compares the trade-offs." },
-          { "q": "Do we need to clean up our documentation first?", "a": "Not entirely. The assistant works with what you have and, usefully, shows where documentation is missing or contradictory. Where sources are chaotic, our [data foundations](page:services/data-foundations) work sets up document pipelines and ownership rules alongside the assistant." }
+          {
+            "q": "Is RAG the same as fine-tuning a model on our data?",
+            "a": "No. Fine-tuning changes how a model behaves; it does not reliably teach it facts, cannot be updated as documents change and cannot be restricted per user. Retrieval keeps the knowledge in your systems, current and permission-aware, and lets the model do what it is good at: reading and writing."
+          },
+          {
+            "q": "How do you make sure users only see what they are allowed to see?",
+            "a": "The assistant checks permissions at query time against the source system, for example SharePoint groups or the access lists of your DMS, so retrieval only returns passages the user could open themselves. No separate copy of your permissions that drifts out of date, and dedicated test cases in the evaluation set."
+          },
+          {
+            "q": "Can the assistant also take actions?",
+            "a": "Yes, when the use case calls for it. An agentic assistant can create a ticket, draft an email, look up a live figure in the ERP or compare two contract versions. Actions with consequences wait for confirmation. This is where knowledge assistants and [agentic workflows](page:services/agentic-workflows) meet."
+          },
+          {
+            "q": "Where does our data go?",
+            "a": "Where you decide. Options range from EU regions of Azure, AWS or Google Cloud to EU-based model providers and on-premises set-ups with open-weight models. Index and logs stay under your control in every option. Our article on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting) compares the trade-offs."
+          },
+          {
+            "q": "Do we need to clean up our documentation first?",
+            "a": "Not entirely. The assistant works with what you have and, usefully, shows where documentation is missing or contradictory. Where sources are chaotic, our [data foundations](page:services/data-foundations) work sets up document pipelines and ownership rules alongside the assistant."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/ai-agent-development", "services/data-foundations", "services/ai-governance", "insights/sovereign-ai-eu-hosting"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/data-foundations",
+          "services/ai-governance",
+          "insights/sovereign-ai-eu-hosting"
+        ]
       }
     ]
   },
@@ -100,8 +222,14 @@
       "title": "Antworten aus Ihrem eigenen Wissen,",
       "titleAccent": "mit Quellen belegt.",
       "standfirst": "Das Wissen Ihres Unternehmens liegt in SharePoint, Confluence, im DMS, im ERP, in Tickets, Verträgen und Handbüchern – und es zu finden kostet jeden Tag Stunden. Ein Wissensassistent antwortet aus genau diesen Quellen, zeigt nur, was der jeweilige Nutzer sehen darf, belegt jede Antwort und schlägt bei Bedarf systemübergreifend nach oder löst eine Aktion aus. Wir bauen die Variante, die den Kontakt mit echten Nutzern übersteht.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -114,24 +242,63 @@
           "Agentisches RAG geht einen Schritt weiter: Der Assistent kann mehrere Suchen anstoßen, im ERP eine aktuelle Zahl abfragen, zwei Dokumente vergleichen oder die E-Mail entwerfen, die aus der Antwort folgt. Dort wird aus dem Assistenten ein Kollege – und dort setzt unsere [Agentenentwicklung](page:services/ai-agent-development) an."
         ],
         "facts": [
-          ["Format", "Quellenanalyse, Pipeline, Assistent, Evaluierung, Rollout"],
-          ["Dauer", "In der Regel 6–8 Wochen bis zum produktionsreifen Piloten"],
-          ["Für", "CIOs, IT-Leitung, HR, Vertrieb, Service, Wissensmanagement"],
-          ["Ergebnis", "Ein rechtekonformer Assistent mit Quellenangaben, Evaluierung und Monitoring"]
+          [
+            "Format",
+            "Quellenanalyse, Pipeline, Assistent, Evaluierung, Rollout"
+          ],
+          [
+            "Dauer",
+            "In der Regel 6–8 Wochen bis zum produktionsreifen Piloten"
+          ],
+          [
+            "Für",
+            "CIOs, IT-Leitung, HR, Vertrieb, Service, Wissensmanagement"
+          ],
+          [
+            "Ergebnis",
+            "Ein rechtekonformer Assistent mit Quellenangaben, Evaluierung und Monitoring"
+          ]
         ],
-        "link": { "label": "Warum die meisten KI-Piloten scheitern – und wie man das vermeidet", "page": "insights/why-ai-pilots-fail" }
+        "link": {
+          "label": "Warum die meisten KI-Piloten scheitern – und wie man das vermeidet",
+          "page": "insights/why-ai-pilots-fail"
+        }
       },
       {
         "type": "cards",
         "heading": "Wo sich Wissensassistenten auszahlen",
         "intro": "Beispiele zur Veranschaulichung. Der gemeinsame Nenner: Viele Menschen stellen ähnliche Fragen, die Antworten existieren irgendwo, und sie zu finden dauert.",
         "items": [
-          { "icon": "chat", "title": "Interner Helpdesk für IT und HR", "text": "Passwortrichtlinien, VPN-Einrichtung, Elternzeitregeln, Reisekosten: sofort aus der aktuellen Richtlinie beantwortet, mit Link zur Quelle und einem Ticket, sobald ein Mensch handeln muss. Mehr unter [HR](page:solutions/hr) und [IT](page:solutions/it-engineering)." },
-          { "icon": "briefcase", "title": "Vertriebs- und Ausschreibungswissen", "text": "Frühere Angebote, Produktspezifikationen, Referenzbeschreibungen und Compliance-Aussagen griffbereit für die Menschen, die das nächste Angebot schreiben. Der Assistent entwirft Antworten auf Ausschreibungsfragen ausschließlich aus freigegebenen Quellen. Mehr unter [Vertrieb](page:solutions/sales)." },
-          { "icon": "gear", "title": "Servicetechniker im Einsatz", "text": "Handbücher, Fehlercodes, die Servicehistorie der konkreten Maschine und Ersatzteildaten, vor Ort per Sprache oder Text durchsuchbar. Antworten zitieren die Handbuchseite, damit Techniker prüfen können. Mehr unter [Fertigung](page:industries/manufacturing)." },
-          { "icon": "scale", "title": "Fragen zu Richtlinien und Compliance", "text": "Was die Einkaufsrichtlinie zu Geschenken sagt, welche Aufbewahrungsfrist gilt, welche Klausel diesen Fall regelt: beantwortet aus den aktuellen Versionen mit Quellenangabe, damit Auskünfte konsistent und prüfbar sind. Mehr unter [Recht und Compliance](page:solutions/legal-compliance)." },
-          { "icon": "people", "title": "Onboarding", "text": "Neue Kolleginnen und Kollegen fragen den Assistenten, was sie sonst den beschäftigten Sitznachbarn fragen würden: wie Dinge laufen, wo Dinge liegen, wer zuständig ist. Die Einarbeitungszeit sinkt, und die Fragen zeigen, was in Ihrer Dokumentation fehlt." },
-          { "icon": "doc", "title": "Verträge und technische Dokumentation", "text": "Welche Verträge eine Change-of-Control-Klausel enthalten, was die Spezifikation zu Toleranzen sagt, was diesem Kunden zugesagt wurde: Fragen über tausende Dokumente, beantwortet mit den Passagen, die sie belegen." }
+          {
+            "icon": "chat",
+            "title": "Interner Helpdesk für IT und HR",
+            "text": "Passwortrichtlinien, VPN-Einrichtung, Elternzeitregeln, Reisekosten: sofort aus der aktuellen Richtlinie beantwortet, mit Link zur Quelle und einem Ticket, sobald ein Mensch handeln muss. Mehr unter [HR](page:solutions/hr) und [IT](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "briefcase",
+            "title": "Vertriebs- und Ausschreibungswissen",
+            "text": "Frühere Angebote, Produktspezifikationen, Referenzbeschreibungen und Compliance-Aussagen griffbereit für die Menschen, die das nächste Angebot schreiben. Der Assistent entwirft Antworten auf Ausschreibungsfragen ausschließlich aus freigegebenen Quellen. Mehr unter [Vertrieb](page:solutions/sales)."
+          },
+          {
+            "icon": "gear",
+            "title": "Servicetechniker im Einsatz",
+            "text": "Handbücher, Fehlercodes, die Servicehistorie der konkreten Maschine und Ersatzteildaten, vor Ort per Sprache oder Text durchsuchbar. Antworten zitieren die Handbuchseite, damit Techniker prüfen können. Mehr unter [Fertigung](page:industries/manufacturing)."
+          },
+          {
+            "icon": "scale",
+            "title": "Fragen zu Richtlinien und Compliance",
+            "text": "Was die Einkaufsrichtlinie zu Geschenken sagt, welche Aufbewahrungsfrist gilt, welche Klausel diesen Fall regelt: beantwortet aus den aktuellen Versionen mit Quellenangabe, damit Auskünfte konsistent und prüfbar sind. Mehr unter [Recht und Compliance](page:solutions/legal-compliance)."
+          },
+          {
+            "icon": "people",
+            "title": "Onboarding",
+            "text": "Neue Kolleginnen und Kollegen fragen den Assistenten, was sie sonst den beschäftigten Sitznachbarn fragen würden: wie Dinge laufen, wo Dinge liegen, wer zuständig ist. Die Einarbeitungszeit sinkt, und die Fragen zeigen, was in Ihrer Dokumentation fehlt."
+          },
+          {
+            "icon": "doc",
+            "title": "Verträge und technische Dokumentation",
+            "text": "Welche Verträge eine Change-of-Control-Klausel enthalten, was die Spezifikation zu Toleranzen sagt, was diesem Kunden zugesagt wurde: Fragen über tausende Dokumente, beantwortet mit den Passagen, die sie belegen."
+          }
         ]
       },
       {
@@ -139,44 +306,121 @@
         "heading": "Warum Dokumenten-Chat-Piloten enttäuschen – und was wir anders machen",
         "variant": "check",
         "items": [
-          { "title": "Schlechtes Chunking und Retrieval", "text": "In beliebige Stücke zerschnittene Dokumente verlieren Tabellen, Überschriften und Kontext, und die Suche findet die falschen Passagen. Wir zerlegen Dokumente entlang ihrer Struktur, behalten Metadaten, kombinieren Stichwort- und semantische Suche und sortieren Treffer neu, bevor das Modell sie sieht." },
-          { "title": "Keine Berechtigungen", "text": "Ein Pilot, der alles indexiert, zeigt allen alles – auch Gehaltslisten und Vorstandsprotokolle. Unser Retrieval prüft die Rechte des Nutzers zum Zeitpunkt der Anfrage im Quellsystem, sodass der Assistent nur sieht, was der Nutzer sehen darf." },
-          { "title": "Keine Evaluierung", "text": "Ohne Testdatensatz ist Qualität Geschmackssache. Wir bauen einen Satz echter Fragen mit Referenzantworten, messen Trefferqualität, Korrektheit der Antwort und Qualität der Quellenangaben – und lassen ihn bei jeder Änderung laufen." },
-          { "title": "Veraltete Inhalte", "text": "Ein einmal gebauter Index ist nach Wochen überholt. Wir binden Quellen über inkrementelle Synchronisation an, verfolgen Dokumentversionen und zeigen in jeder Antwort das Datum der Quelle." },
-          { "title": "Antworten ohne Beleg", "text": "Jede Antwort trägt Quellenangaben, die die Originalpassage öffnen, und eine klare Aussage, wenn die Quellen keine Antwort hergeben. Raten ist kein Feature." }
+          {
+            "title": "Schlechtes Chunking und Retrieval",
+            "text": "In beliebige Stücke zerschnittene Dokumente verlieren Tabellen, Überschriften und Kontext, und die Suche findet die falschen Passagen. Wir zerlegen Dokumente entlang ihrer Struktur, behalten Metadaten, kombinieren Stichwort- und semantische Suche und sortieren Treffer neu, bevor das Modell sie sieht."
+          },
+          {
+            "title": "Keine Berechtigungen",
+            "text": "Ein Pilot, der alles indexiert, zeigt allen alles – auch Gehaltslisten und Vorstandsprotokolle. Unser Retrieval prüft die Rechte des Nutzers zum Zeitpunkt der Anfrage im Quellsystem, sodass der Assistent nur sieht, was der Nutzer sehen darf."
+          },
+          {
+            "title": "Keine Evaluierung",
+            "text": "Ohne Testdatensatz ist Qualität Geschmackssache. Wir bauen einen Satz echter Fragen mit Referenzantworten, messen Trefferqualität, Korrektheit der Antwort und Qualität der Quellenangaben – und lassen ihn bei jeder Änderung laufen."
+          },
+          {
+            "title": "Veraltete Inhalte",
+            "text": "Ein einmal gebauter Index ist nach Wochen überholt. Wir binden Quellen über inkrementelle Synchronisation an, verfolgen Dokumentversionen und zeigen in jeder Antwort das Datum der Quelle."
+          },
+          {
+            "title": "Antworten ohne Beleg",
+            "text": "Jede Antwort trägt Quellenangaben, die die Originalpassage öffnen, und eine klare Aussage, wenn die Quellen keine Antwort hergeben. Raten ist kein Feature."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So bauen wir einen Wissensassistenten",
         "items": [
-          { "title": "Quellen- und Fragenanalyse", "text": "Welche Fragen stellen die Menschen wirklich, und wo liegen die Antworten? Wir sammeln echte Fragen aus Tickets, Chats und Interviews, inventarisieren die Quellen und prüfen deren Berechtigungsmodelle und Qualität.", "meta": "Woche 1" },
-          { "title": "Pipeline und Berechtigungen", "text": "Konnektoren für SharePoint, Confluence, Ihr DMS und weitere Quellen, Dokumenten-Parsing, Chunking entlang der Struktur, Indexierung in Vektorspeicher plus Stichwortsuche und die Rechteprüfung zum Zeitpunkt der Anfrage.", "meta": "Wochen 2–3" },
-          { "title": "Assistent und Oberfläche", "text": "Retrieval-Logik, Prompt- und Modellaufbau, Quellenangaben, Fallback-Verhalten und die Oberfläche: Teams, Slack, eine Web-App oder eingebettet in die Werkzeuge, die Ihr Team ohnehin nutzt. Agentische Fähigkeiten, wo der Use Case sie braucht.", "meta": "Wochen 3–5" },
-          { "title": "Evaluierung", "text": "Der Fragenkatalog läuft gegen den Assistenten; wir justieren Retrieval, Chunking und Prompts, bis Genauigkeit und Quellenqualität halten. Mehrdeutige, themenfremde und gegnerische Fragen testen wir ebenfalls.", "meta": "Wochen 5–6" },
-          { "title": "Rollout und Feedback", "text": "Eine Pilotgruppe nutzt den Assistenten im Alltag; Rückmeldungen und unbeantwortete Fragen fließen in den Evaluierungsdatensatz und an die Inhaltsverantwortlichen. Dashboards zeigen Nutzung, Antwortqualität und Lücken in der Dokumentation.", "meta": "Wochen 6–8" }
+          {
+            "title": "Quellen- und Fragenanalyse",
+            "text": "Welche Fragen stellen die Menschen wirklich, und wo liegen die Antworten? Wir sammeln echte Fragen aus Tickets, Chats und Interviews, inventarisieren die Quellen und prüfen deren Berechtigungsmodelle und Qualität.",
+            "meta": "Woche 1"
+          },
+          {
+            "title": "Pipeline und Berechtigungen",
+            "text": "Konnektoren für SharePoint, Confluence, Ihr DMS und weitere Quellen, Dokumenten-Parsing, Chunking entlang der Struktur, Indexierung in Vektorspeicher plus Stichwortsuche und die Rechteprüfung zum Zeitpunkt der Anfrage.",
+            "meta": "Wochen 2–3"
+          },
+          {
+            "title": "Assistent und Oberfläche",
+            "text": "Retrieval-Logik, Prompt- und Modellaufbau, Quellenangaben, Fallback-Verhalten und die Oberfläche: Teams, Slack, eine Web-App oder eingebettet in die Werkzeuge, die Ihr Team ohnehin nutzt. Agentische Fähigkeiten, wo der Use Case sie braucht.",
+            "meta": "Wochen 3–5"
+          },
+          {
+            "title": "Evaluierung",
+            "text": "Der Fragenkatalog läuft gegen den Assistenten; wir justieren Retrieval, Chunking und Prompts, bis Genauigkeit und Quellenqualität halten. Mehrdeutige, themenfremde und gegnerische Fragen testen wir ebenfalls.",
+            "meta": "Wochen 5–6"
+          },
+          {
+            "title": "Rollout und Feedback",
+            "text": "Eine Pilotgruppe nutzt den Assistenten im Alltag; Rückmeldungen und unbeantwortete Fragen fließen in den Evaluierungsdatensatz und an die Inhaltsverantwortlichen. Dashboards zeigen Nutzung, Antwortqualität und Lücken in der Dokumentation.",
+            "meta": "Wochen 6–8"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Quellen, Plattformen und Modelle, mit denen wir arbeiten",
         "intro": "Je Projekt gewählt, herstellerneutral. Ein Produkt zu nennen bedeutet, dass wir es anbinden oder bewerten – nicht, dass wir Partner oder zertifiziert sind.",
-        "items": ["Microsoft SharePoint", "Microsoft Teams", "Confluence", "Jira", "Google Workspace", "ServiceNow", "SAP", "Salesforce", "Azure AI Search", "Elasticsearch / OpenSearch", "pgvector", "Qdrant", "Weaviate", "LangGraph", "Microsoft Copilot Studio", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Aleph Alpha", "Langfuse"]
+        "items": [
+          "Microsoft SharePoint",
+          "Microsoft Teams",
+          "Confluence",
+          "Jira",
+          "Google Workspace",
+          "ServiceNow",
+          "SAP",
+          "Salesforce",
+          "Azure AI Search",
+          "Elasticsearch / OpenSearch",
+          "pgvector",
+          "Qdrant",
+          "Weaviate",
+          "LangGraph",
+          "Microsoft Copilot Studio",
+          "OpenAI",
+          "Anthropic Claude",
+          "Google Gemini",
+          "Mistral",
+          "Aleph Alpha",
+          "Langfuse"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Ist RAG dasselbe wie das Fine-Tuning eines Modells mit unseren Daten?", "a": "Nein. Fine-Tuning verändert, wie sich ein Modell verhält; es vermittelt ihm keine Fakten zuverlässig, lässt sich bei Dokumentänderungen nicht aktualisieren und nicht je Nutzer einschränken. Retrieval hält das Wissen in Ihren Systemen, aktuell und rechtekonform, und lässt das Modell tun, was es gut kann: lesen und schreiben." },
-          { "q": "Wie stellen Sie sicher, dass Nutzer nur sehen, was sie sehen dürfen?", "a": "Der Assistent prüft die Berechtigungen zum Zeitpunkt der Anfrage im Quellsystem, etwa SharePoint-Gruppen oder die Zugriffslisten Ihres DMS, sodass das Retrieval nur Passagen liefert, die der Nutzer selbst öffnen könnte. Keine separate Kopie Ihrer Berechtigungen, die veraltet, und eigene Testfälle dafür im Evaluierungsdatensatz." },
-          { "q": "Kann der Assistent auch handeln?", "a": "Ja, wenn der Use Case es verlangt. Ein agentischer Assistent kann ein Ticket anlegen, eine E-Mail entwerfen, eine aktuelle Zahl im ERP nachschlagen oder zwei Vertragsversionen vergleichen. Aktionen mit Folgen warten auf Bestätigung. Hier treffen sich Wissensassistenten und [agentische Workflows](page:services/agentic-workflows)." },
-          { "q": "Wohin gehen unsere Daten?", "a": "Dorthin, wo Sie es entscheiden. Die Optionen reichen von EU-Regionen bei Azure, AWS oder Google Cloud über Modellanbieter mit Sitz in der EU bis zu On-Premises-Aufbauten mit Open-Weight-Modellen. Index und Protokolle bleiben in jeder Variante unter Ihrer Kontrolle. Unser Beitrag [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting) vergleicht die Abwägungen." },
-          { "q": "Müssen wir zuerst unsere Dokumentation aufräumen?", "a": "Nicht vollständig. Der Assistent arbeitet mit dem, was da ist, und zeigt nebenbei, wo Dokumentation fehlt oder sich widerspricht. Wo Quellen chaotisch sind, richtet unsere [Datenbasis-Arbeit](page:services/data-foundations) Dokumenten-Pipelines und Zuständigkeiten parallel zum Assistenten ein." }
+          {
+            "q": "Ist RAG dasselbe wie das Fine-Tuning eines Modells mit unseren Daten?",
+            "a": "Nein. Fine-Tuning verändert, wie sich ein Modell verhält; es vermittelt ihm keine Fakten zuverlässig, lässt sich bei Dokumentänderungen nicht aktualisieren und nicht je Nutzer einschränken. Retrieval hält das Wissen in Ihren Systemen, aktuell und rechtekonform, und lässt das Modell tun, was es gut kann: lesen und schreiben."
+          },
+          {
+            "q": "Wie stellen Sie sicher, dass Nutzer nur sehen, was sie sehen dürfen?",
+            "a": "Der Assistent prüft die Berechtigungen zum Zeitpunkt der Anfrage im Quellsystem, etwa SharePoint-Gruppen oder die Zugriffslisten Ihres DMS, sodass das Retrieval nur Passagen liefert, die der Nutzer selbst öffnen könnte. Keine separate Kopie Ihrer Berechtigungen, die veraltet, und eigene Testfälle dafür im Evaluierungsdatensatz."
+          },
+          {
+            "q": "Kann der Assistent auch handeln?",
+            "a": "Ja, wenn der Use Case es verlangt. Ein agentischer Assistent kann ein Ticket anlegen, eine E-Mail entwerfen, eine aktuelle Zahl im ERP nachschlagen oder zwei Vertragsversionen vergleichen. Aktionen mit Folgen warten auf Bestätigung. Hier treffen sich Wissensassistenten und [agentische Workflows](page:services/agentic-workflows)."
+          },
+          {
+            "q": "Wohin gehen unsere Daten?",
+            "a": "Dorthin, wo Sie es entscheiden. Die Optionen reichen von EU-Regionen bei Azure, AWS oder Google Cloud über Modellanbieter mit Sitz in der EU bis zu On-Premises-Aufbauten mit Open-Weight-Modellen. Index und Protokolle bleiben in jeder Variante unter Ihrer Kontrolle. Unser Beitrag [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting) vergleicht die Abwägungen."
+          },
+          {
+            "q": "Müssen wir zuerst unsere Dokumentation aufräumen?",
+            "a": "Nicht vollständig. Der Assistent arbeitet mit dem, was da ist, und zeigt nebenbei, wo Dokumentation fehlt oder sich widerspricht. Wo Quellen chaotisch sind, richtet unsere [Datenbasis-Arbeit](page:services/data-foundations) Dokumenten-Pipelines und Zuständigkeiten parallel zum Assistenten ein."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/ai-agent-development", "services/data-foundations", "services/ai-governance", "insights/sovereign-ai-eu-hosting"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/data-foundations",
+          "services/ai-governance",
+          "insights/sovereign-ai-eu-hosting"
+        ]
       }
     ]
   }

@@ -10,8 +10,14 @@
       "title": "AI agents for sales:",
       "titleAccent": "less admin, more conversations.",
       "standfirst": "Sales reps spend a large part of their week on research, data entry and drafting instead of talking to customers. AI agents take over the preparation and the paperwork: they qualify inbound leads, write account briefs, update the CRM from calls and draft quotes from your price list, while your team approves every message that goes to a prospect.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,80 +30,176 @@
           "We start where the volume is, inbound handling and CRM upkeep, keep a person on every outbound message in the early phases, and measure what sales leaders care about: speed to lead, meetings booked and rep hours returned."
         ],
         "facts": [
-          ["Typical entry point", "Inbound qualification, CRM updates from calls"],
-          ["Systems", "CRM, email and calendar, call recording, CPQ or ERP price lists, tender portals"],
-          ["Human checkpoint", "Reps approve messages, quotes and CRM changes"],
-          ["First pilot", "Typically 6–8 weeks"]
+          [
+            "Typical entry point",
+            "Inbound qualification, CRM updates from calls"
+          ],
+          [
+            "Systems",
+            "CRM, email and calendar, call recording, CPQ or ERP price lists, tender portals"
+          ],
+          [
+            "Human checkpoint",
+            "Reps approve messages, quotes and CRM changes"
+          ],
+          [
+            "First pilot",
+            "Typically 6–8 weeks"
+          ]
         ],
-        "link": { "label": "Read: agents vs RPA vs chatbots", "page": "insights/agents-vs-rpa-vs-chatbots" }
+        "link": {
+          "label": "Read: agents vs RPA vs chatbots",
+          "page": "insights/agents-vs-rpa-vs-chatbots"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases",
         "intro": "Six sales workflows where agents do the preparation and people do the selling.",
         "items": [
-          { "icon": "target", "title": "Inbound lead qualification and routing", "text": "The agent reads forms, emails and chat transcripts, enriches the company from permitted sources, scores fit against your ideal customer profile and routes the lead to the right rep with a short summary and a suggested reply. The rep approves or edits within minutes; ambiguous leads go to human triage, not to a guess." },
-          { "icon": "search", "title": "Account research and pre-call briefs", "text": "Before a meeting the agent compiles CRM history, open tickets, previous quotes, recent news and the company website into a one-page brief with suggested questions and known risks. Reps read it on the way to the call. The brief is internal; nothing goes to the customer." },
-          { "icon": "mail", "title": "Outbound sequencing with approved messaging", "text": "For target accounts the agent drafts personalised messages from templates your team has approved, proposes timing and channel and tracks replies. A rep approves each message or batch before it is sent. We design the flow around German and Austrian rules for unsolicited outreach (UWG, consent): permitted channels, warm triggers, clean opt-outs, confirmed with your legal counsel." },
-          { "icon": "refresh", "title": "CRM updates from calls and emails", "text": "After a call or an email thread the agent proposes a structured update: next steps, stakeholders, objections, competitor mentions, a stage suggestion and the follow-up task. The rep confirms with one click. Weekly, it flags stale opportunities, missing close dates and single-threaded deals to the sales manager." },
-          { "icon": "doc", "title": "Quotes, proposals and tender responses", "text": "From product data, price lists and past proposals the agent drafts quotes in your format and validates prices against CPQ or ERP rules. For RFPs and public tenders it parses the requirements, drafts answers from an approved knowledge base and marks every gap it could not fill. A sales lead approves before anything leaves." },
-          { "icon": "gauge", "title": "Deal-risk signals and sales knowledge assistant", "text": "The agent watches the pipeline for risk patterns (no activity, slipping dates, missing decision maker) and briefs managers before the forecast call. A [knowledge assistant](page:services/knowledge-assistants) answers reps' questions on products, pricing rules and competitors with sources from playbook and product documentation." }
+          {
+            "icon": "target",
+            "title": "Inbound lead qualification and routing",
+            "text": "The agent reads forms, emails and chat transcripts, enriches the company from permitted sources, scores fit against your ideal customer profile and routes the lead to the right rep with a short summary and a suggested reply. The rep approves or edits within minutes; ambiguous leads go to human triage, not to a guess."
+          },
+          {
+            "icon": "search",
+            "title": "Account research and pre-call briefs",
+            "text": "Before a meeting the agent compiles CRM history, open tickets, previous quotes, recent news and the company website into a one-page brief with suggested questions and known risks. Reps read it on the way to the call. The brief is internal; nothing goes to the customer."
+          },
+          {
+            "icon": "mail",
+            "title": "Outbound sequencing with approved messaging",
+            "text": "For target accounts the agent drafts personalised messages from templates your team has approved, proposes timing and channel and tracks replies. A rep approves each message or batch before it is sent. We design the flow around German and Austrian rules for unsolicited outreach (UWG, consent): permitted channels, warm triggers, clean opt-outs, confirmed with your legal counsel."
+          },
+          {
+            "icon": "refresh",
+            "title": "CRM updates from calls and emails",
+            "text": "After a call or an email thread the agent proposes a structured update: next steps, stakeholders, objections, competitor mentions, a stage suggestion and the follow-up task. The rep confirms with one click. Weekly, it flags stale opportunities, missing close dates and single-threaded deals to the sales manager."
+          },
+          {
+            "icon": "doc",
+            "title": "Quotes, proposals and tender responses",
+            "text": "From product data, price lists and past proposals the agent drafts quotes in your format and validates prices against CPQ or ERP rules. For RFPs and public tenders it parses the requirements, drafts answers from an approved knowledge base and marks every gap it could not fill. A sales lead approves before anything leaves."
+          },
+          {
+            "icon": "gauge",
+            "title": "Deal-risk signals and sales knowledge assistant",
+            "text": "The agent watches the pipeline for risk patterns (no activity, slipping dates, missing decision maker) and briefs managers before the forecast call. A [knowledge assistant](page:services/knowledge-assistants) answers reps' questions on products, pricing rules and competitors with sources from playbook and product documentation."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Worked example",
         "content": [
-          { "h2": "From inbound lead to first meeting" },
-          { "p": "A typical scenario: a software or industrial company receives demo requests and contact-form enquiries daily, and the first reply currently takes a day or two. An SDR agent with a human hand-off changes the timeline like this:" },
-          { "ol": [
-            "**Intake.** A prospect fills the contact form or writes to sales@. The agent reads the message and checks the CRM: existing account, open opportunity, previous conversations, current owner.",
-            "**Enrichment.** It adds company facts from permitted sources: size, industry, locations, technology hints from the website. It records business contact data only.",
-            "**Qualification.** It scores fit and writes a note: likely need, urgency, budget signals, suggested owner. Below the threshold the lead goes to a nurture queue a person reviews weekly; unclear cases go to human triage.",
-            "**Reply draft (human gate).** It drafts a reply in the rep's tone with two or three meeting slots from the rep's calendar. The rep or SDR reviews and sends. In the first phase there is no autonomous sending to prospects.",
-            "**Scheduling.** When the prospect answers, the agent handles the back-and-forth within rules and books the meeting, once the flow has proven itself; before that, a person clicks.",
-            "**Pre-call brief.** Twenty-four hours before the meeting the rep receives the brief: context, questions to ask, relevant reference types, pricing boundaries.",
-            "**After the call.** Transcript or notes become a proposed CRM update and the follow-up task; the rep confirms. If an account executive takes over, the hand-off note comes from the same record.",
-            "**Weekly review.** Speed to lead, qualification accuracy on a human-checked sample, meeting rate and rep hours saved are reviewed with the sales lead, and thresholds are adjusted."
-          ] },
-          { "note": "Every message to a prospect passes a person in the first phase. Once draft acceptance is consistently high, you decide, step by step, what the agent may send on its own, with full logs and a way to stop it. We build these agents through our [AI agent development](page:services/ai-agent-development) service; the marketing side of the funnel is described under [AI agents for marketing](page:solutions/marketing)." }
+          {
+            "h2": "From inbound lead to first meeting"
+          },
+          {
+            "p": "A typical scenario: a software or industrial company receives demo requests and contact-form enquiries daily, and the first reply currently takes a day or two. An SDR agent with a human hand-off changes the timeline like this:"
+          },
+          {
+            "ol": [
+              "**Intake.** A prospect fills the contact form or writes to sales@. The agent reads the message and checks the CRM: existing account, open opportunity, previous conversations, current owner.",
+              "**Enrichment.** It adds company facts from permitted sources: size, industry, locations, technology hints from the website. It records business contact data only.",
+              "**Qualification.** It scores fit and writes a note: likely need, urgency, budget signals, suggested owner. Below the threshold the lead goes to a nurture queue a person reviews weekly; unclear cases go to human triage.",
+              "**Reply draft (human gate).** It drafts a reply in the rep's tone with two or three meeting slots from the rep's calendar. The rep or SDR reviews and sends. In the first phase there is no autonomous sending to prospects.",
+              "**Scheduling.** When the prospect answers, the agent handles the back-and-forth within rules and books the meeting, once the flow has proven itself; before that, a person clicks.",
+              "**Pre-call brief.** Twenty-four hours before the meeting the rep receives the brief: context, questions to ask, relevant reference types, pricing boundaries.",
+              "**After the call.** Transcript or notes become a proposed CRM update and the follow-up task; the rep confirms. If an account executive takes over, the hand-off note comes from the same record.",
+              "**Weekly review.** Speed to lead, qualification accuracy on a human-checked sample, meeting rate and rep hours saved are reviewed with the sales lead, and thresholds are adjusted."
+            ]
+          },
+          {
+            "note": "Every message to a prospect passes a person in the first phase. Once draft acceptance is consistently high, you decide, step by step, what the agent may send on its own, with full logs and a way to stop it. We build these agents through our [AI agent development](page:services/ai-agent-development) service; the marketing side of the funnel is described under [AI agents for marketing](page:solutions/marketing)."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Guardrails and risks in sales",
         "items": [
-          { "title": "No autonomous sending in early phases", "text": "Drafts, not dispatches. The agent prepares messages, a rep approves them and every send is logged. Autonomy is granted later per step and per segment, based on measured acceptance rates, and can be withdrawn at any time." },
-          { "title": "Outreach law and consent", "text": "In Germany, unsolicited advertising by email generally requires prior consent, also in B2B, and phone outreach to businesses has its own rules under the UWG. We design flows around permitted channels and triggers and recommend confirming the setup with your legal counsel. Process design, not legal advice." },
-          { "title": "Data protection", "text": "CRM records, call transcripts and enrichment data are personal data under the GDPR. We define purpose, sources, retention and access before the pilot, keep processing in the EU where required, and note that recording calls needs the consent of everyone on the line." },
-          { "title": "Pricing accuracy", "text": "The agent never invents a price or a discount. Quotes are built from the price list and contract terms in your CPQ or ERP, validated against rules and approved above defined thresholds by a sales lead. Every number has a source." },
-          { "title": "Adoption and trust", "text": "Agents that reps do not use are worthless. We design with the reps, keep the workflow in their tools and use activity data for coaching only, in agreement with your works council where one exists." }
+          {
+            "title": "No autonomous sending in early phases",
+            "text": "Drafts, not dispatches. The agent prepares messages, a rep approves them and every send is logged. Autonomy is granted later per step and per segment, based on measured acceptance rates, and can be withdrawn at any time."
+          },
+          {
+            "title": "Outreach law and consent",
+            "text": "In Germany, unsolicited advertising by email generally requires prior consent, also in B2B, and phone outreach to businesses has its own rules under the UWG. We design flows around permitted channels and triggers and recommend confirming the setup with your legal counsel. Process design, not legal advice."
+          },
+          {
+            "title": "Data protection",
+            "text": "CRM records, call transcripts and enrichment data are personal data under the GDPR. We define purpose, sources, retention and access before the pilot, keep processing in the EU where required, and note that recording calls needs the consent of everyone on the line."
+          },
+          {
+            "title": "Pricing accuracy",
+            "text": "The agent never invents a price or a discount. Quotes are built from the price list and contract terms in your CPQ or ERP, validated against rules and approved above defined thresholds by a sales lead. Every number has a source."
+          },
+          {
+            "title": "Adoption and trust",
+            "text": "Agents that reps do not use are worthless. We design with the reps, keep the workflow in their tools and use activity data for coaching only, in agreement with your works council where one exists."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we start",
         "items": [
-          { "title": "Sales assessment", "text": "We shadow reps and SDRs, map the path from inbound to close, measure speed to lead and the share of admin time, check CRM data quality and pick the first use case with a baseline. Compliance questions go to your legal team now, not later.", "meta": "2–3 weeks" },
-          { "title": "Workflow and governance design", "text": "Message templates, tone and approval gates are agreed with the sales lead, data flows and CRM permissions with IT, works council information where required." },
-          { "title": "Pilot", "text": "One team or region, real leads, weekly reviews. We measure speed to lead, draft acceptance, meetings booked and rep hours, and adjust thresholds as the numbers come in.", "meta": "6–8 weeks" },
-          { "title": "Scale and operate", "text": "Roll-out to further teams, additional use cases such as quotes and tender support, and [managed AI operations](page:services/managed-ai-operations) so the agent keeps pace with product, pricing and CRM changes." }
+          {
+            "title": "Sales assessment",
+            "text": "We shadow reps and SDRs, map the path from inbound to close, measure speed to lead and the share of admin time, check CRM data quality and pick the first use case with a baseline. Compliance questions go to your legal team now, not later.",
+            "meta": "2–3 weeks"
+          },
+          {
+            "title": "Workflow and governance design",
+            "text": "Message templates, tone and approval gates are agreed with the sales lead, data flows and CRM permissions with IT, works council information where required."
+          },
+          {
+            "title": "Pilot",
+            "text": "One team or region, real leads, weekly reviews. We measure speed to lead, draft acceptance, meetings booked and rep hours, and adjust thresholds as the numbers come in.",
+            "meta": "6–8 weeks"
+          },
+          {
+            "title": "Scale and operate",
+            "text": "Roll-out to further teams, additional use cases such as quotes and tender support, and [managed AI operations](page:services/managed-ai-operations) so the agent keeps pace with product, pricing and CRM changes."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Can the agent send emails to prospects on its own?", "a": "Not at the start, and later only where you decide so. In the pilot every prospect-facing message is approved by a rep. Once draft acceptance is consistently high, you can allow autonomous sending for defined steps such as scheduling confirmations, with logs and a stop switch. Cold outreach stays within the legal limits described above." },
-          { "q": "Is AI-supported cold outreach even allowed in Germany?", "a": "Automation does not change the rules, it only makes breaking them faster. Unsolicited email advertising generally requires prior consent, also in B2B, phone outreach has its own rules under the UWG, and the GDPR applies to all contact data. We design flows around permitted channels and triggers and recommend confirming the setup with your legal counsel; we do not give legal advice." },
-          { "q": "How does the agent get into our CRM? We use Salesforce and Microsoft Dynamics.", "a": "Through the platform's APIs or the Model Context Protocol, with a dedicated technical user and the minimum permissions for the use case. We start with read access, move to proposed changes that a rep confirms and only then allow limited direct writes. HubSpot, Pipedrive and other CRMs work the same way." },
-          { "q": "What about data protection for call transcripts and lead data?", "a": "Recording calls requires consent from everyone on the call; transcripts are personal data and need a purpose, a retention period and access rules; enrichment uses only permitted sources. We document all of this before the pilot, keep processing in the EU where required and involve your data-protection officer early. The legal assessment stays with your counsel." },
-          { "q": "Will our SDRs and reps lose their jobs?", "a": "Agents remove tasks, not usually roles. Research, data entry and first drafts shrink; conversations, negotiation and relationship work grow. The SDR role changes most, towards reviewing, judging and coaching the agent, and we plan that change openly with sales leadership rather than letting it happen by accident." }
+          {
+            "q": "Can the agent send emails to prospects on its own?",
+            "a": "Not at the start, and later only where you decide so. In the pilot every prospect-facing message is approved by a rep. Once draft acceptance is consistently high, you can allow autonomous sending for defined steps such as scheduling confirmations, with logs and a stop switch. Cold outreach stays within the legal limits described above."
+          },
+          {
+            "q": "Is AI-supported cold outreach even allowed in Germany?",
+            "a": "Automation does not change the rules, it only makes breaking them faster. Unsolicited email advertising generally requires prior consent, also in B2B, phone outreach has its own rules under the UWG, and the GDPR applies to all contact data. We design flows around permitted channels and triggers and recommend confirming the setup with your legal counsel; we do not give legal advice."
+          },
+          {
+            "q": "How does the agent get into our CRM? We use Salesforce and Microsoft Dynamics.",
+            "a": "Through the platform's APIs or the Model Context Protocol, with a dedicated technical user and the minimum permissions for the use case. We start with read access, move to proposed changes that a rep confirms and only then allow limited direct writes. HubSpot, Pipedrive and other CRMs work the same way."
+          },
+          {
+            "q": "What about data protection for call transcripts and lead data?",
+            "a": "Recording calls requires consent from everyone on the call; transcripts are personal data and need a purpose, a retention period and access rules; enrichment uses only permitted sources. We document all of this before the pilot, keep processing in the EU where required and involve your data-protection officer early. The legal assessment stays with your counsel."
+          },
+          {
+            "q": "Will our SDRs and reps lose their jobs?",
+            "a": "Agents remove tasks, not usually roles. Research, data entry and first drafts shrink; conversations, negotiation and relationship work grow. The SDR role changes most, towards reviewing, judging and coaching the agent, and we plan that change openly with sales leadership rather than letting it happen by accident."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["services/ai-agent-development", "services/knowledge-assistants", "solutions/marketing", "solutions/customer-service"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/knowledge-assistants",
+          "solutions/marketing",
+          "solutions/customer-service"
+        ]
       }
     ]
   },
@@ -111,8 +213,14 @@
       "title": "KI-Agenten im Vertrieb:",
       "titleAccent": "weniger Verwaltung, mehr Gespräche.",
       "standfirst": "Vertriebsmitarbeiter verbringen einen großen Teil ihrer Woche mit Recherche, Dateneingabe und Entwürfen statt mit Kunden. KI-Agenten übernehmen Vorbereitung und Papierkram: Sie qualifizieren Inbound-Leads, schreiben Account-Briefings, aktualisieren das CRM aus Gesprächen und entwerfen Angebote aus Ihrer Preisliste, während Ihr Team jede Nachricht an Interessenten freigibt.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -125,80 +233,176 @@
           "Wir beginnen dort, wo das Volumen liegt, bei Inbound-Bearbeitung und CRM-Pflege, lassen in den frühen Phasen bei jeder ausgehenden Nachricht einen Menschen entscheiden und messen, was Vertriebsleiter interessiert: Reaktionszeit auf Leads, gebuchte Termine und zurückgewonnene Stunden."
         ],
         "facts": [
-          ["Typischer Einstieg", "Inbound-Qualifizierung, CRM-Updates aus Gesprächen"],
-          ["Systeme", "CRM, E-Mail und Kalender, Gesprächsaufzeichnung, CPQ- oder ERP-Preislisten, Vergabeportale"],
-          ["Kontrollpunkt", "Vertrieb gibt Nachrichten, Angebote und CRM-Änderungen frei"],
-          ["Erster Pilot", "In der Regel 6–8 Wochen"]
+          [
+            "Typischer Einstieg",
+            "Inbound-Qualifizierung, CRM-Updates aus Gesprächen"
+          ],
+          [
+            "Systeme",
+            "CRM, E-Mail und Kalender, Gesprächsaufzeichnung, CPQ- oder ERP-Preislisten, Vergabeportale"
+          ],
+          [
+            "Kontrollpunkt",
+            "Vertrieb gibt Nachrichten, Angebote und CRM-Änderungen frei"
+          ],
+          [
+            "Erster Pilot",
+            "In der Regel 6–8 Wochen"
+          ]
         ],
-        "link": { "label": "Lesen: Agenten vs. RPA vs. Chatbots", "page": "insights/agents-vs-rpa-vs-chatbots" }
+        "link": {
+          "label": "Lesen: Agenten vs. RPA vs. Chatbots",
+          "page": "insights/agents-vs-rpa-vs-chatbots"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases",
         "intro": "Sechs Vertriebs-Workflows, in denen Agenten die Vorbereitung übernehmen und Menschen verkaufen.",
         "items": [
-          { "icon": "target", "title": "Inbound-Qualifizierung und Zuordnung", "text": "Der Agent liest Formulare, E-Mails und Chat-Verläufe, reichert das Unternehmen aus zulässigen Quellen an, bewertet die Passung zu Ihrem Idealkundenprofil und leitet den Lead mit kurzer Zusammenfassung und Antwortvorschlag an die richtige Vertriebsperson. Die gibt in Minuten frei oder passt an; unklare Leads gehen in die manuelle Sichtung, nicht ins Raten." },
-          { "icon": "search", "title": "Account-Research und Gesprächsvorbereitung", "text": "Vor einem Termin stellt der Agent CRM-Historie, offene Tickets, frühere Angebote, aktuelle Nachrichten und die Website zu einem einseitigen Briefing mit Fragevorschlägen und bekannten Risiken zusammen. Der Vertrieb liest es auf dem Weg zum Gespräch. Das Briefing ist intern; an den Kunden geht nichts." },
-          { "icon": "mail", "title": "Outbound-Sequenzen mit freigegebenen Botschaften", "text": "Für Zielkunden entwirft der Agent personalisierte Nachrichten aus Vorlagen, die Ihr Team freigegeben hat, schlägt Zeitpunkt und Kanal vor und verfolgt Antworten. Eine Vertriebsperson gibt jede Nachricht oder jeden Stapel vor dem Versand frei. Den Ablauf gestalten wir entlang der deutschen und österreichischen Regeln für unaufgeforderte Ansprache (UWG, Einwilligung): zulässige Kanäle, warme Anlässe, saubere Abmeldung, abgestimmt mit Ihrer Rechtsberatung." },
-          { "icon": "refresh", "title": "CRM-Updates aus Gesprächen und E-Mails", "text": "Nach einem Gespräch oder E-Mail-Verlauf schlägt der Agent ein strukturiertes Update vor: nächste Schritte, Beteiligte, Einwände, genannte Wettbewerber, Phasenvorschlag und Folgeaufgabe. Der Vertrieb bestätigt mit einem Klick. Wöchentlich meldet er der Vertriebsleitung liegen gebliebene Opportunities, fehlende Abschlussdaten und Deals mit nur einem Ansprechpartner." },
-          { "icon": "doc", "title": "Angebote, Proposals und Ausschreibungen", "text": "Aus Produktdaten, Preislisten und früheren Angeboten entwirft der Agent Angebote in Ihrem Format und prüft Preise gegen CPQ- oder ERP-Regeln. Bei RFPs und öffentlichen Ausschreibungen zerlegt er die Anforderungen, entwirft Antworten aus einer freigegebenen Wissensbasis und markiert jede Lücke, die er nicht schließen konnte. Die Vertriebsleitung gibt frei, bevor etwas das Haus verlässt." },
-          { "icon": "gauge", "title": "Deal-Risiken und Vertriebs-Wissensassistent", "text": "Der Agent beobachtet die Pipeline auf Risikomuster (keine Aktivität, rutschende Termine, fehlender Entscheider) und informiert die Vertriebsleitung vor dem Forecast-Termin. Ein [Wissensassistent](page:services/knowledge-assistants) beantwortet Fragen des Teams zu Produkten, Preisregeln und Wettbewerbern mit Quellen aus Playbook und Produktdokumentation." }
+          {
+            "icon": "target",
+            "title": "Inbound-Qualifizierung und Zuordnung",
+            "text": "Der Agent liest Formulare, E-Mails und Chat-Verläufe, reichert das Unternehmen aus zulässigen Quellen an, bewertet die Passung zu Ihrem Idealkundenprofil und leitet den Lead mit kurzer Zusammenfassung und Antwortvorschlag an die richtige Vertriebsperson. Die gibt in Minuten frei oder passt an; unklare Leads gehen in die manuelle Sichtung, nicht ins Raten."
+          },
+          {
+            "icon": "search",
+            "title": "Account-Research und Gesprächsvorbereitung",
+            "text": "Vor einem Termin stellt der Agent CRM-Historie, offene Tickets, frühere Angebote, aktuelle Nachrichten und die Website zu einem einseitigen Briefing mit Fragevorschlägen und bekannten Risiken zusammen. Der Vertrieb liest es auf dem Weg zum Gespräch. Das Briefing ist intern; an den Kunden geht nichts."
+          },
+          {
+            "icon": "mail",
+            "title": "Outbound-Sequenzen mit freigegebenen Botschaften",
+            "text": "Für Zielkunden entwirft der Agent personalisierte Nachrichten aus Vorlagen, die Ihr Team freigegeben hat, schlägt Zeitpunkt und Kanal vor und verfolgt Antworten. Eine Vertriebsperson gibt jede Nachricht oder jeden Stapel vor dem Versand frei. Den Ablauf gestalten wir entlang der deutschen und österreichischen Regeln für unaufgeforderte Ansprache (UWG, Einwilligung): zulässige Kanäle, warme Anlässe, saubere Abmeldung, abgestimmt mit Ihrer Rechtsberatung."
+          },
+          {
+            "icon": "refresh",
+            "title": "CRM-Updates aus Gesprächen und E-Mails",
+            "text": "Nach einem Gespräch oder E-Mail-Verlauf schlägt der Agent ein strukturiertes Update vor: nächste Schritte, Beteiligte, Einwände, genannte Wettbewerber, Phasenvorschlag und Folgeaufgabe. Der Vertrieb bestätigt mit einem Klick. Wöchentlich meldet er der Vertriebsleitung liegen gebliebene Opportunities, fehlende Abschlussdaten und Deals mit nur einem Ansprechpartner."
+          },
+          {
+            "icon": "doc",
+            "title": "Angebote, Proposals und Ausschreibungen",
+            "text": "Aus Produktdaten, Preislisten und früheren Angeboten entwirft der Agent Angebote in Ihrem Format und prüft Preise gegen CPQ- oder ERP-Regeln. Bei RFPs und öffentlichen Ausschreibungen zerlegt er die Anforderungen, entwirft Antworten aus einer freigegebenen Wissensbasis und markiert jede Lücke, die er nicht schließen konnte. Die Vertriebsleitung gibt frei, bevor etwas das Haus verlässt."
+          },
+          {
+            "icon": "gauge",
+            "title": "Deal-Risiken und Vertriebs-Wissensassistent",
+            "text": "Der Agent beobachtet die Pipeline auf Risikomuster (keine Aktivität, rutschende Termine, fehlender Entscheider) und informiert die Vertriebsleitung vor dem Forecast-Termin. Ein [Wissensassistent](page:services/knowledge-assistants) beantwortet Fragen des Teams zu Produkten, Preisregeln und Wettbewerbern mit Quellen aus Playbook und Produktdokumentation."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Beispiel-Workflow",
         "content": [
-          { "h2": "Vom Inbound-Lead zum ersten Termin" },
-          { "p": "Beispiel: Ein Software- oder Industrieunternehmen erhält täglich Demo-Anfragen und Kontaktformulare, und die erste Antwort dauert derzeit ein bis zwei Tage. Ein SDR-Agent mit Übergabe an einen Menschen verändert den Ablauf so:" },
-          { "ol": [
-            "**Eingang.** Ein Interessent füllt das Kontaktformular aus oder schreibt an vertrieb@. Der Agent liest die Nachricht und prüft das CRM: bestehender Account, offene Opportunity, frühere Gespräche, aktuelle Zuständigkeit.",
-            "**Anreicherung.** Er ergänzt Unternehmensfakten aus zulässigen Quellen: Größe, Branche, Standorte, Technologiehinweise von der Website. Erfasst werden nur geschäftliche Kontaktdaten.",
-            "**Qualifizierung.** Er bewertet die Passung und schreibt eine Notiz: wahrscheinlicher Bedarf, Dringlichkeit, Budgetsignale, vorgeschlagene Zuständigkeit. Unterhalb der Schwelle geht der Lead in eine Nurture-Liste, die wöchentlich ein Mensch sichtet; unklare Fälle gehen in die manuelle Sichtung.",
-            "**Antwortentwurf (Freigabe durch Mensch).** Er entwirft eine Antwort im Ton der zuständigen Person mit zwei oder drei Terminvorschlägen aus deren Kalender. Vertrieb oder SDR prüfen und senden. In der ersten Phase gibt es keinen automatischen Versand an Interessenten.",
-            "**Terminfindung.** Antwortet der Interessent, übernimmt der Agent die Abstimmung innerhalb fester Regeln und bucht den Termin, sobald sich der Ablauf bewährt hat; vorher klickt ein Mensch.",
-            "**Gesprächsvorbereitung.** 24 Stunden vor dem Termin erhält der Vertrieb das Briefing: Kontext, Fragen, passende Referenztypen, Preisrahmen.",
-            "**Nach dem Gespräch.** Aus Protokoll oder Notizen entstehen ein CRM-Update-Vorschlag und die Folgeaufgabe; der Vertrieb bestätigt. Übernimmt ein Account Manager, stammt die Übergabenotiz aus demselben Datensatz.",
-            "**Wöchentliche Durchsicht.** Reaktionszeit auf Leads, Qualifizierungsgenauigkeit auf einer manuell geprüften Stichprobe, Terminquote und gesparte Stunden werden mit der Vertriebsleitung besprochen, Schwellen angepasst."
-          ] },
-          { "note": "Jede Nachricht an Interessenten passiert in der ersten Phase einen Menschen. Ist die Annahmequote der Entwürfe dauerhaft hoch, entscheiden Sie Schritt für Schritt, was der Agent selbst versenden darf – mit vollständigem Protokoll und einer Möglichkeit, ihn zu stoppen. Solche Agenten bauen wir im Rahmen unserer [KI-Agenten-Entwicklung](page:services/ai-agent-development); die Marketingseite des Funnels beschreiben wir unter [KI-Agenten im Marketing](page:solutions/marketing)." }
+          {
+            "h2": "Vom Inbound-Lead zum ersten Termin"
+          },
+          {
+            "p": "Beispiel: Ein Software- oder Industrieunternehmen erhält täglich Demo-Anfragen und Kontaktformulare, und die erste Antwort dauert derzeit ein bis zwei Tage. Ein SDR-Agent mit Übergabe an einen Menschen verändert den Ablauf so:"
+          },
+          {
+            "ol": [
+              "**Eingang.** Ein Interessent füllt das Kontaktformular aus oder schreibt an vertrieb@. Der Agent liest die Nachricht und prüft das CRM: bestehender Account, offene Opportunity, frühere Gespräche, aktuelle Zuständigkeit.",
+              "**Anreicherung.** Er ergänzt Unternehmensfakten aus zulässigen Quellen: Größe, Branche, Standorte, Technologiehinweise von der Website. Erfasst werden nur geschäftliche Kontaktdaten.",
+              "**Qualifizierung.** Er bewertet die Passung und schreibt eine Notiz: wahrscheinlicher Bedarf, Dringlichkeit, Budgetsignale, vorgeschlagene Zuständigkeit. Unterhalb der Schwelle geht der Lead in eine Nurture-Liste, die wöchentlich ein Mensch sichtet; unklare Fälle gehen in die manuelle Sichtung.",
+              "**Antwortentwurf (Freigabe durch Mensch).** Er entwirft eine Antwort im Ton der zuständigen Person mit zwei oder drei Terminvorschlägen aus deren Kalender. Vertrieb oder SDR prüfen und senden. In der ersten Phase gibt es keinen automatischen Versand an Interessenten.",
+              "**Terminfindung.** Antwortet der Interessent, übernimmt der Agent die Abstimmung innerhalb fester Regeln und bucht den Termin, sobald sich der Ablauf bewährt hat; vorher klickt ein Mensch.",
+              "**Gesprächsvorbereitung.** 24 Stunden vor dem Termin erhält der Vertrieb das Briefing: Kontext, Fragen, passende Referenztypen, Preisrahmen.",
+              "**Nach dem Gespräch.** Aus Protokoll oder Notizen entstehen ein CRM-Update-Vorschlag und die Folgeaufgabe; der Vertrieb bestätigt. Übernimmt ein Account Manager, stammt die Übergabenotiz aus demselben Datensatz.",
+              "**Wöchentliche Durchsicht.** Reaktionszeit auf Leads, Qualifizierungsgenauigkeit auf einer manuell geprüften Stichprobe, Terminquote und gesparte Stunden werden mit der Vertriebsleitung besprochen, Schwellen angepasst."
+            ]
+          },
+          {
+            "note": "Jede Nachricht an Interessenten passiert in der ersten Phase einen Menschen. Ist die Annahmequote der Entwürfe dauerhaft hoch, entscheiden Sie Schritt für Schritt, was der Agent selbst versenden darf – mit vollständigem Protokoll und einer Möglichkeit, ihn zu stoppen. Solche Agenten bauen wir im Rahmen unserer [KI-Agenten-Entwicklung](page:services/ai-agent-development); die Marketingseite des Funnels beschreiben wir unter [KI-Agenten im Marketing](page:solutions/marketing)."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Leitplanken und Risiken im Vertrieb",
         "items": [
-          { "title": "Kein automatischer Versand in frühen Phasen", "text": "Entwürfe statt Versand. Der Agent bereitet Nachrichten vor, eine Vertriebsperson gibt sie frei, jeder Versand wird protokolliert. Autonomie wird später je Schritt und je Segment erteilt, auf Basis gemessener Annahmequoten, und lässt sich jederzeit zurücknehmen." },
-          { "title": "Wettbewerbsrecht und Einwilligung", "text": "In Deutschland braucht Werbung per E-Mail in der Regel eine vorherige Einwilligung, auch im B2B, und Telefonansprache von Unternehmen folgt eigenen Regeln nach dem UWG. Wir gestalten Abläufe entlang zulässiger Kanäle und Anlässe und empfehlen, das Setup mit Ihrer Rechtsberatung zu bestätigen. Prozessgestaltung, keine Rechtsberatung." },
-          { "title": "Datenschutz", "text": "CRM-Datensätze, Gesprächsprotokolle und Anreicherungsdaten sind personenbezogene Daten nach DSGVO. Wir legen Zweck, Quellen, Aufbewahrung und Zugriff vor dem Pilot fest, verarbeiten wo nötig in der EU und weisen darauf hin, dass die Aufzeichnung von Gesprächen die Einwilligung aller Beteiligten braucht." },
-          { "title": "Preisgenauigkeit", "text": "Der Agent erfindet weder Preise noch Rabatte. Angebote entstehen aus Preisliste und Vertragskonditionen in CPQ oder ERP, werden gegen Regeln geprüft und oberhalb definierter Schwellen von der Vertriebsleitung freigegeben. Jede Zahl hat eine Quelle." },
-          { "title": "Akzeptanz und Vertrauen", "text": "Agenten, die der Vertrieb nicht nutzt, sind wertlos. Wir entwerfen gemeinsam mit den Vertriebsmitarbeitern, halten den Workflow in ihren Tools und nutzen Aktivitätsdaten nur für Coaching, in Abstimmung mit dem Betriebsrat, wo es einen gibt." }
+          {
+            "title": "Kein automatischer Versand in frühen Phasen",
+            "text": "Entwürfe statt Versand. Der Agent bereitet Nachrichten vor, eine Vertriebsperson gibt sie frei, jeder Versand wird protokolliert. Autonomie wird später je Schritt und je Segment erteilt, auf Basis gemessener Annahmequoten, und lässt sich jederzeit zurücknehmen."
+          },
+          {
+            "title": "Wettbewerbsrecht und Einwilligung",
+            "text": "In Deutschland braucht Werbung per E-Mail in der Regel eine vorherige Einwilligung, auch im B2B, und Telefonansprache von Unternehmen folgt eigenen Regeln nach dem UWG. Wir gestalten Abläufe entlang zulässiger Kanäle und Anlässe und empfehlen, das Setup mit Ihrer Rechtsberatung zu bestätigen. Prozessgestaltung, keine Rechtsberatung."
+          },
+          {
+            "title": "Datenschutz",
+            "text": "CRM-Datensätze, Gesprächsprotokolle und Anreicherungsdaten sind personenbezogene Daten nach DSGVO. Wir legen Zweck, Quellen, Aufbewahrung und Zugriff vor dem Pilot fest, verarbeiten wo nötig in der EU und weisen darauf hin, dass die Aufzeichnung von Gesprächen die Einwilligung aller Beteiligten braucht."
+          },
+          {
+            "title": "Preisgenauigkeit",
+            "text": "Der Agent erfindet weder Preise noch Rabatte. Angebote entstehen aus Preisliste und Vertragskonditionen in CPQ oder ERP, werden gegen Regeln geprüft und oberhalb definierter Schwellen von der Vertriebsleitung freigegeben. Jede Zahl hat eine Quelle."
+          },
+          {
+            "title": "Akzeptanz und Vertrauen",
+            "text": "Agenten, die der Vertrieb nicht nutzt, sind wertlos. Wir entwerfen gemeinsam mit den Vertriebsmitarbeitern, halten den Workflow in ihren Tools und nutzen Aktivitätsdaten nur für Coaching, in Abstimmung mit dem Betriebsrat, wo es einen gibt."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So starten wir",
         "items": [
-          { "title": "Vertriebs-Assessment", "text": "Wir begleiten Vertrieb und SDRs, kartieren den Weg vom Inbound zum Abschluss, messen Reaktionszeit und Verwaltungsanteil, prüfen die CRM-Datenqualität und wählen den ersten Use Case mit Ausgangswert. Compliance-Fragen gehen jetzt an Ihre Rechtsabteilung, nicht später.", "meta": "2–3 Wochen" },
-          { "title": "Workflow- und Governance-Design", "text": "Nachrichtenvorlagen, Tonalität und Freigabestufen stimmen wir mit der Vertriebsleitung ab, Datenflüsse und CRM-Berechtigungen mit der IT, die Information des Betriebsrats wo erforderlich." },
-          { "title": "Pilot", "text": "Ein Team oder eine Region, echte Leads, wöchentliche Durchsicht. Wir messen Reaktionszeit, Annahmequote der Entwürfe, gebuchte Termine und gesparte Stunden und passen Schwellen an, sobald Zahlen vorliegen.", "meta": "6–8 Wochen" },
-          { "title": "Skalieren und betreiben", "text": "Ausweitung auf weitere Teams, zusätzliche Use Cases wie Angebote und Ausschreibungsunterstützung sowie [Managed AI Operations](page:services/managed-ai-operations), damit der Agent mit Produkt-, Preis- und CRM-Änderungen Schritt hält." }
+          {
+            "title": "Vertriebs-Assessment",
+            "text": "Wir begleiten Vertrieb und SDRs, kartieren den Weg vom Inbound zum Abschluss, messen Reaktionszeit und Verwaltungsanteil, prüfen die CRM-Datenqualität und wählen den ersten Use Case mit Ausgangswert. Compliance-Fragen gehen jetzt an Ihre Rechtsabteilung, nicht später.",
+            "meta": "2–3 Wochen"
+          },
+          {
+            "title": "Workflow- und Governance-Design",
+            "text": "Nachrichtenvorlagen, Tonalität und Freigabestufen stimmen wir mit der Vertriebsleitung ab, Datenflüsse und CRM-Berechtigungen mit der IT, die Information des Betriebsrats wo erforderlich."
+          },
+          {
+            "title": "Pilot",
+            "text": "Ein Team oder eine Region, echte Leads, wöchentliche Durchsicht. Wir messen Reaktionszeit, Annahmequote der Entwürfe, gebuchte Termine und gesparte Stunden und passen Schwellen an, sobald Zahlen vorliegen.",
+            "meta": "6–8 Wochen"
+          },
+          {
+            "title": "Skalieren und betreiben",
+            "text": "Ausweitung auf weitere Teams, zusätzliche Use Cases wie Angebote und Ausschreibungsunterstützung sowie [Managed AI Operations](page:services/managed-ai-operations), damit der Agent mit Produkt-, Preis- und CRM-Änderungen Schritt hält."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Darf der Agent eigenständig E-Mails an Interessenten senden?", "a": "Zu Beginn nicht, und später nur dort, wo Sie es entscheiden. Im Pilot gibt der Vertrieb jede Nachricht an Interessenten frei. Ist die Annahmequote der Entwürfe dauerhaft hoch, können Sie den automatischen Versand für definierte Schritte erlauben, etwa Terminbestätigungen, mit Protokoll und Stoppschalter. Kaltansprache bleibt an die oben beschriebenen rechtlichen Grenzen gebunden." },
-          { "q": "Ist KI-gestützte Kaltakquise in Deutschland überhaupt erlaubt?", "a": "Automatisierung ändert die Regeln nicht, sie macht Verstöße nur schneller. Werbung per E-Mail braucht in der Regel eine vorherige Einwilligung, auch im B2B, Telefonansprache folgt eigenen Regeln nach dem UWG, und die DSGVO gilt für alle Kontaktdaten. Wir gestalten Abläufe entlang zulässiger Kanäle und Anlässe und empfehlen, das Setup mit Ihrer Rechtsberatung zu bestätigen; Rechtsberatung leisten wir nicht." },
-          { "q": "Wie kommt der Agent in unser CRM? Wir nutzen Salesforce und Microsoft Dynamics.", "a": "Über die APIs der Plattform oder das Model Context Protocol, mit einem eigenen technischen Benutzer und den minimalen Rechten für den Use Case. Wir beginnen mit Lesezugriff, gehen zu Änderungsvorschlägen über, die der Vertrieb bestätigt, und erlauben erst danach begrenzte direkte Schreibzugriffe. HubSpot, Pipedrive und andere CRMs funktionieren genauso." },
-          { "q": "Wie steht es um den Datenschutz bei Gesprächsprotokollen und Lead-Daten?", "a": "Gesprächsaufzeichnung braucht die Einwilligung aller Beteiligten; Protokolle sind personenbezogene Daten und brauchen Zweck, Aufbewahrungsfrist und Zugriffsregeln; Anreicherung nutzt nur zulässige Quellen. All das dokumentieren wir vor dem Pilot, verarbeiten wo nötig in der EU und beziehen Ihren Datenschutzbeauftragten früh ein. Die rechtliche Bewertung bleibt bei Ihren Juristen." },
-          { "q": "Verlieren unsere SDRs und Vertriebsmitarbeiter ihre Stellen?", "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Recherche, Dateneingabe und erste Entwürfe schrumpfen; Gespräche, Verhandlung und Beziehungsarbeit wachsen. Die SDR-Rolle verändert sich am stärksten, hin zu Prüfen, Beurteilen und Anleiten des Agenten. Diesen Wandel planen wir offen mit der Vertriebsleitung, statt ihn dem Zufall zu überlassen." }
+          {
+            "q": "Darf der Agent eigenständig E-Mails an Interessenten senden?",
+            "a": "Zu Beginn nicht, und später nur dort, wo Sie es entscheiden. Im Pilot gibt der Vertrieb jede Nachricht an Interessenten frei. Ist die Annahmequote der Entwürfe dauerhaft hoch, können Sie den automatischen Versand für definierte Schritte erlauben, etwa Terminbestätigungen, mit Protokoll und Stoppschalter. Kaltansprache bleibt an die oben beschriebenen rechtlichen Grenzen gebunden."
+          },
+          {
+            "q": "Ist KI-gestützte Kaltakquise in Deutschland überhaupt erlaubt?",
+            "a": "Automatisierung ändert die Regeln nicht, sie macht Verstöße nur schneller. Werbung per E-Mail braucht in der Regel eine vorherige Einwilligung, auch im B2B, Telefonansprache folgt eigenen Regeln nach dem UWG, und die DSGVO gilt für alle Kontaktdaten. Wir gestalten Abläufe entlang zulässiger Kanäle und Anlässe und empfehlen, das Setup mit Ihrer Rechtsberatung zu bestätigen; Rechtsberatung leisten wir nicht."
+          },
+          {
+            "q": "Wie kommt der Agent in unser CRM? Wir nutzen Salesforce und Microsoft Dynamics.",
+            "a": "Über die APIs der Plattform oder das Model Context Protocol, mit einem eigenen technischen Benutzer und den minimalen Rechten für den Use Case. Wir beginnen mit Lesezugriff, gehen zu Änderungsvorschlägen über, die der Vertrieb bestätigt, und erlauben erst danach begrenzte direkte Schreibzugriffe. HubSpot, Pipedrive und andere CRMs funktionieren genauso."
+          },
+          {
+            "q": "Wie steht es um den Datenschutz bei Gesprächsprotokollen und Lead-Daten?",
+            "a": "Gesprächsaufzeichnung braucht die Einwilligung aller Beteiligten; Protokolle sind personenbezogene Daten und brauchen Zweck, Aufbewahrungsfrist und Zugriffsregeln; Anreicherung nutzt nur zulässige Quellen. All das dokumentieren wir vor dem Pilot, verarbeiten wo nötig in der EU und beziehen Ihren Datenschutzbeauftragten früh ein. Die rechtliche Bewertung bleibt bei Ihren Juristen."
+          },
+          {
+            "q": "Verlieren unsere SDRs und Vertriebsmitarbeiter ihre Stellen?",
+            "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Recherche, Dateneingabe und erste Entwürfe schrumpfen; Gespräche, Verhandlung und Beziehungsarbeit wachsen. Die SDR-Rolle verändert sich am stärksten, hin zu Prüfen, Beurteilen und Anleiten des Agenten. Diesen Wandel planen wir offen mit der Vertriebsleitung, statt ihn dem Zufall zu überlassen."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["services/ai-agent-development", "services/knowledge-assistants", "solutions/marketing", "solutions/customer-service"]
+        "pages": [
+          "services/ai-agent-development",
+          "services/knowledge-assistants",
+          "solutions/marketing",
+          "solutions/customer-service"
+        ]
       }
     ]
   }

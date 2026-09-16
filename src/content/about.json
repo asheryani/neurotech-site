@@ -13,7 +13,7 @@
       "standfirst": "Neurotech AI Solutions GmbH was founded in Berlin in 2025 with a narrow conviction: the value of AI in a company is decided not by the model but by the workflow, the integration, the guardrails and the people who own it. We do that part, end to end.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "How we work",
@@ -120,7 +120,7 @@
       "standfirst": "Die Neurotech AI Solutions GmbH wurde 2025 in Berlin mit einer klaren Überzeugung gegründet: Über den Wert von KI in einem Unternehmen entscheidet nicht das Modell, sondern der Workflow, die Integration, die Leitplanken und die Menschen, die ihn verantworten. Genau diesen Teil übernehmen wir – von Anfang bis Ende.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

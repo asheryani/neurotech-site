@@ -12,7 +12,7 @@
       "standfirst": "Banks, insurers, asset managers, fintechs, leasing and payment companies run on documents, rules and supervision. We build AI agents that take over the reading, sorting and drafting inside those processes, keep every decision with a person, and leave an audit trail your compliance function can work with.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "See how we work",
@@ -205,7 +205,7 @@
       "standfirst": "Banken, Versicherer, Asset Manager, Fintechs, Leasing- und Zahlungsdienstleister laufen auf Dokumenten, Regeln und Aufsicht. Wir bauen KI-Agenten, die in diesen Prozessen das Lesen, Sortieren und Vorformulieren übernehmen, jede Entscheidung beim Menschen lassen und einen Audit-Trail hinterlassen, mit dem Ihre Compliance arbeiten kann.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

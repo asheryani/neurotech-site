@@ -12,7 +12,7 @@
       "standfirst": "We help startups, Mittelstand companies and corporates put AI to work where it pays off: strategy, agentic workflows and custom AI agents for marketing, sales, service, operations, finance, HR, legal and IT. From the first use case to production and operations, with data protection and the EU AI Act built in.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "Explore our services",
@@ -184,7 +184,7 @@
       "standfirst": "Wir helfen Startups, Mittelstand und Konzernen, KI dort einzusetzen, wo sie sich rechnet: Strategie, agentische Workflows und individuelle KI-Agenten für Marketing, Vertrieb, Service, Operations, Finanzen, HR, Recht und IT. Vom ersten Use Case bis in den Produktivbetrieb – mit Datenschutz und EU AI Act von Anfang an.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "Unsere Leistungen",

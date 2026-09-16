@@ -10,8 +10,14 @@
       "title": "The data your first agent needs,",
       "titleAccent": "and nothing more.",
       "standfirst": "The advice to fix your data first has stalled more AI initiatives than bad models ever did. Agents need something narrower: the right documents readable, the right systems reachable, the right definitions agreed and the right people permitted. We build exactly that, one use case at a time, and let the platform grow from there.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,66 +30,171 @@
           "Each piece is reusable. The second agent inherits the pipelines, APIs and access rules of the first. After three or four use cases you have a minimal data platform that grew from real demand, with no year of ingestion work in front of the first result."
         ],
         "facts": [
-          ["Format", "Inventory, pipelines, integration, search, governance, per use case"],
-          ["Duration", "Typically delivered alongside the first agent pilot"],
-          ["For", "CIOs, heads of IT, data leads, COOs"],
-          ["Outcome", "Usable data for the first agent and a reusable base for the next"]
+          [
+            "Format",
+            "Inventory, pipelines, integration, search, governance, per use case"
+          ],
+          [
+            "Duration",
+            "Typically delivered alongside the first agent pilot"
+          ],
+          [
+            "For",
+            "CIOs, heads of IT, data leads, COOs"
+          ],
+          [
+            "Outcome",
+            "Usable data for the first agent and a reusable base for the next"
+          ]
         ],
-        "link": { "label": "See the agent pilots this feeds", "page": "services/ai-agent-development" }
+        "link": {
+          "label": "See the agent pilots this feeds",
+          "page": "services/ai-agent-development"
+        }
       },
       {
         "type": "cards",
         "heading": "What we build",
         "intro": "Six building blocks. A first use case rarely needs all of them; a third one usually reuses most.",
         "items": [
-          { "icon": "map", "title": "Data inventory and access map", "text": "What data exists, where it lives, who owns it, how current it is, what personal data it contains and how an agent would reach it. A short, honest document that replaces guesswork in every later decision." },
-          { "icon": "doc", "title": "Document pipelines", "text": "OCR and intelligent document processing for scans, PDFs, emails and forms: layout-aware parsing, table extraction, classification, metadata and version tracking. The raw material of most agent use cases, made machine-readable." },
-          { "icon": "puzzle", "title": "Integration layer and APIs for agents", "text": "Controlled ways for agents to read from and write to your ERP, CRM, DMS and ticketing systems: APIs, connectors and MCP servers with scoped permissions, so every agent uses the same safe door." },
-          { "icon": "search", "title": "Vector stores and search", "text": "Semantic and keyword search over your documents and records, sized for your volume: from pgvector in your existing database to a dedicated search service. The retrieval backbone of [knowledge assistants](page:services/knowledge-assistants)." },
-          { "icon": "book", "title": "Semantic layer and definitions", "text": "What active customer, order value or on-time delivery mean, written down once and used by every agent and report. Small in scope, large in effect: many wrong answers come from undefined terms, not from the model." },
-          { "icon": "lock", "title": "Data quality, access control and protection by design", "text": "Quality checks where they change outcomes, not everywhere. Role-based access, pseudonymisation where agents do not need identities, retention rules and logging, designed with your data-protection officer." }
+          {
+            "icon": "map",
+            "title": "Data inventory and access map",
+            "text": "What data exists, where it lives, who owns it, how current it is, what personal data it contains and how an agent would reach it. A short, honest document that replaces guesswork in every later decision."
+          },
+          {
+            "icon": "doc",
+            "title": "Document pipelines",
+            "text": "OCR and intelligent document processing for scans, PDFs, emails and forms: layout-aware parsing, table extraction, classification, metadata and version tracking. The raw material of most agent use cases, made machine-readable."
+          },
+          {
+            "icon": "puzzle",
+            "title": "Integration layer and APIs for agents",
+            "text": "Controlled ways for agents to read from and write to your ERP, CRM, DMS and ticketing systems: APIs, connectors and MCP servers with scoped permissions, so every agent uses the same safe door."
+          },
+          {
+            "icon": "search",
+            "title": "Vector stores and search",
+            "text": "Semantic and keyword search over your documents and records, sized for your volume: from pgvector in your existing database to a dedicated search service. The retrieval backbone of [knowledge assistants](page:services/knowledge-assistants)."
+          },
+          {
+            "icon": "book",
+            "title": "Semantic layer and definitions",
+            "text": "What active customer, order value or on-time delivery mean, written down once and used by every agent and report. Small in scope, large in effect: many wrong answers come from undefined terms, not from the model."
+          },
+          {
+            "icon": "lock",
+            "title": "Data quality, access control and protection by design",
+            "text": "Quality checks where they change outcomes, not everywhere. Role-based access, pseudonymisation where agents do not need identities, retention rules and logging, designed with your data-protection officer."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Mittelstand or enterprise: the right size of foundation",
         "items": [
-          { "title": "A minimal viable data platform for the Mittelstand", "text": "An owner-managed company with an ERP, a file server and a shared mailbox does not need a lakehouse. It needs document pipelines, a few APIs, a search index and clear ownership, often on infrastructure it already pays for. See [Mittelstand](page:for/mittelstand), Germany's mid-sized businesses." },
-          { "title": "Enterprise: make the existing platform agent-ready", "text": "Corporates usually have a lakehouse or data warehouse already. The work is to make it usable for agents: unstructured data, permission-aware access, MCP servers in front of core systems, and definitions that hold across departments. See [enterprise](page:for/enterprise)." },
-          { "title": "Startups: build it in from the beginning", "text": "Young companies can design their data model, event logging and document handling with agents in mind, before legacy accumulates. Cheap now, expensive later. See [startups](page:for/startups)." }
+          {
+            "title": "A minimal viable data platform for the Mittelstand",
+            "text": "An owner-managed company with an ERP, a file server and a shared mailbox does not need a lakehouse. It needs document pipelines, a few APIs, a search index and clear ownership, often on infrastructure it already pays for. See [Mittelstand](page:for/mittelstand), Germany's mid-sized businesses."
+          },
+          {
+            "title": "Enterprise: make the existing platform agent-ready",
+            "text": "Corporates usually have a lakehouse or data warehouse already. The work is to make it usable for agents: unstructured data, permission-aware access, MCP servers in front of core systems, and definitions that hold across departments. See [enterprise](page:for/enterprise)."
+          },
+          {
+            "title": "Startups: build it in from the beginning",
+            "text": "Young companies can design their data model, event logging and document handling with agents in mind, before legacy accumulates. Cheap now, expensive later. See [startups](page:for/startups)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we work",
         "items": [
-          { "title": "Start from the use case", "text": "We take the first agent use case and list precisely which data, documents and systems it touches. Everything outside that list waits.", "meta": "Week 1" },
-          { "title": "Inventory and gap analysis", "text": "We locate the data, check access, quality and personal-data content, and mark the gaps that would block the agent. Usually there are two or three, not twenty.", "meta": "Weeks 1–2" },
-          { "title": "Build the minimum", "text": "Pipelines, APIs, search and definitions for exactly this use case, built to be reused: documented, tested, permission-aware, on infrastructure that fits your data-protection requirements.", "meta": "Weeks 2–4" },
-          { "title": "Prove it with the agent", "text": "The first agent runs on the new foundations. Retrieval accuracy, data freshness and access checks are part of its evaluation suite, so data problems surface as measurable failures, not opinions.", "meta": "Weeks 4–6" },
-          { "title": "Grow with the roadmap", "text": "Each further use case adds what it needs and reuses the rest. When the pattern is clear, we help you decide whether a lakehouse, a data catalogue or a dedicated data team is now worth it.", "meta": "Ongoing" }
+          {
+            "title": "Start from the use case",
+            "text": "We take the first agent use case and list precisely which data, documents and systems it touches. Everything outside that list waits.",
+            "meta": "Week 1"
+          },
+          {
+            "title": "Inventory and gap analysis",
+            "text": "We locate the data, check access, quality and personal-data content, and mark the gaps that would block the agent. Usually there are two or three, not twenty.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Build the minimum",
+            "text": "Pipelines, APIs, search and definitions for exactly this use case, built to be reused: documented, tested, permission-aware, on infrastructure that fits your data-protection requirements.",
+            "meta": "Weeks 2–4"
+          },
+          {
+            "title": "Prove it with the agent",
+            "text": "The first agent runs on the new foundations. Retrieval accuracy, data freshness and access checks are part of its evaluation suite, so data problems surface as measurable failures, not opinions.",
+            "meta": "Weeks 4–6"
+          },
+          {
+            "title": "Grow with the roadmap",
+            "text": "Each further use case adds what it needs and reuses the rest. When the pattern is clear, we help you decide whether a lakehouse, a data catalogue or a dedicated data team is now worth it.",
+            "meta": "Ongoing"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Tools and platforms we work with",
         "intro": "Chosen per project, vendor-neutral. Naming a product means we work with it or evaluate it, not that we are partnered with or certified by its vendor.",
-        "items": ["Azure AI Document Intelligence", "Google Document AI", "AWS Textract", "Docling", "PostgreSQL and pgvector", "Qdrant", "Weaviate", "Azure AI Search", "Elasticsearch / OpenSearch", "Microsoft Fabric", "Databricks", "Snowflake", "dbt", "Airbyte", "n8n", "Model Context Protocol (MCP)"]
+        "items": [
+          "Azure AI Document Intelligence",
+          "Google Document AI",
+          "AWS Textract",
+          "Docling",
+          "PostgreSQL and pgvector",
+          "Qdrant",
+          "Weaviate",
+          "Azure AI Search",
+          "Elasticsearch / OpenSearch",
+          "Microsoft Fabric",
+          "Databricks",
+          "Snowflake",
+          "dbt",
+          "Airbyte",
+          "n8n",
+          "Model Context Protocol (MCP)"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Do we really not need a data warehouse first?", "a": "For most first use cases, no. Agents read documents, emails and records where they are and call systems through APIs. A warehouse becomes worthwhile when several use cases need the same consolidated, historical data, or when reporting is the use case. We say so when that point comes; the pipelines built until then carry over." },
-          { "q": "Our data is messy. Is that a blocker?", "a": "Rarely for the whole use case, often for one part of it. The inventory shows exactly which field, document type or system is the problem, and we fix that, not everything. Agents also surface inconsistencies as they run, so quality improves where it matters." },
-          { "q": "How do you handle personal data and GDPR?", "a": "By design: we map which personal data a use case touches, minimise it, pseudonymise where the agent does not need identities, restrict access by role, log what is accessed and agree retention with your data-protection officer. These are engineering principles, not legal advice; our [AI governance](page:services/ai-governance) service covers the wider framework." },
-          { "q": "Which cloud or hosting do you recommend?", "a": "The one that fits your data-protection requirements, your existing licences and your team, from EU regions of Azure, AWS and Google Cloud to EU providers and on-premises. We are vendor-neutral and build so that pipelines can move. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "q": "Can our IT team maintain this afterwards?", "a": "That is the design goal. We use tools your team already knows where possible, document every pipeline and API, and hand over with training. If capacity is the issue, [managed AI operations](page:services/managed-ai-operations) can run the foundations together with the agents." }
+          {
+            "q": "Do we really not need a data warehouse first?",
+            "a": "For most first use cases, no. Agents read documents, emails and records where they are and call systems through APIs. A warehouse becomes worthwhile when several use cases need the same consolidated, historical data, or when reporting is the use case. We say so when that point comes; the pipelines built until then carry over."
+          },
+          {
+            "q": "Our data is messy. Is that a blocker?",
+            "a": "Rarely for the whole use case, often for one part of it. The inventory shows exactly which field, document type or system is the problem, and we fix that, not everything. Agents also surface inconsistencies as they run, so quality improves where it matters."
+          },
+          {
+            "q": "How do you handle personal data and GDPR?",
+            "a": "By design: we map which personal data a use case touches, minimise it, pseudonymise where the agent does not need identities, restrict access by role, log what is accessed and agree retention with your data-protection officer. These are engineering principles, not legal advice; our [AI governance](page:services/ai-governance) service covers the wider framework."
+          },
+          {
+            "q": "Which cloud or hosting do you recommend?",
+            "a": "The one that fits your data-protection requirements, your existing licences and your team, from EU regions of Azure, AWS and Google Cloud to EU providers and on-premises. We are vendor-neutral and build so that pipelines can move. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "Can our IT team maintain this afterwards?",
+            "a": "That is the design goal. We use tools your team already knows where possible, document every pipeline and API, and hand over with training. If capacity is the issue, [managed AI operations](page:services/managed-ai-operations) can run the foundations together with the agents."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/knowledge-assistants", "services/ai-agent-development", "services/ai-governance", "services/ai-readiness-assessment"]
+        "pages": [
+          "services/knowledge-assistants",
+          "services/ai-agent-development",
+          "services/ai-governance",
+          "services/ai-readiness-assessment"
+        ]
       }
     ]
   },
@@ -97,8 +208,14 @@
       "title": "Die Daten, die Ihr erster Agent braucht,",
       "titleAccent": "und nicht mehr.",
       "standfirst": "Der Rat, erst die Daten in Ordnung zu bringen, hat mehr KI-Vorhaben ausgebremst als jedes schlechte Modell. Agenten brauchen etwas Engeres: die richtigen Dokumente lesbar, die richtigen Systeme erreichbar, die richtigen Begriffe geklärt und die richtigen Personen berechtigt. Genau das bauen wir, Use Case für Use Case – und lassen die Plattform daraus wachsen.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -111,66 +228,171 @@
           "Jedes Bauteil ist wiederverwendbar. Der zweite Agent erbt die Pipelines, APIs und Zugriffsregeln des ersten. Nach drei, vier Use Cases haben Sie eine minimale Datenplattform, die aus echtem Bedarf gewachsen ist – ohne ein Jahr Ingestion-Arbeit vor dem ersten Ergebnis."
         ],
         "facts": [
-          ["Format", "Inventar, Pipelines, Integration, Suche, Governance – je Use Case"],
-          ["Dauer", "In der Regel parallel zum ersten Agenten-Piloten"],
-          ["Für", "CIOs, IT-Leitung, Datenverantwortliche, COOs"],
-          ["Ergebnis", "Nutzbare Daten für den ersten Agenten und eine wiederverwendbare Basis für den nächsten"]
+          [
+            "Format",
+            "Inventar, Pipelines, Integration, Suche, Governance – je Use Case"
+          ],
+          [
+            "Dauer",
+            "In der Regel parallel zum ersten Agenten-Piloten"
+          ],
+          [
+            "Für",
+            "CIOs, IT-Leitung, Datenverantwortliche, COOs"
+          ],
+          [
+            "Ergebnis",
+            "Nutzbare Daten für den ersten Agenten und eine wiederverwendbare Basis für den nächsten"
+          ]
         ],
-        "link": { "label": "Die Agenten-Piloten, die darauf aufsetzen", "page": "services/ai-agent-development" }
+        "link": {
+          "label": "Die Agenten-Piloten, die darauf aufsetzen",
+          "page": "services/ai-agent-development"
+        }
       },
       {
         "type": "cards",
         "heading": "Was wir bauen",
         "intro": "Sechs Bausteine. Ein erster Use Case braucht selten alle; ein dritter nutzt meist die meisten wieder.",
         "items": [
-          { "icon": "map", "title": "Dateninventar und Zugriffskarte", "text": "Welche Daten existieren, wo sie liegen, wer sie verantwortet, wie aktuell sie sind, welche personenbezogenen Daten sie enthalten und wie ein Agent sie erreichen würde. Ein kurzes, ehrliches Dokument, das in jeder späteren Entscheidung das Raten ersetzt." },
-          { "icon": "doc", "title": "Dokumenten-Pipelines", "text": "OCR und Intelligent Document Processing für Scans, PDFs, E-Mails und Formulare: layoutbewusstes Parsing, Tabellenextraktion, Klassifikation, Metadaten und Versionierung. Das Rohmaterial der meisten Agenten-Use-Cases, maschinenlesbar gemacht." },
-          { "icon": "puzzle", "title": "Integrationsschicht und APIs für Agenten", "text": "Kontrollierte Wege für Agenten, in ERP, CRM, DMS und Ticketsystem zu lesen und zu schreiben: APIs, Konnektoren und MCP-Server mit eng begrenzten Berechtigungen, damit jeder Agent dieselbe sichere Tür benutzt." },
-          { "icon": "search", "title": "Vektorspeicher und Suche", "text": "Semantische und Stichwortsuche über Ihre Dokumente und Datensätze, passend zu Ihrem Volumen: von pgvector in Ihrer bestehenden Datenbank bis zum dedizierten Suchdienst. Das Retrieval-Rückgrat von [Wissensassistenten](page:services/knowledge-assistants)." },
-          { "icon": "book", "title": "Semantische Schicht und Definitionen", "text": "Was aktiver Kunde, Auftragswert oder Liefertreue bedeuten, einmal aufgeschrieben und von jedem Agenten und jedem Bericht genutzt. Klein im Umfang, groß in der Wirkung: Viele falsche Antworten entstehen aus ungeklärten Begriffen, nicht im Modell." },
-          { "icon": "lock", "title": "Datenqualität, Zugriffskontrolle und Datenschutz by Design", "text": "Qualitätsprüfungen dort, wo sie Ergebnisse verändern, nicht überall. Rollenbasierter Zugriff, Pseudonymisierung, wo Agenten keine Identitäten brauchen, Aufbewahrungsregeln und Protokollierung, entworfen mit Ihrem Datenschutzbeauftragten." }
+          {
+            "icon": "map",
+            "title": "Dateninventar und Zugriffskarte",
+            "text": "Welche Daten existieren, wo sie liegen, wer sie verantwortet, wie aktuell sie sind, welche personenbezogenen Daten sie enthalten und wie ein Agent sie erreichen würde. Ein kurzes, ehrliches Dokument, das in jeder späteren Entscheidung das Raten ersetzt."
+          },
+          {
+            "icon": "doc",
+            "title": "Dokumenten-Pipelines",
+            "text": "OCR und Intelligent Document Processing für Scans, PDFs, E-Mails und Formulare: layoutbewusstes Parsing, Tabellenextraktion, Klassifikation, Metadaten und Versionierung. Das Rohmaterial der meisten Agenten-Use-Cases, maschinenlesbar gemacht."
+          },
+          {
+            "icon": "puzzle",
+            "title": "Integrationsschicht und APIs für Agenten",
+            "text": "Kontrollierte Wege für Agenten, in ERP, CRM, DMS und Ticketsystem zu lesen und zu schreiben: APIs, Konnektoren und MCP-Server mit eng begrenzten Berechtigungen, damit jeder Agent dieselbe sichere Tür benutzt."
+          },
+          {
+            "icon": "search",
+            "title": "Vektorspeicher und Suche",
+            "text": "Semantische und Stichwortsuche über Ihre Dokumente und Datensätze, passend zu Ihrem Volumen: von pgvector in Ihrer bestehenden Datenbank bis zum dedizierten Suchdienst. Das Retrieval-Rückgrat von [Wissensassistenten](page:services/knowledge-assistants)."
+          },
+          {
+            "icon": "book",
+            "title": "Semantische Schicht und Definitionen",
+            "text": "Was aktiver Kunde, Auftragswert oder Liefertreue bedeuten, einmal aufgeschrieben und von jedem Agenten und jedem Bericht genutzt. Klein im Umfang, groß in der Wirkung: Viele falsche Antworten entstehen aus ungeklärten Begriffen, nicht im Modell."
+          },
+          {
+            "icon": "lock",
+            "title": "Datenqualität, Zugriffskontrolle und Datenschutz by Design",
+            "text": "Qualitätsprüfungen dort, wo sie Ergebnisse verändern, nicht überall. Rollenbasierter Zugriff, Pseudonymisierung, wo Agenten keine Identitäten brauchen, Aufbewahrungsregeln und Protokollierung, entworfen mit Ihrem Datenschutzbeauftragten."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Mittelstand oder Konzern: die passende Größe des Fundaments",
         "items": [
-          { "title": "Eine minimale Datenplattform für den Mittelstand", "text": "Ein inhabergeführtes Unternehmen mit ERP, Dateiserver und Sammelpostfach braucht kein Lakehouse. Es braucht Dokumenten-Pipelines, einige APIs, einen Suchindex und klare Zuständigkeiten – oft auf Infrastruktur, die es ohnehin bezahlt. Mehr unter [Mittelstand](page:for/mittelstand)." },
-          { "title": "Konzern: die bestehende Plattform agententauglich machen", "text": "Konzerne haben meist schon ein Lakehouse oder Data Warehouse. Die Arbeit besteht darin, es für Agenten nutzbar zu machen: unstrukturierte Daten, rechtekonformer Zugriff, MCP-Server vor den Kernsystemen und Definitionen, die über Abteilungsgrenzen hinweg gelten. Mehr unter [Konzerne](page:for/enterprise)." },
-          { "title": "Startups: von Anfang an mitdenken", "text": "Junge Unternehmen können Datenmodell, Event-Logging und Dokumentenhandling mit Blick auf Agenten entwerfen, bevor sich Altlasten ansammeln. Jetzt günstig, später teuer. Mehr unter [Startups](page:for/startups)." }
+          {
+            "title": "Eine minimale Datenplattform für den Mittelstand",
+            "text": "Ein inhabergeführtes Unternehmen mit ERP, Dateiserver und Sammelpostfach braucht kein Lakehouse. Es braucht Dokumenten-Pipelines, einige APIs, einen Suchindex und klare Zuständigkeiten – oft auf Infrastruktur, die es ohnehin bezahlt. Mehr unter [Mittelstand](page:for/mittelstand)."
+          },
+          {
+            "title": "Konzern: die bestehende Plattform agententauglich machen",
+            "text": "Konzerne haben meist schon ein Lakehouse oder Data Warehouse. Die Arbeit besteht darin, es für Agenten nutzbar zu machen: unstrukturierte Daten, rechtekonformer Zugriff, MCP-Server vor den Kernsystemen und Definitionen, die über Abteilungsgrenzen hinweg gelten. Mehr unter [Konzerne](page:for/enterprise)."
+          },
+          {
+            "title": "Startups: von Anfang an mitdenken",
+            "text": "Junge Unternehmen können Datenmodell, Event-Logging und Dokumentenhandling mit Blick auf Agenten entwerfen, bevor sich Altlasten ansammeln. Jetzt günstig, später teuer. Mehr unter [Startups](page:for/startups)."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So arbeiten wir",
         "items": [
-          { "title": "Vom Use Case ausgehen", "text": "Wir nehmen den ersten Agenten-Use-Case und listen präzise auf, welche Daten, Dokumente und Systeme er berührt. Alles außerhalb dieser Liste wartet.", "meta": "Woche 1" },
-          { "title": "Inventar und Lückenanalyse", "text": "Wir lokalisieren die Daten, prüfen Zugriff, Qualität und personenbezogene Inhalte und markieren die Lücken, die den Agenten blockieren würden. Meist sind es zwei oder drei, nicht zwanzig.", "meta": "Wochen 1–2" },
-          { "title": "Das Minimum bauen", "text": "Pipelines, APIs, Suche und Definitionen für genau diesen Use Case, gebaut zur Wiederverwendung: dokumentiert, getestet, rechtekonform, auf Infrastruktur, die zu Ihren Datenschutzanforderungen passt.", "meta": "Wochen 2–4" },
-          { "title": "Mit dem Agenten beweisen", "text": "Der erste Agent läuft auf dem neuen Fundament. Trefferqualität, Datenaktualität und Zugriffsprüfungen sind Teil seiner Evaluierungs-Suite, sodass Datenprobleme als messbare Fehler sichtbar werden, nicht als Meinungen.", "meta": "Wochen 4–6" },
-          { "title": "Mit der Roadmap wachsen", "text": "Jeder weitere Use Case ergänzt, was er braucht, und nutzt den Rest wieder. Wenn das Muster klar ist, helfen wir bei der Entscheidung, ob sich ein Lakehouse, ein Datenkatalog oder ein eigenes Datenteam jetzt lohnt.", "meta": "Laufend" }
+          {
+            "title": "Vom Use Case ausgehen",
+            "text": "Wir nehmen den ersten Agenten-Use-Case und listen präzise auf, welche Daten, Dokumente und Systeme er berührt. Alles außerhalb dieser Liste wartet.",
+            "meta": "Woche 1"
+          },
+          {
+            "title": "Inventar und Lückenanalyse",
+            "text": "Wir lokalisieren die Daten, prüfen Zugriff, Qualität und personenbezogene Inhalte und markieren die Lücken, die den Agenten blockieren würden. Meist sind es zwei oder drei, nicht zwanzig.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Das Minimum bauen",
+            "text": "Pipelines, APIs, Suche und Definitionen für genau diesen Use Case, gebaut zur Wiederverwendung: dokumentiert, getestet, rechtekonform, auf Infrastruktur, die zu Ihren Datenschutzanforderungen passt.",
+            "meta": "Wochen 2–4"
+          },
+          {
+            "title": "Mit dem Agenten beweisen",
+            "text": "Der erste Agent läuft auf dem neuen Fundament. Trefferqualität, Datenaktualität und Zugriffsprüfungen sind Teil seiner Evaluierungs-Suite, sodass Datenprobleme als messbare Fehler sichtbar werden, nicht als Meinungen.",
+            "meta": "Wochen 4–6"
+          },
+          {
+            "title": "Mit der Roadmap wachsen",
+            "text": "Jeder weitere Use Case ergänzt, was er braucht, und nutzt den Rest wieder. Wenn das Muster klar ist, helfen wir bei der Entscheidung, ob sich ein Lakehouse, ein Datenkatalog oder ein eigenes Datenteam jetzt lohnt.",
+            "meta": "Laufend"
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Werkzeuge und Plattformen, mit denen wir arbeiten",
         "intro": "Je Projekt gewählt, herstellerneutral. Ein Produkt zu nennen bedeutet, dass wir damit arbeiten oder es bewerten – nicht, dass wir Partner oder zertifiziert sind.",
-        "items": ["Azure AI Document Intelligence", "Google Document AI", "AWS Textract", "Docling", "PostgreSQL und pgvector", "Qdrant", "Weaviate", "Azure AI Search", "Elasticsearch / OpenSearch", "Microsoft Fabric", "Databricks", "Snowflake", "dbt", "Airbyte", "n8n", "Model Context Protocol (MCP)"]
+        "items": [
+          "Azure AI Document Intelligence",
+          "Google Document AI",
+          "AWS Textract",
+          "Docling",
+          "PostgreSQL und pgvector",
+          "Qdrant",
+          "Weaviate",
+          "Azure AI Search",
+          "Elasticsearch / OpenSearch",
+          "Microsoft Fabric",
+          "Databricks",
+          "Snowflake",
+          "dbt",
+          "Airbyte",
+          "n8n",
+          "Model Context Protocol (MCP)"
+        ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Brauchen wir wirklich kein Data Warehouse zuerst?", "a": "Für die meisten ersten Use Cases: nein. Agenten lesen Dokumente, E-Mails und Datensätze dort, wo sie liegen, und rufen Systeme über APIs auf. Ein Warehouse lohnt sich, wenn mehrere Use Cases dieselben konsolidierten, historischen Daten brauchen oder wenn Reporting selbst der Use Case ist. Wir sagen es, wenn dieser Punkt kommt; die bis dahin gebauten Pipelines bleiben nutzbar." },
-          { "q": "Unsere Daten sind unordentlich. Ist das ein Hindernis?", "a": "Selten für den ganzen Use Case, oft für einen Teil davon. Das Inventar zeigt genau, welches Feld, welcher Dokumenttyp oder welches System das Problem ist – und das beheben wir, nicht alles. Agenten decken im Betrieb zudem Inkonsistenzen auf, sodass die Qualität dort steigt, wo es zählt." },
-          { "q": "Wie gehen Sie mit personenbezogenen Daten und der DSGVO um?", "a": "By Design: Wir erfassen, welche personenbezogenen Daten ein Use Case berührt, minimieren sie, pseudonymisieren, wo der Agent keine Identitäten braucht, beschränken den Zugriff nach Rollen, protokollieren Zugriffe und vereinbaren Aufbewahrungsfristen mit Ihrem Datenschutzbeauftragten. Das sind Engineering-Prinzipien, keine Rechtsberatung; den weiteren Rahmen deckt unsere [KI-Governance-Beratung](page:services/ai-governance) ab." },
-          { "q": "Welche Cloud oder welches Hosting empfehlen Sie?", "a": "Das, was zu Ihren Datenschutzanforderungen, Ihren bestehenden Lizenzen und Ihrem Team passt – von EU-Regionen bei Azure, AWS und Google Cloud über EU-Anbieter bis On-Premises. Wir sind herstellerneutral und bauen so, dass Pipelines umziehen können. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "q": "Kann unsere IT das anschließend selbst pflegen?", "a": "Das ist das Ziel des Designs. Wo möglich nutzen wir Werkzeuge, die Ihr Team bereits kennt, dokumentieren jede Pipeline und API und übergeben mit Schulung. Fehlt die Kapazität, kann [Managed AI Operations](page:services/managed-ai-operations) das Fundament gemeinsam mit den Agenten betreiben." }
+          {
+            "q": "Brauchen wir wirklich kein Data Warehouse zuerst?",
+            "a": "Für die meisten ersten Use Cases: nein. Agenten lesen Dokumente, E-Mails und Datensätze dort, wo sie liegen, und rufen Systeme über APIs auf. Ein Warehouse lohnt sich, wenn mehrere Use Cases dieselben konsolidierten, historischen Daten brauchen oder wenn Reporting selbst der Use Case ist. Wir sagen es, wenn dieser Punkt kommt; die bis dahin gebauten Pipelines bleiben nutzbar."
+          },
+          {
+            "q": "Unsere Daten sind unordentlich. Ist das ein Hindernis?",
+            "a": "Selten für den ganzen Use Case, oft für einen Teil davon. Das Inventar zeigt genau, welches Feld, welcher Dokumenttyp oder welches System das Problem ist – und das beheben wir, nicht alles. Agenten decken im Betrieb zudem Inkonsistenzen auf, sodass die Qualität dort steigt, wo es zählt."
+          },
+          {
+            "q": "Wie gehen Sie mit personenbezogenen Daten und der DSGVO um?",
+            "a": "By Design: Wir erfassen, welche personenbezogenen Daten ein Use Case berührt, minimieren sie, pseudonymisieren, wo der Agent keine Identitäten braucht, beschränken den Zugriff nach Rollen, protokollieren Zugriffe und vereinbaren Aufbewahrungsfristen mit Ihrem Datenschutzbeauftragten. Das sind Engineering-Prinzipien, keine Rechtsberatung; den weiteren Rahmen deckt unsere [KI-Governance-Beratung](page:services/ai-governance) ab."
+          },
+          {
+            "q": "Welche Cloud oder welches Hosting empfehlen Sie?",
+            "a": "Das, was zu Ihren Datenschutzanforderungen, Ihren bestehenden Lizenzen und Ihrem Team passt – von EU-Regionen bei Azure, AWS und Google Cloud über EU-Anbieter bis On-Premises. Wir sind herstellerneutral und bauen so, dass Pipelines umziehen können. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "Kann unsere IT das anschließend selbst pflegen?",
+            "a": "Das ist das Ziel des Designs. Wo möglich nutzen wir Werkzeuge, die Ihr Team bereits kennt, dokumentieren jede Pipeline und API und übergeben mit Schulung. Fehlt die Kapazität, kann [Managed AI Operations](page:services/managed-ai-operations) das Fundament gemeinsam mit den Agenten betreiben."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/knowledge-assistants", "services/ai-agent-development", "services/ai-governance", "services/ai-readiness-assessment"]
+        "pages": [
+          "services/knowledge-assistants",
+          "services/ai-agent-development",
+          "services/ai-governance",
+          "services/ai-readiness-assessment"
+        ]
       }
     ]
   }

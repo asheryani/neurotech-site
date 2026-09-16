@@ -12,7 +12,7 @@
       "standfirst": "Founders face two AI questions at once: what belongs in the product, and how much of the company can run on agents instead of headcount. We help you answer both with a defensible sequence, ship the first pieces in weeks, and keep your options open on models and platforms.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "Fractional Chief AI Officer",
@@ -194,7 +194,7 @@
       "standfirst": "Gründer stehen vor zwei KI-Fragen gleichzeitig: Was gehört ins Produkt, und wie viel des Unternehmens kann mit Agenten statt mit Personal laufen? Wir helfen, beide mit einer belastbaren Reihenfolge zu beantworten, liefern die ersten Bausteine in Wochen und halten Ihre Optionen bei Modellen und Plattformen offen.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "Fractional Chief AI Officer",

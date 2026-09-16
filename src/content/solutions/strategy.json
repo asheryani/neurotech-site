@@ -10,8 +10,14 @@
       "title": "AI for leadership teams that want better decisions,",
       "titleAccent": "not more slides.",
       "standfirst": "Strategy work is reading, synthesising and preparing decisions. Agents can now do the reading and the first draft continuously, from market monitoring to board papers, so your leadership team spends its time on judgement. We build them with source verification, confidentiality and one clear rule: people decide.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "How we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "How we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -24,77 +30,171 @@
           "Why now: models handle long documents and numbers well enough to draft credibly, connectors to BI, CRM and document systems exist, and running an agent continuously costs little. The risk has moved from \"can it do this\" to \"can we trust what it says\", and that is a design question with known answers."
         ],
         "facts": [
-          ["Typical starting points", "Market brief, reporting synthesis, leadership assistant"],
-          ["Systems", "BI, CRM, ERP, document management, news and filings"],
-          ["Human checkpoints", "Analyst review, owner sign-off, decisions in the room"],
-          ["Sensitivity", "Strategic data: EU hosting or on-premise by default"]
+          [
+            "Typical starting points",
+            "Market brief, reporting synthesis, leadership assistant"
+          ],
+          [
+            "Systems",
+            "BI, CRM, ERP, document management, news and filings"
+          ],
+          [
+            "Human checkpoints",
+            "Analyst review, owner sign-off, decisions in the room"
+          ],
+          [
+            "Sensitivity",
+            "Strategic data: EU hosting or on-premise by default"
+          ]
         ],
-        "link": { "label": "A fractional Chief AI Officer for your leadership team", "page": "services/fractional-chief-ai-officer" }
+        "link": {
+          "label": "A fractional Chief AI Officer for your leadership team",
+          "page": "services/fractional-chief-ai-officer"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases we build for leadership teams",
         "intro": "Six workflows, each with a named owner and a review step before anything reaches the board.",
         "items": [
-          { "icon": "search", "title": "Market and competitor intelligence", "text": "The agent reads competitor sites, job postings, filings, pricing pages, trade press and regulatory sources daily, removes duplicates, ranks by relevance to your strategy and writes a weekly brief with every claim linked to its source. An analyst reviews and adds interpretation before it reaches the leadership team." },
-          { "icon": "doc", "title": "Board and management reporting", "text": "Departmental reports, BI dashboards and the finance close become a first draft of the monthly management report in your template, with variances explained and open questions flagged. Department heads correct their sections, the CFO or CEO signs off, the agent keeps the version history." },
-          { "icon": "chart", "title": "Scenarios and business cases", "text": "From a one-page hypothesis the agent assembles the business case: market sizing from your data and cited external sources, cost assumptions from the ERP, three scenarios and the sensitivities that matter. Every assumption is listed so the leadership team can challenge it rather than trust it." },
-          { "icon": "eye", "title": "Due-diligence support for M&A", "text": "In a data room the agent indexes thousands of documents, extracts contracts, change-of-control clauses, liabilities and inconsistencies, and produces a findings list with page references for your deal team and advisers. It accelerates the reading; lawyers and the deal lead draw the conclusions." },
-          { "icon": "target", "title": "OKR tracking, meeting preparation and decision logs", "text": "Before each leadership meeting the agent collects OKR progress from project tools and BI, drafts the agenda with the decisions due, and afterwards writes the decision log with owners and deadlines. Nothing counts as decided until the chair confirms the minutes." },
-          { "icon": "compass", "title": "Ask the company", "text": "A permission-aware assistant for the leadership team that answers questions such as which customers a supplier change affects or what was decided about pricing last year, from CRM, ERP and document systems, with citations. It uses the asker's permissions and never guesses where data is missing." }
+          {
+            "icon": "search",
+            "title": "Market and competitor intelligence",
+            "text": "The agent reads competitor sites, job postings, filings, pricing pages, trade press and regulatory sources daily, removes duplicates, ranks by relevance to your strategy and writes a weekly brief with every claim linked to its source. An analyst reviews and adds interpretation before it reaches the leadership team."
+          },
+          {
+            "icon": "doc",
+            "title": "Board and management reporting",
+            "text": "Departmental reports, BI dashboards and the finance close become a first draft of the monthly management report in your template, with variances explained and open questions flagged. Department heads correct their sections, the CFO or CEO signs off, the agent keeps the version history."
+          },
+          {
+            "icon": "chart",
+            "title": "Scenarios and business cases",
+            "text": "From a one-page hypothesis the agent assembles the business case: market sizing from your data and cited external sources, cost assumptions from the ERP, three scenarios and the sensitivities that matter. Every assumption is listed so the leadership team can challenge it rather than trust it."
+          },
+          {
+            "icon": "eye",
+            "title": "Due-diligence support for M&A",
+            "text": "In a data room the agent indexes thousands of documents, extracts contracts, change-of-control clauses, liabilities and inconsistencies, and produces a findings list with page references for your deal team and advisers. It accelerates the reading; lawyers and the deal lead draw the conclusions."
+          },
+          {
+            "icon": "target",
+            "title": "OKR tracking, meeting preparation and decision logs",
+            "text": "Before each leadership meeting the agent collects OKR progress from project tools and BI, drafts the agenda with the decisions due, and afterwards writes the decision log with owners and deadlines. Nothing counts as decided until the chair confirms the minutes."
+          },
+          {
+            "icon": "compass",
+            "title": "Ask the company",
+            "text": "A permission-aware assistant for the leadership team that answers questions such as which customers a supplier change affects or what was decided about pricing last year, from CRM, ERP and document systems, with citations. It uses the asker's permissions and never guesses where data is missing."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Worked example",
         "content": [
-          { "h2": "A weekly market-intelligence brief with analyst review" },
-          { "p": "A typical scenario: a mid-sized industrial company competes with a dozen known rivals across Europe and is watched by two regulators. The strategy team is two people. This is the workflow we would build." },
-          { "ol": [
-            "Scope. With the team we define what matters: competitors, customers, technologies, regulation, regions. The agent gets a watch list and the current strategy document so it knows what is relevant.",
-            "Collection. Every night the agent reads the configured sources: websites, press, filings, tender platforms, job boards and selected newsletters. Each item is stored with URL, date and a short extract.",
-            "Triage. The agent discards duplicates and noise, tags what remains against the strategy themes and estimates significance. Items it cannot verify against a second source are marked unverified rather than dropped.",
-            "Draft. On Thursday the agent writes the brief: five to ten items with source link, a one-line implication and an explicit confidence note. It never writes a recommendation on its own.",
-            "Analyst review. The analyst reads the draft, checks the sources that matter, corrects, adds interpretation and decides what goes in. This is the human checkpoint, and it takes an hour rather than a week.",
-            "Distribution and feedback. The brief reaches the leadership team on Friday. Readers mark items useful or not; the agent uses that to tune relevance over time, and the analyst reviews the tuning quarterly."
-          ] },
-          { "p": "The same architecture answers ad-hoc questions such as what has changed in the market since the last board meeting, and feeds the reporting draft. See [knowledge assistants](page:services/knowledge-assistants) and our guide to [choosing a first agent use case](page:insights/first-agent-use-case)." },
-          { "note": "A brief that arrives every week with sources attached changes how a leadership team argues. Discussions start from the same facts, and the debate is about what to do, not about who read what." }
+          {
+            "h2": "A weekly market-intelligence brief with analyst review"
+          },
+          {
+            "p": "A typical scenario: a mid-sized industrial company competes with a dozen known rivals across Europe and is watched by two regulators. The strategy team is two people. This is the workflow we would build."
+          },
+          {
+            "ol": [
+              "Scope. With the team we define what matters: competitors, customers, technologies, regulation, regions. The agent gets a watch list and the current strategy document so it knows what is relevant.",
+              "Collection. Every night the agent reads the configured sources: websites, press, filings, tender platforms, job boards and selected newsletters. Each item is stored with URL, date and a short extract.",
+              "Triage. The agent discards duplicates and noise, tags what remains against the strategy themes and estimates significance. Items it cannot verify against a second source are marked unverified rather than dropped.",
+              "Draft. On Thursday the agent writes the brief: five to ten items with source link, a one-line implication and an explicit confidence note. It never writes a recommendation on its own.",
+              "Analyst review. The analyst reads the draft, checks the sources that matter, corrects, adds interpretation and decides what goes in. This is the human checkpoint, and it takes an hour rather than a week.",
+              "Distribution and feedback. The brief reaches the leadership team on Friday. Readers mark items useful or not; the agent uses that to tune relevance over time, and the analyst reviews the tuning quarterly."
+            ]
+          },
+          {
+            "p": "The same architecture answers ad-hoc questions such as what has changed in the market since the last board meeting, and feeds the reporting draft. See [knowledge assistants](page:services/knowledge-assistants) and our guide to [choosing a first agent use case](page:insights/first-agent-use-case)."
+          },
+          {
+            "note": "A brief that arrives every week with sources attached changes how a leadership team argues. Discussions start from the same facts, and the debate is about what to do, not about who read what."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Guardrails and risks in strategic work",
         "items": [
-          { "title": "Source verification is not optional", "text": "Models can invent plausible facts and misread real ones. Every claim in a brief or business case links to its source, unverified items are labelled, and the analyst checks the ones that would change a decision. We test for fabricated citations before launch and keep testing." },
-          { "title": "Strategic data needs a hosting decision", "text": "Board papers, deal documents and plans are among the most sensitive data you hold. We decide with you where models run: EU-hosted, private cloud or on-premise, with contractual assurance that nothing is used for training. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "title": "No false precision", "text": "An agent will happily produce a market size to three decimals. We make it show ranges, assumptions and confidence, and forbid numbers that cannot be traced to a source or a stated assumption. A decision built on a fabricated figure is worse than one built on an honest estimate." },
-          { "title": "Decisions stay with people", "text": "Agents prepare, summarise and propose options. They do not decide, and they send nothing to the board, investors or regulators without a named person's sign-off. The decision log records who decided, which is what your governance and your auditors need." }
+          {
+            "title": "Source verification is not optional",
+            "text": "Models can invent plausible facts and misread real ones. Every claim in a brief or business case links to its source, unverified items are labelled, and the analyst checks the ones that would change a decision. We test for fabricated citations before launch and keep testing."
+          },
+          {
+            "title": "Strategic data needs a hosting decision",
+            "text": "Board papers, deal documents and plans are among the most sensitive data you hold. We decide with you where models run: EU-hosted, private cloud or on-premise, with contractual assurance that nothing is used for training. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "No false precision",
+            "text": "An agent will happily produce a market size to three decimals. We make it show ranges, assumptions and confidence, and forbid numbers that cannot be traced to a source or a stated assumption. A decision built on a fabricated figure is worse than one built on an honest estimate."
+          },
+          {
+            "title": "Decisions stay with people",
+            "text": "Agents prepare, summarise and propose options. They do not decide, and they send nothing to the board, investors or regulators without a named person's sign-off. The decision log records who decided, which is what your governance and your auditors need."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we start",
         "items": [
-          { "title": "Assessment", "text": "We interview the leadership team and its analysts, review the reporting cycle, your sources and the systems that hold your numbers, and rank two or three use cases. Confidentiality and hosting are settled here, before any data moves. See the [AI readiness assessment](page:services/ai-readiness-assessment).", "meta": "Weeks 1–3" },
-          { "title": "Design", "text": "Watch lists, templates, review roles and the definition of a good brief or report. We agree the metrics: preparation time, coverage of relevant events and the leadership team's own rating of usefulness.", "meta": "Weeks 3–4" },
-          { "title": "Pilot", "text": "Six to eight weeks to a production-grade agent running on your real sources and systems, reviewed by your analyst every cycle. We tune relevance and format with the leadership team's feedback and hand over the runbook.", "meta": "Weeks 5–12" },
-          { "title": "Scale and operating model", "text": "Further use cases follow, from reporting synthesis to the leadership assistant. If you wish, we design the AI-native operating model with you: which routine work agents do across the company, who owns them and how leadership governs them. Our [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) can carry this.", "meta": "Afterwards" }
+          {
+            "title": "Assessment",
+            "text": "We interview the leadership team and its analysts, review the reporting cycle, your sources and the systems that hold your numbers, and rank two or three use cases. Confidentiality and hosting are settled here, before any data moves. See the [AI readiness assessment](page:services/ai-readiness-assessment).",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Watch lists, templates, review roles and the definition of a good brief or report. We agree the metrics: preparation time, coverage of relevant events and the leadership team's own rating of usefulness.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production-grade agent running on your real sources and systems, reviewed by your analyst every cycle. We tune relevance and format with the leadership team's feedback and hand over the runbook.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale and operating model",
+            "text": "Further use cases follow, from reporting synthesis to the leadership assistant. If you wish, we design the AI-native operating model with you: which routine work agents do across the company, who owns them and how leadership governs them. Our [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) can carry this.",
+            "meta": "Afterwards"
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Is our strategic data safe with an AI agent?", "a": "It depends on the architecture, which is why hosting is the first design decision. Options range from EU-hosted models with no-training clauses to models running in your own environment. Access follows your existing permissions, prompts and outputs are logged, and nothing leaves the boundary you define. Your CISO and DPO are involved from the assessment, and we document the setup for your board." },
-          { "q": "Can an agent make strategic recommendations?", "a": "It can draft options with their trade-offs, and that is useful. It cannot own a decision, read your politics or take responsibility, so we design outputs as material for a decision, not as the decision. The leadership teams that get the most out of this treat the agent as a tireless analyst, not an oracle." },
-          { "q": "What happens to our strategy analysts and executive assistants?", "a": "Their work changes: less collecting and formatting, more checking, interpreting and asking better questions. A two-person strategy team with a well-built agent can cover a market that used to need a larger team, which usually means the team does more, not that it shrinks. Where a role would change substantially, we say so." },
-          { "q": "What does an AI-native operating model mean for a company our size?", "a": "Deciding, function by function, which routine work agents do, who owns each agent, how quality is measured and how people escalate. It is less about org charts than about a handful of rules that apply everywhere. We design it with you after the first agents run, because abstract operating models rarely survive contact with a real workflow." }
+          {
+            "q": "Is our strategic data safe with an AI agent?",
+            "a": "It depends on the architecture, which is why hosting is the first design decision. Options range from EU-hosted models with no-training clauses to models running in your own environment. Access follows your existing permissions, prompts and outputs are logged, and nothing leaves the boundary you define. Your CISO and DPO are involved from the assessment, and we document the setup for your board."
+          },
+          {
+            "q": "Can an agent make strategic recommendations?",
+            "a": "It can draft options with their trade-offs, and that is useful. It cannot own a decision, read your politics or take responsibility, so we design outputs as material for a decision, not as the decision. The leadership teams that get the most out of this treat the agent as a tireless analyst, not an oracle."
+          },
+          {
+            "q": "What happens to our strategy analysts and executive assistants?",
+            "a": "Their work changes: less collecting and formatting, more checking, interpreting and asking better questions. A two-person strategy team with a well-built agent can cover a market that used to need a larger team, which usually means the team does more, not that it shrinks. Where a role would change substantially, we say so."
+          },
+          {
+            "q": "What does an AI-native operating model mean for a company our size?",
+            "a": "Deciding, function by function, which routine work agents do, who owns each agent, how quality is measured and how people escalate. It is less about org charts than about a handful of rules that apply everywhere. We design it with you after the first agents run, because abstract operating models rarely survive contact with a real workflow."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["services/fractional-chief-ai-officer", "services/knowledge-assistants", "services/ai-strategy", "insights/sovereign-ai-eu-hosting"]
+        "pages": [
+          "services/fractional-chief-ai-officer",
+          "services/knowledge-assistants",
+          "services/ai-strategy",
+          "insights/sovereign-ai-eu-hosting"
+        ]
       }
     ]
   },
@@ -108,8 +208,14 @@
       "title": "KI für Führungsteams, die bessere Entscheidungen wollen,",
       "titleAccent": "nicht mehr Folien.",
       "standfirst": "Strategiearbeit besteht aus Lesen, Verdichten und Entscheidungen vorbereiten. Agenten übernehmen das Lesen und den ersten Entwurf inzwischen kontinuierlich, von der Marktbeobachtung bis zur Vorstandsvorlage, damit Ihr Führungsteam seine Zeit auf das Urteil verwendet. Wir bauen sie mit Quellenprüfung, Vertraulichkeit und einer klaren Regel: Menschen entscheiden.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -122,77 +228,171 @@
           "Warum jetzt: Modelle verarbeiten lange Dokumente und Zahlen gut genug für glaubwürdige Entwürfe, Anbindungen an BI, CRM und Dokumentensysteme existieren, und ein dauerhaft laufender Agent kostet wenig. Das Risiko hat sich verschoben – von „Kann er das?“ zu „Können wir glauben, was er sagt?“ – und diese Designfrage hat bekannte Antworten."
         ],
         "facts": [
-          ["Typische Einstiege", "Markt-Briefing, Reporting-Synthese, Führungsassistent"],
-          ["Systeme", "BI, CRM, ERP, Dokumentenmanagement, Nachrichten und Register"],
-          ["Kontrollpunkte", "Analystenprüfung, Freigabe durch Verantwortliche, Entscheidung im Raum"],
-          ["Sensibilität", "Strategische Daten: EU-Hosting oder On-Premise als Standard"]
+          [
+            "Typische Einstiege",
+            "Markt-Briefing, Reporting-Synthese, Führungsassistent"
+          ],
+          [
+            "Systeme",
+            "BI, CRM, ERP, Dokumentenmanagement, Nachrichten und Register"
+          ],
+          [
+            "Kontrollpunkte",
+            "Analystenprüfung, Freigabe durch Verantwortliche, Entscheidung im Raum"
+          ],
+          [
+            "Sensibilität",
+            "Strategische Daten: EU-Hosting oder On-Premise als Standard"
+          ]
         ],
-        "link": { "label": "Ein Fractional Chief AI Officer für Ihre Geschäftsführung", "page": "services/fractional-chief-ai-officer" }
+        "link": {
+          "label": "Ein Fractional Chief AI Officer für Ihre Geschäftsführung",
+          "page": "services/fractional-chief-ai-officer"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases, die wir für Führungsteams umsetzen",
         "intro": "Sechs Workflows, jeder mit einer verantwortlichen Person und einem Prüfschritt, bevor etwas den Vorstand erreicht.",
         "items": [
-          { "icon": "search", "title": "Markt- und Wettbewerbsbeobachtung", "text": "Der Agent liest täglich Wettbewerber-Websites, Stellenanzeigen, Registereinträge, Preisseiten, Fachpresse und regulatorische Quellen, entfernt Dubletten, gewichtet nach Relevanz für Ihre Strategie und schreibt ein wöchentliches Briefing, in dem jede Aussage mit ihrer Quelle verknüpft ist. Eine Analystin prüft und ergänzt die Einordnung, bevor es die Führung erreicht." },
-          { "icon": "doc", "title": "Vorstands- und Management-Reporting", "text": "Bereichsberichte, BI-Dashboards und der Monatsabschluss werden zu einem ersten Entwurf des Management-Reports in Ihrer Vorlage, mit erklärten Abweichungen und markierten offenen Fragen. Bereichsleitungen korrigieren ihre Abschnitte, CFO oder CEO geben frei, der Agent führt die Versionshistorie." },
-          { "icon": "chart", "title": "Szenarien und Business Cases", "text": "Aus einer einseitigen Hypothese stellt der Agent den Business Case zusammen: Marktgröße aus Ihren Daten und zitierten externen Quellen, Kostenannahmen aus dem ERP, drei Szenarien und die entscheidenden Sensitivitäten. Jede Annahme ist aufgelistet, damit das Führungsteam sie hinterfragen kann, statt ihr zu vertrauen." },
-          { "icon": "eye", "title": "Due-Diligence-Unterstützung bei M&A", "text": "Im Datenraum indexiert der Agent Tausende Dokumente, extrahiert Verträge, Change-of-Control-Klauseln, Verbindlichkeiten und Widersprüche und erstellt eine Befundliste mit Seitenangaben für Deal-Team und Berater. Er beschleunigt das Lesen; die Schlüsse ziehen Anwälte und Deal-Verantwortliche." },
-          { "icon": "target", "title": "OKR-Tracking, Sitzungsvorbereitung und Entscheidungsprotokoll", "text": "Vor jeder Führungssitzung sammelt der Agent den OKR-Stand aus Projekttools und BI, entwirft die Agenda mit den anstehenden Entscheidungen und schreibt danach das Entscheidungsprotokoll mit Verantwortlichen und Fristen. Nichts gilt als entschieden, bis die Sitzungsleitung das Protokoll bestätigt." },
-          { "icon": "compass", "title": "Frag das Unternehmen", "text": "Ein berechtigungsbewusster Assistent für die Geschäftsführung, der Fragen wie „Welche Kunden betrifft der Lieferantenwechsel?“ oder „Was haben wir letztes Jahr zur Preisgestaltung entschieden?“ aus CRM, ERP und Dokumentensystemen beantwortet, mit Quellenangabe. Er nutzt die Berechtigungen der fragenden Person und rät nie, wo Daten fehlen." }
+          {
+            "icon": "search",
+            "title": "Markt- und Wettbewerbsbeobachtung",
+            "text": "Der Agent liest täglich Wettbewerber-Websites, Stellenanzeigen, Registereinträge, Preisseiten, Fachpresse und regulatorische Quellen, entfernt Dubletten, gewichtet nach Relevanz für Ihre Strategie und schreibt ein wöchentliches Briefing, in dem jede Aussage mit ihrer Quelle verknüpft ist. Eine Analystin prüft und ergänzt die Einordnung, bevor es die Führung erreicht."
+          },
+          {
+            "icon": "doc",
+            "title": "Vorstands- und Management-Reporting",
+            "text": "Bereichsberichte, BI-Dashboards und der Monatsabschluss werden zu einem ersten Entwurf des Management-Reports in Ihrer Vorlage, mit erklärten Abweichungen und markierten offenen Fragen. Bereichsleitungen korrigieren ihre Abschnitte, CFO oder CEO geben frei, der Agent führt die Versionshistorie."
+          },
+          {
+            "icon": "chart",
+            "title": "Szenarien und Business Cases",
+            "text": "Aus einer einseitigen Hypothese stellt der Agent den Business Case zusammen: Marktgröße aus Ihren Daten und zitierten externen Quellen, Kostenannahmen aus dem ERP, drei Szenarien und die entscheidenden Sensitivitäten. Jede Annahme ist aufgelistet, damit das Führungsteam sie hinterfragen kann, statt ihr zu vertrauen."
+          },
+          {
+            "icon": "eye",
+            "title": "Due-Diligence-Unterstützung bei M&A",
+            "text": "Im Datenraum indexiert der Agent Tausende Dokumente, extrahiert Verträge, Change-of-Control-Klauseln, Verbindlichkeiten und Widersprüche und erstellt eine Befundliste mit Seitenangaben für Deal-Team und Berater. Er beschleunigt das Lesen; die Schlüsse ziehen Anwälte und Deal-Verantwortliche."
+          },
+          {
+            "icon": "target",
+            "title": "OKR-Tracking, Sitzungsvorbereitung und Entscheidungsprotokoll",
+            "text": "Vor jeder Führungssitzung sammelt der Agent den OKR-Stand aus Projekttools und BI, entwirft die Agenda mit den anstehenden Entscheidungen und schreibt danach das Entscheidungsprotokoll mit Verantwortlichen und Fristen. Nichts gilt als entschieden, bis die Sitzungsleitung das Protokoll bestätigt."
+          },
+          {
+            "icon": "compass",
+            "title": "Frag das Unternehmen",
+            "text": "Ein berechtigungsbewusster Assistent für die Geschäftsführung, der Fragen wie „Welche Kunden betrifft der Lieferantenwechsel?“ oder „Was haben wir letztes Jahr zur Preisgestaltung entschieden?“ aus CRM, ERP und Dokumentensystemen beantwortet, mit Quellenangabe. Er nutzt die Berechtigungen der fragenden Person und rät nie, wo Daten fehlen."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Beispiel aus der Praxis",
         "content": [
-          { "h2": "Ein wöchentliches Markt-Briefing mit Analystenprüfung" },
-          { "p": "Ein typisches Szenario: Ein mittelständisches Industrieunternehmen konkurriert europaweit mit einem Dutzend bekannter Wettbewerber und wird von zwei Behörden beaufsichtigt. Das Strategieteam besteht aus zwei Personen. So würden wir den Workflow bauen." },
-          { "ol": [
-            "Scope. Mit dem Team legen wir fest, was zählt: Wettbewerber, Kunden, Technologien, Regulierung, Regionen. Der Agent erhält eine Beobachtungsliste und das aktuelle Strategiedokument, damit er weiß, was relevant ist.",
-            "Sammeln. Jede Nacht liest der Agent die konfigurierten Quellen: Websites, Presse, Register, Ausschreibungsplattformen, Stellenbörsen und ausgewählte Newsletter. Jeder Treffer wird mit URL, Datum und Kurzauszug gespeichert.",
-            "Sichten. Der Agent verwirft Dubletten und Rauschen, ordnet den Rest den Strategiethemen zu und schätzt die Bedeutung. Was er nicht gegen eine zweite Quelle prüfen kann, wird als unbestätigt markiert statt verworfen.",
-            "Entwurf. Am Donnerstag schreibt der Agent das Briefing: fünf bis zehn Punkte mit Quellenlink, einer Zeile zur Bedeutung und einem expliziten Hinweis zur Verlässlichkeit. Eine Empfehlung schreibt er nie von sich aus.",
-            "Analystenprüfung. Die Analystin liest den Entwurf, prüft die Quellen, auf die es ankommt, korrigiert, ergänzt die Einordnung und entscheidet, was hineinkommt. Das ist der menschliche Kontrollpunkt, und er dauert eine Stunde statt einer Woche.",
-            "Verteilung und Feedback. Das Briefing erreicht die Geschäftsführung am Freitag. Leser markieren Punkte als nützlich oder nicht; der Agent schärft damit seine Relevanz, und die Analystin prüft die Anpassungen vierteljährlich."
-          ] },
-          { "p": "Dieselbe Architektur beantwortet Ad-hoc-Fragen wie „Was hat sich seit der letzten Vorstandssitzung im Markt verändert?“ und speist den Reporting-Entwurf. Mehr unter [Wissensassistenten](page:services/knowledge-assistants) und in unserem Leitfaden zur [Wahl des ersten Agenten-Use-Case](page:insights/first-agent-use-case)." },
-          { "note": "Ein Briefing, das jede Woche mit Quellen ankommt, verändert, wie ein Führungsteam diskutiert. Die Debatte beginnt bei denselben Fakten, und es geht darum, was zu tun ist – nicht darum, wer was gelesen hat." }
+          {
+            "h2": "Ein wöchentliches Markt-Briefing mit Analystenprüfung"
+          },
+          {
+            "p": "Ein typisches Szenario: Ein mittelständisches Industrieunternehmen konkurriert europaweit mit einem Dutzend bekannter Wettbewerber und wird von zwei Behörden beaufsichtigt. Das Strategieteam besteht aus zwei Personen. So würden wir den Workflow bauen."
+          },
+          {
+            "ol": [
+              "Scope. Mit dem Team legen wir fest, was zählt: Wettbewerber, Kunden, Technologien, Regulierung, Regionen. Der Agent erhält eine Beobachtungsliste und das aktuelle Strategiedokument, damit er weiß, was relevant ist.",
+              "Sammeln. Jede Nacht liest der Agent die konfigurierten Quellen: Websites, Presse, Register, Ausschreibungsplattformen, Stellenbörsen und ausgewählte Newsletter. Jeder Treffer wird mit URL, Datum und Kurzauszug gespeichert.",
+              "Sichten. Der Agent verwirft Dubletten und Rauschen, ordnet den Rest den Strategiethemen zu und schätzt die Bedeutung. Was er nicht gegen eine zweite Quelle prüfen kann, wird als unbestätigt markiert statt verworfen.",
+              "Entwurf. Am Donnerstag schreibt der Agent das Briefing: fünf bis zehn Punkte mit Quellenlink, einer Zeile zur Bedeutung und einem expliziten Hinweis zur Verlässlichkeit. Eine Empfehlung schreibt er nie von sich aus.",
+              "Analystenprüfung. Die Analystin liest den Entwurf, prüft die Quellen, auf die es ankommt, korrigiert, ergänzt die Einordnung und entscheidet, was hineinkommt. Das ist der menschliche Kontrollpunkt, und er dauert eine Stunde statt einer Woche.",
+              "Verteilung und Feedback. Das Briefing erreicht die Geschäftsführung am Freitag. Leser markieren Punkte als nützlich oder nicht; der Agent schärft damit seine Relevanz, und die Analystin prüft die Anpassungen vierteljährlich."
+            ]
+          },
+          {
+            "p": "Dieselbe Architektur beantwortet Ad-hoc-Fragen wie „Was hat sich seit der letzten Vorstandssitzung im Markt verändert?“ und speist den Reporting-Entwurf. Mehr unter [Wissensassistenten](page:services/knowledge-assistants) und in unserem Leitfaden zur [Wahl des ersten Agenten-Use-Case](page:insights/first-agent-use-case)."
+          },
+          {
+            "note": "Ein Briefing, das jede Woche mit Quellen ankommt, verändert, wie ein Führungsteam diskutiert. Die Debatte beginnt bei denselben Fakten, und es geht darum, was zu tun ist – nicht darum, wer was gelesen hat."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Leitplanken und Risiken bei strategischer Arbeit",
         "items": [
-          { "title": "Quellenprüfung ist nicht optional", "text": "Modelle erfinden plausible Fakten und lesen echte falsch. Jede Aussage in Briefing oder Business Case verlinkt ihre Quelle, Unbestätigtes ist markiert, und die Analystin prüft, was eine Entscheidung verändern würde. Auf erfundene Zitate testen wir vor dem Start und danach weiter." },
-          { "title": "Strategische Daten brauchen eine Hosting-Entscheidung", "text": "Vorstandsvorlagen, Deal-Dokumente und Pläne gehören zu den sensibelsten Daten, die Sie haben. Wir entscheiden mit Ihnen, wo Modelle laufen: EU-gehostet, Private Cloud oder On-Premise, mit vertraglicher Zusicherung, dass nichts für Training verwendet wird. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)." },
-          { "title": "Keine Scheingenauigkeit", "text": "Ein Agent liefert bereitwillig eine Marktgröße auf drei Nachkommastellen. Wir lassen ihn Spannen, Annahmen und Verlässlichkeit ausweisen und verbieten Zahlen, die sich nicht auf eine Quelle oder eine benannte Annahme zurückführen lassen. Eine Entscheidung auf einer erfundenen Zahl ist schlechter als eine auf einer ehrlichen Schätzung." },
-          { "title": "Entscheidungen bleiben bei Menschen", "text": "Agenten bereiten vor, fassen zusammen und schlagen Optionen vor. Sie entscheiden nicht, und sie senden nichts an Vorstand, Investoren oder Behörden ohne Freigabe einer benannten Person. Das Entscheidungsprotokoll hält fest, wer entschieden hat – genau das brauchen Governance und Wirtschaftsprüfer." }
+          {
+            "title": "Quellenprüfung ist nicht optional",
+            "text": "Modelle erfinden plausible Fakten und lesen echte falsch. Jede Aussage in Briefing oder Business Case verlinkt ihre Quelle, Unbestätigtes ist markiert, und die Analystin prüft, was eine Entscheidung verändern würde. Auf erfundene Zitate testen wir vor dem Start und danach weiter."
+          },
+          {
+            "title": "Strategische Daten brauchen eine Hosting-Entscheidung",
+            "text": "Vorstandsvorlagen, Deal-Dokumente und Pläne gehören zu den sensibelsten Daten, die Sie haben. Wir entscheiden mit Ihnen, wo Modelle laufen: EU-gehostet, Private Cloud oder On-Premise, mit vertraglicher Zusicherung, dass nichts für Training verwendet wird. Mehr unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "Keine Scheingenauigkeit",
+            "text": "Ein Agent liefert bereitwillig eine Marktgröße auf drei Nachkommastellen. Wir lassen ihn Spannen, Annahmen und Verlässlichkeit ausweisen und verbieten Zahlen, die sich nicht auf eine Quelle oder eine benannte Annahme zurückführen lassen. Eine Entscheidung auf einer erfundenen Zahl ist schlechter als eine auf einer ehrlichen Schätzung."
+          },
+          {
+            "title": "Entscheidungen bleiben bei Menschen",
+            "text": "Agenten bereiten vor, fassen zusammen und schlagen Optionen vor. Sie entscheiden nicht, und sie senden nichts an Vorstand, Investoren oder Behörden ohne Freigabe einer benannten Person. Das Entscheidungsprotokoll hält fest, wer entschieden hat – genau das brauchen Governance und Wirtschaftsprüfer."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So starten wir",
         "items": [
-          { "title": "Assessment", "text": "Wir sprechen mit Geschäftsführung und Analysten, sehen uns Reporting-Zyklus, Quellen und die Systeme mit Ihren Zahlen an und bewerten zwei bis drei Use Cases. Vertraulichkeit und Hosting werden hier geklärt, bevor Daten bewegt werden. Siehe [KI-Readiness-Assessment](page:services/ai-readiness-assessment).", "meta": "Wochen 1–3" },
-          { "title": "Design", "text": "Beobachtungslisten, Vorlagen, Prüfrollen und die Definition eines guten Briefings oder Reports. Wir vereinbaren die Kennzahlen: Vorbereitungszeit, Abdeckung relevanter Ereignisse und die Nützlichkeitsbewertung durch das Führungsteam.", "meta": "Wochen 3–4" },
-          { "title": "Pilot", "text": "Sechs bis acht Wochen bis zu einem produktionsreifen Agenten, der auf Ihren echten Quellen und Systemen läuft und in jedem Zyklus von Ihrer Analystin geprüft wird. Relevanz und Format schärfen wir mit dem Feedback der Führung und übergeben das Runbook.", "meta": "Wochen 5–12" },
-          { "title": "Skalierung und Betriebsmodell", "text": "Weitere Use Cases folgen, von der Reporting-Synthese bis zum Führungsassistenten. Auf Wunsch entwerfen wir mit Ihnen das KI-native Betriebsmodell: welche Routinearbeit Agenten im Unternehmen übernehmen, wer sie verantwortet und wie die Führung sie steuert. Unser [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) kann das tragen.", "meta": "Danach" }
+          {
+            "title": "Assessment",
+            "text": "Wir sprechen mit Geschäftsführung und Analysten, sehen uns Reporting-Zyklus, Quellen und die Systeme mit Ihren Zahlen an und bewerten zwei bis drei Use Cases. Vertraulichkeit und Hosting werden hier geklärt, bevor Daten bewegt werden. Siehe [KI-Readiness-Assessment](page:services/ai-readiness-assessment).",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Beobachtungslisten, Vorlagen, Prüfrollen und die Definition eines guten Briefings oder Reports. Wir vereinbaren die Kennzahlen: Vorbereitungszeit, Abdeckung relevanter Ereignisse und die Nützlichkeitsbewertung durch das Führungsteam.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem produktionsreifen Agenten, der auf Ihren echten Quellen und Systemen läuft und in jedem Zyklus von Ihrer Analystin geprüft wird. Relevanz und Format schärfen wir mit dem Feedback der Führung und übergeben das Runbook.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Skalierung und Betriebsmodell",
+            "text": "Weitere Use Cases folgen, von der Reporting-Synthese bis zum Führungsassistenten. Auf Wunsch entwerfen wir mit Ihnen das KI-native Betriebsmodell: welche Routinearbeit Agenten im Unternehmen übernehmen, wer sie verantwortet und wie die Führung sie steuert. Unser [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) kann das tragen.",
+            "meta": "Danach"
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Sind unsere strategischen Daten bei einem KI-Agenten sicher?", "a": "Das hängt von der Architektur ab, deshalb ist Hosting die erste Designentscheidung. Die Optionen reichen von EU-gehosteten Modellen mit Trainingsausschluss bis zu Modellen in Ihrer eigenen Umgebung. Zugriffe folgen Ihren bestehenden Berechtigungen, Prompts und Ausgaben werden protokolliert, und nichts verlässt die Grenze, die Sie definieren. CISO und Datenschutz sind ab dem Assessment dabei, und wir dokumentieren das Setup für Ihren Vorstand." },
-          { "q": "Kann ein Agent strategische Empfehlungen geben?", "a": "Er kann Optionen mit ihren Abwägungen entwerfen, und das ist nützlich. Er kann keine Entscheidung verantworten, Ihre Unternehmenspolitik nicht lesen und keine Verantwortung tragen. Deshalb gestalten wir die Ergebnisse als Entscheidungsgrundlage, nicht als Entscheidung. Führungsteams, die am meisten davon haben, behandeln den Agenten als unermüdlichen Analysten, nicht als Orakel." },
-          { "q": "Was passiert mit unseren Strategieanalysten und Assistenzen?", "a": "Ihre Arbeit verändert sich: weniger Sammeln und Formatieren, mehr Prüfen, Einordnen und bessere Fragen stellen. Ein zweiköpfiges Strategieteam mit einem gut gebauten Agenten deckt einen Markt ab, für den früher ein größeres Team nötig war – meist heißt das, dass das Team mehr leistet, nicht, dass es schrumpft. Wo sich eine Rolle grundlegend ändern würde, sagen wir das offen." },
-          { "q": "Was bedeutet ein KI-natives Betriebsmodell für ein Unternehmen unserer Größe?", "a": "Funktion für Funktion zu entscheiden, welche Routinearbeit Agenten übernehmen, wer jeden Agenten verantwortet, wie Qualität gemessen wird und wie Menschen eskalieren. Es geht weniger um Organigramme als um eine Handvoll Regeln, die überall gelten. Wir entwerfen es mit Ihnen, nachdem die ersten Agenten laufen – abstrakte Betriebsmodelle überleben den Kontakt mit einem echten Workflow selten." }
+          {
+            "q": "Sind unsere strategischen Daten bei einem KI-Agenten sicher?",
+            "a": "Das hängt von der Architektur ab, deshalb ist Hosting die erste Designentscheidung. Die Optionen reichen von EU-gehosteten Modellen mit Trainingsausschluss bis zu Modellen in Ihrer eigenen Umgebung. Zugriffe folgen Ihren bestehenden Berechtigungen, Prompts und Ausgaben werden protokolliert, und nichts verlässt die Grenze, die Sie definieren. CISO und Datenschutz sind ab dem Assessment dabei, und wir dokumentieren das Setup für Ihren Vorstand."
+          },
+          {
+            "q": "Kann ein Agent strategische Empfehlungen geben?",
+            "a": "Er kann Optionen mit ihren Abwägungen entwerfen, und das ist nützlich. Er kann keine Entscheidung verantworten, Ihre Unternehmenspolitik nicht lesen und keine Verantwortung tragen. Deshalb gestalten wir die Ergebnisse als Entscheidungsgrundlage, nicht als Entscheidung. Führungsteams, die am meisten davon haben, behandeln den Agenten als unermüdlichen Analysten, nicht als Orakel."
+          },
+          {
+            "q": "Was passiert mit unseren Strategieanalysten und Assistenzen?",
+            "a": "Ihre Arbeit verändert sich: weniger Sammeln und Formatieren, mehr Prüfen, Einordnen und bessere Fragen stellen. Ein zweiköpfiges Strategieteam mit einem gut gebauten Agenten deckt einen Markt ab, für den früher ein größeres Team nötig war – meist heißt das, dass das Team mehr leistet, nicht, dass es schrumpft. Wo sich eine Rolle grundlegend ändern würde, sagen wir das offen."
+          },
+          {
+            "q": "Was bedeutet ein KI-natives Betriebsmodell für ein Unternehmen unserer Größe?",
+            "a": "Funktion für Funktion zu entscheiden, welche Routinearbeit Agenten übernehmen, wer jeden Agenten verantwortet, wie Qualität gemessen wird und wie Menschen eskalieren. Es geht weniger um Organigramme als um eine Handvoll Regeln, die überall gelten. Wir entwerfen es mit Ihnen, nachdem die ersten Agenten laufen – abstrakte Betriebsmodelle überleben den Kontakt mit einem echten Workflow selten."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["services/fractional-chief-ai-officer", "services/knowledge-assistants", "services/ai-strategy", "insights/sovereign-ai-eu-hosting"]
+        "pages": [
+          "services/fractional-chief-ai-officer",
+          "services/knowledge-assistants",
+          "services/ai-strategy",
+          "insights/sovereign-ai-eu-hosting"
+        ]
       }
     ]
   }

@@ -12,7 +12,7 @@
       "standfirst": "Software companies meet AI twice. Customers expect agentic features, copilots and an MCP server so their own agents can use your product, and your own teams are expected to run on AI in engineering, support and sales. We help with both, with the discipline that keeps LLM costs, quality and EU obligations under control.",
       "cta": {
         "label": "Book an intro call",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "See how we work",
@@ -200,7 +200,7 @@
       "standfirst": "Softwareunternehmen begegnet KI zweimal. Kunden erwarten agentische Features, Copiloten und einen MCP-Server, damit ihre eigenen Agenten Ihr Produkt nutzen können – und Ihre eigenen Teams sollen in Entwicklung, Support und Vertrieb mit KI arbeiten. Wir helfen bei beidem, mit der Disziplin, die LLM-Kosten, Qualität und EU-Pflichten im Griff behält.",
       "cta": {
         "label": "Erstgespräch vereinbaren",
-        "page": "contact"
+        "href": "booking"
       },
       "cta2": {
         "label": "So arbeiten wir",

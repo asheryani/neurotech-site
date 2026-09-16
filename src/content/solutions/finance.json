@@ -10,8 +10,14 @@
       "title": "AI agents for finance and controlling:",
       "titleAccent": "every posting explained, nothing paid alone.",
       "standfirst": "Finance teams process the same documents every month and explain the same variances every quarter. AI agents capture invoices, propose matches and account coding, chase approvals, prepare reconciliations and draft commentary, while your accountants approve every posting and no payment leaves without a person. Designed for GoBD-compliant record keeping and the German e-invoicing rules.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "Our AI governance service", "page": "services/ai-governance" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "Our AI governance service",
+        "page": "services/ai-governance"
+      }
     },
     "sections": [
       {
@@ -24,82 +30,181 @@
           "We start with accounts payable or the close checklist, because both are high-volume, rule-based and measurable, and keep segregation of duties, audit trail and explainability intact from the first day. The control design is part of our [AI governance](page:services/ai-governance) work."
         ],
         "facts": [
-          ["Typical entry point", "Accounts payable from inbox to approved posting"],
-          ["Systems", "DATEV, SAP, Microsoft Dynamics and other ERPs, DMS, banking, planning tools"],
-          ["Human checkpoint", "Approvals, postings, payment release, external reporting"],
-          ["First pilot", "Typically 6–8 weeks"]
+          [
+            "Typical entry point",
+            "Accounts payable from inbox to approved posting"
+          ],
+          [
+            "Systems",
+            "DATEV, SAP, Microsoft Dynamics and other ERPs, DMS, banking, planning tools"
+          ],
+          [
+            "Human checkpoint",
+            "Approvals, postings, payment release, external reporting"
+          ],
+          [
+            "First pilot",
+            "Typically 6–8 weeks"
+          ]
         ],
-        "link": { "label": "Read: guardrails for agents", "page": "insights/guardrails-for-agents" }
+        "link": {
+          "label": "Read: guardrails for agents",
+          "page": "insights/guardrails-for-agents"
+        }
       },
       {
         "type": "cards",
         "heading": "Use cases",
         "intro": "Six finance workflows where agents do the reading, matching and drafting, and people keep the authority.",
         "items": [
-          { "icon": "doc", "title": "Accounts payable: capture, matching, coding, approval routing", "text": "The agent captures invoices from email, e-invoice formats such as XRechnung and ZUGFeRD and supplier portals, checks the mandatory invoice details, matches them to purchase orders and goods receipts, proposes account, cost centre and tax code with its reasoning and routes them to the right approver. The accountant confirms the posting. The payment run remains a separate, human-released step." },
-          { "icon": "mail", "title": "Accounts receivable and dunning communication", "text": "The agent monitors open items, matches incoming payments to invoices, drafts payment reminders in a graduated tone by customer segment and prepares dunning proposals. The receivables clerk approves every letter; disputed items go to sales or customer service with the history attached." },
-          { "icon": "clock", "title": "Month-end close checklists and reconciliations", "text": "The agent runs the close checklist, reminds task owners, prepares bank, clearing-account and intercompany reconciliations and proposes explanations for differences from the underlying transactions. Controllers review and sign off. Nothing is booked automatically; the agent shortens the search, not the control." },
-          { "icon": "chart", "title": "Management reporting and variance commentary", "text": "From ERP and planning data the agent drafts the plan-versus-actual commentary in your house format, identifies drivers behind deviations and prepares scenario inputs for FP&A. The controller edits, challenges and owns the narrative. Board packs go out with a person's name on them." },
-          { "icon": "shield", "title": "Expense checks and audit preparation", "text": "Expense and travel reports are checked against policy (receipts, limits, per diems, approvals) and exceptions are flagged with the rule they broke. For audits the agent retrieves documents for auditor requests, compiles evidence packages and tracks open items. Responses to auditors are written and sent by your team." },
-          { "icon": "briefcase", "title": "Contract obligations and cash-forecast inputs", "text": "The agent extracts payment obligations, notice periods, indexation and renewal clauses from contracts into an obligations register and summarises expected inflows and outflows from receivables, payables and contracts as inputs to the cash forecast. Treasury decisions stay with the treasurer." }
+          {
+            "icon": "doc",
+            "title": "Accounts payable: capture, matching, coding, approval routing",
+            "text": "The agent captures invoices from email, e-invoice formats such as XRechnung and ZUGFeRD and supplier portals, checks the mandatory invoice details, matches them to purchase orders and goods receipts, proposes account, cost centre and tax code with its reasoning and routes them to the right approver. The accountant confirms the posting. The payment run remains a separate, human-released step."
+          },
+          {
+            "icon": "mail",
+            "title": "Accounts receivable and dunning communication",
+            "text": "The agent monitors open items, matches incoming payments to invoices, drafts payment reminders in a graduated tone by customer segment and prepares dunning proposals. The receivables clerk approves every letter; disputed items go to sales or customer service with the history attached."
+          },
+          {
+            "icon": "clock",
+            "title": "Month-end close checklists and reconciliations",
+            "text": "The agent runs the close checklist, reminds task owners, prepares bank, clearing-account and intercompany reconciliations and proposes explanations for differences from the underlying transactions. Controllers review and sign off. Nothing is booked automatically; the agent shortens the search, not the control."
+          },
+          {
+            "icon": "chart",
+            "title": "Management reporting and variance commentary",
+            "text": "From ERP and planning data the agent drafts the plan-versus-actual commentary in your house format, identifies drivers behind deviations and prepares scenario inputs for FP&A. The controller edits, challenges and owns the narrative. Board packs go out with a person's name on them."
+          },
+          {
+            "icon": "shield",
+            "title": "Expense checks and audit preparation",
+            "text": "Expense and travel reports are checked against policy (receipts, limits, per diems, approvals) and exceptions are flagged with the rule they broke. For audits the agent retrieves documents for auditor requests, compiles evidence packages and tracks open items. Responses to auditors are written and sent by your team."
+          },
+          {
+            "icon": "briefcase",
+            "title": "Contract obligations and cash-forecast inputs",
+            "text": "The agent extracts payment obligations, notice periods, indexation and renewal clauses from contracts into an obligations register and summarises expected inflows and outflows from receivables, payables and contracts as inputs to the cash forecast. Treasury decisions stay with the treasurer."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Worked example",
         "content": [
-          { "h2": "Accounts payable from inbox to approved posting" },
-          { "p": "A typical scenario: a Mittelstand group (a mid-sized, often family-owned company) with several entities receives thousands of supplier invoices a month by email, e-invoice and portal, and approvals take days because invoices sit in inboxes. This is how an AP agent runs the workflow with a controller in the loop." },
-          { "ol": [
-            "**Capture.** Invoices arrive as PDF attachments, structured e-invoices (XRechnung, ZUGFeRD) or portal downloads. The agent brings them into one queue, removes duplicates and checks the mandatory invoice details required for input VAT deduction, flagging anything missing.",
-            "**Supplier identification.** It matches the supplier against vendor master data, including bank details. New or changed bank details never pass silently: they trigger a verification task for the master-data team. The agent does not create suppliers.",
-            "**Matching.** With a purchase order number it performs a two- or three-way match against order and goods receipt, within your tolerances. Non-PO invoices get a proposed cost centre and approver from history and the contract register.",
-            "**Coding proposal.** The agent proposes account, cost centre, tax code and posting period, each with a short reason (“previous invoices from this supplier were coded to this account; contract X applies”) and a confidence score.",
-            "**Approval routing (human gate).** Approvers receive the invoice, the matching result and the coding proposal and approve with one click or comment. Routing follows your authorisation matrix, including amount thresholds and second approvers; reminders chase overdue approvals.",
-            "**Posting (human gate).** The accountant reviews the queue of approved invoices with everything attached and posts in the ERP or DATEV with one action. During the pilot the agent never posts on its own. Later, you may allow automatic posting for fully matched PO invoices below a threshold.",
-            "**Payment run.** The payment proposal is generated by your system according to due dates and discount terms and released by two authorised people. The agent has no access to payment functions.",
-            "**Archiving.** Original document, extracted data, coding, approvals and timestamps are stored immutably to support GoBD requirements, and the procedural documentation is updated to describe the new process.",
-            "**Monthly review.** Touchless rate, cycle time from receipt to posting, exceptions by cause and captured discounts are reviewed with the head of accounting."
-          ] },
-          { "note": "The first weeks run in shadow mode: the agent proposes, the accountant codes as usual, and we measure agreement before any proposal reaches an approver. The control design is reviewed with your auditor or tax advisor early, so nobody is surprised at year-end. We build these workflows through our [agentic workflow](page:services/agentic-workflows) service." }
+          {
+            "h2": "Accounts payable from inbox to approved posting"
+          },
+          {
+            "p": "A typical scenario: a Mittelstand group (a mid-sized, often family-owned company) with several entities receives thousands of supplier invoices a month by email, e-invoice and portal, and approvals take days because invoices sit in inboxes. This is how an AP agent runs the workflow with a controller in the loop."
+          },
+          {
+            "ol": [
+              "**Capture.** Invoices arrive as PDF attachments, structured e-invoices (XRechnung, ZUGFeRD) or portal downloads. The agent brings them into one queue, removes duplicates and checks the mandatory invoice details required for input VAT deduction, flagging anything missing.",
+              "**Supplier identification.** It matches the supplier against vendor master data, including bank details. New or changed bank details never pass silently: they trigger a verification task for the master-data team. The agent does not create suppliers.",
+              "**Matching.** With a purchase order number it performs a two- or three-way match against order and goods receipt, within your tolerances. Non-PO invoices get a proposed cost centre and approver from history and the contract register.",
+              "**Coding proposal.** The agent proposes account, cost centre, tax code and posting period, each with a short reason (“previous invoices from this supplier were coded to this account; contract X applies”) and a confidence score.",
+              "**Approval routing (human gate).** Approvers receive the invoice, the matching result and the coding proposal and approve with one click or comment. Routing follows your authorisation matrix, including amount thresholds and second approvers; reminders chase overdue approvals.",
+              "**Posting (human gate).** The accountant reviews the queue of approved invoices with everything attached and posts in the ERP or DATEV with one action. During the pilot the agent never posts on its own. Later, you may allow automatic posting for fully matched PO invoices below a threshold.",
+              "**Payment run.** The payment proposal is generated by your system according to due dates and discount terms and released by two authorised people. The agent has no access to payment functions.",
+              "**Archiving.** Original document, extracted data, coding, approvals and timestamps are stored immutably to support GoBD requirements, and the procedural documentation is updated to describe the new process.",
+              "**Monthly review.** Touchless rate, cycle time from receipt to posting, exceptions by cause and captured discounts are reviewed with the head of accounting."
+            ]
+          },
+          {
+            "note": "The first weeks run in shadow mode: the agent proposes, the accountant codes as usual, and we measure agreement before any proposal reaches an approver. The control design is reviewed with your auditor or tax advisor early, so nobody is surprised at year-end. We build these workflows through our [agentic workflow](page:services/agentic-workflows) service."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Guardrails and risks in finance",
         "items": [
-          { "title": "No autonomous payments", "text": "The agent has no rights in payment systems and never will in our designs. Payment proposals are generated by your ERP or banking software and released by authorised people under the four-eyes principle. Bank-detail changes trigger human verification." },
-          { "title": "Segregation of duties preserved", "text": "The agent's roles mirror your authorisation matrix. The same identity cannot capture, approve and post, thresholds and second approvers apply to it as they do to people, and its permissions are reviewed like any user's. Internal control remains yours to demonstrate." },
-          { "title": "Audit trail and GoBD", "text": "Every document, extraction, proposal, approval and posting is logged immutably with timestamps and identities, retention follows your policy, and the procedural documentation describes the process. We recommend involving your auditor and tax advisor during design; this is process design, not tax or legal advice." },
-          { "title": "Explainability of every suggestion", "text": "Every coding, matching and commentary proposal carries its reasoning, its sources and a confidence score, in language an accountant and an auditor can follow. No black-box postings, and uncertain proposals go to a person by default." },
-          { "title": "Data protection and confidentiality", "text": "Invoices, expense reports and payroll-related documents contain personal data: names, bank details of sole traders, employees' travel. We restrict access by role, keep processing in the EU where required, agree processor terms with model providers and involve your data-protection officer before the pilot." }
+          {
+            "title": "No autonomous payments",
+            "text": "The agent has no rights in payment systems and never will in our designs. Payment proposals are generated by your ERP or banking software and released by authorised people under the four-eyes principle. Bank-detail changes trigger human verification."
+          },
+          {
+            "title": "Segregation of duties preserved",
+            "text": "The agent's roles mirror your authorisation matrix. The same identity cannot capture, approve and post, thresholds and second approvers apply to it as they do to people, and its permissions are reviewed like any user's. Internal control remains yours to demonstrate."
+          },
+          {
+            "title": "Audit trail and GoBD",
+            "text": "Every document, extraction, proposal, approval and posting is logged immutably with timestamps and identities, retention follows your policy, and the procedural documentation describes the process. We recommend involving your auditor and tax advisor during design; this is process design, not tax or legal advice."
+          },
+          {
+            "title": "Explainability of every suggestion",
+            "text": "Every coding, matching and commentary proposal carries its reasoning, its sources and a confidence score, in language an accountant and an auditor can follow. No black-box postings, and uncertain proposals go to a person by default."
+          },
+          {
+            "title": "Data protection and confidentiality",
+            "text": "Invoices, expense reports and payroll-related documents contain personal data: names, bank details of sole traders, employees' travel. We restrict access by role, keep processing in the EU where required, agree processor terms with model providers and involve your data-protection officer before the pilot."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How we start",
         "items": [
-          { "title": "Finance assessment", "text": "We map your AP and close processes, volumes, systems and control framework, identify exception patterns and record baseline metrics: cycle time, cost per invoice, touchless rate, days to close. The first flow is selected with your head of finance.", "meta": "2–3 weeks" },
-          { "title": "Control and workflow design", "text": "Workflow, authorisation matrix, audit trail and archiving are designed with accounting, IT and your auditor or tax advisor. Data protection is settled before anything is built." },
-          { "title": "Pilot", "text": "Shadow mode on real invoices, then proposal mode with accountants approving. Weekly measurement of accuracy, touchless rate and cycle time against the baseline.", "meta": "6–8 weeks" },
-          { "title": "Scale and operate", "text": "More entities, document types, close tasks and reporting flows, with [managed AI operations](page:services/managed-ai-operations) keeping rules, integrations and documentation current as systems and regulations change." }
+          {
+            "title": "Finance assessment",
+            "text": "We map your AP and close processes, volumes, systems and control framework, identify exception patterns and record baseline metrics: cycle time, cost per invoice, touchless rate, days to close. The first flow is selected with your head of finance.",
+            "meta": "2–3 weeks"
+          },
+          {
+            "title": "Control and workflow design",
+            "text": "Workflow, authorisation matrix, audit trail and archiving are designed with accounting, IT and your auditor or tax advisor. Data protection is settled before anything is built."
+          },
+          {
+            "title": "Pilot",
+            "text": "Shadow mode on real invoices, then proposal mode with accountants approving. Weekly measurement of accuracy, touchless rate and cycle time against the baseline.",
+            "meta": "6–8 weeks"
+          },
+          {
+            "title": "Scale and operate",
+            "text": "More entities, document types, close tasks and reporting flows, with [managed AI operations](page:services/managed-ai-operations) keeping rules, integrations and documentation current as systems and regulations change."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Will the agent post or pay anything on its own?", "a": "No. It proposes postings with reasons, a person approves and posts, and payments are released by authorised people in your banking or ERP system, where the agent has no access. If you later want automatic posting for fully matched purchase-order invoices below a threshold, that is a decision you take with your auditor, based on pilot data." },
-          { "q": "Is this compatible with the GoBD?", "a": "The GoBD require, in general terms, traceability, completeness, timely recording, immutability and procedural documentation. Our workflows are designed to support each of these: immutable logs, complete audit trail, documented process. Whether your specific setup meets the requirements is for your tax advisor and auditor to confirm; we provide the documentation they need and do not give tax or legal advice." },
-          { "q": "How does it fit with the German e-invoicing obligation?", "a": "Since 2025 businesses in Germany must be able to receive structured e-invoices for domestic B2B transactions, and the obligation to issue them is being phased in; timelines and exceptions should be checked with your tax advisor. The agent processes structured formats such as XRechnung and ZUGFeRD alongside PDFs and paper scans, so the transition does not require two processes." },
-          { "q": "Which systems do you work with?", "a": "DATEV, SAP, Microsoft Dynamics, other ERPs, document management systems, banking software and planning tools, connected through their interfaces. We are vendor-neutral, evaluate the AI features already in your systems and only build what those do not cover. Where a system has no usable interface, we say so early." },
-          { "q": "How is confidential financial and personal data protected?", "a": "Access is restricted by role, exactly as in your ERP; prompts contain only the data a task needs; processing stays in the EU where required; and processor agreements with model providers are part of the setup. Salary and HR-related documents are excluded from the agent's scope unless a use case specifically requires them. Your data-protection officer reviews the design." },
-          { "q": "What happens to our accounting team?", "a": "Agents remove tasks, not usually roles. Typing, chasing approvals and hunting for documents shrink; exception handling, controls, analysis and advising the business grow. Most finance teams are understaffed relative to their closing calendar, so the capacity is absorbed quickly. We plan the change with the head of finance and train the team on the new workflow." }
+          {
+            "q": "Will the agent post or pay anything on its own?",
+            "a": "No. It proposes postings with reasons, a person approves and posts, and payments are released by authorised people in your banking or ERP system, where the agent has no access. If you later want automatic posting for fully matched purchase-order invoices below a threshold, that is a decision you take with your auditor, based on pilot data."
+          },
+          {
+            "q": "Is this compatible with the GoBD?",
+            "a": "The GoBD require, in general terms, traceability, completeness, timely recording, immutability and procedural documentation. Our workflows are designed to support each of these: immutable logs, complete audit trail, documented process. Whether your specific setup meets the requirements is for your tax advisor and auditor to confirm; we provide the documentation they need and do not give tax or legal advice."
+          },
+          {
+            "q": "How does it fit with the German e-invoicing obligation?",
+            "a": "Since 2025 businesses in Germany must be able to receive structured e-invoices for domestic B2B transactions, and the obligation to issue them is being phased in; timelines and exceptions should be checked with your tax advisor. The agent processes structured formats such as XRechnung and ZUGFeRD alongside PDFs and paper scans, so the transition does not require two processes."
+          },
+          {
+            "q": "Which systems do you work with?",
+            "a": "DATEV, SAP, Microsoft Dynamics, other ERPs, document management systems, banking software and planning tools, connected through their interfaces. We are vendor-neutral, evaluate the AI features already in your systems and only build what those do not cover. Where a system has no usable interface, we say so early."
+          },
+          {
+            "q": "How is confidential financial and personal data protected?",
+            "a": "Access is restricted by role, exactly as in your ERP; prompts contain only the data a task needs; processing stays in the EU where required; and processor agreements with model providers are part of the setup. Salary and HR-related documents are excluded from the agent's scope unless a use case specifically requires them. Your data-protection officer reviews the design."
+          },
+          {
+            "q": "What happens to our accounting team?",
+            "a": "Agents remove tasks, not usually roles. Typing, chasing approvals and hunting for documents shrink; exception handling, controls, analysis and advising the business grow. Most finance teams are understaffed relative to their closing calendar, so the capacity is absorbed quickly. We plan the change with the head of finance and train the team on the new workflow."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related pages",
-        "pages": ["services/ai-governance", "services/data-foundations", "solutions/operations", "solutions/procurement"]
+        "pages": [
+          "services/ai-governance",
+          "services/data-foundations",
+          "solutions/operations",
+          "solutions/procurement"
+        ]
       }
     ]
   },
@@ -113,8 +218,14 @@
       "title": "KI-Agenten in Finanzen und Controlling:",
       "titleAccent": "jede Buchung erklärt, keine Zahlung allein.",
       "standfirst": "Finanzteams verarbeiten jeden Monat dieselben Belege und erklären jedes Quartal dieselben Abweichungen. KI-Agenten erfassen Rechnungen, schlagen Abgleich und Kontierung vor, treiben Freigaben ein, bereiten Abstimmungen vor und entwerfen Kommentare, während Ihre Buchhaltung jede Buchung freigibt und keine Zahlung ohne einen Menschen das Haus verlässt. Entworfen für GoBD-konforme Aufzeichnungen und die deutschen E-Rechnungs-Regeln.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "Unsere KI-Governance-Beratung", "page": "services/ai-governance" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "Unsere KI-Governance-Beratung",
+        "page": "services/ai-governance"
+      }
     },
     "sections": [
       {
@@ -127,82 +238,181 @@
           "Wir beginnen mit der Kreditorenbuchhaltung oder der Abschluss-Checkliste, weil beide volumenstark, regelbasiert und messbar sind, und halten Funktionstrennung, Prüfpfad und Erklärbarkeit vom ersten Tag an intakt. Das Kontrolldesign ist Teil unserer [KI-Governance](page:services/ai-governance)-Arbeit."
         ],
         "facts": [
-          ["Typischer Einstieg", "Kreditorenbuchhaltung vom Posteingang bis zur freigegebenen Buchung"],
-          ["Systeme", "DATEV, SAP, Microsoft Dynamics und weitere ERPs, DMS, Banking, Planungstools"],
-          ["Kontrollpunkt", "Freigaben, Buchungen, Zahlungsfreigabe, externes Reporting"],
-          ["Erster Pilot", "In der Regel 6–8 Wochen"]
+          [
+            "Typischer Einstieg",
+            "Kreditorenbuchhaltung vom Posteingang bis zur freigegebenen Buchung"
+          ],
+          [
+            "Systeme",
+            "DATEV, SAP, Microsoft Dynamics und weitere ERPs, DMS, Banking, Planungstools"
+          ],
+          [
+            "Kontrollpunkt",
+            "Freigaben, Buchungen, Zahlungsfreigabe, externes Reporting"
+          ],
+          [
+            "Erster Pilot",
+            "In der Regel 6–8 Wochen"
+          ]
         ],
-        "link": { "label": "Lesen: Leitplanken für Agenten", "page": "insights/guardrails-for-agents" }
+        "link": {
+          "label": "Lesen: Leitplanken für Agenten",
+          "page": "insights/guardrails-for-agents"
+        }
       },
       {
         "type": "cards",
         "heading": "Use Cases",
         "intro": "Sechs Finanz-Workflows, in denen Agenten lesen, abgleichen und entwerfen, und Menschen die Entscheidungshoheit behalten.",
         "items": [
-          { "icon": "doc", "title": "Kreditoren: Erfassung, Abgleich, Kontierung, Freigabe-Routing", "text": "Der Agent erfasst Rechnungen aus E-Mail, E-Rechnungsformaten wie XRechnung und ZUGFeRD und Lieferantenportalen, prüft die Pflichtangaben, gleicht sie mit Bestellungen und Wareneingängen ab, schlägt Konto, Kostenstelle und Steuerschlüssel mit Begründung vor und leitet sie an den richtigen Freigeber. Die Buchhaltung bestätigt die Buchung. Der Zahllauf bleibt ein separater Schritt, den Menschen freigeben." },
-          { "icon": "mail", "title": "Debitoren und Mahnkommunikation", "text": "Der Agent überwacht offene Posten, ordnet Zahlungseingänge Rechnungen zu, entwirft Zahlungserinnerungen in abgestufter Tonalität je Kundensegment und bereitet Mahnvorschläge vor. Die Debitorenbuchhaltung gibt jedes Schreiben frei; strittige Posten gehen mit Historie an Vertrieb oder Kundenservice." },
-          { "icon": "clock", "title": "Monatsabschluss-Checklisten und Abstimmungen", "text": "Der Agent führt die Abschluss-Checkliste, erinnert Aufgabenverantwortliche, bereitet Bank-, Verrechnungskonten- und Intercompany-Abstimmungen vor und schlägt aus den zugrunde liegenden Buchungen Erklärungen für Differenzen vor. Controller prüfen und zeichnen ab. Gebucht wird nichts automatisch; der Agent verkürzt die Suche, nicht die Kontrolle." },
-          { "icon": "chart", "title": "Management-Reporting und Abweichungskommentare", "text": "Aus ERP- und Planungsdaten entwirft der Agent den Plan-Ist-Kommentar im Hausformat, identifiziert Treiber hinter Abweichungen und bereitet Szenario-Eingaben für FP&A vor. Der Controller redigiert, hinterfragt und verantwortet die Aussage. Unterlagen für Beirat und Geschäftsführung gehen mit dem Namen eines Menschen hinaus." },
-          { "icon": "shield", "title": "Spesenprüfung und Prüfungsvorbereitung", "text": "Reisekosten- und Spesenabrechnungen werden gegen die Richtlinie geprüft (Belege, Grenzen, Pauschalen, Freigaben), Ausnahmen mit der verletzten Regel markiert. Für Prüfungen holt der Agent Belege zu Prüferanfragen, stellt Nachweispakete zusammen und verfolgt offene Punkte. Antworten an die Prüfer schreibt und sendet Ihr Team." },
-          { "icon": "briefcase", "title": "Vertragspflichten und Eingaben für die Liquiditätsplanung", "text": "Der Agent zieht Zahlungsverpflichtungen, Kündigungsfristen, Indexierungs- und Verlängerungsklauseln aus Verträgen in ein Verpflichtungsregister und fasst erwartete Ein- und Auszahlungen aus Debitoren, Kreditoren und Verträgen als Eingaben für die Liquiditätsvorschau zusammen. Treasury-Entscheidungen bleiben beim Treasurer." }
+          {
+            "icon": "doc",
+            "title": "Kreditoren: Erfassung, Abgleich, Kontierung, Freigabe-Routing",
+            "text": "Der Agent erfasst Rechnungen aus E-Mail, E-Rechnungsformaten wie XRechnung und ZUGFeRD und Lieferantenportalen, prüft die Pflichtangaben, gleicht sie mit Bestellungen und Wareneingängen ab, schlägt Konto, Kostenstelle und Steuerschlüssel mit Begründung vor und leitet sie an den richtigen Freigeber. Die Buchhaltung bestätigt die Buchung. Der Zahllauf bleibt ein separater Schritt, den Menschen freigeben."
+          },
+          {
+            "icon": "mail",
+            "title": "Debitoren und Mahnkommunikation",
+            "text": "Der Agent überwacht offene Posten, ordnet Zahlungseingänge Rechnungen zu, entwirft Zahlungserinnerungen in abgestufter Tonalität je Kundensegment und bereitet Mahnvorschläge vor. Die Debitorenbuchhaltung gibt jedes Schreiben frei; strittige Posten gehen mit Historie an Vertrieb oder Kundenservice."
+          },
+          {
+            "icon": "clock",
+            "title": "Monatsabschluss-Checklisten und Abstimmungen",
+            "text": "Der Agent führt die Abschluss-Checkliste, erinnert Aufgabenverantwortliche, bereitet Bank-, Verrechnungskonten- und Intercompany-Abstimmungen vor und schlägt aus den zugrunde liegenden Buchungen Erklärungen für Differenzen vor. Controller prüfen und zeichnen ab. Gebucht wird nichts automatisch; der Agent verkürzt die Suche, nicht die Kontrolle."
+          },
+          {
+            "icon": "chart",
+            "title": "Management-Reporting und Abweichungskommentare",
+            "text": "Aus ERP- und Planungsdaten entwirft der Agent den Plan-Ist-Kommentar im Hausformat, identifiziert Treiber hinter Abweichungen und bereitet Szenario-Eingaben für FP&A vor. Der Controller redigiert, hinterfragt und verantwortet die Aussage. Unterlagen für Beirat und Geschäftsführung gehen mit dem Namen eines Menschen hinaus."
+          },
+          {
+            "icon": "shield",
+            "title": "Spesenprüfung und Prüfungsvorbereitung",
+            "text": "Reisekosten- und Spesenabrechnungen werden gegen die Richtlinie geprüft (Belege, Grenzen, Pauschalen, Freigaben), Ausnahmen mit der verletzten Regel markiert. Für Prüfungen holt der Agent Belege zu Prüferanfragen, stellt Nachweispakete zusammen und verfolgt offene Punkte. Antworten an die Prüfer schreibt und sendet Ihr Team."
+          },
+          {
+            "icon": "briefcase",
+            "title": "Vertragspflichten und Eingaben für die Liquiditätsplanung",
+            "text": "Der Agent zieht Zahlungsverpflichtungen, Kündigungsfristen, Indexierungs- und Verlängerungsklauseln aus Verträgen in ein Verpflichtungsregister und fasst erwartete Ein- und Auszahlungen aus Debitoren, Kreditoren und Verträgen als Eingaben für die Liquiditätsvorschau zusammen. Treasury-Entscheidungen bleiben beim Treasurer."
+          }
         ]
       },
       {
         "type": "prose",
         "heading": "Beispiel-Workflow",
         "content": [
-          { "h2": "Kreditorenbuchhaltung vom Posteingang bis zur freigegebenen Buchung" },
-          { "p": "Beispiel: Eine mittelständische Gruppe mit mehreren Gesellschaften erhält monatlich Tausende Lieferantenrechnungen per E-Mail, E-Rechnung und Portal, und Freigaben dauern Tage, weil Rechnungen in Postfächern liegen. So führt ein Kreditoren-Agent den Workflow, mit einem Controller im Prozess." },
-          { "ol": [
-            "**Erfassung.** Rechnungen kommen als PDF-Anhang, strukturierte E-Rechnung (XRechnung, ZUGFeRD) oder Portal-Download. Der Agent führt sie in eine Warteschlange zusammen, entfernt Dubletten und prüft die Pflichtangaben für den Vorsteuerabzug; Fehlendes wird markiert.",
-            "**Lieferantenidentifikation.** Er gleicht den Lieferanten mit den Kreditorenstammdaten ab, einschließlich Bankverbindung. Neue oder geänderte Bankdaten passieren nie unbemerkt: Sie lösen eine Prüfaufgabe für das Stammdatenteam aus. Lieferanten legt der Agent nicht an.",
-            "**Abgleich.** Mit Bestellnummer führt er den Zwei- oder Dreiwege-Abgleich gegen Bestellung und Wareneingang innerhalb Ihrer Toleranzen durch. Rechnungen ohne Bestellbezug erhalten Kostenstelle und Freigeber als Vorschlag aus Historie und Vertragsregister.",
-            "**Kontierungsvorschlag.** Der Agent schlägt Konto, Kostenstelle, Steuerschlüssel und Buchungsperiode vor, jeweils mit kurzer Begründung („frühere Rechnungen dieses Lieferanten wurden auf dieses Konto kontiert; Vertrag X gilt“) und Konfidenzwert.",
-            "**Freigabe-Routing (Freigabe durch Mensch).** Freigeber erhalten Rechnung, Abgleichergebnis und Kontierungsvorschlag und geben mit einem Klick frei oder kommentieren. Das Routing folgt Ihrer Berechtigungsmatrix inklusive Betragsgrenzen und Zweitfreigaben; Erinnerungen fassen bei überfälligen Freigaben nach.",
-            "**Buchung (Freigabe durch Mensch).** Die Buchhaltung prüft die Warteschlange freigegebener Rechnungen mit allen Anhängen und bucht mit einer Aktion im ERP oder in DATEV. Im Pilot bucht der Agent nie selbst. Später können Sie automatische Buchungen für vollständig abgeglichene Bestellrechnungen unter einer Schwelle erlauben.",
-            "**Zahllauf.** Der Zahlungsvorschlag entsteht in Ihrem System nach Fälligkeiten und Skontofristen und wird von zwei berechtigten Personen freigegeben. Der Agent hat keinen Zugriff auf Zahlungsfunktionen.",
-            "**Archivierung.** Originalbeleg, ausgelesene Daten, Kontierung, Freigaben und Zeitstempel werden unveränderbar gespeichert, um die GoBD-Anforderungen zu stützen, und die Verfahrensdokumentation wird um den neuen Prozess ergänzt.",
-            "**Monatliche Durchsicht.** Dunkelverarbeitungsquote, Durchlaufzeit von Eingang bis Buchung, Ausnahmen nach Ursache und genutzte Skonti werden mit der Leitung der Buchhaltung besprochen."
-          ] },
-          { "note": "Die ersten Wochen laufen im Schattenmodus: Der Agent schlägt vor, die Buchhaltung kontiert wie gewohnt, und wir messen die Übereinstimmung, bevor ein Vorschlag einen Freigeber erreicht. Das Kontrolldesign stimmen wir früh mit Ihrem Wirtschaftsprüfer oder Steuerberater ab, damit zum Jahresende niemand überrascht ist. Solche Workflows bauen wir im Rahmen unserer Leistung [Agentische Workflows](page:services/agentic-workflows)." }
+          {
+            "h2": "Kreditorenbuchhaltung vom Posteingang bis zur freigegebenen Buchung"
+          },
+          {
+            "p": "Beispiel: Eine mittelständische Gruppe mit mehreren Gesellschaften erhält monatlich Tausende Lieferantenrechnungen per E-Mail, E-Rechnung und Portal, und Freigaben dauern Tage, weil Rechnungen in Postfächern liegen. So führt ein Kreditoren-Agent den Workflow, mit einem Controller im Prozess."
+          },
+          {
+            "ol": [
+              "**Erfassung.** Rechnungen kommen als PDF-Anhang, strukturierte E-Rechnung (XRechnung, ZUGFeRD) oder Portal-Download. Der Agent führt sie in eine Warteschlange zusammen, entfernt Dubletten und prüft die Pflichtangaben für den Vorsteuerabzug; Fehlendes wird markiert.",
+              "**Lieferantenidentifikation.** Er gleicht den Lieferanten mit den Kreditorenstammdaten ab, einschließlich Bankverbindung. Neue oder geänderte Bankdaten passieren nie unbemerkt: Sie lösen eine Prüfaufgabe für das Stammdatenteam aus. Lieferanten legt der Agent nicht an.",
+              "**Abgleich.** Mit Bestellnummer führt er den Zwei- oder Dreiwege-Abgleich gegen Bestellung und Wareneingang innerhalb Ihrer Toleranzen durch. Rechnungen ohne Bestellbezug erhalten Kostenstelle und Freigeber als Vorschlag aus Historie und Vertragsregister.",
+              "**Kontierungsvorschlag.** Der Agent schlägt Konto, Kostenstelle, Steuerschlüssel und Buchungsperiode vor, jeweils mit kurzer Begründung („frühere Rechnungen dieses Lieferanten wurden auf dieses Konto kontiert; Vertrag X gilt“) und Konfidenzwert.",
+              "**Freigabe-Routing (Freigabe durch Mensch).** Freigeber erhalten Rechnung, Abgleichergebnis und Kontierungsvorschlag und geben mit einem Klick frei oder kommentieren. Das Routing folgt Ihrer Berechtigungsmatrix inklusive Betragsgrenzen und Zweitfreigaben; Erinnerungen fassen bei überfälligen Freigaben nach.",
+              "**Buchung (Freigabe durch Mensch).** Die Buchhaltung prüft die Warteschlange freigegebener Rechnungen mit allen Anhängen und bucht mit einer Aktion im ERP oder in DATEV. Im Pilot bucht der Agent nie selbst. Später können Sie automatische Buchungen für vollständig abgeglichene Bestellrechnungen unter einer Schwelle erlauben.",
+              "**Zahllauf.** Der Zahlungsvorschlag entsteht in Ihrem System nach Fälligkeiten und Skontofristen und wird von zwei berechtigten Personen freigegeben. Der Agent hat keinen Zugriff auf Zahlungsfunktionen.",
+              "**Archivierung.** Originalbeleg, ausgelesene Daten, Kontierung, Freigaben und Zeitstempel werden unveränderbar gespeichert, um die GoBD-Anforderungen zu stützen, und die Verfahrensdokumentation wird um den neuen Prozess ergänzt.",
+              "**Monatliche Durchsicht.** Dunkelverarbeitungsquote, Durchlaufzeit von Eingang bis Buchung, Ausnahmen nach Ursache und genutzte Skonti werden mit der Leitung der Buchhaltung besprochen."
+            ]
+          },
+          {
+            "note": "Die ersten Wochen laufen im Schattenmodus: Der Agent schlägt vor, die Buchhaltung kontiert wie gewohnt, und wir messen die Übereinstimmung, bevor ein Vorschlag einen Freigeber erreicht. Das Kontrolldesign stimmen wir früh mit Ihrem Wirtschaftsprüfer oder Steuerberater ab, damit zum Jahresende niemand überrascht ist. Solche Workflows bauen wir im Rahmen unserer Leistung [Agentische Workflows](page:services/agentic-workflows)."
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Leitplanken und Risiken in der Finanzfunktion",
         "items": [
-          { "title": "Keine autonomen Zahlungen", "text": "Der Agent hat keine Rechte in Zahlungssystemen und bekommt sie in unseren Designs auch nie. Zahlungsvorschläge erzeugt Ihr ERP oder Ihre Banking-Software, freigegeben werden sie von berechtigten Personen nach dem Vier-Augen-Prinzip. Änderungen an Bankverbindungen lösen eine menschliche Prüfung aus." },
-          { "title": "Funktionstrennung bleibt erhalten", "text": "Die Rollen des Agenten spiegeln Ihre Berechtigungsmatrix. Dieselbe Identität kann nicht erfassen, freigeben und buchen, Betragsgrenzen und Zweitfreigaben gelten für ihn wie für Menschen, und seine Berechtigungen werden wie die jedes Benutzers überprüft. Das interne Kontrollsystem bleibt Ihres." },
-          { "title": "Prüfpfad und GoBD", "text": "Jeder Beleg, jede Auslesung, jeder Vorschlag, jede Freigabe und jede Buchung wird unveränderbar mit Zeitstempel und Identität protokolliert, die Aufbewahrung folgt Ihrer Richtlinie, und die Verfahrensdokumentation beschreibt den Prozess. Wir empfehlen, Wirtschaftsprüfer und Steuerberater schon im Design einzubeziehen; das ist Prozessgestaltung, keine Steuer- oder Rechtsberatung." },
-          { "title": "Erklärbarkeit jedes Vorschlags", "text": "Jeder Kontierungs-, Abgleich- und Kommentarvorschlag trägt Begründung, Quellen und Konfidenzwert, in einer Sprache, der Buchhalter und Prüfer folgen können. Keine Blackbox-Buchungen, und unsichere Vorschläge gehen standardmäßig an einen Menschen." },
-          { "title": "Datenschutz und Vertraulichkeit", "text": "Rechnungen, Spesenabrechnungen und gehaltsnahe Unterlagen enthalten personenbezogene Daten: Namen, Bankverbindungen von Einzelunternehmern, Reisen von Mitarbeitenden. Wir beschränken den Zugriff nach Rolle, verarbeiten wo nötig in der EU, vereinbaren Auftragsverarbeitung mit Modellanbietern und beziehen Ihren Datenschutzbeauftragten vor dem Pilot ein." }
+          {
+            "title": "Keine autonomen Zahlungen",
+            "text": "Der Agent hat keine Rechte in Zahlungssystemen und bekommt sie in unseren Designs auch nie. Zahlungsvorschläge erzeugt Ihr ERP oder Ihre Banking-Software, freigegeben werden sie von berechtigten Personen nach dem Vier-Augen-Prinzip. Änderungen an Bankverbindungen lösen eine menschliche Prüfung aus."
+          },
+          {
+            "title": "Funktionstrennung bleibt erhalten",
+            "text": "Die Rollen des Agenten spiegeln Ihre Berechtigungsmatrix. Dieselbe Identität kann nicht erfassen, freigeben und buchen, Betragsgrenzen und Zweitfreigaben gelten für ihn wie für Menschen, und seine Berechtigungen werden wie die jedes Benutzers überprüft. Das interne Kontrollsystem bleibt Ihres."
+          },
+          {
+            "title": "Prüfpfad und GoBD",
+            "text": "Jeder Beleg, jede Auslesung, jeder Vorschlag, jede Freigabe und jede Buchung wird unveränderbar mit Zeitstempel und Identität protokolliert, die Aufbewahrung folgt Ihrer Richtlinie, und die Verfahrensdokumentation beschreibt den Prozess. Wir empfehlen, Wirtschaftsprüfer und Steuerberater schon im Design einzubeziehen; das ist Prozessgestaltung, keine Steuer- oder Rechtsberatung."
+          },
+          {
+            "title": "Erklärbarkeit jedes Vorschlags",
+            "text": "Jeder Kontierungs-, Abgleich- und Kommentarvorschlag trägt Begründung, Quellen und Konfidenzwert, in einer Sprache, der Buchhalter und Prüfer folgen können. Keine Blackbox-Buchungen, und unsichere Vorschläge gehen standardmäßig an einen Menschen."
+          },
+          {
+            "title": "Datenschutz und Vertraulichkeit",
+            "text": "Rechnungen, Spesenabrechnungen und gehaltsnahe Unterlagen enthalten personenbezogene Daten: Namen, Bankverbindungen von Einzelunternehmern, Reisen von Mitarbeitenden. Wir beschränken den Zugriff nach Rolle, verarbeiten wo nötig in der EU, vereinbaren Auftragsverarbeitung mit Modellanbietern und beziehen Ihren Datenschutzbeauftragten vor dem Pilot ein."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So starten wir",
         "items": [
-          { "title": "Finanz-Assessment", "text": "Wir kartieren Ihre Kreditoren- und Abschlussprozesse, Volumina, Systeme und Ihr Kontrollsystem, identifizieren Ausnahmemuster und erheben Ausgangskennzahlen: Durchlaufzeit, Kosten je Rechnung, Dunkelverarbeitungsquote, Tage bis zum Abschluss. Den ersten Fluss wählen wir mit Ihrer Finanzleitung.", "meta": "2–3 Wochen" },
-          { "title": "Kontroll- und Workflow-Design", "text": "Workflow, Berechtigungsmatrix, Prüfpfad und Archivierung entwerfen wir mit Buchhaltung, IT und Ihrem Wirtschaftsprüfer oder Steuerberater. Der Datenschutz ist geklärt, bevor etwas gebaut wird." },
-          { "title": "Pilot", "text": "Schattenmodus auf echten Rechnungen, dann Vorschlagsmodus mit Freigabe durch die Buchhaltung. Wöchentliche Messung von Genauigkeit, Dunkelverarbeitungsquote und Durchlaufzeit gegen den Ausgangswert.", "meta": "6–8 Wochen" },
-          { "title": "Skalieren und betreiben", "text": "Weitere Gesellschaften, Belegarten, Abschlussaufgaben und Reporting-Flüsse, mit [Managed AI Operations](page:services/managed-ai-operations), damit Regeln, Integrationen und Dokumentation mit Systemen und Vorschriften Schritt halten." }
+          {
+            "title": "Finanz-Assessment",
+            "text": "Wir kartieren Ihre Kreditoren- und Abschlussprozesse, Volumina, Systeme und Ihr Kontrollsystem, identifizieren Ausnahmemuster und erheben Ausgangskennzahlen: Durchlaufzeit, Kosten je Rechnung, Dunkelverarbeitungsquote, Tage bis zum Abschluss. Den ersten Fluss wählen wir mit Ihrer Finanzleitung.",
+            "meta": "2–3 Wochen"
+          },
+          {
+            "title": "Kontroll- und Workflow-Design",
+            "text": "Workflow, Berechtigungsmatrix, Prüfpfad und Archivierung entwerfen wir mit Buchhaltung, IT und Ihrem Wirtschaftsprüfer oder Steuerberater. Der Datenschutz ist geklärt, bevor etwas gebaut wird."
+          },
+          {
+            "title": "Pilot",
+            "text": "Schattenmodus auf echten Rechnungen, dann Vorschlagsmodus mit Freigabe durch die Buchhaltung. Wöchentliche Messung von Genauigkeit, Dunkelverarbeitungsquote und Durchlaufzeit gegen den Ausgangswert.",
+            "meta": "6–8 Wochen"
+          },
+          {
+            "title": "Skalieren und betreiben",
+            "text": "Weitere Gesellschaften, Belegarten, Abschlussaufgaben und Reporting-Flüsse, mit [Managed AI Operations](page:services/managed-ai-operations), damit Regeln, Integrationen und Dokumentation mit Systemen und Vorschriften Schritt halten."
+          }
         ]
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Bucht oder zahlt der Agent irgendetwas selbstständig?", "a": "Nein. Er schlägt Buchungen mit Begründung vor, ein Mensch gibt frei und bucht, und Zahlungen werden von berechtigten Personen in Ihrem Banking- oder ERP-System freigegeben, auf das der Agent keinen Zugriff hat. Wollen Sie später automatische Buchungen für vollständig abgeglichene Bestellrechnungen unter einer Schwelle, ist das eine Entscheidung, die Sie mit Ihrem Wirtschaftsprüfer auf Basis der Pilotdaten treffen." },
-          { "q": "Ist das GoBD-konform?", "a": "Die GoBD verlangen, allgemein gesagt, Nachvollziehbarkeit, Vollständigkeit, zeitgerechte Erfassung, Unveränderbarkeit und eine Verfahrensdokumentation. Unsere Workflows sind so entworfen, dass sie jede dieser Anforderungen stützen: unveränderbare Protokolle, vollständiger Prüfpfad, dokumentierter Prozess. Ob Ihr konkretes Setup die Anforderungen erfüllt, bestätigen Steuerberater und Wirtschaftsprüfer; wir liefern die nötige Dokumentation und leisten keine Steuer- oder Rechtsberatung." },
-          { "q": "Wie passt das zur E-Rechnungspflicht in Deutschland?", "a": "Seit 2025 müssen Unternehmen in Deutschland strukturierte E-Rechnungen für inländische B2B-Umsätze empfangen können, und die Pflicht zur Ausstellung wird stufenweise eingeführt; Fristen und Ausnahmen sollten Sie mit Ihrem Steuerberater prüfen. Der Agent verarbeitet strukturierte Formate wie XRechnung und ZUGFeRD neben PDFs und Papierscans, sodass der Übergang keine zwei Prozesse braucht." },
-          { "q": "Mit welchen Systemen arbeiten Sie?", "a": "DATEV, SAP, Microsoft Dynamics, weitere ERPs, Dokumentenmanagementsysteme, Banking-Software und Planungstools, angebunden über deren Schnittstellen. Wir sind herstellerneutral, prüfen die KI-Funktionen, die Ihre Systeme schon mitbringen, und bauen nur, was diese nicht abdecken. Hat ein System keine brauchbare Schnittstelle, sagen wir das früh." },
-          { "q": "Wie werden vertrauliche Finanz- und personenbezogene Daten geschützt?", "a": "Der Zugriff ist nach Rolle beschränkt, genau wie in Ihrem ERP; Prompts enthalten nur die Daten, die eine Aufgabe braucht; die Verarbeitung bleibt wo nötig in der EU; und Auftragsverarbeitungsverträge mit Modellanbietern gehören zum Setup. Gehalts- und HR-nahe Unterlagen bleiben außerhalb des Agenten, sofern ein Use Case sie nicht ausdrücklich erfordert. Ihr Datenschutzbeauftragter prüft das Design." },
-          { "q": "Was passiert mit unserem Buchhaltungsteam?", "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Abtippen, Freigaben eintreiben und Belege suchen schrumpfen; Ausnahmebearbeitung, Kontrollen, Analyse und Beratung der Fachbereiche wachsen. Die meisten Finanzteams sind gemessen an ihrem Abschlusskalender unterbesetzt, sodass die Kapazität schnell aufgefangen wird. Wir planen den Wandel mit der Finanzleitung und schulen das Team auf dem neuen Workflow." }
+          {
+            "q": "Bucht oder zahlt der Agent irgendetwas selbstständig?",
+            "a": "Nein. Er schlägt Buchungen mit Begründung vor, ein Mensch gibt frei und bucht, und Zahlungen werden von berechtigten Personen in Ihrem Banking- oder ERP-System freigegeben, auf das der Agent keinen Zugriff hat. Wollen Sie später automatische Buchungen für vollständig abgeglichene Bestellrechnungen unter einer Schwelle, ist das eine Entscheidung, die Sie mit Ihrem Wirtschaftsprüfer auf Basis der Pilotdaten treffen."
+          },
+          {
+            "q": "Ist das GoBD-konform?",
+            "a": "Die GoBD verlangen, allgemein gesagt, Nachvollziehbarkeit, Vollständigkeit, zeitgerechte Erfassung, Unveränderbarkeit und eine Verfahrensdokumentation. Unsere Workflows sind so entworfen, dass sie jede dieser Anforderungen stützen: unveränderbare Protokolle, vollständiger Prüfpfad, dokumentierter Prozess. Ob Ihr konkretes Setup die Anforderungen erfüllt, bestätigen Steuerberater und Wirtschaftsprüfer; wir liefern die nötige Dokumentation und leisten keine Steuer- oder Rechtsberatung."
+          },
+          {
+            "q": "Wie passt das zur E-Rechnungspflicht in Deutschland?",
+            "a": "Seit 2025 müssen Unternehmen in Deutschland strukturierte E-Rechnungen für inländische B2B-Umsätze empfangen können, und die Pflicht zur Ausstellung wird stufenweise eingeführt; Fristen und Ausnahmen sollten Sie mit Ihrem Steuerberater prüfen. Der Agent verarbeitet strukturierte Formate wie XRechnung und ZUGFeRD neben PDFs und Papierscans, sodass der Übergang keine zwei Prozesse braucht."
+          },
+          {
+            "q": "Mit welchen Systemen arbeiten Sie?",
+            "a": "DATEV, SAP, Microsoft Dynamics, weitere ERPs, Dokumentenmanagementsysteme, Banking-Software und Planungstools, angebunden über deren Schnittstellen. Wir sind herstellerneutral, prüfen die KI-Funktionen, die Ihre Systeme schon mitbringen, und bauen nur, was diese nicht abdecken. Hat ein System keine brauchbare Schnittstelle, sagen wir das früh."
+          },
+          {
+            "q": "Wie werden vertrauliche Finanz- und personenbezogene Daten geschützt?",
+            "a": "Der Zugriff ist nach Rolle beschränkt, genau wie in Ihrem ERP; Prompts enthalten nur die Daten, die eine Aufgabe braucht; die Verarbeitung bleibt wo nötig in der EU; und Auftragsverarbeitungsverträge mit Modellanbietern gehören zum Setup. Gehalts- und HR-nahe Unterlagen bleiben außerhalb des Agenten, sofern ein Use Case sie nicht ausdrücklich erfordert. Ihr Datenschutzbeauftragter prüft das Design."
+          },
+          {
+            "q": "Was passiert mit unserem Buchhaltungsteam?",
+            "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Abtippen, Freigaben eintreiben und Belege suchen schrumpfen; Ausnahmebearbeitung, Kontrollen, Analyse und Beratung der Fachbereiche wachsen. Die meisten Finanzteams sind gemessen an ihrem Abschlusskalender unterbesetzt, sodass die Kapazität schnell aufgefangen wird. Wir planen den Wandel mit der Finanzleitung und schulen das Team auf dem neuen Workflow."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Seiten",
-        "pages": ["services/ai-governance", "services/data-foundations", "solutions/operations", "solutions/procurement"]
+        "pages": [
+          "services/ai-governance",
+          "services/data-foundations",
+          "solutions/operations",
+          "solutions/procurement"
+        ]
       }
     ]
   }

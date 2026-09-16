@@ -59,6 +59,7 @@ function outFileFor(id, lang) {
 
 /** Resolve a link target used in content: page:ID, page:ID#anchor, mailto:, https://, /path, #anchor */
 function resolveHref(target, lang, ctx) {
+  if (target === "booking") return SITE.bookingUrl;
   if (target.startsWith("page:")) {
     const [id, anchor] = target.slice(5).split("#");
     const p = pathFor(id, lang);
@@ -77,7 +78,8 @@ function inline(s, lang, ctx) {
   out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, text, target) => {
     const href = resolveHref(target, lang, ctx);
     const external = /^https?:/i.test(href);
-    return `<a href="${attr(href)}"${external ? ' rel="noopener"' : ""}>${text}</a>`;
+    const blank = href === SITE.bookingUrl ? ' target="_blank"' : "";
+    return `<a href="${attr(href)}"${external ? ' rel="noopener"' : ""}${blank}>${text}</a>`;
   });
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/(^|[\s(>„"“'])\*([^*\n]+?)\*(?=[\s.,;:!?)<»"”'’]|$)/g, "$1<em>$2</em>");
@@ -354,8 +356,9 @@ function toRoman(n) {
 
 function renderCta(lang, block = {}) {
   const ui = SITE.ui[lang];
-  const href = block.page ? pathFor(block.page, lang) : pathFor("contact", lang);
-  return `<section class="cta-band"><div class="cta-inner"><span class="eyebrow">${esc(block.eyebrow || ui.ctaEyebrow)}</span><h2>${esc(block.title || ui.ctaTitle)}</h2><p>${inline(block.text || ui.ctaText, lang, "cta")}</p><div class="cta-actions"><a class="btn btn-primary" href="${href}">${esc(block.label || ui.ctaLabel)}</a><a class="btn btn-ghost" href="mailto:${SITE.email}">${esc(block.secondary || ui.ctaSecondary)}</a></div></div></section>`;
+  const href = block.page ? pathFor(block.page, lang) : SITE.bookingUrl;
+  const ext = href === SITE.bookingUrl ? ' target="_blank" rel="noopener"' : "";
+  return `<section class="cta-band"><div class="cta-inner"><span class="eyebrow">${esc(block.eyebrow || ui.ctaEyebrow)}</span><h2>${esc(block.title || ui.ctaTitle)}</h2><p>${inline(block.text || ui.ctaText, lang, "cta")}</p><div class="cta-actions"><a class="btn btn-primary" href="${attr(href)}"${ext}>${esc(block.label || ui.ctaLabel)}</a><a class="btn btn-ghost" href="${pathFor("contact", lang)}">${esc(block.secondary || ui.ctaSecondary)}</a></div></div></section>`;
 }
 
 function renderContactForm(lang) {
@@ -454,9 +457,8 @@ ${alternates}
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="icon" href="${FAVICON}">
 <link rel="sitemap" type="application/xml" href="${ORIGIN}/sitemap.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/instrument-serif-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-sans-variable-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 ${extraLd.map(jsonLd).join("\n")}`;
 }
@@ -476,7 +478,7 @@ function headerHtml(page, lang) {
   <nav id="site-nav" class="site-nav" aria-label="Main">
     ${navItems}
     <a class="lang-switch" href="${pathFor(page.id, otherLang)}" hreflang="${otherLang}" lang="${otherLang}" title="${attr(ui.switchTitle)}">${esc(ui.switchLabel)}</a>
-    <a class="btn btn-primary btn-sm nav-cta" href="${pathFor("contact", lang)}">${esc(ui.bookCall)}</a>
+    <a class="btn btn-primary btn-sm nav-cta" href="${attr(SITE.bookingUrl)}" target="_blank" rel="noopener">${esc(ui.bookCall)}</a>
   </nav>
 </header>`;
 }
@@ -521,8 +523,9 @@ function heroHtml(page, lang) {
   const accent = h.titleAccent ? ` <span class="accent">${esc(h.titleAccent)}</span>` : "";
   const eyebrow = h.eyebrow ? `<p class="status-line"><span class="dot"></span> ${esc(h.eyebrow)}</p>` : "";
   const ctas = [];
-  if (h.cta) ctas.push(`<a class="btn btn-primary" href="${attr(resolveHref(h.cta.page ? `page:${h.cta.page}` : h.cta.href, lang, page.id))}">${esc(h.cta.label)}</a>`);
-  if (h.cta2) ctas.push(`<a class="btn btn-ghost" href="${attr(resolveHref(h.cta2.page ? `page:${h.cta2.page}` : h.cta2.href, lang, page.id))}">${esc(h.cta2.label)}</a>`);
+  const ctaHref = (c) => { const href = resolveHref(c.page ? `page:${c.page}` : c.href, lang, page.id); return `href="${attr(href)}"${href === SITE.bookingUrl ? ' target="_blank" rel="noopener"' : ""}`; };
+  if (h.cta) ctas.push(`<a class="btn btn-primary" ${ctaHref(h.cta)}>${esc(h.cta.label)}</a>`);
+  if (h.cta2) ctas.push(`<a class="btn btn-ghost" ${ctaHref(h.cta2)}>${esc(h.cta2.label)}</a>`);
   const ctaHtml = ctas.length ? `<div class="hero-actions">${ctas.join("")}</div>` : "";
   if (reg.type === "home") {
     return `<div class="hero">${eyebrow}<h1>${esc(h.title)}${accent}</h1><p>${inline(h.standfirst || "", lang, page.id)}</p>${ctaHtml}
@@ -618,9 +621,6 @@ function notFoundPage() {
 <title>404 — ${esc(SITE.shortName)}</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="${FAVICON}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="page-notfound">

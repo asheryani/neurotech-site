@@ -10,8 +10,14 @@
       "title": "AI governance that gets projects approved,",
       "titleAccent": "not shelved.",
       "standfirst": "The EU AI Act and the GDPR do not stop you from using AI and agents. Not knowing what you run, who is responsible and where the risks sit does. We build the register, the risk classification, the oversight and the policies that let your legal team, your data protection officer and your works council approve AI instead of postponing it.",
-      "cta": { "label": "Book an intro call", "page": "contact" },
-      "cta2": { "label": "See how we work", "page": "approach" }
+      "cta": {
+        "label": "Book an intro call",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -25,45 +31,116 @@
           "To be clear: we are consultants, not lawyers. We structure the facts, draft the documents and design the controls, working alongside your legal counsel and your data protection officer, who own the legal assessment."
         ],
         "facts": [
-          ["Format", "Workshops, inventory, written framework, templates"],
-          ["Duration", "Typically 4–8 weeks, then optional support"],
-          ["For", "Management, legal, DPO, IT security, works council"],
-          ["Outcome", "AI register, risk classification, policies, oversight design"]
+          [
+            "Format",
+            "Workshops, inventory, written framework, templates"
+          ],
+          [
+            "Duration",
+            "Typically 4–8 weeks, then optional support"
+          ],
+          [
+            "For",
+            "Management, legal, DPO, IT security, works council"
+          ],
+          [
+            "Outcome",
+            "AI register, risk classification, policies, oversight design"
+          ]
         ],
-        "link": { "label": "Read our EU AI Act guide for companies", "page": "insights/eu-ai-act-guide" }
+        "link": {
+          "label": "Read our EU AI Act guide for companies",
+          "page": "insights/eu-ai-act-guide"
+        }
       },
       {
         "type": "cards",
         "heading": "What you get",
         "intro": "The building blocks of a governance framework that fits a company your size. Nothing is added because a standard lists it; everything is added because you will use it.",
         "items": [
-          { "icon": "doc", "title": "AI inventory and register", "text": "One list of every AI system, model and agent in use, from sanctioned tools to the shadow tools in marketing, with purpose, data, provider, owner and status per entry. It becomes the single source for audits and future decisions." },
-          { "icon": "scale", "title": "Risk classification under the EU AI Act", "text": "Each use case sorted into the Act's categories: prohibited, high-risk, limited risk with transparency duties, or minimal risk, with a note on any general-purpose AI models involved. The reasoning is written down so your lawyers can confirm or challenge it." },
-          { "icon": "people", "title": "Deployer and provider obligations", "text": "Which role you play for each system. Buying and using a tool makes you a deployer; substantially modifying it or placing your own system on the market can make you a provider, with a much longer list of duties. We map both." },
-          { "icon": "eye", "title": "Human oversight and transparency", "text": "Oversight designed into the workflow rather than promised in a policy: who reviews what, when an agent must stop and hand over, how users learn they are dealing with AI, and how outputs are labelled where the Act requires it." },
-          { "icon": "lock", "title": "GDPR and DPIA support", "text": "Structured input for your data protection officer: data flows, legal bases, retention, transfers and a draft data protection impact assessment (Datenschutz-Folgenabschätzung) for the use cases that need one." },
-          { "icon": "book", "title": "AI usage policy and literacy plan", "text": "A short, readable policy on which tools are allowed for which data, and a plan for the [AI literacy duty](page:services/ai-training) under Article 4 that fits your workforce rather than a generic e-learning module." }
+          {
+            "icon": "doc",
+            "title": "AI inventory and register",
+            "text": "One list of every AI system, model and agent in use, from sanctioned tools to the shadow tools in marketing, with purpose, data, provider, owner and status per entry. It becomes the single source for audits and future decisions."
+          },
+          {
+            "icon": "scale",
+            "title": "Risk classification under the EU AI Act",
+            "text": "Each use case sorted into the Act's categories: prohibited, high-risk, limited risk with transparency duties, or minimal risk, with a note on any general-purpose AI models involved. The reasoning is written down so your lawyers can confirm or challenge it."
+          },
+          {
+            "icon": "people",
+            "title": "Deployer and provider obligations",
+            "text": "Which role you play for each system. Buying and using a tool makes you a deployer; substantially modifying it or placing your own system on the market can make you a provider, with a much longer list of duties. We map both."
+          },
+          {
+            "icon": "eye",
+            "title": "Human oversight and transparency",
+            "text": "Oversight designed into the workflow rather than promised in a policy: who reviews what, when an agent must stop and hand over, how users learn they are dealing with AI, and how outputs are labelled where the Act requires it."
+          },
+          {
+            "icon": "lock",
+            "title": "GDPR and DPIA support",
+            "text": "Structured input for your data protection officer: data flows, legal bases, retention, transfers and a draft data protection impact assessment (Datenschutz-Folgenabschätzung) for the use cases that need one."
+          },
+          {
+            "icon": "book",
+            "title": "AI usage policy and literacy plan",
+            "text": "A short, readable policy on which tools are allowed for which data, and a plan for the [AI literacy duty](page:services/ai-training) under Article 4 that fits your workforce rather than a generic e-learning module."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "How it works",
         "items": [
-          { "title": "Inventory", "text": "Interviews with department heads and IT, a pass through procurement and licence lists, and a collection of what people actually use. The resulting register usually surprises management.", "meta": "Weeks 1–2" },
-          { "title": "Classification and gap analysis", "text": "Each system is classified under the EU AI Act and checked against the GDPR. We show where obligations are already met, where documentation is missing and where a use case should change or stop.", "meta": "Weeks 2–4" },
-          { "title": "Framework design", "text": "Roles, approval paths, oversight checkpoints, logging and documentation standards, vendor assessment criteria and the usage policy, aligned with ISO/IEC 42001 as a reference framework where that helps you later.", "meta": "Weeks 4–6" },
-          { "title": "Alignment with legal, DPO and works council", "text": "We take the framework through your legal counsel, your data protection officer and, in Germany, your works council. Objections are handled here, once, rather than in every future project.", "meta": "Weeks 6–7" },
-          { "title": "Handover and embedding", "text": "Management sign-off, templates for new use cases, a briefing for whoever maintains the register, and a review rhythm so the framework keeps pace with the law and your systems.", "meta": "Week 8" }
+          {
+            "title": "Inventory",
+            "text": "Interviews with department heads and IT, a pass through procurement and licence lists, and a collection of what people actually use. The resulting register usually surprises management.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Classification and gap analysis",
+            "text": "Each system is classified under the EU AI Act and checked against the GDPR. We show where obligations are already met, where documentation is missing and where a use case should change or stop.",
+            "meta": "Weeks 2–4"
+          },
+          {
+            "title": "Framework design",
+            "text": "Roles, approval paths, oversight checkpoints, logging and documentation standards, vendor assessment criteria and the usage policy, aligned with ISO/IEC 42001 as a reference framework where that helps you later.",
+            "meta": "Weeks 4–6"
+          },
+          {
+            "title": "Alignment with legal, DPO and works council",
+            "text": "We take the framework through your legal counsel, your data protection officer and, in Germany, your works council. Objections are handled here, once, rather than in every future project.",
+            "meta": "Weeks 6–7"
+          },
+          {
+            "title": "Handover and embedding",
+            "text": "Management sign-off, templates for new use cases, a briefing for whoever maintains the register, and a review rhythm so the framework keeps pace with the law and your systems.",
+            "meta": "Week 8"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Who this is for",
         "items": [
-          { "title": "Companies already using AI without a framework", "text": "Copilot licences, a few agents in production and a growing list of tools nobody approved. Governance here starts with the register and a pragmatic classification, then adds only the controls you need." },
-          { "title": "Mittelstand companies with a works council and a busy DPO", "text": "Owner-managed companies need something a lean organisation can keep running: a framework that fits on a few pages, and a works council that gets the information it needs early. See [Mittelstand](page:for/mittelstand)." },
-          { "title": "Corporates and regulated industries", "text": "Financial services, insurers and businesses close to healthcare face sector rules on top of the AI Act. We design governance that plugs into existing risk, compliance and security structures instead of competing with them. See [financial services](page:industries/financial-services)." },
-          { "title": "Software companies building AI into their products", "text": "If you ship AI features to customers, you may be a provider, not only a deployer. We help you tell the difference and prepare the documentation your enterprise customers will ask for. See [software & SaaS](page:industries/software-saas)." }
+          {
+            "title": "Companies already using AI without a framework",
+            "text": "Copilot licences, a few agents in production and a growing list of tools nobody approved. Governance here starts with the register and a pragmatic classification, then adds only the controls you need."
+          },
+          {
+            "title": "Mittelstand companies with a works council and a busy DPO",
+            "text": "Owner-managed companies need something a lean organisation can keep running: a framework that fits on a few pages, and a works council that gets the information it needs early. See [Mittelstand](page:for/mittelstand)."
+          },
+          {
+            "title": "Corporates and regulated industries",
+            "text": "Financial services, insurers and businesses close to healthcare face sector rules on top of the AI Act. We design governance that plugs into existing risk, compliance and security structures instead of competing with them. See [financial services](page:industries/financial-services)."
+          },
+          {
+            "title": "Software companies building AI into their products",
+            "text": "If you ship AI features to customers, you may be a provider, not only a deployer. We help you tell the difference and prepare the documentation your enterprise customers will ask for. See [software & SaaS](page:industries/software-saas)."
+          }
         ]
       },
       {
@@ -71,32 +148,75 @@
         "heading": "How we approach governance",
         "variant": "check",
         "items": [
-          { "title": "Proportionate, not maximal", "text": "An agent that summarises tickets and a tool that pre-screens applicants do not need the same controls. We size obligations to actual risk, which is what the Act intends." },
-          { "title": "Built into the workflow", "text": "Oversight checkpoints, logging and approvals live inside the agent design, not in a document nobody opens. See [guardrails for AI agents](page:insights/guardrails-for-agents)." },
-          { "title": "Standards as a reference, not a badge", "text": "We align frameworks with ISO/IEC 42001 and, where useful, the NIST AI Risk Management Framework. We certify no one, and we tell you honestly whether certification is worth pursuing for a company your size." },
-          { "title": "Consulting, not legal advice", "text": "We prepare, structure and draft. The legal assessment stays with your counsel and your DPO, and because the EU AI Act is still evolving, we recommend checking its current status regularly." }
+          {
+            "title": "Proportionate, not maximal",
+            "text": "An agent that summarises tickets and a tool that pre-screens applicants do not need the same controls. We size obligations to actual risk, which is what the Act intends."
+          },
+          {
+            "title": "Built into the workflow",
+            "text": "Oversight checkpoints, logging and approvals live inside the agent design, not in a document nobody opens. See [guardrails for AI agents](page:insights/guardrails-for-agents)."
+          },
+          {
+            "title": "Standards as a reference, not a badge",
+            "text": "We align frameworks with ISO/IEC 42001 and, where useful, the NIST AI Risk Management Framework. We certify no one, and we tell you honestly whether certification is worth pursuing for a company your size."
+          },
+          {
+            "title": "Consulting, not legal advice",
+            "text": "We prepare, structure and draft. The legal assessment stays with your counsel and your DPO, and because the EU AI Act is still evolving, we recommend checking its current status regularly."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Standards and tools we work with",
-        "items": ["EU AI Act", "GDPR", "ISO/IEC 42001", "NIST AI RMF", "DPIA templates", "AI register templates", "Model cards", "Langfuse", "Microsoft Purview", "Microsoft Copilot Studio"],
+        "items": [
+          "EU AI Act",
+          "GDPR",
+          "ISO/IEC 42001",
+          "NIST AI RMF",
+          "DPIA templates",
+          "AI register templates",
+          "Model cards",
+          "Langfuse",
+          "Microsoft Purview",
+          "Microsoft Copilot Studio"
+        ],
         "note": "Standards are frameworks we align with, not certifications we hold. Products are tools we evaluate and work with, without reseller or partnership agreements."
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Does the EU AI Act apply to us if we only use ChatGPT or Microsoft Copilot?", "a": "In most cases, yes. Using an AI system at work makes you a deployer under the Act, and the AI literacy duty applies to every company that uses AI, whatever the tool. How much else applies depends on the use case, not the product: drafting marketing copy is usually minimal risk, while pre-screening applicants or scoring creditworthiness is high-risk. We classify your actual uses; your legal advisers confirm the assessment." },
-          { "q": "What does the AI literacy duty in Article 4 require?", "a": "Since February 2025, providers and deployers must ensure that the people using AI systems on their behalf have sufficient AI literacy for their role and context. The Act prescribes neither a format nor a certificate. We define what is proportionate for your workforce and deliver it through our [AI training](page:services/ai-training), which is designed to support compliance; whether it is sufficient in your case remains a legal judgement." },
-          { "q": "Do we need a data protection impact assessment for every AI use case?", "a": "No. A DPIA is required where processing is likely to result in a high risk to individuals. Many AI use cases with personal data meet that threshold; many do not. Your data protection officer makes the call. We prepare the input, from data flows and purposes to legal bases, risks and mitigations, so the assessment is faster and more consistent." },
-          { "q": "Does the works council need to be involved?", "a": "In Germany, often yes. The Works Constitution Act gives the works council co-determination rights where technical systems could monitor employee behaviour or performance, and many AI tools touch that, often unintentionally. Involving the council early, with clear documentation of what a system records and what it does not, tends to turn a blocker into an ally. We prepare that documentation; the legal assessment stays with your counsel." },
-          { "q": "What happens after the framework is delivered?", "a": "The register needs maintaining, new use cases need classifying and the law keeps moving. Most clients choose one of three paths: an internal owner runs it with our templates and a quarterly review; a [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) owns it as part of a wider mandate; or the logs and documentation come out of [managed AI operations](page:services/managed-ai-operations) as a by-product." }
+          {
+            "q": "Does the EU AI Act apply to us if we only use ChatGPT or Microsoft Copilot?",
+            "a": "In most cases, yes. Using an AI system at work makes you a deployer under the Act, and the AI literacy duty applies to every company that uses AI, whatever the tool. How much else applies depends on the use case, not the product: drafting marketing copy is usually minimal risk, while pre-screening applicants or scoring creditworthiness is high-risk. We classify your actual uses; your legal advisers confirm the assessment."
+          },
+          {
+            "q": "What does the AI literacy duty in Article 4 require?",
+            "a": "Since February 2025, providers and deployers must ensure that the people using AI systems on their behalf have sufficient AI literacy for their role and context. The Act prescribes neither a format nor a certificate. We define what is proportionate for your workforce and deliver it through our [AI training](page:services/ai-training), which is designed to support compliance; whether it is sufficient in your case remains a legal judgement."
+          },
+          {
+            "q": "Do we need a data protection impact assessment for every AI use case?",
+            "a": "No. A DPIA is required where processing is likely to result in a high risk to individuals. Many AI use cases with personal data meet that threshold; many do not. Your data protection officer makes the call. We prepare the input, from data flows and purposes to legal bases, risks and mitigations, so the assessment is faster and more consistent."
+          },
+          {
+            "q": "Does the works council need to be involved?",
+            "a": "In Germany, often yes. The Works Constitution Act gives the works council co-determination rights where technical systems could monitor employee behaviour or performance, and many AI tools touch that, often unintentionally. Involving the council early, with clear documentation of what a system records and what it does not, tends to turn a blocker into an ally. We prepare that documentation; the legal assessment stays with your counsel."
+          },
+          {
+            "q": "What happens after the framework is delivered?",
+            "a": "The register needs maintaining, new use cases need classifying and the law keeps moving. Most clients choose one of three paths: an internal owner runs it with our templates and a quarterly review; a [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) owns it as part of a wider mandate; or the logs and documentation come out of [managed AI operations](page:services/managed-ai-operations) as a by-product."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Related services",
-        "pages": ["services/ai-strategy", "services/ai-training", "services/managed-ai-operations", "insights/eu-ai-act-guide"]
+        "pages": [
+          "services/ai-strategy",
+          "services/ai-training",
+          "services/managed-ai-operations",
+          "insights/eu-ai-act-guide"
+        ]
       }
     ]
   },
@@ -110,8 +230,14 @@
       "title": "KI-Governance, die Projekte freigibt,",
       "titleAccent": "statt sie auszubremsen.",
       "standfirst": "EU AI Act und DSGVO hindern Sie nicht daran, KI und Agenten einzusetzen. Woran es scheitert, ist meist Unklarheit: Was läuft eigentlich, wer ist verantwortlich, wo liegen die Risiken. Wir bauen das Register, die Risikoeinstufung, die Aufsicht und die Richtlinien, mit denen Rechtsabteilung, Datenschutzbeauftragter und Betriebsrat KI freigeben können, statt sie zu vertagen.",
-      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
-      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "href": "booking"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
     },
     "sections": [
       {
@@ -125,45 +251,116 @@
           "Eines vorweg: Wir sind Berater, keine Anwälte. Wir strukturieren die Fakten, entwerfen die Dokumente und gestalten die Kontrollen – Hand in Hand mit Ihrer Rechtsabteilung und Ihrem Datenschutzbeauftragten, bei denen die rechtliche Bewertung liegt."
         ],
         "facts": [
-          ["Format", "Workshops, Bestandsaufnahme, schriftliches Rahmenwerk, Vorlagen"],
-          ["Dauer", "In der Regel 4–8 Wochen, danach optional Begleitung"],
-          ["Für", "Geschäftsführung, Recht, Datenschutz, IT-Sicherheit, Betriebsrat"],
-          ["Ergebnis", "KI-Register, Risikoeinstufung, Richtlinien, Aufsichtskonzept"]
+          [
+            "Format",
+            "Workshops, Bestandsaufnahme, schriftliches Rahmenwerk, Vorlagen"
+          ],
+          [
+            "Dauer",
+            "In der Regel 4–8 Wochen, danach optional Begleitung"
+          ],
+          [
+            "Für",
+            "Geschäftsführung, Recht, Datenschutz, IT-Sicherheit, Betriebsrat"
+          ],
+          [
+            "Ergebnis",
+            "KI-Register, Risikoeinstufung, Richtlinien, Aufsichtskonzept"
+          ]
         ],
-        "link": { "label": "Unser Leitfaden zum EU AI Act für Unternehmen", "page": "insights/eu-ai-act-guide" }
+        "link": {
+          "label": "Unser Leitfaden zum EU AI Act für Unternehmen",
+          "page": "insights/eu-ai-act-guide"
+        }
       },
       {
         "type": "cards",
         "heading": "Was Sie bekommen",
         "intro": "Die Bausteine eines Governance-Rahmens, der zu einem Unternehmen Ihrer Größe passt. Nichts kommt hinein, weil es in einer Norm steht – alles kommt hinein, weil Sie es nutzen werden.",
         "items": [
-          { "icon": "doc", "title": "KI-Inventar und Register", "text": "Eine Liste aller eingesetzten KI-Systeme, Modelle und Agenten, von den freigegebenen Werkzeugen bis zu den Schatten-Tools im Marketing, je Eintrag mit Zweck, Daten, Anbieter, Verantwortlichen und Status. Sie wird zur zentralen Quelle für Audits und künftige Entscheidungen." },
-          { "icon": "scale", "title": "Risikoeinstufung nach EU AI Act", "text": "Jeder Use Case wird den Kategorien der Verordnung zugeordnet: verboten, hochriskant, begrenztes Risiko mit Transparenzpflichten oder minimales Risiko, mit einem Hinweis auf beteiligte KI-Modelle mit allgemeinem Verwendungszweck. Die Begründung steht dabei, damit Ihre Juristen sie bestätigen oder hinterfragen können." },
-          { "icon": "people", "title": "Betreiber- und Anbieterpflichten", "text": "Welche Rolle Sie je System einnehmen. Wer ein Werkzeug kauft und nutzt, ist Betreiber; wer es wesentlich verändert oder ein eigenes System auf den Markt bringt, kann Anbieter werden – mit einer deutlich längeren Pflichtenliste. Wir ordnen beides zu." },
-          { "icon": "eye", "title": "Menschliche Aufsicht und Transparenz", "text": "Aufsicht, die im Workflow verankert ist, statt in einer Richtlinie versprochen: Wer prüft was, wann muss ein Agent stoppen und übergeben, wie erfahren Nutzer, dass sie mit KI zu tun haben, und wie werden Ausgaben gekennzeichnet, wo die Verordnung das verlangt." },
-          { "icon": "lock", "title": "DSGVO und Datenschutz-Folgenabschätzung", "text": "Strukturierter Input für Ihren Datenschutzbeauftragten: Datenflüsse, Rechtsgrundlagen, Speicherfristen, Übermittlungen und ein Entwurf der Datenschutz-Folgenabschätzung für die Use Cases, die eine brauchen." },
-          { "icon": "book", "title": "KI-Nutzungsrichtlinie und Kompetenzplan", "text": "Eine kurze, lesbare Richtlinie, welche Werkzeuge für welche Daten erlaubt sind, und ein Plan für die [Pflicht zur KI-Kompetenz](page:services/ai-training) nach Artikel 4, der zu Ihrer Belegschaft passt statt zu einem generischen E-Learning." }
+          {
+            "icon": "doc",
+            "title": "KI-Inventar und Register",
+            "text": "Eine Liste aller eingesetzten KI-Systeme, Modelle und Agenten, von den freigegebenen Werkzeugen bis zu den Schatten-Tools im Marketing, je Eintrag mit Zweck, Daten, Anbieter, Verantwortlichen und Status. Sie wird zur zentralen Quelle für Audits und künftige Entscheidungen."
+          },
+          {
+            "icon": "scale",
+            "title": "Risikoeinstufung nach EU AI Act",
+            "text": "Jeder Use Case wird den Kategorien der Verordnung zugeordnet: verboten, hochriskant, begrenztes Risiko mit Transparenzpflichten oder minimales Risiko, mit einem Hinweis auf beteiligte KI-Modelle mit allgemeinem Verwendungszweck. Die Begründung steht dabei, damit Ihre Juristen sie bestätigen oder hinterfragen können."
+          },
+          {
+            "icon": "people",
+            "title": "Betreiber- und Anbieterpflichten",
+            "text": "Welche Rolle Sie je System einnehmen. Wer ein Werkzeug kauft und nutzt, ist Betreiber; wer es wesentlich verändert oder ein eigenes System auf den Markt bringt, kann Anbieter werden – mit einer deutlich längeren Pflichtenliste. Wir ordnen beides zu."
+          },
+          {
+            "icon": "eye",
+            "title": "Menschliche Aufsicht und Transparenz",
+            "text": "Aufsicht, die im Workflow verankert ist, statt in einer Richtlinie versprochen: Wer prüft was, wann muss ein Agent stoppen und übergeben, wie erfahren Nutzer, dass sie mit KI zu tun haben, und wie werden Ausgaben gekennzeichnet, wo die Verordnung das verlangt."
+          },
+          {
+            "icon": "lock",
+            "title": "DSGVO und Datenschutz-Folgenabschätzung",
+            "text": "Strukturierter Input für Ihren Datenschutzbeauftragten: Datenflüsse, Rechtsgrundlagen, Speicherfristen, Übermittlungen und ein Entwurf der Datenschutz-Folgenabschätzung für die Use Cases, die eine brauchen."
+          },
+          {
+            "icon": "book",
+            "title": "KI-Nutzungsrichtlinie und Kompetenzplan",
+            "text": "Eine kurze, lesbare Richtlinie, welche Werkzeuge für welche Daten erlaubt sind, und ein Plan für die [Pflicht zur KI-Kompetenz](page:services/ai-training) nach Artikel 4, der zu Ihrer Belegschaft passt statt zu einem generischen E-Learning."
+          }
         ]
       },
       {
         "type": "steps",
         "heading": "So läuft es ab",
         "items": [
-          { "title": "Bestandsaufnahme", "text": "Interviews mit Bereichsleitungen und IT, ein Durchgang durch Beschaffungs- und Lizenzlisten und eine Sammlung dessen, was tatsächlich genutzt wird. Das Register, das dabei entsteht, überrascht die Geschäftsführung meistens.", "meta": "Wochen 1–2" },
-          { "title": "Einstufung und Gap-Analyse", "text": "Jedes System wird nach EU AI Act eingestuft und gegen die DSGVO geprüft. Wir zeigen, wo Pflichten bereits erfüllt sind, wo Dokumentation fehlt und wo ein Use Case verändert oder gestoppt werden sollte.", "meta": "Wochen 2–4" },
-          { "title": "Rahmenwerk entwerfen", "text": "Rollen, Freigabewege, Kontrollpunkte, Logging- und Dokumentationsstandards, Kriterien für die Anbieterbewertung und die Nutzungsrichtlinie – ausgerichtet an ISO/IEC 42001 als Referenzrahmen, wo Ihnen das später hilft.", "meta": "Wochen 4–6" },
-          { "title": "Abstimmung mit Recht, Datenschutz und Betriebsrat", "text": "Wir gehen das Rahmenwerk mit Ihrer Rechtsabteilung, Ihrem Datenschutzbeauftragten und dem Betriebsrat durch. Einwände werden hier behandelt, einmal – nicht in jedem künftigen Projekt aufs Neue.", "meta": "Wochen 6–7" },
-          { "title": "Übergabe und Verankerung", "text": "Freigabe durch die Geschäftsführung, Vorlagen für neue Use Cases, eine Einweisung für die Personen, die das Register pflegen, und ein Review-Rhythmus, damit das Rahmenwerk mit Recht und Systemen Schritt hält.", "meta": "Woche 8" }
+          {
+            "title": "Bestandsaufnahme",
+            "text": "Interviews mit Bereichsleitungen und IT, ein Durchgang durch Beschaffungs- und Lizenzlisten und eine Sammlung dessen, was tatsächlich genutzt wird. Das Register, das dabei entsteht, überrascht die Geschäftsführung meistens.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Einstufung und Gap-Analyse",
+            "text": "Jedes System wird nach EU AI Act eingestuft und gegen die DSGVO geprüft. Wir zeigen, wo Pflichten bereits erfüllt sind, wo Dokumentation fehlt und wo ein Use Case verändert oder gestoppt werden sollte.",
+            "meta": "Wochen 2–4"
+          },
+          {
+            "title": "Rahmenwerk entwerfen",
+            "text": "Rollen, Freigabewege, Kontrollpunkte, Logging- und Dokumentationsstandards, Kriterien für die Anbieterbewertung und die Nutzungsrichtlinie – ausgerichtet an ISO/IEC 42001 als Referenzrahmen, wo Ihnen das später hilft.",
+            "meta": "Wochen 4–6"
+          },
+          {
+            "title": "Abstimmung mit Recht, Datenschutz und Betriebsrat",
+            "text": "Wir gehen das Rahmenwerk mit Ihrer Rechtsabteilung, Ihrem Datenschutzbeauftragten und dem Betriebsrat durch. Einwände werden hier behandelt, einmal – nicht in jedem künftigen Projekt aufs Neue.",
+            "meta": "Wochen 6–7"
+          },
+          {
+            "title": "Übergabe und Verankerung",
+            "text": "Freigabe durch die Geschäftsführung, Vorlagen für neue Use Cases, eine Einweisung für die Personen, die das Register pflegen, und ein Review-Rhythmus, damit das Rahmenwerk mit Recht und Systemen Schritt hält.",
+            "meta": "Woche 8"
+          }
         ]
       },
       {
         "type": "list",
         "heading": "Für wen das gedacht ist",
         "items": [
-          { "title": "Unternehmen, die KI bereits ohne Rahmen nutzen", "text": "Copilot-Lizenzen, ein paar Agenten im Produktivbetrieb und eine wachsende Liste von Werkzeugen, die niemand freigegeben hat. Governance beginnt hier mit dem Register und einer pragmatischen Einstufung und ergänzt nur die Kontrollen, die Sie brauchen." },
-          { "title": "Mittelstand mit Betriebsrat und ausgelastetem Datenschutzbeauftragten", "text": "Inhabergeführte Unternehmen brauchen etwas, das eine schlanke Organisation am Laufen halten kann: ein Rahmenwerk, das auf wenige Seiten passt, und einen Betriebsrat, der die nötigen Informationen früh bekommt. Mehr unter [Mittelstand](page:for/mittelstand)." },
-          { "title": "Konzerne und regulierte Branchen", "text": "Finanzdienstleister, Versicherer und Unternehmen im Gesundheitsumfeld haben Branchenregeln zusätzlich zur KI-Verordnung. Wir gestalten Governance, die an bestehende Strukturen für Risiko, Compliance und Sicherheit andockt, statt mit ihnen zu konkurrieren. Mehr unter [Finanzdienstleister](page:industries/financial-services)." },
-          { "title": "Softwareunternehmen mit KI im Produkt", "text": "Wer KI-Funktionen an Kunden ausliefert, ist womöglich Anbieter und nicht nur Betreiber. Wir helfen, den Unterschied zu erkennen, und bereiten die Dokumentation vor, die Ihre Unternehmenskunden anfordern werden. Mehr unter [Software & SaaS](page:industries/software-saas)." }
+          {
+            "title": "Unternehmen, die KI bereits ohne Rahmen nutzen",
+            "text": "Copilot-Lizenzen, ein paar Agenten im Produktivbetrieb und eine wachsende Liste von Werkzeugen, die niemand freigegeben hat. Governance beginnt hier mit dem Register und einer pragmatischen Einstufung und ergänzt nur die Kontrollen, die Sie brauchen."
+          },
+          {
+            "title": "Mittelstand mit Betriebsrat und ausgelastetem Datenschutzbeauftragten",
+            "text": "Inhabergeführte Unternehmen brauchen etwas, das eine schlanke Organisation am Laufen halten kann: ein Rahmenwerk, das auf wenige Seiten passt, und einen Betriebsrat, der die nötigen Informationen früh bekommt. Mehr unter [Mittelstand](page:for/mittelstand)."
+          },
+          {
+            "title": "Konzerne und regulierte Branchen",
+            "text": "Finanzdienstleister, Versicherer und Unternehmen im Gesundheitsumfeld haben Branchenregeln zusätzlich zur KI-Verordnung. Wir gestalten Governance, die an bestehende Strukturen für Risiko, Compliance und Sicherheit andockt, statt mit ihnen zu konkurrieren. Mehr unter [Finanzdienstleister](page:industries/financial-services)."
+          },
+          {
+            "title": "Softwareunternehmen mit KI im Produkt",
+            "text": "Wer KI-Funktionen an Kunden ausliefert, ist womöglich Anbieter und nicht nur Betreiber. Wir helfen, den Unterschied zu erkennen, und bereiten die Dokumentation vor, die Ihre Unternehmenskunden anfordern werden. Mehr unter [Software & SaaS](page:industries/software-saas)."
+          }
         ]
       },
       {
@@ -171,32 +368,75 @@
         "heading": "Wie wir Governance angehen",
         "variant": "check",
         "items": [
-          { "title": "Verhältnismäßig statt maximal", "text": "Ein Agent, der Tickets zusammenfasst, und ein Werkzeug, das Bewerbungen vorsortiert, brauchen nicht dieselben Kontrollen. Wir bemessen Pflichten am tatsächlichen Risiko – genau das sieht die Verordnung vor." },
-          { "title": "In den Workflow eingebaut", "text": "Kontrollpunkte, Logging und Freigaben leben im Design des Agenten, nicht in einem Dokument, das niemand öffnet. Siehe [Guardrails für KI-Agenten](page:insights/guardrails-for-agents)." },
-          { "title": "Normen als Referenz, nicht als Abzeichen", "text": "Wir richten Rahmenwerke an ISO/IEC 42001 und, wo sinnvoll, am NIST AI Risk Management Framework aus. Wir zertifizieren niemanden, und wir sagen Ihnen ehrlich, ob sich eine Zertifizierung für ein Unternehmen Ihrer Größe lohnt." },
-          { "title": "Beratung, keine Rechtsberatung", "text": "Wir bereiten vor, strukturieren und entwerfen. Die rechtliche Bewertung bleibt bei Ihrer Rechtsabteilung und Ihrem Datenschutzbeauftragten, und weil sich der EU AI Act weiterentwickelt, empfehlen wir, seinen aktuellen Stand regelmäßig zu prüfen." }
+          {
+            "title": "Verhältnismäßig statt maximal",
+            "text": "Ein Agent, der Tickets zusammenfasst, und ein Werkzeug, das Bewerbungen vorsortiert, brauchen nicht dieselben Kontrollen. Wir bemessen Pflichten am tatsächlichen Risiko – genau das sieht die Verordnung vor."
+          },
+          {
+            "title": "In den Workflow eingebaut",
+            "text": "Kontrollpunkte, Logging und Freigaben leben im Design des Agenten, nicht in einem Dokument, das niemand öffnet. Siehe [Guardrails für KI-Agenten](page:insights/guardrails-for-agents)."
+          },
+          {
+            "title": "Normen als Referenz, nicht als Abzeichen",
+            "text": "Wir richten Rahmenwerke an ISO/IEC 42001 und, wo sinnvoll, am NIST AI Risk Management Framework aus. Wir zertifizieren niemanden, und wir sagen Ihnen ehrlich, ob sich eine Zertifizierung für ein Unternehmen Ihrer Größe lohnt."
+          },
+          {
+            "title": "Beratung, keine Rechtsberatung",
+            "text": "Wir bereiten vor, strukturieren und entwerfen. Die rechtliche Bewertung bleibt bei Ihrer Rechtsabteilung und Ihrem Datenschutzbeauftragten, und weil sich der EU AI Act weiterentwickelt, empfehlen wir, seinen aktuellen Stand regelmäßig zu prüfen."
+          }
         ]
       },
       {
         "type": "tags",
         "heading": "Normen und Werkzeuge, mit denen wir arbeiten",
-        "items": ["EU AI Act (KI-Verordnung)", "DSGVO", "ISO/IEC 42001", "NIST AI RMF", "DSFA-Vorlagen", "Vorlagen für KI-Register", "Model Cards", "Langfuse", "Microsoft Purview", "Microsoft Copilot Studio"],
+        "items": [
+          "EU AI Act (KI-Verordnung)",
+          "DSGVO",
+          "ISO/IEC 42001",
+          "NIST AI RMF",
+          "DSFA-Vorlagen",
+          "Vorlagen für KI-Register",
+          "Model Cards",
+          "Langfuse",
+          "Microsoft Purview",
+          "Microsoft Copilot Studio"
+        ],
         "note": "Normen sind Rahmenwerke, an denen wir uns orientieren, keine Zertifizierungen, die wir halten. Produkte sind Werkzeuge, die wir bewerten und einsetzen – ohne Reseller- oder Partnerverträge."
       },
       {
         "type": "faq",
         "items": [
-          { "q": "Gilt der EU AI Act für uns, wenn wir nur ChatGPT oder Microsoft Copilot nutzen?", "a": "In den meisten Fällen ja. Wer ein KI-System beruflich einsetzt, ist nach der Verordnung Betreiber, und die Pflicht zur KI-Kompetenz trifft jedes Unternehmen, das KI nutzt – unabhängig vom Werkzeug. Wie viel darüber hinaus gilt, hängt vom Use Case ab, nicht vom Produkt: Marketingtexte entwerfen ist meist minimales Risiko, Bewerbungen vorsortieren oder Kreditwürdigkeit bewerten ist hochriskant. Wir stufen Ihre tatsächlichen Anwendungen ein; Ihre Rechtsberater bestätigen die Bewertung." },
-          { "q": "Was verlangt die Pflicht zur KI-Kompetenz nach Artikel 4?", "a": "Seit Februar 2025 müssen Anbieter und Betreiber dafür sorgen, dass die Personen, die in ihrem Auftrag KI-Systeme nutzen, über ausreichende KI-Kompetenz für ihre Rolle und ihren Kontext verfügen. Die Verordnung schreibt weder Format noch Zertifikat vor. Wir bestimmen, was für Ihre Belegschaft verhältnismäßig ist, und setzen es mit unseren [KI-Schulungen](page:services/ai-training) um, die auf die Unterstützung der Einhaltung ausgelegt sind; ob das in Ihrem Fall ausreicht, bleibt eine rechtliche Einschätzung." },
-          { "q": "Brauchen wir für jeden KI-Use-Case eine Datenschutz-Folgenabschätzung?", "a": "Nein. Eine Datenschutz-Folgenabschätzung ist erforderlich, wenn eine Verarbeitung voraussichtlich ein hohes Risiko für Betroffene mit sich bringt. Viele KI-Use-Cases mit personenbezogenen Daten erreichen diese Schwelle, viele nicht. Die Entscheidung trifft Ihr Datenschutzbeauftragter. Wir bereiten den Input vor, von Datenflüssen und Zwecken bis zu Rechtsgrundlagen, Risiken und Gegenmaßnahmen, damit die Bewertung schneller und einheitlicher wird." },
-          { "q": "Muss der Betriebsrat beteiligt werden?", "a": "In Deutschland häufig ja. Das Betriebsverfassungsgesetz gibt dem Betriebsrat Mitbestimmungsrechte, wenn technische Systeme Verhalten oder Leistung der Beschäftigten überwachen könnten – und viele KI-Werkzeuge berühren das, oft unbeabsichtigt. Wer den Betriebsrat früh einbindet und klar dokumentiert, was ein System aufzeichnet und was nicht, macht aus einem Blocker meist einen Verbündeten. Diese Dokumentation bereiten wir vor; die rechtliche Bewertung bleibt bei Ihrer Rechtsabteilung." },
-          { "q": "Was passiert, nachdem das Rahmenwerk übergeben ist?", "a": "Das Register muss gepflegt, neue Use Cases müssen eingestuft werden, und das Recht bleibt in Bewegung. Die meisten Kunden wählen einen von drei Wegen: Eine interne Verantwortliche führt es mit unseren Vorlagen und einem vierteljährlichen Review weiter; ein [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) verantwortet es als Teil eines breiteren Mandats; oder Protokolle und Dokumentation entstehen als Nebenprodukt von [Managed AI Operations](page:services/managed-ai-operations)." }
+          {
+            "q": "Gilt der EU AI Act für uns, wenn wir nur ChatGPT oder Microsoft Copilot nutzen?",
+            "a": "In den meisten Fällen ja. Wer ein KI-System beruflich einsetzt, ist nach der Verordnung Betreiber, und die Pflicht zur KI-Kompetenz trifft jedes Unternehmen, das KI nutzt – unabhängig vom Werkzeug. Wie viel darüber hinaus gilt, hängt vom Use Case ab, nicht vom Produkt: Marketingtexte entwerfen ist meist minimales Risiko, Bewerbungen vorsortieren oder Kreditwürdigkeit bewerten ist hochriskant. Wir stufen Ihre tatsächlichen Anwendungen ein; Ihre Rechtsberater bestätigen die Bewertung."
+          },
+          {
+            "q": "Was verlangt die Pflicht zur KI-Kompetenz nach Artikel 4?",
+            "a": "Seit Februar 2025 müssen Anbieter und Betreiber dafür sorgen, dass die Personen, die in ihrem Auftrag KI-Systeme nutzen, über ausreichende KI-Kompetenz für ihre Rolle und ihren Kontext verfügen. Die Verordnung schreibt weder Format noch Zertifikat vor. Wir bestimmen, was für Ihre Belegschaft verhältnismäßig ist, und setzen es mit unseren [KI-Schulungen](page:services/ai-training) um, die auf die Unterstützung der Einhaltung ausgelegt sind; ob das in Ihrem Fall ausreicht, bleibt eine rechtliche Einschätzung."
+          },
+          {
+            "q": "Brauchen wir für jeden KI-Use-Case eine Datenschutz-Folgenabschätzung?",
+            "a": "Nein. Eine Datenschutz-Folgenabschätzung ist erforderlich, wenn eine Verarbeitung voraussichtlich ein hohes Risiko für Betroffene mit sich bringt. Viele KI-Use-Cases mit personenbezogenen Daten erreichen diese Schwelle, viele nicht. Die Entscheidung trifft Ihr Datenschutzbeauftragter. Wir bereiten den Input vor, von Datenflüssen und Zwecken bis zu Rechtsgrundlagen, Risiken und Gegenmaßnahmen, damit die Bewertung schneller und einheitlicher wird."
+          },
+          {
+            "q": "Muss der Betriebsrat beteiligt werden?",
+            "a": "In Deutschland häufig ja. Das Betriebsverfassungsgesetz gibt dem Betriebsrat Mitbestimmungsrechte, wenn technische Systeme Verhalten oder Leistung der Beschäftigten überwachen könnten – und viele KI-Werkzeuge berühren das, oft unbeabsichtigt. Wer den Betriebsrat früh einbindet und klar dokumentiert, was ein System aufzeichnet und was nicht, macht aus einem Blocker meist einen Verbündeten. Diese Dokumentation bereiten wir vor; die rechtliche Bewertung bleibt bei Ihrer Rechtsabteilung."
+          },
+          {
+            "q": "Was passiert, nachdem das Rahmenwerk übergeben ist?",
+            "a": "Das Register muss gepflegt, neue Use Cases müssen eingestuft werden, und das Recht bleibt in Bewegung. Die meisten Kunden wählen einen von drei Wegen: Eine interne Verantwortliche führt es mit unseren Vorlagen und einem vierteljährlichen Review weiter; ein [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) verantwortet es als Teil eines breiteren Mandats; oder Protokolle und Dokumentation entstehen als Nebenprodukt von [Managed AI Operations](page:services/managed-ai-operations)."
+          }
         ]
       },
       {
         "type": "links",
         "heading": "Passende Leistungen",
-        "pages": ["services/ai-strategy", "services/ai-training", "services/managed-ai-operations", "insights/eu-ai-act-guide"]
+        "pages": [
+          "services/ai-strategy",
+          "services/ai-training",
+          "services/managed-ai-operations",
+          "insights/eu-ai-act-guide"
+        ]
       }
     ]
   }
