@@ -1,0 +1,171 @@
+{
+  "id": "for/enterprise",
+  "en": {
+    "metaTitle": "Enterprise AI Consulting: From Pilots to Production | Neurotech",
+    "metaDescription": "Enterprise AI consulting: turn scattered pilots into governed production programmes, decide on platforms, scale AI governance and complement your integrators.",
+    "cardTitle": "Enterprise & corporates",
+    "cardText": "A senior, independent specialist unit for corporates: from a portfolio of pilots to governed production programmes, platform decisions and AI governance at scale.",
+    "hero": {
+      "eyebrow": "For enterprise & corporates",
+      "title": "Many pilots, little production.",
+      "titleAccent": "We close that gap.",
+      "standfirst": "Large organisations rarely lack AI initiatives. They lack the decisions that let initiatives become systems: which platform, which governance, who owns the outcome, how to measure it. We work as a small, senior, vendor-independent unit alongside your architecture, security and procurement functions, and alongside the system integrators you already have.",
+      "cta": { "label": "Book an intro call", "page": "contact" },
+      "cta2": { "label": "AI governance service", "page": "services/ai-governance" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why enterprise AI stalls",
+        "lede": "The pilots work. What fails is everything around them: ownership, platform choice, governance, procurement and the patience to industrialise one thing before starting the next.",
+        "body": [
+          "A typical picture: thirty proofs of concept across business units, three competing platforms, a Copilot rollout that nobody measures, an AI council that meets monthly and approves nothing, and a security board that has not yet seen a single agent architecture. Each pilot was reasonable on its own. Together they form a portfolio that nobody manages.",
+          "Turning this into production is not primarily a technology problem. It needs a platform decision the architecture board can defend, a governance model that satisfies legal, risk, procurement and the works council without slowing every project to a halt, and business-unit programmes with an owner, a baseline and a target.",
+          "We are not a large system integrator, and we do not want to be one. We are the senior, independent specialist unit that helps you decide, design and set the standards, then works with your integrators and internal teams so that the standards are actually applied. Our [AI governance](page:services/ai-governance) and [AI strategy](page:services/ai-strategy) work is written for exactly this setting."
+        ],
+        "facts": [
+          ["Typical client", "Business units and group functions of corporates with 2,000+ employees"],
+          ["Role", "Senior specialist unit alongside your SIs and internal teams"],
+          ["Platforms", "Microsoft Copilot and Azure AI Foundry, Google Gemini Enterprise, AWS, Salesforce Agentforce, SAP Joule, ServiceNow, open-weight models"],
+          ["Outcome", "A governed, measurable path from pilot portfolio to production"]
+        ],
+        "link": { "label": "Why most AI pilots fail", "page": "insights/why-ai-pilots-fail" }
+      },
+      {
+        "type": "list",
+        "heading": "Where corporates usually stand",
+        "items": [
+          { "title": "A portfolio of pilots without a portfolio owner", "text": "Every business unit has experimented. Results are anecdotal, costs are scattered across cloud bills and licences, and nobody can say which three initiatives deserve the budget to go into production." },
+          { "title": "Platform decisions that are postponed or made by default", "text": "Microsoft Copilot and Azure AI Foundry, Google Gemini Enterprise, AWS, Salesforce Agentforce, SAP Joule and ServiceNow each come with their own agents. Without a target picture, the company ends up with all of them, integrated with none." },
+          { "title": "Governance that exists on paper", "text": "An AI policy has been published and an AI register started. What is missing is the operating part: intake, risk classification under the EU AI Act, model and vendor assessment, monitoring, and a clear path from idea to approved system." },
+          { "title": "Centre of excellence versus federated teams", "text": "Central teams set standards but cannot scale; federated teams move fast but diverge. Most organisations need a deliberate mix and have not yet decided where the line runs." },
+          { "title": "Boards, integrators and the works council all have a say", "text": "Architecture and security boards, procurement, the data protection officer, the works council and two system integrators are all involved. Each has legitimate questions. Without someone who speaks all of their languages, every project waits on the slowest." }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "What we do for corporates",
+        "intro": "We take on the pieces that large programmes tend to leave unowned: decisions, standards and the first measurable results.",
+        "items": [
+          { "icon": "map", "title": "Portfolio triage and production roadmap", "text": "We review the existing pilots against value, feasibility, risk and platform fit, retire the ones that should stop, and sequence the rest into business-unit programmes with owners, baselines and targets. Read about our [AI strategy](page:services/ai-strategy) work.", "page": "services/ai-strategy" },
+          { "icon": "layers", "title": "Platform and reference architecture", "text": "An independent evaluation of Microsoft, Google, AWS, Salesforce, SAP, ServiceNow and open-weight options against your landscape, data residency and existing contracts. The result is a reference architecture your architecture board can adopt and your integrators can build to. See also [build versus buy](page:insights/build-vs-buy)." },
+          { "icon": "shield", "title": "AI governance at scale", "text": "AI register, risk classification under the EU AI Act, model risk management, vendor and procurement assessment, monitoring and audit trails. Designed with legal, risk, information security and the works council so that it is used rather than circumvented.", "page": "services/ai-governance" },
+          { "icon": "people", "title": "Operating model: centre of excellence or federated", "text": "We help you decide what stays central (standards, platform, governance, evaluation) and what belongs in the business units (use cases, ownership, change), and we set up the intake process that connects the two." },
+          { "icon": "agent", "title": "Production programmes with your integrators", "text": "We design and lead the first business-unit programmes, from [agent development](page:services/ai-agent-development) to hand-over, working with your system integrators rather than against them. We set the standards, review the work and make sure the metrics survive the go-live." },
+          { "icon": "refresh", "title": "Change management and AI literacy", "text": "Role-based training, the AI-literacy duties under the EU AI Act, communication with the works council and a realistic plan for how work changes in the affected teams. See [AI training](page:services/ai-training).", "page": "services/ai-training" }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "A typical path",
+        "intro": "Enterprise engagements are modular. Most start with a short diagnostic and grow from there.",
+        "items": [
+          { "title": "Diagnostic", "text": "Portfolio review, interviews with business units, IT, security, procurement and legal, and a look at current platforms and contracts. Output: a written assessment of where production is blocked and what would unblock it.", "meta": "Weeks 1–4" },
+          { "title": "Decisions", "text": "Platform and reference architecture, governance operating model, centre-of-excellence design and a sequenced production roadmap, taken through your architecture, security and AI boards with us in the room.", "meta": "Weeks 5–10" },
+          { "title": "First production programmes", "text": "Two or three business-unit programmes with owners, baselines and targets, built by your teams and integrators under the new standards. We lead, review and measure, and we adjust the standards where reality disagrees with them.", "meta": "Months 3–8" },
+          { "title": "Scale and step back", "text": "The operating model runs on its own: intake, approval, build, monitoring. We stay available as a senior review function, as a [fractional Chief AI Officer](page:services/fractional-chief-ai-officer), or not at all.", "meta": "Month 9 onward" }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "How do you work with our existing system integrators?", "a": "As a specialist unit alongside them, not as a replacement. Typically we own the decisions and standards (platform, architecture, governance, metrics), review their designs and deliveries, and build the reference implementations that show what good looks like. Integrators usually welcome this because it removes ambiguity from their scope." },
+          { "q": "We already have a Copilot licence for everyone. Is that not enough?", "a": "A general-purpose assistant improves individual productivity; it does not automate a process. The measurable gains come from agents embedded in specific workflows, with access to your systems and clear guardrails. We help you get value from the licences you have and decide where purpose-built agents are needed on top." },
+          { "q": "What does AI governance at enterprise scale involve?", "a": "An AI register of all systems in use, a risk classification aligned with the EU AI Act, model and vendor assessment, defined human oversight, monitoring and incident handling, and a documented intake process. It must integrate with existing information security, procurement and data protection processes rather than duplicate them. We describe obligations in general terms and recommend confirming the current legal status with your counsel." },
+          { "q": "Should we centralise AI in a centre of excellence?", "a": "Usually a mix: a small central team for platform, standards, governance and evaluation, and business-unit teams that own use cases and results. Fully central teams become bottlenecks; fully federated teams produce thirty incompatible pilots. We help draw the line for your organisation." },
+          { "q": "How do you measure a business-unit programme?", "a": "Every use case starts with a baseline (cycle time, cost per case, error rate, throughput, revenue effect) and a target agreed with the business owner. We instrument the system so that the metric is reported automatically and reviewed monthly. Programmes that cannot be measured do not start." },
+          { "q": "How do you handle the works council in a corporate setting?", "a": "As a stakeholder from the beginning, with clear descriptions of what each system does, which employee data it touches and how work changes. Framework agreements on AI use often make individual projects faster; we help prepare them together with HR and legal." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": ["services/ai-governance", "services/ai-strategy", "services/managed-ai-operations", "insights/why-ai-pilots-fail"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung für Konzerne: von Piloten zum Produktivbetrieb",
+    "metaDescription": "KI-Beratung für Konzerne: verstreute Piloten werden zu gesteuerten Produktivprogrammen, mit Plattformentscheidung, skalierbarer Governance und Ihren Integratoren.",
+    "cardTitle": "Konzerne & Großunternehmen",
+    "cardText": "Eine kleine, unabhängige Spezialeinheit für Großunternehmen: vom Pilot-Portfolio zu gesteuerten Produktivprogrammen, Plattformentscheidungen und KI-Governance im großen Maßstab.",
+    "hero": {
+      "eyebrow": "Für Konzerne & Großunternehmen",
+      "title": "Viele Piloten, wenig Produktivbetrieb.",
+      "titleAccent": "Wir schließen diese Lücke.",
+      "standfirst": "Großen Organisationen fehlt es selten an KI-Initiativen. Es fehlen die Entscheidungen, die aus Initiativen Systeme machen: welche Plattform, welche Governance, wer das Ergebnis verantwortet, wie es gemessen wird. Wir arbeiten als kleine, erfahrene, herstellerunabhängige Einheit neben Ihren Architektur-, Sicherheits- und Einkaufsfunktionen – und neben den Systemintegratoren, die Sie bereits haben.",
+      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
+      "cta2": { "label": "KI-Governance-Beratung", "page": "services/ai-governance" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum KI im Konzern stockt",
+        "lede": "Die Piloten funktionieren. Was scheitert, ist alles drumherum: Verantwortung, Plattformwahl, Governance, Einkauf und die Geduld, eine Sache zu industrialisieren, bevor die nächste beginnt.",
+        "body": [
+          "Ein typisches Bild: dreißig Proofs of Concept in den Geschäftsbereichen, drei konkurrierende Plattformen, ein Copilot-Rollout, den niemand misst, ein KI-Gremium, das monatlich tagt und nichts freigibt, und ein Sicherheitsboard, das noch keine einzige Agentenarchitektur gesehen hat. Jeder Pilot für sich war vernünftig. Zusammen sind sie ein Portfolio, das niemand steuert.",
+          "Daraus Produktivbetrieb zu machen, ist in erster Linie kein Technikproblem. Es braucht eine Plattformentscheidung, die das Architekturboard vertreten kann, ein Governance-Modell, das Recht, Risiko, Einkauf und Betriebsrat zufriedenstellt, ohne jedes Projekt auszubremsen, und Programme in den Geschäftsbereichen mit Verantwortlichem, Ausgangsbasis und Zielwert.",
+          "Wir sind kein großer Systemintegrator und wollen keiner sein. Wir sind die erfahrene, unabhängige Spezialeinheit, die Ihnen hilft zu entscheiden, zu entwerfen und Standards zu setzen – und die dann mit Ihren Integratoren und internen Teams dafür sorgt, dass die Standards auch angewendet werden. Unsere Arbeit zu [KI-Governance](page:services/ai-governance) und [KI-Strategie](page:services/ai-strategy) ist genau für dieses Umfeld geschrieben."
+        ],
+        "facts": [
+          ["Typischer Kunde", "Geschäftsbereiche und Konzernfunktionen ab etwa 2.000 Beschäftigten"],
+          ["Rolle", "Erfahrene Spezialeinheit neben Ihren SIs und internen Teams"],
+          ["Plattformen", "Microsoft Copilot und Azure AI Foundry, Google Gemini Enterprise, AWS, Salesforce Agentforce, SAP Joule, ServiceNow, offene Modelle"],
+          ["Ergebnis", "Ein gesteuerter, messbarer Weg vom Pilot-Portfolio in den Produktivbetrieb"]
+        ],
+        "link": { "label": "Warum die meisten KI-Piloten scheitern", "page": "insights/why-ai-pilots-fail" }
+      },
+      {
+        "type": "list",
+        "heading": "Wo Konzerne meist stehen",
+        "items": [
+          { "title": "Ein Portfolio von Piloten ohne Portfolio-Verantwortlichen", "text": "Jeder Geschäftsbereich hat experimentiert. Die Ergebnisse sind anekdotisch, die Kosten verteilen sich über Cloud-Rechnungen und Lizenzen, und niemand kann sagen, welche drei Initiativen das Budget für den Produktivbetrieb verdienen." },
+          { "title": "Plattformentscheidungen, die vertagt oder nebenbei getroffen werden", "text": "Microsoft Copilot und Azure AI Foundry, Google Gemini Enterprise, AWS, Salesforce Agentforce, SAP Joule und ServiceNow bringen jeweils eigene Agenten mit. Ohne Zielbild landet das Unternehmen bei allen – integriert mit keinem." },
+          { "title": "Governance, die auf dem Papier existiert", "text": "Eine KI-Richtlinie ist veröffentlicht, ein KI-Register begonnen. Was fehlt, ist der operative Teil: Aufnahmeprozess, Risikoeinstufung nach EU AI Act, Modell- und Lieferantenbewertung, Monitoring und ein klarer Weg von der Idee zum freigegebenen System." },
+          { "title": "Center of Excellence oder föderale Teams", "text": "Zentrale Teams setzen Standards, skalieren aber nicht; föderale Teams sind schnell, laufen aber auseinander. Die meisten Organisationen brauchen eine bewusste Mischung und haben noch nicht entschieden, wo die Grenze verläuft." },
+          { "title": "Gremien, Integratoren und Betriebsrat reden alle mit", "text": "Architektur- und Sicherheitsboard, Einkauf, Datenschutzbeauftragte, Betriebsrat und zwei Systemintegratoren sind beteiligt. Jeder hat berechtigte Fragen. Ohne jemanden, der alle ihre Sprachen spricht, wartet jedes Projekt auf den Langsamsten." }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Was wir für Konzerne tun",
+        "intro": "Wir übernehmen die Teile, die große Programme gern unbesetzt lassen: Entscheidungen, Standards und die ersten messbaren Ergebnisse.",
+        "items": [
+          { "icon": "map", "title": "Portfolio-Triage und Produktiv-Roadmap", "text": "Wir prüfen die vorhandenen Piloten nach Nutzen, Machbarkeit, Risiko und Plattformpassung, beenden die, die aufhören sollten, und ordnen den Rest in Bereichsprogramme mit Verantwortlichen, Ausgangsbasis und Zielwerten. Mehr zu unserer [KI-Strategie](page:services/ai-strategy).", "page": "services/ai-strategy" },
+          { "icon": "layers", "title": "Plattform- und Referenzarchitektur", "text": "Eine unabhängige Bewertung der Optionen von Microsoft, Google, AWS, Salesforce, SAP, ServiceNow und offener Modelle entlang Ihrer Landschaft, Ihrer Anforderungen an den Datenstandort und Ihrer bestehenden Verträge. Das Ergebnis ist eine Referenzarchitektur, die Ihr Architekturboard verabschieden und Ihre Integratoren umsetzen können. Siehe auch [Build oder Buy](page:insights/build-vs-buy)." },
+          { "icon": "shield", "title": "KI-Governance im großen Maßstab", "text": "KI-Register, Risikoeinstufung nach EU AI Act, Modellrisiko-Management, Lieferanten- und Einkaufsbewertung, Monitoring und Audit-Trails. Entworfen mit Recht, Risiko, Informationssicherheit und Betriebsrat, damit es genutzt und nicht umgangen wird.", "page": "services/ai-governance" },
+          { "icon": "people", "title": "Betriebsmodell: Center of Excellence oder föderal", "text": "Wir helfen zu entscheiden, was zentral bleibt (Standards, Plattform, Governance, Evaluierung) und was in die Geschäftsbereiche gehört (Use Cases, Verantwortung, Veränderung), und richten den Aufnahmeprozess ein, der beides verbindet." },
+          { "icon": "agent", "title": "Produktivprogramme mit Ihren Integratoren", "text": "Wir entwerfen und führen die ersten Bereichsprogramme, von der [Agenten-Entwicklung](page:services/ai-agent-development) bis zur Übergabe, mit Ihren Systemintegratoren statt gegen sie. Wir setzen die Standards, prüfen die Arbeit und sorgen dafür, dass die Kennzahlen den Go-live überleben." },
+          { "icon": "refresh", "title": "Change Management und KI-Kompetenz", "text": "Rollenbezogene Schulungen, die KI-Kompetenz-Pflichten nach EU AI Act, Kommunikation mit dem Betriebsrat und ein realistischer Plan dafür, wie sich die Arbeit in den betroffenen Teams verändert. Mehr unter [KI-Schulungen](page:services/ai-training).", "page": "services/ai-training" }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Der typische Weg",
+        "intro": "Konzernprojekte sind modular. Die meisten beginnen mit einer kurzen Diagnose und wachsen von dort.",
+        "items": [
+          { "title": "Diagnose", "text": "Portfolio-Review, Interviews mit Geschäftsbereichen, IT, Sicherheit, Einkauf und Recht sowie ein Blick auf die aktuellen Plattformen und Verträge. Ergebnis: eine schriftliche Einschätzung, wo der Produktivbetrieb blockiert ist und was ihn freimachen würde.", "meta": "Wochen 1–4" },
+          { "title": "Entscheidungen", "text": "Plattform und Referenzarchitektur, Governance-Betriebsmodell, Aufbau des Center of Excellence und eine geordnete Produktiv-Roadmap – durch Ihre Architektur-, Sicherheits- und KI-Gremien gebracht, mit uns im Raum.", "meta": "Wochen 5–10" },
+          { "title": "Erste Produktivprogramme", "text": "Zwei oder drei Bereichsprogramme mit Verantwortlichen, Ausgangsbasis und Zielwerten, gebaut von Ihren Teams und Integratoren nach den neuen Standards. Wir führen, prüfen und messen und passen die Standards an, wo die Realität ihnen widerspricht.", "meta": "Monate 3–8" },
+          { "title": "Skalieren und zurücktreten", "text": "Das Betriebsmodell läuft von allein: Aufnahme, Freigabe, Bau, Monitoring. Wir bleiben als erfahrene Review-Instanz verfügbar, als [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) – oder gar nicht.", "meta": "Ab Monat 9" }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Wie arbeiten Sie mit unseren bestehenden Systemintegratoren zusammen?", "a": "Als Spezialeinheit neben ihnen, nicht als Ersatz. Typischerweise verantworten wir Entscheidungen und Standards (Plattform, Architektur, Governance, Kennzahlen), prüfen ihre Entwürfe und Lieferungen und bauen die Referenzimplementierungen, die zeigen, wie gut aussieht. Integratoren begrüßen das meist, weil es Unklarheit aus ihrem Auftrag nimmt." },
+          { "q": "Wir haben bereits Copilot-Lizenzen für alle. Reicht das nicht?", "a": "Ein allgemeiner Assistent verbessert die individuelle Produktivität; er automatisiert keinen Prozess. Die messbaren Effekte kommen von Agenten, die in konkrete Workflows eingebettet sind, Zugriff auf Ihre Systeme haben und klare Leitplanken kennen. Wir helfen, aus den vorhandenen Lizenzen Nutzen zu ziehen, und entscheiden mit Ihnen, wo zusätzlich spezialisierte Agenten nötig sind." },
+          { "q": "Was gehört zu KI-Governance im Konzernmaßstab?", "a": "Ein KI-Register aller eingesetzten Systeme, eine Risikoeinstufung entlang des EU AI Act, Modell- und Lieferantenbewertung, definierte menschliche Aufsicht, Monitoring und Umgang mit Vorfällen sowie ein dokumentierter Aufnahmeprozess. Das muss in bestehende Prozesse für Informationssicherheit, Einkauf und Datenschutz eingebettet sein, statt sie zu verdoppeln. Wir beschreiben Pflichten allgemein und empfehlen, den aktuellen rechtlichen Stand mit Ihrer Rechtsabteilung zu prüfen." },
+          { "q": "Sollten wir KI in einem Center of Excellence zentralisieren?", "a": "Meist eine Mischung: ein kleines zentrales Team für Plattform, Standards, Governance und Evaluierung und Teams in den Geschäftsbereichen, die Use Cases und Ergebnisse verantworten. Rein zentrale Teams werden zum Engpass; rein föderale Teams produzieren dreißig inkompatible Piloten. Wir helfen, die Grenze für Ihre Organisation zu ziehen." },
+          { "q": "Wie messen Sie ein Bereichsprogramm?", "a": "Jeder Use Case beginnt mit einer Ausgangsbasis (Durchlaufzeit, Kosten je Vorgang, Fehlerquote, Durchsatz, Umsatzeffekt) und einem Zielwert, der mit dem Fachverantwortlichen vereinbart ist. Wir instrumentieren das System so, dass die Kennzahl automatisch berichtet und monatlich geprüft wird. Programme, die sich nicht messen lassen, starten nicht." },
+          { "q": "Wie gehen Sie im Konzern mit dem Betriebsrat um?", "a": "Als Beteiligter von Anfang an, mit klaren Beschreibungen, was jedes System tut, welche Beschäftigtendaten es berührt und wie sich die Arbeit verändert. Rahmenvereinbarungen zum KI-Einsatz machen einzelne Projekte oft schneller; wir helfen, sie gemeinsam mit HR und Rechtsabteilung vorzubereiten." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": ["services/ai-governance", "services/ai-strategy", "services/managed-ai-operations", "insights/why-ai-pilots-fail"]
+      }
+    ]
+  }
+}

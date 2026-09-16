@@ -1,0 +1,12 @@
+{
+  "name": "neurotech-site",
+  "private": true,
+  "type": "module",
+  "description": "neurotech-ai.de — static bilingual site, generated from src/content by src/build.mjs",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node src/build.mjs --check",
+    "verify": "node src/check-site.mjs",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1"
+  }
+}

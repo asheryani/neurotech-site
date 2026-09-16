@@ -1,0 +1,553 @@
+{
+  "origin": "https://neurotech-ai.de",
+  "name": "Neurotech AI Solutions GmbH",
+  "shortName": "Neurotech AI Solutions",
+  "email": "hello@neurotech-ai.de",
+  "launchDate": "2026-09-16",
+  "address": {
+    "street": "Lückstraße 24",
+    "postalCode": "10317",
+    "city": "Berlin",
+    "country": "DE"
+  },
+  "managingDirector": "Ashraf Al-Eryani",
+  "register": "Amtsgericht Charlottenburg, HRB 270776 B",
+  "vatId": "DE452138138",
+  "defaultLang": "en",
+  "langs": [
+    "en",
+    "de"
+  ],
+  "nav": [
+    "services",
+    "solutions",
+    "industries",
+    "insights",
+    "about",
+    "contact"
+  ],
+  "groups": {
+    "services": [
+      "services/ai-strategy",
+      "services/ai-readiness-assessment",
+      "services/agentic-workflows",
+      "services/ai-agent-development",
+      "services/knowledge-assistants",
+      "services/ai-governance",
+      "services/ai-training",
+      "services/fractional-chief-ai-officer",
+      "services/managed-ai-operations",
+      "services/data-foundations"
+    ],
+    "solutions": [
+      "solutions/marketing",
+      "solutions/sales",
+      "solutions/customer-service",
+      "solutions/operations",
+      "solutions/finance",
+      "solutions/hr",
+      "solutions/strategy",
+      "solutions/legal-compliance",
+      "solutions/it-engineering",
+      "solutions/procurement"
+    ],
+    "audiences": [
+      "for/startups",
+      "for/mittelstand",
+      "for/enterprise"
+    ],
+    "industries": [
+      "industries/manufacturing",
+      "industries/professional-services",
+      "industries/ecommerce-retail",
+      "industries/financial-services",
+      "industries/logistics",
+      "industries/software-saas"
+    ],
+    "insights": [
+      "insights/what-is-agentic-ai",
+      "insights/agents-vs-rpa-vs-chatbots",
+      "insights/eu-ai-act-guide",
+      "insights/first-agent-use-case",
+      "insights/build-vs-buy",
+      "insights/mcp-explained",
+      "insights/why-ai-pilots-fail",
+      "insights/ai-readiness-checklist",
+      "insights/guardrails-for-agents",
+      "insights/sovereign-ai-eu-hosting"
+    ],
+    "company": [
+      "about",
+      "approach",
+      "contact",
+      "faq",
+      "glossary"
+    ],
+    "legal": [
+      "imprint",
+      "privacy"
+    ]
+  },
+  "pages": {
+    "home": {
+      "type": "home",
+      "en": "",
+      "de": ""
+    },
+    "services": {
+      "type": "hub",
+      "en": "services",
+      "de": "leistungen"
+    },
+    "services/ai-strategy": {
+      "type": "service",
+      "parent": "services",
+      "icon": "strategy",
+      "en": "services/ai-strategy-consulting",
+      "de": "leistungen/ki-strategie-beratung"
+    },
+    "services/ai-readiness-assessment": {
+      "type": "service",
+      "parent": "services",
+      "icon": "search",
+      "en": "services/ai-readiness-assessment",
+      "de": "leistungen/ki-readiness-assessment"
+    },
+    "services/agentic-workflows": {
+      "type": "service",
+      "parent": "services",
+      "icon": "workflow",
+      "en": "services/agentic-workflow-automation",
+      "de": "leistungen/agentische-workflows-automatisierung"
+    },
+    "services/ai-agent-development": {
+      "type": "service",
+      "parent": "services",
+      "icon": "agent",
+      "en": "services/ai-agent-development",
+      "de": "leistungen/ki-agenten-entwicklung"
+    },
+    "services/knowledge-assistants": {
+      "type": "service",
+      "parent": "services",
+      "icon": "book",
+      "en": "services/enterprise-knowledge-assistants-rag",
+      "de": "leistungen/wissensassistenten-rag"
+    },
+    "services/ai-governance": {
+      "type": "service",
+      "parent": "services",
+      "icon": "shield",
+      "en": "services/ai-governance-eu-ai-act",
+      "de": "leistungen/ki-governance-eu-ai-act"
+    },
+    "services/ai-training": {
+      "type": "service",
+      "parent": "services",
+      "icon": "people",
+      "en": "services/ai-training-workshops",
+      "de": "leistungen/ki-schulungen-workshops"
+    },
+    "services/fractional-chief-ai-officer": {
+      "type": "service",
+      "parent": "services",
+      "icon": "compass",
+      "en": "services/fractional-chief-ai-officer",
+      "de": "leistungen/fractional-chief-ai-officer"
+    },
+    "services/managed-ai-operations": {
+      "type": "service",
+      "parent": "services",
+      "icon": "gauge",
+      "en": "services/managed-ai-operations",
+      "de": "leistungen/managed-ai-operations"
+    },
+    "services/data-foundations": {
+      "type": "service",
+      "parent": "services",
+      "icon": "layers",
+      "en": "services/data-foundations-for-ai",
+      "de": "leistungen/datenbasis-fuer-ki"
+    },
+    "solutions": {
+      "type": "hub",
+      "en": "solutions",
+      "de": "loesungen"
+    },
+    "solutions/marketing": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "megaphone",
+      "en": "solutions/ai-agents-for-marketing",
+      "de": "loesungen/ki-agenten-marketing"
+    },
+    "solutions/sales": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "handshake",
+      "en": "solutions/ai-agents-for-sales",
+      "de": "loesungen/ki-agenten-vertrieb"
+    },
+    "solutions/customer-service": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "chat",
+      "en": "solutions/ai-agents-for-customer-service",
+      "de": "loesungen/ki-agenten-kundenservice"
+    },
+    "solutions/operations": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "gear",
+      "en": "solutions/ai-agents-for-operations",
+      "de": "loesungen/ki-agenten-operations"
+    },
+    "solutions/finance": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "chart",
+      "en": "solutions/ai-agents-for-finance",
+      "de": "loesungen/ki-agenten-finanzen-controlling"
+    },
+    "solutions/hr": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "people",
+      "en": "solutions/ai-agents-for-hr",
+      "de": "loesungen/ki-agenten-hr-personal"
+    },
+    "solutions/strategy": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "compass",
+      "en": "solutions/ai-for-strategy-and-leadership",
+      "de": "loesungen/ki-strategie-geschaeftsfuehrung"
+    },
+    "solutions/legal-compliance": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "scale",
+      "en": "solutions/ai-agents-for-legal-and-compliance",
+      "de": "loesungen/ki-agenten-recht-compliance"
+    },
+    "solutions/it-engineering": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "code",
+      "en": "solutions/ai-agents-for-it-and-software-engineering",
+      "de": "loesungen/ki-agenten-it-softwareentwicklung"
+    },
+    "solutions/procurement": {
+      "type": "solution",
+      "parent": "solutions",
+      "icon": "cart",
+      "en": "solutions/ai-agents-for-procurement",
+      "de": "loesungen/ki-agenten-einkauf"
+    },
+    "for/startups": {
+      "type": "audience",
+      "icon": "rocket",
+      "en": "for/startups",
+      "de": "fuer/startups"
+    },
+    "for/mittelstand": {
+      "type": "audience",
+      "icon": "factory",
+      "en": "for/mittelstand",
+      "de": "fuer/mittelstand"
+    },
+    "for/enterprise": {
+      "type": "audience",
+      "icon": "building",
+      "en": "for/enterprise",
+      "de": "fuer/konzerne"
+    },
+    "industries": {
+      "type": "hub",
+      "en": "industries",
+      "de": "branchen"
+    },
+    "industries/manufacturing": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "factory",
+      "en": "industries/manufacturing",
+      "de": "branchen/industrie-maschinenbau"
+    },
+    "industries/professional-services": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "briefcase",
+      "en": "industries/professional-services",
+      "de": "branchen/beratung-professional-services"
+    },
+    "industries/ecommerce-retail": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "cart",
+      "en": "industries/ecommerce-retail",
+      "de": "branchen/e-commerce-handel"
+    },
+    "industries/financial-services": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "bank",
+      "en": "industries/financial-services-insurance",
+      "de": "branchen/finanzdienstleister-versicherungen"
+    },
+    "industries/logistics": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "truck",
+      "en": "industries/logistics-supply-chain",
+      "de": "branchen/logistik-supply-chain"
+    },
+    "industries/software-saas": {
+      "type": "industry",
+      "parent": "industries",
+      "icon": "code",
+      "en": "industries/software-saas",
+      "de": "branchen/software-saas"
+    },
+    "insights": {
+      "type": "hub",
+      "en": "insights",
+      "de": "insights"
+    },
+    "insights/what-is-agentic-ai": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/what-is-agentic-ai",
+      "de": "insights/was-ist-agentic-ai"
+    },
+    "insights/agents-vs-rpa-vs-chatbots": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/ai-agents-vs-rpa-vs-chatbots",
+      "de": "insights/ki-agenten-vs-rpa-vs-chatbots"
+    },
+    "insights/eu-ai-act-guide": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/eu-ai-act-guide-for-companies",
+      "de": "insights/eu-ai-act-leitfaden-fuer-unternehmen"
+    },
+    "insights/first-agent-use-case": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/how-to-choose-your-first-ai-agent-use-case",
+      "de": "insights/ersten-ki-agenten-use-case-auswaehlen"
+    },
+    "insights/build-vs-buy": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/build-vs-buy-ai-agents",
+      "de": "insights/ki-agenten-selbst-bauen-oder-kaufen"
+    },
+    "insights/mcp-explained": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/model-context-protocol-mcp-explained",
+      "de": "insights/model-context-protocol-mcp-erklaert"
+    },
+    "insights/why-ai-pilots-fail": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/why-ai-pilots-fail-and-how-to-reach-production",
+      "de": "insights/warum-ki-pilotprojekte-scheitern"
+    },
+    "insights/ai-readiness-checklist": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/ai-readiness-checklist",
+      "de": "insights/ki-readiness-checkliste"
+    },
+    "insights/guardrails-for-agents": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/guardrails-for-ai-agents",
+      "de": "insights/guardrails-fuer-ki-agenten"
+    },
+    "insights/sovereign-ai-eu-hosting": {
+      "type": "article",
+      "parent": "insights",
+      "en": "insights/sovereign-ai-eu-hosted-llms",
+      "de": "insights/souveraene-ki-eu-hosting"
+    },
+    "approach": {
+      "type": "page",
+      "en": "approach",
+      "de": "vorgehen"
+    },
+    "about": {
+      "type": "page",
+      "en": "about",
+      "de": "ueber-uns"
+    },
+    "contact": {
+      "type": "contact",
+      "en": "contact",
+      "de": "kontakt"
+    },
+    "faq": {
+      "type": "page",
+      "en": "faq",
+      "de": "faq"
+    },
+    "glossary": {
+      "type": "page",
+      "en": "glossary",
+      "de": "glossar"
+    },
+    "imprint": {
+      "type": "legal",
+      "en": "imprint",
+      "de": "impressum"
+    },
+    "privacy": {
+      "type": "legal",
+      "en": "privacy",
+      "de": "datenschutz"
+    }
+  },
+  "ui": {
+    "en": {
+      "langName": "English",
+      "switchLabel": "Deutsch",
+      "switchTitle": "Diese Seite auf Deutsch lesen",
+      "home": "Home",
+      "menu": "Menu",
+      "close": "Close",
+      "bookCall": "Book an intro call",
+      "skip": "Skip to content",
+      "faqHeading": "Frequently asked questions",
+      "related": "Related",
+      "readArticle": "Read article",
+      "minRead": "min read",
+      "published": "Published",
+      "updated": "Updated",
+      "allServices": "All services",
+      "allSolutions": "All solutions",
+      "allIndustries": "All industries",
+      "allInsights": "All insights",
+      "footerServices": "Services",
+      "footerSolutions": "AI agents by department",
+      "footerAudiences": "Who we work with",
+      "footerIndustries": "Industries",
+      "footerCompany": "Company",
+      "footerLegal": "Legal",
+      "footerTagline": "AI and agentic-workflow consultancy in Berlin, working with startups, Mittelstand companies and corporates across Germany and Europe.",
+      "ctaEyebrow": "Next step",
+      "ctaTitle": "Let's find the first workflow worth automating.",
+      "ctaText": "A 30-minute intro call, no slides and no obligation. We listen, ask about your processes, and tell you honestly where AI agents would pay off and where they would not.",
+      "ctaLabel": "Book an intro call",
+      "ctaSecondary": "Or write to hello@neurotech-ai.de",
+      "breadcrumb": "Breadcrumb",
+      "notFoundTitle": "Page not found",
+      "notFoundText": "The page you were looking for does not exist or has moved. The links below will get you back on track.",
+      "form": {
+        "title": "Tell us about your situation",
+        "intro": "Two minutes is enough. We reply personally within two business days.",
+        "name": "Your name",
+        "company": "Company",
+        "email": "Work email",
+        "size": "Company size",
+        "sizeOptions": [
+          "1–10 employees",
+          "11–50 employees",
+          "51–250 employees",
+          "251–1,000 employees",
+          "More than 1,000 employees"
+        ],
+        "interest": "What are you interested in?",
+        "interestOptions": [
+          "AI strategy & roadmap",
+          "AI readiness assessment",
+          "Agentic workflow automation",
+          "Custom AI agents",
+          "Knowledge assistant / RAG",
+          "AI governance & EU AI Act",
+          "Training & workshops",
+          "Fractional Chief AI Officer",
+          "Not sure yet"
+        ],
+        "message": "Your message",
+        "messagePlaceholder": "Which processes, teams or goals do you have in mind?",
+        "consent": "I agree that my details are processed to handle my request, as described in the privacy notice.",
+        "submit": "Send request",
+        "note": "Submitting opens a pre-filled email in your mail client. Nothing is stored on this website.",
+        "subject": "Inquiry via neurotech-ai.de",
+        "success": "Thank you. We will be in touch within two business days."
+      }
+    },
+    "de": {
+      "langName": "Deutsch",
+      "switchLabel": "English",
+      "switchTitle": "Read this page in English",
+      "home": "Startseite",
+      "menu": "Menü",
+      "close": "Schließen",
+      "bookCall": "Erstgespräch vereinbaren",
+      "skip": "Zum Inhalt springen",
+      "faqHeading": "Häufige Fragen",
+      "related": "Passend dazu",
+      "readArticle": "Artikel lesen",
+      "minRead": "Min. Lesezeit",
+      "published": "Veröffentlicht",
+      "updated": "Aktualisiert",
+      "allServices": "Alle Leistungen",
+      "allSolutions": "Alle Lösungen",
+      "allIndustries": "Alle Branchen",
+      "allInsights": "Alle Insights",
+      "footerServices": "Leistungen",
+      "footerSolutions": "KI-Agenten nach Abteilung",
+      "footerAudiences": "Für wen wir arbeiten",
+      "footerIndustries": "Branchen",
+      "footerCompany": "Unternehmen",
+      "footerLegal": "Rechtliches",
+      "footerTagline": "Beratung für KI und agentische Workflows aus Berlin – für Startups, Mittelstand und Konzerne in Deutschland und Europa.",
+      "ctaEyebrow": "Nächster Schritt",
+      "ctaTitle": "Finden wir den ersten Workflow, der sich wirklich lohnt.",
+      "ctaText": "Ein 30-minütiges Erstgespräch, ohne Folien und ohne Verpflichtung. Wir hören zu, fragen nach Ihren Prozessen und sagen Ihnen ehrlich, wo KI-Agenten sich rechnen – und wo nicht.",
+      "ctaLabel": "Erstgespräch vereinbaren",
+      "ctaSecondary": "Oder schreiben Sie an hello@neurotech-ai.de",
+      "breadcrumb": "Brotkrumennavigation",
+      "notFoundTitle": "Seite nicht gefunden",
+      "notFoundText": "Die gesuchte Seite existiert nicht oder wurde verschoben. Über die Links unten finden Sie zurück.",
+      "form": {
+        "title": "Erzählen Sie uns von Ihrer Situation",
+        "intro": "Zwei Minuten reichen. Wir antworten persönlich innerhalb von zwei Werktagen.",
+        "name": "Ihr Name",
+        "company": "Unternehmen",
+        "email": "Geschäftliche E-Mail",
+        "size": "Unternehmensgröße",
+        "sizeOptions": [
+          "1–10 Mitarbeitende",
+          "11–50 Mitarbeitende",
+          "51–250 Mitarbeitende",
+          "251–1.000 Mitarbeitende",
+          "Mehr als 1.000 Mitarbeitende"
+        ],
+        "interest": "Wofür interessieren Sie sich?",
+        "interestOptions": [
+          "KI-Strategie & Roadmap",
+          "KI-Readiness-Assessment",
+          "Agentische Workflow-Automatisierung",
+          "Individuelle KI-Agenten",
+          "Wissensassistent / RAG",
+          "KI-Governance & EU AI Act",
+          "Schulungen & Workshops",
+          "Fractional Chief AI Officer",
+          "Noch unklar"
+        ],
+        "message": "Ihre Nachricht",
+        "messagePlaceholder": "Welche Prozesse, Teams oder Ziele haben Sie im Blick?",
+        "consent": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verarbeitet werden, wie in der Datenschutzerklärung beschrieben.",
+        "submit": "Anfrage senden",
+        "note": "Beim Absenden öffnet sich eine vorausgefüllte E-Mail in Ihrem Mailprogramm. Auf dieser Website wird nichts gespeichert.",
+        "subject": "Anfrage über neurotech-ai.de",
+        "success": "Vielen Dank. Wir melden uns innerhalb von zwei Werktagen."
+      }
+    }
+  }
+}

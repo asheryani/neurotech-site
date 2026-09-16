@@ -1,0 +1,182 @@
+{
+  "id": "insights/why-ai-pilots-fail",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "Why AI Pilots Fail and How to Get an Agent into Production",
+    "metaDescription": "The ten reasons AI pilots never reach production, a checklist for what production-ready means, and a phased path from pilot to a live AI agent with an owner.",
+    "cardTitle": "Why AI pilots fail",
+    "cardText": "The recurring reasons pilots stall, what production-ready actually means, and a phased path to an agent that runs on real work.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "Why AI pilots fail,",
+      "titleAccent": "and how to get an agent into production.",
+      "standfirst": "Most AI pilots never reach daily operation, and the reasons are rarely technical. This guide names the ten causes we see most often, defines what production-ready actually means, and lays out a phased path from pilot to a live agent with a clear owner."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "The pattern",
+        "content": [
+          { "h2": "The pilot that never ends" },
+          { "p": "Most companies do not lack AI pilots. They lack AI systems that do real work every day. The pattern is familiar: a demo impresses the leadership team, a pilot is approved, a small group builds something that works on the examples in the slide deck, and then the project enters a long twilight of \"almost ready\". Six months later the budget is gone, the sponsor has moved on, and the pilot is quietly retired with a lessons-learned document nobody reads." },
+          { "p": "This is not a technology problem. Today's models are good enough for a wide range of business tasks. Pilots fail for organisational and engineering reasons that are visible in the first two weeks, if you know where to look. This article names them, defines what production-ready actually means, and describes a path that gets an agent into daily operation with an owner." },
+          { "h2": "Ten reasons pilots stall" },
+          { "p": "In our experience, failing pilots share the same handful of causes. They cluster around three moments: before the pilot starts, during the build, and around the pilot in the organisation." },
+          { "h3": "Before the pilot starts" },
+          { "p": "**No business owner.** The pilot belongs to IT, an innovation team or an external vendor, but no department head has put their name on the outcome. Nobody fights for the agent when it inconveniences the process it changes." },
+          { "p": "**No baseline and no success metric.** Nobody measured how long the task took before, how many cases arrive per week or what an error costs. Without a baseline the pilot cannot succeed, because success was never defined." },
+          { "p": "**The wrong first use case.** Teams pick the most impressive scenario rather than the one with high volume, clear rules and tolerable error costs. The demo is spectacular and the path to production is impossible. Our guide to [choosing a first agent use case](page:insights/first-agent-use-case) covers the selection in detail." },
+          { "h3": "During the build" },
+          { "p": "**A demo built on hand-picked data.** The pilot works on twenty clean examples. Real inboxes contain scanned PDFs, missing fields, two languages and a customer who writes in capital letters. The first contact with unfiltered data is often the end of the pilot." },
+          { "p": "**No evaluation suite.** Every prompt change is judged by looking at a few outputs. Nobody can say whether version four is better than version three, so the team argues instead of measuring." },
+          { "p": "**Integration and permissions left for later.** The agent reads from an export file instead of the ERP and writes into a spreadsheet instead of the ticketing system. Connecting it properly, with credentials, roles and audit trails, turns out to be the actual project." },
+          { "p": "**No plan for exceptions and errors.** What happens when the agent is unsure, a system is down or the input is malformed? If the answer is \"someone will notice\", the agent cannot be left alone." },
+          { "h3": "Around the pilot" },
+          { "p": "**Governance and the works council involved too late.** Data protection, the EU AI Act and co-determination questions arrive in week ten as blockers instead of week one as design inputs. In German companies this alone can delay a launch by a quarter." },
+          { "p": "**No operations owner after go-live.** The consultants leave, the prompts drift, a vendor changes a model version, and there is nobody whose job it is to notice." },
+          { "p": "**Change management ignored.** The people whose work changes were informed, not involved. They route around the agent, and the usage numbers then prove that it \"did not work\"." },
+          { "h2": "What production-ready actually means" },
+          { "p": "\"Production-ready\" is used loosely, so it helps to turn it into a checklist. An agent is ready when every row in the following table is true, and a pilot is a project whose purpose is to make them true." },
+          { "table": {
+            "caption": "Production-readiness checklist for an AI agent",
+            "columns": ["Area", "Production-ready means", "What a stalled pilot usually has"],
+            "rows": [
+              ["Evaluations", "A test set of real cases with expected outcomes, run automatically on every change, with an agreed accuracy threshold", "A few examples checked by eye"],
+              ["Observability", "Every run is traced: inputs, tool calls, outputs, cost and latency, with alerts on failure rates", "Console logs on a developer's laptop"],
+              ["Permissions", "Its own credentials, least privilege per system, write actions gated by risk", "A shared admin account"],
+              ["Fallbacks", "Defined behaviour for low confidence, outages and malformed input, with a queue for humans", "The agent guesses or stops"],
+              ["Cost controls", "Budgets per run and per day, rate limits, a known cost per processed case", "Nobody has looked at the invoice"],
+              ["Documentation", "What the agent does, what it must not do, how to change it and how to switch it off", "The prompt is the documentation"],
+              ["Owner", "A named business owner for the outcome and a named operations owner for the system", "The project team"],
+              ["Training", "The affected team knows how to work with the agent, escalate and give feedback", "An announcement email"]
+            ]
+          } },
+          { "note": "Rule of thumb: a pilot is finished when the agent has processed four weeks of real, unfiltered work at the agreed quality, and the business owner would object to switching it off." },
+          { "h2": "From pilot to production in four phases" },
+          { "p": "The path below is the one we use in our [agent pilots](page:services/ai-agent-development), which typically reach a production-grade state in six to eight weeks. The phases matter more than the calendar." },
+          { "h3": "Phase 1: Frame the case" },
+          { "p": "One to two weeks. Confirm the business owner, measure the baseline, define the success metric and the error budget, and write down the exception policy: which cases the agent handles alone, which it prepares for a human, which it must not touch. Involve data protection and, where relevant, the works council now, with a one-page description of data, purpose and human oversight." },
+          { "h3": "Phase 2: Build on real data" },
+          { "p": "Two to three weeks. Connect the real systems from the first day, even if only read-only. Assemble the evaluation set from real historical cases, including the ugly ones. Build the agent against that set and let the evaluation, not opinion, decide between versions." },
+          { "h3": "Phase 3: Shadow and supervised operation" },
+          { "p": "Two to three weeks. The agent runs on live work, but a human reviews every output before it takes effect. This produces the accuracy numbers, the exception rate and the cost per case you need for the go-live decision, and it trains the team on how the agent behaves." },
+          { "h3": "Phase 4: Go-live and handover" },
+          { "p": "Switch the agent to autonomous operation for the low-risk case types first, keep approval gates for the rest, and hand the system to an operations owner with monitoring, a runbook and a change process. If you do not have that owner internally, [managed AI operations](page:services/managed-ai-operations) provides one. Our [approach](page:approach) page describes how these phases fit into a broader programme." },
+          { "h2": "How to talk to the board about it" },
+          { "p": "Boards do not reject agents. They reject uncertainty. A pilot report that earns a go-live decision fits on one page and answers five questions:" },
+          { "ul": [
+            "What did the task cost before, and what does it cost now per case, including model and platform costs?",
+            "How accurate is the agent on real work, measured against the evaluation set, and what happens to the cases it cannot handle?",
+            "What can go wrong, how likely is it, and which control catches it? A short risk register beats a reassurance.",
+            "Who owns the outcome, and who runs the system after go-live?",
+            "Which decision are you asking for: extend the pilot, go live for specific case types, or stop?"
+          ] },
+          { "p": "Take the stop option seriously. A board that sees you would kill a weak pilot trusts your recommendation to scale a strong one. And be honest about the number that matters most: not what the demo could do, but what the agent did with last month's real cases." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "How long should an AI pilot take?", "a": "Long enough to run on real, unfiltered work for several weeks under supervision, and short enough that the sponsor is still in the room. For most agent use cases that is six to eight weeks from framing to a production-grade state. A pilot that has not touched real data after a month is a prototype, not a pilot." },
+          { "q": "Should we start with a pilot or with a strategy?", "a": "If you already have a candidate use case with a business owner and a measurable outcome, a pilot teaches you more than any document. If you have twenty ideas and no owner, a short [readiness assessment](page:services/ai-readiness-assessment) or strategy sprint saves you from piloting the wrong thing." },
+          { "q": "What if the pilot shows the agent is not accurate enough?", "a": "Then the pilot was a success: it answered the question early and cheaply. Often the fix is a narrower scope, better data or a human checkpoint for one case type. Sometimes the honest answer is to stop. The evaluation set tells you which, which is why it is worth building in week two." },
+          { "q": "Who should own the agent after go-live?", "a": "Two people. The business owner is responsible for the outcome and the process; the operations owner keeps the system healthy, monitors quality and manages changes. Smaller companies combine both roles in one department head, with external support for the technical side." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related reading and services",
+        "pages": ["services/ai-agent-development", "services/managed-ai-operations", "approach", "insights/first-agent-use-case"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Warum KI-Piloten scheitern und wie Agenten produktiv gehen",
+    "metaDescription": "Die zehn Gründe, warum KI-Pilotprojekte nie produktiv gehen, eine Checkliste für Produktionsreife und ein Phasenplan vom Piloten zum laufenden KI-Agenten.",
+    "cardTitle": "Warum KI-Pilotprojekte scheitern",
+    "cardText": "Die wiederkehrenden Gründe, warum Piloten steckenbleiben, was Produktionsreife wirklich bedeutet und ein Phasenplan zu einem Agenten, der echte Arbeit erledigt.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "Warum KI-Pilotprojekte scheitern –",
+      "titleAccent": "und wie ein Agent in den Produktivbetrieb kommt.",
+      "standfirst": "Die meisten KI-Piloten erreichen nie den täglichen Betrieb, und die Gründe sind selten technisch. Dieser Leitfaden benennt die zehn häufigsten Ursachen, definiert, was Produktionsreife tatsächlich bedeutet, und beschreibt einen Phasenplan vom Piloten zu einem laufenden Agenten mit klarer Verantwortung."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Das Muster",
+        "content": [
+          { "h2": "Der Pilot, der nie endet" },
+          { "p": "Den meisten Unternehmen fehlt es nicht an KI-Piloten. Ihnen fehlen KI-Systeme, die jeden Tag echte Arbeit erledigen. Das Muster ist vertraut: Eine Demo beeindruckt die Geschäftsführung, ein Pilot wird genehmigt, ein kleines Team baut etwas, das mit den Beispielen aus dem Foliensatz funktioniert – und dann tritt das Projekt in eine lange Dämmerphase des „fast fertig“ ein. Sechs Monate später ist das Budget aufgebraucht, der Sponsor hat gewechselt, und der Pilot wird still beerdigt, mit einem Lessons-Learned-Dokument, das niemand liest." },
+          { "p": "Das ist kein Technologieproblem. Die heutigen Modelle sind für eine breite Palette von Geschäftsaufgaben gut genug. Piloten scheitern aus organisatorischen und technischen Gründen, die in den ersten zwei Wochen sichtbar sind, wenn man weiß, wo man hinsehen muss. Dieser Beitrag benennt sie, definiert, was Produktionsreife tatsächlich bedeutet, und beschreibt einen Weg, der einen Agenten mit klarer Verantwortung in den täglichen Betrieb bringt." },
+          { "h2": "Zehn Gründe, warum Piloten steckenbleiben" },
+          { "p": "Nach unserer Erfahrung teilen scheiternde Piloten dieselbe Handvoll Ursachen. Sie gruppieren sich um drei Momente: vor dem Start, während des Aufbaus und rund um den Piloten in der Organisation." },
+          { "h3": "Vor dem Start" },
+          { "p": "**Kein Verantwortlicher aus dem Fachbereich.** Der Pilot gehört der IT, einem Innovationsteam oder einem externen Dienstleister, aber keine Bereichsleitung hat ihren Namen unter das Ergebnis gesetzt. Niemand kämpft für den Agenten, wenn er den Prozess stört, den er verändert." },
+          { "p": "**Keine Ausgangsbasis und keine Erfolgskennzahl.** Niemand hat gemessen, wie lange die Aufgabe vorher dauerte, wie viele Fälle pro Woche anfallen oder was ein Fehler kostet. Ohne Ausgangsbasis kann der Pilot nicht erfolgreich sein, weil Erfolg nie definiert wurde." },
+          { "p": "**Der falsche erste Use Case.** Teams wählen das eindrucksvollste Szenario statt des Falls mit hohem Volumen, klaren Regeln und verkraftbaren Fehlerkosten. Die Demo ist spektakulär, der Weg in den Produktivbetrieb unmöglich. Unser Leitfaden zur [Auswahl des ersten Agenten-Use-Case](page:insights/first-agent-use-case) behandelt die Auswahl im Detail." },
+          { "h3": "Während des Aufbaus" },
+          { "p": "**Eine Demo auf handverlesenen Daten.** Der Pilot funktioniert mit zwanzig sauberen Beispielen. Echte Postfächer enthalten gescannte PDFs, fehlende Felder, zwei Sprachen und einen Kunden, der in Großbuchstaben schreibt. Der erste Kontakt mit ungefilterten Daten ist oft das Ende des Piloten." },
+          { "p": "**Keine Evaluationssuite.** Jede Prompt-Änderung wird beurteilt, indem jemand ein paar Ausgaben ansieht. Niemand kann sagen, ob Version vier besser ist als Version drei, also streitet das Team, statt zu messen." },
+          { "p": "**Integration und Berechtigungen auf später verschoben.** Der Agent liest aus einer Exportdatei statt aus dem ERP und schreibt in eine Tabelle statt ins Ticketsystem. Ihn sauber anzubinden – mit Zugangsdaten, Rollen und Prüfpfaden – entpuppt sich als das eigentliche Projekt." },
+          { "p": "**Kein Plan für Ausnahmen und Fehler.** Was passiert, wenn der Agent unsicher ist, ein System ausfällt oder die Eingabe fehlerhaft ist? Lautet die Antwort „das merkt dann schon jemand“, kann der Agent nicht allein gelassen werden." },
+          { "h3": "Rund um den Piloten" },
+          { "p": "**Governance und Betriebsrat zu spät eingebunden.** Datenschutz, EU AI Act und Mitbestimmungsfragen tauchen in Woche zehn als Blocker auf statt in Woche eins als Gestaltungsvorgaben. Allein das kann einen Start um ein Quartal verzögern." },
+          { "p": "**Kein Betriebsverantwortlicher nach dem Go-live.** Die Berater gehen, die Prompts driften, ein Anbieter ändert eine Modellversion, und niemand hat die Aufgabe, das zu bemerken." },
+          { "p": "**Change Management ignoriert.** Die Menschen, deren Arbeit sich ändert, wurden informiert, nicht beteiligt. Sie arbeiten am Agenten vorbei, und die Nutzungszahlen belegen anschließend, dass er „nicht funktioniert hat“." },
+          { "h2": "Was Produktionsreife tatsächlich bedeutet" },
+          { "p": "„Produktionsreif“ wird lose verwendet, deshalb hilft eine Checkliste. Ein Agent ist bereit, wenn jede Zeile der folgenden Tabelle zutrifft – und ein Pilot ist ein Projekt, dessen Zweck es ist, sie zutreffen zu lassen." },
+          { "table": {
+            "caption": "Checkliste Produktionsreife für einen KI-Agenten",
+            "columns": ["Bereich", "Produktionsreif heißt", "Was ein steckengebliebener Pilot meist hat"],
+            "rows": [
+              ["Evaluation", "Ein Testset echter Fälle mit erwarteten Ergebnissen, das bei jeder Änderung automatisch läuft, mit vereinbarter Genauigkeitsschwelle", "Ein paar per Augenschein geprüfte Beispiele"],
+              ["Beobachtbarkeit", "Jeder Lauf wird nachvollziehbar erfasst: Eingaben, Tool-Aufrufe, Ausgaben, Kosten und Laufzeit, mit Alarmen bei Fehlerquoten", "Konsolenausgaben auf dem Laptop eines Entwicklers"],
+              ["Berechtigungen", "Eigene Zugangsdaten, minimale Rechte je System, schreibende Aktionen nach Risiko abgesichert", "Ein geteiltes Admin-Konto"],
+              ["Rückfallebenen", "Definiertes Verhalten bei geringer Sicherheit, Ausfällen und fehlerhaften Eingaben, mit einer Warteschlange für Menschen", "Der Agent rät oder bricht ab"],
+              ["Kostenkontrolle", "Budgets je Lauf und je Tag, Ratenbegrenzung, bekannte Kosten je bearbeitetem Fall", "Niemand hat auf die Rechnung geschaut"],
+              ["Dokumentation", "Was der Agent tut, was er nicht darf, wie man ihn ändert und wie man ihn abschaltet", "Der Prompt ist die Dokumentation"],
+              ["Verantwortung", "Ein benannter Fachverantwortlicher für das Ergebnis und ein benannter Betriebsverantwortlicher für das System", "Das Projektteam"],
+              ["Schulung", "Das betroffene Team weiß, wie es mit dem Agenten arbeitet, eskaliert und Feedback gibt", "Eine Ankündigungs-E-Mail"]
+            ]
+          } },
+          { "note": "Faustregel: Ein Pilot ist abgeschlossen, wenn der Agent vier Wochen echte, ungefilterte Arbeit in der vereinbarten Qualität bearbeitet hat und der Fachverantwortliche widersprechen würde, wenn man ihn abschaltet." },
+          { "h2": "Vom Piloten in den Produktivbetrieb in vier Phasen" },
+          { "p": "Der folgende Weg ist der, den wir in unseren [Agenten-Piloten](page:services/ai-agent-development) nutzen; sie erreichen in der Regel in sechs bis acht Wochen einen produktionsreifen Stand. Die Phasen zählen mehr als der Kalender." },
+          { "h3": "Phase 1: Den Fall rahmen" },
+          { "p": "Ein bis zwei Wochen. Den Fachverantwortlichen bestätigen, die Ausgangsbasis messen, Erfolgskennzahl und Fehlerbudget festlegen und die Ausnahmeregeln aufschreiben: welche Fälle der Agent allein bearbeitet, welche er für einen Menschen vorbereitet, welche er nicht anfassen darf. Datenschutz und, wo relevant, den Betriebsrat jetzt einbinden – mit einer einseitigen Beschreibung von Daten, Zweck und menschlicher Aufsicht." },
+          { "h3": "Phase 2: Auf echten Daten bauen" },
+          { "p": "Zwei bis drei Wochen. Die echten Systeme vom ersten Tag an anbinden, und sei es zunächst nur lesend. Das Evaluationsset aus echten historischen Fällen zusammenstellen, einschließlich der hässlichen. Den Agenten gegen dieses Set entwickeln und die Evaluation, nicht die Meinung, zwischen Versionen entscheiden lassen." },
+          { "h3": "Phase 3: Schatten- und überwachter Betrieb" },
+          { "p": "Zwei bis drei Wochen. Der Agent läuft auf echter Arbeit, aber ein Mensch prüft jede Ausgabe, bevor sie wirksam wird. Das liefert die Genauigkeitswerte, die Ausnahmequote und die Kosten je Fall, die Sie für die Go-live-Entscheidung brauchen – und es trainiert das Team im Umgang mit dem Verhalten des Agenten." },
+          { "h3": "Phase 4: Go-live und Übergabe" },
+          { "p": "Den Agenten zuerst für die risikoarmen Falltypen in den autonomen Betrieb schalten, Freigabeschritte für den Rest beibehalten und das System mit Monitoring, Runbook und Änderungsprozess an einen Betriebsverantwortlichen übergeben. Fehlt dieser intern, stellt [Managed AI Operations](page:services/managed-ai-operations) ihn. Wie sich diese Phasen in ein größeres Programm einfügen, beschreibt unsere Seite [So arbeiten wir](page:approach)." },
+          { "h2": "Wie Sie mit der Geschäftsführung darüber sprechen" },
+          { "p": "Geschäftsführungen lehnen keine Agenten ab. Sie lehnen Unsicherheit ab. Ein Pilotbericht, der eine Go-live-Entscheidung verdient, passt auf eine Seite und beantwortet fünf Fragen:" },
+          { "ul": [
+            "Was hat die Aufgabe vorher gekostet, und was kostet sie jetzt je Fall, einschließlich Modell- und Plattformkosten?",
+            "Wie genau arbeitet der Agent auf echter Arbeit, gemessen am Evaluationsset, und was passiert mit den Fällen, die er nicht bearbeiten kann?",
+            "Was kann schiefgehen, wie wahrscheinlich ist es, und welche Kontrolle fängt es ab? Ein kurzes Risikoregister ist mehr wert als eine Beruhigung.",
+            "Wer verantwortet das Ergebnis, und wer betreibt das System nach dem Go-live?",
+            "Welche Entscheidung erbitten Sie: den Piloten verlängern, für bestimmte Falltypen live gehen oder stoppen?"
+          ] },
+          { "p": "Nehmen Sie die Stopp-Option ernst. Eine Geschäftsführung, die sieht, dass Sie einen schwachen Piloten beenden würden, vertraut Ihrer Empfehlung, einen starken zu skalieren. Und bleiben Sie ehrlich bei der Zahl, die am meisten zählt: nicht, was die Demo konnte, sondern was der Agent mit den echten Fällen des letzten Monats gemacht hat." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Wie lange sollte ein KI-Pilot dauern?", "a": "Lang genug, um mehrere Wochen unter Aufsicht auf echter, ungefilterter Arbeit zu laufen, und kurz genug, dass der Sponsor noch im Raum ist. Für die meisten Agenten-Use-Cases sind das sechs bis acht Wochen von der Rahmung bis zu einem produktionsreifen Stand. Ein Pilot, der nach einem Monat noch keine echten Daten berührt hat, ist ein Prototyp, kein Pilot." },
+          { "q": "Sollten wir mit einem Piloten oder mit einer Strategie beginnen?", "a": "Haben Sie bereits einen Use-Case-Kandidaten mit Fachverantwortlichem und messbarem Ergebnis, lehrt Sie ein Pilot mehr als jedes Dokument. Haben Sie zwanzig Ideen und keinen Verantwortlichen, bewahrt Sie ein kurzes [Readiness-Assessment](page:services/ai-readiness-assessment) oder ein Strategie-Sprint davor, das Falsche zu pilotieren." },
+          { "q": "Was, wenn der Pilot zeigt, dass der Agent nicht genau genug ist?", "a": "Dann war der Pilot erfolgreich: Er hat die Frage früh und günstig beantwortet. Oft liegt die Lösung in einem engeren Zuschnitt, besseren Daten oder einem menschlichen Kontrollpunkt für einen Falltyp. Manchmal lautet die ehrliche Antwort: aufhören. Das Evaluationsset sagt Ihnen, was zutrifft – deshalb lohnt es sich, es in Woche zwei aufzubauen." },
+          { "q": "Wer sollte den Agenten nach dem Go-live verantworten?", "a": "Zwei Personen. Der Fachverantwortliche trägt Ergebnis und Prozess; der Betriebsverantwortliche hält das System gesund, überwacht die Qualität und steuert Änderungen. Kleinere Unternehmen bündeln beide Rollen bei einer Bereichsleitung, mit externer Unterstützung für die technische Seite." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Weiterlesen und passende Leistungen",
+        "pages": ["services/ai-agent-development", "services/managed-ai-operations", "approach", "insights/first-agent-use-case"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "insights/agents-vs-rpa-vs-chatbots",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "AI Agents vs. RPA vs. Chatbots: Which Automation Fits?",
+    "metaDescription": "AI agents, RPA and chatbots compared: goals, inputs, exceptions, cost, maintenance, where each wins, hybrid patterns and five questions to decide per process.",
+    "cardTitle": "AI agents vs. RPA vs. chatbots",
+    "cardText": "Which automation fits which process: a side-by-side comparison, the hybrid patterns that work in practice, and five questions that decide.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "AI agents vs. RPA vs. chatbots: which automation fits",
+      "titleAccent": "which process?",
+      "standfirst": "Robotic process automation, chatbots and AI agents solve different problems, and choosing the wrong one is the most common reason automation projects disappoint. This guide compares the three on goal, input, exceptions, determinism, cost and maintenance, shows where each still wins, and gives you five questions to decide for any process."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "The three options",
+        "content": [
+          { "h2": "Three tools for three different jobs" },
+          { "p": "A typical scenario: purchase orders arrive as PDF attachments in a dozen supplier layouts, some with handwritten notes. A clerk opens each one, checks it against the price list, enters it into the ERP and emails a confirmation. Which automation fits? That depends on which part of the job you are looking at, because each of the three technologies covers a different part." },
+          { "p": "**Robotic process automation (RPA)** uses software robots that replay a fixed sequence of clicks, keystrokes or API calls. It is excellent at the entering-into-the-ERP part, as long as the data is already clean and the screens do not change." },
+          { "p": "**Chatbots** are conversational interfaces. Older ones follow decision trees; newer ones use a language model to understand free text. They are good at the front end, answering the supplier who asks where the order is, but a chatbot alone cannot process anything." },
+          { "p": "**AI agents** are goal-driven systems that use a language model to read, decide and act across several steps and tools. They are the first technology that can handle the messy middle: reading twelve layouts, noticing that a price deviates from the contract and deciding what to do about it. For the full definition, start with our article on [what agentic AI is](page:insights/what-is-agentic-ai)." },
+          { "p": "The common mistake is to treat these as generations, as if agents replaced RPA the way RPA replaced macros. They are tools for different kinds of input, and most real processes need two of them." },
+          { "h2": "The comparison at a glance" },
+          { "table": {
+            "caption": "RPA, chatbots and AI agents compared",
+            "columns": ["", "RPA", "Chatbot", "AI agent"],
+            "rows": [
+              ["Goal", "Execute a fixed sequence of steps reliably", "Answer questions or route requests in a dialogue", "Achieve an outcome across steps, systems and cases"],
+              ["Input type", "Structured and predictable: forms, tables, fixed screens", "Natural-language questions within a known scope", "Unstructured and mixed: emails, PDFs, tickets, records"],
+              ["Handles exceptions", "No. Anything unexpected stops the bot or lands in a manual queue", "Poorly. Off-script requests loop or escalate", "Yes, within limits. It can reason about the unusual case and ask for help"],
+              ["Determinism", "Fully deterministic: same input, same result", "Scripted bots yes; model-based bots no", "Probabilistic; needs evaluation, guardrails and logging"],
+              ["Cost profile", "Licence per bot plus development; very cheap per run", "Platform licence; cheap per conversation", "Model consumption per run plus engineering and evaluation; scales with volume and complexity"],
+              ["Maintenance", "High: breaks when a screen or form changes", "Medium: intents, content and answers need curation", "Medium: prompts, tools and test sets need an owner; system changes are absorbed through APIs"],
+              ["Best for", "Stable, high-volume, rule-based back-office steps", "Self-service for frequent questions, routing, guided forms", "Judgement-heavy processing of messy input; end-to-end case handling"]
+            ]
+          } },
+          { "p": "Two rows deserve attention. The lack of determinism is not a weakness to be engineered away; it is the reason agents can handle exceptions at all. And the maintenance row explains why many RPA estates quietly grow a team that keeps the bots alive: the robots are only as stable as the screens they click on." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Where each wins",
+        "content": [
+          { "h2": "Where RPA still wins" },
+          { "p": "RPA is the right answer more often than agent enthusiasts admit. It wins when the interface is stable and there is no API, when the process must be strictly deterministic because an auditor will ask, when the cost per run has to be close to zero, and, above all, when it already works. Mass data entry into a legacy system, reconciliations with fixed export formats, nightly transfers between two applications: none of these need a language model, and adding one would only add cost and uncertainty." },
+          { "p": "Our advice in these cases is deliberately unexciting: keep the bot, document it, and put an agent in front of it only when the input stops being clean." },
+          { "h2": "Where agents replace or wrap RPA" },
+          { "p": "Agents earn their place where RPA needs a person to prepare the input. Documents in varying layouts, emails with the order details in the body, tickets with the actual problem in paragraph three: the classic RPA project fails here because the bot needs structured fields and someone has to create them. An agent reads the unstructured input, extracts and validates the fields, and only then hands over." },
+          { "p": "The second area is judgement. When the rule reads “match the invoice to the purchase order unless the deviation is explainable”, RPA does the first half and stops at the word unless. An agent can look at the delivery note, the contract and the correspondence, propose an explanation and route the case accordingly. The third area is the exception queue itself, which in many RPA estates is worked by hand. An agent that resolves most exceptions and prepares the rest for a person often delivers more than automating another happy path." },
+          { "p": "Whether an agent replaces or wraps the bot depends on the system behind it. If the target application has an API, the agent calls it directly and the bot retires. If the only way in is the user interface, the bot stays as the hands and the agent becomes the head. That is the wrap pattern, and it is the most common outcome in Mittelstand IT landscapes with older ERP systems." },
+          { "h2": "Chatbots are an interface, not a solution" },
+          { "p": "The disappointment with the chatbots of the last decade had a simple cause: a conversation is not a capability. A bot that perfectly understands “I want to change my delivery address” but cannot open the order and change it produces friction, not service. The customer ends up in the same email queue as before, now annoyed." },
+          { "p": "The current generation changes the equation only if you treat the chat window as the front door to something that can act. Behind a good customer-service chat sits an agent with tools: look up the order, check the policy, change the address, confirm. Behind a good internal helpdesk chat sits a [knowledge assistant](page:services/knowledge-assistants) that searches the actual documents and, where allowed, executes the request. Design the capability first and the conversation second." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Patterns and decisions",
+        "content": [
+          { "h2": "Hybrid patterns that work in practice" },
+          { "p": "The productive answer is rarely a single technology. Three combinations come up again and again in our [agentic workflow](page:services/agentic-workflows) projects." },
+          { "ul": [
+            "**The agent decides, RPA or an API executes.** The language model handles reading, extraction and judgement. Execution runs through deterministic connectors: APIs where they exist, RPA bots where only a user interface exists, a workflow engine in between. The boundary between the two is explicit and logged.",
+            "**Chat in front, agent behind.** The conversation is the entry point for customers or employees; the agent behind it has tools and permissions, and the level of autonomy is set per action.",
+            "**RPA runs the happy path, the agent takes the exceptions.** The existing bot keeps doing what it does. Whatever it cannot process is passed to an agent, which resolves the case or prepares it for a person. This is the least disruptive way to modernise an RPA estate."
+          ] },
+          { "note": "Design rule: let the probabilistic component decide and the deterministic component act. Keep that boundary visible in the architecture, in the logs and in the approval steps, and you can explain to any auditor exactly what the machine did." },
+          { "h2": "A decision framework in five questions" },
+          { "p": "For any process on your list, answer these five questions in order. The pattern of answers usually points to one architecture." },
+          { "ol": [
+            "**What does the input look like?** Structured, predictable and always in the same place: RPA or a plain integration. Unstructured, variable or arriving in several formats: an agent is needed at least for the intake.",
+            "**How much judgement sits in the middle?** None, the rules are complete: RPA. Some, and an experienced clerk applies rules of thumb: an agent with guardrails. Purely human discretion, for example negotiations: assist only, no automation of the decision.",
+            "**What happens when it is wrong?** Reversible and cheap: the agent may act within limits. Expensive or irreversible: an approval step before execution, or keep the machine at the recommendation level.",
+            "**How stable are the systems?** APIs available: the agent calls them directly, ideally through a standard such as [MCP](page:insights/mcp-explained). Only a user interface: RPA as the hands. Screens that change every quarter: expect bot maintenance and budget for it.",
+            "**Who or what triggers the process?** A person asking in natural language: a chat front end. An event in a system or a scheduled batch: an agent or bot running in the background, with people notified only for exceptions."
+          ] },
+          { "p": "If the answers point to an agent, the next question is which process to start with. Our guide to [choosing your first AI agent use case](page:insights/first-agent-use-case) has a scoring model for that." },
+          { "h2": "Three examples" },
+          { "p": "**Order intake from emails and PDFs.** Input unstructured, judgement moderate, errors reversible before posting, ERP with a partial API. Architecture: an agent for reading, validation and clarification questions; the API for posting; RPA only for the one legacy screen without an API. See [AI agents in operations](page:solutions/operations)." },
+          { "p": "**IT helpdesk: password resets and access requests.** Input conversational but narrow, judgement minimal, rules complete. Architecture: a chat front end, deterministic automation behind it, an agent only for the ambiguous tickets where the actual problem is buried in the description. See [IT and engineering](page:solutions/it-engineering)." },
+          { "p": "**Monthly bank reconciliation with fixed export formats.** Input structured, judgement none, systems stable. Architecture: RPA or a scheduled integration. No agent, no chatbot. If someone proposes one, ask what the language model would be deciding." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Is RPA obsolete now that AI agents exist?", "a": "No. RPA remains the cheapest and most predictable way to execute stable, rule-based steps in systems without an API. What changes is its role: from being the whole automation to being the execution layer behind an agent that handles reading and judgement." },
+          { "q": "Can an AI agent use our existing RPA bots?", "a": "Yes, and this is often the fastest route. The bots become tools the agent can trigger, with their inputs prepared by the agent and their results checked by it." },
+          { "q": "Is a chatbot built on a language model already an agent?", "a": "Only if it can act. A model-based chatbot understands free text well, but if it cannot look things up in your systems or execute a request, it is still an interface. An agent has tools, a mandate and a level of autonomy. Check what the system can actually do, not what it can say." },
+          { "q": "How do the costs compare?", "a": "Qualitatively: RPA has a licence per bot and development effort but almost no cost per run. Model-based agents cost per run, scaling with volume and with the amount of reading and reasoning per case, plus engineering and evaluation. The comparison only makes sense per process: an agent that removes a manual exception queue can pay for itself quickly; an agent on a process that RPA handles cleanly never will. That is why our [readiness assessment](page:services/ai-readiness-assessment) recommends an architecture per process." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related reading and services",
+        "pages": ["insights/what-is-agentic-ai", "insights/first-agent-use-case", "services/agentic-workflows", "solutions/operations"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten, RPA oder Chatbot: Welche Automatisierung passt?",
+    "metaDescription": "KI-Agenten, RPA und Chatbots im Vergleich: Ziele, Eingaben, Ausnahmen, Kosten, Wartung, wo welche Technik gewinnt, hybride Muster und fünf Fragen je Prozess.",
+    "cardTitle": "KI-Agenten, RPA oder Chatbot?",
+    "cardText": "Welche Automatisierung zu welchem Prozess passt: ein direkter Vergleich, hybride Muster aus der Praxis und fünf Fragen, die entscheiden.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "KI-Agenten, RPA oder Chatbot: Welche Automatisierung passt",
+      "titleAccent": "zu welchem Prozess?",
+      "standfirst": "Robotic Process Automation, Chatbots und KI-Agenten lösen unterschiedliche Probleme – und die falsche Wahl ist der häufigste Grund, warum Automatisierungsprojekte enttäuschen. Dieser Leitfaden vergleicht die drei nach Ziel, Eingaben, Ausnahmen, Determinismus, Kosten und Wartung, zeigt, wo jede Technologie weiterhin gewinnt, und gibt Ihnen fünf Fragen an die Hand, mit denen Sie jeden Prozess einordnen."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Die drei Optionen",
+        "content": [
+          { "h2": "Drei Werkzeuge für drei verschiedene Aufgaben" },
+          { "p": "Ein typisches Szenario: Bestellungen kommen als PDF-Anhang in einem Dutzend Lieferanten-Layouts, manche mit handschriftlichen Notizen. Eine Sachbearbeiterin öffnet jede einzelne, prüft sie gegen die Preisliste, erfasst sie im ERP und schickt eine Bestätigung. Welche Automatisierung passt? Das hängt davon ab, welchen Teil dieser Arbeit Sie betrachten, denn jede der drei Technologien deckt einen anderen Teil ab." },
+          { "p": "**Robotic Process Automation (RPA)** nutzt Software-Roboter, die eine feste Abfolge von Klicks, Tastatureingaben oder Schnittstellenaufrufen abspielen. Für das Erfassen im ERP ist das hervorragend, solange die Daten bereits sauber sind und sich die Masken nicht ändern." },
+          { "p": "**Chatbots** sind Dialogoberflächen. Ältere folgen Entscheidungsbäumen, neuere verstehen Freitext mit einem Sprachmodell. Sie sind gut für den Empfang, etwa für den Lieferanten, der fragt, wo seine Bestellung bleibt. Aber ein Chatbot allein bearbeitet nichts." },
+          { "p": "**KI-Agenten** sind zielgerichtete Systeme, die mit einem Sprachmodell über mehrere Schritte und Werkzeuge hinweg lesen, entscheiden und handeln. Sie sind die erste Technologie, die den unordentlichen Mittelteil bewältigt: zwölf Layouts lesen, erkennen, dass ein Preis vom Vertrag abweicht, und entscheiden, was damit geschieht. Die ausführliche Definition finden Sie in unserem Artikel [Was ist Agentic AI?](page:insights/what-is-agentic-ai)" },
+          { "p": "Der häufigste Fehler ist, die drei als Generationen zu betrachten – als würden Agenten RPA so ablösen, wie RPA einst Makros abgelöst hat. Das tun sie nicht. Es sind Werkzeuge für unterschiedliche Arten von Eingaben, und die meisten echten Prozesse brauchen zwei davon." },
+          { "h2": "Der Vergleich auf einen Blick" },
+          { "table": {
+            "caption": "RPA, Chatbots und KI-Agenten im Vergleich",
+            "columns": ["", "RPA", "Chatbot", "KI-Agent"],
+            "rows": [
+              ["Ziel", "Eine feste Abfolge von Schritten zuverlässig ausführen", "Fragen beantworten oder Anfragen im Dialog weiterleiten", "Ein Ergebnis über Schritte, Systeme und Fälle hinweg erreichen"],
+              ["Art der Eingabe", "Strukturiert und vorhersehbar: Formulare, Tabellen, feste Masken", "Fragen in natürlicher Sprache innerhalb eines bekannten Rahmens", "Unstrukturiert und gemischt: E-Mails, PDFs, Tickets, Datensätze"],
+              ["Umgang mit Ausnahmen", "Keiner. Alles Unerwartete stoppt den Bot oder landet in einer manuellen Warteschlange", "Schwach. Anfragen außerhalb des Skripts drehen sich im Kreis oder eskalieren", "Ja, in Grenzen. Er kann den ungewöhnlichen Fall einordnen und um Hilfe bitten"],
+              ["Determinismus", "Vollständig deterministisch: gleiche Eingabe, gleiches Ergebnis", "Skriptbasierte Bots ja, modellbasierte Bots nein", "Probabilistisch; braucht Evaluation, Leitplanken und Protokollierung"],
+              ["Kostenprofil", "Lizenz je Bot plus Entwicklung; sehr günstig je Durchlauf", "Plattformlizenz; günstig je Gespräch", "Modellverbrauch je Durchlauf plus Engineering und Evaluation; skaliert mit Volumen und Komplexität"],
+              ["Wartung", "Hoch: bricht, sobald sich eine Maske oder ein Formular ändert", "Mittel: Intents, Inhalte und Antworten müssen gepflegt werden", "Mittel: Prompts, Werkzeuge und Testsets brauchen einen Verantwortlichen; Systemänderungen werden über Schnittstellen abgefangen"],
+              ["Am besten geeignet für", "Stabile, regelbasierte Backoffice-Schritte mit hohem Volumen", "Self-Service für häufige Fragen, Weiterleitung, geführte Formulare", "Urteilsintensive Verarbeitung unordentlicher Eingaben; durchgehende Fallbearbeitung"]
+            ]
+          } },
+          { "p": "Zwei Zeilen verdienen Aufmerksamkeit. Der fehlende Determinismus ist keine Schwäche von Agenten, die man wegentwickeln müsste; er ist der Grund, warum sie Ausnahmen überhaupt bewältigen können. Und die Zeile zur Wartung erklärt, warum in vielen RPA-Landschaften unbemerkt ein Team entsteht, das Bots am Leben hält: Die Roboter sind nur so stabil wie die Masken, auf die sie klicken." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Wo welche Technik gewinnt",
+        "content": [
+          { "h2": "Wo RPA weiterhin gewinnt" },
+          { "p": "RPA ist häufiger die richtige Antwort, als Agenten-Enthusiasten zugeben. Sie gewinnt, wenn die Oberfläche stabil ist und es keine Schnittstelle gibt, wenn der Prozess strikt deterministisch sein muss, weil ein Prüfer nachfragen wird, wenn das Volumen hoch ist und die Kosten je Durchlauf nahe null liegen müssen – und vor allem, wenn sie bereits funktioniert. Massenerfassung in ein Altsystem, Abstimmungen mit festen Exportformaten, nächtliche Datenübertragungen zwischen zwei Anwendungen: Nichts davon braucht ein Sprachmodell, und eines hinzuzufügen brächte nur Kosten und Unsicherheit." },
+          { "p": "Unser Rat ist in diesen Fällen bewusst unspektakulär: Bot behalten, dokumentieren und erst dann einen Agenten davorsetzen, wenn die Eingaben nicht mehr sauber sind." },
+          { "h2": "Wo Agenten RPA ablösen oder umhüllen" },
+          { "p": "Agenten lohnen sich dort, wo RPA einen Menschen braucht, der die Eingabe vorbereitet. Dokumente in wechselnden Layouts, E-Mails mit den Bestelldaten im Fließtext, Tickets, in denen das eigentliche Problem im dritten Absatz steht: Hier scheitert das klassische RPA-Projekt, weil der Bot strukturierte Felder braucht und jemand sie erzeugen muss. Ein Agent liest die unstrukturierte Eingabe, extrahiert und validiert die Felder und übergibt erst dann." },
+          { "p": "Das zweite Feld ist Urteilsvermögen. Lautet die Regel „Rechnung mit Bestellung abgleichen, es sei denn, die Abweichung ist erklärbar“, schafft RPA die erste Hälfte und bleibt bei „es sei denn“ stehen. Ein Agent kann Lieferschein, Vertrag und Korrespondenz heranziehen, eine Erklärung vorschlagen und den Fall entsprechend weiterleiten. Das dritte Feld ist die Ausnahme-Warteschlange selbst, die in vielen RPA-Landschaften von Hand abgearbeitet wird. Ein Agent, der die meisten Ausnahmen löst und den Rest für einen Menschen vorbereitet, bringt oft mehr als die Automatisierung eines weiteren Standardfalls." },
+          { "p": "Ob ein Agent den Bot ablöst oder umhüllt, hängt vom System dahinter ab. Hat die Zielanwendung eine Schnittstelle, ruft der Agent sie direkt auf, und der Bot geht in den Ruhestand. Führt der einzige Weg über die Benutzeroberfläche, bleibt der Bot die Hand, und der Agent wird zum Kopf. Das ist das Umhüllungsmuster – in mittelständischen IT-Landschaften mit älteren ERP-Systemen das häufigste Ergebnis." },
+          { "h2": "Chatbots sind eine Oberfläche, keine Lösung" },
+          { "p": "Die Enttäuschung über die Chatbots des letzten Jahrzehnts hatte einen einfachen Grund: Ein Gespräch ist keine Fähigkeit. Ein Bot, der „Ich möchte meine Lieferadresse ändern“ perfekt versteht, aber den Auftrag nicht öffnen und ändern kann, erzeugt Reibung statt Service. Der Kunde landet in derselben E-Mail-Warteschlange wie zuvor, nur verärgert." },
+          { "p": "Die aktuelle Generation ändert die Rechnung nur, wenn Sie das Chatfenster als Eingangstür zu etwas begreifen, das handeln kann. Hinter einem guten Kundenservice-Chat sitzt ein Agent mit Werkzeugen: Auftrag nachschlagen, Richtlinie prüfen, Adresse ändern, bestätigen. Hinter einem guten internen Helpdesk-Chat sitzt ein [Wissensassistent](page:services/knowledge-assistants), der die tatsächlichen Dokumente durchsucht und, wo erlaubt, die Anfrage ausführt. Erst die Fähigkeit entwerfen, dann das Gespräch." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Muster und Entscheidung",
+        "content": [
+          { "h2": "Hybride Muster, die sich in der Praxis bewähren" },
+          { "p": "Die produktive Antwort ist selten eine einzelne Technologie. Drei Kombinationen begegnen uns in unseren Projekten zu [agentischen Workflows](page:services/agentic-workflows) immer wieder." },
+          { "ul": [
+            "**Der Agent entscheidet, RPA oder eine Schnittstelle führt aus.** Das Sprachmodell übernimmt Lesen, Extraktion und Beurteilung. Die Ausführung läuft über deterministische Konnektoren: Schnittstellen, wo es sie gibt, RPA-Bots, wo nur eine Oberfläche existiert, dazwischen eine Workflow-Engine. Die Grenze zwischen beiden ist explizit und wird protokolliert.",
+            "**Chat vorne, Agent dahinter.** Das Gespräch ist der Einstieg für Kunden oder Mitarbeitende; der Agent dahinter hat Werkzeuge und Berechtigungen, und die Autonomiestufe ist je Aktion festgelegt.",
+            "**RPA fährt den Standardfall, der Agent übernimmt die Ausnahmen.** Der bestehende Bot macht weiter wie bisher. Was er nicht verarbeiten kann, geht an einen Agenten, der den Fall löst oder für einen Menschen vorbereitet. Das ist der schonendste Weg, eine RPA-Landschaft zu modernisieren."
+          ] },
+          { "note": "Entwurfsregel: Die probabilistische Komponente entscheidet, die deterministische Komponente handelt. Halten Sie diese Grenze in der Architektur, in den Protokollen und in den Freigabeschritten sichtbar – dann können Sie jedem Prüfer genau erklären, was die Maschine getan hat." },
+          { "h2": "Ein Entscheidungsrahmen in fünf Fragen" },
+          { "p": "Beantworten Sie für jeden Prozess auf Ihrer Liste diese fünf Fragen der Reihe nach. Das Antwortmuster zeigt meist auf eine Architektur." },
+          { "ol": [
+            "**Wie sehen die Eingaben aus?** Strukturiert, vorhersehbar und immer an derselben Stelle: RPA oder eine einfache Integration. Unstrukturiert, variabel oder in mehreren Formaten: Mindestens für die Erfassung braucht es einen Agenten.",
+            "**Wie viel Urteilsvermögen steckt in der Mitte?** Keines, die Regeln sind vollständig: RPA. Etwas, und eine erfahrene Sachbearbeiterin wendet Faustregeln an: ein Agent mit Leitplanken. Reiner menschlicher Ermessensspielraum, etwa Verhandlungen: nur Assistenz, keine Automatisierung der Entscheidung.",
+            "**Was passiert, wenn es schiefgeht?** Umkehrbar und günstig: Der Agent darf in Grenzen handeln. Teuer oder unumkehrbar: eine Freigabe vor der Ausführung, oder die Maschine bleibt bei der Empfehlung.",
+            "**Wie stabil sind die Systeme?** Schnittstellen vorhanden: Der Agent ruft sie direkt auf, idealerweise über einen Standard wie [MCP](page:insights/mcp-explained). Nur eine Oberfläche: RPA als Hand. Masken, die sich jedes Quartal ändern: Rechnen Sie mit Bot-Wartung und budgetieren Sie sie.",
+            "**Wer oder was löst den Prozess aus?** Ein Mensch, der in natürlicher Sprache fragt: eine Chat-Oberfläche. Ein Ereignis in einem System oder ein geplanter Lauf: ein Agent oder Bot im Hintergrund, bei dem Menschen nur bei Ausnahmen benachrichtigt werden."
+          ] },
+          { "p": "Zeigen die Antworten auf einen Agenten, lautet die nächste Frage, mit welchem Prozess Sie beginnen. Unser Leitfaden zur [Auswahl des ersten Use Case für einen KI-Agenten](page:insights/first-agent-use-case) enthält dafür ein Bewertungsmodell." },
+          { "h2": "Drei Beispiele" },
+          { "p": "**Auftragserfassung aus E-Mails und PDFs.** Eingaben unstrukturiert, Urteilsvermögen moderat, Fehler vor der Buchung umkehrbar, ERP mit teilweiser Schnittstelle. Architektur: ein Agent für Lesen, Validierung und Rückfragen; die Schnittstelle für die Buchung; RPA nur für die eine Altsystem-Maske ohne Schnittstelle. Siehe [KI-Agenten in Operations](page:solutions/operations)." },
+          { "p": "**IT-Helpdesk: Passwort-Resets und Zugriffsanfragen.** Eingaben dialogisch, aber eng gefasst, Urteilsvermögen minimal, Regeln vollständig. Architektur: eine Chat-Oberfläche, deterministische Automatisierung dahinter, ein Agent nur für die mehrdeutigen Tickets, bei denen das eigentliche Problem in der Beschreibung vergraben ist. Siehe [IT und Engineering](page:solutions/it-engineering)." },
+          { "p": "**Monatliche Bankabstimmung mit festen Exportformaten.** Eingaben strukturiert, kein Urteilsvermögen nötig, Systeme stabil. Architektur: RPA oder eine geplante Integration. Kein Agent, kein Chatbot. Schlägt jemand einen vor, fragen Sie, was das Sprachmodell dabei entscheiden soll." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Ist RPA überholt, seit es KI-Agenten gibt?", "a": "Nein. RPA bleibt der günstigste und berechenbarste Weg, stabile, regelbasierte Schritte in Systemen ohne Schnittstelle auszuführen. Was sich ändert, ist die Rolle: von der gesamten Automatisierung zur Ausführungsschicht hinter einem Agenten, der Lesen und Beurteilen übernimmt." },
+          { "q": "Kann ein KI-Agent unsere bestehenden RPA-Bots nutzen?", "a": "Ja, und das ist oft der schnellste Weg. Die Bots werden zu Werkzeugen, die der Agent auslösen kann; er bereitet ihre Eingaben vor und prüft ihre Ergebnisse." },
+          { "q": "Ist ein Chatbot auf Basis eines Sprachmodells schon ein Agent?", "a": "Nur, wenn er handeln kann. Ein modellbasierter Chatbot versteht Freitext gut, aber solange er nichts in Ihren Systemen nachschlagen oder ausführen kann, bleibt er eine Oberfläche. Ein Agent hat Werkzeuge, einen Auftrag und eine Autonomiestufe. Prüfen Sie, was das System tatsächlich tun kann, nicht, was es sagen kann." },
+          { "q": "Wie unterscheiden sich die Kosten?", "a": "Qualitativ: RPA hat eine Lizenz je Bot und Entwicklungsaufwand, aber fast keine Kosten je Durchlauf. Modellbasierte Agenten kosten je Durchlauf, steigend mit dem Volumen und dem Lese- und Denkaufwand je Fall, plus Engineering und Evaluation. Der Vergleich ergibt nur je Prozess Sinn: Ein Agent, der eine manuelle Ausnahme-Warteschlange abschafft, kann sich schnell rechnen; ein Agent auf einem Prozess, den RPA sauber erledigt, nie. Genau deshalb gibt unser [Readiness-Assessment](page:services/ai-readiness-assessment) jedem Kandidatenprozess eine Architekturempfehlung mit." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Artikel und Leistungen",
+        "pages": ["insights/what-is-agentic-ai", "insights/first-agent-use-case", "services/agentic-workflows", "solutions/operations"]
+      }
+    ]
+  }
+}

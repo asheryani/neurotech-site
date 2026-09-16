@@ -1,0 +1,426 @@
+{
+  "id": "insights/build-vs-buy",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "Build or Buy AI Agents? Platforms, Low-Code or Custom",
+    "metaDescription": "Build or buy AI agents: platform agents, low-code orchestration and custom frameworks compared on time to value, fit, data control, lock-in, costs and governance.",
+    "cardTitle": "Build or buy AI agents?",
+    "cardText": "Platform agents, low-code orchestration or custom frameworks: a comparison, the cost dimensions that matter, and the hybrid architecture we usually recommend.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "Build or buy AI agents? A decision guide for platforms,",
+      "titleAccent": "low-code and custom.",
+      "standfirst": "Most companies now have three ways to get an AI agent: switch one on inside a platform they already pay for, wire one together in a low-code tool, or build one with an agent framework on their own infrastructure. This guide compares the three on time to value, fit, data control, lock-in, running costs, skills and governance, and explains why the best answer is usually a combination."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "The three options",
+        "content": [
+          {
+            "h2": "Not two options but three"
+          },
+          {
+            "p": "The build-or-buy question is decades old, but AI agents have changed the middle of it. Between the classic buy (a product that does the job) and the classic build (software written for you), a broad low-code layer has appeared, and the platforms you already own now ship their own agent builders. In practice you are choosing between three options, and often between combinations of them."
+          },
+          {
+            "h3": "Option 1: Agents inside platforms you already own"
+          },
+          {
+            "p": "Microsoft Copilot Studio, Salesforce Agentforce, SAP Joule, ServiceNow and HubSpot all offer ways to build agents that live inside their applications, with access to the data and workflows already there. The appeal is obvious: no new vendor, users are already in the tool, identity and permissions are inherited, and the first agent can be live in days. The catch is equally clear: the agent is good with the platform's own data and mediocre outside it, the model choices and evaluation tooling are the vendor's, and costs arrive as new licence tiers or consumption fees you do not fully control."
+          },
+          {
+            "h3": "Option 2: Low-code orchestration"
+          },
+          {
+            "p": "n8n, Make, Power Automate and Zapier let a technically minded team connect a language model to hundreds of SaaS tools through visual workflows. This is the fastest way from an idea to something that runs, and it is ideal for the long tail of small automations that would never justify a development project. The limits show as soon as the logic gets complex: branching, retries, evaluation and access control become hard to see and harder to test, and a workflow that grew over a year is rarely something you would call governed."
+          },
+          {
+            "h3": "Option 3: Custom agents on your infrastructure"
+          },
+          {
+            "p": "Frameworks such as LangGraph, CrewAI, the OpenAI Agents SDK and the Claude Agent SDK give a development team full control over the agent's logic, tools, memory and evaluation, running wherever you decide, including EU-hosted or on-premise infrastructure. This is where differentiating workflows belong: the processes that make your company what it is, where you want to own the data flow and the quality metrics. The price is engineering time, people who can operate what they built, and the temptation to rebuild what a platform already does well."
+          },
+          {
+            "h2": "The comparison"
+          },
+          {
+            "table": {
+              "caption": "Platform agents, low-code orchestration and custom agents compared",
+              "columns": [
+                "",
+                "Platform agents",
+                "Low-code orchestration",
+                "Custom agents"
+              ],
+              "rows": [
+                [
+                  "Time to value",
+                  "Days to weeks for standard cases",
+                  "Days for simple flows; weeks for anything with logic",
+                  "Weeks to a first production pilot, typically six to eight"
+                ],
+                [
+                  "Fit to your process",
+                  "Good inside the platform's domain; limited outside it",
+                  "Flexible, as long as the logic stays simple",
+                  "Exact; the agent is built around your process"
+                ],
+                [
+                  "Control over data",
+                  "Vendor's cloud and model choices; residency options vary by platform",
+                  "Depends on hosting; self-hosted options exist for some tools",
+                  "Full: you choose model, region, logging and retention"
+                ],
+                [
+                  "Lock-in",
+                  "High: agent logic and data live in the platform",
+                  "Medium: workflows are portable in principle, rarely in practice",
+                  "Low to medium: frameworks are open, but the code is yours to maintain"
+                ],
+                [
+                  "Running costs profile",
+                  "Licence tiers or consumption fees set by the vendor",
+                  "Subscription plus model consumption; grows with the number of flows",
+                  "Model consumption plus infrastructure and operations; cheapest per case at volume"
+                ],
+                [
+                  "Skills needed",
+                  "Platform administrators and power users",
+                  "Technically minded business users or a small integration team",
+                  "Software engineers with AI experience, plus operations"
+                ],
+                [
+                  "Governance",
+                  "Inherits the platform's identity and audit features; evaluation is limited",
+                  "Often ad hoc; access control and logging are manual work",
+                  "Whatever you build: full evaluation, logging and approval paths are possible, and your responsibility"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "When each wins",
+        "content": [
+          {
+            "h2": "When each option wins"
+          },
+          {
+            "h3": "The platform wins when the workflow already lives there"
+          },
+          {
+            "p": "If the process runs inside Salesforce, SAP or ServiceNow, the users are already there, the records are there, and the vendor's agent can read and write them with inherited permissions. A sales assistant that summarises accounts and drafts follow-ups in the CRM, or a service agent that resolves standard requests inside the ticketing tool, rarely justifies a custom build. Standard process, standard data, standard agent."
+          },
+          {
+            "h3": "Low-code wins for the long tail and for speed"
+          },
+          {
+            "p": "Dozens of small automations across marketing, operations and administration, each saving an hour a week, are exactly what low-code is for. It also wins when you need to test whether an idea works at all before committing to a build, and when the team that owns the process is technical enough to maintain the flow. Keep these flows small, and keep the ones that grew up on a list for migration."
+          },
+          {
+            "h3": "Custom wins where you differentiate, or where control is not negotiable"
+          },
+          {
+            "p": "The workflows that define your business, complex multi-step reasoning across several systems, high volumes where consumption costs per case matter, strict requirements on where data is processed, and the need for real evaluation and observability all point to a custom agent. The same is true when the platform simply does not have the tools: an agent that has to read supplier PDFs, check them against a contract database and post to a legacy ERP will not come out of a platform builder. Our [AI agent development](page:services/ai-agent-development) service is built for this case."
+          },
+          {
+            "h2": "Total cost of ownership: five dimensions"
+          },
+          {
+            "p": "Licence prices are the smallest part of the difference. Compare the options on all five dimensions before you decide, and be suspicious of any option that scores well on only the first."
+          },
+          {
+            "ul": [
+              "**Licences and consumption.** Platform tiers, subscriptions, per-message or per-token fees. The platform option looks cheap at low volume and expensive at high volume; custom is the reverse.",
+              "**Integration.** Connecting the agent to your systems. Free inside a platform, moderate in low-code, a real work package in custom, but reusable across agents when done through a standard such as the [Model Context Protocol](page:insights/mcp-explained).",
+              "**Evaluation and quality.** Test sets, quality metrics, regression testing. Rarely included in platforms and low-code tools, which means you either build it anyway or fly blind.",
+              "**Operations.** Monitoring, incident handling, model updates, prompt changes, access reviews. Every option needs this; only the custom option makes you plan for it explicitly. [Managed AI operations](page:services/managed-ai-operations) can cover it for any of the three.",
+              "**Change.** Training, process redesign, works council involvement, documentation. Identical across options and usually underestimated by a factor that surprises everyone."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Recommendation",
+        "content": [
+          {
+            "h2": "The hybrid architecture we usually recommend"
+          },
+          {
+            "p": "In most companies the right answer is layered. The platform hosts the agent where the workflow, the users and the records already live: the CRM assistant stays in the CRM. Custom agents handle the differentiating work: the reasoning over your documents, your rules and your legacy systems, built and evaluated by you, running where your data policy says. Low-code covers the long tail of small automations and the glue between the two."
+          },
+          {
+            "p": "What makes this work is a standard way for the parts to talk to each other. The Model Context Protocol lets you expose your systems and your custom agents as tools that platform agents, low-code flows and other agents can call, so you build a connector once and use it everywhere. The [agentic workflow](page:services/agentic-workflows) engagements we run usually look exactly like this: a platform front end, custom reasoning in the middle, MCP connectors underneath."
+          },
+          {
+            "note": "Rule of thumb: buy the parts of the stack where you have no ambition to be different. Build the parts where you do. Connect them with open standards so that today's buy decision does not become tomorrow's lock-in."
+          },
+          {
+            "h2": "A decision checklist"
+          },
+          {
+            "ol": [
+              "Does the workflow already live in a platform we own, with the users and the data there? If yes, start with the platform's agent.",
+              "Is this process something we differentiate on, or a standard process everyone runs the same way?",
+              "Where must the data be processed, and who may see the prompts and outputs? Does the option meet that requirement without exceptions?",
+              "How many cases per month, and what does the per-case cost look like at three times that volume?",
+              "Can we evaluate the agent's quality ourselves with this option, or would we be trusting the vendor's word?",
+              "Who will operate this in twelve months, and do those people exist in our company?",
+              "What does leaving look like? Can we export the logic, the prompts and the data?",
+              "What is the smallest version that proves the value, and which option gets us there fastest without painting us into a corner?"
+            ]
+          },
+          {
+            "p": "If you cannot answer the third and the sixth question, do not decide yet. Both are cheaper to answer in an [AI readiness assessment](page:services/ai-readiness-assessment) than after a licence agreement."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Does building custom agents mean we need a large development team?",
+            "a": "No. A first custom agent is typically built by two or three people over six to eight weeks, and operating it afterwards is a part-time responsibility once monitoring and evaluation are in place. What you do need is at least one engineer who understands the system, or a partner who operates it with you."
+          },
+          {
+            "q": "Can we start on a platform and move to custom later?",
+            "a": "Yes, and it is a sensible path if you design for it: keep prompts, rules and test cases in a form you own, connect systems through MCP rather than platform-specific connectors where possible, and log everything. The agent logic itself will be rewritten; the knowledge about the process should not have to be."
+          },
+          {
+            "q": "What about lock-in with the model provider?",
+            "a": "Less severe than platform lock-in, as long as the agent is built so that the model is a configuration choice. Evaluation sets make switching safe: if a new model passes your tests, you can change. Our article on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting) covers the options for EU-hosted and open-weight models."
+          },
+          {
+            "q": "Which option is right for strict EU data residency requirements?",
+            "a": "All three can work, but with very different amounts of verification. Platforms and low-code tools require you to check regions, sub-processors and model routing for every feature you use. Custom agents let you choose EU-hosted models and infrastructure directly, which is why regulated companies often choose custom for the sensitive workflows and platforms for the rest."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services and reading",
+        "pages": [
+          "services/ai-agent-development",
+          "services/agentic-workflows",
+          "insights/mcp-explained",
+          "insights/sovereign-ai-eu-hosting"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten: Kaufen, konfigurieren oder selbst bauen?",
+    "metaDescription": "Plattform-Agenten, Low-Code oder eigenes Framework? Vergleich nach Time-to-Value, Passung, Datenkontrolle, Lock-in, Kosten und Governance, mit Checkliste.",
+    "cardTitle": "KI-Agenten: kaufen oder bauen?",
+    "cardText": "Plattform-Agenten, Low-Code-Orchestrierung oder eigene Frameworks: ein Vergleich, die Kostendimensionen, die zählen, und die hybride Architektur, die wir meist empfehlen.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "KI-Agenten: Kaufen, konfigurieren oder selbst bauen? Ein",
+      "titleAccent": "Entscheidungsleitfaden.",
+      "standfirst": "Die meisten Unternehmen haben heute drei Wege zu einem KI-Agenten: ihn in einer Plattform einschalten, die sie ohnehin bezahlen, ihn in einem Low-Code-Werkzeug zusammenstecken oder ihn mit einem Agenten-Framework auf eigener Infrastruktur bauen. Dieser Leitfaden vergleicht die drei nach Time-to-Value, Passung, Datenkontrolle, Lock-in, laufenden Kosten, Kompetenzen und Governance – und erklärt, warum die beste Antwort meist eine Kombination ist."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Die drei Optionen",
+        "content": [
+          {
+            "h2": "Nicht zwei Optionen, sondern drei"
+          },
+          {
+            "p": "Die Frage „kaufen oder bauen“ ist Jahrzehnte alt, aber KI-Agenten haben ihre Mitte verändert. Zwischen dem klassischen Kauf (ein Produkt, das die Aufgabe erledigt) und dem klassischen Bau (Software, die für Sie geschrieben wird) ist eine breite Low-Code-Schicht entstanden, und die Plattformen, die Sie bereits besitzen, liefern inzwischen eigene Agenten-Baukästen mit. In der Praxis wählen Sie zwischen drei Optionen – und oft zwischen Kombinationen davon."
+          },
+          {
+            "h3": "Option 1: Agenten in Plattformen, die Sie bereits besitzen"
+          },
+          {
+            "p": "Microsoft Copilot Studio, Salesforce Agentforce, SAP Joule, ServiceNow und HubSpot bieten alle Möglichkeiten, Agenten zu bauen, die in ihren Anwendungen leben, mit Zugriff auf die Daten und Workflows, die dort ohnehin liegen. Der Reiz ist offensichtlich: kein neuer Anbieter, die Nutzer sind schon im Tool, Identitäten und Berechtigungen werden geerbt, und der erste Agent kann in Tagen live sein. Der Haken ist ebenso klar: Der Agent ist gut mit den Daten der Plattform und mittelmäßig außerhalb, Modellwahl und Evaluationswerkzeuge gehören dem Anbieter, und die Kosten kommen als neue Lizenzstufen oder Verbrauchsgebühren, die Sie nicht vollständig steuern."
+          },
+          {
+            "h3": "Option 2: Low-Code-Orchestrierung"
+          },
+          {
+            "p": "n8n, Make, Power Automate und Zapier erlauben einem technisch versierten Team, ein Sprachmodell über visuelle Workflows mit Hunderten SaaS-Werkzeugen zu verbinden. Das ist der schnellste Weg von einer Idee zu etwas, das läuft, und ideal für die lange Liste kleiner Automatisierungen, die nie ein Entwicklungsprojekt rechtfertigen würden. Die Grenzen zeigen sich, sobald die Logik komplex wird: Verzweigungen, Wiederholungen, Evaluation und Zugriffskontrolle werden schwer zu überblicken und noch schwerer zu testen, und ein Workflow, der über ein Jahr gewachsen ist, verdient das Wort „gesteuert“ selten."
+          },
+          {
+            "h3": "Option 3: Eigene Agenten auf Ihrer Infrastruktur"
+          },
+          {
+            "p": "Frameworks wie LangGraph, CrewAI, das OpenAI Agents SDK und das Claude Agent SDK geben einem Entwicklungsteam volle Kontrolle über Logik, Werkzeuge, Gedächtnis und Evaluation des Agenten – und er läuft, wo Sie es entscheiden, auch auf EU-gehosteter oder eigener Infrastruktur. Hierhin gehören die Workflows, mit denen Sie sich unterscheiden: die Prozesse, die Ihr Unternehmen ausmachen und bei denen Sie Datenfluss und Qualitätskennzahlen selbst besitzen wollen. Der Preis sind Engineering-Zeit, Menschen, die betreiben können, was sie gebaut haben, und die Versuchung, nachzubauen, was eine Plattform bereits gut kann."
+          },
+          {
+            "h2": "Der Vergleich"
+          },
+          {
+            "table": {
+              "caption": "Plattform-Agenten, Low-Code-Orchestrierung und eigene Agenten im Vergleich",
+              "columns": [
+                "",
+                "Plattform-Agenten",
+                "Low-Code-Orchestrierung",
+                "Eigene Agenten"
+              ],
+              "rows": [
+                [
+                  "Time-to-Value",
+                  "Tage bis Wochen für Standardfälle",
+                  "Tage für einfache Flows; Wochen für alles mit Logik",
+                  "Wochen bis zum ersten produktiven Piloten, in der Regel sechs bis acht"
+                ],
+                [
+                  "Passung zu Ihrem Prozess",
+                  "Gut innerhalb der Plattformdomäne; begrenzt außerhalb",
+                  "Flexibel, solange die Logik einfach bleibt",
+                  "Exakt; der Agent wird um Ihren Prozess herum gebaut"
+                ],
+                [
+                  "Kontrolle über Daten",
+                  "Cloud und Modellwahl des Anbieters; Residenzoptionen je nach Plattform",
+                  "Hängt vom Hosting ab; manche Werkzeuge lassen sich selbst betreiben",
+                  "Vollständig: Sie wählen Modell, Region, Protokollierung und Aufbewahrung"
+                ],
+                [
+                  "Lock-in",
+                  "Hoch: Agentenlogik und Daten leben in der Plattform",
+                  "Mittel: Workflows sind im Prinzip portabel, in der Praxis selten",
+                  "Niedrig bis mittel: Frameworks sind offen, aber der Code ist Ihrer und will gepflegt werden"
+                ],
+                [
+                  "Profil der laufenden Kosten",
+                  "Lizenzstufen oder Verbrauchsgebühren, vom Anbieter festgelegt",
+                  "Abonnement plus Modellverbrauch; wächst mit der Zahl der Flows",
+                  "Modellverbrauch plus Infrastruktur und Betrieb; bei Volumen am günstigsten je Fall"
+                ],
+                [
+                  "Nötige Kompetenzen",
+                  "Plattform-Administratoren und Power-User",
+                  "Technisch versierte Fachanwender oder ein kleines Integrationsteam",
+                  "Softwareentwickler mit KI-Erfahrung plus Betrieb"
+                ],
+                [
+                  "Governance",
+                  "Erbt Identitäts- und Audit-Funktionen der Plattform; Evaluation begrenzt",
+                  "Oft ad hoc; Zugriffskontrolle und Protokollierung sind Handarbeit",
+                  "Was Sie bauen: vollständige Evaluation, Protokollierung und Freigabewege sind möglich – und Ihre Verantwortung"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Wann welche Option gewinnt",
+        "content": [
+          {
+            "h2": "Wann welche Option gewinnt"
+          },
+          {
+            "h3": "Die Plattform gewinnt, wenn der Workflow schon dort lebt"
+          },
+          {
+            "p": "Läuft der Prozess in Salesforce, SAP oder ServiceNow, sind die Nutzer schon dort, die Datensätze sind dort, und der Agent des Anbieters kann sie mit geerbten Berechtigungen lesen und schreiben. Ein Vertriebsassistent, der Accounts zusammenfasst und Follow-ups im CRM entwirft, oder ein Service-Agent, der Standardanfragen im Ticketsystem löst, rechtfertigt selten eine Eigenentwicklung. Standardprozess, Standarddaten, Standardagent."
+          },
+          {
+            "h3": "Low-Code gewinnt bei der langen Liste und beim Tempo"
+          },
+          {
+            "p": "Dutzende kleiner Automatisierungen in Marketing, Operations und Verwaltung, die jeweils eine Stunde pro Woche sparen, sind genau das, wofür Low-Code gemacht ist. Es gewinnt auch, wenn Sie erst prüfen wollen, ob eine Idee überhaupt trägt, bevor Sie in einen Bau investieren, und wenn das Team, das den Prozess verantwortet, technisch genug ist, um den Flow zu pflegen. Halten Sie diese Flows klein – und führen Sie eine Liste derer, die groß geworden sind, für die Migration."
+          },
+          {
+            "h3": "Eigenbau gewinnt, wo Sie sich unterscheiden oder Kontrolle nicht verhandelbar ist"
+          },
+          {
+            "p": "Die Workflows, die Ihr Geschäft ausmachen, komplexes mehrstufiges Schlussfolgern über mehrere Systeme, hohe Volumina, bei denen die Verbrauchskosten je Fall zählen, strenge Vorgaben, wo Daten verarbeitet werden, und der Bedarf an echter Evaluation und Beobachtbarkeit – all das spricht für einen eigenen Agenten. Dasselbe gilt, wenn die Plattform die Werkzeuge schlicht nicht hat: Ein Agent, der Lieferanten-PDFs lesen, gegen eine Vertragsdatenbank prüfen und in ein Alt-ERP buchen soll, kommt aus keinem Plattform-Baukasten. Unsere [KI-Agenten-Entwicklung](page:services/ai-agent-development) ist für genau diesen Fall gemacht."
+          },
+          {
+            "h2": "Gesamtkosten: fünf Dimensionen"
+          },
+          {
+            "p": "Lizenzpreise sind der kleinste Teil des Unterschieds. Vergleichen Sie die Optionen in allen fünf Dimensionen, bevor Sie entscheiden – und seien Sie misstrauisch gegenüber jeder Option, die nur in der ersten gut abschneidet."
+          },
+          {
+            "ul": [
+              "**Lizenzen und Verbrauch.** Plattformstufen, Abonnements, Gebühren je Nachricht oder je Token. Die Plattformoption wirkt bei geringem Volumen günstig und bei hohem teuer; beim Eigenbau ist es umgekehrt.",
+              "**Integration.** Die Anbindung des Agenten an Ihre Systeme. Innerhalb einer Plattform kostenlos, bei Low-Code moderat, beim Eigenbau ein echtes Arbeitspaket – aber über einen Standard wie das [Model Context Protocol](page:insights/mcp-explained) für alle Agenten wiederverwendbar.",
+              "**Evaluation und Qualität.** Testsets, Qualitätskennzahlen, Regressionstests. In Plattformen und Low-Code-Werkzeugen selten enthalten – Sie bauen es also ohnehin oder fliegen blind.",
+              "**Betrieb.** Monitoring, Umgang mit Vorfällen, Modell-Updates, Prompt-Änderungen, Zugriffsprüfungen. Jede Option braucht das; nur der Eigenbau zwingt Sie, es explizit einzuplanen. [Managed AI Operations](page:services/managed-ai-operations) kann es für alle drei abdecken.",
+              "**Veränderung.** Schulung, Prozessumbau, Betriebsratsbeteiligung, Dokumentation. Bei allen Optionen gleich – und meist um einen Faktor unterschätzt, der alle überrascht."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Empfehlung",
+        "content": [
+          {
+            "h2": "Die hybride Architektur, die wir meist empfehlen"
+          },
+          {
+            "p": "In den meisten Unternehmen ist die richtige Antwort geschichtet. Die Plattform beherbergt den Agenten dort, wo Workflow, Nutzer und Datensätze ohnehin leben: Der CRM-Assistent bleibt im CRM. Eigene Agenten übernehmen die unterscheidende Arbeit – das Schlussfolgern über Ihre Dokumente, Ihre Regeln und Ihre Altsysteme, von Ihnen gebaut und evaluiert, betrieben, wo Ihre Datenrichtlinie es vorgibt. Low-Code deckt die lange Liste kleiner Automatisierungen und den Kitt zwischen beiden ab."
+          },
+          {
+            "p": "Damit das funktioniert, brauchen die Teile einen standardisierten Weg, miteinander zu sprechen. Über das Model Context Protocol stellen Sie Ihre Systeme und Ihre eigenen Agenten als Werkzeuge bereit, die Plattform-Agenten, Low-Code-Flows und andere Agenten aufrufen können: ein Konnektor, einmal gebaut, überall genutzt. Unsere Projekte zu [agentischen Workflows](page:services/agentic-workflows) sehen meist genau so aus: Plattform vorne, eigenes Schlussfolgern in der Mitte, MCP-Konnektoren darunter."
+          },
+          {
+            "note": "Faustregel: Kaufen Sie die Teile des Stacks, bei denen Sie nicht anders sein wollen als andere. Bauen Sie die Teile, bei denen Sie es wollen. Verbinden Sie beides über offene Standards, damit die Kaufentscheidung von heute nicht der Lock-in von morgen wird."
+          },
+          {
+            "h2": "Eine Entscheidungscheckliste"
+          },
+          {
+            "ol": [
+              "Lebt der Workflow bereits in einer Plattform, die wir besitzen, mit den Nutzern und den Daten dort? Wenn ja, beginnen Sie mit dem Agenten der Plattform.",
+              "Ist dieser Prozess etwas, womit wir uns unterscheiden, oder ein Standardprozess, den alle gleich betreiben?",
+              "Wo müssen die Daten verarbeitet werden, und wer darf Prompts und Ausgaben sehen? Erfüllt die Option diese Anforderung ohne Ausnahmen?",
+              "Wie viele Fälle pro Monat, und wie sehen die Kosten je Fall beim Dreifachen dieses Volumens aus?",
+              "Können wir die Qualität des Agenten mit dieser Option selbst evaluieren, oder verlassen wir uns auf das Wort des Anbieters?",
+              "Wer betreibt das in zwölf Monaten, und gibt es diese Menschen in unserem Unternehmen?",
+              "Wie sieht der Ausstieg aus? Können wir Logik, Prompts und Daten exportieren?",
+              "Was ist die kleinste Version, die den Nutzen belegt, und welche Option bringt uns am schnellsten dorthin, ohne uns festzulegen?"
+            ]
+          },
+          {
+            "p": "Wenn Sie die dritte und die sechste Frage nicht beantworten können, entscheiden Sie noch nicht. Beide sind in einem [KI-Readiness-Assessment](page:services/ai-readiness-assessment) günstiger zu beantworten als nach einem Lizenzvertrag."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Bedeutet Eigenbau, dass wir ein großes Entwicklungsteam brauchen?",
+            "a": "Nein. Einen ersten eigenen Agenten bauen in der Regel zwei bis drei Personen in sechs bis acht Wochen, und der anschließende Betrieb ist eine Teilzeitaufgabe, sobald Monitoring und Evaluation stehen. Was Sie brauchen, ist mindestens ein Entwickler, der das System versteht – oder ein Partner, der es mit Ihnen betreibt."
+          },
+          {
+            "q": "Können wir auf einer Plattform anfangen und später auf Eigenbau wechseln?",
+            "a": "Ja, und das ist ein vernünftiger Weg, wenn Sie ihn von Anfang an einplanen: Halten Sie Prompts, Regeln und Testfälle in einer Form, die Ihnen gehört, binden Sie Systeme möglichst über MCP statt über plattformspezifische Konnektoren an und protokollieren Sie alles. Die Agentenlogik selbst wird neu geschrieben; das Wissen über den Prozess sollte es nicht müssen."
+          },
+          {
+            "q": "Wie steht es um den Lock-in beim Modellanbieter?",
+            "a": "Weniger gravierend als beim Plattform-Lock-in, solange der Agent so gebaut ist, dass das Modell eine Konfigurationsentscheidung ist. Evaluationssets machen den Wechsel sicher: Besteht ein neues Modell Ihre Tests, können Sie umstellen. Unser Artikel zu [souveräner KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting) beschreibt die Optionen für EU-gehostete und offene Modelle."
+          },
+          {
+            "q": "Welche Option passt zu strengen Anforderungen an EU-Datenresidenz?",
+            "a": "Alle drei können funktionieren, aber mit sehr unterschiedlichem Prüfaufwand. Bei Plattformen und Low-Code-Werkzeugen müssen Sie Regionen, Unterauftragsverarbeiter und Modell-Routing für jede genutzte Funktion prüfen. Eigene Agenten lassen Sie EU-gehostete Modelle und Infrastruktur direkt wählen – deshalb entscheiden sich regulierte Unternehmen oft für Eigenbau bei den sensiblen Workflows und für Plattformen beim Rest."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen und Artikel",
+        "pages": [
+          "services/ai-agent-development",
+          "services/agentic-workflows",
+          "insights/mcp-explained",
+          "insights/sovereign-ai-eu-hosting"
+        ]
+      }
+    ]
+  }
+}

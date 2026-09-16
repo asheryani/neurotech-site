@@ -1,0 +1,230 @@
+{
+  "id": "insights/what-is-agentic-ai",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "What Is Agentic AI? A Practical Guide for Business Leaders",
+    "metaDescription": "Agentic AI explained for decision makers: how AI agents plan, use tools and act, how they differ from chatbots and copilots, and where they pay off.",
+    "cardTitle": "What is agentic AI?",
+    "cardText": "A plain-language definition, the six building blocks of an agent, four levels of autonomy and concrete examples for every department.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "What is agentic AI? A practical guide for",
+      "titleAccent": "business leaders.",
+      "standfirst": "Agentic AI describes software that pursues a goal rather than answering a single prompt: it plans, calls tools and systems, checks its own results and takes the next step, with as much autonomy as you decide to give it. This guide explains what that means in practice, how agents differ from chatbots and copilots, and where they pay off in a company."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Definition",
+        "content": [
+          { "h2": "A working definition of agentic AI" },
+          { "p": "Agentic AI describes software systems that are given a goal, a set of tools and a mandate, and that work toward the goal over several steps. Instead of producing one answer to one prompt, an agent plans what to do, calls tools such as a search index, a database, an email account or your ERP, looks at what came back, and decides on the next step. It keeps going until the task is done, blocked, or handed to a person." },
+          { "p": "The reasoning core is usually a large language model. What turns a model into an agent is everything around it: the loop that lets it act repeatedly, the tools it may use, the memory it keeps and the limits you set. Autonomy is therefore a design decision, not a property of the model. The same model can power an assistant that only drafts and an agent that closes tickets on its own." },
+          { "p": "A useful test: if the system can complete a task you would otherwise assign to a colleague, including the tedious middle part of looking things up in three systems, it is an agent. If it only answers, it is a chatbot. If it helps you while you do the work yourself, it is a copilot." },
+          { "h2": "Agents, chatbots and copilots compared" },
+          { "p": "Vendors use the three terms almost interchangeably, which is why so many companies are surprised when their chatbot turns out to be unable to do anything. The difference lies in who drives the work and what happens between the question and the result." },
+          { "table": {
+            "caption": "Who does the work: chatbot, copilot, agent",
+            "columns": ["", "Chatbot", "Copilot", "AI agent"],
+            "rows": [
+              ["Purpose", "Answer questions in a conversation", "Help a person while they work inside an application", "Complete a task across several steps and systems"],
+              ["Who drives", "The user, turn by turn", "The user; the AI suggests and drafts", "The agent, within a mandate you define"],
+              ["Scope", "One question at a time", "One application, one document, one screen", "An end-to-end workflow, for example a whole case or order"],
+              ["Systems involved", "Usually one knowledge source, sometimes none", "The host application", "Several, connected through APIs and tools"],
+              ["Typical output", "A text answer", "A draft, summary or suggestion", "A completed action, an updated record, a decision proposal"],
+              ["Typical failure", "A wrong answer the user can ignore", "A wrong draft the user corrects", "A wrong action that guardrails and review must catch"]
+            ]
+          } },
+          { "p": "Chatbots and copilots are interfaces to a model. Agents are workers with a mandate. Both have their place, and in practice a chat window is often the front door to an agent with real tools behind it. What matters for your risk and your business case is not the label but the last row of the table: who acts, and who checks." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Anatomy",
+        "content": [
+          { "h2": "The six building blocks of an AI agent" },
+          { "p": "Every production agent, whatever the framework or platform, consists of the same six parts. Knowing them helps you ask vendors and your own team the right questions." },
+          { "ul": [
+            "**Model.** The language model that reads, reasons and writes. It is the most visible and, increasingly, the least differentiating part. Model choice matters for cost, response time, language quality in German and where your data is processed.",
+            "**Tools and APIs.** What the agent may do: search a knowledge base, read a ticket, query the ERP, send an email, create a record. Tools are where the agent meets your systems; standards such as the [Model Context Protocol](page:insights/mcp-explained) make this connection reusable.",
+            "**Memory.** Short-term memory is the context of the current task. Long-term memory stores what the agent should remember across runs, such as customer preferences or earlier decisions. Both need rules about what may be stored and for how long.",
+            "**Orchestration.** The logic that runs the loop: plan, act, observe, repeat. It handles retries, splits large tasks into smaller ones, hands work to specialised sub-agents and decides when to stop or escalate.",
+            "**Guardrails.** Permissions, spending limits, approval steps, forbidden actions, checks on inputs and outputs. Guardrails turn a capable model into a system you can trust with real accounts. We wrote a separate guide on [guardrails for AI agents](page:insights/guardrails-for-agents).",
+            "**Evaluation.** Test cases, quality metrics, logs and monitoring. Without evaluation you cannot tell whether a prompt change made the agent better or worse, and you cannot show an auditor what the agent did and why."
+          ] },
+          { "p": "When a demo looks impressive but the project stalls, it is almost always because the last three parts were missing. Our [AI agent development](page:services/ai-agent-development) work starts with orchestration, guardrails and evaluation for exactly this reason." },
+          { "h2": "Four levels of autonomy" },
+          { "p": "The most consequential decision about an agent is not which model to use but how much it may do without asking. We describe this on four levels, and we set the level per action rather than per agent: the same agent may draft freely, propose with reasoning, and require approval before it sends anything to a customer." },
+          { "table": {
+            "caption": "Levels of autonomy for AI agents",
+            "columns": ["Level", "What the agent does", "Who decides", "Typical use"],
+            "rows": [
+              ["1 · Assist", "Gathers information, summarises, drafts", "A person does everything that matters", "Research, meeting preparation, first drafts"],
+              ["2 · Recommend", "Proposes a decision or next action, with reasoning and evidence", "A person decides and executes", "Triage, prioritisation, classification, pricing suggestions"],
+              ["3 · Act with approval", "Prepares the action completely and waits", "A person approves with one click; the agent executes", "Customer replies, purchase orders, journal entries, record changes"],
+              ["4 · Act within limits", "Executes on its own inside defined thresholds and logs everything", "People monitor and handle exceptions", "Reversible, low-value, high-volume steps such as data enrichment or routing"]
+            ]
+          } },
+          { "p": "Most agents in production sit at level 2 or 3, and that is not a compromise but the design. Level 4 is earned action by action, when evaluation data shows that the agent's error rate on that step is lower than the cost of a review. For some uses the EU AI Act requires meaningful human oversight regardless; our [plain-language guide to the EU AI Act](page:insights/eu-ai-act-guide) explains which." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "In practice",
+        "content": [
+          { "h2": "What agents do in practice, department by department" },
+          { "p": "The pattern repeats across functions: messy input, rules that need some judgement, several systems, and a person who currently does the glue work. The following examples are typical scenarios, not a catalogue." },
+          { "ul": [
+            "**Marketing.** An agent turns a product brief into channel-specific drafts, checks them against brand and legal guidelines and prepares the campaign in your tools for a marketer to approve. See [AI agents in marketing](page:solutions/marketing).",
+            "**Sales.** Inbound leads are researched, qualified against your criteria, enriched in the CRM and routed to the right person with a suggested first reply. See [AI agents in sales](page:solutions/sales).",
+            "**Customer service.** Tickets are classified, the relevant order and contract data is pulled together, a reply is drafted, and simple cases such as address changes are executed after approval. See [customer service](page:solutions/customer-service).",
+            "**Operations.** Orders that arrive as PDFs or emails are read, validated against price lists and stock and entered into the ERP; discrepancies go to a person. See [operations](page:solutions/operations).",
+            "**Finance.** Incoming invoices are matched to purchase orders and goods receipts, exceptions are explained, and postings are proposed for the accountant to release. See [finance](page:solutions/finance).",
+            "**HR.** An assistant answers policy questions from the handbook, prepares onboarding checklists and drafts documents, while every decision about people stays with people. See [HR](page:solutions/hr).",
+            "**Legal and compliance.** Contracts are reviewed against your playbook, deviations are flagged with the clause and the reason, and standard agreements are pre-filled. See [legal and compliance](page:solutions/legal-compliance).",
+            "**IT and engineering.** Incidents are enriched with logs and history, runbook steps are executed after approval, and internal requests are resolved without a ticket queue. See [IT and engineering](page:solutions/it-engineering)."
+          ] },
+          { "h2": "When not to use an agent" },
+          { "p": "Agents are expensive when misapplied. In four situations we advise against them, at least for now." },
+          { "ul": [
+            "**The process is fully deterministic and stable.** If the input is structured and the rules never need judgement, a script, an integration or RPA is cheaper and more reliable. Our comparison of [AI agents, RPA and chatbots](page:insights/agents-vs-rpa-vs-chatbots) goes into detail.",
+            "**A wrong action is irreversible and there is no review step.** Payments, terminations, public statements. Either add a level-3 approval or keep the agent at level 2.",
+            "**The decision is legally sensitive.** Hiring, credit, access to essential services and similar uses are treated as high-risk under the EU AI Act. Agents may assist there, but design, documentation and oversight follow different rules.",
+            "**There is no baseline and no volume.** If nobody can say how long the process takes today or how often it runs, you cannot show that the agent helped, and a process that runs twice a month rarely justifies the effort."
+          ] },
+          { "note": "Rule of thumb: an agent earns its place where the input is messy, the rules need judgement, and the volume is high enough that a person checking the output is clearly cheaper than a person doing the work." },
+          { "h2": "How to start" },
+          { "p": "Start with a diagnosis, not a demo. An [AI readiness assessment](page:services/ai-readiness-assessment) tells you in two to three weeks where your data, systems, skills and governance stand and which two or three use cases are realistic. Then pick one deliberately: our guide on [choosing your first AI agent use case](page:insights/first-agent-use-case) contains the scoring framework we use ourselves." },
+          { "p": "From there, a pilot of typically six to eight weeks should end with a production-grade agent for one workflow, a measured result against the baseline and the governance you need to run it. Not a slide deck about what an agent could do." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Is agentic AI the same as generative AI?", "a": "No. Generative AI describes models that produce text, images or code. Agentic AI uses such models as the reasoning core of a system that plans, uses tools and acts across steps. Every agent contains a generative model; most generative AI applications are not agents." },
+          { "q": "Do we need our own models or a data science team?", "a": "Rarely. Most business agents run on commercial or open-weight models accessed through an API, on the documents, emails and records you already have. What you need is a process owner, someone who can connect your systems, and a way to evaluate results." },
+          { "q": "How does an agent connect to our ERP, CRM or ticketing system?", "a": "Through tools: functions the agent may call, backed by your systems' APIs. Increasingly this is standardised through the [Model Context Protocol (MCP)](page:insights/mcp-explained), which lets one connector serve several agents and platforms. Where a system has no API, an RPA step or a workflow tool can act as the hands." },
+          { "q": "How do we prevent an agent from doing something wrong?", "a": "By deciding the level of autonomy per action, giving the agent only the permissions it needs, adding approval steps where actions are hard to reverse, and testing it against an evaluation set before and after every change. Logging everything the agent does closes the loop. See our guide on [guardrails for AI agents](page:insights/guardrails-for-agents)." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related reading and services",
+        "pages": ["insights/first-agent-use-case", "insights/agents-vs-rpa-vs-chatbots", "services/ai-readiness-assessment", "services/ai-agent-development"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Was ist Agentic AI? Ein praktischer Leitfaden für Entscheider",
+    "metaDescription": "Agentic AI erklärt: Wie KI-Agenten planen, Werkzeuge nutzen und handeln, worin sie sich von Chatbots und Copilots unterscheiden und wo sie sich lohnen.",
+    "cardTitle": "Was ist Agentic AI?",
+    "cardText": "Eine klare Definition, die sechs Bausteine eines KI-Agenten, vier Autonomiestufen und konkrete Beispiele für jede Abteilung.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "Was ist Agentic AI? Ein praktischer Leitfaden für",
+      "titleAccent": "Entscheider.",
+      "standfirst": "Agentic AI bezeichnet Software, die ein Ziel verfolgt, statt nur eine Frage zu beantworten: Sie plant, ruft Werkzeuge und Systeme auf, prüft ihre Zwischenergebnisse und geht den nächsten Schritt – mit so viel Autonomie, wie Sie ihr geben. Dieser Leitfaden erklärt, was das in der Praxis bedeutet, wie sich Agenten von Chatbots und Copilots unterscheiden und wo sie sich im Unternehmen lohnen."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Definition",
+        "content": [
+          { "h2": "Eine brauchbare Definition von Agentic AI" },
+          { "p": "Agentic AI – auf Deutsch auch agentische KI – bezeichnet Softwaresysteme, die ein Ziel, einen Satz Werkzeuge und einen Auftrag erhalten und dieses Ziel über mehrere Schritte hinweg verfolgen. Statt eine Antwort auf eine Eingabe zu liefern, plant ein Agent sein Vorgehen, ruft Werkzeuge wie einen Suchindex, eine Datenbank, ein E-Mail-Postfach oder Ihr ERP auf, bewertet das Ergebnis und entscheidet über den nächsten Schritt. Er arbeitet weiter, bis die Aufgabe erledigt ist, er nicht weiterkommt oder an einen Menschen übergibt." },
+          { "p": "Der Kern ist in der Regel ein großes Sprachmodell. Zum Agenten wird das Modell erst durch alles, was darum herum gebaut ist: die Schleife, die es wiederholt handeln lässt, die Werkzeuge, die es nutzen darf, das Gedächtnis, das es behält, und die Grenzen, die Sie setzen. Autonomie ist damit eine Designentscheidung und keine Eigenschaft des Modells. Dasselbe Modell kann einen Assistenten antreiben, der nur Entwürfe schreibt, und einen Agenten, der Tickets eigenständig schließt." },
+          { "p": "Ein einfacher Test: Kann das System eine Aufgabe erledigen, die Sie sonst einer Kollegin oder einem Kollegen übertragen würden – inklusive des lästigen Mittelteils, in dem man in drei Systemen nachschauen muss –, dann ist es ein Agent. Antwortet es nur, ist es ein Chatbot. Hilft es Ihnen, während Sie selbst arbeiten, ist es ein Copilot." },
+          { "h2": "Agent, Chatbot und Copilot im Vergleich" },
+          { "p": "Anbieter verwenden die drei Begriffe nahezu austauschbar. Das erklärt, warum so viele Unternehmen überrascht sind, wenn ihr Chatbot am Ende nichts erledigen kann. Der Unterschied liegt darin, wer die Arbeit steuert und was zwischen Frage und Ergebnis passiert." },
+          { "table": {
+            "caption": "Wer erledigt die Arbeit: Chatbot, Copilot, Agent",
+            "columns": ["", "Chatbot", "Copilot", "KI-Agent"],
+            "rows": [
+              ["Zweck", "Fragen im Dialog beantworten", "Eine Person bei der Arbeit in einer Anwendung unterstützen", "Eine Aufgabe über mehrere Schritte und Systeme hinweg erledigen"],
+              ["Wer steuert", "Der Nutzer, Schritt für Schritt", "Der Nutzer; die KI schlägt vor und entwirft", "Der Agent, innerhalb eines von Ihnen definierten Auftrags"],
+              ["Reichweite", "Eine Frage nach der anderen", "Eine Anwendung, ein Dokument, eine Maske", "Ein durchgehender Workflow, etwa ein ganzer Vorgang oder Auftrag"],
+              ["Beteiligte Systeme", "Meist eine Wissensquelle, manchmal keine", "Die Anwendung, in der er läuft", "Mehrere, verbunden über Schnittstellen und Werkzeuge"],
+              ["Typisches Ergebnis", "Eine Textantwort", "Ein Entwurf, eine Zusammenfassung, ein Vorschlag", "Eine ausgeführte Aktion, ein aktualisierter Datensatz, ein Entscheidungsvorschlag"],
+              ["Typischer Fehler", "Eine falsche Antwort, die der Nutzer ignorieren kann", "Ein falscher Entwurf, den der Nutzer korrigiert", "Eine falsche Aktion, die Leitplanken und Prüfung abfangen müssen"]
+            ]
+          } },
+          { "p": "Chatbots und Copilots sind Oberflächen für ein Modell. Agenten sind Mitarbeiter mit Auftrag. Beides hat seinen Platz, und in der Praxis ist ein Chatfenster oft die Eingangstür zu einem Agenten, der dahinter echte Werkzeuge hat. Für Ihr Risiko und Ihren Business Case zählt nicht das Etikett, sondern die letzte Zeile der Tabelle: Wer handelt, und wer prüft." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Anatomie",
+        "content": [
+          { "h2": "Die sechs Bausteine eines KI-Agenten" },
+          { "p": "Jeder produktive Agent besteht unabhängig von Framework oder Plattform aus denselben sechs Teilen. Wer sie kennt, stellt Anbietern und dem eigenen Team die richtigen Fragen." },
+          { "ul": [
+            "**Modell.** Das Sprachmodell, das liest, schlussfolgert und schreibt. Es ist der sichtbarste und zunehmend der am wenigsten unterscheidende Teil. Die Modellwahl entscheidet über Kosten, Antwortzeit, Sprachqualität im Deutschen und darüber, wo Ihre Daten verarbeitet werden.",
+            "**Werkzeuge und Schnittstellen.** Was der Agent tun darf: eine Wissensdatenbank durchsuchen, ein Ticket lesen, das ERP abfragen, eine E-Mail senden, einen Datensatz anlegen. Über Werkzeuge trifft der Agent auf Ihre Systeme; Standards wie das [Model Context Protocol](page:insights/mcp-explained) machen diese Anbindung wiederverwendbar.",
+            "**Gedächtnis.** Das Kurzzeitgedächtnis ist der Kontext der aktuellen Aufgabe. Das Langzeitgedächtnis hält fest, was der Agent über mehrere Durchläufe hinweg wissen soll, etwa Kundenpräferenzen oder frühere Entscheidungen. Für beides braucht es Regeln, was gespeichert werden darf und wie lange.",
+            "**Orchestrierung.** Die Logik, die die Schleife betreibt: planen, handeln, beobachten, wiederholen. Sie kümmert sich um Wiederholungen bei Fehlern, zerlegt große Aufgaben in kleinere, delegiert an spezialisierte Teil-Agenten und entscheidet, wann Schluss ist oder eskaliert wird.",
+            "**Leitplanken.** Berechtigungen, Ausgabenlimits, Freigabeschritte, verbotene Aktionen, Prüfungen von Ein- und Ausgaben. Leitplanken machen aus einem fähigen Modell ein System, dem Sie echte Zugänge anvertrauen können. Dazu haben wir einen eigenen Leitfaden zu [Guardrails für KI-Agenten](page:insights/guardrails-for-agents) geschrieben.",
+            "**Evaluation.** Testfälle, Qualitätskennzahlen, Protokolle und Monitoring. Ohne Evaluation wissen Sie nicht, ob eine Prompt-Änderung den Agenten besser oder schlechter gemacht hat, und Sie können einem Prüfer nicht zeigen, was der Agent getan hat und warum."
+          ] },
+          { "p": "Wenn eine Demo beeindruckt und das Projekt trotzdem stockt, fehlen fast immer die letzten drei Teile. Genau deshalb beginnt unsere [KI-Agenten-Entwicklung](page:services/ai-agent-development) mit Orchestrierung, Leitplanken und Evaluation." },
+          { "h2": "Vier Stufen der Autonomie" },
+          { "p": "Die folgenreichste Entscheidung über einen Agenten ist nicht das Modell, sondern wie viel er tun darf, ohne zu fragen. Wir beschreiben das in vier Stufen und legen die Stufe je Aktion fest, nicht je Agent: Derselbe Agent darf frei entwerfen, mit Begründung vorschlagen und muss eine Freigabe einholen, bevor er etwas an einen Kunden sendet." },
+          { "table": {
+            "caption": "Autonomiestufen für KI-Agenten",
+            "columns": ["Stufe", "Was der Agent tut", "Wer entscheidet", "Typischer Einsatz"],
+            "rows": [
+              ["1 · Assistieren", "Sammelt Informationen, fasst zusammen, entwirft", "Ein Mensch erledigt alles, was zählt", "Recherche, Meeting-Vorbereitung, erste Entwürfe"],
+              ["2 · Empfehlen", "Schlägt eine Entscheidung oder den nächsten Schritt vor, mit Begründung und Belegen", "Ein Mensch entscheidet und führt aus", "Triage, Priorisierung, Klassifizierung, Preisvorschläge"],
+              ["3 · Handeln mit Freigabe", "Bereitet die Aktion vollständig vor und wartet", "Ein Mensch gibt mit einem Klick frei; der Agent führt aus", "Kundenantworten, Bestellungen, Buchungen, Datensatzänderungen"],
+              ["4 · Handeln in Grenzen", "Führt innerhalb definierter Schwellen selbstständig aus und protokolliert alles", "Menschen überwachen und übernehmen Ausnahmen", "Umkehrbare Massenschritte mit geringem Risiko wie Datenanreicherung oder Weiterleitung"]
+            ]
+          } },
+          { "p": "Die meisten produktiven Agenten arbeiten auf Stufe 2 oder 3 – das ist kein Kompromiss, sondern das Design. Stufe 4 wird Aktion für Aktion verdient, wenn die Evaluationsdaten zeigen, dass die Fehlerquote des Agenten bei diesem Schritt unter den Kosten einer Prüfung liegt. Für manche Einsätze schreibt der EU AI Act ohnehin eine wirksame menschliche Aufsicht vor; welche das sind, erklärt unser [verständlicher Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide)." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "In der Praxis",
+        "content": [
+          { "h2": "Was Agenten in der Praxis tun – Abteilung für Abteilung" },
+          { "p": "Das Muster wiederholt sich in allen Funktionen: unstrukturierte Eingaben, Regeln, die etwas Urteilsvermögen brauchen, mehrere Systeme und ein Mensch, der heute die Verbindungsarbeit leistet. Die folgenden Beispiele sind typische Szenarien, kein Katalog." },
+          { "ul": [
+            "**Marketing.** Ein Agent macht aus einem Produkt-Briefing kanalspezifische Entwürfe, prüft sie gegen Marken- und Rechtsvorgaben und legt die Kampagne in Ihren Tools zur Freigabe an. Mehr unter [KI-Agenten im Marketing](page:solutions/marketing).",
+            "**Vertrieb.** Eingehende Leads werden recherchiert, nach Ihren Kriterien qualifiziert, im CRM angereichert und mit einem Vorschlag für die erste Antwort an die richtige Person geleitet. Mehr unter [KI-Agenten im Vertrieb](page:solutions/sales).",
+            "**Kundenservice.** Tickets werden klassifiziert, die passenden Auftrags- und Vertragsdaten zusammengetragen, eine Antwort entworfen, und einfache Fälle wie Adressänderungen werden nach Freigabe ausgeführt. Mehr unter [Kundenservice](page:solutions/customer-service).",
+            "**Operations.** Aufträge, die als PDF oder E-Mail eintreffen, werden gelesen, gegen Preislisten und Bestände geprüft und ins ERP übernommen; Abweichungen gehen an einen Menschen. Mehr unter [Operations](page:solutions/operations).",
+            "**Finanzen.** Eingangsrechnungen werden mit Bestellungen und Wareneingängen abgeglichen, Abweichungen erklärt und Buchungen zur Freigabe durch die Buchhaltung vorgeschlagen. Mehr unter [Finanzen](page:solutions/finance).",
+            "**HR.** Ein Assistent beantwortet Fragen zu Richtlinien aus dem Handbuch, bereitet Onboarding-Checklisten vor und entwirft Dokumente, während jede Entscheidung über Menschen bei Menschen bleibt. Mehr unter [HR](page:solutions/hr).",
+            "**Recht und Compliance.** Verträge werden gegen Ihr Playbook geprüft, Abweichungen mit Klausel und Begründung markiert, Standardverträge vorausgefüllt. Mehr unter [Recht und Compliance](page:solutions/legal-compliance).",
+            "**IT und Engineering.** Störungen werden mit Logs und Historie angereichert, Runbook-Schritte nach Freigabe ausgeführt und interne Anfragen ohne Ticket-Warteschlange gelöst. Mehr unter [IT und Engineering](page:solutions/it-engineering)."
+          ] },
+          { "h2": "Wann Sie keinen Agenten einsetzen sollten" },
+          { "p": "Falsch eingesetzt sind Agenten teuer. In vier Situationen raten wir – zumindest vorerst – davon ab." },
+          { "ul": [
+            "**Der Prozess ist vollständig deterministisch und stabil.** Sind die Eingaben strukturiert und brauchen die Regeln nie Urteilsvermögen, sind ein Skript, eine Integration oder RPA günstiger und zuverlässiger. Unser Vergleich von [KI-Agenten, RPA und Chatbots](page:insights/agents-vs-rpa-vs-chatbots) geht ins Detail.",
+            "**Eine falsche Aktion ist unumkehrbar, und es gibt keinen Prüfschritt.** Zahlungen, Kündigungen, öffentliche Aussagen. Entweder Sie ergänzen eine Freigabe auf Stufe 3, oder der Agent bleibt auf Stufe 2.",
+            "**Die Entscheidung ist rechtlich heikel.** Personalauswahl, Kreditvergabe, Zugang zu wesentlichen Leistungen und ähnliche Einsätze gelten nach dem EU AI Act als Hochrisiko. Agenten dürfen dort unterstützen, aber Design, Dokumentation und Aufsicht folgen anderen Regeln.",
+            "**Es gibt weder Ausgangsbasis noch Volumen.** Wenn niemand sagen kann, wie lange der Prozess heute dauert oder wie oft er läuft, können Sie nicht zeigen, dass der Agent geholfen hat – und ein Prozess, der zweimal im Monat läuft, rechtfertigt den Aufwand selten."
+          ] },
+          { "note": "Faustregel: Ein Agent lohnt sich dort, wo die Eingaben unordentlich sind, die Regeln Urteilsvermögen verlangen und das Volumen so hoch ist, dass ein Mensch, der das Ergebnis prüft, deutlich günstiger ist als ein Mensch, der die Arbeit macht." },
+          { "h2": "Wie Sie anfangen" },
+          { "p": "Beginnen Sie mit einer Diagnose, nicht mit einer Demo. Ein [KI-Readiness-Assessment](page:services/ai-readiness-assessment) zeigt Ihnen in zwei bis drei Wochen, wo Sie bei Daten, Systemen, Kompetenzen und Governance stehen und welche zwei, drei Use Cases realistisch sind. Dann wählen Sie einen davon bewusst aus: Unser Leitfaden zur [Auswahl des ersten Use Case für einen KI-Agenten](page:insights/first-agent-use-case) enthält das Bewertungsraster, das wir selbst verwenden." },
+          { "p": "Ein anschließender Pilot von in der Regel sechs bis acht Wochen sollte mit einem produktionsreifen Agenten für einen Workflow enden, mit einem gemessenen Ergebnis gegenüber der Ausgangsbasis und mit der Governance, die Sie für den Betrieb brauchen. Nicht mit einem Foliensatz darüber, was ein Agent könnte." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Ist Agentic AI dasselbe wie generative KI?", "a": "Nein. Generative KI bezeichnet Modelle, die Text, Bilder oder Code erzeugen. Agentic AI nutzt solche Modelle als Denkkern eines Systems, das plant, Werkzeuge einsetzt und über mehrere Schritte handelt. Jeder Agent enthält ein generatives Modell; die meisten generativen KI-Anwendungen sind keine Agenten." },
+          { "q": "Brauchen wir eigene Modelle oder ein Data-Science-Team?", "a": "Selten. Die meisten Agenten im Unternehmen laufen mit kommerziellen oder offenen Modellen über eine Schnittstelle – auf den Dokumenten, E-Mails und Datensätzen, die Sie bereits haben. Was Sie brauchen, sind ein Prozessverantwortlicher, jemand, der Ihre Systeme anbinden kann, und eine Möglichkeit, Ergebnisse zu bewerten." },
+          { "q": "Wie wird ein Agent an unser ERP, CRM oder Ticketsystem angebunden?", "a": "Über Werkzeuge: Funktionen, die der Agent aufrufen darf und die auf den Schnittstellen Ihrer Systeme aufsetzen. Zunehmend läuft das standardisiert über das [Model Context Protocol (MCP)](page:insights/mcp-explained), sodass ein Konnektor mehrere Agenten und Plattformen bedienen kann. Hat ein System keine Schnittstelle, können ein RPA-Schritt oder ein Workflow-Tool die ausführende Hand sein." },
+          { "q": "Wie verhindern wir, dass ein Agent etwas Falsches tut?", "a": "Indem Sie die Autonomiestufe je Aktion festlegen, dem Agenten nur die nötigen Berechtigungen geben, Freigaben dort einbauen, wo Aktionen schwer rückgängig zu machen sind, und ihn vor und nach jeder Änderung gegen ein Testset prüfen. Lückenlose Protokollierung schließt den Kreis. Mehr dazu in unserem Leitfaden zu [Guardrails für KI-Agenten](page:insights/guardrails-for-agents)." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Artikel und Leistungen",
+        "pages": ["insights/first-agent-use-case", "insights/agents-vs-rpa-vs-chatbots", "services/ai-readiness-assessment", "services/ai-agent-development"]
+      }
+    ]
+  }
+}

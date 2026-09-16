@@ -1,0 +1,379 @@
+{
+  "id": "industries/software-saas",
+  "en": {
+    "metaTitle": "AI Agents & Agentic Features for Software and SaaS Companies",
+    "metaDescription": "AI consulting for SaaS: agentic features, MCP servers, coding agents with review gates, support agents, EU hosting and EU AI Act obligations covered.",
+    "cardTitle": "Software & SaaS",
+    "cardText": "Agentic features and MCP servers in the product, coding agents with review gates, support and onboarding agents, with LLM costs, evals and EU obligations under control.",
+    "hero": {
+      "eyebrow": "Industry · Software companies, SaaS, platforms",
+      "title": "AI agents in your product and",
+      "titleAccent": "in the company that ships it.",
+      "standfirst": "Software companies meet AI twice. Customers expect agentic features, copilots and an MCP server so their own agents can use your product, and your own teams are expected to run on AI in engineering, support and sales. We help with both, with the discipline that keeps LLM costs, quality and EU obligations under control.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where AI pays off for software companies",
+        "lede": "Adding a chat box to your product is easy. Shipping an agent that customers trust, that scales with margin intact and that survives an enterprise security review is the actual work.",
+        "body": [
+          "Most SaaS teams have already run an experiment: a chatbot over the docs, a summarisation feature, a copilot beta. What follows is harder. Agentic features need evaluation suites, cost controls, tenant isolation and a story for the procurement team of your largest customer. In parallel, the company itself is expected to become AI-native, from coding agents in engineering to support deflection and onboarding agents.",
+          "We work with product and engineering leaders on both sides: designing and building agentic features and MCP servers inside the product, and setting up the AI-assisted operations that let a lean team serve more customers. The common thread is engineering discipline. Evals before launch, tracing in production, gates where humans review, and a cost per interaction that fits your pricing.",
+          "We work with B2B software companies, SaaS and platform businesses in Germany, Austria, Switzerland and wider Europe, from seed-stage startups to established vendors with enterprise customers, in English and German. We are comfortable in your codebase and in your board meeting."
+        ],
+        "facts": [
+          [
+            "In the product",
+            "Copilots, workflow agents, MCP servers, AI features"
+          ],
+          [
+            "In the company",
+            "Coding agents, support, onboarding, sales engineering"
+          ],
+          [
+            "Operating principle",
+            "Evals before launch, humans at the review gates"
+          ],
+          [
+            "First step",
+            "Readiness assessment, or a 6–8 week pilot"
+          ]
+        ],
+        "link": {
+          "label": "Custom AI agent development",
+          "page": "services/ai-agent-development"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases for software and SaaS companies",
+        "intro": "Seven ways software companies put agents to work, in the product and behind it.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Agentic features inside the product",
+            "text": "Copilots that answer and act in context, workflow agents that complete multi-step jobs for the user, and an MCP server so your customers' own agents can operate your product through a standard interface. We design the feature, the guardrails and the pricing model together. Read [MCP explained](page:insights/mcp-explained)."
+          },
+          {
+            "icon": "code",
+            "title": "AI-assisted engineering",
+            "text": "Coding agents that write, refactor, test and document under a review process: branch protection, automated checks, human review gates and clear rules on what an agent may merge. Faster delivery without turning the codebase into something nobody understands. See [IT and engineering](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "chat",
+            "title": "Support deflection and technical support agents",
+            "text": "An agent over your docs, changelogs, tickets and known issues that resolves the routine and hands the rest to an engineer with a prepared summary, logs and reproduction steps. Measured on resolution and customer satisfaction, not on deflection alone."
+          },
+          {
+            "icon": "rocket",
+            "title": "Onboarding and customer success agents",
+            "text": "Agents that guide new accounts through setup, detect stalled onboarding from product data, draft the check-in and prepare the notes for the quarterly review. Customer success managers spend their time in conversations, not in spreadsheets. See [customer service](page:solutions/customer-service)."
+          },
+          {
+            "icon": "handshake",
+            "title": "Sales engineering and RFP responses",
+            "text": "First drafts of RFP and RFI answers from your approved knowledge base, with sources and flags wherever the honest answer is \"not yet\". Sales engineers review and refine instead of starting from a blank page. Read more under [AI agents for sales](page:solutions/sales)."
+          },
+          {
+            "icon": "chart",
+            "title": "Product analytics summaries",
+            "text": "Weekly digests of usage, funnel changes, churn signals and feature adoption, written for product managers and leadership with the underlying queries visible. Fewer dashboards nobody opens, more decisions with context."
+          },
+          {
+            "icon": "lock",
+            "title": "Security questionnaire automation",
+            "text": "Enterprise customers send questionnaires with hundreds of questions. An agent answers from your policies, previous responses and SOC 2 or ISO 27001 documentation, marks anything uncertain, and your security lead reviews before anything leaves the building."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Constraints specific to software and SaaS",
+        "intro": "Six things that separate a feature demo from a feature you can sell.",
+        "items": [
+          {
+            "title": "LLM costs and margin",
+            "text": "Every agentic interaction has a variable cost, and a feature that delights users at a loss is not a feature. We model the cost per interaction early, choose model tiers per task, cache and route where possible, and design the packaging so that usage-based costs are reflected in usage-based pricing."
+          },
+          {
+            "title": "Evals and quality at scale",
+            "text": "What works for ten beta customers breaks at a thousand. We build evaluation suites from real usage, run them on every prompt and model change, and put tracing in production so regressions are seen before customers report them. Quality becomes a number the team owns."
+          },
+          {
+            "title": "Multi-tenant data isolation",
+            "text": "Agents with retrieval and tools must never see another tenant's data. We design tenant-scoped retrieval, permissions carried into every tool call, and tests that try to break the isolation. Prompt injection through customer-provided content is treated as a security issue, not a curiosity."
+          },
+          {
+            "title": "SOC 2 and ISO 27001 expectations",
+            "text": "Your enterprise customers will ask how AI features fit your existing controls: data flows, sub-processors, retention, access. We document the AI components so they slot into the control framework you already maintain, and we keep the list of model providers short and defensible."
+          },
+          {
+            "title": "EU customers and EU hosting",
+            "text": "European customers increasingly require that prompts and data stay in the EU or on their own infrastructure. We build with model endpoints and vector stores that can be deployed in the EU, and we keep the model layer swappable so a hosting requirement does not force a rewrite. See [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "EU AI Act obligations for providers",
+            "text": "When you ship AI features, you may be a provider or deployer under the EU AI Act, with transparency duties, documentation and, for some use cases, high-risk obligations. Most SaaS features fall outside the high-risk list, but the classification has to be done and written down. We prepare it with you; your counsel confirms it."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start with software companies",
+        "items": [
+          {
+            "title": "Product and operations review",
+            "text": "We look at your roadmap, your codebase, your support and onboarding data and your cost structure, and identify where an agent creates customer value and where it saves your team the most time.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Design the feature or the workflow",
+            "text": "Scope, user experience, the tools the agent may call, guardrails, evaluation criteria, cost model and the EU AI Act classification, written down before anyone opens an editor.",
+            "meta": "Week 2"
+          },
+          {
+            "title": "Build with your team",
+            "text": "We build alongside your engineers, in your stack, with evals and tracing from the first commit. For product features we work toward a beta with real customers; for internal agents, toward live operation with one team.",
+            "meta": "Weeks 3–8"
+          },
+          {
+            "title": "Launch, measure, hand over",
+            "text": "Go-live with monitoring and cost dashboards, a review of the first weeks of real usage, and a handover so your team owns the system. We stay available for [managed AI operations](page:services/managed-ai-operations) or the next feature.",
+            "meta": "From week 9"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Should we build agentic features ourselves or work with you?",
+            "a": "Both, in sequence. Your engineers know the product; we bring the patterns for evals, tool design, guardrails, cost control and MCP that take teams months to learn by trial and error. We typically build the first feature with your team and hand over a working setup, tests and documentation, so that the second feature is yours alone. See [build vs. buy](page:insights/build-vs-buy)."
+          },
+          {
+            "q": "Which models should a SaaS product use?",
+            "a": "It depends on the task, the data, the cost and where your customers are. Many products run a mix: a strong model for reasoning-heavy steps, smaller or open-weight models for classification and extraction, EU-hosted endpoints for regulated customers. We keep the model layer behind an abstraction so you can switch when prices or requirements change, and we are vendor-neutral."
+          },
+          {
+            "q": "What does an MCP server give our customers?",
+            "a": "A standard way for their AI agents, whether in Claude, ChatGPT, an IDE or an internal platform, to use your product: read data, trigger actions, complete workflows, with authentication and permissions you control. It turns your product into something agents can operate, which is quickly becoming a buying criterion. Our [MCP article](page:insights/mcp-explained) goes deeper."
+          },
+          {
+            "q": "How do we keep LLM costs from eating the margin?",
+            "a": "Measure the cost per interaction from the first prototype, choose model tiers per step, cache repeated context, limit tool loops, and design the pricing tier so that heavy usage pays for itself. In practice most cost problems come from one or two unbounded steps that nobody noticed; tracing finds them."
+          },
+          {
+            "q": "Does the EU AI Act apply to a normal SaaS feature?",
+            "a": "Possibly, in a light form. Shipping an AI feature can make you a provider with transparency and documentation duties. Most SaaS use cases are not in the high-risk categories, but some, for example in HR or credit, are. We prepare a written classification and the documentation with you and recommend confirming it with legal counsel, because guidance is still evolving. Our [EU AI Act guide](page:insights/eu-ai-act-guide) is a good start."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/ai-agent-development",
+          "solutions/it-engineering",
+          "insights/mcp-explained",
+          "insights/build-vs-buy"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten & agentische Features für Software & SaaS",
+    "metaDescription": "KI-Beratung für SaaS: agentische Features, MCP-Server, Coding-Agenten mit Review-Gates, Support-Agenten, EU-Hosting und die Pflichten aus dem EU AI Act.",
+    "cardTitle": "Software & SaaS",
+    "cardText": "Agentische Features und MCP-Server im Produkt, Coding-Agenten mit Review-Gates, Support- und Onboarding-Agenten – mit LLM-Kosten, Evals und EU-Pflichten im Griff.",
+    "hero": {
+      "eyebrow": "Branche · Softwareunternehmen, SaaS, Plattformen",
+      "title": "KI-Agenten in Ihrem Produkt und",
+      "titleAccent": "im Unternehmen, das es baut.",
+      "standfirst": "Softwareunternehmen begegnet KI zweimal. Kunden erwarten agentische Features, Copiloten und einen MCP-Server, damit ihre eigenen Agenten Ihr Produkt nutzen können – und Ihre eigenen Teams sollen in Entwicklung, Support und Vertrieb mit KI arbeiten. Wir helfen bei beidem, mit der Disziplin, die LLM-Kosten, Qualität und EU-Pflichten im Griff behält.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo sich KI für Softwareunternehmen rechnet",
+        "lede": "Eine Chatbox ins Produkt zu setzen ist einfach. Einen Agenten auszuliefern, dem Kunden vertrauen, der mit intakter Marge skaliert und ein Enterprise-Security-Review übersteht, ist die eigentliche Arbeit.",
+        "body": [
+          "Die meisten SaaS-Teams haben bereits experimentiert: ein Chatbot über der Dokumentation, eine Zusammenfassungsfunktion, eine Copilot-Beta. Was danach kommt, ist schwerer. Agentische Features brauchen Evaluationssuiten, Kostenkontrolle, Mandantentrennung und eine Antwort für den Einkauf Ihres größten Kunden. Parallel soll das Unternehmen selbst KI-nativ werden, von Coding-Agenten in der Entwicklung bis zu Agenten für Support und Onboarding.",
+          "Wir arbeiten mit Produkt- und Engineering-Verantwortlichen auf beiden Seiten: beim Entwurf und Bau agentischer Features und MCP-Server im Produkt und beim Aufbau KI-gestützter Abläufe, mit denen ein schlankes Team mehr Kunden bedient. Der rote Faden ist Engineering-Disziplin. Evals vor dem Launch, Tracing im Produktivbetrieb, Gates, an denen Menschen prüfen, und Kosten pro Interaktion, die zu Ihrem Pricing passen.",
+          "Wir arbeiten mit B2B-Softwareunternehmen, SaaS- und Plattformanbietern in Deutschland, Österreich, der Schweiz und Europa – vom Seed-Startup bis zum etablierten Anbieter mit Enterprise-Kunden, auf Deutsch und Englisch. Wir bewegen uns sicher in Ihrer Codebasis und in Ihrer Vorstandssitzung."
+        ],
+        "facts": [
+          [
+            "Im Produkt",
+            "Copiloten, Workflow-Agenten, MCP-Server, KI-Features"
+          ],
+          [
+            "Im Unternehmen",
+            "Coding-Agenten, Support, Onboarding, Sales Engineering"
+          ],
+          [
+            "Arbeitsprinzip",
+            "Evals vor dem Launch, Menschen an den Review-Gates"
+          ],
+          [
+            "Erster Schritt",
+            "Readiness-Assessment oder ein Pilot in 6–8 Wochen"
+          ]
+        ],
+        "link": {
+          "label": "Individuelle KI-Agenten-Entwicklung",
+          "page": "services/ai-agent-development"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases für Software- und SaaS-Unternehmen",
+        "intro": "Sieben Wege, auf denen Softwareunternehmen Agenten einsetzen – im Produkt und dahinter.",
+        "items": [
+          {
+            "icon": "sparkles",
+            "title": "Agentische Features im Produkt",
+            "text": "Copiloten, die im Kontext antworten und handeln, Workflow-Agenten, die mehrstufige Aufgaben für den Nutzer erledigen, und ein MCP-Server, damit die Agenten Ihrer Kunden Ihr Produkt über eine Standardschnittstelle bedienen können. Wir entwerfen Feature, Leitplanken und Preismodell gemeinsam. Mehr unter [MCP erklärt](page:insights/mcp-explained)."
+          },
+          {
+            "icon": "code",
+            "title": "KI-gestützte Softwareentwicklung",
+            "text": "Coding-Agenten, die unter einem Review-Prozess schreiben, refaktorieren, testen und dokumentieren: Branch-Schutz, automatisierte Prüfungen, menschliche Review-Gates und klare Regeln, was ein Agent mergen darf. Schnellere Lieferung, ohne die Codebasis in etwas zu verwandeln, das niemand mehr versteht. Mehr unter [IT und Softwareentwicklung](page:solutions/it-engineering)."
+          },
+          {
+            "icon": "chat",
+            "title": "Support-Entlastung und technische Support-Agenten",
+            "text": "Ein Agent über Ihrer Dokumentation, Ihren Changelogs, Tickets und bekannten Problemen, der die Routine löst und den Rest mit vorbereiteter Zusammenfassung, Logs und Reproduktionsschritten an einen Entwickler übergibt. Gemessen an Lösungsquote und Kundenzufriedenheit, nicht nur an der Entlastung."
+          },
+          {
+            "icon": "rocket",
+            "title": "Onboarding- und Customer-Success-Agenten",
+            "text": "Agenten, die neue Accounts durch die Einrichtung führen, stockendes Onboarding aus Produktdaten erkennen, das Check-in entwerfen und die Notizen für das Quartalsgespräch vorbereiten. Customer-Success-Manager verbringen ihre Zeit in Gesprächen, nicht in Tabellen. Mehr unter [Kundenservice](page:solutions/customer-service)."
+          },
+          {
+            "icon": "handshake",
+            "title": "Sales Engineering und RFP-Antworten",
+            "text": "Erste Entwürfe für RFP- und RFI-Antworten aus Ihrer freigegebenen Wissensbasis, mit Quellen und Markierungen überall dort, wo die ehrliche Antwort „noch nicht“ lautet. Sales Engineers prüfen und verfeinern, statt mit einer leeren Seite zu beginnen. Mehr unter [KI-Agenten im Vertrieb](page:solutions/sales)."
+          },
+          {
+            "icon": "chart",
+            "title": "Zusammenfassungen der Produktanalytik",
+            "text": "Wöchentliche Digests zu Nutzung, Funnel-Veränderungen, Churn-Signalen und Feature-Adoption, geschrieben für Produktmanagement und Führung, mit sichtbaren zugrunde liegenden Abfragen. Weniger Dashboards, die niemand öffnet, mehr Entscheidungen mit Kontext."
+          },
+          {
+            "icon": "lock",
+            "title": "Automatisierte Sicherheitsfragebögen",
+            "text": "Enterprise-Kunden schicken Fragebögen mit Hunderten Fragen. Ein Agent antwortet aus Ihren Richtlinien, früheren Antworten und der SOC-2- oder ISO-27001-Dokumentation, markiert alles Unsichere, und Ihr Security-Lead prüft, bevor etwas das Haus verlässt."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Besonderheiten von Software und SaaS",
+        "intro": "Sechs Dinge, die eine Feature-Demo von einem Feature unterscheiden, das Sie verkaufen können.",
+        "items": [
+          {
+            "title": "LLM-Kosten und Marge",
+            "text": "Jede agentische Interaktion hat variable Kosten, und ein Feature, das Nutzer mit Verlust begeistert, ist kein Feature. Wir modellieren die Kosten pro Interaktion früh, wählen Modellstufen je Aufgabe, cachen und routen, wo es geht, und gestalten die Paketierung so, dass nutzungsabhängige Kosten sich in nutzungsabhängigem Pricing wiederfinden."
+          },
+          {
+            "title": "Evals und Qualität im Maßstab",
+            "text": "Was bei zehn Beta-Kunden funktioniert, bricht bei tausend. Wir bauen Evaluationssuiten aus echter Nutzung, lassen sie bei jeder Prompt- und Modelländerung laufen und bringen Tracing in den Produktivbetrieb, damit Regressionen auffallen, bevor Kunden sie melden. Qualität wird zu einer Zahl, die das Team verantwortet."
+          },
+          {
+            "title": "Mandantentrennung",
+            "text": "Agenten mit Retrieval und Tools dürfen niemals die Daten eines anderen Mandanten sehen. Wir entwerfen mandantenbezogenes Retrieval, Berechtigungen, die in jeden Tool-Aufruf mitwandern, und Tests, die die Trennung zu brechen versuchen. Prompt Injection über kundenseitige Inhalte behandeln wir als Sicherheitsproblem, nicht als Kuriosität."
+          },
+          {
+            "title": "SOC-2- und ISO-27001-Erwartungen",
+            "text": "Ihre Enterprise-Kunden werden fragen, wie KI-Features zu Ihren bestehenden Kontrollen passen: Datenflüsse, Subunternehmer, Aufbewahrung, Zugriff. Wir dokumentieren die KI-Komponenten so, dass sie sich in das Kontrollsystem einfügen, das Sie ohnehin pflegen, und halten die Liste der Modellanbieter kurz und begründbar."
+          },
+          {
+            "title": "EU-Kunden und EU-Hosting",
+            "text": "Europäische Kunden verlangen zunehmend, dass Prompts und Daten in der EU oder auf ihrer eigenen Infrastruktur bleiben. Wir bauen mit Modell-Endpunkten und Vektorspeichern, die in der EU betrieben werden können, und halten die Modellschicht austauschbar, damit eine Hosting-Anforderung keine Neuentwicklung erzwingt. Mehr unter [souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "Pflichten aus dem EU AI Act für Anbieter",
+            "text": "Wer KI-Features ausliefert, kann nach dem EU AI Act Anbieter oder Betreiber sein – mit Transparenzpflichten, Dokumentation und für manche Anwendungen Hochrisiko-Pflichten. Die meisten SaaS-Features fallen nicht unter die Hochrisiko-Liste, aber die Einstufung muss gemacht und aufgeschrieben werden. Wir bereiten sie mit Ihnen vor; Ihre Rechtsberatung bestätigt sie."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir mit Softwareunternehmen",
+        "items": [
+          {
+            "title": "Produkt- und Betriebsreview",
+            "text": "Wir sehen uns Ihre Roadmap, Ihre Codebasis, Ihre Support- und Onboarding-Daten und Ihre Kostenstruktur an und identifizieren, wo ein Agent Kundennutzen schafft und wo er Ihrem Team die meiste Zeit spart.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Feature oder Workflow entwerfen",
+            "text": "Umfang, Nutzererlebnis, die Tools, die der Agent aufrufen darf, Leitplanken, Evaluationskriterien, Kostenmodell und die Einstufung nach EU AI Act – schriftlich, bevor jemand einen Editor öffnet.",
+            "meta": "Woche 2"
+          },
+          {
+            "title": "Mit Ihrem Team bauen",
+            "text": "Wir bauen Seite an Seite mit Ihren Entwicklern, in Ihrem Stack, mit Evals und Tracing ab dem ersten Commit. Bei Produktfeatures arbeiten wir auf eine Beta mit echten Kunden hin, bei internen Agenten auf den Live-Betrieb mit einem Team.",
+            "meta": "Wochen 3–8"
+          },
+          {
+            "title": "Launch, Messung, Übergabe",
+            "text": "Go-live mit Monitoring und Kosten-Dashboards, ein Review der ersten Wochen echter Nutzung und eine Übergabe, damit Ihr Team das System besitzt. Wir bleiben für [Managed AI Operations](page:services/managed-ai-operations) oder das nächste Feature verfügbar.",
+            "meta": "Ab Woche 9"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Sollen wir agentische Features selbst bauen oder mit Ihnen?",
+            "a": "Beides, nacheinander. Ihre Entwickler kennen das Produkt; wir bringen die Muster für Evals, Tool-Design, Leitplanken, Kostenkontrolle und MCP mit, die Teams sonst über Monate durch Versuch und Irrtum lernen. In der Regel bauen wir das erste Feature mit Ihrem Team und übergeben ein funktionierendes Setup, Tests und Dokumentation, sodass das zweite Feature ganz Ihres ist. Mehr unter [Selbst bauen oder kaufen](page:insights/build-vs-buy)."
+          },
+          {
+            "q": "Welche Modelle sollte ein SaaS-Produkt nutzen?",
+            "a": "Das hängt von Aufgabe, Daten, Kosten und dem Sitz Ihrer Kunden ab. Viele Produkte fahren einen Mix: ein starkes Modell für schlussfolgerungsintensive Schritte, kleinere oder offene Modelle für Klassifikation und Extraktion, EU-gehostete Endpunkte für regulierte Kunden. Wir halten die Modellschicht hinter einer Abstraktion, damit Sie wechseln können, wenn sich Preise oder Anforderungen ändern – und wir sind herstellerneutral."
+          },
+          {
+            "q": "Was bringt ein MCP-Server unseren Kunden?",
+            "a": "Einen standardisierten Weg, wie ihre KI-Agenten – ob in Claude, ChatGPT, einer IDE oder einer internen Plattform – Ihr Produkt nutzen: Daten lesen, Aktionen auslösen, Workflows abschließen, mit Authentifizierung und Berechtigungen, die Sie kontrollieren. Ihr Produkt wird zu etwas, das Agenten bedienen können – und das wird schnell zum Kaufkriterium. Unser [MCP-Artikel](page:insights/mcp-explained) geht tiefer."
+          },
+          {
+            "q": "Wie verhindern wir, dass LLM-Kosten die Marge auffressen?",
+            "a": "Die Kosten pro Interaktion ab dem ersten Prototyp messen, Modellstufen je Schritt wählen, wiederkehrenden Kontext cachen, Tool-Schleifen begrenzen und die Preisstufe so gestalten, dass intensive Nutzung sich selbst trägt. In der Praxis stammen die meisten Kostenprobleme aus ein, zwei unbegrenzten Schritten, die niemand bemerkt hat; Tracing findet sie."
+          },
+          {
+            "q": "Gilt der EU AI Act für ein normales SaaS-Feature?",
+            "a": "Möglicherweise, in leichter Form. Wer ein KI-Feature ausliefert, kann Anbieter mit Transparenz- und Dokumentationspflichten werden. Die meisten SaaS-Anwendungen fallen nicht in die Hochrisiko-Kategorien, manche aber schon – etwa im Personalwesen oder bei Krediten. Wir bereiten eine schriftliche Einstufung und die Dokumentation mit Ihnen vor und empfehlen, sie rechtlich bestätigen zu lassen, da sich die Leitlinien noch entwickeln. Unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide) ist ein guter Einstieg."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/ai-agent-development",
+          "solutions/it-engineering",
+          "insights/mcp-explained",
+          "insights/build-vs-buy"
+        ]
+      }
+    ]
+  }
+}

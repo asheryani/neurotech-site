@@ -1,0 +1,107 @@
+# Neurotech AI Solutions GmbH
+
+> AI and agentic-workflow consultancy in Berlin for startups, Mittelstand companies and corporates: AI strategy, readiness assessments, agentic workflow automation, custom AI agents, enterprise knowledge assistants (RAG), AI governance (EU AI Act, GDPR), training, fractional Chief AI Officer and managed AI operations. Content is available in English (https://neurotech-ai.de/) and German (https://neurotech-ai.de/de/).
+
+Contact: hello@neurotech-ai.de · Lückstraße 24, 10317 Berlin, Germany
+
+## Services (English)
+
+- [AI strategy & roadmap](https://neurotech-ai.de/services/ai-strategy-consulting/): A prioritised, costed roadmap of AI and agent use cases, a target architecture and a governance model, in four to six weeks.
+- [AI readiness assessment](https://neurotech-ai.de/services/ai-readiness-assessment/): A two- to three-week diagnostic across data, systems, skills, governance, processes and culture, ending in three first use cases and a 90-day plan.
+- [Agentic workflow automation](https://neurotech-ai.de/services/agentic-workflow-automation/): Multi-step business processes automated end to end by LLM-powered agents across ERP, CRM, ticketing and email, with human approval steps built in.
+- [Custom AI agent development](https://neurotech-ai.de/services/ai-agent-development/): Single- and multi-agent systems designed and built for production: tool use, memory, MCP servers, evaluation suites, guardrails and EU deployment.
+- [Enterprise knowledge assistants (RAG)](https://neurotech-ai.de/services/enterprise-knowledge-assistants-rag/): Assistants that answer from your SharePoint, Confluence, DMS, ERP and ticket history: permission-aware, with citations, evaluated, hosted in the EU.
+- [AI governance, EU AI Act & GDPR](https://neurotech-ai.de/services/ai-governance-eu-ai-act/): An AI register, risk classification under the EU AI Act, GDPR-aligned processes and a usage policy your teams will actually follow, built together with your lawyers and your data protection officer.
+- [AI training & workshops](https://neurotech-ai.de/services/ai-training-workshops/): Executive briefings, AI literacy for every employee, department workshops that end with working prompts, and agent-builder enablement for your power users. On site or remote, in German and English.
+- [Fractional Chief AI Officer](https://neurotech-ai.de/services/fractional-chief-ai-officer/): A senior AI leader embedded in your company one to two days a week: owns the roadmap, decides on vendors and architecture, runs governance and reports to the board, until you no longer need one.
+- [Managed AI operations (AgentOps)](https://neurotech-ai.de/services/managed-ai-operations/): Monitoring, evaluation, model upgrades, cost control and incident handling for agents and LLM applications after go-live, with a monthly review and documentation your auditors can read.
+- [Data foundations for AI](https://neurotech-ai.de/services/data-foundations-for-ai/): Pragmatic, incremental data work for agents: inventory, document pipelines, APIs, search, definitions and access control, one use case at a time.
+
+## AI agents by department (English)
+
+- [AI agents for marketing](https://neurotech-ai.de/solutions/ai-agents-for-marketing/): Content pipelines with editorial approval, automated campaign reporting, search and AI-answer research, and clean lead hand-offs to sales.
+- [AI agents for sales](https://neurotech-ai.de/solutions/ai-agents-for-sales/): Inbound qualification, account research, CRM updates from calls and emails, quote and tender drafting, and compliant outreach that reps approve before it leaves.
+- [AI agents for customer service](https://neurotech-ai.de/solutions/ai-agents-for-customer-service/): Ticket triage, agent assist with sources, automated resolution for defined categories and a clean hand-over to people when confidence drops.
+- [AI agents for operations & supply chain](https://neurotech-ai.de/solutions/ai-agents-for-operations/): Order intake from email and PDF into the ERP, document processing, supplier follow-ups and exception handling, with people deciding on every deviation.
+- [AI agents for finance & controlling](https://neurotech-ai.de/solutions/ai-agents-for-finance/): Accounts payable from inbox to approved posting, close support, variance commentary and audit preparation, with accountants approving every posting and no autonomous payments.
+- [AI agents for HR & people](https://neurotech-ai.de/solutions/ai-agents-for-hr/): A permission-aware HR helpdesk, onboarding that coordinates itself across IT, facilities and HR, and drafting agents for the paperwork, while every decision about a person stays with a person.
+- [AI for strategy & leadership](https://neurotech-ai.de/solutions/ai-for-strategy-and-leadership/): Market intelligence that arrives as a weekly brief, board reporting that writes its own first draft and an assistant that knows your company, while judgement and decisions stay with the leadership team.
+- [AI agents for legal & compliance](https://neurotech-ai.de/solutions/ai-agents-for-legal-and-compliance/): First-pass contract review, obligation tracking, regulatory monitoring and policy Q&A, with a lawyer approving everything that leaves the department.
+- [AI agents for IT & software engineering](https://neurotech-ai.de/solutions/ai-agents-for-it-and-software-engineering/): Service-desk agents, AI-assisted software delivery with review gates, incident triage and the integration layer that lets every other department's agents work.
+- [AI agents for procurement](https://neurotech-ai.de/solutions/ai-agents-for-procurement/): Request intake, RFQ drafting, quote comparison, supplier onboarding checks and spend analysis, with buyers approving every award and every order.
+
+## Who we work with (English)
+
+- [Startups & scale-ups](https://neurotech-ai.de/for/startups/): Decide where AI belongs in your product and your operations, build lean AI-native operations with agents, and rent senior expertise until you are ready to hire.
+- [Mittelstand (SMEs)](https://neurotech-ai.de/for/mittelstand/): Pragmatic AI and agent projects for owner-managed companies: fitting your ERP and lean IT, driven by the skills shortage, delivered on site in German, with knowledge transfer built in.
+- [Enterprise & corporates](https://neurotech-ai.de/for/enterprise/): A senior, independent specialist unit for corporates: from a portfolio of pilots to governed production programmes, platform decisions and AI governance at scale.
+
+## Industries (English)
+
+- [Manufacturing & engineering](https://neurotech-ai.de/industries/manufacturing/): Agents for quoting, order intake, service knowledge, spare parts and quality documentation, built for ERP and PLM landscapes, OT/IT separation and export-controlled drawings.
+- [Professional services](https://neurotech-ai.de/industries/professional-services/): Proposals, research, document review and knowledge management for law firms, tax advisors, consultancies and agencies, under professional secrecy.
+- [E-commerce & retail](https://neurotech-ai.de/industries/ecommerce-retail/): Product content at scale, customer service for order status and returns, claims processing and catalogue data cleaning, built for peak season.
+- [Financial services & insurance](https://neurotech-ai.de/industries/financial-services-insurance/): Document-heavy, regulated workflows with people deciding: claims, onboarding checks, advisor knowledge, complaints and compliance support.
+- [Logistics & supply chain](https://neurotech-ai.de/industries/logistics-supply-chain/): Order intake from emails and PDFs, customs documents, exception handling and freight audits: agents built for 24/7 operations and thin margins.
+- [Software & SaaS](https://neurotech-ai.de/industries/software-saas/): Agentic features and MCP servers in the product, coding agents with review gates, support and onboarding agents, with LLM costs, evals and EU obligations under control.
+
+## Guides (English)
+
+- [What is agentic AI?](https://neurotech-ai.de/insights/what-is-agentic-ai/): A plain-language definition, the six building blocks of an agent, four levels of autonomy and concrete examples for every department.
+- [AI agents vs. RPA vs. chatbots](https://neurotech-ai.de/insights/ai-agents-vs-rpa-vs-chatbots/): Which automation fits which process: a side-by-side comparison, the hybrid patterns that work in practice, and five questions that decide.
+- [The EU AI Act for companies](https://neurotech-ai.de/insights/eu-ai-act-guide-for-companies/): Who the regulation applies to, which risk tier your use cases fall into, what has applied since 2025, and a seven-step plan to get compliant without drama.
+- [Choosing your first AI agent use case](https://neurotech-ai.de/insights/how-to-choose-your-first-ai-agent-use-case/): A scoring framework, the traits of good and bad first use cases, eight concrete candidates and a pilot design that proves something.
+- [Build or buy AI agents?](https://neurotech-ai.de/insights/build-vs-buy-ai-agents/): Platform agents, low-code orchestration or custom frameworks: a comparison, the cost dimensions that matter, and the hybrid architecture we usually recommend.
+- [MCP explained for decision makers](https://neurotech-ai.de/insights/model-context-protocol-mcp-explained/): What the Model Context Protocol is, why it matters for connecting agents to your systems, and how to adopt it without losing control.
+- [Why AI pilots fail](https://neurotech-ai.de/insights/why-ai-pilots-fail-and-how-to-reach-production/): The recurring reasons pilots stall, what production-ready actually means, and a phased path to an agent that runs on real work.
+- [The AI readiness checklist](https://neurotech-ai.de/insights/ai-readiness-checklist/): Thirty yes/no questions across six dimensions, a scoring guide and the most common gaps to close before your first agent goes live.
+- [Guardrails for AI agents](https://neurotech-ai.de/insights/guardrails-for-ai-agents/): Eight layers of control that let an agent act in your systems, a risk-to-guardrail mapping and a worked accounts-payable example.
+- [Sovereign AI: options for EU-hosted language models](https://neurotech-ai.de/insights/sovereign-ai-eu-hosted-llms/): US providers with safeguards, hyperscaler EU regions, European providers or self-hosted open-weight models: how to choose by data sensitivity and use case.
+
+## Company (English)
+
+- [About](https://neurotech-ai.de/about/): A founder-led, senior-only consultancy for applied AI and agentic workflows, based in Berlin since 2025.
+- [How we work](https://neurotech-ai.de/approach/): Five phases from assessment to operations, six principles we do not bend, and the engagement formats we offer, with typical durations.
+- [Contact](https://neurotech-ai.de/contact/): Book an intro call or write to us. A person replies within two business days.
+- [FAQ](https://neurotech-ai.de/faq/): Straight answers on working with us, AI agents, data protection and results, collected from our first calls.
+- [AI glossary](https://neurotech-ai.de/glossary/): Forty-five terms from LLM to EU AI Act, explained in plain business language.
+
+## Leistungen (Deutsch)
+
+- [KI-Strategie & Roadmap](https://neurotech-ai.de/de/leistungen/ki-strategie-beratung/): Eine priorisierte, kalkulierte Roadmap für KI- und Agenten-Use-Cases, eine Zielarchitektur und ein Governance-Modell – in vier bis sechs Wochen.
+- [KI-Readiness-Assessment](https://neurotech-ai.de/de/leistungen/ki-readiness-assessment/): Eine Diagnose in zwei bis drei Wochen über Daten, Systeme, Kompetenzen, Governance, Prozesse und Kultur – mit drei ersten Use Cases und einem 90-Tage-Plan.
+- [Agentische Workflow-Automatisierung](https://neurotech-ai.de/de/leistungen/agentische-workflows-automatisierung/): Mehrstufige Geschäftsprozesse, Ende zu Ende automatisiert durch KI-Agenten über ERP, CRM, Ticketsystem und E-Mail – mit eingebauten Freigabeschritten für Menschen.
+- [Entwicklung individueller KI-Agenten](https://neurotech-ai.de/de/leistungen/ki-agenten-entwicklung/): Single- und Multi-Agenten-Systeme, entworfen und gebaut für den Produktivbetrieb: Tool-Nutzung, Gedächtnis, MCP-Server, Evaluierungs-Suiten, Guardrails und EU-Betrieb.
+- [Wissensassistenten für Unternehmen (RAG)](https://neurotech-ai.de/de/leistungen/wissensassistenten-rag/): Assistenten, die aus SharePoint, Confluence, DMS, ERP und Ticket-Historie antworten: mit Rechteprüfung, Quellenangaben, Evaluierung und Hosting in der EU.
+- [KI-Governance, EU AI Act & DSGVO](https://neurotech-ai.de/de/leistungen/ki-governance-eu-ai-act/): Ein KI-Register, eine Risikoeinstufung nach EU AI Act, DSGVO-konforme Prozesse und eine Nutzungsrichtlinie, die Ihre Teams tatsächlich befolgen – erarbeitet gemeinsam mit Ihren Juristen und Ihrem Datenschutzbeauftragten.
+- [KI-Schulungen & Workshops](https://neurotech-ai.de/de/leistungen/ki-schulungen-workshops/): Executive Briefings, KI-Kompetenz für alle Mitarbeitenden, Abteilungsworkshops, die mit funktionierenden Prompts enden, und Agent-Builder-Enablement für Ihre Power-User. Vor Ort oder remote, auf Deutsch und Englisch.
+- [Fractional Chief AI Officer](https://neurotech-ai.de/de/leistungen/fractional-chief-ai-officer/): Eine erfahrene KI-Führungskraft, ein bis zwei Tage pro Woche in Ihrem Unternehmen: verantwortet die Roadmap, entscheidet über Anbieter und Architektur, führt die Governance und berichtet an die Geschäftsführung – bis Sie die Rolle nicht mehr brauchen.
+- [Managed AI Operations (AgentOps)](https://neurotech-ai.de/de/leistungen/managed-ai-operations/): Monitoring, Evaluation, Modell-Upgrades, Kostenkontrolle und Incident-Handling für Agenten und LLM-Anwendungen nach dem Go-live – mit monatlichem Review und einer Dokumentation, die Ihre Prüfer lesen können.
+- [Datenbasis für KI](https://neurotech-ai.de/de/leistungen/datenbasis-fuer-ki/): Pragmatische, schrittweise Datenarbeit für Agenten: Inventar, Dokumenten-Pipelines, APIs, Suche, Definitionen und Zugriffskontrolle – Use Case für Use Case.
+
+## KI-Agenten nach Abteilung (Deutsch)
+
+- [KI-Agenten im Marketing](https://neurotech-ai.de/de/loesungen/ki-agenten-marketing/): Content-Pipelines mit redaktioneller Freigabe, automatisiertes Kampagnen-Reporting, Recherche für Suche und KI-Antworten und saubere Lead-Übergaben an den Vertrieb.
+- [KI-Agenten im Vertrieb](https://neurotech-ai.de/de/loesungen/ki-agenten-vertrieb/): Inbound-Qualifizierung, Account-Research, CRM-Updates aus Calls und E-Mails, Angebots- und Ausschreibungsentwürfe und rechtskonforme Ansprache, die der Vertrieb vor dem Versand freigibt.
+- [KI-Agenten im Kundenservice](https://neurotech-ai.de/de/loesungen/ki-agenten-kundenservice/): Ticket-Triage, Antwortentwürfe mit Quellen, automatische Lösung definierter Kategorien und eine saubere Übergabe an Menschen, sobald die Sicherheit sinkt.
+- [KI-Agenten in Operations & Supply Chain](https://neurotech-ai.de/de/loesungen/ki-agenten-operations/): Auftragserfassung aus E-Mail und PDF ins ERP, Belegverarbeitung, Nachfassen bei Lieferanten und Ausnahmebearbeitung, mit Menschen, die bei jeder Abweichung entscheiden.
+- [KI-Agenten in Finanzen & Controlling](https://neurotech-ai.de/de/loesungen/ki-agenten-finanzen-controlling/): Kreditorenbuchhaltung vom Posteingang bis zur freigegebenen Buchung, Abschlussunterstützung, Abweichungskommentare und Prüfungsvorbereitung, jede Buchung von Menschen freigegeben, keine autonomen Zahlungen.
+- [KI-Agenten in HR & Personal](https://neurotech-ai.de/de/loesungen/ki-agenten-hr-personal/): Ein HR-Helpdesk, der Berechtigungen respektiert, ein Onboarding, das sich über IT, Facility und HR selbst koordiniert, und Entwurfsagenten für den Papierkram – während jede Entscheidung über Menschen bei Menschen bleibt.
+- [KI für Strategie & Geschäftsführung](https://neurotech-ai.de/de/loesungen/ki-strategie-geschaeftsfuehrung/): Marktbeobachtung, die als wöchentliches Briefing ankommt, Management-Reporting, das seinen ersten Entwurf selbst schreibt, und ein Assistent, der Ihr Unternehmen kennt – während Urteil und Entscheidung bei der Geschäftsführung bleiben.
+- [KI-Agenten in Recht & Compliance](https://neurotech-ai.de/de/loesungen/ki-agenten-recht-compliance/): Vertragsprüfung im ersten Durchgang, Pflichtenregister, Regulierungs-Monitoring und Richtlinien-Auskunft – mit einem Juristen, der alles freigibt, was die Abteilung verlässt.
+- [KI-Agenten in IT & Softwareentwicklung](https://neurotech-ai.de/de/loesungen/ki-agenten-it-softwareentwicklung/): Service-Desk-Agenten, KI-gestützte Softwareentwicklung mit Review-Gates, Incident-Triage und die Integrationsschicht, die die Agenten aller anderen Abteilungen arbeiten lässt.
+- [KI-Agenten im Einkauf](https://neurotech-ai.de/de/loesungen/ki-agenten-einkauf/): Bedarfserfassung, Anfrageerstellung, Angebotsvergleich, Lieferantenprüfung und Ausgabenanalyse – mit Einkäufern, die jede Vergabe und jede Bestellung freigeben.
+
+## Leitfäden (Deutsch)
+
+- [Was ist Agentic AI?](https://neurotech-ai.de/de/insights/was-ist-agentic-ai/): Eine klare Definition, die sechs Bausteine eines KI-Agenten, vier Autonomiestufen und konkrete Beispiele für jede Abteilung.
+- [KI-Agenten, RPA oder Chatbot?](https://neurotech-ai.de/de/insights/ki-agenten-vs-rpa-vs-chatbots/): Welche Automatisierung zu welchem Prozess passt: ein direkter Vergleich, hybride Muster aus der Praxis und fünf Fragen, die entscheiden.
+- [EU AI Act für Unternehmen](https://neurotech-ai.de/de/insights/eu-ai-act-leitfaden-fuer-unternehmen/): Für wen die KI-Verordnung gilt, in welche Risikoklasse Ihre Use Cases fallen, was seit 2025 gilt und ein Plan in sieben Schritten, ohne Drama.
+- [Den ersten KI-Agenten-Use-Case wählen](https://neurotech-ai.de/de/insights/ersten-ki-agenten-use-case-auswaehlen/): Ein Bewertungsraster, die Merkmale guter und schlechter erster Use Cases, acht konkrete Kandidaten und ein Pilotdesign, das etwas beweist.
+- [KI-Agenten: kaufen oder bauen?](https://neurotech-ai.de/de/insights/ki-agenten-selbst-bauen-oder-kaufen/): Plattform-Agenten, Low-Code-Orchestrierung oder eigene Frameworks: ein Vergleich, die Kostendimensionen, die zählen, und die hybride Architektur, die wir meist empfehlen.
+- [MCP verständlich erklärt](https://neurotech-ai.de/de/insights/model-context-protocol-mcp-erklaert/): Was das Model Context Protocol ist, warum es für die Anbindung von Agenten an Ihre Systeme zählt und wie Sie es einführen, ohne die Kontrolle zu verlieren.
+- [Warum KI-Pilotprojekte scheitern](https://neurotech-ai.de/de/insights/warum-ki-pilotprojekte-scheitern/): Die wiederkehrenden Gründe, warum Piloten steckenbleiben, was Produktionsreife wirklich bedeutet und ein Phasenplan zu einem Agenten, der echte Arbeit erledigt.
+- [Die KI-Readiness-Checkliste](https://neurotech-ai.de/de/insights/ki-readiness-checkliste/): Dreißig Ja/Nein-Fragen in sechs Dimensionen, ein Bewertungsschema und die häufigsten Lücken, die Sie vor dem ersten KI-Agenten schließen sollten.
+- [Guardrails für KI-Agenten](https://neurotech-ai.de/de/insights/guardrails-fuer-ki-agenten/): Acht Kontrollebenen, mit denen ein Agent in Ihren Systemen handeln darf, eine Zuordnung von Risikostufen zu Guardrails und ein Beispiel aus der Kreditorenbuchhaltung.
+- [Souveräne KI: Optionen für Sprachmodelle mit EU-Hosting](https://neurotech-ai.de/de/insights/souveraene-ki-eu-hosting/): US-Anbieter mit Schutzmaßnahmen, EU-Regionen der Hyperscaler, europäische Anbieter oder selbst gehostete offene Modelle: wie Sie nach Datensensibilität und Use Case entscheiden.
+

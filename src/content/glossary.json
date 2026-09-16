@@ -1,0 +1,525 @@
+{
+  "id": "glossary",
+  "en": {
+    "metaTitle": "AI & Agentic AI Glossary: 45 Terms Explained for Business",
+    "metaDescription": "Plain-language definitions of the terms behind AI agents: LLM, agentic AI, RAG, MCP, guardrails, evals, EU AI Act risk classes, AI literacy and data residency.",
+    "cardTitle": "AI glossary",
+    "navLabel": "Glossary",
+    "cardText": "Forty-five terms from LLM to EU AI Act, explained in plain business language.",
+    "hero": {
+      "eyebrow": "Reference",
+      "title": "The vocabulary of AI agents,",
+      "titleAccent": "without the hype.",
+      "standfirst": "Every vendor conversation uses these words. Here is what they mean in practice, what they imply for your project and where the catch is. Grouped by topic, written for people who make decisions rather than build models."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "content": [
+          {
+            "h2": "Foundations"
+          },
+          {
+            "dl": [
+              {
+                "term": "Large language model (LLM)",
+                "def": "A neural network trained on very large amounts of text to predict and generate language. In business use it reads, summarises, classifies, extracts, drafts and, with tools, acts. Models differ in capability, cost, speed, context size and where they can be hosted; the model is rarely the deciding factor in a project's success."
+              },
+              {
+                "term": "Token",
+                "def": "The unit in which language models read and write text, roughly three-quarters of a word in English and somewhat less in German. Providers charge per token, and models have limits on how many tokens they can consider at once. Token counts drive both cost and what fits into a request."
+              },
+              {
+                "term": "Context window",
+                "def": "The maximum amount of text, measured in tokens, a model can take into account in one request: instructions, documents, conversation history and its own output. Larger windows allow more material per request but cost more and do not replace good retrieval."
+              },
+              {
+                "term": "Prompt",
+                "def": "The instructions and material given to a model for a task. In production systems prompts are versioned, tested and treated like code, because small wording changes can change behaviour."
+              },
+              {
+                "term": "Prompt engineering",
+                "def": "Designing instructions, examples and structure so a model reliably produces the wanted output. Useful, but a smaller part of a production system than evaluation, integration and guardrails."
+              },
+              {
+                "term": "Hallucination",
+                "def": "A confident, fluent output that is wrong or invented: a citation that does not exist, a number that was never in the source. Mitigated by grounding answers in retrieved documents, requiring citations, validating outputs and keeping humans in the loop for consequential decisions."
+              },
+              {
+                "term": "Fine-tuning",
+                "def": "Further training of a model on your own examples to change its style, format or domain behaviour. Needed less often than assumed; retrieval and good prompting solve most business cases. Worth it for narrow, high-volume tasks with stable requirements."
+              },
+              {
+                "term": "Small language model",
+                "def": "A compact model that runs cheaply, quickly and often on your own hardware. Good enough for many classification, extraction and routing tasks, and a common choice when data must not leave your environment. See [sovereign AI](page:insights/sovereign-ai-eu-hosting)."
+              },
+              {
+                "term": "Open-weight model",
+                "def": "A model whose trained parameters are published so anyone can run it on their own infrastructure, such as the Llama, Mistral, Qwen or Gemma families. Gives full control over data and versions at the cost of operating the model yourself."
+              },
+              {
+                "term": "Multimodal model",
+                "def": "A model that processes more than text, typically images and increasingly audio and video. In business terms: it can read a scanned invoice, a photo of a damaged part or a screenshot, which opens many document and service workflows."
+              }
+            ]
+          },
+          {
+            "h2": "Agents"
+          },
+          {
+            "dl": [
+              {
+                "term": "AI agent",
+                "def": "Software that uses a language model to pursue a goal over several steps: reading context, deciding what to do next, calling tools such as your CRM or email, and handing over to a person when a decision needs one. Unlike a chatbot it completes tasks. See [What is agentic AI?](page:insights/what-is-agentic-ai)"
+              },
+              {
+                "term": "Agentic AI",
+                "def": "The general term for systems built from AI agents, with varying degrees of autonomy. Used loosely by vendors; the practical questions are what the agent may do without approval, what it may access and how its work is evaluated."
+              },
+              {
+                "term": "Agentic workflow",
+                "def": "A business process automated end to end by one or more agents orchestrated across systems, with defined human checkpoints. Example: an invoice arrives by email, is extracted, matched to a purchase order, coded and routed for approval. See [agentic workflow automation](page:services/agentic-workflows)."
+              },
+              {
+                "term": "Tool use / function calling",
+                "def": "The mechanism by which a model calls software functions, such as \"look up order 4711\" or \"create a ticket\", and receives structured results. This is what turns a text generator into something that can act inside your systems."
+              },
+              {
+                "term": "Orchestration",
+                "def": "The logic that runs an agent's loop: which step comes next, when to call a tool, when to retry, when to ask a person, when to stop. Provided by frameworks and platforms; the quality of orchestration determines reliability more than the model does."
+              },
+              {
+                "term": "Multi-agent system",
+                "def": "Several specialised agents cooperating on a task, for example one that researches, one that drafts and one that checks. Useful for complex work; adds coordination cost and failure modes, so a single well-scoped agent is usually the right first step."
+              },
+              {
+                "term": "Memory",
+                "def": "What an agent retains across steps or sessions: the current task context, facts about a customer, decisions made earlier. Short-term memory is the context window; long-term memory is a database the agent reads and writes. Both need governance about what may be stored."
+              },
+              {
+                "term": "Planning",
+                "def": "An agent's ability to break a goal into steps and adjust when a step fails. Modern models plan reasonably well; production systems constrain plans to allowed actions and require approval for consequential ones."
+              },
+              {
+                "term": "Human-in-the-loop",
+                "def": "A design in which a person reviews, approves or corrects an agent's work at defined points, such as before a payment or a customer message is released. The main lever for making agents approvable and for catching errors before they cost money."
+              },
+              {
+                "term": "Computer-use agent",
+                "def": "An agent that operates software through its screen, keyboard and mouse like a person would, useful where no API exists. Powerful and slow, and it needs strict sandboxing; APIs and MCP servers are preferred where available."
+              },
+              {
+                "term": "Voice agent",
+                "def": "An agent that speaks and listens on phone or voice channels, handling calls such as order status or appointment booking. Emerging in customer service; requires careful design for transparency, escalation and latency."
+              },
+              {
+                "term": "Copilot vs. agent",
+                "def": "A copilot assists a person inside a tool, suggesting and drafting while the person does the task. An agent does the task itself within limits and reports back. Most companies need both: copilots for knowledge work, agents for process work."
+              }
+            ]
+          },
+          {
+            "h2": "Integration"
+          },
+          {
+            "dl": [
+              {
+                "term": "Retrieval-augmented generation (RAG)",
+                "def": "A pattern in which the system first retrieves relevant documents from your own sources and then lets the model answer using them, with citations. The standard way to build knowledge assistants that know your company rather than the internet. See [enterprise knowledge assistants](page:services/knowledge-assistants)."
+              },
+              {
+                "term": "Vector database",
+                "def": "A database that stores text as numerical representations and finds passages by meaning rather than exact words. The retrieval component of most RAG systems; often combined with classic keyword search for precision."
+              },
+              {
+                "term": "Embeddings",
+                "def": "Numerical representations of text (or images) that place similar meanings close together. Produced by a model and stored in a vector database so that \"invoice dispute\" finds \"contested bill\"."
+              },
+              {
+                "term": "Knowledge graph",
+                "def": "A structured representation of entities and their relationships: customers, contracts, products, people. Used alongside RAG when questions require following relationships rather than finding passages."
+              },
+              {
+                "term": "Model Context Protocol (MCP)",
+                "def": "An open standard that defines how AI applications connect to tools and data sources through reusable servers. An MCP server for your ERP lets any compatible agent use it under defined permissions. See [MCP explained](page:insights/mcp-explained)."
+              },
+              {
+                "term": "Agent2Agent protocol (A2A)",
+                "def": "A protocol for agents to discover and communicate with each other across vendors and platforms. Addresses agent-to-agent cooperation, whereas MCP addresses agent-to-tool connections. Early in adoption; relevant when agents from different systems must collaborate."
+              },
+              {
+                "term": "API",
+                "def": "An application programming interface: the defined way software systems exchange data and trigger actions. Agents act through APIs, which is why API access to your core systems is a prerequisite for most automation."
+              },
+              {
+                "term": "Low-code automation",
+                "def": "Platforms such as n8n, Make, Zapier or Microsoft Power Automate that let teams build workflows visually. Combined with language models they orchestrate many agentic workflows; the trade-off is maintainability at scale. See [build vs. buy](page:insights/build-vs-buy)."
+              },
+              {
+                "term": "Intelligent document processing (IDP)",
+                "def": "Extracting structured data from documents such as invoices, delivery notes and contracts, using OCR and language models. The entry point of many agentic workflows in finance, operations and procurement."
+              }
+            ]
+          },
+          {
+            "h2": "Quality and operations"
+          },
+          {
+            "dl": [
+              {
+                "term": "Evals (evaluations)",
+                "def": "Test sets and metrics that measure whether an agent does its task correctly: accuracy of extractions, quality of drafts, correct routing decisions. Run before go-live and after every change to prompts, tools or models. The single most underused practice in AI projects."
+              },
+              {
+                "term": "Guardrails",
+                "def": "The controls that keep an agent within limits: permissions, approval gates, input and output validation, budgets, rate limits, kill switches. See [guardrails for AI agents](page:insights/guardrails-for-agents)."
+              },
+              {
+                "term": "Observability / tracing",
+                "def": "Recording every step an agent takes, including inputs, tool calls, outputs, latency and cost, so behaviour can be debugged, audited and improved. Tools such as Langfuse or LangSmith provide this."
+              },
+              {
+                "term": "LLMOps / AgentOps",
+                "def": "The operational discipline of running language-model applications and agents in production: monitoring, evaluation, model updates, cost control, incident handling. See [managed AI operations](page:services/managed-ai-operations)."
+              },
+              {
+                "term": "Prompt injection",
+                "def": "An attack in which malicious instructions hidden in content the agent reads, such as an email or a web page, try to make it act against its instructions. Mitigated by treating all external content as untrusted, limiting permissions and requiring approval for consequential actions."
+              },
+              {
+                "term": "Drift",
+                "def": "A gradual change in an agent's behaviour or quality over time, caused by model updates from the provider, changing inputs or accumulated prompt changes. Detected by running evaluations continuously."
+              },
+              {
+                "term": "Latency",
+                "def": "The time between a request and the model's response. Matters for customer-facing and interactive agents, less for batch processing. Influences model choice and architecture."
+              },
+              {
+                "term": "Token costs",
+                "def": "The running cost of language-model usage, billed per token processed. Driven by volume, context size and model choice. Budgets and monitoring per use case prevent surprises; the cost is usually small next to integration and operations effort."
+              }
+            ]
+          },
+          {
+            "h2": "Governance"
+          },
+          {
+            "dl": [
+              {
+                "term": "EU AI Act",
+                "def": "The European Union's regulation on artificial intelligence, in force since August 2024 with obligations applying in phases through 2026 and 2027. It classifies AI systems by risk and imposes duties on providers and deployers. See our [EU AI Act guide](page:insights/eu-ai-act-guide). Not legal advice."
+              },
+              {
+                "term": "Risk classes",
+                "def": "The EU AI Act's tiers: prohibited practices, high-risk systems (for example in employment, credit and critical infrastructure) with extensive obligations, limited-risk systems with transparency duties (such as chatbots), and minimal-risk systems. Most business agents fall into the last two, but the classification must be done and documented."
+              },
+              {
+                "term": "General-purpose AI (GPAI)",
+                "def": "Models trained for broad use, such as the large language models from major providers, which carry their own obligations under the EU AI Act for the model provider. Companies using them are deployers and inherit transparency and literacy duties."
+              },
+              {
+                "term": "AI literacy",
+                "def": "The EU AI Act's requirement, applicable since February 2025, that organisations ensure staff who use or oversee AI systems have sufficient understanding of them. Typically met through role-specific training. See [AI training and workshops](page:services/ai-training)."
+              },
+              {
+                "term": "GDPR / DSGVO",
+                "def": "The EU's data-protection regulation, applicable to any personal data processed by AI systems: legal basis, purpose limitation, data minimisation, processor agreements, transfer rules and data-subject rights. Applies regardless of the AI Act."
+              },
+              {
+                "term": "Data protection impact assessment (DPIA)",
+                "def": "A structured assessment required under the GDPR for processing likely to pose high risks to individuals, which many AI deployments involving personal data trigger. Prepared with the data protection officer before go-live."
+              },
+              {
+                "term": "AI register",
+                "def": "An inventory of the AI systems an organisation uses or provides, with purpose, data, risk class, owner and controls. The foundation of AI governance and the first thing auditors and regulators ask for. See [AI governance](page:services/ai-governance)."
+              },
+              {
+                "term": "ISO/IEC 42001",
+                "def": "The international standard for AI management systems, describing how organisations govern AI responsibly. Useful as a reference framework for policies and processes; certification is optional and done by accredited bodies."
+              },
+              {
+                "term": "Data residency",
+                "def": "Where data is stored and processed geographically and under which jurisdiction. A central question when choosing model providers and hosting, driven by the GDPR, sector rules and client contracts."
+              },
+              {
+                "term": "Sovereign AI",
+                "def": "AI capabilities a company or country can run and control without dependence on foreign providers: EU-hosted models, European providers or self-hosted open-weight models. A spectrum of options rather than a single choice. See [sovereign AI options](page:insights/sovereign-ai-eu-hosting)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Go deeper",
+        "pages": [
+          "insights/what-is-agentic-ai",
+          "insights/mcp-explained",
+          "insights/eu-ai-act-guide",
+          "services/ai-training"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Glossar: 45 Begriffe rund um KI-Agenten verständlich erklärt",
+    "metaDescription": "Verständliche Definitionen der Begriffe hinter KI-Agenten: LLM, Agentic AI, RAG, MCP, Guardrails, Evals, Risikoklassen des EU AI Act, KI-Kompetenz, Datenresidenz.",
+    "cardTitle": "KI-Glossar",
+    "navLabel": "Glossar",
+    "cardText": "Fünfundvierzig Begriffe von LLM bis EU AI Act, in klarer Geschäftssprache erklärt.",
+    "hero": {
+      "eyebrow": "Nachschlagen",
+      "title": "Das Vokabular der KI-Agenten,",
+      "titleAccent": "ohne den Hype.",
+      "standfirst": "Jedes Anbietergespräch benutzt diese Wörter. Hier steht, was sie in der Praxis bedeuten, was sie für Ihr Projekt heißen und wo der Haken liegt. Nach Themen gruppiert, geschrieben für Menschen, die Entscheidungen treffen statt Modelle zu bauen."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "content": [
+          {
+            "h2": "Grundlagen"
+          },
+          {
+            "dl": [
+              {
+                "term": "Großes Sprachmodell (LLM)",
+                "def": "Ein neuronales Netz, das auf sehr großen Textmengen trainiert wurde, um Sprache vorherzusagen und zu erzeugen. Im Unternehmen liest, fasst zusammen, klassifiziert, extrahiert, entwirft und – mit Werkzeugen – handelt es. Modelle unterscheiden sich in Leistung, Kosten, Geschwindigkeit, Kontextgröße und Hosting-Möglichkeiten; das Modell ist selten der entscheidende Faktor für den Projekterfolg."
+              },
+              {
+                "term": "Token",
+                "def": "Die Einheit, in der Sprachmodelle Text lesen und schreiben – im Englischen etwa drei Viertel eines Wortes, im Deutschen etwas weniger. Anbieter rechnen pro Token ab, und Modelle haben Grenzen, wie viele Token sie gleichzeitig berücksichtigen können. Tokenzahlen bestimmen Kosten und das, was in eine Anfrage passt."
+              },
+              {
+                "term": "Kontextfenster",
+                "def": "Die maximale Textmenge in Token, die ein Modell in einer Anfrage berücksichtigen kann: Anweisungen, Dokumente, Gesprächsverlauf und die eigene Ausgabe. Größere Fenster erlauben mehr Material pro Anfrage, kosten aber mehr und ersetzen keine gute Suche."
+              },
+              {
+                "term": "Prompt",
+                "def": "Die Anweisungen und das Material, die ein Modell für eine Aufgabe erhält. In Produktivsystemen werden Prompts versioniert, getestet und wie Code behandelt, weil kleine Formulierungsänderungen das Verhalten verändern können."
+              },
+              {
+                "term": "Prompt Engineering",
+                "def": "Das Gestalten von Anweisungen, Beispielen und Struktur, damit ein Modell zuverlässig die gewünschte Ausgabe liefert. Nützlich, aber ein kleinerer Teil eines Produktivsystems als Evaluation, Integration und Guardrails."
+              },
+              {
+                "term": "Halluzination",
+                "def": "Eine selbstbewusste, flüssige Ausgabe, die falsch oder erfunden ist: ein Zitat, das es nicht gibt, eine Zahl, die nie in der Quelle stand. Eingedämmt durch Antworten auf Basis abgerufener Dokumente, Pflicht zur Quellenangabe, Validierung der Ausgaben und Menschen im Prozess bei folgenreichen Entscheidungen."
+              },
+              {
+                "term": "Feinabstimmung (Fine-Tuning)",
+                "def": "Das Weitertrainieren eines Modells mit eigenen Beispielen, um Stil, Format oder Fachverhalten zu verändern. Seltener nötig als angenommen; Retrieval und gutes Prompting lösen die meisten Geschäftsfälle. Lohnt sich bei engen, volumenstarken Aufgaben mit stabilen Anforderungen."
+              },
+              {
+                "term": "Kleines Sprachmodell",
+                "def": "Ein kompaktes Modell, das günstig, schnell und oft auf eigener Hardware läuft. Für viele Klassifizierungs-, Extraktions- und Routing-Aufgaben ausreichend und eine häufige Wahl, wenn Daten die eigene Umgebung nicht verlassen dürfen. Siehe [souveräne KI](page:insights/sovereign-ai-eu-hosting)."
+              },
+              {
+                "term": "Modell mit offenen Gewichten",
+                "def": "Ein Modell, dessen trainierte Parameter veröffentlicht sind, sodass jeder es auf eigener Infrastruktur betreiben kann – etwa die Familien Llama, Mistral, Qwen oder Gemma. Volle Kontrolle über Daten und Versionen, um den Preis, das Modell selbst zu betreiben."
+              },
+              {
+                "term": "Multimodales Modell",
+                "def": "Ein Modell, das mehr als Text verarbeitet, typischerweise Bilder und zunehmend Audio und Video. Für das Unternehmen heißt das: Es kann eine gescannte Rechnung, das Foto eines beschädigten Teils oder einen Screenshot lesen, was viele Dokumenten- und Service-Workflows eröffnet."
+              }
+            ]
+          },
+          {
+            "h2": "Agenten"
+          },
+          {
+            "dl": [
+              {
+                "term": "KI-Agent",
+                "def": "Software, die mit einem Sprachmodell ein Ziel über mehrere Schritte verfolgt: Kontext lesen, den nächsten Schritt entscheiden, Werkzeuge wie CRM oder E-Mail aufrufen und an einen Menschen übergeben, wenn eine Entscheidung ansteht. Anders als ein Chatbot erledigt er Aufgaben. Siehe [Was ist Agentic AI?](page:insights/what-is-agentic-ai)"
+              },
+              {
+                "term": "Agentic AI",
+                "def": "Der Oberbegriff für Systeme aus KI-Agenten mit unterschiedlichem Grad an Autonomie. Von Anbietern locker verwendet; die praktischen Fragen lauten, was der Agent ohne Freigabe tun darf, worauf er zugreifen darf und wie seine Arbeit evaluiert wird."
+              },
+              {
+                "term": "Agentischer Workflow",
+                "def": "Ein Geschäftsprozess, der von einem oder mehreren Agenten über Systeme hinweg durchgehend automatisiert wird, mit definierten menschlichen Kontrollpunkten. Beispiel: Eine Rechnung kommt per E-Mail, wird extrahiert, mit der Bestellung abgeglichen, kontiert und zur Freigabe weitergeleitet. Siehe [agentische Workflow-Automatisierung](page:services/agentic-workflows)."
+              },
+              {
+                "term": "Werkzeugnutzung / Function Calling",
+                "def": "Der Mechanismus, über den ein Modell Softwarefunktionen aufruft – etwa „Bestellung 4711 nachschlagen“ oder „Ticket anlegen“ – und strukturierte Ergebnisse erhält. Das macht aus einem Textgenerator etwas, das in Ihren Systemen handeln kann."
+              },
+              {
+                "term": "Orchestrierung",
+                "def": "Die Logik, die die Schleife eines Agenten steuert: welcher Schritt als Nächstes kommt, wann ein Werkzeug aufgerufen, wann wiederholt, wann ein Mensch gefragt, wann gestoppt wird. Von Frameworks und Plattformen bereitgestellt; die Qualität der Orchestrierung bestimmt die Zuverlässigkeit stärker als das Modell."
+              },
+              {
+                "term": "Multi-Agenten-System",
+                "def": "Mehrere spezialisierte Agenten, die an einer Aufgabe zusammenarbeiten – etwa einer, der recherchiert, einer, der entwirft, und einer, der prüft. Nützlich für komplexe Arbeit; erhöht Koordinationsaufwand und Fehlerquellen, weshalb ein einzelner, klar abgegrenzter Agent meist der richtige erste Schritt ist."
+              },
+              {
+                "term": "Gedächtnis (Memory)",
+                "def": "Was ein Agent über Schritte oder Sitzungen hinweg behält: den aktuellen Aufgabenkontext, Fakten über einen Kunden, früher getroffene Entscheidungen. Kurzzeitgedächtnis ist das Kontextfenster; Langzeitgedächtnis ist eine Datenbank, die der Agent liest und schreibt. Beides braucht Regeln dafür, was gespeichert werden darf."
+              },
+              {
+                "term": "Planung",
+                "def": "Die Fähigkeit eines Agenten, ein Ziel in Schritte zu zerlegen und anzupassen, wenn ein Schritt scheitert. Moderne Modelle planen recht gut; Produktivsysteme beschränken Pläne auf erlaubte Aktionen und verlangen Freigaben für folgenreiche."
+              },
+              {
+                "term": "Mensch im Prozess (Human-in-the-Loop)",
+                "def": "Ein Entwurf, bei dem eine Person die Arbeit eines Agenten an definierten Punkten prüft, freigibt oder korrigiert – etwa bevor eine Zahlung oder eine Kundennachricht freigegeben wird. Der wichtigste Hebel, um Agenten freigabefähig zu machen und Fehler abzufangen, bevor sie Geld kosten."
+              },
+              {
+                "term": "Computer-Use-Agent",
+                "def": "Ein Agent, der Software über Bildschirm, Tastatur und Maus bedient wie ein Mensch – nützlich, wo keine API existiert. Mächtig und langsam, und er braucht strikte Abschottung; wo verfügbar, sind APIs und MCP-Server vorzuziehen."
+              },
+              {
+                "term": "Voice-Agent",
+                "def": "Ein Agent, der auf Telefon- oder Sprachkanälen spricht und zuhört und Anrufe wie Bestellstatus oder Terminbuchung bearbeitet. Im Kundenservice im Kommen; erfordert sorgfältige Gestaltung für Transparenz, Eskalation und Latenz."
+              },
+              {
+                "term": "Copilot vs. Agent",
+                "def": "Ein Copilot unterstützt eine Person innerhalb eines Werkzeugs, schlägt vor und entwirft, während die Person die Aufgabe erledigt. Ein Agent erledigt die Aufgabe selbst innerhalb von Grenzen und berichtet zurück. Die meisten Unternehmen brauchen beides: Copiloten für Wissensarbeit, Agenten für Prozessarbeit."
+              }
+            ]
+          },
+          {
+            "h2": "Integration"
+          },
+          {
+            "dl": [
+              {
+                "term": "Retrieval-Augmented Generation (RAG)",
+                "def": "Ein Muster, bei dem das System zuerst relevante Dokumente aus Ihren eigenen Quellen abruft und das Modell dann damit antwortet, mit Quellenangaben. Der Standardweg für Wissensassistenten, die Ihr Unternehmen kennen statt das Internet. Siehe [Wissensassistenten für Unternehmen](page:services/knowledge-assistants)."
+              },
+              {
+                "term": "Vektordatenbank",
+                "def": "Eine Datenbank, die Text als Zahlenrepräsentationen speichert und Passagen nach Bedeutung statt nach exakten Wörtern findet. Die Suchkomponente der meisten RAG-Systeme; oft mit klassischer Stichwortsuche kombiniert, um die Präzision zu erhöhen."
+              },
+              {
+                "term": "Embeddings",
+                "def": "Numerische Repräsentationen von Text (oder Bildern), die ähnliche Bedeutungen nahe beieinander platzieren. Von einem Modell erzeugt und in einer Vektordatenbank gespeichert, damit „Rechnungsstreit“ auch „beanstandete Rechnung“ findet."
+              },
+              {
+                "term": "Wissensgraph",
+                "def": "Eine strukturierte Darstellung von Entitäten und ihren Beziehungen: Kunden, Verträge, Produkte, Personen. Neben RAG eingesetzt, wenn Fragen das Verfolgen von Beziehungen erfordern statt das Finden von Passagen."
+              },
+              {
+                "term": "Model Context Protocol (MCP)",
+                "def": "Ein offener Standard, der festlegt, wie KI-Anwendungen über wiederverwendbare Server an Werkzeuge und Datenquellen angebunden werden. Ein MCP-Server für Ihr ERP lässt jeden kompatiblen Agenten es unter definierten Berechtigungen nutzen. Siehe [MCP erklärt](page:insights/mcp-explained)."
+              },
+              {
+                "term": "Agent2Agent-Protokoll (A2A)",
+                "def": "Ein Protokoll, über das Agenten einander über Anbieter und Plattformen hinweg finden und miteinander kommunizieren. Adressiert die Zusammenarbeit von Agent zu Agent, während MCP die Anbindung von Agent zu Werkzeug adressiert. Noch früh in der Verbreitung; relevant, wenn Agenten aus verschiedenen Systemen zusammenarbeiten müssen."
+              },
+              {
+                "term": "API",
+                "def": "Eine Programmierschnittstelle: der definierte Weg, über den Softwaresysteme Daten austauschen und Aktionen auslösen. Agenten handeln über APIs – deshalb ist API-Zugang zu Ihren Kernsystemen Voraussetzung für die meiste Automatisierung."
+              },
+              {
+                "term": "Low-Code-Automatisierung",
+                "def": "Plattformen wie n8n, Make, Zapier oder Microsoft Power Automate, mit denen Teams Workflows visuell bauen. In Kombination mit Sprachmodellen orchestrieren sie viele agentische Workflows; der Preis ist die Wartbarkeit im großen Maßstab. Siehe [Kaufen oder selbst bauen](page:insights/build-vs-buy)."
+              },
+              {
+                "term": "Intelligente Dokumentenverarbeitung (IDP)",
+                "def": "Das Extrahieren strukturierter Daten aus Dokumenten wie Rechnungen, Lieferscheinen und Verträgen mit OCR und Sprachmodellen. Der Einstiegspunkt vieler agentischer Workflows in Finanzen, Operations und Einkauf."
+              }
+            ]
+          },
+          {
+            "h2": "Qualität und Betrieb"
+          },
+          {
+            "dl": [
+              {
+                "term": "Evals (Evaluationen)",
+                "def": "Testsets und Kennzahlen, die messen, ob ein Agent seine Aufgabe korrekt erledigt: Genauigkeit von Extraktionen, Qualität von Entwürfen, richtige Routing-Entscheidungen. Vor dem Go-live und nach jeder Änderung an Prompts, Werkzeugen oder Modellen ausgeführt. Die am meisten unterschätzte Praxis in KI-Projekten."
+              },
+              {
+                "term": "Guardrails",
+                "def": "Die Kontrollen, die einen Agenten in Grenzen halten: Berechtigungen, Freigabestufen, Validierung von Ein- und Ausgaben, Budgets, Ratenbegrenzung, Notaus. Siehe [Guardrails für KI-Agenten](page:insights/guardrails-for-agents)."
+              },
+              {
+                "term": "Observability / Tracing",
+                "def": "Das Aufzeichnen jedes Schritts eines Agenten – Eingaben, Werkzeugaufrufe, Ausgaben, Latenz und Kosten –, damit Verhalten debuggt, geprüft und verbessert werden kann. Werkzeuge wie Langfuse oder LangSmith bieten das."
+              },
+              {
+                "term": "LLMOps / AgentOps",
+                "def": "Die Betriebsdisziplin für Sprachmodell-Anwendungen und Agenten in der Produktion: Monitoring, Evaluation, Modell-Updates, Kostenkontrolle, Störungsbehandlung. Siehe [Managed AI Operations](page:services/managed-ai-operations)."
+              },
+              {
+                "term": "Prompt Injection",
+                "def": "Ein Angriff, bei dem in Inhalten, die der Agent liest – etwa einer E-Mail oder einer Webseite –, versteckte Anweisungen ihn dazu bringen sollen, gegen seine Vorgaben zu handeln. Eingedämmt, indem alle externen Inhalte als nicht vertrauenswürdig behandelt, Berechtigungen begrenzt und folgenreiche Aktionen freigabepflichtig werden."
+              },
+              {
+                "term": "Drift",
+                "def": "Eine schleichende Veränderung des Verhaltens oder der Qualität eines Agenten über die Zeit, verursacht durch Modell-Updates des Anbieters, veränderte Eingaben oder angesammelte Prompt-Änderungen. Erkannt durch kontinuierlich laufende Evaluationen."
+              },
+              {
+                "term": "Latenz",
+                "def": "Die Zeit zwischen einer Anfrage und der Antwort des Modells. Wichtig für kundenorientierte und interaktive Agenten, weniger für Stapelverarbeitung. Beeinflusst Modellwahl und Architektur."
+              },
+              {
+                "term": "Tokenkosten",
+                "def": "Die laufenden Kosten der Sprachmodellnutzung, abgerechnet pro verarbeitetem Token. Getrieben von Volumen, Kontextgröße und Modellwahl. Budgets und Monitoring je Use Case verhindern Überraschungen; die Kosten sind meist klein neben Integrations- und Betriebsaufwand."
+              }
+            ]
+          },
+          {
+            "h2": "Governance"
+          },
+          {
+            "dl": [
+              {
+                "term": "EU AI Act (KI-Verordnung)",
+                "def": "Die Verordnung der Europäischen Union über künstliche Intelligenz, in Kraft seit August 2024, mit Pflichten, die gestaffelt bis 2026 und 2027 gelten. Sie stuft KI-Systeme nach Risiko ein und legt Anbietern und Betreibern Pflichten auf. Siehe unseren [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide). Keine Rechtsberatung."
+              },
+              {
+                "term": "Risikoklassen",
+                "def": "Die Stufen des EU AI Act: verbotene Praktiken, Hochrisiko-Systeme (etwa in Beschäftigung, Kreditvergabe und kritischer Infrastruktur) mit umfangreichen Pflichten, Systeme mit begrenztem Risiko und Transparenzpflichten (etwa Chatbots) sowie Systeme mit minimalem Risiko. Die meisten Unternehmensagenten fallen in die letzten beiden – die Einstufung muss aber vorgenommen und dokumentiert werden."
+              },
+              {
+                "term": "KI-Modelle mit allgemeinem Verwendungszweck (GPAI)",
+                "def": "Modelle, die für breite Nutzung trainiert sind, wie die großen Sprachmodelle der großen Anbieter, für die der Modellanbieter nach dem EU AI Act eigene Pflichten trägt. Unternehmen, die sie nutzen, sind Betreiber und übernehmen Transparenz- und Kompetenzpflichten."
+              },
+              {
+                "term": "KI-Kompetenz (AI Literacy)",
+                "def": "Die seit Februar 2025 geltende Anforderung des EU AI Act, dass Organisationen sicherstellen, dass Mitarbeitende, die KI-Systeme nutzen oder beaufsichtigen, sie ausreichend verstehen. In der Regel durch rollenspezifische Schulungen erfüllt. Siehe [KI-Schulungen und Workshops](page:services/ai-training)."
+              },
+              {
+                "term": "DSGVO",
+                "def": "Die Datenschutz-Grundverordnung der EU, anwendbar auf alle personenbezogenen Daten, die KI-Systeme verarbeiten: Rechtsgrundlage, Zweckbindung, Datenminimierung, Auftragsverarbeitungsverträge, Übermittlungsregeln und Betroffenenrechte. Gilt unabhängig vom AI Act."
+              },
+              {
+                "term": "Datenschutz-Folgenabschätzung (DSFA)",
+                "def": "Eine nach DSGVO vorgeschriebene strukturierte Bewertung für Verarbeitungen mit voraussichtlich hohem Risiko für Betroffene, die viele KI-Einführungen mit personenbezogenen Daten auslösen. Wird mit dem Datenschutzbeauftragten vor dem Go-live erstellt."
+              },
+              {
+                "term": "KI-Register",
+                "def": "Ein Verzeichnis der KI-Systeme, die eine Organisation nutzt oder bereitstellt, mit Zweck, Daten, Risikoklasse, Verantwortlichem und Kontrollen. Die Grundlage der KI-Governance und das Erste, wonach Prüfer und Aufsichtsbehörden fragen. Siehe [KI-Governance](page:services/ai-governance)."
+              },
+              {
+                "term": "ISO/IEC 42001",
+                "def": "Die internationale Norm für KI-Managementsysteme, die beschreibt, wie Organisationen KI verantwortungsvoll steuern. Nützlich als Referenzrahmen für Richtlinien und Prozesse; eine Zertifizierung ist optional und erfolgt durch akkreditierte Stellen."
+              },
+              {
+                "term": "Datenresidenz",
+                "def": "Wo Daten geografisch und unter welchem Rechtsraum gespeichert und verarbeitet werden. Eine zentrale Frage bei der Wahl von Modellanbietern und Hosting, getrieben von DSGVO, Branchenregeln und Kundenverträgen."
+              },
+              {
+                "term": "Souveräne KI",
+                "def": "KI-Fähigkeiten, die ein Unternehmen oder Land ohne Abhängigkeit von ausländischen Anbietern betreiben und kontrollieren kann: EU-gehostete Modelle, europäische Anbieter oder selbst gehostete Modelle mit offenen Gewichten. Ein Spektrum von Optionen statt einer einzelnen Wahl. Siehe [Optionen für souveräne KI](page:insights/sovereign-ai-eu-hosting)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Weiterlesen",
+        "pages": [
+          "insights/what-is-agentic-ai",
+          "insights/mcp-explained",
+          "insights/eu-ai-act-guide",
+          "services/ai-training"
+        ]
+      }
+    ]
+  }
+}

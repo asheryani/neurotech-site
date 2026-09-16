@@ -1,0 +1,203 @@
+{
+  "id": "services/fractional-chief-ai-officer",
+  "en": {
+    "metaTitle": "Fractional Chief AI Officer for Scale-ups & Mittelstand",
+    "metaDescription": "Senior AI leadership 1–2 days a week for 3–12 months: AI roadmap, vendor and architecture decisions, governance, board reporting and clear exit criteria.",
+    "cardTitle": "Fractional Chief AI Officer",
+    "cardText": "A senior AI leader embedded in your company one to two days a week: owns the roadmap, decides on vendors and architecture, runs governance and reports to the board, until you no longer need one.",
+    "hero": {
+      "eyebrow": "Service · 1–2 days per week, typically 3–12 months",
+      "title": "Senior AI leadership,",
+      "titleAccent": "without the full-time hire.",
+      "standfirst": "You need someone who owns AI in your company: prioritises use cases, says no to the wrong vendors, keeps governance real and reports progress to the board in numbers. You do not yet need that person five days a week. A fractional Chief AI Officer fills the role for one to two days a week, with a defined mandate and a defined exit.",
+      "cta": { "label": "Book an intro call", "page": "contact" },
+      "cta2": { "label": "See how we work", "page": "approach" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "The gap this fills",
+        "lede": "Between \"someone in IT looks after AI\" and \"we hired a Chief AI Officer\" lies a long stretch where most companies lose a year.",
+        "body": [
+          "AI initiatives fail for organisational reasons more often than technical ones: no single owner, decisions taken by whoever attended the last vendor demo, pilots without a budget line, governance as an afterthought. A full-time Chief AI Officer would fix that, but for a scale-up, a Mittelstand company or a business unit inside a corporate, the position is hard to justify and even harder to fill.",
+          "A fractional CAIO gives you the seniority and the accountability without the permanent headcount. One of our senior consultants joins your leadership rhythm for one or two days a week, owns the AI agenda end to end and works through your own people rather than around them.",
+          "The engagement is time-boxed on purpose. Part of the job is to make itself unnecessary: by building internal owners, by documenting decisions and, if the volume justifies it, by helping you hire a permanent lead and handing over cleanly."
+        ],
+        "facts": [
+          ["Format", "Embedded senior role, 1–2 days per week"],
+          ["Duration", "Typically 3–12 months, with exit criteria"],
+          ["For", "Scale-ups, Mittelstand, business units of corporates"],
+          ["Reports to", "CEO, managing director or business unit lead"]
+        ],
+        "link": { "label": "Not sure you need this yet? Start with a readiness assessment", "page": "services/ai-readiness-assessment" }
+      },
+      {
+        "type": "cards",
+        "heading": "What the role owns",
+        "intro": "The mandate is written down at the start, together with the sponsor. It typically covers these six areas.",
+        "items": [
+          { "icon": "map", "title": "AI roadmap and priorities", "text": "One ranked list of use cases across the company, maintained monthly, with a clear rationale for what is being built now, what waits and what was rejected. If an [AI strategy](page:services/ai-strategy) exists, the CAIO executes it; if not, the first weeks produce one." },
+          { "icon": "layers", "title": "Vendor and architecture decisions", "text": "Which models, platforms and agent frameworks you standardise on, where data lives, what must stay in the EU, when to build and when to buy. Decisions are documented so they outlast the engagement. Vendor-neutral by contract." },
+          { "icon": "shield", "title": "Governance and risk", "text": "The AI register, the EU AI Act classification, GDPR alignment and the usage policy get an owner who keeps them current and works with legal, the data protection officer and the works council. See [AI governance](page:services/ai-governance)." },
+          { "icon": "people", "title": "Internal owners and skills", "text": "Every use case gets a business owner and a technical owner, and the CAIO coaches both. Over time an internal AI lead or a small team takes over the operational work." },
+          { "icon": "chart", "title": "Board reporting", "text": "A monthly one-page report to the board or the management team: what shipped, what it measured, what it cost, what is at risk, which decisions are needed. In numbers, not narrative." },
+          { "icon": "handshake", "title": "Hiring and exit", "text": "If the workload justifies a permanent Chief AI Officer or head of AI, the fractional CAIO writes the profile, helps interview and hands over. Exit criteria are agreed at the start and reviewed every quarter." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "What a typical month looks like",
+        "intro": "Illustrative, for two days a week; the rhythm is adapted to your organisation.",
+        "items": [
+          { "title": "Week 1: Portfolio and priorities", "text": "Review of every running initiative with its owner: status, metrics, blockers. Reprioritisation where needed. One decision memo to the sponsor on anything that requires budget or a change of direction.", "meta": "Days 1–2" },
+          { "title": "Week 2: Architecture, vendors, governance", "text": "Time with IT and data teams: architecture questions, vendor evaluations, security reviews. Governance work: register updates, classification of new use cases, alignment with the data protection officer or the works council.", "meta": "Days 3–4" },
+          { "title": "Week 3: Owners and delivery", "text": "Working sessions with use-case owners and delivery teams, whether internal, ours or a third party. Unblocking, quality reviews of what is being built, coaching of the people who will run it afterwards.", "meta": "Days 5–6" },
+          { "title": "Week 4: Board and outlook", "text": "The monthly report, a leadership session on decisions and risks, and planning for the next month. Once a quarter, a review against the exit criteria.", "meta": "Days 7–8" }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "How this differs from classic consulting",
+        "items": [
+          { "title": "Accountable for outcomes, not deliverables", "text": "A consultant delivers a document and leaves. A fractional CAIO owns the results of the roadmap, sits in your leadership meetings and is measured on what shipped and what it changed." },
+          { "title": "Inside your organisation", "text": "The role works with your people, in your tools and your meeting rhythm, with a company email address and the authority the sponsor delegates. Decisions are taken with you in the room, not presented afterwards." },
+          { "title": "Continuity instead of projects", "text": "One person holds the context across use cases, vendors, budgets and governance for months. Nothing has to be re-explained to a new project team every quarter." },
+          { "title": "Designed to end", "text": "The mandate includes building the capability that replaces it. Success looks like an internal owner running the portfolio and a board that no longer needs us in the room." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Who this is for",
+        "variant": "check",
+        "items": [
+          { "title": "Scale-ups after Series A or B", "text": "AI is in the product or the operating model, the founders can no longer own it personally, and a full-time CAIO hire is premature. See [startups](page:for/startups)." },
+          { "title": "Mittelstand companies with a mandate from the owner", "text": "The managing director wants AI to happen, IT is lean, and the department heads need someone senior to make decisions stick. See [Mittelstand](page:for/mittelstand)." },
+          { "title": "Business units inside corporates", "text": "The group has a central AI team with a long queue; the unit needs its own agenda, its own interface to group governance and results this year. See [enterprise](page:for/enterprise)." },
+          { "title": "Companies between two AI leaders", "text": "The head of AI has left, or the hire is six months out. The fractional role keeps the portfolio moving and helps recruit the successor." }
+        ]
+      },
+      {
+        "type": "tags",
+        "heading": "What we decide between in the role",
+        "items": ["OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI", "LangGraph", "n8n", "Microsoft Copilot Studio", "EU AI Act", "ISO/IEC 42001"],
+        "note": "We evaluate and decide between these vendors on your behalf without reseller agreements or partnerships. Standards are references we align with, not certifications we hold."
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "How many days a week, and can that change?", "a": "One or two days a week is the norm. The first four to six weeks are usually closer to two, while the portfolio is reviewed and the mandate settles; the load tapers as internal owners take over. We review the allocation monthly, and short-term increases for a board preparation or a vendor selection are possible." },
+          { "q": "Who does the fractional CAIO report to?", "a": "To a sponsor with authority: the CEO, the managing director or the business unit lead. The mandate is written down at the start: what the role may decide alone, what needs the sponsor, and what budget authority it carries. It is not a shadow role reporting into IT, unless IT is the sponsor." },
+          { "q": "Does the fractional CAIO also build the agents?", "a": "Not in this role. The role decides, prioritises, governs and coaches. Delivery is done by your team, by another partner or by our [agent development](page:services/ai-agent-development) service, contracted separately. The CAIO stays neutral about who builds, and says so when your own team is the better choice." },
+          { "q": "What do typical exit criteria look like?", "a": "Examples: an internal owner has run the portfolio review twice without us; the AI register and governance process are running; the roadmap has been executed for two consecutive quarters; board reporting is handed over; a permanent hire has completed onboarding. The criteria are agreed at the start and reviewed every quarter." },
+          { "q": "Is there a conflict of interest if you also sell implementation?", "a": "A fair question, and the mandate is written to answer it. The role is vendor-neutral by contract, including towards us. Build, buy or partner decisions are documented with their reasoning and taken with the sponsor, and you are free to implement with anyone. The roadmap and all documentation belong to you." },
+          { "q": "Is the role remote or on site?", "a": "Mostly remote, with on-site days for leadership meetings, workshops and the moments where being in the room matters. We are based in Berlin and work across Germany, Austria and Switzerland, in German and English." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": ["services/ai-strategy", "services/ai-governance", "services/ai-readiness-assessment", "for/mittelstand"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Fractional Chief AI Officer für Scale-ups & Mittelstand",
+    "metaDescription": "KI-Führung an 1–2 Tagen pro Woche für 3–12 Monate: KI-Roadmap, Anbieter- und Architekturentscheidungen, Governance, Reporting an die Geschäftsführung, klarer Exit.",
+    "cardTitle": "Fractional Chief AI Officer",
+    "cardText": "Eine erfahrene KI-Führungskraft, ein bis zwei Tage pro Woche in Ihrem Unternehmen: verantwortet die Roadmap, entscheidet über Anbieter und Architektur, führt die Governance und berichtet an die Geschäftsführung – bis Sie die Rolle nicht mehr brauchen.",
+    "hero": {
+      "eyebrow": "Leistung · 1–2 Tage pro Woche, in der Regel 3–12 Monate",
+      "title": "Erfahrene KI-Führung,",
+      "titleAccent": "ohne Vollzeitstelle.",
+      "standfirst": "Sie brauchen jemanden, der KI in Ihrem Unternehmen verantwortet: Use Cases priorisiert, den falschen Anbietern absagt, Governance lebendig hält und der Geschäftsführung Fortschritt in Zahlen berichtet. Sie brauchen diese Person noch nicht an fünf Tagen pro Woche. Ein Fractional Chief AI Officer übernimmt die Rolle an ein bis zwei Tagen pro Woche – mit klarem Mandat und klarem Ende.",
+      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
+      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Die Lücke, die diese Rolle schließt",
+        "lede": "Zwischen „jemand in der IT kümmert sich um KI“ und „wir haben einen Chief AI Officer eingestellt“ liegt eine lange Strecke, auf der die meisten Unternehmen ein Jahr verlieren.",
+        "body": [
+          "KI-Initiativen scheitern häufiger an der Organisation als an der Technik: kein klarer Verantwortlicher, Entscheidungen von dem, der die letzte Anbieter-Demo gesehen hat, Piloten ohne Budgetposten, Governance als Nachgedanke. Ein Chief AI Officer in Vollzeit würde das lösen – für ein Scale-up, ein mittelständisches Unternehmen oder einen Geschäftsbereich im Konzern ist die Stelle aber schwer zu rechtfertigen und noch schwerer zu besetzen.",
+          "Ein Fractional CAIO gibt Ihnen Seniorität und Verantwortung ohne dauerhafte Planstelle. Einer unserer erfahrenen Berater wird an ein bis zwei Tagen pro Woche Teil Ihres Führungsrhythmus, verantwortet die KI-Agenda von Anfang bis Ende und arbeitet mit Ihren Leuten, nicht an ihnen vorbei.",
+          "Das Engagement ist bewusst befristet. Ein Teil der Aufgabe besteht darin, sich überflüssig zu machen: durch den Aufbau interner Verantwortlicher, durch dokumentierte Entscheidungen und, wenn das Volumen es rechtfertigt, durch Unterstützung bei der Besetzung einer festen Leitung und eine saubere Übergabe."
+        ],
+        "facts": [
+          ["Format", "Eingebettete Führungsrolle, 1–2 Tage pro Woche"],
+          ["Dauer", "In der Regel 3–12 Monate, mit Exit-Kriterien"],
+          ["Für", "Scale-ups, Mittelstand, Geschäftsbereiche von Konzernen"],
+          ["Berichtet an", "CEO, Geschäftsführung oder Bereichsleitung"]
+        ],
+        "link": { "label": "Noch unsicher, ob Sie das brauchen? Starten Sie mit einem Readiness-Assessment", "page": "services/ai-readiness-assessment" }
+      },
+      {
+        "type": "cards",
+        "heading": "Was die Rolle verantwortet",
+        "intro": "Das Mandat wird zu Beginn gemeinsam mit dem Sponsor schriftlich festgelegt. In der Regel umfasst es diese sechs Bereiche.",
+        "items": [
+          { "icon": "map", "title": "KI-Roadmap und Prioritäten", "text": "Eine einzige Rangliste der Use Cases im Unternehmen, monatlich gepflegt, mit klarer Begründung, was jetzt gebaut wird, was wartet und was verworfen wurde. Gibt es bereits eine [KI-Strategie](page:services/ai-strategy), setzt der CAIO sie um; wenn nicht, entsteht sie in den ersten Wochen." },
+          { "icon": "layers", "title": "Anbieter- und Architekturentscheidungen", "text": "Auf welche Modelle, Plattformen und Agenten-Frameworks Sie sich festlegen, wo Daten liegen, was in der EU bleiben muss, wann Sie bauen und wann Sie kaufen. Entscheidungen werden dokumentiert, damit sie das Engagement überdauern. Herstellerneutral per Vertrag." },
+          { "icon": "shield", "title": "Governance und Risiko", "text": "KI-Register, Einstufung nach EU AI Act, DSGVO-Abgleich und Nutzungsrichtlinie bekommen eine verantwortliche Person, die sie aktuell hält und mit Rechtsabteilung, Datenschutzbeauftragtem und Betriebsrat zusammenarbeitet. Siehe [KI-Governance](page:services/ai-governance)." },
+          { "icon": "people", "title": "Interne Verantwortliche und Kompetenzen", "text": "Jeder Use Case bekommt eine fachliche und eine technische Verantwortung, und der CAIO coacht beide Seiten. Mit der Zeit übernimmt eine interne KI-Leitung oder ein kleines Team die operative Arbeit." },
+          { "icon": "chart", "title": "Berichte an die Geschäftsführung", "text": "Ein monatlicher Einseiter für Geschäftsführung, Vorstand oder Beirat: Was ist live gegangen, was hat es gemessen, was hat es gekostet, was ist gefährdet, welche Entscheidungen stehen an. In Zahlen, nicht in Prosa." },
+          { "icon": "handshake", "title": "Besetzung und Exit", "text": "Rechtfertigt die Arbeitslast einen festen Chief AI Officer oder Head of AI, schreibt der Fractional CAIO das Profil, hilft bei den Interviews und übergibt. Exit-Kriterien werden zu Beginn vereinbart und jedes Quartal überprüft." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Wie ein typischer Monat aussieht",
+        "intro": "Beispielhaft für zwei Tage pro Woche; der Rhythmus wird an Ihre Organisation angepasst.",
+        "items": [
+          { "title": "Woche 1: Portfolio und Prioritäten", "text": "Durchsicht jeder laufenden Initiative mit ihrer verantwortlichen Person: Status, Kennzahlen, Blockaden. Neupriorisierung, wo nötig. Eine Entscheidungsvorlage an den Sponsor für alles, was Budget oder eine Kurskorrektur braucht.", "meta": "Tage 1–2" },
+          { "title": "Woche 2: Architektur, Anbieter, Governance", "text": "Zeit mit IT und Datenteams: Architekturfragen, Anbieterbewertungen, Sicherheitsprüfungen. Governance-Arbeit: Register aktualisieren, neue Use Cases einstufen, Abstimmung mit Datenschutzbeauftragtem oder Betriebsrat.", "meta": "Tage 3–4" },
+          { "title": "Woche 3: Verantwortliche und Umsetzung", "text": "Arbeitssitzungen mit Use-Case-Verantwortlichen und Umsetzungsteams – intern, von uns oder von Dritten. Blockaden lösen, die Qualität des Gebauten prüfen, die Menschen coachen, die es anschließend betreiben.", "meta": "Tage 5–6" },
+          { "title": "Woche 4: Geschäftsführung und Ausblick", "text": "Der Monatsbericht, eine Führungssitzung zu Entscheidungen und Risiken, die Planung des nächsten Monats. Einmal im Quartal ein Abgleich mit den Exit-Kriterien.", "meta": "Tage 7–8" }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Was die Rolle von klassischer Beratung unterscheidet",
+        "items": [
+          { "title": "Verantwortlich für Ergebnisse, nicht für Lieferungen", "text": "Ein Berater liefert ein Dokument und geht. Ein Fractional CAIO verantwortet die Ergebnisse der Roadmap, sitzt in Ihren Führungsrunden und wird daran gemessen, was live gegangen ist und was es verändert hat." },
+          { "title": "Innerhalb Ihrer Organisation", "text": "Die Rolle arbeitet mit Ihren Leuten, in Ihren Werkzeugen und Ihrem Sitzungsrhythmus, mit einer E-Mail-Adresse des Unternehmens und den Befugnissen, die der Sponsor delegiert. Entscheidungen fallen mit Ihnen im Raum, nicht in einer Präsentation danach." },
+          { "title": "Kontinuität statt Projekte", "text": "Eine Person hält den Kontext über Use Cases, Anbieter, Budgets und Governance hinweg über Monate. Nichts muss jedes Quartal einem neuen Projektteam neu erklärt werden." },
+          { "title": "Auf das Ende hin angelegt", "text": "Das Mandat umfasst den Aufbau der Fähigkeiten, die es ersetzen. Erfolg sieht so aus: Eine interne Verantwortliche führt das Portfolio, und die Geschäftsführung braucht uns nicht mehr im Raum." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Für wen das gedacht ist",
+        "variant": "check",
+        "items": [
+          { "title": "Scale-ups nach Series A oder B", "text": "KI steckt im Produkt oder im Betriebsmodell, die Gründer können das Thema nicht mehr persönlich verantworten, und eine Vollzeitstelle für einen CAIO ist verfrüht. Mehr unter [Startups](page:for/startups)." },
+          { "title": "Mittelständler mit Mandat des Inhabers", "text": "Die Geschäftsführung will, dass KI passiert, die IT ist schlank, und die Bereichsleitungen brauchen jemanden mit Erfahrung, der Entscheidungen durchsetzt. Mehr unter [Mittelstand](page:for/mittelstand)." },
+          { "title": "Geschäftsbereiche in Konzernen", "text": "Die Gruppe hat ein zentrales KI-Team mit langer Warteschlange; der Bereich braucht eine eigene Agenda, eine eigene Schnittstelle zur Konzern-Governance und Ergebnisse in diesem Jahr. Mehr unter [Konzerne](page:for/enterprise)." },
+          { "title": "Unternehmen zwischen zwei KI-Leitungen", "text": "Der Head of AI ist gegangen, oder die Neubesetzung dauert noch sechs Monate. Die Fractional-Rolle hält das Portfolio in Bewegung und hilft, die Nachfolge zu finden." }
+        ]
+      },
+      {
+        "type": "tags",
+        "heading": "Worüber wir in der Rolle entscheiden",
+        "items": ["OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Google Vertex AI", "LangGraph", "n8n", "Microsoft Copilot Studio", "EU AI Act (KI-Verordnung)", "ISO/IEC 42001"],
+        "note": "Wir bewerten diese Anbieter und entscheiden in Ihrem Auftrag zwischen ihnen, ohne Reseller-Verträge oder Partnerschaften. Normen sind Referenzen, an denen wir uns orientieren, keine Zertifizierungen, die wir halten."
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Wie viele Tage pro Woche, und kann sich das ändern?", "a": "Ein bis zwei Tage pro Woche sind die Regel. Die ersten vier bis sechs Wochen liegen meist näher an zwei, solange das Portfolio gesichtet wird und sich das Mandat einspielt; danach nimmt der Aufwand ab, wenn interne Verantwortliche übernehmen. Wir prüfen die Aufteilung monatlich, und kurzfristige Aufstockungen für eine Vorstandsvorbereitung oder eine Anbieterauswahl sind möglich." },
+          { "q": "An wen berichtet der Fractional CAIO?", "a": "An einen Sponsor mit Entscheidungsbefugnis: CEO, Geschäftsführung oder Bereichsleitung. Das Mandat wird zu Beginn schriftlich festgehalten: Was darf die Rolle allein entscheiden, was braucht den Sponsor, welche Budgetverantwortung trägt sie. Es ist keine Schattenrolle, die an die IT berichtet – es sei denn, die IT ist der Sponsor." },
+          { "q": "Baut der Fractional CAIO die Agenten auch selbst?", "a": "Nicht in dieser Rolle. Die Rolle entscheidet, priorisiert, steuert die Governance und coacht. Die Umsetzung übernimmt Ihr Team, ein anderer Partner oder unsere [KI-Agenten-Entwicklung](page:services/ai-agent-development), separat beauftragt. Der CAIO bleibt neutral, wer baut – und sagt es auch, wenn Ihr eigenes Team die bessere Wahl ist." },
+          { "q": "Wie sehen typische Exit-Kriterien aus?", "a": "Beispiele: Eine interne Verantwortliche hat das Portfolio-Review zweimal ohne uns geführt; KI-Register und Governance-Prozess laufen; die Roadmap wurde zwei Quartale in Folge umgesetzt; das Reporting an die Geschäftsführung ist übergeben; eine feste Besetzung hat das Onboarding abgeschlossen. Die Kriterien werden zu Beginn vereinbart und jedes Quartal überprüft." },
+          { "q": "Gibt es einen Interessenkonflikt, wenn Sie auch Umsetzung verkaufen?", "a": "Eine berechtigte Frage, und das Mandat ist so geschrieben, dass es sie beantwortet. Die Rolle ist per Vertrag herstellerneutral, auch uns gegenüber. Entscheidungen über Bauen, Kaufen oder Partner werden mit Begründung dokumentiert und mit dem Sponsor getroffen, und Sie können mit jedem umsetzen. Roadmap und sämtliche Dokumentation gehören Ihnen." },
+          { "q": "Ist die Rolle remote oder vor Ort?", "a": "Überwiegend remote, mit Präsenztagen für Führungsrunden, Workshops und die Momente, in denen es auf den Raum ankommt. Wir sitzen in Berlin und arbeiten in Deutschland, Österreich und der Schweiz, auf Deutsch und Englisch." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": ["services/ai-strategy", "services/ai-governance", "services/ai-readiness-assessment", "for/mittelstand"]
+      }
+    ]
+  }
+}

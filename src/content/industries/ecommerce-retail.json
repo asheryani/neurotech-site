@@ -1,0 +1,379 @@
+{
+  "id": "industries/ecommerce-retail",
+  "en": {
+    "metaTitle": "AI Agents for E-commerce & Retail: Product Content, Service, Returns",
+    "metaDescription": "AI agents for online shops and retailers: product content, customer service for orders and returns, claims processing and catalogue data, built for peak season.",
+    "cardTitle": "E-commerce & retail",
+    "cardText": "Product content at scale, customer service for order status and returns, claims processing and catalogue data cleaning, built for peak season.",
+    "hero": {
+      "eyebrow": "Industries · E-commerce & retail",
+      "title": "Thousands of products, millions of customers,",
+      "titleAccent": "and margins that punish waste.",
+      "standfirst": "E-commerce and retail run on volume: product data for every SKU in every channel and language, service requests that spike with every campaign, returns and claims that each need a decision. AI agents handle the volume, humans handle the exceptions and the brand. We build it to survive Black Friday.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why e-commerce and retail",
+        "lede": "Retail was automating before AI agents existed. What agents add is the ability to handle unstructured work at the same scale as structured work.",
+        "body": [
+          "Online retailers already run on systems: shop platform, PIM, ERP, WMS, marketplaces, helpdesk. What those systems cannot do is write a good product description in four languages from a supplier's spec sheet, understand that a customer's angry message is actually a question about a partial delivery, or decide whether a returns photo shows a defect or normal wear. That work has been done by people, in volumes that grow with every SKU and every campaign.",
+          "Agents change that. They enrich product data with approval workflows, answer the large share of service requests that are really lookups, prepare returns and claims decisions with the evidence attached, and turn reviews and feedback into structured signals for merchandising. The people who used to do the volume now do the judgement calls and the brand work.",
+          "The constraints are real: consumer-protection law, transparency toward customers, GDPR for customer data, marketplace policies and, above all, reliability when traffic is ten times normal. We design for the peak, not the average."
+        ],
+        "facts": [
+          [
+            "Typical starting point",
+            "Product content enrichment or order-status service agent"
+          ],
+          [
+            "Human checkpoint",
+            "Content approval, refunds and goodwill decisions"
+          ],
+          [
+            "Systems",
+            "Shopify, Shopware, commercetools, SAP Commerce, PIM, ERP, helpdesk"
+          ],
+          [
+            "Constraint",
+            "Peak-season reliability, consumer law, GDPR"
+          ]
+        ],
+        "link": {
+          "label": "AI agents for customer service",
+          "page": "solutions/customer-service"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Eight workflows, from the catalogue to the returns desk.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Product content generation and enrichment",
+            "text": "From supplier data, images and spec sheets, the agent drafts titles, descriptions, attributes and SEO text in your tone of voice, translates them for each market and prepares marketplace feeds. Category managers approve in bulk with exceptions flagged; nothing publishes unreviewed."
+          },
+          {
+            "icon": "chat",
+            "title": "Customer service for order status, returns and WISMO",
+            "text": "\"Where is my order\", return requests, address changes and invoice copies handled end to end by an agent connected to order management and the carriers, in every language you sell in. Anything involving goodwill, complaints or ambiguity goes to a person with the context prepared."
+          },
+          {
+            "icon": "refresh",
+            "title": "Returns and claims processing",
+            "text": "The agent reads the return reason, the photos and the order history, checks the return policy and warranty terms, and proposes a decision: accept, refund, replace, escalate. Below a defined value the decision executes automatically; above it, a service agent approves."
+          },
+          {
+            "icon": "eye",
+            "title": "Review and feedback analysis",
+            "text": "Reviews, support tickets and social mentions are classified by product, issue and sentiment, and summarised for merchandising and quality: which products generate returns for the same reason, which descriptions mislead, which suppliers cause complaints."
+          },
+          {
+            "icon": "chart",
+            "title": "Pricing and assortment analysis support",
+            "text": "The agent collects competitor prices and availability from sources you define, prepares margin and elasticity views, and drafts assortment recommendations. Pricing decisions remain with category management and follow your pricing rules."
+          },
+          {
+            "icon": "megaphone",
+            "title": "Merchandising and campaign content",
+            "text": "Landing pages, category texts, newsletter copy and campaign variants drafted from the product data and the campaign brief, checked against brand and legal guidelines, approved by marketing. See [AI agents for marketing](page:solutions/marketing)."
+          },
+          {
+            "icon": "layers",
+            "title": "Supplier and catalogue data cleaning",
+            "text": "Supplier catalogues arrive in every format. The agent maps them to your attribute model, normalises units and values, detects duplicates and inconsistencies, and flags what it cannot resolve. Data quality improves without a data-entry team."
+          },
+          {
+            "icon": "shield",
+            "title": "Fraud and anomaly flags",
+            "text": "Unusual return patterns, address mismatches, promo-code abuse and suspicious account behaviour flagged for the fraud team with the evidence assembled. The agent flags; people decide and the rules stay auditable."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Constraints specific to e-commerce and retail",
+        "items": [
+          {
+            "title": "Consumer-protection rules and transparency",
+            "text": "Customers must know when they interact with an AI system and be able to reach a person; product claims must be accurate; withdrawal and warranty rights follow the law regardless of what an agent says. Agents work inside these rules with policy checks on outputs, and escalation is always available."
+          },
+          {
+            "title": "GDPR for customer data",
+            "text": "Service agents see names, addresses, order histories and sometimes payment details. Access is scoped to the case, data is minimised, retention follows your policy and the hosting decision reflects the sensitivity. Documentation is prepared for your DPO."
+          },
+          {
+            "title": "Marketplace and platform policies",
+            "text": "Amazon, Zalando, Otto and other marketplaces have their own rules on content, messaging and automation. Agents that generate content or messages for those channels are configured per channel and reviewed against the policy."
+          },
+          {
+            "title": "Peak-season reliability",
+            "text": "A service agent that works in March and collapses in November is worse than none. We design for the peak: load testing, rate limits, graceful fallback to humans when the model provider is slow, and monitoring that alerts before customers notice."
+          },
+          {
+            "title": "Systems integration",
+            "text": "Shop platforms, PIM, ERP, WMS, carriers and helpdesk each hold part of the picture. Agents need reliable connectors and a clear source of truth per data type, or they will give confident wrong answers. Our [data foundations](page:services/data-foundations) service handles this where needed."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks: catalogue size and channels, service volumes by category and language, returns process, systems landscape and the peaks in your calendar. Output: ranked use cases with a business case in hours, handling time and content throughput.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Approval workflows for content and decisions, integration with shop, PIM and helpdesk, transparency and escalation design for customer-facing agents, data-protection review and the evaluation set from past tickets or products.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production agent on one category of products or one class of service requests, with real customers, measured against handling time, throughput and quality before the pilot. Timed to be stable before your next peak.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Extend to further categories, languages and channels, add returns and claims, and hand over to your team or [managed AI operations](page:services/managed-ai-operations) with peak-season runbooks.",
+            "meta": "From month 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can an agent write product content that sounds like our brand?",
+            "a": "Yes, with your tone-of-voice guidelines, examples of your best content and a review loop in the first weeks. Quality is measured by editors rating samples and by conversion on enriched versus unenriched products. Content still gets approved by a person before publication, in bulk for routine products."
+          },
+          {
+            "q": "How much of customer service can an agent really handle?",
+            "a": "The share that consists of lookups and standard processes: order status, returns initiation, address and invoice requests, product questions answered from the catalogue. That share varies by shop, and the pilot tells you yours. Complaints, goodwill and anything ambiguous go to people with the context prepared, which also makes those interactions faster."
+          },
+          {
+            "q": "What happens on Black Friday?",
+            "a": "The agent is load-tested for multiples of normal volume, rate-limited to protect your systems, and falls back to your team automatically if the model provider is slow or unavailable. Monitoring alerts on latency and error rates before customers are affected. We schedule pilots so they are stable well before your peak."
+          },
+          {
+            "q": "Do customers have to be told they are talking to AI?",
+            "a": "Yes, transparency obligations apply to AI systems interacting with people, and it is good practice anyway. The agent identifies itself and offers a human at any point. This is process design, not legal advice; we align the wording with your legal team."
+          },
+          {
+            "q": "Which shop systems do you work with?",
+            "a": "Shopify, Shopware, commercetools, SAP Commerce, Magento and others, plus common PIM, ERP, WMS and helpdesk tools, through APIs or the Model Context Protocol. The concrete integrations are verified during the assessment."
+          },
+          {
+            "q": "What about our service team's jobs?",
+            "a": "The agent takes the repetitive volume; the team takes the cases that need judgement and the customers worth extra attention. Most retailers use the change to stop seasonal overtime and outsourcing rather than to cut the core team. Where it is different, we say so early and plan it with HR."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "solutions/customer-service",
+          "solutions/marketing",
+          "services/agentic-workflows",
+          "services/data-foundations"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten für E-Commerce & Handel: Produktdaten, Service, Retouren",
+    "metaDescription": "KI-Agenten für Onlineshops und Händler: Produktdaten, Kundenservice für Bestellungen und Retouren, Reklamationen und Katalogdaten – zuverlässig in der Hochsaison.",
+    "cardTitle": "E-Commerce & Handel",
+    "cardText": "Produktinhalte im großen Maßstab, Kundenservice für Bestellstatus und Retouren, Reklamationsbearbeitung und Katalogbereinigung – gebaut für die Hochsaison.",
+    "hero": {
+      "eyebrow": "Branchen · E-Commerce & Handel",
+      "title": "Tausende Produkte, Millionen Kunden",
+      "titleAccent": "und Margen, die Verschwendung bestrafen.",
+      "standfirst": "E-Commerce und Handel laufen über Volumen: Produktdaten für jede Artikelnummer in jedem Kanal und jeder Sprache, Serviceanfragen, die mit jeder Kampagne hochschnellen, Retouren und Reklamationen, die jeweils eine Entscheidung brauchen. KI-Agenten übernehmen das Volumen, Menschen die Ausnahmen und die Marke. Wir bauen es so, dass es den Black Friday übersteht.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum E-Commerce und Handel",
+        "lede": "Der Handel hat automatisiert, bevor es KI-Agenten gab. Was Agenten hinzufügen, ist die Fähigkeit, unstrukturierte Arbeit im selben Maßstab zu erledigen wie strukturierte.",
+        "body": [
+          "Onlinehändler laufen bereits auf Systemen: Shopplattform, PIM, ERP, WMS, Marktplätze, Helpdesk. Was diese Systeme nicht können: aus dem Datenblatt eines Lieferanten eine gute Produktbeschreibung in vier Sprachen schreiben, verstehen, dass die verärgerte Nachricht eines Kunden eigentlich eine Frage zu einer Teillieferung ist, oder entscheiden, ob ein Retourenfoto einen Defekt oder normale Gebrauchsspuren zeigt. Diese Arbeit haben Menschen gemacht – in Mengen, die mit jeder Artikelnummer und jeder Kampagne wachsen.",
+          "Agenten ändern das. Sie reichern Produktdaten mit Freigabe-Workflows an, beantworten den großen Anteil der Serviceanfragen, die in Wahrheit Nachschlagevorgänge sind, bereiten Retouren- und Reklamationsentscheidungen mit angehängten Belegen vor und verwandeln Bewertungen und Feedback in strukturierte Signale für das Merchandising. Die Menschen, die bisher das Volumen bewältigt haben, treffen jetzt die Ermessensentscheidungen und kümmern sich um die Marke.",
+          "Die Rahmenbedingungen sind real: Verbraucherschutzrecht, Transparenz gegenüber Kunden, DSGVO für Kundendaten, Marktplatzrichtlinien und vor allem Zuverlässigkeit, wenn der Traffic das Zehnfache des Normalen erreicht. Wir entwerfen für die Spitze, nicht für den Durchschnitt."
+        ],
+        "facts": [
+          [
+            "Typischer Einstieg",
+            "Anreicherung von Produktdaten oder Service-Agent für Bestellstatus"
+          ],
+          [
+            "Menschlicher Kontrollpunkt",
+            "Inhaltsfreigabe, Erstattungen und Kulanzentscheidungen"
+          ],
+          [
+            "Systeme",
+            "Shopify, Shopware, commercetools, SAP Commerce, PIM, ERP, Helpdesk"
+          ],
+          [
+            "Rahmenbedingung",
+            "Zuverlässigkeit in der Hochsaison, Verbraucherrecht, DSGVO"
+          ]
+        ],
+        "link": {
+          "label": "KI-Agenten im Kundenservice",
+          "page": "solutions/customer-service"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Acht Workflows, vom Katalog bis zur Retourenannahme.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Produktinhalte erzeugen und anreichern",
+            "text": "Aus Lieferantendaten, Bildern und Datenblättern entwirft der Agent Titel, Beschreibungen, Attribute und SEO-Texte in Ihrer Tonalität, übersetzt sie für jeden Markt und bereitet Marktplatz-Feeds vor. Category Manager geben gesammelt frei, Ausnahmen werden markiert; nichts wird ungeprüft veröffentlicht."
+          },
+          {
+            "icon": "chat",
+            "title": "Kundenservice für Bestellstatus, Retouren und WISMO",
+            "text": "„Wo ist meine Bestellung“, Retourenanfragen, Adressänderungen und Rechnungskopien werden von einem Agenten mit Anbindung an Auftragsverwaltung und Versanddienstleister durchgehend bearbeitet – in jeder Sprache, in der Sie verkaufen. Alles mit Kulanz, Beschwerden oder Mehrdeutigkeit geht mit vorbereitetem Kontext an einen Menschen."
+          },
+          {
+            "icon": "refresh",
+            "title": "Retouren- und Reklamationsbearbeitung",
+            "text": "Der Agent liest Retourengrund, Fotos und Bestellhistorie, prüft Rückgabebedingungen und Gewährleistung und schlägt eine Entscheidung vor: annehmen, erstatten, ersetzen, eskalieren. Unterhalb eines definierten Werts wird die Entscheidung automatisch ausgeführt; darüber gibt ein Servicemitarbeiter frei."
+          },
+          {
+            "icon": "eye",
+            "title": "Bewertungs- und Feedback-Analyse",
+            "text": "Bewertungen, Support-Tickets und Social-Media-Erwähnungen werden nach Produkt, Problem und Stimmung klassifiziert und für Merchandising und Qualität zusammengefasst: Welche Produkte erzeugen Retouren aus demselben Grund, welche Beschreibungen führen in die Irre, welche Lieferanten verursachen Beschwerden."
+          },
+          {
+            "icon": "chart",
+            "title": "Unterstützung bei Preis- und Sortimentsanalyse",
+            "text": "Der Agent sammelt Wettbewerbspreise und Verfügbarkeiten aus von Ihnen definierten Quellen, bereitet Margen- und Elastizitätssichten auf und entwirft Sortimentsempfehlungen. Preisentscheidungen bleiben beim Category Management und folgen Ihren Preisregeln."
+          },
+          {
+            "icon": "megaphone",
+            "title": "Merchandising- und Kampagneninhalte",
+            "text": "Landingpages, Kategorietexte, Newsletter-Texte und Kampagnenvarianten, entworfen aus Produktdaten und Kampagnen-Briefing, gegen Marken- und Rechtsvorgaben geprüft, vom Marketing freigegeben. Siehe [KI-Agenten im Marketing](page:solutions/marketing)."
+          },
+          {
+            "icon": "layers",
+            "title": "Lieferanten- und Katalogdaten bereinigen",
+            "text": "Lieferantenkataloge kommen in jedem Format. Der Agent ordnet sie Ihrem Attributmodell zu, normalisiert Einheiten und Werte, erkennt Dubletten und Widersprüche und markiert, was er nicht auflösen kann. Die Datenqualität steigt ohne Erfassungsteam."
+          },
+          {
+            "icon": "shield",
+            "title": "Betrugs- und Anomaliehinweise",
+            "text": "Ungewöhnliche Retourenmuster, Adressabweichungen, Missbrauch von Gutscheincodes und verdächtiges Kontoverhalten werden mit zusammengestellten Belegen an das Fraud-Team gemeldet. Der Agent markiert; Menschen entscheiden, und die Regeln bleiben prüfbar."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Besonderheiten der Branche",
+        "items": [
+          {
+            "title": "Verbraucherschutz und Transparenz",
+            "text": "Kunden müssen wissen, wenn sie mit einem KI-System interagieren, und einen Menschen erreichen können; Produktaussagen müssen zutreffen; Widerrufs- und Gewährleistungsrechte gelten unabhängig davon, was ein Agent sagt. Agenten arbeiten innerhalb dieser Regeln mit Richtlinienprüfungen der Ausgaben, und die Eskalation ist immer verfügbar."
+          },
+          {
+            "title": "DSGVO für Kundendaten",
+            "text": "Service-Agenten sehen Namen, Adressen, Bestellhistorien und manchmal Zahlungsdetails. Der Zugriff ist auf den Vorgang beschränkt, Daten werden minimiert, die Aufbewahrung folgt Ihrer Richtlinie, und die Hosting-Entscheidung spiegelt die Sensibilität. Die Dokumentation wird für Ihren Datenschutzbeauftragten vorbereitet."
+          },
+          {
+            "title": "Marktplatz- und Plattformrichtlinien",
+            "text": "Amazon, Zalando, Otto und andere Marktplätze haben eigene Regeln für Inhalte, Nachrichten und Automatisierung. Agenten, die Inhalte oder Nachrichten für diese Kanäle erzeugen, werden je Kanal konfiguriert und gegen die Richtlinie geprüft."
+          },
+          {
+            "title": "Zuverlässigkeit in der Hochsaison",
+            "text": "Ein Service-Agent, der im März funktioniert und im November zusammenbricht, ist schlimmer als keiner. Wir entwerfen für die Spitze: Lasttests, Ratenbegrenzung, sauberer Rückfall auf Menschen, wenn der Modellanbieter langsam ist, und Monitoring, das alarmiert, bevor Kunden etwas merken."
+          },
+          {
+            "title": "Systemintegration",
+            "text": "Shopplattform, PIM, ERP, WMS, Versanddienstleister und Helpdesk halten jeweils einen Teil des Bildes. Agenten brauchen verlässliche Anbindungen und je Datentyp eine klare Quelle der Wahrheit – sonst geben sie selbstbewusst falsche Antworten. Unsere Leistung [Datenbasis für KI](page:services/data-foundations) übernimmt das, wo nötig."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen: Kataloggröße und Kanäle, Servicevolumen nach Kategorie und Sprache, Retourenprozess, Systemlandschaft und die Spitzen in Ihrem Kalender. Ergebnis: bewertete Use Cases mit Business Case in Stunden, Bearbeitungszeit und Content-Durchsatz.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Freigabe-Workflows für Inhalte und Entscheidungen, Integration mit Shop, PIM und Helpdesk, Transparenz- und Eskalationskonzept für kundenorientierte Agenten, Datenschutzprüfung und das Evaluationsset aus früheren Tickets oder Produkten.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem produktiven Agenten für eine Produktkategorie oder eine Klasse von Serviceanfragen, mit echten Kunden, gemessen an Bearbeitungszeit, Durchsatz und Qualität vor dem Piloten. Zeitlich so geplant, dass er vor Ihrer nächsten Spitze stabil ist.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Ausweitung auf weitere Kategorien, Sprachen und Kanäle, Ergänzung von Retouren und Reklamationen und Übergabe an Ihr Team oder an [Managed AI Operations](page:services/managed-ai-operations) mit Runbooks für die Hochsaison.",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Kann ein Agent Produkttexte schreiben, die nach unserer Marke klingen?",
+            "a": "Ja – mit Ihren Tonalitätsrichtlinien, Beispielen Ihrer besten Inhalte und einer Prüfschleife in den ersten Wochen. Die Qualität wird gemessen, indem Redakteure Stichproben bewerten und die Konversion angereicherter gegenüber nicht angereicherten Produkten verglichen wird. Inhalte werden vor der Veröffentlichung weiterhin von einer Person freigegeben – bei Routineprodukten gesammelt."
+          },
+          {
+            "q": "Wie viel vom Kundenservice kann ein Agent wirklich übernehmen?",
+            "a": "Den Anteil, der aus Nachschlagen und Standardprozessen besteht: Bestellstatus, Retoureneinleitung, Adress- und Rechnungsanfragen, Produktfragen aus dem Katalog. Dieser Anteil variiert je Shop, und der Pilot zeigt Ihnen Ihren. Beschwerden, Kulanz und alles Mehrdeutige gehen mit vorbereitetem Kontext an Menschen – was auch diese Vorgänge schneller macht."
+          },
+          {
+            "q": "Was passiert am Black Friday?",
+            "a": "Der Agent wird auf ein Vielfaches des normalen Volumens getestet, zum Schutz Ihrer Systeme ratenbegrenzt und fällt automatisch auf Ihr Team zurück, wenn der Modellanbieter langsam oder nicht verfügbar ist. Das Monitoring alarmiert bei Latenz und Fehlerraten, bevor Kunden betroffen sind. Wir planen Piloten so, dass sie deutlich vor Ihrer Spitze stabil sind."
+          },
+          {
+            "q": "Müssen Kunden erfahren, dass sie mit KI sprechen?",
+            "a": "Ja, Transparenzpflichten gelten für KI-Systeme, die mit Menschen interagieren, und es ist ohnehin gute Praxis. Der Agent gibt sich zu erkennen und bietet jederzeit einen Menschen an. Das ist Prozessgestaltung, keine Rechtsberatung; die Formulierung stimmen wir mit Ihrer Rechtsabteilung ab."
+          },
+          {
+            "q": "Mit welchen Shopsystemen arbeiten Sie?",
+            "a": "Shopify, Shopware, commercetools, SAP Commerce, Magento und andere, dazu gängige PIM-, ERP-, WMS- und Helpdesk-Werkzeuge – über APIs oder das Model Context Protocol. Die konkreten Integrationen prüfen wir im Assessment."
+          },
+          {
+            "q": "Was wird aus den Stellen im Serviceteam?",
+            "a": "Der Agent übernimmt das repetitive Volumen; das Team übernimmt die Fälle, die Urteilsvermögen brauchen, und die Kunden, die besondere Aufmerksamkeit verdienen. Die meisten Händler nutzen die Veränderung, um saisonale Überstunden und Outsourcing zu beenden, nicht um das Kernteam zu verkleinern. Wo es anders ist, sagen wir das früh und planen es mit HR."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "solutions/customer-service",
+          "solutions/marketing",
+          "services/agentic-workflows",
+          "services/data-foundations"
+        ]
+      }
+    ]
+  }
+}

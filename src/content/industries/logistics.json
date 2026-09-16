@@ -1,0 +1,379 @@
+{
+  "id": "industries/logistics",
+  "en": {
+    "metaTitle": "AI Agents for Logistics, Forwarding & Supply Chain",
+    "metaDescription": "AI agents for forwarders, carriers and 3PLs: order intake from email and PDF, customs checks, exception handling and freight audits, plugged into your TMS and WMS.",
+    "cardTitle": "Logistics & supply chain",
+    "cardText": "Order intake from emails and PDFs, customs documents, exception handling and freight audits: agents built for 24/7 operations and thin margins.",
+    "hero": {
+      "eyebrow": "Industry · Forwarders, carriers, 3PL, distribution",
+      "title": "AI agents for logistics that",
+      "titleAccent": "keep pace with the freight.",
+      "standfirst": "Freight forwarders, carriers, contract logistics providers and distribution companies handle thousands of orders, documents and exceptions a day, in many formats and languages, around the clock. We build AI agents that take the reading, retyping and chasing out of that work, connect to your TMS and WMS, and are scoped so the effect shows up within months, not years.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where AI pays off in logistics",
+        "lede": "Logistics does not lack automation. It lacks automation for the unstructured parts: the emails, the PDFs, the phone calls and the exceptions.",
+        "body": [
+          "Your TMS and WMS handle the structured flow well. The expensive work sits around them: a dispatcher retyping a shipment order from an email, a customs clerk comparing a commercial invoice with the packing list, a customer service agent chasing a carrier for an ETA and writing the same update to three customers. This is language work, and language models are good at it.",
+          "We build agents that read whatever arrives, in whatever format and language, extract what your system needs, check it against your rules and master data, and either complete the transaction or hand a prepared exception to a person. Wherever a customer, a customs authority or a carrier commitment is involved, a person confirms. Everything else runs.",
+          "We work with forwarders, road, sea and air carriers, contract logistics providers and distribution companies in Germany, Austria, Switzerland and across Europe, in English and German. We know that in this industry a business case has to appear in the numbers within months, not years, and we scope accordingly."
+        ],
+        "facts": [
+          [
+            "Typical starting points",
+            "Order intake, customs documents, exceptions, freight audit"
+          ],
+          [
+            "Systems",
+            "TMS, WMS, ERP, carrier portals, EDI, email"
+          ],
+          [
+            "Operating principle",
+            "Agents handle the routine, people handle the commitment"
+          ],
+          [
+            "First step",
+            "Readiness assessment, or a 6–8 week pilot"
+          ]
+        ],
+        "link": {
+          "label": "See agentic workflow automation",
+          "page": "services/agentic-workflows"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases in freight, contract logistics and distribution",
+        "intro": "Seven workflows we see across forwarders, carriers and 3PLs, each with the point where a person stays in control.",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "Shipment order intake from emails and PDFs",
+            "text": "Orders arrive as free-text emails, PDF attachments, spreadsheets and portal exports. An agent extracts shipper, consignee, goods, dimensions, dates and references, validates them against master data and creates the shipment in the TMS. Incomplete orders go back to the customer with a precise question, drafted by the agent, sent by the dispatcher."
+          },
+          {
+            "icon": "doc",
+            "title": "Customs and export document preparation",
+            "text": "The agent assembles commercial invoice, packing list, certificates and transport documents, checks HS codes, values, weights and parties for consistency, flags missing or contradictory data and prepares the declaration draft. A customs specialist reviews and files. Nothing reaches the authority without a person."
+          },
+          {
+            "icon": "bolt",
+            "title": "Exception handling with customer communication",
+            "text": "Delays, damages, missed pickups and address problems trigger the same routine every time: find out what happened, decide the next step, inform the customer. Agents gather the facts from TMS, telematics and carrier messages, propose the action and draft the update. The person on shift approves and sends."
+          },
+          {
+            "icon": "chat",
+            "title": "Track-and-trace and customer agents",
+            "text": "Customers ask where the shipment is, when it will arrive and what a document means. An agent answers from live TMS and carrier data, in the customer's language, by email, chat or portal, and escalates claims and complaints to a person. Fewer status calls, faster answers. See [customer service agents](page:solutions/customer-service)."
+          },
+          {
+            "icon": "truck",
+            "title": "Carrier communication, dispatch support and slot booking",
+            "text": "Rate requests, confirmations, slot bookings at ramps and terminals and the back-and-forth around them are mostly repetitive text. Agents send the requests, parse the replies, compare offers and prepare the booking. The dispatcher chooses and commits."
+          },
+          {
+            "icon": "chart",
+            "title": "Invoice and freight-cost auditing",
+            "text": "Carrier and supplier invoices are matched against quoted rates, contracts, surcharge tables and actual shipment data. Deviations are listed with reasoning and the disputed positions are drafted. Accounting approves and pays. Read more under [AI agents for finance](page:solutions/finance)."
+          },
+          {
+            "icon": "book",
+            "title": "Knowledge assistants and demand signals",
+            "text": "A retrieval assistant for drivers, warehouse staff and dispatchers over handling rules, dangerous-goods procedures, customer SOPs and site instructions, in their languages. For planners, agents condense order intake, customer forecasts and market signals into a weekly briefing. See [operations](page:solutions/operations)."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Constraints specific to logistics",
+        "intro": "Six realities of this industry that decide whether an agent survives contact with a Monday morning.",
+        "items": [
+          {
+            "title": "TMS and WMS integration",
+            "text": "Agents only pay off when they write into the systems that run your operation, not into a separate tool. We integrate with your TMS, WMS and ERP through their APIs and, where an older system has none, through files, EDI messages or a controlled interface layer. The record of the transaction stays in your system."
+          },
+          {
+            "title": "Time criticality and 24/7 operations",
+            "text": "A cutoff missed by ten minutes is a missed vessel. Agents run around the clock, but they need escalation paths to whoever is on shift, hard time limits and a safe fallback when a system is unreachable. We design for the night shift, not for the demo."
+          },
+          {
+            "title": "Many partners, many formats",
+            "text": "EDI messages, portal uploads, emails, scanned PDFs, a photo of a delivery note. Every partner has its own format and the mix changes monthly. Language models handle this variety better than templates, but they need validation rules and confidence thresholds so that a misread digit does not become a misrouted pallet."
+          },
+          {
+            "title": "Customs compliance",
+            "text": "Tariff classification, origin, export controls and sanctions screening carry legal liability. Agents prepare and check; qualified people declare. We build the audit trail so you can show who confirmed what, and we keep the agent out of any step where the law requires a person."
+          },
+          {
+            "title": "Multilingual operations",
+            "text": "Drivers, warehouse teams, partners and customers work in different languages. Agents read and write German, English, Polish, Romanian, Turkish or whatever your network speaks, and knowledge assistants answer in the language of the person asking."
+          },
+          {
+            "title": "Thin margins, quick payback",
+            "text": "There is no budget for a science project. We size pilots so the effect shows in hours saved, error rates and cycle times within the pilot itself, and we prefer model costs that scale with volume over fixed platform fees you carry through a weak quarter."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start in a logistics company",
+        "items": [
+          {
+            "title": "Follow the freight",
+            "text": "We spend time with dispatch, customer service, customs and accounting, watch how orders and exceptions actually flow, and count the retyping, chasing and checking. This becomes the baseline.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Pick the first process",
+            "text": "Usually order intake, exception handling or freight audit: high volume, clear rules, visible pain. We define scope, human checkpoints, the integration path and the target metrics.",
+            "meta": "Week 2"
+          },
+          {
+            "title": "Pilot in live operations",
+            "text": "We build the agent on your real emails, documents and TMS data, run it alongside the team, tune extraction rules and thresholds with them, and measure against the baseline.",
+            "meta": "Weeks 3–8"
+          },
+          {
+            "title": "Roll out and keep it running",
+            "text": "Go-live with monitoring, alerting and an escalation path for the shift. Then the next lane, the next site or the next process. [Managed AI operations](page:services/managed-ai-operations) covers the running.",
+            "meta": "From week 9"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Our TMS is old and has no API. Can agents still work with it?",
+            "a": "Usually yes. Many logistics systems accept files, EDI messages or database views even without a modern API, and some can be operated through their user interface by a supervised computer-use agent. We examine the integration options in the first two weeks and choose the most robust one. If the only path is fragile, we say so and start with a process where the integration is simple."
+          },
+          {
+            "q": "How do you stop an agent from misreading an order?",
+            "a": "With the same discipline you apply to a new employee: validation against master data, confidence thresholds, plausibility rules for weights, dimensions and dates, and a person who sees everything below the threshold. In the pilot we measure the error rate against manual entry before the agent may create shipments unsupervised, and every record it creates carries the source it came from."
+          },
+          {
+            "q": "Can agents file customs declarations?",
+            "a": "They prepare and check declarations; a qualified person reviews and files. Customs and export-control law places responsibility on people and licensed entities, and we build the process so that it is always clear who confirmed what. The time saving comes from the preparation and the consistency checks, which is where most of the hours go anyway."
+          },
+          {
+            "q": "How quickly do we see a return?",
+            "a": "We scope pilots so the effect is measurable inside the pilot: minutes per order, exceptions closed per shift, invoice deviations caught, response times. Whether that becomes a return depends on your volumes and rates, which is why we build the business case with your numbers before the build starts. We do not promise a figure; we agree the metric and measure it."
+          },
+          {
+            "q": "Does this work for a mid-sized forwarder without an IT department?",
+            "a": "Yes. Mid-sized forwarders are exactly the companies this is designed for. We use platforms and hosted models so your team does not have to operate infrastructure, keep the setup documented and simple, and offer [managed AI operations](page:services/managed-ai-operations) if you want us to keep the agents running. See also [how we work with the Mittelstand](page:for/mittelstand)."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/agentic-workflows",
+          "solutions/operations",
+          "solutions/customer-service",
+          "insights/first-agent-use-case"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten für Logistik, Spedition & Supply Chain",
+    "metaDescription": "KI-Agenten für Spedition und Logistik: Auftragserfassung aus E-Mail und PDF, Zollprüfung, Störfallbearbeitung und Frachtkostenprüfung, angebunden an TMS und WMS.",
+    "cardTitle": "Logistik & Supply Chain",
+    "cardText": "Auftragserfassung aus E-Mails und PDFs, Zolldokumente, Störfallbearbeitung und Frachtkostenprüfung: Agenten für 24/7-Betrieb und knappe Margen.",
+    "hero": {
+      "eyebrow": "Branche · Spediteure, Frachtführer, 3PL, Distribution",
+      "title": "KI-Agenten für die Logistik, die",
+      "titleAccent": "mit der Fracht Schritt halten.",
+      "standfirst": "Spediteure, Frachtführer, Kontraktlogistiker und Distributionsunternehmen bearbeiten täglich Tausende Aufträge, Dokumente und Störfälle – in vielen Formaten und Sprachen, rund um die Uhr. Wir bauen KI-Agenten, die das Lesen, Abtippen und Nachfassen aus dieser Arbeit herausnehmen, an Ihr TMS und WMS andocken und so zugeschnitten sind, dass sich der Effekt in Monaten zeigt, nicht in Jahren.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo sich KI in der Logistik rechnet",
+        "lede": "Der Logistik fehlt keine Automatisierung. Ihr fehlt Automatisierung für das Unstrukturierte: die E-Mails, die PDFs, die Anrufe und die Störfälle.",
+        "body": [
+          "Ihr TMS und Ihr WMS beherrschen den strukturierten Fluss. Die teure Arbeit liegt drumherum: ein Disponent, der einen Transportauftrag aus einer E-Mail abtippt, eine Zollsachbearbeiterin, die Handelsrechnung und Packliste abgleicht, ein Kundenbetreuer, der beim Frachtführer die ETA erfragt und dasselbe Update an drei Kunden schreibt. Das ist Spracharbeit, und darin sind Sprachmodelle gut.",
+          "Wir bauen Agenten, die lesen, was ankommt – in jedem Format und jeder Sprache –, das extrahieren, was Ihr System braucht, es gegen Ihre Regeln und Stammdaten prüfen und die Transaktion entweder abschließen oder einen vorbereiteten Störfall an einen Menschen übergeben. Wo ein Kunde, eine Zollbehörde oder eine verbindliche Zusage an einen Frachtführer im Spiel ist, bestätigt ein Mensch. Alles andere läuft.",
+          "Wir arbeiten mit Spediteuren, Straßen-, See- und Luftfrachtführern, Kontraktlogistikern und Distributionsunternehmen in Deutschland, Österreich, der Schweiz und Europa, auf Deutsch und Englisch. Wir wissen, dass sich ein Business Case in dieser Branche innerhalb von Monaten in den Zahlen zeigen muss, nicht in Jahren – und schneiden die Projekte entsprechend zu."
+        ],
+        "facts": [
+          [
+            "Typische Einstiege",
+            "Auftragserfassung, Zolldokumente, Störfälle, Frachtkostenprüfung"
+          ],
+          [
+            "Systeme",
+            "TMS, WMS, ERP, Carrier-Portale, EDI, E-Mail"
+          ],
+          [
+            "Arbeitsprinzip",
+            "Agenten übernehmen die Routine, Menschen die Zusage"
+          ],
+          [
+            "Erster Schritt",
+            "Readiness-Assessment oder ein Pilot in 6–8 Wochen"
+          ]
+        ],
+        "link": {
+          "label": "Mehr zu agentischer Workflow-Automatisierung",
+          "page": "services/agentic-workflows"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases in Spedition, Kontraktlogistik und Distribution",
+        "intro": "Sieben Workflows, die wir bei Spediteuren, Frachtführern und 3PL immer wieder sehen – jeweils mit dem Punkt, an dem ein Mensch die Kontrolle behält.",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "Auftragserfassung aus E-Mails und PDFs",
+            "text": "Aufträge kommen als Freitext-E-Mails, PDF-Anhänge, Tabellen und Portal-Exporte. Ein Agent extrahiert Versender, Empfänger, Ware, Maße, Termine und Referenzen, prüft sie gegen Stammdaten und legt die Sendung im TMS an. Unvollständige Aufträge gehen mit einer präzisen Rückfrage an den Kunden zurück – vom Agenten entworfen, vom Disponenten gesendet."
+          },
+          {
+            "icon": "doc",
+            "title": "Zoll- und Exportdokumente vorbereiten",
+            "text": "Der Agent stellt Handelsrechnung, Packliste, Zertifikate und Transportdokumente zusammen, prüft Zolltarifnummern, Werte, Gewichte und Beteiligte auf Konsistenz, markiert fehlende oder widersprüchliche Angaben und bereitet den Anmeldungsentwurf vor. Eine Zollfachkraft prüft und meldet an. Nichts geht ohne Menschen an die Behörde."
+          },
+          {
+            "icon": "bolt",
+            "title": "Störfallbearbeitung mit Kundenkommunikation",
+            "text": "Verspätungen, Schäden, verpasste Abholungen und Adressprobleme lösen jedes Mal dieselbe Routine aus: herausfinden, was passiert ist, den nächsten Schritt entscheiden, den Kunden informieren. Agenten sammeln die Fakten aus TMS, Telematik und Carrier-Nachrichten, schlagen die Maßnahme vor und entwerfen das Update. Die Schicht gibt frei und sendet."
+          },
+          {
+            "icon": "chat",
+            "title": "Track-and-Trace und Kundenagenten",
+            "text": "Kunden fragen, wo die Sendung ist, wann sie ankommt und was ein Dokument bedeutet. Ein Agent antwortet aus Live-Daten von TMS und Carriern, in der Sprache des Kunden, per E-Mail, Chat oder Portal, und eskaliert Schadensfälle und Beschwerden an einen Menschen. Weniger Statusanrufe, schnellere Antworten. Mehr unter [Kundenservice-Agenten](page:solutions/customer-service)."
+          },
+          {
+            "icon": "truck",
+            "title": "Carrier-Kommunikation, Dispo-Unterstützung und Slot-Buchung",
+            "text": "Ratenanfragen, Bestätigungen, Slot-Buchungen an Rampen und Terminals und das Hin und Her darum sind größtenteils repetitiver Text. Agenten verschicken die Anfragen, lesen die Antworten aus, vergleichen Angebote und bereiten die Buchung vor. Der Disponent wählt aus und bucht verbindlich."
+          },
+          {
+            "icon": "chart",
+            "title": "Rechnungs- und Frachtkostenprüfung",
+            "text": "Rechnungen von Frachtführern und Lieferanten werden gegen angebotene Raten, Verträge, Zuschlagstabellen und die tatsächlichen Sendungsdaten abgeglichen. Abweichungen werden mit Begründung aufgelistet, die strittigen Positionen vorformuliert. Die Buchhaltung gibt frei und zahlt. Mehr unter [KI-Agenten für Finanzen](page:solutions/finance)."
+          },
+          {
+            "icon": "book",
+            "title": "Wissensassistenten und Bedarfssignale",
+            "text": "Ein Assistent für Fahrer, Lagerpersonal und Disponenten über Handling-Regeln, Gefahrgutverfahren, Kunden-SOPs und Standortanweisungen – in ihren Sprachen. Für Planer verdichten Agenten Auftragseingang, Kundenprognosen und Marktsignale zu einem wöchentlichen Briefing. Mehr unter [Operations](page:solutions/operations)."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Besonderheiten der Logistik",
+        "intro": "Sechs Realitäten dieser Branche, die darüber entscheiden, ob ein Agent den Kontakt mit einem Montagmorgen übersteht.",
+        "items": [
+          {
+            "title": "TMS- und WMS-Integration",
+            "text": "Agenten rechnen sich nur, wenn sie in die Systeme schreiben, die Ihren Betrieb steuern – nicht in ein separates Tool. Wir integrieren über die APIs von TMS, WMS und ERP und dort, wo ein älteres System keine hat, über Dateien, EDI-Nachrichten oder eine kontrollierte Schnittstellenschicht. Der Datensatz der Transaktion bleibt in Ihrem System."
+          },
+          {
+            "title": "Zeitkritik und 24/7-Betrieb",
+            "text": "Ein um zehn Minuten verpasster Cut-off ist ein verpasstes Schiff. Agenten laufen rund um die Uhr, brauchen aber Eskalationswege zur jeweiligen Schicht, harte Zeitlimits und einen sicheren Rückfall, wenn ein System nicht erreichbar ist. Wir bauen für die Nachtschicht, nicht für die Demo."
+          },
+          {
+            "title": "Viele Partner, viele Formate",
+            "text": "EDI-Nachrichten, Portal-Uploads, E-Mails, gescannte PDFs, das Foto eines Lieferscheins. Jeder Partner hat sein Format, und der Mix ändert sich monatlich. Sprachmodelle bewältigen diese Vielfalt besser als Vorlagen, brauchen aber Validierungsregeln und Konfidenzschwellen, damit aus einer falsch gelesenen Ziffer keine fehlgeleitete Palette wird."
+          },
+          {
+            "title": "Zoll-Compliance",
+            "text": "Tarifierung, Ursprung, Exportkontrolle und Sanktionsprüfung sind haftungsrelevant. Agenten bereiten vor und prüfen; qualifizierte Menschen melden an. Wir bauen den Audit-Trail so, dass Sie zeigen können, wer was bestätigt hat, und halten den Agenten aus jedem Schritt heraus, in dem das Gesetz einen Menschen verlangt."
+          },
+          {
+            "title": "Mehrsprachiger Betrieb",
+            "text": "Fahrer, Lagerteams, Partner und Kunden arbeiten in verschiedenen Sprachen. Agenten lesen und schreiben Deutsch, Englisch, Polnisch, Rumänisch, Türkisch oder was immer Ihr Netzwerk spricht, und Wissensassistenten antworten in der Sprache dessen, der fragt."
+          },
+          {
+            "title": "Knappe Margen, schneller Payback",
+            "text": "Für ein Forschungsprojekt gibt es kein Budget. Wir dimensionieren Piloten so, dass sich der Effekt in eingesparten Stunden, Fehlerquoten und Durchlaufzeiten noch im Piloten zeigt, und bevorzugen Modellkosten, die mit dem Volumen skalieren, gegenüber fixen Plattformgebühren, die Sie durch ein schwaches Quartal tragen."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir in einem Logistikunternehmen",
+        "items": [
+          {
+            "title": "Der Fracht folgen",
+            "text": "Wir verbringen Zeit mit Disposition, Kundenservice, Zoll und Buchhaltung, sehen uns an, wie Aufträge und Störfälle tatsächlich fließen, und zählen das Abtippen, Nachfassen und Prüfen. Das wird die Ausgangsbasis.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Den ersten Prozess wählen",
+            "text": "Meist Auftragserfassung, Störfallbearbeitung oder Frachtkostenprüfung: hohes Volumen, klare Regeln, sichtbarer Schmerz. Wir definieren Umfang, menschliche Kontrollpunkte, Integrationsweg und Zielkennzahlen.",
+            "meta": "Woche 2"
+          },
+          {
+            "title": "Pilot im laufenden Betrieb",
+            "text": "Wir bauen den Agenten auf Ihren echten E-Mails, Dokumenten und TMS-Daten, lassen ihn neben dem Team laufen, justieren Extraktionsregeln und Schwellenwerte gemeinsam und messen gegen die Ausgangsbasis.",
+            "meta": "Wochen 3–8"
+          },
+          {
+            "title": "Ausrollen und am Laufen halten",
+            "text": "Go-live mit Monitoring, Alarmierung und Eskalationsweg für die Schicht. Danach die nächste Relation, der nächste Standort oder der nächste Prozess. [Managed AI Operations](page:services/managed-ai-operations) übernimmt den Betrieb.",
+            "meta": "Ab Woche 9"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Unser TMS ist alt und hat keine API. Können Agenten trotzdem damit arbeiten?",
+            "a": "Meistens ja. Viele Logistiksysteme nehmen Dateien, EDI-Nachrichten oder Datenbanksichten entgegen, auch ohne moderne API, und manche lassen sich über ihre Benutzeroberfläche von einem beaufsichtigten Computer-Use-Agenten bedienen. Wir prüfen die Integrationsoptionen in den ersten zwei Wochen und wählen die robusteste. Ist der einzige Weg fragil, sagen wir das und starten mit einem Prozess, bei dem die Integration einfach ist."
+          },
+          {
+            "q": "Wie verhindern Sie, dass ein Agent einen Auftrag falsch liest?",
+            "a": "Mit derselben Disziplin, die Sie bei einem neuen Mitarbeiter anwenden: Abgleich mit Stammdaten, Konfidenzschwellen, Plausibilitätsregeln für Gewichte, Maße und Termine und ein Mensch, der alles unterhalb der Schwelle sieht. Im Piloten messen wir die Fehlerquote gegen die manuelle Erfassung, bevor der Agent Sendungen unbeaufsichtigt anlegen darf, und jeder angelegte Datensatz trägt die Quelle, aus der er stammt."
+          },
+          {
+            "q": "Können Agenten Zollanmeldungen abgeben?",
+            "a": "Sie bereiten Anmeldungen vor und prüfen sie; eine qualifizierte Person kontrolliert und gibt ab. Zoll- und Exportkontrollrecht legt die Verantwortung auf Menschen und zugelassene Unternehmen, und wir bauen den Prozess so, dass jederzeit klar ist, wer was bestätigt hat. Die Zeitersparnis liegt in der Vorbereitung und den Konsistenzprüfungen – dort gehen ohnehin die meisten Stunden hin."
+          },
+          {
+            "q": "Wie schnell sehen wir einen Effekt?",
+            "a": "Wir schneiden Piloten so zu, dass der Effekt innerhalb des Piloten messbar ist: Minuten pro Auftrag, geschlossene Störfälle pro Schicht, erkannte Rechnungsabweichungen, Antwortzeiten. Ob daraus ein Return wird, hängt von Ihren Volumina und Raten ab – deshalb bauen wir den Business Case mit Ihren Zahlen, bevor der Bau beginnt. Wir versprechen keine Zahl; wir vereinbaren die Kennzahl und messen sie."
+          },
+          {
+            "q": "Funktioniert das auch für einen mittelständischen Spediteur ohne IT-Abteilung?",
+            "a": "Ja. Mittelständische Spediteure sind genau die Unternehmen, für die das gedacht ist. Wir nutzen Plattformen und gehostete Modelle, damit Ihr Team keine Infrastruktur betreiben muss, halten den Aufbau dokumentiert und einfach und bieten [Managed AI Operations](page:services/managed-ai-operations) an, wenn wir die Agenten für Sie am Laufen halten sollen. Siehe auch [Mittelstand](page:for/mittelstand)."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/agentic-workflows",
+          "solutions/operations",
+          "solutions/customer-service",
+          "insights/first-agent-use-case"
+        ]
+      }
+    ]
+  }
+}

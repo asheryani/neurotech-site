@@ -1,0 +1,409 @@
+{
+  "id": "solutions/legal-compliance",
+  "en": {
+    "metaTitle": "AI Agents for Legal & Compliance: Contract Review, Monitoring",
+    "metaDescription": "AI agents for legal and compliance teams: first-pass contract review, obligation tracking, regulatory monitoring, policy Q&A and DSAR support, with lawyer approval.",
+    "cardTitle": "AI agents for legal & compliance",
+    "cardText": "First-pass contract review, obligation tracking, regulatory monitoring and policy Q&A, with a lawyer approving everything that leaves the department.",
+    "hero": {
+      "eyebrow": "Solutions · Legal & compliance",
+      "title": "Legal work that scales without",
+      "titleAccent": "lowering the bar.",
+      "standfirst": "Legal and compliance teams are asked to review more contracts, answer more questions and track more regulation with the same headcount. AI agents take on the first pass, the retrieval and the monitoring, so qualified people spend their time on judgement, negotiation and risk. Every output that leaves the department is approved by a lawyer.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where agents pay off in legal",
+        "lede": "Most legal work is reading, comparing and looking things up. That is exactly what language models do well, provided a lawyer stays in charge of the conclusion.",
+        "body": [
+          "An in-house legal team of three at a mid-sized company sees hundreds of NDAs, supplier agreements and data-processing agreements a year, answers a constant stream of \"can we do this?\" questions from the business, and is expected to know what changed in the EU AI Act, the GDPR, NIS2 and product regulation last month. None of that is optional, and very little of it is where legal expertise creates the most value.",
+          "AI agents change the economics. They read an incoming contract against your playbook and flag the deviations, extract obligations and deadlines into a register, answer policy questions for employees with citations to the actual policy, and summarise regulatory changes for the compliance officer. The lawyer reviews a structured first pass instead of a blank page.",
+          "The constraints are stricter than in most departments: confidentiality, professional secrecy, legal privilege and the fact that a wrong answer can create liability. That is why our legal deployments start with internal use cases, run on infrastructure that satisfies your confidentiality requirements, and keep a lawyer's approval in front of anything external."
+        ],
+        "facts": [
+          [
+            "Typical starting point",
+            "NDA and DPA first-pass review"
+          ],
+          [
+            "Human checkpoint",
+            "Lawyer approves every external output"
+          ],
+          [
+            "Systems",
+            "CLM, DMS, SharePoint, email, ticketing"
+          ],
+          [
+            "Hosting",
+            "EU cloud or on-premises where privilege demands"
+          ]
+        ],
+        "link": {
+          "label": "Our AI governance service",
+          "page": "services/ai-governance"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Six workflows we see legal and compliance teams start with. Each names the systems involved and where the human decides.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Contract intake and first-pass review",
+            "text": "Incoming NDAs, supplier agreements and DPAs arrive by email or through a request form. The agent classifies the contract, compares each clause against your playbook, flags deviations with the reason and proposes fallback language. The lawyer reviews the marked-up draft and decides what to negotiate."
+          },
+          {
+            "icon": "search",
+            "title": "Clause extraction and obligation tracking",
+            "text": "From signed contracts in your DMS or CLM, the agent extracts parties, terms, renewal dates, notice periods, liability caps and obligations into a register. Reminders go to the business owner before deadlines. Legal spot-checks the extractions; nothing is changed in the contract itself."
+          },
+          {
+            "icon": "book",
+            "title": "Legal knowledge assistant for the business",
+            "text": "Employees ask questions such as \"can we share this customer list with a partner?\" and get an answer drawn from your policies, precedents and guidance notes, with citations and a clear escalation when the question needs a lawyer. Permission-aware: privileged material stays with legal."
+          },
+          {
+            "icon": "eye",
+            "title": "Regulatory monitoring",
+            "text": "The agent watches sources you define, such as official journals, regulators and law-firm briefings, and produces a weekly digest of changes relevant to your sectors, with a suggested impact rating. The compliance officer decides what becomes an action item."
+          },
+          {
+            "icon": "shield",
+            "title": "Compliance case documentation",
+            "text": "For whistleblowing cases, incident reports and audit requests, the agent assembles the timeline, collects the relevant documents and drafts the case file structure. Investigators and counsel do the assessment; the agent only organises."
+          },
+          {
+            "icon": "lock",
+            "title": "Data-subject request support",
+            "text": "When a data-subject access request arrives, the agent identifies the systems likely to hold the person's data, drafts the search queries, compiles results for review and prepares the response letter from your template. The data protection officer checks and sends."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "A worked example",
+        "content": [
+          {
+            "h2": "NDA review from inbox to signature"
+          },
+          {
+            "p": "The most common first deployment in legal is a review agent for non-disclosure agreements, because volume is high, the playbook is usually already written, and the risk of a bad outcome is contained. Here is how the workflow runs in practice."
+          },
+          {
+            "ol": [
+              "A counterparty's NDA arrives in the legal mailbox or through the request form. The agent recognises it as an NDA, extracts the parties, the governing law and the term, and checks whether the counterparty already has an active agreement in the CLM.",
+              "The agent compares each clause against the playbook: definition of confidential information, permitted purpose, term and survival, residual knowledge, non-solicitation, governing law, injunctive relief. Each deviation is marked with the playbook position and a proposed fallback clause.",
+              "The result is a redlined document and a one-page summary: what is acceptable, what needs negotiation, what is a hard stop. The summary states the agent's confidence for each finding.",
+              "A lawyer reviews the summary and the redline. Routine deviations are accepted or negotiated with one click; unusual clauses are read in full. Nothing is sent to the counterparty without this review.",
+              "After signature, the agent files the executed NDA in the CLM, records term, notice period and counterparty in the obligation register, and sets the renewal reminder.",
+              "Every step is logged: which document was read, which playbook version was applied, what the agent proposed and what the lawyer changed. That log is the basis for improving the playbook and for demonstrating oversight."
+            ]
+          },
+          {
+            "note": "In a typical deployment the agent handles the first pass for all NDAs, and the lawyer's review time per document drops from reading a full contract to checking a structured summary. The lawyer's judgement is unchanged; the reading is not."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Guardrails for legal and compliance",
+        "items": [
+          {
+            "title": "A lawyer approves everything external",
+            "text": "Contracts, letters, responses to authorities and advice to customers are drafted by the agent and released by a qualified person. The agent's confidence score determines how much attention a draft gets, never whether it gets any."
+          },
+          {
+            "title": "Confidentiality and privilege drive the hosting decision",
+            "text": "Privileged material and sensitive investigations may require models that run in the EU or on your own infrastructure, with no training on your data and contractual guarantees from the provider. We map your confidentiality classes to hosting options before choosing a model. See our guide to [sovereign AI and EU-hosted models](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "No legal advice to customers by an agent",
+            "text": "Agents may answer internal policy questions with citations. They do not give legal advice to external parties, and internal answers carry a clear \"escalate to legal\" path when the question exceeds the policy."
+          },
+          {
+            "title": "Playbooks and policies are the source of truth",
+            "text": "The agent applies your documented positions. Where no position exists, it says so rather than inventing one. That makes gaps in your playbook visible, which is useful in itself."
+          },
+          {
+            "title": "Audit trail by default",
+            "text": "Every review, extraction and answer is logged with source documents and model version. Regulators, auditors and your own quality reviews can reconstruct what happened."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks: we map contract volumes and types, existing playbooks, systems (CLM, DMS, email), confidentiality requirements and the questions the business asks most. Output: two or three ranked use cases with a business case and a hosting recommendation.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Playbook formalisation with your lawyers, definition of the approval workflow, data-protection review with your DPO, and, where relevant, works council involvement. We specify the guardrails before writing a prompt.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production-grade agent on one contract type or one knowledge domain, evaluated against a set of real past contracts with known outcomes. Lawyers use it on live work from week four.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Extend to further contract types, the obligation register and regulatory monitoring. Train the team to maintain playbooks and read the agent's logs. Optionally hand over to [managed AI operations](page:services/managed-ai-operations).",
+            "meta": "From month 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How accurate is first-pass contract review?",
+            "a": "Good enough to be useful, not good enough to be unsupervised. Against a well-written playbook, an agent finds the large majority of deviations and occasionally flags something that is fine. That is why a lawyer reviews the summary and the redline. We measure recall and precision on your own past contracts during the pilot and report the numbers, so you know what the agent misses."
+          },
+          {
+            "q": "Can we use this with privileged or highly confidential documents?",
+            "a": "Yes, if the hosting matches the sensitivity. Options range from EU regions of major cloud providers with contractual no-training guarantees to models running entirely on your own infrastructure. We classify your material first and choose accordingly. Some categories, such as active litigation files, may stay out of scope by design."
+          },
+          {
+            "q": "Does the agent replace external counsel?",
+            "a": "No. It reduces the volume of routine work that reaches both your in-house team and your outside firm. Complex negotiations, litigation and regulatory strategy remain with lawyers. Many teams use the agent to prepare better briefs for outside counsel, which reduces hours on the invoice."
+          },
+          {
+            "q": "How does this interact with the GDPR and the EU AI Act?",
+            "a": "Contract review and policy Q&A involve limited personal data and are generally low-risk under the EU AI Act, but the data-protection assessment still has to be done, and employee-facing assistants may need works council involvement in Germany. Our [governance service](page:services/ai-governance) handles the classification and documentation with your DPO. This is consulting, not legal advice."
+          },
+          {
+            "q": "What happens to the legal team's jobs?",
+            "a": "The reading and sorting moves to the agent; the judgement stays with people. In practice legal teams take on work they previously outsourced or declined, and turnaround times for the business improve. Where the workload changes materially, we plan the transition with the team rather than around it."
+          },
+          {
+            "q": "Which systems do you integrate with?",
+            "a": "Contract lifecycle management and document management systems, SharePoint and Confluence, email and ticketing tools, and e-signature platforms, through their APIs or, increasingly, the Model Context Protocol. We check the concrete systems during the assessment."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/ai-governance",
+          "services/knowledge-assistants",
+          "solutions/procurement",
+          "industries/professional-services"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten in Recht & Compliance: Vertragsprüfung, Monitoring",
+    "metaDescription": "KI-Agenten für Recht und Compliance: Vertragsprüfung nach Playbook, Pflichtenregister, Regulierungs-Monitoring und Richtlinien-Auskunft mit Juristenfreigabe.",
+    "cardTitle": "KI-Agenten in Recht & Compliance",
+    "cardText": "Vertragsprüfung im ersten Durchgang, Pflichtenregister, Regulierungs-Monitoring und Richtlinien-Auskunft – mit einem Juristen, der alles freigibt, was die Abteilung verlässt.",
+    "hero": {
+      "eyebrow": "Lösungen · Recht & Compliance",
+      "title": "Rechtsarbeit, die skaliert, ohne",
+      "titleAccent": "den Anspruch zu senken.",
+      "standfirst": "Rechts- und Compliance-Teams sollen mehr Verträge prüfen, mehr Fragen beantworten und mehr Regulierung im Blick behalten – mit gleichbleibender Besetzung. KI-Agenten übernehmen den ersten Durchgang, die Recherche und das Monitoring, damit qualifizierte Menschen ihre Zeit für Bewertung, Verhandlung und Risiko einsetzen. Jedes Ergebnis, das die Abteilung verlässt, wird von einem Juristen freigegeben.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo Agenten sich in der Rechtsabteilung rechnen",
+        "lede": "Der Großteil juristischer Arbeit ist Lesen, Vergleichen und Nachschlagen. Genau das können Sprachmodelle gut – solange ein Jurist über die Schlussfolgerung entscheidet.",
+        "body": [
+          "Eine dreiköpfige Rechtsabteilung in einem mittelgroßen Unternehmen sieht jedes Jahr Hunderte NDAs, Lieferantenverträge und Auftragsverarbeitungsverträge, beantwortet einen ständigen Strom von „Dürfen wir das?“-Fragen aus dem Unternehmen und soll wissen, was sich im EU AI Act, in der DSGVO, in NIS2 und im Produktrecht im letzten Monat geändert hat. Nichts davon ist optional, und nur wenig davon ist die Stelle, an der juristische Expertise den größten Wert schafft.",
+          "KI-Agenten verändern die Rechnung. Sie lesen einen eingehenden Vertrag gegen Ihr Playbook und markieren die Abweichungen, extrahieren Pflichten und Fristen in ein Register, beantworten Richtlinienfragen von Mitarbeitenden mit Verweis auf die tatsächliche Richtlinie und fassen regulatorische Änderungen für den Compliance-Beauftragten zusammen. Der Jurist prüft einen strukturierten ersten Durchgang statt einer leeren Seite.",
+          "Die Rahmenbedingungen sind strenger als in den meisten Abteilungen: Vertraulichkeit, Verschwiegenheitspflichten, Anwaltsprivileg und die Tatsache, dass eine falsche Antwort Haftung auslösen kann. Deshalb beginnen unsere Projekte im Rechtsbereich mit internen Use Cases, laufen auf Infrastruktur, die Ihren Vertraulichkeitsanforderungen genügt, und behalten die Freigabe durch einen Juristen vor allem Externen."
+        ],
+        "facts": [
+          [
+            "Typischer Einstieg",
+            "NDA- und AVV-Prüfung im ersten Durchgang"
+          ],
+          [
+            "Menschlicher Kontrollpunkt",
+            "Jurist gibt jedes externe Ergebnis frei"
+          ],
+          [
+            "Systeme",
+            "CLM, DMS, SharePoint, E-Mail, Ticketsystem"
+          ],
+          [
+            "Hosting",
+            "EU-Cloud oder On-Premises, wo das Privileg es verlangt"
+          ]
+        ],
+        "link": {
+          "label": "Unsere KI-Governance-Beratung",
+          "page": "services/ai-governance"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Sechs Workflows, mit denen Rechts- und Compliance-Teams typischerweise beginnen. Jeder nennt die beteiligten Systeme und die Stelle, an der ein Mensch entscheidet.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Vertragseingang und Prüfung im ersten Durchgang",
+            "text": "Eingehende NDAs, Lieferantenverträge und AVVs kommen per E-Mail oder über ein Anfrageformular. Der Agent klassifiziert den Vertrag, vergleicht jede Klausel mit Ihrem Playbook, markiert Abweichungen mit Begründung und schlägt Ersatzformulierungen vor. Der Jurist prüft den markierten Entwurf und entscheidet, was verhandelt wird."
+          },
+          {
+            "icon": "search",
+            "title": "Klauselextraktion und Pflichtenregister",
+            "text": "Aus unterzeichneten Verträgen in DMS oder CLM extrahiert der Agent Parteien, Laufzeiten, Verlängerungstermine, Kündigungsfristen, Haftungsgrenzen und Pflichten in ein Register. Erinnerungen gehen vor Fristablauf an die Fachverantwortlichen. Die Rechtsabteilung prüft stichprobenartig; am Vertrag selbst wird nichts verändert."
+          },
+          {
+            "icon": "book",
+            "title": "Rechtlicher Wissensassistent für die Fachbereiche",
+            "text": "Mitarbeitende stellen Fragen wie „Dürfen wir diese Kundenliste mit einem Partner teilen?“ und erhalten eine Antwort aus Ihren Richtlinien, Präzedenzfällen und Leitfäden – mit Quellenangaben und klarer Eskalation, wenn ein Jurist gefragt ist. Berechtigungsbewusst: Privilegiertes Material bleibt bei der Rechtsabteilung."
+          },
+          {
+            "icon": "eye",
+            "title": "Regulierungs-Monitoring",
+            "text": "Der Agent beobachtet von Ihnen definierte Quellen – Amtsblätter, Aufsichtsbehörden, Kanzlei-Briefings – und erstellt einen wöchentlichen Überblick über Änderungen mit Relevanz für Ihre Branchen, inklusive vorgeschlagener Auswirkungsbewertung. Der Compliance-Beauftragte entscheidet, was zur Maßnahme wird."
+          },
+          {
+            "icon": "shield",
+            "title": "Dokumentation von Compliance-Fällen",
+            "text": "Für Hinweisgeberfälle, Vorfallmeldungen und Prüfungsanfragen stellt der Agent die Chronologie zusammen, sammelt die relevanten Dokumente und entwirft die Struktur der Fallakte. Ermittler und Berater übernehmen die Bewertung; der Agent organisiert nur."
+          },
+          {
+            "icon": "lock",
+            "title": "Unterstützung bei Betroffenenanfragen",
+            "text": "Geht ein Auskunftsersuchen nach DSGVO ein, identifiziert der Agent die Systeme, die Daten der Person enthalten dürften, entwirft die Suchabfragen, stellt die Ergebnisse zur Prüfung zusammen und bereitet das Antwortschreiben aus Ihrer Vorlage vor. Der Datenschutzbeauftragte prüft und versendet."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Ein Beispiel im Detail",
+        "content": [
+          {
+            "h2": "NDA-Prüfung vom Posteingang bis zur Unterschrift"
+          },
+          {
+            "p": "Der häufigste erste Einsatz in der Rechtsabteilung ist ein Prüfagent für Vertraulichkeitsvereinbarungen: hohes Volumen, das Playbook existiert meist schon, und das Risiko eines schlechten Ergebnisses ist begrenzt. So läuft der Workflow in der Praxis."
+          },
+          {
+            "ol": [
+              "Das NDA einer Gegenseite trifft im Postfach der Rechtsabteilung oder über das Anfrageformular ein. Der Agent erkennt es als NDA, extrahiert Parteien, anwendbares Recht und Laufzeit und prüft, ob mit der Gegenseite bereits eine aktive Vereinbarung im CLM besteht.",
+              "Der Agent vergleicht jede Klausel mit dem Playbook: Definition vertraulicher Informationen, zulässiger Zweck, Laufzeit und Fortgeltung, Residual Knowledge, Abwerbeverbot, anwendbares Recht, einstweiliger Rechtsschutz. Jede Abweichung wird mit der Playbook-Position und einer vorgeschlagenen Ersatzklausel markiert.",
+              "Das Ergebnis ist ein Dokument mit Änderungsmarkierungen und eine einseitige Zusammenfassung: Was ist akzeptabel, was muss verhandelt werden, was ist ein Ausschlusskriterium. Die Zusammenfassung nennt für jeden Befund die Konfidenz des Agenten.",
+              "Ein Jurist prüft Zusammenfassung und Markierungen. Routineabweichungen werden mit einem Klick akzeptiert oder verhandelt; ungewöhnliche Klauseln werden vollständig gelesen. Ohne diese Prüfung geht nichts an die Gegenseite.",
+              "Nach Unterzeichnung legt der Agent das ausgefertigte NDA im CLM ab, trägt Laufzeit, Kündigungsfrist und Gegenpartei ins Pflichtenregister ein und setzt die Erinnerung zur Verlängerung.",
+              "Jeder Schritt wird protokolliert: welches Dokument gelesen, welche Playbook-Version angewendet, was der Agent vorgeschlagen und was der Jurist geändert hat. Dieses Protokoll ist die Grundlage, um das Playbook zu verbessern und die Aufsicht nachzuweisen."
+            ]
+          },
+          {
+            "note": "In einem typischen Einsatz übernimmt der Agent den ersten Durchgang für alle NDAs, und die Prüfzeit des Juristen pro Dokument sinkt vom Lesen eines vollständigen Vertrags auf das Prüfen einer strukturierten Zusammenfassung. Das juristische Urteil bleibt unverändert; das Lesen nicht."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Leitplanken für Recht und Compliance",
+        "items": [
+          {
+            "title": "Ein Jurist gibt alles Externe frei",
+            "text": "Verträge, Schreiben, Antworten an Behörden und Auskünfte an Kunden werden vom Agenten entworfen und von einer qualifizierten Person freigegeben. Die Konfidenz des Agenten bestimmt, wie viel Aufmerksamkeit ein Entwurf bekommt – nie, ob er welche bekommt."
+          },
+          {
+            "title": "Vertraulichkeit und Privileg bestimmen das Hosting",
+            "text": "Privilegiertes Material und sensible Untersuchungen können Modelle erfordern, die in der EU oder auf Ihrer eigenen Infrastruktur laufen, ohne Training auf Ihren Daten und mit vertraglichen Garantien des Anbieters. Wir ordnen Ihre Vertraulichkeitsklassen den Hosting-Optionen zu, bevor ein Modell gewählt wird. Mehr in unserem Leitfaden zu [souveräner KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "title": "Keine Rechtsberatung an Kunden durch einen Agenten",
+            "text": "Agenten dürfen interne Richtlinienfragen mit Quellenangaben beantworten. Sie erteilen keine Rechtsberatung an Externe, und interne Antworten enthalten einen klaren Pfad „an die Rechtsabteilung eskalieren“, wenn die Frage über die Richtlinie hinausgeht."
+          },
+          {
+            "title": "Playbooks und Richtlinien sind die Wahrheit",
+            "text": "Der Agent wendet Ihre dokumentierten Positionen an. Wo keine existiert, sagt er das, statt eine zu erfinden. Das macht Lücken im Playbook sichtbar – was für sich genommen nützlich ist."
+          },
+          {
+            "title": "Prüfpfad als Standard",
+            "text": "Jede Prüfung, Extraktion und Antwort wird mit Quelldokumenten und Modellversion protokolliert. Aufsichtsbehörden, Prüfer und Ihre eigene Qualitätssicherung können nachvollziehen, was passiert ist."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen: Wir erfassen Vertragsvolumen und -typen, vorhandene Playbooks, Systeme (CLM, DMS, E-Mail), Vertraulichkeitsanforderungen und die häufigsten Fragen aus den Fachbereichen. Ergebnis: zwei oder drei bewertete Use Cases mit Business Case und Hosting-Empfehlung.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Formalisierung des Playbooks mit Ihren Juristen, Definition des Freigabe-Workflows, Datenschutzprüfung mit Ihrem Datenschutzbeauftragten und, wo relevant, Einbindung des Betriebsrats. Wir spezifizieren die Leitplanken, bevor ein Prompt geschrieben wird.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem produktionsreifen Agenten für einen Vertragstyp oder ein Wissensgebiet, evaluiert an echten früheren Verträgen mit bekanntem Ausgang. Ab Woche vier nutzen Juristen ihn in der laufenden Arbeit.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Ausweitung auf weitere Vertragstypen, das Pflichtenregister und das Regulierungs-Monitoring. Schulung des Teams in der Pflege von Playbooks und im Lesen der Agentenprotokolle. Optional Übergabe an [Managed AI Operations](page:services/managed-ai-operations).",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Wie genau ist die Vertragsprüfung im ersten Durchgang?",
+            "a": "Gut genug, um nützlich zu sein – nicht gut genug, um unbeaufsichtigt zu laufen. Gegen ein sauber formuliertes Playbook findet ein Agent die große Mehrheit der Abweichungen und markiert gelegentlich etwas, das in Ordnung ist. Deshalb prüft ein Jurist Zusammenfassung und Markierungen. Wir messen im Piloten Trefferquote und Genauigkeit an Ihren eigenen früheren Verträgen und berichten die Zahlen, damit Sie wissen, was der Agent übersieht."
+          },
+          {
+            "q": "Können wir das mit privilegierten oder hochvertraulichen Dokumenten nutzen?",
+            "a": "Ja, wenn das Hosting zur Sensibilität passt. Die Optionen reichen von EU-Regionen großer Cloud-Anbieter mit vertraglichen Garantien gegen Training bis zu Modellen, die vollständig auf Ihrer eigenen Infrastruktur laufen. Wir klassifizieren Ihr Material zuerst und wählen entsprechend. Manche Kategorien, etwa laufende Prozessakten, bleiben bewusst außen vor."
+          },
+          {
+            "q": "Ersetzt der Agent externe Kanzleien?",
+            "a": "Nein. Er reduziert das Volumen an Routinearbeit, das Ihr internes Team und Ihre Kanzlei erreicht. Komplexe Verhandlungen, Rechtsstreitigkeiten und regulatorische Strategie bleiben bei Juristen. Viele Teams nutzen den Agenten, um bessere Briefings für die Kanzlei vorzubereiten – was Stunden auf der Rechnung spart."
+          },
+          {
+            "q": "Wie passt das zu DSGVO und EU AI Act?",
+            "a": "Vertragsprüfung und Richtlinien-Auskunft betreffen wenige personenbezogene Daten und sind nach dem EU AI Act in der Regel risikoarm; die Datenschutzprüfung ist dennoch zu machen, und mitarbeiterbezogene Assistenten können in Deutschland die Beteiligung des Betriebsrats erfordern. Unsere [Governance-Beratung](page:services/ai-governance) übernimmt Einstufung und Dokumentation mit Ihrem Datenschutzbeauftragten. Das ist Beratung, keine Rechtsberatung."
+          },
+          {
+            "q": "Was passiert mit den Stellen in der Rechtsabteilung?",
+            "a": "Das Lesen und Sortieren wandert zum Agenten, das Urteil bleibt bei den Menschen. In der Praxis übernehmen Rechtsteams Arbeit, die sie vorher ausgelagert oder abgelehnt haben, und die Durchlaufzeiten für die Fachbereiche verbessern sich. Wo sich die Arbeitslast wesentlich verändert, planen wir den Übergang mit dem Team statt um es herum."
+          },
+          {
+            "q": "Mit welchen Systemen integrieren Sie?",
+            "a": "Contract-Lifecycle- und Dokumentenmanagementsysteme, SharePoint und Confluence, E-Mail- und Ticketsysteme sowie E-Signatur-Plattformen – über ihre APIs oder zunehmend über das Model Context Protocol. Die konkreten Systeme prüfen wir im Assessment."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/ai-governance",
+          "services/knowledge-assistants",
+          "solutions/procurement",
+          "industries/professional-services"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "services",
+  "en": {
+    "metaTitle": "AI Consulting Services: Strategy, Agentic Workflows, AI Agents",
+    "metaDescription": "AI consulting services: readiness assessment, AI strategy, agentic workflow automation, custom AI agents, knowledge assistants, governance, training, operations.",
+    "cardTitle": "Services",
+    "navLabel": "Services",
+    "cardText": "From a two-week readiness assessment to managed AI operations: everything needed to take AI agents from idea to production.",
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Everything between the idea and",
+      "titleAccent": "an agent in production.",
+      "standfirst": "Ten services that cover the full path: understanding where AI pays off, deciding what to build, building it with the right guardrails, enabling your people, and running it reliably. Take one, or the whole path.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "How the services fit together",
+        "lede": "Assess, design, build, enable, operate. Each service is a complete piece of work on its own, and each one hands over cleanly to the next.",
+        "body": [
+          "Most clients enter through the [readiness assessment](page:services/ai-readiness-assessment) or the [AI strategy](page:services/ai-strategy), because those answer the question that matters first: which workflows are worth automating, in what order, and what will it take. From there, the [agentic workflow](page:services/agentic-workflows) and [agent development](page:services/ai-agent-development) services deliver the first systems, and [managed AI operations](page:services/managed-ai-operations) keeps them working.",
+          "Three services run alongside the rest: [governance](page:services/ai-governance) makes sure what you build can be approved and defended, [training](page:services/ai-training) makes sure your people can use and own it, and [data foundations](page:services/data-foundations) removes the data blockers where they genuinely exist. A [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) ties everything together for companies that do not yet have an AI lead."
+        ],
+        "facts": [
+          [
+            "Entry points",
+            "Readiness assessment, strategy, training"
+          ],
+          [
+            "Delivery",
+            "Agentic workflows, custom agents, knowledge assistants"
+          ],
+          [
+            "Ongoing",
+            "Managed AI operations, fractional CAIO"
+          ],
+          [
+            "Always included",
+            "Governance, measurement, knowledge transfer"
+          ]
+        ],
+        "link": {
+          "label": "How we work",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "All services",
+        "group": "services"
+      },
+      {
+        "type": "steps",
+        "heading": "Which service to start with",
+        "items": [
+          {
+            "title": "You are not sure where AI would pay off",
+            "text": "Start with the [readiness assessment](page:services/ai-readiness-assessment). Two to three weeks, a scorecard, three recommended first use cases and a 90-day plan."
+          },
+          {
+            "title": "You have ideas but no order, budget or architecture",
+            "text": "The [AI strategy](page:services/ai-strategy) produces a ranked use-case portfolio, a target architecture, a governance model and a business case your board can decide on."
+          },
+          {
+            "title": "You know the process and want it automated",
+            "text": "Go straight to [agentic workflow automation](page:services/agentic-workflows) or [custom agent development](page:services/ai-agent-development). We validate the scope in the intro call and start with a six- to eight-week pilot."
+          },
+          {
+            "title": "Your people search for information all day",
+            "text": "An [enterprise knowledge assistant](page:services/knowledge-assistants) with permission-aware retrieval and citations is usually the fastest visible win."
+          },
+          {
+            "title": "Legal, the works council or IT security are asking questions",
+            "text": "The [governance service](page:services/ai-governance) gives you an AI register, risk classification, policies and oversight design that answer them."
+          },
+          {
+            "title": "Agents are live but nobody owns them",
+            "text": "[Managed AI operations](page:services/managed-ai-operations) adds monitoring, evaluations and model updates. A [fractional CAIO](page:services/fractional-chief-ai-officer) adds ownership at leadership level."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Who we work with",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can we combine services or do them in a different order?",
+            "a": "Yes. The services are modular. A common path is assessment → pilot → operations, skipping the full strategy until a second or third use case makes a roadmap worthwhile. We will tell you honestly if a service is not needed in your situation."
+          },
+          {
+            "q": "Do you implement, or only advise?",
+            "a": "Both. The consultants who assess and design also build, together with your team or your existing IT partner. Everything we build is documented and handed over; you own the code and the deliverables."
+          },
+          {
+            "q": "What size of company are the services designed for?",
+            "a": "From funded startups with twenty people to corporate business units with thousands. The formats scale: a Mittelstand assessment involves three interviews and one workshop; an enterprise assessment covers several functions and an architecture board. See our pages for [startups](page:for/startups), [Mittelstand](page:for/mittelstand) and [enterprise](page:for/enterprise)."
+          },
+          {
+            "q": "Which platforms and models do you work with?",
+            "a": "Whatever fits. Microsoft Copilot Studio and Azure AI Foundry, Google Gemini and Vertex AI, AWS Bedrock, Salesforce Agentforce, SAP Joule, n8n, LangGraph and others on the platform side; models from OpenAI, Anthropic, Google, Mistral and open-weight families, including EU-hosted and on-premises deployment. We hold no reseller agreements."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung Leistungen: Strategie, agentische Workflows, KI-Agenten",
+    "metaDescription": "KI-Beratungsleistungen: Readiness-Assessment, KI-Strategie, agentische Workflow-Automatisierung, KI-Agenten, Wissensassistenten, Governance, Schulungen und Betrieb.",
+    "cardTitle": "Leistungen",
+    "navLabel": "Leistungen",
+    "cardText": "Vom zweiwöchigen Readiness-Assessment bis zu Managed AI Operations: alles, was KI-Agenten von der Idee in den Produktivbetrieb bringt.",
+    "hero": {
+      "eyebrow": "Leistungen",
+      "title": "Alles zwischen der Idee und",
+      "titleAccent": "einem Agenten im Produktivbetrieb.",
+      "standfirst": "Zehn Leistungen, die den gesamten Weg abdecken: verstehen, wo KI sich rechnet, entscheiden, was gebaut wird, es mit den richtigen Leitplanken bauen, Ihre Mitarbeitenden befähigen und es zuverlässig betreiben. Nehmen Sie eine davon – oder den ganzen Weg.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wie die Leistungen zusammenpassen",
+        "lede": "Assess, Design, Build, Enable, Operate. Jede Leistung ist für sich ein vollständiges Stück Arbeit – und jede übergibt sauber an die nächste.",
+        "body": [
+          "Die meisten Kunden steigen über das [Readiness-Assessment](page:services/ai-readiness-assessment) oder die [KI-Strategie](page:services/ai-strategy) ein, weil diese die Frage beantworten, die zuerst zählt: Welche Workflows lohnen sich zu automatisieren, in welcher Reihenfolge, und was braucht es dafür. Von dort liefern [Agentische Workflows](page:services/agentic-workflows) und [KI-Agenten-Entwicklung](page:services/ai-agent-development) die ersten Systeme, und [Managed AI Operations](page:services/managed-ai-operations) hält sie am Laufen.",
+          "Drei Leistungen laufen parallel zum Rest: [Governance](page:services/ai-governance) sorgt dafür, dass das Gebaute freigegeben und verteidigt werden kann, [Schulungen](page:services/ai-training) dafür, dass Ihre Leute es nutzen und verantworten können, und die [Datenbasis](page:services/data-foundations) räumt Datenblocker dort aus, wo sie wirklich existieren. Ein [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer) hält für Unternehmen ohne eigene KI-Führungskraft alles zusammen."
+        ],
+        "facts": [
+          [
+            "Einstieg",
+            "Readiness-Assessment, Strategie, Schulungen"
+          ],
+          [
+            "Umsetzung",
+            "Agentische Workflows, individuelle Agenten, Wissensassistenten"
+          ],
+          [
+            "Laufend",
+            "Managed AI Operations, Fractional CAIO"
+          ],
+          [
+            "Immer enthalten",
+            "Governance, Messung, Wissenstransfer"
+          ]
+        ],
+        "link": {
+          "label": "So arbeiten wir",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Alle Leistungen",
+        "group": "services"
+      },
+      {
+        "type": "steps",
+        "heading": "Womit Sie anfangen sollten",
+        "items": [
+          {
+            "title": "Sie wissen noch nicht, wo KI sich rechnet",
+            "text": "Starten Sie mit dem [Readiness-Assessment](page:services/ai-readiness-assessment). Zwei bis drei Wochen, eine Scorecard, drei empfohlene erste Use Cases und ein 90-Tage-Plan."
+          },
+          {
+            "title": "Sie haben Ideen, aber keine Reihenfolge, kein Budget, keine Architektur",
+            "text": "Die [KI-Strategie](page:services/ai-strategy) liefert ein bewertetes Use-Case-Portfolio, eine Zielarchitektur, ein Governance-Modell und einen Business Case, über den Ihre Geschäftsführung entscheiden kann."
+          },
+          {
+            "title": "Sie kennen den Prozess und wollen ihn automatisiert haben",
+            "text": "Dann direkt zu [Agentische Workflow-Automatisierung](page:services/agentic-workflows) oder [Entwicklung individueller KI-Agenten](page:services/ai-agent-development). Wir prüfen den Umfang im Erstgespräch und starten mit einem sechs- bis achtwöchigen Piloten."
+          },
+          {
+            "title": "Ihre Mitarbeitenden suchen den ganzen Tag nach Informationen",
+            "text": "Ein [Wissensassistent](page:services/knowledge-assistants) mit berechtigungsbewusster Suche und Quellenangaben ist meist der schnellste sichtbare Erfolg."
+          },
+          {
+            "title": "Rechtsabteilung, Betriebsrat oder IT-Sicherheit stellen Fragen",
+            "text": "Die [Governance-Beratung](page:services/ai-governance) liefert KI-Register, Risikoeinstufung, Richtlinien und ein Aufsichtskonzept, die diese Fragen beantworten."
+          },
+          {
+            "title": "Agenten laufen, aber niemand verantwortet sie",
+            "text": "[Managed AI Operations](page:services/managed-ai-operations) ergänzt Monitoring, Evaluationen und Modell-Updates. Ein [Fractional CAIO](page:services/fractional-chief-ai-officer) ergänzt Verantwortung auf Führungsebene."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Für wen wir arbeiten",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Können wir Leistungen kombinieren oder in anderer Reihenfolge nutzen?",
+            "a": "Ja. Die Leistungen sind modular. Ein häufiger Weg ist Assessment → Pilot → Betrieb; die vollständige Strategie folgt erst, wenn ein zweiter oder dritter Use Case eine Roadmap lohnend macht. Wir sagen Ihnen offen, wenn eine Leistung in Ihrer Situation nicht nötig ist."
+          },
+          {
+            "q": "Setzen Sie um oder beraten Sie nur?",
+            "a": "Beides. Die Berater, die analysieren und entwerfen, bauen auch – gemeinsam mit Ihrem Team oder Ihrem bestehenden IT-Partner. Alles, was wir bauen, wird dokumentiert und übergeben; Code und Ergebnisse gehören Ihnen."
+          },
+          {
+            "q": "Für welche Unternehmensgröße sind die Leistungen gedacht?",
+            "a": "Vom finanzierten Startup mit zwanzig Leuten bis zum Konzernbereich mit Tausenden. Die Formate skalieren: Ein Mittelstands-Assessment umfasst drei Interviews und einen Workshop, ein Konzern-Assessment mehrere Bereiche und ein Architekturgremium. Mehr auf unseren Seiten für [Startups](page:for/startups), [Mittelstand](page:for/mittelstand) und [Konzerne](page:for/enterprise)."
+          },
+          {
+            "q": "Mit welchen Plattformen und Modellen arbeiten Sie?",
+            "a": "Mit dem, was passt. Auf der Plattformseite Microsoft Copilot Studio und Azure AI Foundry, Google Gemini und Vertex AI, AWS Bedrock, Salesforce Agentforce, SAP Joule, n8n, LangGraph und andere; Modelle von OpenAI, Anthropic, Google, Mistral und offene Modellfamilien, inklusive EU-Hosting und On-Premises. Reseller-Verträge haben wir keine."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "insights/first-agent-use-case",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "How to Choose Your First AI Agent Use Case: A Scoring Guide",
+    "metaDescription": "How to choose your first AI agent use case: a seven-criteria scoring framework, eight examples across departments, pilot design and the mistakes to avoid.",
+    "cardTitle": "Choosing your first AI agent use case",
+    "cardText": "A scoring framework, the traits of good and bad first use cases, eight concrete candidates and a pilot design that proves something.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "How to choose your first",
+      "titleAccent": "AI agent use case.",
+      "standfirst": "The first agent you put into production decides whether your company believes in the next ten. This guide gives you a scoring framework, the characteristics of good and bad first use cases, eight concrete candidates across departments, and a pilot design that produces evidence rather than a demo."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Why it matters",
+        "content": [
+          { "h2": "Why the first use case matters more than the tenth" },
+          { "p": "Every company that has tried AI has a story, and it is usually about the first attempt. A visible failure, whether a chatbot that embarrassed the service team or a pilot that never left the sandbox, buys eighteen months of “we tried that, it doesn't work here”. A visible success does the opposite: department heads start asking for their own agent, IT gets budget for the plumbing, and governance discussions become practical instead of theoretical." },
+          { "p": "That is why the first use case should be neither the most ambitious one nor the one with the largest theoretical saving. It should be the one most likely to reach production with a measurable result inside a quarter. Ambition comes in the second wave, on the credibility the first one built." },
+          { "h2": "A scoring framework for candidate use cases" },
+          { "p": "We score every candidate on seven criteria. The numbers matter less than the conversation they force between the process owner, IT and leadership. Score each criterion from one to five and be honest about the low scores; they are the ones that decide." },
+          { "table": {
+            "caption": "Scoring criteria for a first AI agent use case",
+            "columns": ["Criterion", "The question to ask", "Scores high when"],
+            "rows": [
+              ["Business value", "What changes for the company if this works: hours, cycle time, errors, revenue, risk?", "The value is large enough that leadership notices, and it arrives within months, not years"],
+              ["Frequency and volume", "How often does the process run, and how many cases per week?", "Daily or continuous, with hundreds of cases a month or more"],
+              ["Feasibility", "Can today's models do this reliably, and can we reach the systems involved?", "The task is reading, classifying, extracting, drafting or matching; the systems have APIs or exports"],
+              ["Data availability", "Do we have the documents, records and examples the agent needs, and may we use them?", "Historical cases with known outcomes exist and are accessible without a data project"],
+              ["Risk and reversibility", "What happens when the agent is wrong, and can it be undone?", "Errors are caught by a review step and cost little; no legally sensitive decisions about people"],
+              ["Measurability", "Can we state the current baseline and the target in one sentence?", "A baseline exists or can be measured in two weeks; success is a number"],
+              ["Sponsor", "Who wants this, owns the process and will defend the change?", "A named department head with budget authority who will spend time on the pilot"]
+            ]
+          } },
+          { "p": "Three of these are effectively kill criteria. Without a sponsor, the pilot dies at the first integration hurdle. Without a baseline, you cannot prove it worked. Without reversibility, the first mistake becomes the story." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Good and bad candidates",
+        "content": [
+          { "h2": "What good first use cases have in common" },
+          { "ul": [
+            "**High volume, low glamour.** The work is repetitive enough that nobody defends it, and frequent enough that improvements show up in weeks.",
+            "**Clear rules with judgement in the middle.** The process is documented, but an experienced person still applies rules of thumb. That is exactly the gap a language model fills and RPA cannot.",
+            "**Unstructured inputs.** Emails, PDFs, tickets, free-text forms. If the input were structured, a simpler integration would already exist.",
+            "**A person already checks the output.** The review step exists today, so the agent slots into a level of autonomy the organisation already understands.",
+            "**Measurable.** Cycle time, backlog, error rate or hours per case can be measured before and after.",
+            "**Bounded.** One workflow, one team, two or three systems. Not “customer service”, but “first-response drafts for order-status tickets”."
+          ] },
+          { "h2": "What to avoid the first time" },
+          { "ul": [
+            "**Customer-facing, high stakes.** An agent that speaks to customers without review, in a situation where a wrong answer costs a contract, is a second-wave project.",
+            "**Legally sensitive decisions.** Anything touching hiring, promotion, credit or access to essential services is high-risk under the EU AI Act and carries oversight and documentation duties you do not want to learn on your first pilot. Our [EU AI Act guide](page:insights/eu-ai-act-guide) lists the categories.",
+            "**No baseline.** If nobody can say how long the process takes or how often it fails today, measure that first or pick another process.",
+            "**A process that is being redesigned anyway.** Automating a moving target produces an agent for a workflow that will not exist in six months.",
+            "**Value only at full autonomy.** If the business case works only when the agent acts without any review, you are betting the first pilot on level four. Choose something that already pays at level two or three."
+          ] },
+          { "h2": "Eight concrete candidates" },
+          { "p": "These are typical first use cases we see across departments. Each is described in more depth on the linked solution page." },
+          { "ol": [
+            "**Customer service: ticket triage and first-response drafts.** The agent classifies incoming tickets, pulls order and contract data and drafts a reply that a service agent approves. Baseline: first-response time, handling time. See [customer service](page:solutions/customer-service).",
+            "**Finance: invoice matching and exception explanation.** Incoming invoices are matched to purchase orders and goods receipts; discrepancies are explained with evidence and routed. Baseline: days to post, share of manual exceptions. See [finance](page:solutions/finance).",
+            "**Sales: inbound lead qualification and CRM enrichment.** Leads are researched, scored against your criteria and handed over with a suggested first reply. Baseline: time to first contact, data completeness. See [sales](page:solutions/sales).",
+            "**Operations: order entry from emails and PDFs.** Orders are read, validated against price lists and stock and entered into the ERP, with a person confirming exceptions. Baseline: hours per order, entry errors. See [operations](page:solutions/operations).",
+            "**HR: employee helpdesk on policies and processes.** Questions are answered from the handbook with sources, and routine requests such as certificates are prepared. Baseline: HR tickets per month, response time. See [HR](page:solutions/hr).",
+            "**Procurement: supplier document intake and comparison.** Quotes and certificates are extracted, normalised and compared against requirements; a buyer decides. Baseline: time per tender evaluation. See [procurement](page:solutions/procurement).",
+            "**Legal: first-pass contract review against a playbook.** Standard agreements are checked against your positions, deviations flagged with reasons. Baseline: review time per contract, backlog. See [legal and compliance](page:solutions/legal-compliance).",
+            "**IT: incident enrichment and runbook execution with approval.** Incidents are enriched with logs and history; known fixes are executed after a click. Baseline: time to resolve, tickets per engineer. See [IT and engineering](page:solutions/it-engineering)."
+          ] }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "The pilot",
+        "content": [
+          { "h2": "Designing the pilot" },
+          { "p": "A first pilot should be scoped to reach a production-grade agent for one workflow in typically six to eight weeks. That means real data, real systems and real users from the start, not a synthetic demo. Four design decisions matter most." },
+          { "ul": [
+            "**Baseline first.** Measure the current process for two weeks before the agent touches it: cases, time per case, error rate, backlog. Without this number the pilot cannot succeed, only impress.",
+            "**Two or three success metrics, written down.** One for value (hours or cycle time), one for quality (error rate or rework), one for adoption (the share of cases the team lets the agent handle). Define the go/no-go threshold before the pilot starts.",
+            "**Human checkpoints by design.** Decide per action what the agent may do alone, what it proposes and what it prepares for approval. Start conservative and loosen based on evaluation data, not enthusiasm.",
+            "**An evaluation set.** Fifty to a few hundred historical cases with known correct outcomes. Every prompt or tool change is tested against it, so improvements are proven and regressions are caught."
+          ] },
+          { "note": "Write the go/no-go criteria into the pilot charter before the first line of code. A pilot whose success criteria are defined after the fact is a demo with a budget." },
+          { "p": "Our [AI agent development](page:services/ai-agent-development) engagements follow this structure, and the [readiness assessment](page:services/ai-readiness-assessment) that often precedes them produces the shortlist and the baselines." },
+          { "h2": "Common mistakes" },
+          { "ul": [
+            "**Starting from the technology.** “We have Copilot licences, what can we do with them?” is a procurement question, not a use-case selection.",
+            "**No process owner.** IT-led pilots without a department that wants the result rarely reach production.",
+            "**Measuring activity instead of outcome.** Number of prompts, number of users and satisfaction surveys are not a business case.",
+            "**Too much autonomy too early.** The first visible error at level four costs more credibility than a slow start at level two ever will.",
+            "**Skipping evaluation.** Prompt changes made on feel produce an agent that is good on Tuesday and bad on Thursday.",
+            "**No plan for operations.** An agent needs an owner, monitoring and a change process after the pilot. If nobody has thought about [managed AI operations](page:services/managed-ai-operations), the pilot is the end of the story."
+          ] }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "How long does a first agent pilot take?", "a": "Typically six to eight weeks from kick-off to a production-grade agent for one workflow, provided the baseline data exists and the systems are reachable. Two weeks of baseline measurement before that are well spent." },
+          { "q": "Do we need clean data before we start?", "a": "You need the documents and records the process already uses, and a set of past cases with known outcomes. You do not need a data warehouse. Where data quality genuinely blocks a candidate, score it low on data availability and pick another one; our [data foundations](page:services/data-foundations) work can run in parallel." },
+          { "q": "Should the first use case be in IT, where the technical team is?", "a": "Only if IT also owns a high-volume process with a business metric. Usually the better first candidate is in service, finance or operations, with IT as the partner that provides access to systems. What matters is a sponsor who owns the outcome." },
+          { "q": "What if the first pilot fails?", "a": "A pilot with a baseline, defined metrics and an evaluation set does not fail silently; it tells you why. Often the fix is scope: the agent handles a narrower set of cases at a lower autonomy level and still delivers. Our article on [why AI pilots fail](page:insights/why-ai-pilots-fail) covers the usual causes." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services and reading",
+        "pages": ["services/ai-readiness-assessment", "services/ai-agent-development", "insights/why-ai-pilots-fail", "insights/what-is-agentic-ai"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "So wählen Sie den ersten Use Case für einen KI-Agenten",
+    "metaDescription": "Ersten KI-Agenten-Use-Case auswählen: Bewertungsraster mit sieben Kriterien, acht Beispiele aus allen Abteilungen, Pilotdesign und die typischen Fehler.",
+    "cardTitle": "Den ersten KI-Agenten-Use-Case wählen",
+    "cardText": "Ein Bewertungsraster, die Merkmale guter und schlechter erster Use Cases, acht konkrete Kandidaten und ein Pilotdesign, das etwas beweist.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "So wählen Sie den ersten Use Case für einen",
+      "titleAccent": "KI-Agenten.",
+      "standfirst": "Der erste Agent, den Sie in den Produktivbetrieb bringen, entscheidet darüber, ob Ihr Unternehmen an die nächsten zehn glaubt. Dieser Leitfaden gibt Ihnen ein Bewertungsraster, die Merkmale guter und schlechter erster Use Cases, acht konkrete Kandidaten aus verschiedenen Abteilungen und ein Pilotdesign, das Belege liefert statt einer Demo."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Warum es zählt",
+        "content": [
+          { "h2": "Warum der erste Use Case wichtiger ist als der zehnte" },
+          { "p": "Jedes Unternehmen, das KI ausprobiert hat, hat eine Geschichte dazu, und meist handelt sie vom ersten Versuch. Ein sichtbarer Fehlschlag, ob ein Chatbot, der das Serviceteam blamiert hat, oder ein Pilot, der die Sandbox nie verlassen hat, kauft achtzehn Monate „Das haben wir probiert, das funktioniert bei uns nicht“. Ein sichtbarer Erfolg bewirkt das Gegenteil: Bereichsleitungen fragen nach einem eigenen Agenten, die IT bekommt Budget für die Anbindung, und Governance-Diskussionen werden praktisch statt theoretisch." },
+          { "p": "Deshalb sollte der erste Use Case weder der ehrgeizigste sein noch der mit der größten theoretischen Einsparung. Es sollte der sein, der mit der höchsten Wahrscheinlichkeit innerhalb eines Quartals mit messbarem Ergebnis in den Produktivbetrieb kommt. Ehrgeiz kommt in der zweiten Welle – auf der Glaubwürdigkeit, die die erste aufgebaut hat." },
+          { "h2": "Ein Bewertungsraster für Kandidaten" },
+          { "p": "Wir bewerten jeden Kandidaten nach sieben Kriterien. Die Zahlen sind weniger wichtig als das Gespräch, das sie zwischen Prozessverantwortung, IT und Geschäftsführung erzwingen. Vergeben Sie je Kriterium eins bis fünf Punkte und seien Sie bei den niedrigen Werten ehrlich – sie entscheiden." },
+          { "table": {
+            "caption": "Bewertungskriterien für einen ersten KI-Agenten-Use-Case",
+            "columns": ["Kriterium", "Die Frage dahinter", "Hohe Punktzahl, wenn"],
+            "rows": [
+              ["Geschäftlicher Nutzen", "Was ändert sich für das Unternehmen, wenn es funktioniert: Stunden, Durchlaufzeit, Fehler, Umsatz, Risiko?", "Der Nutzen ist groß genug, dass die Geschäftsführung ihn bemerkt, und er kommt in Monaten, nicht in Jahren"],
+              ["Häufigkeit und Volumen", "Wie oft läuft der Prozess, und wie viele Fälle pro Woche?", "Täglich oder laufend, mit Hunderten Fällen im Monat oder mehr"],
+              ["Machbarkeit", "Können heutige Modelle das zuverlässig, und erreichen wir die beteiligten Systeme?", "Die Aufgabe besteht aus Lesen, Klassifizieren, Extrahieren, Entwerfen oder Abgleichen; die Systeme haben Schnittstellen oder Exporte"],
+              ["Datenverfügbarkeit", "Haben wir die Dokumente, Datensätze und Beispiele, die der Agent braucht, und dürfen wir sie nutzen?", "Historische Fälle mit bekanntem Ergebnis existieren und sind ohne Datenprojekt zugänglich"],
+              ["Risiko und Umkehrbarkeit", "Was passiert, wenn der Agent falsch liegt, und lässt es sich rückgängig machen?", "Fehler werden von einem Prüfschritt abgefangen und kosten wenig; keine rechtlich heiklen Entscheidungen über Menschen"],
+              ["Messbarkeit", "Können wir Ausgangsbasis und Ziel in einem Satz nennen?", "Eine Ausgangsbasis existiert oder ist in zwei Wochen messbar; Erfolg ist eine Zahl"],
+              ["Sponsor", "Wer will das, verantwortet den Prozess und wird die Veränderung verteidigen?", "Eine namentlich benannte Bereichsleitung mit Budgethoheit, die Zeit in den Piloten investiert"]
+            ]
+          } },
+          { "p": "Drei davon sind faktisch K.-o.-Kriterien. Ohne Sponsor stirbt der Pilot an der ersten Integrationshürde. Ohne Ausgangsbasis können Sie nicht belegen, dass es funktioniert hat. Ohne Umkehrbarkeit wird der erste Fehler zur Geschichte." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Gute und schlechte Kandidaten",
+        "content": [
+          { "h2": "Was gute erste Use Cases gemeinsam haben" },
+          { "ul": [
+            "**Hohes Volumen, wenig Glanz.** Die Arbeit ist so repetitiv, dass niemand sie verteidigt, und so häufig, dass Verbesserungen in Wochen sichtbar werden.",
+            "**Klare Regeln mit Urteilsvermögen in der Mitte.** Der Prozess ist dokumentiert, aber eine erfahrene Person wendet trotzdem Faustregeln an. Genau diese Lücke füllt ein Sprachmodell – und RPA nicht.",
+            "**Unstrukturierte Eingaben.** E-Mails, PDFs, Tickets, Freitextformulare. Wären die Eingaben strukturiert, gäbe es längst eine einfachere Integration.",
+            "**Ein Mensch prüft das Ergebnis heute schon.** Der Prüfschritt existiert bereits, also fügt sich der Agent in eine Autonomiestufe ein, die die Organisation schon kennt.",
+            "**Messbar.** Durchlaufzeit, Rückstand, Fehlerquote oder Stunden je Fall lassen sich vorher und nachher messen.",
+            "**Begrenzt.** Ein Workflow, ein Team, zwei oder drei Systeme. Nicht „Kundenservice“, sondern „Antwortentwürfe für Tickets zum Bestellstatus“."
+          ] },
+          { "h2": "Was Sie beim ersten Mal vermeiden sollten" },
+          { "ul": [
+            "**Kundenkontakt mit hohem Einsatz.** Ein Agent, der ohne Prüfung mit Kunden spricht, in einer Situation, in der eine falsche Antwort einen Vertrag kostet, ist ein Projekt für die zweite Welle.",
+            "**Rechtlich heikle Entscheidungen.** Alles, was Einstellung, Beförderung, Kredit oder Zugang zu wesentlichen Leistungen berührt, gilt nach dem EU AI Act als Hochrisiko und bringt Aufsichts- und Dokumentationspflichten mit, die Sie nicht im ersten Piloten lernen wollen. Unser [Leitfaden zum EU AI Act](page:insights/eu-ai-act-guide) listet die Kategorien auf.",
+            "**Keine Ausgangsbasis.** Wenn niemand sagen kann, wie lange der Prozess heute dauert oder wie oft er scheitert, messen Sie das zuerst oder wählen einen anderen Prozess.",
+            "**Ein Prozess, der ohnehin umgebaut wird.** Ein bewegliches Ziel zu automatisieren, liefert einen Agenten für einen Workflow, den es in sechs Monaten nicht mehr gibt.",
+            "**Nutzen erst bei voller Autonomie.** Wenn der Business Case nur aufgeht, sobald der Agent ganz ohne Prüfung handelt, setzen Sie den ersten Piloten auf Stufe vier. Wählen Sie etwas, das sich schon auf Stufe zwei oder drei rechnet."
+          ] },
+          { "h2": "Acht konkrete Kandidaten" },
+          { "p": "Diese ersten Use Cases sehen wir in vielen Unternehmen. Jeder ist auf der verlinkten Lösungsseite ausführlicher beschrieben." },
+          { "ol": [
+            "**Kundenservice: Ticket-Triage und Antwortentwürfe.** Der Agent klassifiziert eingehende Tickets, zieht Auftrags- und Vertragsdaten heran und entwirft eine Antwort, die eine Servicemitarbeiterin freigibt. Ausgangsbasis: Zeit bis zur ersten Antwort, Bearbeitungszeit. Siehe [Kundenservice](page:solutions/customer-service).",
+            "**Finanzen: Rechnungsabgleich und Erklärung von Abweichungen.** Eingangsrechnungen werden mit Bestellungen und Wareneingängen abgeglichen; Abweichungen werden mit Belegen erklärt und weitergeleitet. Ausgangsbasis: Tage bis zur Buchung, Anteil manueller Ausnahmen. Siehe [Finanzen](page:solutions/finance).",
+            "**Vertrieb: Qualifizierung eingehender Leads und CRM-Anreicherung.** Leads werden recherchiert, nach Ihren Kriterien bewertet und mit einem Vorschlag für die erste Antwort übergeben. Ausgangsbasis: Zeit bis zum Erstkontakt, Datenvollständigkeit. Siehe [Vertrieb](page:solutions/sales).",
+            "**Operations: Auftragserfassung aus E-Mails und PDFs.** Aufträge werden gelesen, gegen Preislisten und Bestände geprüft und ins ERP übernommen; Ausnahmen bestätigt ein Mensch. Ausgangsbasis: Stunden je Auftrag, Erfassungsfehler. Siehe [Operations](page:solutions/operations).",
+            "**HR: Mitarbeiter-Helpdesk zu Richtlinien und Prozessen.** Fragen werden mit Quellenangabe aus dem Handbuch beantwortet, Routineanfragen wie Bescheinigungen vorbereitet. Ausgangsbasis: HR-Tickets pro Monat, Antwortzeit. Siehe [HR](page:solutions/hr).",
+            "**Einkauf: Erfassung und Vergleich von Lieferantendokumenten.** Angebote und Zertifikate werden extrahiert, vereinheitlicht und gegen Anforderungen verglichen; ein Einkäufer entscheidet. Ausgangsbasis: Zeit je Angebotsauswertung. Siehe [Einkauf](page:solutions/procurement).",
+            "**Recht: Erstprüfung von Verträgen gegen ein Playbook.** Standardverträge werden gegen Ihre Positionen geprüft, Abweichungen mit Begründung markiert. Ausgangsbasis: Prüfzeit je Vertrag, Rückstand. Siehe [Recht und Compliance](page:solutions/legal-compliance).",
+            "**IT: Anreicherung von Störungen und Runbook-Ausführung mit Freigabe.** Störungen werden mit Logs und Historie angereichert; bekannte Lösungen werden nach einem Klick ausgeführt. Ausgangsbasis: Lösungszeit, Tickets je Engineer. Siehe [IT und Engineering](page:solutions/it-engineering)."
+          ] }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Der Pilot",
+        "content": [
+          { "h2": "So gestalten Sie den Piloten" },
+          { "p": "Ein erster Pilot sollte so zugeschnitten sein, dass in der Regel in sechs bis acht Wochen ein produktionsreifer Agent für einen Workflow entsteht. Das heißt: echte Daten, echte Systeme und echte Nutzer von Anfang an, keine synthetische Demo. Vier Entscheidungen sind dabei ausschlaggebend." },
+          { "ul": [
+            "**Zuerst die Ausgangsbasis.** Messen Sie den heutigen Prozess zwei Wochen lang, bevor der Agent ihn berührt: Fälle, Zeit je Fall, Fehlerquote, Rückstand. Ohne diese Zahl kann der Pilot nicht gelingen, nur beeindrucken.",
+            "**Zwei oder drei Erfolgskennzahlen, schriftlich.** Eine für den Nutzen (Stunden oder Durchlaufzeit), eine für die Qualität (Fehlerquote oder Nacharbeit), eine für die Akzeptanz (Anteil der Fälle, die das Team dem Agenten überlässt). Legen Sie die Go/No-Go-Schwelle vor dem Start fest.",
+            "**Menschliche Kontrollpunkte von Anfang an.** Entscheiden Sie je Aktion, was der Agent allein tun darf, was er vorschlägt und was er zur Freigabe vorbereitet. Beginnen Sie konservativ und lockern Sie auf Basis von Evaluationsdaten, nicht von Begeisterung.",
+            "**Ein Evaluationsset.** Fünfzig bis einige Hundert historische Fälle mit bekanntem richtigem Ergebnis. Jede Änderung an Prompts oder Werkzeugen wird dagegen getestet, damit Verbesserungen belegt und Rückschritte erkannt werden."
+          ] },
+          { "note": "Schreiben Sie die Go/No-Go-Kriterien in den Pilotauftrag, bevor die erste Zeile Code entsteht. Ein Pilot, dessen Erfolgskriterien nachträglich definiert werden, ist eine Demo mit Budget." },
+          { "p": "Unsere Projekte zur [KI-Agenten-Entwicklung](page:services/ai-agent-development) folgen dieser Struktur, und das [Readiness-Assessment](page:services/ai-readiness-assessment), das ihnen oft vorausgeht, liefert die Shortlist und die Ausgangsbasen." },
+          { "h2": "Typische Fehler" },
+          { "ul": [
+            "**Von der Technologie ausgehen.** „Wir haben Copilot-Lizenzen, was können wir damit machen?“ ist eine Einkaufsfrage, keine Use-Case-Auswahl.",
+            "**Kein Prozessverantwortlicher.** IT-getriebene Piloten ohne eine Abteilung, die das Ergebnis will, erreichen selten den Produktivbetrieb.",
+            "**Aktivität statt Ergebnis messen.** Anzahl der Prompts, Anzahl der Nutzer und Zufriedenheitsumfragen sind kein Business Case.",
+            "**Zu viel Autonomie zu früh.** Der erste sichtbare Fehler auf Stufe vier kostet mehr Glaubwürdigkeit, als ein langsamer Start auf Stufe zwei je kosten wird.",
+            "**Evaluation überspringen.** Prompt-Änderungen nach Gefühl liefern einen Agenten, der dienstags gut und donnerstags schlecht ist.",
+            "**Kein Plan für den Betrieb.** Ein Agent braucht nach dem Piloten einen Verantwortlichen, Monitoring und einen Änderungsprozess. Hat niemand über [Managed AI Operations](page:services/managed-ai-operations) nachgedacht, ist der Pilot das Ende der Geschichte."
+          ] }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Wie lange dauert ein erster Agenten-Pilot?", "a": "In der Regel sechs bis acht Wochen vom Kick-off bis zu einem produktionsreifen Agenten für einen Workflow, sofern die Ausgangsdaten vorliegen und die Systeme erreichbar sind. Zwei Wochen Messung der Ausgangsbasis davor sind gut investiert." },
+          { "q": "Brauchen wir saubere Daten, bevor wir starten?", "a": "Sie brauchen die Dokumente und Datensätze, die der Prozess heute schon nutzt, und eine Reihe vergangener Fälle mit bekanntem Ergebnis. Ein Data Warehouse brauchen Sie nicht. Wo Datenqualität einen Kandidaten wirklich blockiert, bewerten Sie ihn bei der Datenverfügbarkeit niedrig und wählen einen anderen; unsere Arbeit an der [Datenbasis](page:services/data-foundations) kann parallel laufen." },
+          { "q": "Sollte der erste Use Case in der IT liegen, wo das technische Team sitzt?", "a": "Nur, wenn die IT auch einen Prozess mit hohem Volumen und einer betriebswirtschaftlichen Kennzahl verantwortet. Meist liegt der bessere erste Kandidat im Service, in den Finanzen oder in Operations, mit der IT als Partner, der den Zugang zu den Systemen schafft. Entscheidend ist ein Sponsor, der das Ergebnis verantwortet." },
+          { "q": "Was, wenn der erste Pilot scheitert?", "a": "Ein Pilot mit Ausgangsbasis, definierten Kennzahlen und Evaluationsset scheitert nicht still; er sagt Ihnen, warum. Oft liegt die Lösung im Zuschnitt: Der Agent übernimmt eine engere Fallmenge auf einer niedrigeren Autonomiestufe und liefert trotzdem. Unser Artikel [Warum KI-Piloten scheitern](page:insights/why-ai-pilots-fail) behandelt die üblichen Ursachen." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen und Artikel",
+        "pages": ["services/ai-readiness-assessment", "services/ai-agent-development", "insights/why-ai-pilots-fail", "insights/what-is-agentic-ai"]
+      }
+    ]
+  }
+}

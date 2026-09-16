@@ -1,0 +1,367 @@
+{
+  "id": "for/startups",
+  "en": {
+    "metaTitle": "AI Consulting for Startups & Scale-ups | Neurotech AI Solutions",
+    "metaDescription": "AI consulting for startups and scale-ups: decide where AI belongs in product and operations, run lean with agents, avoid lock-in and rent senior expertise.",
+    "cardTitle": "Startups & scale-ups",
+    "cardText": "Decide where AI belongs in your product and your operations, build lean AI-native operations with agents, and rent senior expertise until you are ready to hire.",
+    "hero": {
+      "eyebrow": "For startups & scale-ups",
+      "title": "AI-native from day one,",
+      "titleAccent": "without the science project.",
+      "standfirst": "Founders face two AI questions at once: what belongs in the product, and how much of the company can run on agents instead of headcount. We help you answer both with a defensible sequence, ship the first pieces in weeks, and keep your options open on models and platforms.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "Fractional Chief AI Officer",
+        "page": "services/fractional-chief-ai-officer"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Two decisions, one budget",
+        "lede": "The product question and the operations question are different problems. Most startups answer only the first and pay for it in the second.",
+        "body": [
+          "Investors now ask whether a company is \"AI-native\". Usually they mean two things at once: does the product use models where they create real advantage, and does the company run lean because agents handle work that used to need people. Both matter for your next round, but they need different plans, different people and different risk appetites.",
+          "On the product side, the risk is building a thin wrapper that the next model update makes redundant. On the operations side, the risk is the opposite: spending founder time on tooling experiments while sales, support and finance ops are still done by hand at a scale that no longer justifies it.",
+          "We work with founders and their first operators to separate the two, decide what to build, what to buy and what to defer, and then ship the operations pieces quickly. Where a decision needs senior judgement more than a full-time hire, we provide it as a [fractional Chief AI Officer](page:services/fractional-chief-ai-officer)."
+        ],
+        "facts": [
+          [
+            "Typical company",
+            "Seed to Series B, 5–150 people"
+          ],
+          [
+            "Formats",
+            "Two-week assessment, six-week pilot, fractional CAIO"
+          ],
+          [
+            "Working mode",
+            "Remote-first, English or German, on site in Berlin"
+          ],
+          [
+            "Outcome",
+            "A sequence you can defend to your board and build with a small team"
+          ]
+        ],
+        "link": {
+          "label": "See how we work",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "list",
+        "heading": "Where startups usually stand",
+        "items": [
+          {
+            "title": "AI is on the product roadmap, but nobody has decided how much",
+            "text": "Feature requests, investor pressure and a competitor's launch have pushed models into the plan. What is missing is a view of where a model actually creates advantage in your product, and where it is a commodity you should buy from an API and move on."
+          },
+          {
+            "title": "Operations are still manual at a scale that is starting to hurt",
+            "text": "Lead qualification, support tickets, invoice chasing, onboarding emails and investor reporting are done by the same three people who are also building the company. Every new hire in these roles is a hire you may not need to make."
+          },
+          {
+            "title": "Speed matters more than perfection, but so does the burn",
+            "text": "You cannot run a six-month strategy programme. You also cannot afford a stack of subscriptions and API bills that nobody reconciles. The plan has to ship in weeks and pay for itself visibly."
+          },
+          {
+            "title": "Every platform choice made now is expensive to undo later",
+            "text": "Early decisions about model providers, agent frameworks, vector stores and automation tools harden quickly. A little architecture discipline at this stage keeps you free to switch when prices, models or your data-residency requirements change."
+          },
+          {
+            "title": "A Head of AI is premature, but the questions are not",
+            "text": "You need someone senior to make platform, governance and hiring calls, and to talk to investors and enterprise customers about how you use AI. A full-time hire at this stage is expensive and hard to find; the need is real either way."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "What we do for startups",
+        "intro": "Everything below is designed for small teams that need to move fast without leaving a mess behind.",
+        "items": [
+          {
+            "icon": "compass",
+            "title": "Fractional Chief AI Officer",
+            "text": "One to two days a week of senior leadership: AI strategy for product and operations, platform decisions, investor and customer conversations, hiring plans and governance. You get the judgement without the full-time cost, and the role hands over cleanly when you hire.",
+            "page": "services/fractional-chief-ai-officer"
+          },
+          {
+            "icon": "agent",
+            "title": "AI agents for your operations",
+            "text": "We build the agents that let a small team run sales development, customer support, finance ops and onboarding: ticket triage and reply drafts, lead research and qualification, invoice follow-up, investor updates from your own data. Production-grade, with humans approving what matters.",
+            "page": "services/ai-agent-development"
+          },
+          {
+            "icon": "search",
+            "title": "Two-week AI assessment",
+            "text": "A compressed version of our [readiness assessment](page:services/ai-readiness-assessment): where AI belongs in your product versus your operations, the three use cases worth building first, and the platform decisions that keep you flexible. Written for founders, readable in an hour."
+          },
+          {
+            "icon": "rocket",
+            "title": "Six-week pilot to production",
+            "text": "One workflow, one owner, one metric. We build it, connect it to your CRM, helpdesk or billing system, measure it against the baseline and hand it over with documentation your team can maintain. See [agentic workflows](page:services/agentic-workflows)."
+          },
+          {
+            "icon": "layers",
+            "title": "Architecture that avoids lock-in",
+            "text": "A thin abstraction over model providers, a clear home for your data, evaluation and cost tracking from the first day. It costs little now and saves a migration later. We are vendor-neutral and have no reseller agreements.",
+            "page": "insights/build-vs-buy"
+          },
+          {
+            "icon": "shield",
+            "title": "Governance that enterprise customers accept",
+            "text": "If you sell to corporates or regulated industries, their procurement will ask how you use models, where data goes and what the EU AI Act means for your product. We prepare the answers and the lightweight [governance](page:services/ai-governance) behind them before the questionnaire arrives."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "A typical path",
+        "intro": "Startups rarely need the full programme. The usual sequence looks like this.",
+        "items": [
+          {
+            "title": "Intro call and scoping",
+            "text": "Thirty minutes on where you are: product, team, stack, runway, investor expectations. We tell you honestly whether an assessment, a pilot or a fractional role is the right first step.",
+            "meta": "Day 1"
+          },
+          {
+            "title": "Two-week assessment",
+            "text": "Interviews with the founders and the people running sales, support and finance. We map the operations that eat time, review the product's AI plans and return a short written sequence with platform recommendations.",
+            "meta": "Weeks 1–2"
+          },
+          {
+            "title": "Six-week pilot",
+            "text": "We build the first agent or workflow under production conditions, integrated with your tools, with a measured baseline and a target. Your team is involved from the start so nobody has to take over a black box.",
+            "meta": "Weeks 3–8"
+          },
+          {
+            "title": "Decide: scale, rent or hire",
+            "text": "With one system running and measured, you decide what comes next: more workflows, a fractional Chief AI Officer to keep momentum, or a hiring plan for your own AI team. We help with all three and are equally happy to step back.",
+            "meta": "Week 9 onward"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Should we build AI into the product or fix operations first?",
+            "a": "Usually both, but not at the same pace. Product AI needs product discovery and often data you do not have yet. Operations AI runs on tickets, emails and CRM records you already have, so it ships faster and frees the time you need for the product work. The assessment gives you a sequence for both."
+          },
+          {
+            "q": "What does \"AI-native\" mean to investors, in practice?",
+            "a": "It rarely means a proprietary model. It means the company has decided deliberately where models create advantage, that operations scale without proportional headcount, and that the founders can explain the cost and risk of their AI use. We help you get to that position and describe it credibly."
+          },
+          {
+            "q": "We are engineers ourselves. Why would we need outside help?",
+            "a": "You can build agents. The scarce resource is time, and the judgement about what to build, what to buy and how to keep it maintainable at your stage. We bring patterns from many deployments, so you skip the six weeks of trying every framework. The code stays yours."
+          },
+          {
+            "q": "How do you keep us from platform lock-in?",
+            "a": "Thin abstractions over model providers, portable data formats, evaluation sets that let you compare models objectively, and a preference for open standards such as the [Model Context Protocol](page:insights/mcp-explained). We also tell you when lock-in is a reasonable trade for speed."
+          },
+          {
+            "q": "When does a fractional Chief AI Officer make more sense than hiring?",
+            "a": "When the decisions are frequent and consequential but the workload is not yet a full-time job, typically between seed and Series B. The fractional role builds the strategy and the first systems and helps you hire the person who takes over. Read more on the [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) page."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": [
+          "services/fractional-chief-ai-officer",
+          "services/ai-agent-development",
+          "services/ai-readiness-assessment",
+          "insights/build-vs-buy"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung für Startups & Scale-ups | Neurotech AI Solutions",
+    "metaDescription": "KI-Beratung für Startups und Scale-ups: klären, wo KI ins Produkt und wo in den Betrieb gehört, schlank mit Agenten arbeiten und Expertise auf Zeit nutzen.",
+    "cardTitle": "Startups & Scale-ups",
+    "cardText": "Klären, wo KI in Ihr Produkt und wo in Ihren Betrieb gehört, schlanke KI-native Abläufe mit Agenten aufbauen und Senior-Expertise mieten, bis Sie einstellen.",
+    "hero": {
+      "eyebrow": "Für Startups & Scale-ups",
+      "title": "KI-nativ vom ersten Tag,",
+      "titleAccent": "ohne Forschungsprojekt.",
+      "standfirst": "Gründer stehen vor zwei KI-Fragen gleichzeitig: Was gehört ins Produkt, und wie viel des Unternehmens kann mit Agenten statt mit Personal laufen? Wir helfen, beide mit einer belastbaren Reihenfolge zu beantworten, liefern die ersten Bausteine in Wochen und halten Ihre Optionen bei Modellen und Plattformen offen.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "Fractional Chief AI Officer",
+        "page": "services/fractional-chief-ai-officer"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Zwei Entscheidungen, ein Budget",
+        "lede": "Die Produktfrage und die Betriebsfrage sind zwei verschiedene Probleme. Die meisten Startups beantworten nur die erste und zahlen dafür bei der zweiten.",
+        "body": [
+          "Investoren fragen heute, ob ein Unternehmen „KI-nativ“ ist. Gemeint sind meist zwei Dinge zugleich: Nutzt das Produkt Modelle dort, wo sie echten Vorteil schaffen, und läuft das Unternehmen schlank, weil Agenten Arbeit übernehmen, die früher Menschen brauchte? Beides zählt für die nächste Runde, braucht aber unterschiedliche Pläne, andere Leute und eine andere Risikobereitschaft.",
+          "Auf der Produktseite besteht das Risiko darin, eine dünne Hülle um ein Modell zu bauen, die das nächste Modell-Update überflüssig macht. Auf der Betriebsseite ist es umgekehrt: Gründerzeit fließt in Tool-Experimente, während Vertrieb, Support und Finanzen bei einer Größe noch von Hand laufen, die das längst nicht mehr rechtfertigt.",
+          "Wir arbeiten mit Gründern und ihren ersten Operations-Leuten daran, beides zu trennen, zu entscheiden, was gebaut, gekauft oder verschoben wird, und die Betriebsbausteine dann schnell zu liefern. Wo eine Entscheidung eher erfahrenes Urteil als eine Vollzeitstelle braucht, übernehmen wir das als [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer)."
+        ],
+        "facts": [
+          [
+            "Typisches Unternehmen",
+            "Seed bis Series B, 5–150 Mitarbeitende"
+          ],
+          [
+            "Formate",
+            "Zwei-Wochen-Assessment, Sechs-Wochen-Pilot, Fractional CAIO"
+          ],
+          [
+            "Arbeitsweise",
+            "Remote-first, Deutsch oder Englisch, vor Ort in Berlin"
+          ],
+          [
+            "Ergebnis",
+            "Eine Reihenfolge, die Sie vor dem Board vertreten und mit kleinem Team umsetzen können"
+          ]
+        ],
+        "link": {
+          "label": "So arbeiten wir",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "list",
+        "heading": "Wo Startups meist stehen",
+        "items": [
+          {
+            "title": "KI steht in der Produkt-Roadmap, aber niemand hat entschieden, wie viel",
+            "text": "Feature-Wünsche, Investorendruck und der Launch eines Wettbewerbers haben Modelle in den Plan gedrückt. Was fehlt, ist ein Bild davon, wo ein Modell in Ihrem Produkt tatsächlich Vorteil schafft – und wo es Standardware ist, die Sie per API einkaufen und abhaken sollten."
+          },
+          {
+            "title": "Der Betrieb läuft von Hand, bei einer Größe, die anfängt wehzutun",
+            "text": "Lead-Qualifizierung, Support-Tickets, Zahlungserinnerungen, Onboarding-Mails und Investoren-Reporting erledigen dieselben drei Leute, die nebenbei das Unternehmen aufbauen. Jede neue Stelle in diesen Rollen ist eine, die Sie vielleicht gar nicht besetzen müssten."
+          },
+          {
+            "title": "Tempo zählt mehr als Perfektion, aber der Burn auch",
+            "text": "Ein sechsmonatiges Strategieprogramm können Sie sich nicht leisten. Einen Stapel Abos und API-Rechnungen, die niemand abgleicht, aber ebenso wenig. Der Plan muss in Wochen liefern und sich sichtbar rechnen."
+          },
+          {
+            "title": "Jede Plattformentscheidung von heute ist morgen teuer rückgängig zu machen",
+            "text": "Frühe Festlegungen auf Modellanbieter, Agenten-Frameworks, Vektordatenbanken und Automatisierungstools verhärten schnell. Ein wenig Architekturdisziplin in dieser Phase hält Sie frei, zu wechseln, wenn sich Preise, Modelle oder Ihre Anforderungen an den Datenstandort ändern."
+          },
+          {
+            "title": "Ein Head of AI ist verfrüht, die Fragen sind es nicht",
+            "text": "Sie brauchen jemanden mit Erfahrung für Plattform-, Governance- und Personalentscheidungen und für Gespräche mit Investoren und Unternehmenskunden über Ihren KI-Einsatz. Eine Vollzeitstelle ist in dieser Phase teuer und schwer zu besetzen; der Bedarf ist trotzdem da."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Was wir für Startups tun",
+        "intro": "Alles hier ist für kleine Teams gedacht, die schnell vorankommen müssen, ohne Chaos zu hinterlassen.",
+        "items": [
+          {
+            "icon": "compass",
+            "title": "Fractional Chief AI Officer",
+            "text": "Ein bis zwei Tage pro Woche Führung auf Senior-Niveau: KI-Strategie für Produkt und Betrieb, Plattformentscheidungen, Gespräche mit Investoren und Kunden, Personalplanung und Governance. Sie bekommen das Urteil ohne die Vollzeitkosten, und die Rolle lässt sich sauber übergeben, sobald Sie einstellen.",
+            "page": "services/fractional-chief-ai-officer"
+          },
+          {
+            "icon": "agent",
+            "title": "KI-Agenten für Ihren Betrieb",
+            "text": "Wir bauen die Agenten, mit denen ein kleines Team Vertriebsvorbereitung, Kundensupport, Finanzprozesse und Onboarding stemmt: Ticket-Triage und Antwortentwürfe, Lead-Recherche und -Qualifizierung, Zahlungserinnerungen, Investoren-Updates aus Ihren eigenen Daten. Produktionsreif, mit Menschen, die freigeben, was wichtig ist.",
+            "page": "services/ai-agent-development"
+          },
+          {
+            "icon": "search",
+            "title": "Zwei-Wochen-Assessment",
+            "text": "Die komprimierte Version unseres [Readiness-Assessments](page:services/ai-readiness-assessment): wo KI in Ihr Produkt und wo in den Betrieb gehört, die drei Use Cases, die sich zuerst lohnen, und die Plattformentscheidungen, die Sie flexibel halten. Für Gründer geschrieben, in einer Stunde gelesen."
+          },
+          {
+            "icon": "rocket",
+            "title": "Sechs-Wochen-Pilot bis in den Produktivbetrieb",
+            "text": "Ein Workflow, ein Verantwortlicher, eine Kennzahl. Wir bauen ihn, verbinden ihn mit CRM, Helpdesk oder Abrechnung, messen ihn gegen die Ausgangsbasis und übergeben ihn mit einer Dokumentation, die Ihr Team pflegen kann. Mehr unter [Agentische Workflows](page:services/agentic-workflows)."
+          },
+          {
+            "icon": "layers",
+            "title": "Architektur ohne Lock-in",
+            "text": "Eine dünne Abstraktionsschicht über den Modellanbietern, ein klarer Ort für Ihre Daten, Evaluierung und Kostenverfolgung vom ersten Tag an. Das kostet jetzt wenig und erspart später eine Migration. Wir sind herstellerneutral und haben keine Reseller-Verträge.",
+            "page": "insights/build-vs-buy"
+          },
+          {
+            "icon": "shield",
+            "title": "Governance, die Unternehmenskunden akzeptieren",
+            "text": "Wenn Sie an Konzerne oder regulierte Branchen verkaufen, fragt deren Einkauf, wie Sie Modelle einsetzen, wohin Daten fließen und was der EU AI Act für Ihr Produkt bedeutet. Wir bereiten die Antworten und die schlanke [Governance](page:services/ai-governance) dahinter vor, bevor der Fragebogen kommt."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Der typische Weg",
+        "intro": "Startups brauchen selten das volle Programm. Die übliche Reihenfolge sieht so aus.",
+        "items": [
+          {
+            "title": "Erstgespräch und Scoping",
+            "text": "Dreißig Minuten zu Ihrem Stand: Produkt, Team, Stack, Runway, Erwartungen der Investoren. Wir sagen Ihnen ehrlich, ob ein Assessment, ein Pilot oder eine Fractional-Rolle der richtige erste Schritt ist.",
+            "meta": "Tag 1"
+          },
+          {
+            "title": "Zwei-Wochen-Assessment",
+            "text": "Interviews mit den Gründern und den Menschen, die Vertrieb, Support und Finanzen betreiben. Wir kartieren die Abläufe, die Zeit fressen, prüfen die KI-Pläne im Produkt und liefern eine kurze schriftliche Reihenfolge mit Plattformempfehlungen.",
+            "meta": "Wochen 1–2"
+          },
+          {
+            "title": "Sechs-Wochen-Pilot",
+            "text": "Wir bauen den ersten Agenten oder Workflow unter Produktionsbedingungen, integriert in Ihre Tools, mit gemessener Ausgangsbasis und Zielwert. Ihr Team ist von Anfang an dabei, damit niemand eine Blackbox übernehmen muss.",
+            "meta": "Wochen 3–8"
+          },
+          {
+            "title": "Entscheiden: skalieren, mieten oder einstellen",
+            "text": "Mit einem laufenden, gemessenen System entscheiden Sie, was folgt: weitere Workflows, ein Fractional Chief AI Officer, der das Tempo hält, oder ein Einstellungsplan für Ihr eigenes KI-Team. Wir helfen bei allen dreien und treten genauso gern einen Schritt zurück.",
+            "meta": "Ab Woche 9"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Sollen wir KI zuerst ins Produkt einbauen oder erst den Betrieb aufräumen?",
+            "a": "Meist beides, aber nicht im selben Tempo. KI im Produkt braucht Produkt-Discovery und oft Daten, die Sie noch nicht haben. KI im Betrieb läuft auf Tickets, E-Mails und CRM-Einträgen, die Sie bereits haben – sie ist also schneller live und schafft die Zeit frei, die die Produktarbeit braucht. Das Assessment liefert die Reihenfolge für beides."
+          },
+          {
+            "q": "Was meinen Investoren mit „KI-nativ“ konkret?",
+            "a": "Selten ein eigenes Modell. Gemeint ist, dass das Unternehmen bewusst entschieden hat, wo Modelle Vorteil schaffen, dass der Betrieb ohne proportional wachsendes Personal skaliert und dass die Gründer Kosten und Risiken ihres KI-Einsatzes erklären können. Wir helfen Ihnen, dorthin zu kommen und es glaubwürdig darzustellen."
+          },
+          {
+            "q": "Wir sind selbst Entwickler. Wozu brauchen wir Hilfe von außen?",
+            "a": "Agenten bauen können Sie. Knapp sind Zeit und das Urteil darüber, was gebaut, was gekauft und wie es in Ihrer Phase wartbar gehalten wird. Wir bringen Muster aus vielen Umsetzungen mit, damit Sie sich die sechs Wochen sparen, in denen jedes Framework einmal ausprobiert wird. Der Code bleibt Ihrer."
+          },
+          {
+            "q": "Wie verhindern Sie Plattform-Lock-in?",
+            "a": "Dünne Abstraktionen über Modellanbietern, portable Datenformate, Evaluierungssets, mit denen Sie Modelle objektiv vergleichen, und eine Vorliebe für offene Standards wie das [Model Context Protocol](page:insights/mcp-explained). Wir sagen aber auch, wann Lock-in ein vernünftiger Preis für Tempo ist."
+          },
+          {
+            "q": "Wann ist ein Fractional Chief AI Officer sinnvoller als eine Festanstellung?",
+            "a": "Wenn die Entscheidungen häufig und folgenreich sind, die Arbeitslast aber noch keine Vollzeitstelle füllt – typischerweise zwischen Seed und Series B. Die Fractional-Rolle baut Strategie und erste Systeme auf und hilft, die Person zu finden, die übernimmt. Mehr auf der Seite [Fractional Chief AI Officer](page:services/fractional-chief-ai-officer)."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": [
+          "services/fractional-chief-ai-officer",
+          "services/ai-agent-development",
+          "services/ai-readiness-assessment",
+          "insights/build-vs-buy"
+        ]
+      }
+    ]
+  }
+}

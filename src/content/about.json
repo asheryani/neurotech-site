@@ -1,0 +1,217 @@
+{
+  "id": "about",
+  "en": {
+    "metaTitle": "About Neurotech AI Solutions: AI Consultancy in Berlin",
+    "metaDescription": "Neurotech AI Solutions GmbH: a founder-led AI and agentic-workflow consultancy in Berlin, founded 2025, for startups, Mittelstand and corporates across Europe.",
+    "cardTitle": "About",
+    "navLabel": "About",
+    "cardText": "A founder-led, senior-only consultancy for applied AI and agentic workflows, based in Berlin since 2025.",
+    "hero": {
+      "eyebrow": "About us",
+      "title": "A small consultancy built for",
+      "titleAccent": "the unglamorous part of AI.",
+      "standfirst": "Neurotech AI Solutions GmbH was founded in Berlin in 2025 with a narrow conviction: the value of AI in a company is decided not by the model but by the workflow, the integration, the guardrails and the people who own it. We do that part, end to end.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "How we work",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why we exist",
+        "lede": "Remarkable machine intelligence is now cheap and everywhere. Companies that use it well are still rare.",
+        "body": [
+          "The gap is not access to models. It is the distance between a convincing demo and a system that runs every day inside an ERP, a CRM or a ticket queue, with permissions, evaluations, audit trails and a person who knows what to do when it fails. Closing that distance is engineering, process work and governance in equal parts, and it is where most AI initiatives stall.",
+          "We founded Neurotech AI Solutions to do exactly that work for companies that cannot or do not want to build a large internal AI team first: startups that need AI-native operations from day one, Mittelstand companies that want a pragmatic partner who speaks their language, and corporate units that have plenty of pilots and no production."
+        ],
+        "facts": [
+          [
+            "Legal name",
+            "Neurotech AI Solutions GmbH"
+          ],
+          [
+            "Founded",
+            "2025, Berlin"
+          ],
+          [
+            "Managing Director",
+            "Ashraf Al-Eryani"
+          ],
+          [
+            "Register",
+            "Amtsgericht Charlottenburg, HRB 270776 B"
+          ],
+          [
+            "Languages",
+            "English, German"
+          ]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Principles",
+        "items": [
+          {
+            "title": "Start with the workflow, not the model",
+            "text": "The question is never \"what can this model do?\" but \"which step in which process is worth changing, and what does that need?\" Models are interchangeable. A well-understood process is not."
+          },
+          {
+            "title": "Production is the deliverable",
+            "text": "We ship pilots that are built like production systems: integrated, evaluated, permissioned, monitored. The alternative, a prototype that has to be rebuilt to go live, is the most common way AI budgets are wasted."
+          },
+          {
+            "title": "Humans decide, agents prepare and execute",
+            "text": "Approval gates, least-privilege access and audit trails are design features. They are also what makes an agent approvable by legal, security and the works council, which is a precondition for value, not an obstacle to it."
+          },
+          {
+            "title": "Senior people, small teams",
+            "text": "Every engagement is staffed with experienced consultants and engineers who have designed, built and operated AI systems. We keep teams small and stay close to the process owners."
+          },
+          {
+            "title": "Independent by construction",
+            "text": "We hold no reseller agreements and take no vendor commissions. Recommendations are paid for by our clients only, which is the only arrangement under which they are worth anything."
+          },
+          {
+            "title": "Transfer, do not entrench",
+            "text": "Documentation, training and ownership are part of every project, so that your team can run and extend what we built. We measure our success by how little you need us afterwards."
+          }
+        ]
+      },
+      {
+        "type": "lede",
+        "heading": "Berlin, deliberately",
+        "lede": "We operate under German corporate law and the GDPR, and we consider that a feature.",
+        "body": [
+          "Software that reads a company's contracts, customer data and internal communication should be built by people who are accountable somewhere concrete. We are a German GmbH, we sign data-processing agreements, and we design for EU data protection and the EU AI Act because our clients have to live with both.",
+          "From Berlin we work remotely across Germany, Austria, Switzerland and the rest of Europe, and on site whenever a workshop, a plant visit or a difficult conversation is better had in person."
+        ],
+        "link": {
+          "label": "Get in touch",
+          "page": "contact"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Next",
+        "pages": [
+          "approach",
+          "services",
+          "solutions",
+          "insights"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Über Neurotech AI Solutions: KI-Beratung aus Berlin",
+    "metaDescription": "Neurotech AI Solutions GmbH: inhabergeführte Beratung für KI und agentische Workflows in Berlin, gegründet 2025, für Startups, Mittelstand und Konzerne in Europa.",
+    "cardTitle": "Über uns",
+    "navLabel": "Über uns",
+    "cardText": "Eine inhabergeführte Beratung mit ausschließlich erfahrenen Leuten, für angewandte KI und agentische Workflows, seit 2025 in Berlin.",
+    "hero": {
+      "eyebrow": "Über uns",
+      "title": "Eine kleine Beratung, gebaut für",
+      "titleAccent": "den unglamourösen Teil von KI.",
+      "standfirst": "Die Neurotech AI Solutions GmbH wurde 2025 in Berlin mit einer klaren Überzeugung gegründet: Über den Wert von KI in einem Unternehmen entscheidet nicht das Modell, sondern der Workflow, die Integration, die Leitplanken und die Menschen, die ihn verantworten. Genau diesen Teil übernehmen wir – von Anfang bis Ende.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum es uns gibt",
+        "lede": "Bemerkenswerte maschinelle Intelligenz ist inzwischen günstig und überall. Unternehmen, die sie gut nutzen, sind immer noch selten.",
+        "body": [
+          "Die Lücke ist nicht der Zugang zu Modellen. Es ist die Distanz zwischen einer überzeugenden Demo und einem System, das jeden Tag in einem ERP, einem CRM oder einer Ticket-Warteschlange läuft – mit Berechtigungen, Evaluationen, Prüfpfaden und einer Person, die weiß, was zu tun ist, wenn es ausfällt. Diese Distanz zu schließen ist zu gleichen Teilen Engineering, Prozessarbeit und Governance, und genau dort bleiben die meisten KI-Initiativen stecken.",
+          "Wir haben Neurotech AI Solutions gegründet, um genau diese Arbeit für Unternehmen zu leisten, die nicht zuerst ein großes internes KI-Team aufbauen können oder wollen: Startups, die vom ersten Tag an KI-native Abläufe brauchen, Mittelständler, die einen pragmatischen Partner wollen, der ihre Sprache spricht, und Konzernbereiche mit vielen Piloten und keinem Produktivbetrieb."
+        ],
+        "facts": [
+          [
+            "Firma",
+            "Neurotech AI Solutions GmbH"
+          ],
+          [
+            "Gegründet",
+            "2025, Berlin"
+          ],
+          [
+            "Geschäftsführer",
+            "Ashraf Al-Eryani"
+          ],
+          [
+            "Register",
+            "Amtsgericht Charlottenburg, HRB 270776 B"
+          ],
+          [
+            "Sprachen",
+            "Deutsch, Englisch"
+          ]
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Grundsätze",
+        "items": [
+          {
+            "title": "Beim Workflow anfangen, nicht beim Modell",
+            "text": "Die Frage lautet nie „Was kann dieses Modell?“, sondern „Welcher Schritt in welchem Prozess lohnt sich zu verändern, und was braucht das?“ Modelle sind austauschbar. Ein gut verstandener Prozess ist es nicht."
+          },
+          {
+            "title": "Der Produktivbetrieb ist das Ergebnis",
+            "text": "Wir liefern Piloten, die wie Produktivsysteme gebaut sind: integriert, evaluiert, berechtigt, überwacht. Die Alternative – ein Prototyp, der für den Go-live neu gebaut werden muss – ist die häufigste Art, KI-Budgets zu verschwenden."
+          },
+          {
+            "title": "Menschen entscheiden, Agenten bereiten vor und führen aus",
+            "text": "Freigabestufen, Zugriff nach dem Minimalprinzip und Prüfpfade sind Entwurfsmerkmale. Sie sind auch das, was einen Agenten für Rechtsabteilung, IT-Sicherheit und Betriebsrat freigabefähig macht – eine Voraussetzung für Wert, kein Hindernis."
+          },
+          {
+            "title": "Erfahrene Leute, kleine Teams",
+            "text": "Jedes Projekt wird mit erfahrenen Beratern und Entwicklern besetzt, die KI-Systeme entworfen, gebaut und betrieben haben. Wir halten Teams klein und bleiben nah an den Prozessverantwortlichen."
+          },
+          {
+            "title": "Unabhängig per Konstruktion",
+            "text": "Wir haben keine Reseller-Verträge und nehmen keine Herstellerprovisionen. Unsere Empfehlungen werden ausschließlich von unseren Kunden bezahlt – die einzige Konstellation, in der sie etwas wert sind."
+          },
+          {
+            "title": "Übertragen statt verankern",
+            "text": "Dokumentation, Schulung und Verantwortungsübergabe gehören zu jedem Projekt, damit Ihr Team das Gebaute betreiben und erweitern kann. Wir messen unseren Erfolg daran, wie wenig Sie uns danach brauchen."
+          }
+        ]
+      },
+      {
+        "type": "lede",
+        "heading": "Berlin, mit Absicht",
+        "lede": "Wir arbeiten unter deutschem Gesellschaftsrecht und der DSGVO – und halten das für einen Vorteil.",
+        "body": [
+          "Software, die Verträge, Kundendaten und interne Kommunikation eines Unternehmens liest, sollte von Menschen gebaut werden, die irgendwo konkret verantwortlich sind. Wir sind eine deutsche GmbH, wir schließen Auftragsverarbeitungsverträge, und wir entwerfen für den EU-Datenschutz und den EU AI Act, weil unsere Kunden mit beidem leben müssen.",
+          "Von Berlin aus arbeiten wir remote in ganz Deutschland, Österreich, der Schweiz und dem übrigen Europa – und vor Ort, wann immer ein Workshop, ein Werksbesuch oder ein schwieriges Gespräch persönlich besser ist."
+        ],
+        "link": {
+          "label": "Kontakt aufnehmen",
+          "page": "contact"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Weiter",
+        "pages": [
+          "approach",
+          "services",
+          "solutions",
+          "insights"
+        ]
+      }
+    ]
+  }
+}

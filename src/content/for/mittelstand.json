@@ -1,0 +1,371 @@
+{
+  "id": "for/mittelstand",
+  "en": {
+    "metaTitle": "AI Consulting for Mittelstand & SMEs | Neurotech AI Solutions",
+    "metaDescription": "AI consulting for the German Mittelstand: pragmatic, ROI-driven automation that fits lean IT and your ERP, respects data protection and keeps you independent.",
+    "cardTitle": "Mittelstand (SMEs)",
+    "cardText": "Pragmatic AI and agent projects for owner-managed companies: fitting your ERP and lean IT, driven by the skills shortage, delivered on site in German, with knowledge transfer built in.",
+    "hero": {
+      "eyebrow": "For the Mittelstand",
+      "title": "AI for the Mittelstand:",
+      "titleAccent": "pragmatic, measurable, on site.",
+      "standfirst": "The German Mittelstand, the owner-managed and family businesses that carry most of the economy, does not need an AI transformation programme. It needs a handful of workflows that relieve people you cannot hire, run inside the ERP you already have, and pay for themselves in months. That is what we build, in German, with your team in the room.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "What Mittelstand companies actually need",
+        "lede": "The question is rarely whether to use AI. It is how to get real relief for a stretched team without betting the company on a vendor or a consultancy.",
+        "body": [
+          "If you are reading this in English: the Mittelstand is the German term for the country's small and mid-sized companies, typically owner-managed or family-owned, often world leaders in a narrow niche, with 50 to 2,000 employees, a lean IT department and an ERP system at the centre of everything. The culture is pragmatic, long-term and sceptical of fashions. We think that is exactly the right attitude toward AI.",
+          "The driver is usually not the technology but the skills shortage, the Fachkräftemangel. Order processing, service, accounting and sales support are short-staffed, the experienced people are approaching retirement, and open positions stay open for months. AI agents will not replace those people. They can take the repetitive part of the work off their desks so that the people you have go further, and so that knowledge does not walk out of the door.",
+          "We work incrementally: one workflow, one department head who wants it, measurable relief within weeks. We speak German, come on site, involve the works council early and hand over the knowledge so that you stay independent of us. Public funding programmes for digitalisation exist in Germany; we can point you to the relevant ones for your region and size, without promising what they will decide."
+        ],
+        "facts": [
+          [
+            "Typical company",
+            "50–2,000 employees, owner-managed or family-owned"
+          ],
+          [
+            "Systems",
+            "SAP, Microsoft Dynamics, proALPHA, abas, DATEV and similar"
+          ],
+          [
+            "Working mode",
+            "German-speaking, on site across Germany, remote where sensible"
+          ],
+          [
+            "Outcome",
+            "Working agents in your daily operations, and a team that can run them"
+          ]
+        ],
+        "link": {
+          "label": "Start with a readiness assessment",
+          "page": "services/ai-readiness-assessment"
+        }
+      },
+      {
+        "type": "list",
+        "heading": "Where Mittelstand companies usually stand",
+        "items": [
+          {
+            "title": "Open positions that stay open",
+            "text": "The service department is missing two technicians, order processing runs on overtime, and the one person who knows the export documentation retires next year. Every process that depends on a single person is a risk, not just a cost."
+          },
+          {
+            "title": "An ERP at the centre and a lean IT team around it",
+            "text": "Everything runs through SAP, Microsoft Dynamics, proALPHA, abas or a comparable system, plus DATEV for accounting and a shared drive full of spreadsheets. IT keeps it all running with a small team and has no capacity for experiments that create new systems to maintain."
+          },
+          {
+            "title": "Pressure to \"do something with AI\", scepticism about how",
+            "text": "The advisory board asks, the trade association runs a seminar, a competitor shows a chatbot at the trade fair. At the same time, the owner has seen enough software projects overrun to want proof before commitment."
+          },
+          {
+            "title": "Data protection and the works council are part of the culture",
+            "text": "Personal data of customers and employees, the GDPR and codetermination are not obstacles to be worked around. They are part of how the company operates, and an AI project that ignores them will not survive its first works council meeting."
+          },
+          {
+            "title": "Independence matters more than the newest tool",
+            "text": "Nobody wants a second dependency on a vendor or a consultancy that has to be called every time something changes. Whatever is built must be understood, documented and maintainable by the company's own people."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "What we do for the Mittelstand",
+        "intro": "Concrete, incremental, measured. Every engagement is sized so that one department can own it.",
+        "items": [
+          {
+            "icon": "search",
+            "title": "AI readiness assessment in two to three weeks",
+            "text": "We interview leadership and department heads, look at your ERP, documents and data, and return a short written assessment: the three workflows worth automating first, what they need, and what to leave alone. Readable by the owner in an evening.",
+            "page": "services/ai-readiness-assessment"
+          },
+          {
+            "icon": "workflow",
+            "title": "Agentic workflows in the ERP you have",
+            "text": "Order intake from emails and PDFs into the ERP, quote preparation, supplier communication, dunning and invoice matching, service ticket triage. Agents read, draft and prepare; your people check and release. See [agentic workflows](page:services/agentic-workflows).",
+            "page": "services/agentic-workflows"
+          },
+          {
+            "icon": "book",
+            "title": "Knowledge assistants that keep expertise in the company",
+            "text": "Manuals, past service cases, drawings, contracts and the knowledge of retiring experts become a searchable assistant that answers with sources. New employees are productive sooner, and knowledge stops depending on one person.",
+            "page": "services/knowledge-assistants"
+          },
+          {
+            "icon": "people",
+            "title": "Training for management and departments",
+            "text": "Half-day sessions for leadership on what AI can and cannot do, hands-on workshops for the teams who will use the agents, and the AI-literacy training the EU AI Act expects. Practical, in German, on your own examples.",
+            "page": "services/ai-training"
+          },
+          {
+            "icon": "shield",
+            "title": "Data protection, works council, EU AI Act",
+            "text": "We design every workflow with your data protection officer and the works council in mind: what data is processed where, what stays in the EU, who checks what. Documented, so that the questions are answered before they are asked.",
+            "page": "services/ai-governance"
+          },
+          {
+            "icon": "gauge",
+            "title": "Operations and knowledge transfer",
+            "text": "After launch we can run the agents for you as [managed AI operations](page:services/managed-ai-operations) or train your IT and department to do it. Either way, the documentation and the know-how belong to you."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "A typical path",
+        "intro": "Most Mittelstand engagements follow this sequence. Each step ends with a decision you can stop at.",
+        "items": [
+          {
+            "title": "On-site visit and intro",
+            "text": "We visit the company, walk through the departments that hurt most and talk to the people doing the work. You get an honest view of whether AI helps here and what it would take.",
+            "meta": "Day 1"
+          },
+          {
+            "title": "Readiness assessment",
+            "text": "Interviews, a look at ERP, documents and data quality, then a short written assessment with the first three use cases, an effort estimate and a note on data protection and works council involvement.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "First pilot in production",
+            "text": "One workflow, built inside your systems, measured against the baseline, with your department and IT involved. Typically six to eight weeks to a production-grade pilot that people use every day.",
+            "meta": "Weeks 4–11"
+          },
+          {
+            "title": "Expand, train, hand over",
+            "text": "The next workflows follow the same pattern. In parallel we train your team, document everything and reduce our role until you run it yourselves, or we keep operating it for you if you prefer.",
+            "meta": "Month 4 onward"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "We have a lean IT department. Can we even do this?",
+            "a": "Yes, and that is the normal case. Most workflows connect to your ERP through existing interfaces and run on platforms your IT does not have to build. The IT effort in a pilot is typically a few days for access and review. We write the documentation so that IT can maintain the result."
+          },
+          {
+            "q": "Do we have to move our data to the cloud or to a US provider?",
+            "a": "Not necessarily. Models can run on EU-hosted infrastructure, in a German data centre or, for some use cases, on your own hardware. We select the option that fits your data, your customers' requirements and your budget. Read more on [sovereign AI and EU hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "How do you involve the works council?",
+            "a": "Early and openly. We prepare a plain-language description of what the agent does, which data it processes and how employees are affected, and we join the meeting if that helps. In our experience the works council supports projects that relieve people and rejects projects it hears about last."
+          },
+          {
+            "q": "Are there subsidies for this?",
+            "a": "Germany and the federal states run funding programmes for digitalisation and AI in small and mid-sized companies. Whether your company qualifies depends on size, region and the type of project. We can point you to the relevant programmes and help with the technical description, but we make no promises about approval."
+          },
+          {
+            "q": "Which processes pay off first in the Mittelstand?",
+            "a": "Order intake and confirmation, quote preparation, service and maintenance knowledge, accounts payable and dunning, supplier communication, and internal helpdesks for HR and IT. See our pages on [manufacturing](page:industries/manufacturing) and [operations](page:solutions/operations) for typical examples."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related pages",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/agentic-workflows",
+          "industries/manufacturing",
+          "services/ai-training"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung für den Mittelstand | Neurotech AI Solutions",
+    "metaDescription": "KI-Beratung für den Mittelstand: pragmatische Automatisierung mit Agenten, die zu schlanker IT und Ihrem ERP passt, Datenschutz wahrt und Sie unabhängig hält.",
+    "cardTitle": "Mittelstand",
+    "cardText": "Pragmatische KI- und Agentenprojekte für inhabergeführte Unternehmen: passend zu ERP und schlanker IT, getrieben vom Fachkräftemangel, vor Ort umgesetzt, mit Wissenstransfer.",
+    "hero": {
+      "eyebrow": "Für den Mittelstand",
+      "title": "KI für den Mittelstand:",
+      "titleAccent": "pragmatisch, messbar, vor Ort.",
+      "standfirst": "Der Mittelstand braucht kein KI-Transformationsprogramm. Er braucht eine Handvoll Workflows, die Menschen entlasten, die Sie nicht einstellen können, die im vorhandenen ERP laufen und sich in Monaten rechnen. Genau das bauen wir – auf Deutsch, mit Ihrem Team am Tisch.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Was mittelständische Unternehmen wirklich brauchen",
+        "lede": "Die Frage ist selten, ob KI eingesetzt wird. Sie ist, wie ein ausgelastetes Team echte Entlastung bekommt, ohne das Unternehmen an einen Anbieter oder eine Beratung zu binden.",
+        "body": [
+          "Inhabergeführt oder in Familienhand, oft Weltmarktführer in einer Nische, 50 bis 2.000 Beschäftigte, eine schlanke IT und ein ERP-System, durch das alles läuft: So sehen die Unternehmen aus, mit denen wir arbeiten. Die Kultur ist pragmatisch, langfristig und skeptisch gegenüber Moden. Wir halten das für genau die richtige Haltung gegenüber KI.",
+          "Der Treiber ist meist nicht die Technik, sondern der Fachkräftemangel. Auftragsabwicklung, Service, Buchhaltung und Vertriebsinnendienst sind unterbesetzt, die erfahrenen Kolleginnen und Kollegen gehen auf die Rente zu, und offene Stellen bleiben monatelang offen. KI-Agenten ersetzen diese Menschen nicht. Sie nehmen ihnen den repetitiven Teil der Arbeit ab, damit die vorhandenen Leute weiter kommen – und damit Wissen nicht mit in den Ruhestand geht.",
+          "Wir arbeiten schrittweise: ein Workflow, eine Bereichsleitung, die ihn will, messbare Entlastung innerhalb von Wochen. Wir sprechen Deutsch, kommen vor Ort, binden den Betriebsrat früh ein und übergeben das Wissen so, dass Sie unabhängig von uns bleiben. Für Digitalisierung gibt es in Deutschland öffentliche Förderprogramme; wir können Ihnen die passenden für Ihre Region und Größe nennen, ohne vorwegzunehmen, was dort entschieden wird."
+        ],
+        "facts": [
+          [
+            "Typisches Unternehmen",
+            "50–2.000 Beschäftigte, inhabergeführt oder in Familienhand"
+          ],
+          [
+            "Systeme",
+            "SAP, Microsoft Dynamics, proALPHA, abas, DATEV und vergleichbare"
+          ],
+          [
+            "Arbeitsweise",
+            "Deutschsprachig, vor Ort in ganz Deutschland, remote wo sinnvoll"
+          ],
+          [
+            "Ergebnis",
+            "Laufende Agenten im Tagesgeschäft und ein Team, das sie betreiben kann"
+          ]
+        ],
+        "link": {
+          "label": "Mit einem Readiness-Assessment starten",
+          "page": "services/ai-readiness-assessment"
+        }
+      },
+      {
+        "type": "list",
+        "heading": "Wo mittelständische Unternehmen meist stehen",
+        "items": [
+          {
+            "title": "Offene Stellen, die offen bleiben",
+            "text": "Im Service fehlen zwei Techniker, die Auftragsabwicklung läuft auf Überstunden, und die eine Person, die die Exportdokumentation beherrscht, geht nächstes Jahr in Rente. Jeder Prozess, der an einer einzelnen Person hängt, ist ein Risiko, nicht nur ein Kostenfaktor."
+          },
+          {
+            "title": "Ein ERP im Zentrum und eine schlanke IT drumherum",
+            "text": "Alles läuft über SAP, Microsoft Dynamics, proALPHA, abas oder ein vergleichbares System, dazu DATEV für die Buchhaltung und ein Netzlaufwerk voller Excel-Dateien. Die IT hält das mit einem kleinen Team am Laufen und hat keine Kapazität für Experimente, die neue Systeme zum Pflegen erzeugen."
+          },
+          {
+            "title": "Druck, „etwas mit KI zu machen“, Skepsis beim Wie",
+            "text": "Der Beirat fragt nach, der Verband bietet ein Seminar an, ein Wettbewerber zeigt auf der Messe einen Chatbot. Gleichzeitig hat die Geschäftsführung genug Softwareprojekte erlebt, die aus dem Ruder liefen, um vor einer Zusage einen Beweis sehen zu wollen."
+          },
+          {
+            "title": "Datenschutz und Betriebsrat gehören zur Kultur",
+            "text": "Personenbezogene Daten von Kunden und Beschäftigten, die DSGVO und die Mitbestimmung sind keine Hindernisse, die man umgeht. Sie sind Teil davon, wie das Unternehmen funktioniert – und ein KI-Projekt, das sie ignoriert, überlebt die erste Betriebsratssitzung nicht."
+          },
+          {
+            "title": "Unabhängigkeit zählt mehr als das neueste Tool",
+            "text": "Niemand will eine zweite Abhängigkeit von einem Anbieter oder einer Beratung, die bei jeder Änderung gerufen werden muss. Was gebaut wird, muss von den eigenen Leuten verstanden, dokumentiert und gepflegt werden können."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "heading": "Was wir für den Mittelstand tun",
+        "intro": "Konkret, schrittweise, gemessen. Jedes Projekt ist so zugeschnitten, dass eine Abteilung es verantworten kann.",
+        "items": [
+          {
+            "icon": "search",
+            "title": "KI-Readiness-Assessment in zwei bis drei Wochen",
+            "text": "Wir sprechen mit Geschäftsführung und Bereichsleitungen, sehen uns ERP, Dokumente und Daten an und liefern eine kurze schriftliche Einschätzung: die drei Workflows, die sich zuerst lohnen, was sie brauchen und was Sie besser lassen. Für die Geschäftsführung an einem Abend lesbar.",
+            "page": "services/ai-readiness-assessment"
+          },
+          {
+            "icon": "workflow",
+            "title": "Agentische Workflows im vorhandenen ERP",
+            "text": "Auftragserfassung aus E-Mails und PDFs ins ERP, Angebotsvorbereitung, Lieferantenkommunikation, Mahnwesen und Rechnungsabgleich, Triage von Servicetickets. Agenten lesen, entwerfen und bereiten vor; Ihre Leute prüfen und geben frei. Mehr unter [Agentische Workflows](page:services/agentic-workflows).",
+            "page": "services/agentic-workflows"
+          },
+          {
+            "icon": "book",
+            "title": "Wissensassistenten, die Know-how im Unternehmen halten",
+            "text": "Handbücher, alte Servicefälle, Zeichnungen, Verträge und das Wissen ausscheidender Experten werden zu einem durchsuchbaren Assistenten, der mit Quellen antwortet. Neue Beschäftigte sind früher produktiv, und Wissen hängt nicht mehr an einer Person.",
+            "page": "services/knowledge-assistants"
+          },
+          {
+            "icon": "people",
+            "title": "Schulungen für Führung und Fachbereiche",
+            "text": "Halbtägige Formate für die Geschäftsführung dazu, was KI kann und was nicht, praktische Workshops für die Teams, die mit den Agenten arbeiten, und die KI-Kompetenz-Schulung, die der EU AI Act erwartet. Praxisnah, auf Deutsch, an Ihren eigenen Beispielen.",
+            "page": "services/ai-training"
+          },
+          {
+            "icon": "shield",
+            "title": "Datenschutz, Betriebsrat, EU AI Act",
+            "text": "Wir entwerfen jeden Workflow mit Blick auf Ihren Datenschutzbeauftragten und den Betriebsrat: welche Daten wo verarbeitet werden, was in der EU bleibt, wer was prüft. Dokumentiert, damit die Fragen beantwortet sind, bevor sie gestellt werden.",
+            "page": "services/ai-governance"
+          },
+          {
+            "icon": "gauge",
+            "title": "Betrieb und Wissenstransfer",
+            "text": "Nach dem Start betreiben wir die Agenten als [Managed AI Operations](page:services/managed-ai-operations) für Sie – oder wir befähigen Ihre IT und Ihren Fachbereich dazu. In beiden Fällen gehören Dokumentation und Know-how Ihnen."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Der typische Weg",
+        "intro": "Die meisten Projekte im Mittelstand folgen dieser Reihenfolge. Jeder Schritt endet mit einer Entscheidung, an der Sie aufhören können.",
+        "items": [
+          {
+            "title": "Besuch vor Ort und Erstgespräch",
+            "text": "Wir kommen ins Unternehmen, gehen durch die Bereiche, in denen es am meisten drückt, und sprechen mit den Menschen, die die Arbeit machen. Sie bekommen eine ehrliche Einschätzung, ob KI hier hilft und was es braucht.",
+            "meta": "Tag 1"
+          },
+          {
+            "title": "Readiness-Assessment",
+            "text": "Interviews, ein Blick auf ERP, Dokumente und Datenqualität, dann eine kurze schriftliche Einschätzung mit den ersten drei Use Cases, einer Aufwandsschätzung und einem Hinweis zu Datenschutz und Betriebsratsbeteiligung.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Erster Pilot im Produktivbetrieb",
+            "text": "Ein Workflow, gebaut in Ihren Systemen, gemessen gegen die Ausgangsbasis, mit Fachbereich und IT im Boot. In der Regel sechs bis acht Wochen bis zu einem produktionsreifen Piloten, den die Leute jeden Tag nutzen.",
+            "meta": "Wochen 4–11"
+          },
+          {
+            "title": "Ausbauen, schulen, übergeben",
+            "text": "Die nächsten Workflows folgen demselben Muster. Parallel schulen wir Ihr Team, dokumentieren alles und reduzieren unsere Rolle, bis Sie es selbst betreiben – oder wir betreiben es weiter für Sie, wenn Ihnen das lieber ist.",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Wir haben eine schlanke IT. Können wir das überhaupt stemmen?",
+            "a": "Ja, das ist der Normalfall. Die meisten Workflows docken über vorhandene Schnittstellen an Ihr ERP an und laufen auf Plattformen, die Ihre IT nicht selbst aufbauen muss. Der IT-Aufwand in einem Piloten liegt typischerweise bei wenigen Tagen für Zugänge und Prüfung. Die Dokumentation schreiben wir so, dass die IT das Ergebnis pflegen kann."
+          },
+          {
+            "q": "Müssen unsere Daten in die Cloud oder zu einem US-Anbieter?",
+            "a": "Nicht zwingend. Modelle können auf EU-gehosteter Infrastruktur laufen, in einem deutschen Rechenzentrum oder für manche Use Cases auf eigener Hardware. Wir wählen die Variante, die zu Ihren Daten, den Anforderungen Ihrer Kunden und Ihrem Budget passt. Mehr dazu unter [Souveräne KI und EU-Hosting](page:insights/sovereign-ai-eu-hosting)."
+          },
+          {
+            "q": "Wie binden Sie den Betriebsrat ein?",
+            "a": "Früh und offen. Wir bereiten eine verständliche Beschreibung vor, was der Agent tut, welche Daten er verarbeitet und wie Beschäftigte betroffen sind, und nehmen an der Sitzung teil, wenn das hilft. Nach unserer Erfahrung unterstützt der Betriebsrat Projekte, die Menschen entlasten – und lehnt Projekte ab, von denen er zuletzt erfährt."
+          },
+          {
+            "q": "Gibt es Fördermittel dafür?",
+            "a": "Bund und Länder haben Förderprogramme für Digitalisierung und KI in kleinen und mittleren Unternehmen. Ob Ihr Unternehmen infrage kommt, hängt von Größe, Region und Art des Vorhabens ab. Wir nennen Ihnen die passenden Programme und helfen bei der fachlichen Beschreibung, versprechen aber nichts zur Bewilligung."
+          },
+          {
+            "q": "Welche Prozesse rechnen sich im Mittelstand zuerst?",
+            "a": "Auftragserfassung und -bestätigung, Angebotsvorbereitung, Wissen für Service und Instandhaltung, Kreditorenbuchhaltung und Mahnwesen, Lieferantenkommunikation sowie interne Helpdesks für HR und IT. Typische Beispiele finden Sie auf unseren Seiten zu [Industrie und Maschinenbau](page:industries/manufacturing) und [Operations](page:solutions/operations)."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Seiten",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/agentic-workflows",
+          "industries/manufacturing",
+          "services/ai-training"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "id": "solutions/it-engineering",
+  "en": {
+    "metaTitle": "AI Agents for IT & Software Engineering: Service Desk, Coding, Ops",
+    "metaDescription": "AI agents for IT and engineering: service-desk automation, coding agents with review gates, legacy documentation, incident triage and MCP integration.",
+    "cardTitle": "AI agents for IT & software engineering",
+    "cardText": "Service-desk agents, AI-assisted software delivery with review gates, incident triage and the integration layer that lets every other department's agents work.",
+    "hero": {
+      "eyebrow": "Solutions · IT & engineering",
+      "title": "IT is where agents start, and where",
+      "titleAccent": "every other agent depends on.",
+      "standfirst": "IT teams get two things from AI agents: relief for their own work, from password resets to incident triage to legacy documentation, and the integration layer that lets agents in sales, finance and operations reach the systems they need. Both have to be done with least privilege, review gates and observability, or they will not survive the first security audit.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where agents pay off in IT",
+        "lede": "The service desk, the backlog and the on-call rota are all queues of repetitive, well-documented work. Queues are what agents are good at.",
+        "body": [
+          "A typical internal IT team spends a large share of its week on tickets that follow a known path: access requests, password resets, device problems, software installs, \"why can't I open this file\". Engineering teams spend theirs on reading unfamiliar code, writing tests, updating documentation and responding to alerts that turn out to be the same three root causes. All of it is necessary, and most of it is where senior people least want to be.",
+          "Coding agents have changed the second half of that picture quickly. Tools that write, test and refactor code under human review are now standard in many teams, and the question has moved from \"should we use them\" to \"how do we use them without losing control of quality, security and licensing\". The same question applies to service-desk agents that reset passwords and grant access.",
+          "IT also owns something no other department does: the integration layer. Agents in [finance](page:solutions/finance), [sales](page:solutions/sales) or [operations](page:solutions/operations) need controlled access to the ERP, the CRM and the ticketing system. Building that once, as a set of governed connectors, is the difference between an agent programme and a collection of shadow-IT experiments."
+        ],
+        "facts": [
+          [
+            "Typical starting point",
+            "Service-desk agent for access and password requests"
+          ],
+          [
+            "Human checkpoint",
+            "Pull-request review, change approval, incident commander"
+          ],
+          [
+            "Systems",
+            "ITSM, identity provider, Git, CI/CD, observability, wikis"
+          ],
+          [
+            "Enabler",
+            "Governed connectors and MCP servers for the whole company"
+          ]
+        ],
+        "link": {
+          "label": "Custom AI agent development",
+          "page": "services/ai-agent-development"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Seven workflows, from the service desk to the integration layer.",
+        "items": [
+          {
+            "icon": "chat",
+            "title": "IT service-desk agent",
+            "text": "Handles password resets, access requests, device and software issues in chat, email or the ITSM portal, executes the safe actions itself through the identity provider and device management, and creates a well-formed ticket with diagnostics for everything else. Approvals for access follow your existing rules."
+          },
+          {
+            "icon": "code",
+            "title": "AI-assisted software delivery",
+            "text": "Coding agents such as Claude Code, GitHub Copilot, Cursor or OpenAI Codex take on implementation, refactoring and test writing inside your repositories. Every change goes through a pull request with human review, automated tests, security scanning and licence checks. We design the workflow, the gates and the team practices."
+          },
+          {
+            "icon": "book",
+            "title": "Legacy documentation and migration support",
+            "text": "Agents read undocumented code, produce architecture summaries, data-flow descriptions and API documentation, and prepare migration plans, for example from an old framework version or a discontinued platform. Engineers verify against the running system."
+          },
+          {
+            "icon": "gauge",
+            "title": "Test generation and maintenance",
+            "text": "For modules with thin coverage, agents propose unit and integration tests derived from the code and the specifications, and keep tests updated when interfaces change. Reviewers reject tests that merely encode existing bugs."
+          },
+          {
+            "icon": "bolt",
+            "title": "Incident triage and runbook automation",
+            "text": "When an alert fires, the agent enriches it with logs, recent deployments, similar past incidents and the relevant runbook, proposes a first hypothesis and prepares the diagnostic commands. The on-call engineer decides what to run; remediation actions beyond the runbook require approval."
+          },
+          {
+            "icon": "shield",
+            "title": "Security operations support",
+            "text": "Summarising log anomalies, triaging reported phishing emails, checking configuration drift against baselines and preparing evidence for audits. Defensive use only, with analysts making every decision that changes a control."
+          },
+          {
+            "icon": "puzzle",
+            "title": "The integration layer for the whole company",
+            "text": "Governed connectors, usually as Model Context Protocol servers, for your ERP, CRM, ticketing, document and identity systems: scoped permissions, logging, rate limits and test environments, so agents in other departments get access without each team building its own glue code."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "A worked example",
+        "content": [
+          {
+            "h2": "AI-assisted delivery with pull-request gates"
+          },
+          {
+            "p": "The engineering workflow below is how we typically introduce coding agents into a team that ships a business application, without giving up the quality bar. It applies equally to internal tools and to customer-facing software."
+          },
+          {
+            "ol": [
+              "A ticket is refined by a developer into a task with acceptance criteria and pointers to the relevant modules. Poorly specified tasks are the main cause of poor agent output, so this step is deliberately not automated.",
+              "The coding agent works in an isolated branch and environment, with read access to the repository and the documentation and no access to production credentials. It implements the change, writes or updates tests and runs the test suite locally.",
+              "The agent opens a pull request with a description of what it changed and why, the test results and any assumptions it made. A summary of the diff is generated for the reviewer.",
+              "Automated gates run: the full test suite, static analysis, dependency and licence checks, secret scanning and a security scan. A failing gate sends the task back to the agent with the failure output.",
+              "A developer reviews the pull request as they would a colleague's: design, correctness, edge cases, readability. Review comments go back to the agent, which revises. Nothing merges without a human approval, and production deployments follow your existing change process.",
+              "Metrics are collected per pull request: cycle time, review time, defects found after merge, share of agent-authored changes. The team reviews them monthly and adjusts what the agent is trusted with."
+            ]
+          },
+          {
+            "note": "Most teams start with tests, documentation and small well-scoped features, and expand the agent's scope as the after-merge defect rate proves stable. The gates are what make the expansion safe."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Guardrails for IT and engineering",
+        "items": [
+          {
+            "title": "Least privilege for every agent",
+            "text": "Agents get scoped, auditable credentials: read access by default, write access per action, no standing production or admin rights. Service-desk agents act through the same identity and device-management APIs your team uses, under the same policies."
+          },
+          {
+            "title": "No unreviewed changes to production",
+            "text": "Code merges after human review and passing gates. Infrastructure and configuration changes follow the change process. Incident remediation beyond the runbook needs the on-call engineer's approval."
+          },
+          {
+            "title": "Secrets stay out of the model",
+            "text": "Agents never see production secrets or customer data in plaintext. Environments are isolated, and prompts, tool results and outputs are scanned for credentials before they are logged."
+          },
+          {
+            "title": "Licence and IP checks for generated code",
+            "text": "Generated code passes the same dependency, licence and provenance checks as any other code, and the team agrees on how agent-authored changes are attributed and documented."
+          },
+          {
+            "title": "Observability from day one",
+            "text": "Every agent action is traced: inputs, tool calls, outputs, cost. That is how you debug an agent, prove what it did in an audit, and notice when a model update changes its behaviour. Read more about [managed AI operations](page:services/managed-ai-operations)."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks: ticket categories and volumes, engineering workflow and tooling, identity and access setup, security requirements and the systems other departments' agents will need. Output: ranked use cases, a connector map and a security concept.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Permission model, approval gates, environment isolation, logging and the evaluation approach, agreed with IT security. For delivery workflows: coding standards, review rules and the metrics to track.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a service-desk agent on selected categories, a coding-agent workflow in one team, or the first two governed connectors, in production with real users and measured against the baseline.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "More ticket categories, more teams, more connectors, and an internal platform team that owns the integration layer. We train that team and hand over documentation and runbooks.",
+            "meta": "From month 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Will coding agents lower our code quality?",
+            "a": "Not if the gates are in place. Quality is decided by the review and test process, and a coding agent goes through the same one as a human contributor. Teams that skip review to move faster do see problems; teams that keep review and use the agent for the mechanical work see better coverage and documentation than before. We measure after-merge defects so you can see it for yourself."
+          },
+          {
+            "q": "How do we stop an agent from doing something dangerous in production?",
+            "a": "By not giving it the means. Agents run with scoped credentials, in isolated environments, and every write action beyond a defined safe list requires human approval. Kill switches and rate limits are part of the standard setup. Our guide to [guardrails for AI agents](page:insights/guardrails-for-agents) describes the layers."
+          },
+          {
+            "q": "Which ITSM and engineering tools do you support?",
+            "a": "ServiceNow, Jira Service Management, Freshservice and similar for the service desk; Entra ID, Okta and device-management systems for actions; GitHub, GitLab and Azure DevOps for delivery; common observability stacks for incident triage. Anything with an API can be connected; we check the details during the assessment."
+          },
+          {
+            "q": "Should we build MCP servers for our internal systems?",
+            "a": "If more than one agent or team needs the same system, yes. A governed connector built once with scoped permissions and logging is cheaper and safer than each team writing its own integration. Our article on the [Model Context Protocol](page:insights/mcp-explained) explains what that involves and where the risks are."
+          },
+          {
+            "q": "What about data protection and the works council?",
+            "a": "Service-desk agents process employee data and must be documented under the GDPR; in Germany, systems that could monitor employee behaviour need works council involvement, and coding-agent metrics should be designed to measure the process, not the person. We handle both in the design phase with your DPO and HR."
+          },
+          {
+            "q": "What happens to the IT team's jobs?",
+            "a": "The queue of routine tickets shrinks and the team spends more time on projects, security and the integration layer, which is now a core responsibility. Where a team's workload changes materially, we say so early and plan it together."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/ai-agent-development",
+          "services/managed-ai-operations",
+          "insights/mcp-explained",
+          "industries/software-saas"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten in IT & Softwareentwicklung: Service Desk, Coding, Betrieb",
+    "metaDescription": "KI-Agenten für IT und Entwicklung: Service-Desk-Automatisierung, Coding-Agenten mit Review-Gates, Legacy-Dokumentation, Incident-Triage und MCP-Integration.",
+    "cardTitle": "KI-Agenten in IT & Softwareentwicklung",
+    "cardText": "Service-Desk-Agenten, KI-gestützte Softwareentwicklung mit Review-Gates, Incident-Triage und die Integrationsschicht, die die Agenten aller anderen Abteilungen arbeiten lässt.",
+    "hero": {
+      "eyebrow": "Lösungen · IT & Entwicklung",
+      "title": "In der IT fangen Agenten an – und von ihr",
+      "titleAccent": "hängen alle anderen ab.",
+      "standfirst": "IT-Teams bekommen zwei Dinge von KI-Agenten: Entlastung bei der eigenen Arbeit, vom Passwort-Reset über die Incident-Triage bis zur Legacy-Dokumentation, und die Integrationsschicht, über die Agenten in Vertrieb, Finanzen und Operations die Systeme erreichen, die sie brauchen. Beides muss mit Minimalrechten, Review-Gates und Observability umgesetzt werden – sonst übersteht es das erste Sicherheitsaudit nicht.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo Agenten sich in der IT rechnen",
+        "lede": "Service Desk, Backlog und Bereitschaftsdienst sind allesamt Warteschlangen repetitiver, gut dokumentierter Arbeit. Warteschlangen sind das, was Agenten gut können.",
+        "body": [
+          "Ein typisches internes IT-Team verbringt einen großen Teil der Woche mit Tickets, die einem bekannten Pfad folgen: Zugriffsanfragen, Passwort-Resets, Geräteprobleme, Softwareinstallationen, „Warum kann ich diese Datei nicht öffnen“. Entwicklungsteams verbringen ihre Zeit damit, fremden Code zu lesen, Tests zu schreiben, Dokumentation zu aktualisieren und auf Alarme zu reagieren, die sich als dieselben drei Ursachen entpuppen. All das ist notwendig, und das meiste davon ist die Stelle, an der erfahrene Leute am wenigsten sein wollen.",
+          "Coding-Agenten haben die zweite Hälfte dieses Bildes schnell verändert. Werkzeuge, die unter menschlicher Kontrolle Code schreiben, testen und umbauen, sind in vielen Teams inzwischen Standard, und die Frage hat sich verschoben: von „Sollen wir sie nutzen?“ zu „Wie nutzen wir sie, ohne die Kontrolle über Qualität, Sicherheit und Lizenzen zu verlieren?“. Dieselbe Frage gilt für Service-Desk-Agenten, die Passwörter zurücksetzen und Zugriffe vergeben.",
+          "Die IT besitzt außerdem etwas, das keine andere Abteilung hat: die Integrationsschicht. Agenten in [Finanzen](page:solutions/finance), [Vertrieb](page:solutions/sales) oder [Operations](page:solutions/operations) brauchen kontrollierten Zugriff auf ERP, CRM und Ticketsystem. Das einmal als Satz kontrollierter Anbindungen zu bauen, ist der Unterschied zwischen einem Agentenprogramm und einer Sammlung von Schatten-IT-Experimenten."
+        ],
+        "facts": [
+          [
+            "Typischer Einstieg",
+            "Service-Desk-Agent für Zugriffs- und Passwortanfragen"
+          ],
+          [
+            "Menschlicher Kontrollpunkt",
+            "Pull-Request-Review, Change-Freigabe, Incident Commander"
+          ],
+          [
+            "Systeme",
+            "ITSM, Identity Provider, Git, CI/CD, Observability, Wikis"
+          ],
+          [
+            "Grundlage",
+            "Kontrollierte Anbindungen und MCP-Server für das ganze Unternehmen"
+          ]
+        ],
+        "link": {
+          "label": "Entwicklung individueller KI-Agenten",
+          "page": "services/ai-agent-development"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Sieben Workflows, vom Service Desk bis zur Integrationsschicht.",
+        "items": [
+          {
+            "icon": "chat",
+            "title": "IT-Service-Desk-Agent",
+            "text": "Bearbeitet Passwort-Resets, Zugriffsanfragen, Geräte- und Softwareprobleme per Chat, E-Mail oder ITSM-Portal, führt die sicheren Aktionen selbst über Identity Provider und Gerätemanagement aus und erstellt für alles andere ein sauberes Ticket mit Diagnosedaten. Freigaben für Zugriffe folgen Ihren bestehenden Regeln."
+          },
+          {
+            "icon": "code",
+            "title": "KI-gestützte Softwareentwicklung",
+            "text": "Coding-Agenten wie Claude Code, GitHub Copilot, Cursor oder OpenAI Codex übernehmen Implementierung, Refactoring und das Schreiben von Tests in Ihren Repositories. Jede Änderung durchläuft einen Pull Request mit menschlichem Review, automatisierten Tests, Sicherheits-Scans und Lizenzprüfung. Wir gestalten den Workflow, die Gates und die Teampraxis."
+          },
+          {
+            "icon": "book",
+            "title": "Legacy-Dokumentation und Migrationsunterstützung",
+            "text": "Agenten lesen undokumentierten Code, erstellen Architekturübersichten, Datenflussbeschreibungen und API-Dokumentation und bereiten Migrationspläne vor – etwa von einer alten Framework-Version oder einer abgekündigten Plattform. Entwickler verifizieren am laufenden System."
+          },
+          {
+            "icon": "gauge",
+            "title": "Testgenerierung und -pflege",
+            "text": "Für Module mit dünner Abdeckung schlagen Agenten Unit- und Integrationstests vor, abgeleitet aus Code und Spezifikation, und halten Tests aktuell, wenn sich Schnittstellen ändern. Reviewer lehnen Tests ab, die lediglich bestehende Fehler festschreiben."
+          },
+          {
+            "icon": "bolt",
+            "title": "Incident-Triage und Runbook-Automatisierung",
+            "text": "Löst ein Alarm aus, reichert der Agent ihn mit Logs, jüngsten Deployments, ähnlichen früheren Vorfällen und dem passenden Runbook an, schlägt eine erste Hypothese vor und bereitet die Diagnosebefehle vor. Der Bereitschaftsingenieur entscheidet, was ausgeführt wird; Maßnahmen jenseits des Runbooks brauchen eine Freigabe."
+          },
+          {
+            "icon": "shield",
+            "title": "Unterstützung der Security Operations",
+            "text": "Zusammenfassung von Log-Anomalien, Triage gemeldeter Phishing-Mails, Prüfung von Konfigurationsabweichungen gegen Baselines und Aufbereitung von Nachweisen für Audits. Ausschließlich defensiv, und jede Entscheidung, die eine Kontrolle verändert, trifft ein Analyst."
+          },
+          {
+            "icon": "puzzle",
+            "title": "Die Integrationsschicht für das ganze Unternehmen",
+            "text": "Kontrollierte Anbindungen, meist als Server nach dem Model Context Protocol, für ERP, CRM, Ticketsystem, Dokumenten- und Identitätssysteme: eingeschränkte Berechtigungen, Protokollierung, Ratenbegrenzung und Testumgebungen – damit Agenten anderer Abteilungen Zugriff bekommen, ohne dass jedes Team eigenen Klebecode baut."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Ein Beispiel im Detail",
+        "content": [
+          {
+            "h2": "KI-gestützte Entwicklung mit Pull-Request-Gates"
+          },
+          {
+            "p": "Der folgende Workflow zeigt, wie wir Coding-Agenten typischerweise in einem Team einführen, das eine Geschäftsanwendung ausliefert – ohne den Qualitätsanspruch aufzugeben. Er gilt für interne Werkzeuge genauso wie für kundenorientierte Software."
+          },
+          {
+            "ol": [
+              "Ein Entwickler verfeinert ein Ticket zu einer Aufgabe mit Akzeptanzkriterien und Verweisen auf die relevanten Module. Schlecht spezifizierte Aufgaben sind die Hauptursache für schlechte Agentenergebnisse, deshalb ist dieser Schritt bewusst nicht automatisiert.",
+              "Der Coding-Agent arbeitet in einem isolierten Branch und einer isolierten Umgebung, mit Lesezugriff auf Repository und Dokumentation und ohne Zugriff auf Produktionszugangsdaten. Er implementiert die Änderung, schreibt oder aktualisiert Tests und führt die Testsuite lokal aus.",
+              "Der Agent eröffnet einen Pull Request mit einer Beschreibung, was er geändert hat und warum, den Testergebnissen und seinen Annahmen. Für den Reviewer wird eine Zusammenfassung des Diffs erzeugt.",
+              "Automatisierte Gates laufen: die vollständige Testsuite, statische Analyse, Abhängigkeits- und Lizenzprüfung, Secret-Scanning und ein Sicherheits-Scan. Ein fehlgeschlagenes Gate schickt die Aufgabe mit der Fehlerausgabe zurück an den Agenten.",
+              "Ein Entwickler prüft den Pull Request wie den eines Kollegen: Design, Korrektheit, Randfälle, Lesbarkeit. Review-Kommentare gehen zurück an den Agenten, der überarbeitet. Ohne menschliche Freigabe wird nichts gemergt, und Produktions-Deployments folgen Ihrem bestehenden Change-Prozess.",
+              "Pro Pull Request werden Kennzahlen erhoben: Durchlaufzeit, Review-Zeit, nach dem Merge gefundene Fehler, Anteil der vom Agenten erstellten Änderungen. Das Team prüft sie monatlich und passt an, was dem Agenten anvertraut wird."
+            ]
+          },
+          {
+            "note": "Die meisten Teams beginnen mit Tests, Dokumentation und kleinen, klar abgegrenzten Features und erweitern den Umfang des Agenten, sobald die Fehlerrate nach dem Merge sich als stabil erweist. Die Gates sind das, was diese Erweiterung sicher macht."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Leitplanken für IT und Entwicklung",
+        "items": [
+          {
+            "title": "Minimalrechte für jeden Agenten",
+            "text": "Agenten bekommen eingeschränkte, nachvollziehbare Zugangsdaten: standardmäßig Lesezugriff, Schreibzugriff je Aktion, keine dauerhaften Produktions- oder Adminrechte. Service-Desk-Agenten handeln über dieselben Identitäts- und Gerätemanagement-APIs wie Ihr Team, unter denselben Richtlinien."
+          },
+          {
+            "title": "Keine ungeprüften Änderungen an der Produktion",
+            "text": "Code wird nach menschlichem Review und bestandenen Gates gemergt. Infrastruktur- und Konfigurationsänderungen folgen dem Change-Prozess. Incident-Maßnahmen jenseits des Runbooks brauchen die Freigabe des Bereitschaftsingenieurs."
+          },
+          {
+            "title": "Geheimnisse bleiben dem Modell fern",
+            "text": "Agenten sehen niemals Produktionsgeheimnisse oder Kundendaten im Klartext. Umgebungen sind isoliert, und Prompts, Werkzeugergebnisse und Ausgaben werden vor der Protokollierung auf Zugangsdaten gescannt."
+          },
+          {
+            "title": "Lizenz- und IP-Prüfung für generierten Code",
+            "text": "Generierter Code durchläuft dieselben Abhängigkeits-, Lizenz- und Herkunftsprüfungen wie jeder andere Code, und das Team vereinbart, wie vom Agenten erstellte Änderungen gekennzeichnet und dokumentiert werden."
+          },
+          {
+            "title": "Observability ab dem ersten Tag",
+            "text": "Jede Agentenaktion wird nachverfolgt: Eingaben, Werkzeugaufrufe, Ausgaben, Kosten. So debuggen Sie einen Agenten, weisen im Audit nach, was er getan hat, und bemerken, wenn ein Modell-Update sein Verhalten verändert. Mehr zu [Managed AI Operations](page:services/managed-ai-operations)."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen: Ticketkategorien und -volumen, Entwicklungsworkflow und Tooling, Identitäts- und Zugriffsverwaltung, Sicherheitsanforderungen und die Systeme, die Agenten anderer Abteilungen brauchen werden. Ergebnis: bewertete Use Cases, eine Anbindungslandkarte und ein Sicherheitskonzept.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Berechtigungsmodell, Freigabe-Gates, Umgebungsisolation, Protokollierung und Evaluationsansatz, abgestimmt mit der IT-Sicherheit. Für Entwicklungsworkflows: Codierungsstandards, Review-Regeln und die zu erhebenden Kennzahlen.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem Service-Desk-Agenten für ausgewählte Kategorien, einem Coding-Agenten-Workflow in einem Team oder den ersten zwei kontrollierten Anbindungen – produktiv, mit echten Nutzern und gegen die Ausgangsbasis gemessen.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Mehr Ticketkategorien, mehr Teams, mehr Anbindungen und ein internes Plattformteam, das die Integrationsschicht verantwortet. Wir schulen dieses Team und übergeben Dokumentation und Runbooks.",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Senken Coding-Agenten unsere Codequalität?",
+            "a": "Nicht, wenn die Gates stehen. Qualität entscheidet sich im Review- und Testprozess, und ein Coding-Agent durchläuft denselben wie ein menschlicher Beitragender. Teams, die das Review überspringen, um schneller zu sein, bekommen tatsächlich Probleme; Teams, die das Review beibehalten und den Agenten für die mechanische Arbeit nutzen, haben hinterher bessere Testabdeckung und Dokumentation als vorher. Wir messen die Fehler nach dem Merge, damit Sie es selbst sehen."
+          },
+          {
+            "q": "Wie verhindern wir, dass ein Agent in der Produktion etwas Gefährliches tut?",
+            "a": "Indem wir ihm die Mittel dazu nicht geben. Agenten laufen mit eingeschränkten Zugangsdaten in isolierten Umgebungen, und jede schreibende Aktion jenseits einer definierten sicheren Liste braucht menschliche Freigabe. Notaus und Ratenbegrenzung gehören zum Standardaufbau. Unser Leitfaden zu [Guardrails für KI-Agenten](page:insights/guardrails-for-agents) beschreibt die Ebenen."
+          },
+          {
+            "q": "Welche ITSM- und Entwicklungswerkzeuge unterstützen Sie?",
+            "a": "ServiceNow, Jira Service Management, Freshservice und Ähnliches für den Service Desk; Entra ID, Okta und Gerätemanagementsysteme für Aktionen; GitHub, GitLab und Azure DevOps für die Entwicklung; gängige Observability-Stacks für die Incident-Triage. Alles mit einer API lässt sich anbinden; die Details prüfen wir im Assessment."
+          },
+          {
+            "q": "Sollten wir MCP-Server für unsere internen Systeme bauen?",
+            "a": "Wenn mehr als ein Agent oder Team dasselbe System braucht: ja. Eine kontrollierte Anbindung, einmal mit eingeschränkten Berechtigungen und Protokollierung gebaut, ist günstiger und sicherer, als wenn jedes Team seine eigene Integration schreibt. Unser Artikel zum [Model Context Protocol](page:insights/mcp-explained) erklärt, was das bedeutet und wo die Risiken liegen."
+          },
+          {
+            "q": "Was ist mit Datenschutz und Betriebsrat?",
+            "a": "Service-Desk-Agenten verarbeiten Mitarbeiterdaten und müssen nach DSGVO dokumentiert werden; in Deutschland brauchen Systeme, die Verhalten von Beschäftigten überwachen könnten, die Beteiligung des Betriebsrats, und Kennzahlen zu Coding-Agenten sollten den Prozess messen, nicht die Person. Beides behandeln wir in der Designphase mit Ihrem Datenschutzbeauftragten und HR."
+          },
+          {
+            "q": "Was passiert mit den Stellen im IT-Team?",
+            "a": "Die Warteschlange der Routinetickets schrumpft, und das Team verbringt mehr Zeit mit Projekten, Sicherheit und der Integrationsschicht, die jetzt eine Kernaufgabe ist. Wo sich die Arbeitslast eines Teams wesentlich verändert, sagen wir das früh und planen es gemeinsam."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/ai-agent-development",
+          "services/managed-ai-operations",
+          "insights/mcp-explained",
+          "industries/software-saas"
+        ]
+      }
+    ]
+  }
+}

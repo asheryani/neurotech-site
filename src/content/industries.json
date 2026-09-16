@@ -1,0 +1,121 @@
+{
+  "id": "industries",
+  "en": {
+    "metaTitle": "AI Consulting by Industry: Manufacturing, Retail, Finance, Logistics",
+    "metaDescription": "AI agent use cases and constraints by industry: manufacturing, professional services, e-commerce, financial services, logistics and software in Germany and Europe.",
+    "cardTitle": "Industries",
+    "navLabel": "Industries",
+    "cardText": "Use cases and constraints for the industries we know best, from Maschinenbau to SaaS.",
+    "hero": {
+      "eyebrow": "Industries",
+      "title": "The same technology,",
+      "titleAccent": "very different constraints.",
+      "standfirst": "An agent that processes orders in a machine builder's ERP and an agent that triages claims at an insurer share most of their architecture. What differs is regulation, systems, data and the people who have to trust them. These pages cover what changes by industry.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "How to read these pages",
+        "lede": "Each industry page lists the workflows that pay off first, the constraints that shape the design, and how we start.",
+        "body": [
+          "We do not claim industry expertise we do not have. What we bring is a repeatable method for finding valuable workflows and building agents that survive contact with real systems and real auditors. The industry pages translate that method into the vocabulary and the constraints of your sector.",
+          "If your industry is not listed, the [solutions by department](page:solutions) pages are the better starting point: the finance, service, operations and sales workflows described there occur in almost every company."
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Industries",
+        "group": "industries"
+      },
+      {
+        "type": "links",
+        "heading": "Who we work with",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Do you only work with the industries listed here?",
+            "a": "No. The listed industries are where we have the most to say. The department-level patterns apply broadly, and the constraints of regulated sectors are usually well documented. If in doubt, [describe your situation](page:contact) and we will be honest about fit."
+          },
+          {
+            "q": "How do industry regulations affect what an agent may do?",
+            "a": "Mostly by moving the human checkpoint. In financial services, credit and pricing decisions stay with people and are documented; in manufacturing, drawings and export-controlled data constrain hosting; in professional services, professional secrecy constrains where data may be processed. Our [governance service](page:services/ai-governance) maps these constraints before anything is built."
+          },
+          {
+            "q": "Do you work with our industry-specific software?",
+            "a": "Agents connect to systems through APIs, files, email and, increasingly, the Model Context Protocol. Most industry software can be integrated at one of those levels. During the [readiness assessment](page:services/ai-readiness-assessment) we check the concrete systems and say where integration is easy, where it needs work and where it is not worth it."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung nach Branche: Industrie, Handel, Finanzen, Logistik",
+    "metaDescription": "Use Cases und Rahmenbedingungen für KI-Agenten nach Branche: Industrie, Professional Services, E-Commerce, Finanzdienstleister, Logistik und Software.",
+    "cardTitle": "Branchen",
+    "navLabel": "Branchen",
+    "cardText": "Use Cases und Rahmenbedingungen für die Branchen, die wir am besten kennen – vom Maschinenbau bis SaaS.",
+    "hero": {
+      "eyebrow": "Branchen",
+      "title": "Dieselbe Technologie,",
+      "titleAccent": "sehr unterschiedliche Rahmenbedingungen.",
+      "standfirst": "Ein Agent, der im ERP eines Maschinenbauers Aufträge verarbeitet, und ein Agent, der bei einem Versicherer Schadenmeldungen sortiert, teilen sich den Großteil ihrer Architektur. Was sich unterscheidet, sind Regulierung, Systeme, Daten und die Menschen, die ihnen vertrauen müssen. Diese Seiten zeigen, was sich je Branche ändert.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wie Sie diese Seiten lesen",
+        "lede": "Jede Branchenseite nennt die Workflows, die sich zuerst rechnen, die Rahmenbedingungen, die den Entwurf prägen, und den Einstieg.",
+        "body": [
+          "Wir behaupten keine Branchenexpertise, die wir nicht haben. Was wir mitbringen, ist eine wiederholbare Methode, um wertvolle Workflows zu finden und Agenten zu bauen, die den Kontakt mit echten Systemen und echten Prüfern überstehen. Die Branchenseiten übersetzen diese Methode in das Vokabular und die Rahmenbedingungen Ihres Sektors.",
+          "Wenn Ihre Branche nicht aufgeführt ist, sind die Seiten zu [Lösungen nach Abteilung](page:solutions) der bessere Einstieg: Die dort beschriebenen Workflows in Finanzen, Service, Operations und Vertrieb kommen in fast jedem Unternehmen vor."
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Branchen",
+        "group": "industries"
+      },
+      {
+        "type": "links",
+        "heading": "Für wen wir arbeiten",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Arbeiten Sie nur mit den hier genannten Branchen?",
+            "a": "Nein. Die genannten Branchen sind die, zu denen wir am meisten zu sagen haben. Die Muster auf Abteilungsebene gelten breit, und die Rahmenbedingungen regulierter Sektoren sind meist gut dokumentiert. Im Zweifel [beschreiben Sie uns Ihre Situation](page:contact), und wir sagen ehrlich, ob es passt."
+          },
+          {
+            "q": "Wie wirken sich Branchenvorschriften darauf aus, was ein Agent tun darf?",
+            "a": "Vor allem, indem sie den menschlichen Kontrollpunkt verschieben. Bei Finanzdienstleistern bleiben Kredit- und Preisentscheidungen bei Menschen und werden dokumentiert; in der Industrie schränken Zeichnungen und exportkontrollierte Daten das Hosting ein; bei Professional Services begrenzt die Verschwiegenheitspflicht, wo Daten verarbeitet werden dürfen. Unsere [Governance-Beratung](page:services/ai-governance) kartiert diese Rahmenbedingungen, bevor etwas gebaut wird."
+          },
+          {
+            "q": "Arbeiten Sie mit unserer Branchensoftware?",
+            "a": "Agenten binden sich über APIs, Dateien, E-Mail und zunehmend das Model Context Protocol an Systeme an. Die meiste Branchensoftware lässt sich auf einer dieser Ebenen integrieren. Im [Readiness-Assessment](page:services/ai-readiness-assessment) prüfen wir die konkreten Systeme und sagen, wo die Integration leicht ist, wo sie Arbeit braucht und wo sie sich nicht lohnt."
+          }
+        ]
+      }
+    ]
+  }
+}

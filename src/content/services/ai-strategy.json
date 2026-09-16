@@ -1,0 +1,407 @@
+{
+  "id": "services/ai-strategy",
+  "en": {
+    "metaTitle": "AI Strategy Consulting for Startups, Mittelstand & Corporates",
+    "metaDescription": "AI strategy consulting from Berlin: a prioritised roadmap of AI and agent use cases, a target architecture, governance and a business case your board can act on.",
+    "cardTitle": "AI strategy & roadmap",
+    "cardText": "A prioritised, costed roadmap of AI and agent use cases, a target architecture and a governance model, in four to six weeks.",
+    "hero": {
+      "eyebrow": "Service · typically 4–6 weeks",
+      "title": "AI strategy that turns into",
+      "titleAccent": "shipped systems.",
+      "standfirst": "Most AI strategies are slide decks. Ours is a ranked list of workflows worth automating, a target architecture that fits your systems, the guardrails you need under GDPR and the EU AI Act, and a business case with numbers you can defend. Then we help you build it.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "See how we work",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why a strategy first",
+        "lede": "The expensive mistake is not choosing the wrong model. It is automating the wrong process, in the wrong order, without a way to measure it.",
+        "body": [
+          "Language models and AI agents can now read, write, decide and act inside your systems. That makes almost every process a candidate, which is exactly the problem: teams start with whatever demo looked good, pilots multiply, and nothing reaches production because nobody agreed on value, ownership or risk.",
+          "An AI strategy fixes the order of operations. We map where time and money actually go in your company, score the candidate use cases on value, feasibility and risk, and sequence them into a roadmap that starts with quick, visible wins and builds toward the workflows that change your cost structure.",
+          "The result is deliberately short. Executives can read it in an hour, and engineers can start building from it the following week."
+        ],
+        "facts": [
+          [
+            "Format",
+            "Workshops, interviews, analysis, written roadmap"
+          ],
+          [
+            "Duration",
+            "Typically 4–6 weeks"
+          ],
+          [
+            "For",
+            "Founders, boards, C-level, department heads"
+          ],
+          [
+            "Outcome",
+            "Ranked use cases, architecture, governance, business case"
+          ]
+        ],
+        "link": {
+          "label": "Start with a readiness assessment instead",
+          "page": "services/ai-readiness-assessment"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "What you get",
+        "intro": "Every engagement ends with the same five artefacts. They are written to be used, not filed.",
+        "items": [
+          {
+            "icon": "map",
+            "title": "Use-case portfolio",
+            "text": "Twenty to forty candidate workflows across [marketing](page:solutions/marketing), [sales](page:solutions/sales), [operations](page:solutions/operations), [finance](page:solutions/finance), HR and more, each scored on value, effort, data readiness and regulatory risk."
+          },
+          {
+            "icon": "target",
+            "title": "Prioritised roadmap",
+            "text": "Three horizons: what to ship in the next 90 days, what to build over 12 months, and what needs data or organisational groundwork first. With owners, dependencies and decision points."
+          },
+          {
+            "icon": "layers",
+            "title": "Target architecture",
+            "text": "Which models, agent frameworks and platforms fit your stack, where data lives, how agents connect to your ERP, CRM and ticketing systems, and what stays in the EU."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance model",
+            "text": "Roles, approval paths, human-in-the-loop checkpoints and a risk classification under the EU AI Act, so legal and works council questions are answered before they block a launch."
+          },
+          {
+            "icon": "chart",
+            "title": "Business case",
+            "text": "Hours saved, cycle times, error rates and revenue effects per use case, with the assumptions written down, plus the running costs of models, platforms and operations."
+          },
+          {
+            "icon": "people",
+            "title": "Operating model",
+            "text": "Who owns AI in your company, how teams request and evaluate new agents, what skills you hire for and what you buy in. Small companies get a one-page version."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How it works",
+        "items": [
+          {
+            "title": "Discovery",
+            "text": "Interviews with leadership and the people who actually run the processes. We read your process documentation, look at your systems and data, and collect the pain points nobody has written down.",
+            "meta": "Week 1"
+          },
+          {
+            "title": "Opportunity mapping",
+            "text": "Two working sessions per function to translate pain points into candidate use cases. We show live examples of agents doing comparable work so the discussion stays concrete.",
+            "meta": "Weeks 2–3"
+          },
+          {
+            "title": "Scoring and sequencing",
+            "text": "Each use case is scored on value, feasibility, data readiness and risk. We validate the top candidates with rough prototypes where the feasibility is uncertain.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Architecture and governance",
+            "text": "We design the target architecture and the governance model against your existing IT landscape, security requirements and data-protection obligations.",
+            "meta": "Weeks 4–5"
+          },
+          {
+            "title": "Board-ready roadmap",
+            "text": "A written roadmap and a leadership session where we walk through the decisions, the trade-offs and what happens in the first 90 days.",
+            "meta": "Week 6"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Who this is for",
+        "items": [
+          {
+            "title": "Founders who need to decide where AI belongs in the product and the company",
+            "text": "Startups rarely lack ideas. They lack a defensible sequence. We help you separate what makes the product better from what makes the company cheaper to run, and fund both sensibly. See [how we work with startups](page:for/startups)."
+          },
+          {
+            "title": "Mittelstand leadership under pressure to \"do something with AI\"",
+            "text": "Owner-managed companies want a plan that fits their people, their ERP and their margins, not a transformation programme. We deliver a roadmap that a lean IT team and one committed department head can execute. See [Mittelstand](page:for/mittelstand)."
+          },
+          {
+            "title": "Corporate functions that already have pilots but no production",
+            "text": "If you have a dozen proofs of concept and a steering committee, the missing piece is usually governance, ownership and a reference architecture. We provide all three. See [enterprise](page:for/enterprise)."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "What makes our strategies different",
+        "variant": "check",
+        "items": [
+          {
+            "title": "Written by people who build",
+            "text": "The same consultants who design your roadmap can deliver the [agent pilots](page:services/ai-agent-development) and the [workflow automation](page:services/agentic-workflows) that follow. Nothing in the roadmap is there because it sounded good in a workshop."
+          },
+          {
+            "title": "Vendor-neutral",
+            "text": "We have no reseller agreements. Whether you end up on Microsoft, Google, AWS, OpenAI, Anthropic, Mistral or open-weight models on EU infrastructure depends on your data, your systems and your risk appetite."
+          },
+          {
+            "title": "Governance included, not appended",
+            "text": "Data protection, the EU AI Act, works council involvement and information security are handled inside the roadmap. Read more about our [AI governance service](page:services/ai-governance)."
+          },
+          {
+            "title": "Measurable by design",
+            "text": "Every use case has a baseline and a target metric before anyone writes a prompt. That is what later lets you say whether it worked."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "How is an AI strategy different from an AI readiness assessment?",
+            "a": "The [readiness assessment](page:services/ai-readiness-assessment) is a shorter diagnostic: where do you stand on data, systems, skills and governance, and what are the two or three obvious first use cases. The strategy goes further: a full use-case portfolio, a target architecture, a governance model and a business case, sequenced into a roadmap. Many clients start with the assessment and extend into a strategy."
+          },
+          {
+            "q": "Do we need a lot of data or a data science team first?",
+            "a": "No. Most agentic use cases run on the documents, emails, tickets and ERP records you already have. Where data quality genuinely blocks a use case, the roadmap says so and includes the [data foundations](page:services/data-foundations) work needed. You do not need a data science team to start; you need one process owner who cares."
+          },
+          {
+            "q": "Which departments should we start with?",
+            "a": "The ones with high volumes of repetitive, document-heavy or communication-heavy work and a measurable outcome: customer service, order processing, accounts payable, sales development, HR helpdesks, contract review. The strategy ranks your specific candidates rather than applying a generic list. Our [solutions by department](page:solutions) pages show typical starting points."
+          },
+          {
+            "q": "How do you handle GDPR and the EU AI Act in the strategy?",
+            "a": "Each use case gets a preliminary risk classification and a note on the personal data involved. The governance model defines who approves what, where humans stay in the loop and how you document decisions. This is not legal advice, but it means your legal and data-protection teams get a structured input instead of a surprise."
+          },
+          {
+            "q": "Can you also implement the roadmap?",
+            "a": "Yes. That is the point. Our [agentic workflow](page:services/agentic-workflows) and [agent development](page:services/ai-agent-development) services deliver the first use cases, and [managed AI operations](page:services/managed-ai-operations) keeps them reliable afterwards. You are equally free to implement with your own team or another partner; the roadmap is written so that you can."
+          },
+          {
+            "q": "How much time does our team need to invest?",
+            "a": "Plan for roughly two to three hours per week for the sponsor and about the same for each department head involved during the mapping phase. We do the analysis, the writing and the prototyping."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "services/fractional-chief-ai-officer"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Strategie-Beratung für Startups, Mittelstand & Konzerne",
+    "metaDescription": "KI-Strategie-Beratung aus Berlin: priorisierte Roadmap für KI- und Agenten-Use-Cases, Zielarchitektur, Governance und ein belastbarer Business Case.",
+    "cardTitle": "KI-Strategie & Roadmap",
+    "cardText": "Eine priorisierte, kalkulierte Roadmap für KI- und Agenten-Use-Cases, eine Zielarchitektur und ein Governance-Modell – in vier bis sechs Wochen.",
+    "hero": {
+      "eyebrow": "Leistung · in der Regel 4–6 Wochen",
+      "title": "KI-Strategie, aus der",
+      "titleAccent": "laufende Systeme werden.",
+      "standfirst": "Die meisten KI-Strategien sind Foliensätze. Unsere ist eine Rangliste der Workflows, die sich automatisieren lohnen, eine Zielarchitektur, die zu Ihren Systemen passt, die nötigen Leitplanken nach DSGVO und EU AI Act und ein Business Case mit Zahlen, die Sie verteidigen können. Und anschließend helfen wir beim Bauen.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "So arbeiten wir",
+        "page": "approach"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum zuerst Strategie",
+        "lede": "Der teure Fehler ist nicht das falsche Modell. Es ist der falsche Prozess, in der falschen Reihenfolge, ohne Möglichkeit, den Erfolg zu messen.",
+        "body": [
+          "Sprachmodelle und KI-Agenten können heute in Ihren Systemen lesen, schreiben, entscheiden und handeln. Damit wird fast jeder Prozess zum Kandidaten – und genau das ist das Problem: Teams starten mit der Demo, die am besten aussah, Pilotprojekte vermehren sich, und nichts erreicht den Produktivbetrieb, weil sich niemand über Nutzen, Verantwortung und Risiko geeinigt hat.",
+          "Eine KI-Strategie legt die Reihenfolge fest. Wir kartieren, wohin in Ihrem Unternehmen Zeit und Geld tatsächlich fließen, bewerten die Kandidaten nach Nutzen, Machbarkeit und Risiko und ordnen sie in eine Roadmap, die mit schnellen, sichtbaren Erfolgen beginnt und auf die Workflows hinarbeitet, die Ihre Kostenstruktur verändern.",
+          "Das Ergebnis ist bewusst kurz. Die Geschäftsführung liest es in einer Stunde, und Ihre Entwickler können in der Woche darauf damit bauen."
+        ],
+        "facts": [
+          [
+            "Format",
+            "Workshops, Interviews, Analyse, schriftliche Roadmap"
+          ],
+          [
+            "Dauer",
+            "In der Regel 4–6 Wochen"
+          ],
+          [
+            "Für",
+            "Gründer, Beiräte, Geschäftsführung, Bereichsleitung"
+          ],
+          [
+            "Ergebnis",
+            "Bewertete Use Cases, Architektur, Governance, Business Case"
+          ]
+        ],
+        "link": {
+          "label": "Lieber mit einem Readiness-Assessment starten",
+          "page": "services/ai-readiness-assessment"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Was Sie bekommen",
+        "intro": "Jedes Projekt endet mit denselben fünf Artefakten. Sie sind zum Arbeiten geschrieben, nicht zum Abheften.",
+        "items": [
+          {
+            "icon": "map",
+            "title": "Use-Case-Portfolio",
+            "text": "Zwanzig bis vierzig Kandidaten-Workflows aus [Marketing](page:solutions/marketing), [Vertrieb](page:solutions/sales), [Operations](page:solutions/operations), [Finanzen](page:solutions/finance), HR und weiteren Bereichen, jeweils bewertet nach Nutzen, Aufwand, Datenreife und regulatorischem Risiko."
+          },
+          {
+            "icon": "target",
+            "title": "Priorisierte Roadmap",
+            "text": "Drei Horizonte: was in den nächsten 90 Tagen live geht, was in 12 Monaten entsteht und was zuerst Daten- oder Organisationsarbeit braucht. Mit Verantwortlichen, Abhängigkeiten und Entscheidungspunkten."
+          },
+          {
+            "icon": "layers",
+            "title": "Zielarchitektur",
+            "text": "Welche Modelle, Agenten-Frameworks und Plattformen zu Ihrer Landschaft passen, wo Daten liegen, wie Agenten an ERP, CRM und Ticketsysteme andocken und was in der EU bleibt."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance-Modell",
+            "text": "Rollen, Freigabewege, Kontrollpunkte mit Menschen im Prozess und eine Risikoeinstufung nach EU AI Act – damit Fragen von Rechtsabteilung und Betriebsrat beantwortet sind, bevor sie einen Start blockieren."
+          },
+          {
+            "icon": "chart",
+            "title": "Business Case",
+            "text": "Eingesparte Stunden, Durchlaufzeiten, Fehlerquoten und Umsatzeffekte je Use Case, mit dokumentierten Annahmen, plus die laufenden Kosten für Modelle, Plattformen und Betrieb."
+          },
+          {
+            "icon": "people",
+            "title": "Betriebsmodell",
+            "text": "Wer im Unternehmen KI verantwortet, wie Teams neue Agenten beantragen und bewerten, welche Kompetenzen Sie aufbauen und was Sie zukaufen. Kleine Unternehmen bekommen die Einseiter-Version."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So läuft es ab",
+        "items": [
+          {
+            "title": "Discovery",
+            "text": "Interviews mit der Führung und mit den Menschen, die die Prozesse tatsächlich betreiben. Wir lesen Ihre Prozessdokumentation, sehen uns Systeme und Daten an und sammeln die Schmerzpunkte, die nirgends aufgeschrieben sind.",
+            "meta": "Woche 1"
+          },
+          {
+            "title": "Opportunity Mapping",
+            "text": "Zwei Arbeitssitzungen je Bereich, um Schmerzpunkte in Use-Case-Kandidaten zu übersetzen. Wir zeigen live, wie Agenten vergleichbare Arbeit erledigen, damit die Diskussion konkret bleibt.",
+            "meta": "Wochen 2–3"
+          },
+          {
+            "title": "Bewertung und Reihenfolge",
+            "text": "Jeder Use Case wird nach Nutzen, Machbarkeit, Datenreife und Risiko bewertet. Wo die Machbarkeit unklar ist, prüfen wir die Favoriten mit groben Prototypen.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Architektur und Governance",
+            "text": "Wir entwerfen Zielarchitektur und Governance-Modell entlang Ihrer bestehenden IT-Landschaft, Ihrer Sicherheitsanforderungen und Ihrer datenschutzrechtlichen Pflichten.",
+            "meta": "Wochen 4–5"
+          },
+          {
+            "title": "Roadmap für die Geschäftsführung",
+            "text": "Eine schriftliche Roadmap und eine Führungssitzung, in der wir Entscheidungen, Abwägungen und die ersten 90 Tage durchgehen.",
+            "meta": "Woche 6"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Für wen das gedacht ist",
+        "items": [
+          {
+            "title": "Gründer, die entscheiden müssen, wo KI ins Produkt und ins Unternehmen gehört",
+            "text": "Startups fehlen selten Ideen. Ihnen fehlt eine belastbare Reihenfolge. Wir helfen zu trennen, was das Produkt besser macht und was das Unternehmen günstiger betreibt – und beides vernünftig zu finanzieren. Mehr dazu unter [Startups](page:for/startups)."
+          },
+          {
+            "title": "Mittelständische Geschäftsführung unter Druck, „etwas mit KI zu machen“",
+            "text": "Inhabergeführte Unternehmen wollen einen Plan, der zu ihren Leuten, ihrem ERP und ihren Margen passt – kein Transformationsprogramm. Wir liefern eine Roadmap, die eine schlanke IT und eine engagierte Bereichsleitung umsetzen können. Mehr unter [Mittelstand](page:for/mittelstand)."
+          },
+          {
+            "title": "Konzernbereiche mit vielen Piloten und keinem Produktivbetrieb",
+            "text": "Wer ein Dutzend Proofs of Concept und einen Lenkungsausschuss hat, dem fehlen meist Governance, Verantwortung und eine Referenzarchitektur. Wir liefern alle drei. Mehr unter [Konzerne](page:for/enterprise)."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Was unsere Strategien unterscheidet",
+        "variant": "check",
+        "items": [
+          {
+            "title": "Geschrieben von Leuten, die bauen",
+            "text": "Dieselben Berater, die Ihre Roadmap entwerfen, können die anschließenden [Agenten-Piloten](page:services/ai-agent-development) und die [Workflow-Automatisierung](page:services/agentic-workflows) liefern. Nichts steht in der Roadmap, nur weil es im Workshop gut klang."
+          },
+          {
+            "title": "Herstellerneutral",
+            "text": "Wir haben keine Reseller-Verträge. Ob Sie am Ende bei Microsoft, Google, AWS, OpenAI, Anthropic, Mistral oder offenen Modellen auf EU-Infrastruktur landen, hängt von Ihren Daten, Ihren Systemen und Ihrer Risikobereitschaft ab."
+          },
+          {
+            "title": "Governance eingebaut, nicht angehängt",
+            "text": "Datenschutz, EU AI Act, Betriebsratsbeteiligung und Informationssicherheit werden innerhalb der Roadmap behandelt. Mehr zu unserer [KI-Governance-Beratung](page:services/ai-governance)."
+          },
+          {
+            "title": "Messbar von Anfang an",
+            "text": "Jeder Use Case hat eine Ausgangsbasis und eine Zielkennzahl, bevor jemand einen Prompt schreibt. Nur so lässt sich später sagen, ob es funktioniert hat."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Worin unterscheidet sich die KI-Strategie vom KI-Readiness-Assessment?",
+            "a": "Das [Readiness-Assessment](page:services/ai-readiness-assessment) ist eine kürzere Diagnose: Wo stehen Sie bei Daten, Systemen, Kompetenzen und Governance, und welche zwei, drei Use Cases liegen auf der Hand. Die Strategie geht weiter: vollständiges Use-Case-Portfolio, Zielarchitektur, Governance-Modell und Business Case, geordnet in eine Roadmap. Viele Kunden starten mit dem Assessment und erweitern es zur Strategie."
+          },
+          {
+            "q": "Brauchen wir zuerst viele Daten oder ein Data-Science-Team?",
+            "a": "Nein. Die meisten agentischen Use Cases laufen auf den Dokumenten, E-Mails, Tickets und ERP-Datensätzen, die Sie bereits haben. Wo Datenqualität einen Use Case wirklich blockiert, steht das in der Roadmap – inklusive der nötigen [Datenbasis-Arbeit](page:services/data-foundations). Sie brauchen kein Data-Science-Team, um zu starten. Sie brauchen einen Prozessverantwortlichen, dem das Thema wichtig ist."
+          },
+          {
+            "q": "Mit welchen Abteilungen sollten wir anfangen?",
+            "a": "Mit denen, die viel repetitive, dokumenten- oder kommunikationslastige Arbeit und ein messbares Ergebnis haben: Kundenservice, Auftragsabwicklung, Kreditorenbuchhaltung, Vertriebsvorbereitung, HR-Helpdesk, Vertragsprüfung. Die Strategie bewertet Ihre konkreten Kandidaten statt einer generischen Liste. Unsere Seiten zu [Lösungen nach Abteilung](page:solutions) zeigen typische Einstiegspunkte."
+          },
+          {
+            "q": "Wie gehen Sie in der Strategie mit DSGVO und EU AI Act um?",
+            "a": "Jeder Use Case erhält eine vorläufige Risikoeinstufung und einen Hinweis auf die betroffenen personenbezogenen Daten. Das Governance-Modell legt fest, wer was freigibt, wo Menschen im Prozess bleiben und wie Sie Entscheidungen dokumentieren. Das ist keine Rechtsberatung, aber Ihre Rechts- und Datenschutzverantwortlichen bekommen einen strukturierten Input statt einer Überraschung."
+          },
+          {
+            "q": "Setzen Sie die Roadmap auch um?",
+            "a": "Ja, das ist der Sinn der Sache. Unsere Leistungen [Agentische Workflows](page:services/agentic-workflows) und [KI-Agenten-Entwicklung](page:services/ai-agent-development) liefern die ersten Use Cases, und [Managed AI Operations](page:services/managed-ai-operations) hält sie anschließend zuverlässig am Laufen. Sie können die Roadmap genauso gut mit dem eigenen Team oder einem anderen Partner umsetzen; sie ist so geschrieben, dass das geht."
+          },
+          {
+            "q": "Wie viel Zeit muss unser Team investieren?",
+            "a": "Rechnen Sie mit etwa zwei bis drei Stunden pro Woche für den Sponsor und ähnlich viel für jede beteiligte Bereichsleitung während der Mapping-Phase. Analyse, Ausarbeitung und Prototypen übernehmen wir."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/agentic-workflows",
+          "services/ai-governance",
+          "services/fractional-chief-ai-officer"
+        ]
+      }
+    ]
+  }
+}

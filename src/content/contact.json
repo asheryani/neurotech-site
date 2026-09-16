@@ -1,0 +1,171 @@
+{
+  "id": "contact",
+  "en": {
+    "metaTitle": "Contact Neurotech AI Solutions: Book an AI Consulting Intro Call",
+    "metaDescription": "Talk to an AI consultant in Berlin. Describe your processes and goals, and we tell you honestly where AI agents would pay off. Reply within two business days.",
+    "cardTitle": "Contact",
+    "navLabel": "Contact",
+    "cardText": "Book an intro call or write to us. A person replies within two business days.",
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Talk to a person,",
+      "titleAccent": "not a funnel.",
+      "standfirst": "Tell us which processes, teams or goals you have in mind. We reply personally within two business days, usually with a proposed 30-minute call, a few questions, and an honest first take on whether and where AI agents would pay off for you."
+    },
+    "sections": [
+      {
+        "type": "contactForm"
+      },
+      {
+        "type": "lede",
+        "heading": "Other ways to reach us",
+        "lede": "One address reaches us for everything: inquiries, partnerships, press and data-protection requests.",
+        "body": [
+          "Prefer email? Write to [hello@neurotech-ai.de](mailto:hello@neurotech-ai.de). For data-protection requests, please use the subject line \"Privacy request\". For press, \"Press\".",
+          "We work from Berlin-Lichtenberg and are happy to meet in person. Write first so the coffee is ready."
+        ],
+        "facts": [
+          [
+            "Email",
+            "hello@neurotech-ai.de"
+          ],
+          [
+            "Address",
+            "Neurotech AI Solutions GmbH, Lückstraße 24, 10317 Berlin, Germany"
+          ],
+          [
+            "Response time",
+            "Within two business days"
+          ],
+          [
+            "Languages",
+            "English, German"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "What happens next",
+        "items": [
+          {
+            "title": "We read your message",
+            "text": "A consultant, not a ticket system. If something is unclear, we ask by email before proposing a call."
+          },
+          {
+            "title": "30-minute intro call",
+            "text": "You describe the situation, we ask about processes, systems, data and constraints. No slides. By the end we can usually say which workflow is the best first candidate and what format fits: assessment, strategy, pilot or training."
+          },
+          {
+            "title": "A short written proposal",
+            "text": "Scope, deliverables, timeline, team and a fixed price or retainer. If we think you do not need us yet, we say so and point you to what you can do yourself."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is the intro call free and without obligation?",
+            "a": "Yes. It is a conversation, not a sales presentation. You get our first assessment either way."
+          },
+          {
+            "q": "What should we prepare?",
+            "a": "Nothing formal. It helps if you can name one or two processes that cost the most time or cause the most friction, and which systems they run in (for example an ERP, CRM or ticketing tool). Numbers are welcome but not required."
+          },
+          {
+            "q": "Do you sign NDAs before a first conversation?",
+            "a": "Usually the intro call does not require confidential details. If it does, we are glad to sign a mutual NDA first; send yours or ask for ours."
+          },
+          {
+            "q": "Do you also work outside Germany?",
+            "a": "Yes: remotely across Europe, in English or German, and on site where it is useful."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Kontakt Neurotech AI Solutions: Erstgespräch zur KI-Beratung",
+    "metaDescription": "Sprechen Sie mit einem KI-Berater in Berlin. Beschreiben Sie Prozesse und Ziele, wir sagen ehrlich, wo KI-Agenten sich rechnen. Antwort in zwei Werktagen.",
+    "cardTitle": "Kontakt",
+    "navLabel": "Kontakt",
+    "cardText": "Erstgespräch vereinbaren oder schreiben. Ein Mensch antwortet innerhalb von zwei Werktagen.",
+    "hero": {
+      "eyebrow": "Kontakt",
+      "title": "Sprechen Sie mit einem Menschen,",
+      "titleAccent": "nicht mit einem Funnel.",
+      "standfirst": "Sagen Sie uns, welche Prozesse, Teams oder Ziele Sie im Blick haben. Wir antworten persönlich innerhalb von zwei Werktagen – meist mit einem Vorschlag für ein 30-minütiges Gespräch, ein paar Rückfragen und einer ehrlichen ersten Einschätzung, ob und wo sich KI-Agenten für Sie rechnen."
+    },
+    "sections": [
+      {
+        "type": "contactForm"
+      },
+      {
+        "type": "lede",
+        "heading": "Weitere Wege zu uns",
+        "lede": "Eine Adresse für alles: Anfragen, Partnerschaften, Presse und Datenschutzanliegen.",
+        "body": [
+          "Lieber per E-Mail? Schreiben Sie an [hello@neurotech-ai.de](mailto:hello@neurotech-ai.de). Für Datenschutzanliegen verwenden Sie bitte den Betreff „Datenschutzanfrage“, für Presseanfragen „Presse“.",
+          "Wir arbeiten in Berlin-Lichtenberg und treffen Sie gern persönlich. Schreiben Sie vorher, damit der Kaffee fertig ist."
+        ],
+        "facts": [
+          [
+            "E-Mail",
+            "hello@neurotech-ai.de"
+          ],
+          [
+            "Anschrift",
+            "Neurotech AI Solutions GmbH, Lückstraße 24, 10317 Berlin"
+          ],
+          [
+            "Antwortzeit",
+            "Innerhalb von zwei Werktagen"
+          ],
+          [
+            "Sprachen",
+            "Deutsch, Englisch"
+          ]
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Wie es weitergeht",
+        "items": [
+          {
+            "title": "Wir lesen Ihre Nachricht",
+            "text": "Ein Berater, kein Ticketsystem. Wenn etwas unklar ist, fragen wir per E-Mail nach, bevor wir ein Gespräch vorschlagen."
+          },
+          {
+            "title": "30-minütiges Erstgespräch",
+            "text": "Sie beschreiben die Situation, wir fragen nach Prozessen, Systemen, Daten und Rahmenbedingungen. Keine Folien. Am Ende können wir meist sagen, welcher Workflow der beste erste Kandidat ist und welches Format passt: Assessment, Strategie, Pilot oder Schulung."
+          },
+          {
+            "title": "Ein kurzes schriftliches Angebot",
+            "text": "Umfang, Ergebnisse, Zeitplan, Team und ein Festpreis oder Retainer. Wenn wir meinen, dass Sie uns noch nicht brauchen, sagen wir das und zeigen, was Sie selbst tun können."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Ist das Erstgespräch kostenlos und unverbindlich?",
+            "a": "Ja. Es ist ein Gespräch, keine Verkaufspräsentation. Unsere erste Einschätzung bekommen Sie in jedem Fall."
+          },
+          {
+            "q": "Was sollten wir vorbereiten?",
+            "a": "Nichts Formales. Es hilft, wenn Sie ein, zwei Prozesse nennen können, die am meisten Zeit kosten oder die meiste Reibung erzeugen, und in welchen Systemen sie laufen (etwa ERP, CRM oder Ticketsystem). Zahlen sind willkommen, aber nicht nötig."
+          },
+          {
+            "q": "Unterzeichnen Sie vor einem ersten Gespräch eine Vertraulichkeitsvereinbarung?",
+            "a": "Meist braucht das Erstgespräch keine vertraulichen Details. Falls doch, unterzeichnen wir gern vorab eine gegenseitige NDA – schicken Sie Ihre oder fragen Sie nach unserer."
+          },
+          {
+            "q": "Arbeiten Sie auch außerhalb Deutschlands?",
+            "a": "Ja: remote in ganz Europa, auf Deutsch oder Englisch, und vor Ort, wo es sinnvoll ist."
+          }
+        ]
+      }
+    ]
+  }
+}

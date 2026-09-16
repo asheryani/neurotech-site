@@ -1,0 +1,69 @@
+{
+  "id": "insights",
+  "en": {
+    "metaTitle": "Insights: Agentic AI, AI Agents, EU AI Act & AI Strategy Guides",
+    "metaDescription": "Practical guides for decision makers on agentic AI, AI agents vs. RPA, the EU AI Act, choosing a first use case, build vs. buy, MCP, guardrails and EU-hosted models.",
+    "cardTitle": "Insights",
+    "navLabel": "Insights",
+    "cardText": "Guides on agentic AI, governance and getting agents into production, written for decision makers.",
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Understand the technology",
+      "titleAccent": "before you buy it.",
+      "standfirst": "Long-form guides on agentic AI, automation, governance and the practical work of getting agents into production. Written for founders, executives and department heads, in plain language, with the trade-offs left in.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "links",
+        "heading": "Guides",
+        "group": "insights"
+      },
+      {
+        "type": "links",
+        "heading": "Reference",
+        "pages": [
+          "glossary",
+          "faq",
+          "approach"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Insights: Leitfäden zu Agentic AI, KI-Agenten & EU AI Act",
+    "metaDescription": "Praktische Leitfäden für Entscheider zu Agentic AI, KI-Agenten vs. RPA, EU AI Act, dem ersten Use Case, Build vs. Buy, MCP, Guardrails und LLMs mit EU-Hosting.",
+    "cardTitle": "Insights",
+    "navLabel": "Insights",
+    "cardText": "Leitfäden zu Agentic AI, Governance und dem Weg von KI-Agenten in den Produktivbetrieb – geschrieben für Entscheider.",
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Die Technologie verstehen,",
+      "titleAccent": "bevor Sie sie kaufen.",
+      "standfirst": "Ausführliche Leitfäden zu Agentic AI, Automatisierung, Governance und der praktischen Arbeit, KI-Agenten in den Produktivbetrieb zu bringen. Geschrieben für Gründer, Geschäftsführung und Bereichsleitung, in klarer Sprache und mit den Abwägungen, die sonst wegfallen.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "links",
+        "heading": "Leitfäden",
+        "group": "insights"
+      },
+      {
+        "type": "links",
+        "heading": "Nachschlagen",
+        "pages": [
+          "glossary",
+          "faq",
+          "approach"
+        ]
+      }
+    ]
+  }
+}

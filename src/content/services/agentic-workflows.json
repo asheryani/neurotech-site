@@ -1,0 +1,183 @@
+{
+  "id": "services/agentic-workflows",
+  "en": {
+    "metaTitle": "Agentic Workflow Automation: AI Agents Across ERP, CRM & Email",
+    "metaDescription": "Agentic workflow automation: LLM agents that run multi-step processes end to end across ERP, CRM, ticketing and email, with human approval where it matters.",
+    "cardTitle": "Agentic workflow automation",
+    "cardText": "Multi-step business processes automated end to end by LLM-powered agents across ERP, CRM, ticketing and email, with human approval steps built in.",
+    "hero": {
+      "eyebrow": "Service · typically 6–8 weeks to a production-grade pilot",
+      "title": "Workflows that finish the job,",
+      "titleAccent": "not just start it.",
+      "standfirst": "Classic automation breaks at the first unstructured email, the first missing field, the first exception. Agentic workflows put a language model to work across your ERP, CRM, ticketing and email: it reads, decides and acts, and people approve what matters. We map, build, evaluate and run them so they hold up in production.",
+      "cta": { "label": "Book an intro call", "page": "contact" },
+      "cta2": { "label": "See how we work", "page": "approach" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "What an agentic workflow is",
+        "lede": "Rule-based automation follows a script. An agentic workflow is given a goal, tools and limits, and works out the steps, including the messy ones.",
+        "body": [
+          "Robotic process automation (RPA) and classic workflow tools work when every input looks the same. Business processes rarely oblige: an order arrives as a PDF one day and as three emails the next, a supplier changes its invoice layout, a ticket describes two problems at once. Every variation used to mean a person, or another rule.",
+          "An agentic workflow puts a language model in the loop as a worker, not a chatbot. It reads the input, extracts what matters, checks it against your systems, decides the next step and calls the right tool: create a sales order, update a CRM record, draft a reply. Where a decision carries risk, it pauses and asks a person.",
+          "The deterministic parts stay deterministic. Posting rules, validations and calculations remain code; the model handles reading, judgement and exceptions. That combination lets a workflow cover the whole process instead of the easy half. Our article [what is agentic AI](page:insights/what-is-agentic-ai) explains the concept in depth."
+        ],
+        "facts": [
+          ["Format", "Process mapping, design, build, evaluation, rollout, monitoring"],
+          ["Duration", "Typically 6–8 weeks to a production-grade pilot"],
+          ["For", "COOs, CFOs, department heads, process owners, IT leads"],
+          ["Outcome", "A running workflow with KPIs, logging and human checkpoints"]
+        ],
+        "link": { "label": "Agents vs. RPA vs. chatbots: the differences", "page": "insights/agents-vs-rpa-vs-chatbots" }
+      },
+      {
+        "type": "cards",
+        "heading": "Workflows we automate most often",
+        "intro": "Illustrative examples. Each is document- or communication-heavy, follows a stable pattern, carries exceptions that break classic automation and has a measurable outcome.",
+        "items": [
+          { "icon": "doc", "title": "Invoice and accounts-payable processing", "text": "Invoices arrive by email, portal or scan. The agent extracts header and line data, matches it to purchase orders and goods receipts in the ERP, flags deviations, routes approvals and prepares clean invoices for posting. See [finance](page:solutions/finance)." },
+          { "icon": "cart", "title": "Order intake from email and PDF", "text": "Orders in any format are read, checked against price lists, stock and master data, and created as sales orders. Ambiguities go back to the customer or your team as a prepared question, not a raw email. See [operations](page:solutions/operations)." },
+          { "icon": "chat", "title": "Ticket triage and resolution", "text": "Incoming tickets are classified, enriched with customer and asset data, answered where the knowledge base allows and routed with a summary where it does not. Escalation rules and tone are yours. See [customer service](page:solutions/customer-service)." },
+          { "icon": "handshake", "title": "Lead qualification and routing", "text": "Inbound leads are researched, scored against your ideal customer profile, enriched in the CRM and handed to the right owner with a draft first reply and a suggested next step. See [sales](page:solutions/sales)." },
+          { "icon": "scale", "title": "Contract intake", "text": "New contracts are captured, key terms, obligations and deadlines extracted, compared with your standard positions and filed in the DMS with a review note for legal. See [legal and compliance](page:solutions/legal-compliance)." },
+          { "icon": "chart", "title": "Monthly reporting", "text": "Figures are pulled from ERP, CRM and spreadsheets, checked for anomalies against prior periods, drafted with commentary and sent to the owner for review before distribution." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "From process map to production",
+        "items": [
+          { "title": "Process mapping", "text": "We sit with the people who run the process and map it as it actually happens: inputs, systems, decisions, exceptions, hand-offs. We record the baseline: volume, cycle time, error rate, hours spent.", "meta": "Week 1" },
+          { "title": "Workflow design", "text": "We decide which steps the agent handles, which tools it may call, where it must ask a person and what it must never do, and choose the orchestration platform your team can maintain.", "meta": "Week 2" },
+          { "title": "Build and integration", "text": "We connect the agent to your systems through APIs, the platform's connectors or the Model Context Protocol (MCP), build the workflow and the approval interface, and run it against historical cases.", "meta": "Weeks 3–5" },
+          { "title": "Evaluation", "text": "Before anything touches live data, the workflow is scored on real, anonymised cases: accuracy, exception handling, cost per run. We fix what fails and document what stays manual.", "meta": "Weeks 5–6" },
+          { "title": "Rollout with humans in the loop", "text": "Live operation starts with every action reviewed. As the numbers hold, review moves to sampling and exceptions. Your team learns to read the logs and adjust prompts and rules.", "meta": "Weeks 6–7" },
+          { "title": "Monitoring and hand-over", "text": "Dashboards for volume, success rate, escalations and cost, alerts for failures, a runbook for your team. Or we keep running it under [managed AI operations](page:services/managed-ai-operations).", "meta": "Week 8" }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Built for reliability",
+        "variant": "check",
+        "items": [
+          { "title": "Human-in-the-loop by design", "text": "Approval steps are part of the workflow, not an afterthought. Payments, customer-facing messages and master-data changes wait for a person until the evidence shows they no longer need to." },
+          { "title": "Every step logged, every exception handled", "text": "Inputs, model outputs, tool calls and decisions are recorded so any case can be reconstructed. What the agent cannot handle lands in a review queue with a summary and a proposed action, never in a dead end." },
+          { "title": "Measured against the baseline", "text": "Cycle time, cost per case, error rate, hours freed, exception and escalation rates. We set the numbers before the build and report them after; the exception rate is a KPI we drive down release by release." },
+          { "title": "Permissions the agent cannot exceed", "text": "Agents get their own identities, scoped access and rate limits. An agent that processes invoices cannot read HR files, and cannot release a payment above its threshold." }
+        ]
+      },
+      {
+        "type": "tags",
+        "heading": "Orchestration platforms and integration tools",
+        "intro": "We choose the platform per client: low-code tools for teams that maintain workflows themselves, code-first frameworks for complex logic and strict testing. Named as tools we work with and evaluate; we hold no reseller or partnership agreements.",
+        "items": ["n8n", "Make", "Microsoft Power Automate", "Microsoft Copilot Studio", "LangGraph", "Zapier", "Model Context Protocol (MCP)", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Langfuse", "SAP", "Microsoft Dynamics 365", "Salesforce", "ServiceNow"]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "How is this different from RPA or a Zapier automation?", "a": "RPA and classic automation execute fixed rules on structured input and stop when the input varies. An agentic workflow uses a language model to interpret unstructured input and choose the next step within limits you set. In practice both are combined. More in [agents vs. RPA vs. chatbots](page:insights/agents-vs-rpa-vs-chatbots)." },
+          { "q": "Which platform should we use: n8n, Make, Power Automate or code?", "a": "It depends on who maintains the workflow, how complex the logic is and where your data may go. Microsoft-centred companies often do well with Power Automate and Copilot Studio; teams with developers and strict testing needs with LangGraph or similar; n8n is a strong middle ground that runs on your own EU infrastructure. We recommend after the mapping, not before." },
+          { "q": "How do agents connect to our ERP and CRM?", "a": "Through the systems' APIs, the connectors of the orchestration platform, or MCP servers that expose your systems as tools an agent can call with defined permissions. Where a system has no interface, we look at exports, database views or, as a last resort, controlled UI automation. See [MCP explained](page:insights/mcp-explained)." },
+          { "q": "What happens when the agent gets something wrong?", "a": "It will, occasionally, which is why the workflow is designed around that fact. Risky actions wait for approval, every step is logged, exceptions land in a review queue, and the evaluation set grows with every failure so the same mistake is caught next time. We measure the error rate against the human baseline, not against perfection." },
+          { "q": "How do we measure success, and who owns the workflow afterwards?", "a": "Before the build we record the baseline: volume, cycle time, hours spent, error and rework rates, cost per case. After rollout the dashboards report the same numbers plus exception and escalation rates, model cost and user feedback. The workflow belongs to your team, with runbook, training and evaluation set; if you would rather not operate it, [managed AI operations](page:services/managed-ai-operations) does." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": ["services/ai-agent-development", "services/data-foundations", "services/managed-ai-operations", "solutions/operations"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Agentische Workflow-Automatisierung mit KI-Agenten | Neurotech",
+    "metaDescription": "Agentische Workflow-Automatisierung: KI-Agenten erledigen mehrstufige Prozesse über ERP, CRM, Tickets und E-Mail, mit Freigabe durch Menschen, wo es zählt.",
+    "cardTitle": "Agentische Workflow-Automatisierung",
+    "cardText": "Mehrstufige Geschäftsprozesse, Ende zu Ende automatisiert durch KI-Agenten über ERP, CRM, Ticketsystem und E-Mail – mit eingebauten Freigabeschritten für Menschen.",
+    "hero": {
+      "eyebrow": "Leistung · in der Regel 6–8 Wochen bis zum produktionsreifen Piloten",
+      "title": "Workflows, die die Aufgabe zu Ende bringen,",
+      "titleAccent": "nicht nur anstoßen.",
+      "standfirst": "Klassische Automatisierung scheitert an der ersten unstrukturierten E-Mail, dem ersten fehlenden Feld, der ersten Ausnahme. Agentische Workflows setzen ein Sprachmodell über ERP, CRM, Ticketsystem und E-Mail hinweg an die Arbeit: Es liest, entscheidet und handelt, und Menschen geben frei, wo es darauf ankommt. Wir kartieren, bauen, prüfen und betreiben diese Workflows so, dass sie im Produktivbetrieb standhalten.",
+      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
+      "cta2": { "label": "So arbeiten wir", "page": "approach" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Was ein agentischer Workflow ist",
+        "lede": "Regelbasierte Automatisierung folgt einem Skript. Ein agentischer Workflow bekommt ein Ziel, Werkzeuge und Grenzen – und findet die Schritte selbst, auch die unordentlichen.",
+        "body": [
+          "Robotic Process Automation (RPA) und klassische Workflow-Werkzeuge funktionieren, wenn jede Eingabe gleich aussieht. Geschäftsprozesse tun das selten: Eine Bestellung kommt heute als PDF und morgen als drei E-Mails, ein Lieferant ändert sein Rechnungslayout, ein Ticket beschreibt zwei Probleme auf einmal. Jede Abweichung bedeutete bisher einen Menschen – oder eine weitere Regel.",
+          "Ein agentischer Workflow holt ein Sprachmodell als Sachbearbeiter in den Prozess, nicht als Chatbot. Es liest die Eingabe, extrahiert das Wesentliche, gleicht es mit Ihren Systemen ab, entscheidet über den nächsten Schritt und ruft das passende Werkzeug auf: Kundenauftrag anlegen, CRM-Datensatz aktualisieren, Antwort entwerfen. Wo eine Entscheidung Risiko trägt, hält er an und fragt einen Menschen.",
+          "Die deterministischen Teile bleiben deterministisch. Buchungsregeln, Validierungen und Berechnungen bleiben Code; das Modell übernimmt Lesen, Einschätzen und Ausnahmen. Diese Kombination erlaubt es einem Workflow, den ganzen Prozess abzudecken statt nur die einfache Hälfte. Unser Beitrag [Was ist Agentic AI?](page:insights/what-is-agentic-ai) erklärt das Konzept ausführlich."
+        ],
+        "facts": [
+          ["Format", "Prozessaufnahme, Design, Umsetzung, Evaluierung, Rollout, Monitoring"],
+          ["Dauer", "In der Regel 6–8 Wochen bis zum produktionsreifen Piloten"],
+          ["Für", "COOs, CFOs, Bereichsleitung, Prozessverantwortliche, IT-Leitung"],
+          ["Ergebnis", "Ein laufender Workflow mit KPIs, Protokollierung und Kontrollpunkten für Menschen"]
+        ],
+        "link": { "label": "Agenten vs. RPA vs. Chatbots: die Unterschiede", "page": "insights/agents-vs-rpa-vs-chatbots" }
+      },
+      {
+        "type": "cards",
+        "heading": "Workflows, die wir am häufigsten automatisieren",
+        "intro": "Beispiele zur Veranschaulichung. Jeder dieser Prozesse ist dokumenten- oder kommunikationslastig, folgt einem stabilen Muster, hat Ausnahmen, an denen klassische Automatisierung scheitert, und ein messbares Ergebnis.",
+        "items": [
+          { "icon": "doc", "title": "Rechnungseingang und Kreditorenbuchhaltung", "text": "Rechnungen kommen per E-Mail, Portal oder Scan. Der Agent extrahiert Kopf- und Positionsdaten, gleicht sie mit Bestellungen und Wareneingängen im ERP ab, markiert Abweichungen, steuert Freigaben und bereitet saubere Rechnungen zur Buchung vor. Mehr unter [Finanzen](page:solutions/finance)." },
+          { "icon": "cart", "title": "Auftragserfassung aus E-Mail und PDF", "text": "Bestellungen in jedem Format werden gelesen, gegen Preislisten, Bestände und Stammdaten geprüft und als Kundenaufträge angelegt. Unklarheiten gehen als vorbereitete Rückfrage an den Kunden oder Ihr Team, nicht als rohe E-Mail. Mehr unter [Operations](page:solutions/operations)." },
+          { "icon": "chat", "title": "Ticket-Triage und Lösung", "text": "Eingehende Tickets werden klassifiziert, mit Kunden- und Anlagendaten angereichert, beantwortet, wo die Wissensbasis es erlaubt, und mit Zusammenfassung weitergeleitet, wo nicht. Eskalationsregeln und Tonalität bestimmen Sie. Mehr unter [Kundenservice](page:solutions/customer-service)." },
+          { "icon": "handshake", "title": "Lead-Qualifizierung und Zuweisung", "text": "Eingehende Leads werden recherchiert, gegen Ihr Idealkundenprofil bewertet, im CRM angereichert und mit Antwortentwurf und vorgeschlagenem nächsten Schritt an die richtige Person übergeben. Mehr unter [Vertrieb](page:solutions/sales)." },
+          { "icon": "scale", "title": "Vertragseingang", "text": "Neue Verträge werden erfasst, wesentliche Klauseln, Pflichten und Fristen extrahiert, mit Ihren Standardpositionen verglichen und mit Prüfvermerk für die Rechtsabteilung im DMS abgelegt. Mehr unter [Recht und Compliance](page:solutions/legal-compliance)." },
+          { "icon": "chart", "title": "Monatsreporting", "text": "Zahlen werden aus ERP, CRM und Tabellen zusammengezogen, auf Auffälligkeiten gegenüber Vorperioden geprüft, als Entwurf mit Kommentierung aufbereitet und vor der Verteilung an den Verantwortlichen zur Prüfung geschickt." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "Von der Prozesslandkarte in den Produktivbetrieb",
+        "items": [
+          { "title": "Prozessaufnahme", "text": "Wir setzen uns mit den Menschen zusammen, die den Prozess betreiben, und nehmen ihn so auf, wie er tatsächlich läuft: Eingaben, Systeme, Entscheidungen, Ausnahmen, Übergaben. Wir halten die Ausgangslage fest: Menge, Durchlaufzeit, Fehlerquote, Stundenaufwand.", "meta": "Woche 1" },
+          { "title": "Workflow-Design", "text": "Wir legen fest, welche Schritte der Agent übernimmt, welche Werkzeuge er aufrufen darf, wo er einen Menschen fragen muss und was er nie tun darf – und wählen die Orchestrierungsplattform, die Ihr Team pflegen kann.", "meta": "Woche 2" },
+          { "title": "Umsetzung und Integration", "text": "Wir verbinden den Agenten über APIs, die Konnektoren der Plattform oder das Model Context Protocol (MCP) mit Ihren Systemen, bauen den Workflow und die Freigabeoberfläche und lassen ihn gegen historische Fälle laufen.", "meta": "Wochen 3–5" },
+          { "title": "Evaluierung", "text": "Bevor etwas mit Echtdaten in Berührung kommt, wird der Workflow an realen, anonymisierten Fällen bewertet: Genauigkeit, Umgang mit Ausnahmen, Kosten je Durchlauf. Wir beheben, was scheitert, und dokumentieren, was manuell bleibt.", "meta": "Wochen 5–6" },
+          { "title": "Rollout mit Menschen im Prozess", "text": "Der Livebetrieb beginnt damit, dass jede Aktion geprüft wird. Wenn die Zahlen halten, geht die Prüfung zu Stichproben und Ausnahmen über. Ihr Team lernt, die Protokolle zu lesen und Prompts und Regeln anzupassen.", "meta": "Wochen 6–7" },
+          { "title": "Monitoring und Übergabe", "text": "Dashboards für Menge, Erfolgsquote, Eskalationen und Kosten, Alarme bei Ausfällen, ein Runbook für Ihr Team. Oder wir betreiben den Workflow weiter für Sie – als [Managed AI Operations](page:services/managed-ai-operations).", "meta": "Woche 8" }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Auf Zuverlässigkeit gebaut",
+        "variant": "check",
+        "items": [
+          { "title": "Menschen im Prozess, von Anfang an", "text": "Freigabeschritte sind Teil des Workflows, kein nachträglicher Anbau. Zahlungen, Nachrichten an Kunden und Stammdatenänderungen warten auf einen Menschen, bis die Zahlen belegen, dass sie es nicht mehr müssen." },
+          { "title": "Jeder Schritt protokolliert, jede Ausnahme versorgt", "text": "Eingaben, Modellausgaben, Werkzeugaufrufe und Entscheidungen werden aufgezeichnet, sodass sich jeder Fall rekonstruieren lässt. Was der Agent nicht bewältigt, landet mit Zusammenfassung und Handlungsvorschlag in einer Prüfwarteschlange, nie in einer Sackgasse." },
+          { "title": "Gemessen an der Ausgangslage", "text": "Durchlaufzeit, Kosten je Fall, Fehlerquote, freigewordene Stunden, Ausnahme- und Eskalationsquoten. Wir legen die Zahlen vor der Umsetzung fest und berichten sie danach; die Ausnahmequote ist eine Kennzahl, die wir Release für Release senken." },
+          { "title": "Berechtigungen, die der Agent nicht überschreiten kann", "text": "Agenten bekommen eigene Identitäten, eng begrenzte Zugriffe und Ratenlimits. Ein Agent, der Rechnungen verarbeitet, kann keine Personalakten lesen und keine Zahlung über seinem Schwellenwert freigeben." }
+        ]
+      },
+      {
+        "type": "tags",
+        "heading": "Orchestrierungsplattformen und Integrationswerkzeuge",
+        "intro": "Die Plattform wählen wir je Kunde: Low-Code-Werkzeuge für Teams, die Workflows selbst pflegen, codebasierte Frameworks für komplexe Logik und strenge Tests. Genannt als Werkzeuge, mit denen wir arbeiten und die wir bewerten; Reseller- oder Partnerverträge haben wir keine.",
+        "items": ["n8n", "Make", "Microsoft Power Automate", "Microsoft Copilot Studio", "LangGraph", "Zapier", "Model Context Protocol (MCP)", "OpenAI", "Anthropic Claude", "Google Gemini", "Mistral", "Azure OpenAI", "AWS Bedrock", "Langfuse", "SAP", "Microsoft Dynamics 365", "Salesforce", "ServiceNow"]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Was unterscheidet das von RPA oder einer Zapier-Automatisierung?", "a": "RPA und klassische Automatisierung führen feste Regeln auf strukturierten Eingaben aus und stoppen, sobald die Eingabe abweicht. Ein agentischer Workflow nutzt ein Sprachmodell, um unstrukturierte Eingaben zu interpretieren und den nächsten Schritt innerhalb der von Ihnen gesetzten Grenzen zu wählen. In der Praxis werden beide kombiniert. Mehr in [Agenten vs. RPA vs. Chatbots](page:insights/agents-vs-rpa-vs-chatbots)." },
+          { "q": "Welche Plattform sollten wir nutzen: n8n, Make, Power Automate oder Code?", "a": "Das hängt davon ab, wer den Workflow pflegt, wie komplex die Logik ist und wohin Ihre Daten fließen dürfen. Microsoft-geprägte Unternehmen fahren oft gut mit Power Automate und Copilot Studio; Teams mit Entwicklern und strengen Testanforderungen mit LangGraph oder Vergleichbarem; n8n ist ein starker Mittelweg, der auf Ihrer eigenen EU-Infrastruktur läuft. Wir empfehlen nach der Prozessaufnahme, nicht davor." },
+          { "q": "Wie werden Agenten an unser ERP und CRM angebunden?", "a": "Über die APIs der Systeme, die Konnektoren der Orchestrierungsplattform oder MCP-Server, die Ihre Systeme als Werkzeuge bereitstellen, die ein Agent mit definierten Berechtigungen aufrufen kann. Hat ein System keine Schnittstelle, prüfen wir Exporte, Datenbanksichten oder als letztes Mittel eine kontrollierte Automatisierung der Oberfläche. Mehr unter [MCP erklärt](page:insights/mcp-explained)." },
+          { "q": "Was passiert, wenn der Agent einen Fehler macht?", "a": "Das wird gelegentlich vorkommen, und genau darauf ist der Workflow ausgelegt. Riskante Aktionen warten auf Freigabe, jeder Schritt wird protokolliert, Ausnahmen landen in einer Prüfwarteschlange, und der Evaluierungsdatensatz wächst mit jedem Fehler, damit derselbe beim nächsten Mal abgefangen wird. Wir messen die Fehlerquote an der menschlichen Ausgangslage, nicht an Perfektion." },
+          { "q": "Wie messen wir den Erfolg, und wem gehört der Workflow danach?", "a": "Vor der Umsetzung halten wir die Ausgangslage fest: Menge, Durchlaufzeit, Stundenaufwand, Fehler- und Nacharbeitsquoten, Kosten je Fall. Nach dem Rollout zeigen die Dashboards dieselben Zahlen plus Ausnahme- und Eskalationsquoten, Modellkosten und Nutzerfeedback. Der Workflow gehört Ihrem Team, mit Runbook, Schulung und Evaluierungsdatensatz; wenn Sie ihn nicht selbst betreiben möchten, übernimmt das [Managed AI Operations](page:services/managed-ai-operations)." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": ["services/ai-agent-development", "services/data-foundations", "services/managed-ai-operations", "solutions/operations"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "solutions/hr",
+  "en": {
+    "metaTitle": "AI Agents for HR: Helpdesk, Onboarding & People Analytics",
+    "metaDescription": "AI agents for HR teams: permission-aware helpdesk, onboarding orchestration, drafting and reporting, designed around GDPR, the EU AI Act and your works council.",
+    "cardTitle": "AI agents for HR & people",
+    "cardText": "A permission-aware HR helpdesk, onboarding that coordinates itself across IT, facilities and HR, and drafting agents for the paperwork, while every decision about a person stays with a person.",
+    "hero": {
+      "eyebrow": "Solution · HR & people",
+      "title": "AI agents for HR that give your team back",
+      "titleAccent": "the people work.",
+      "standfirst": "HR teams answer the same questions, chase the same signatures and draft the same documents every week. AI agents can carry that load inside your HR systems, with the right permissions, while decisions about people stay with people and your works council stays on board.",
+      "cta": { "label": "Book an intro call", "page": "contact" },
+      "cta2": { "label": "Solutions by department", "page": "solutions" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where agents pay off in HR",
+        "lede": "Most HR time goes into answering, coordinating and drafting. Agents are good at exactly that, and HR is where trust matters most.",
+        "body": [
+          "Ask an HR team where the week goes and the answer is rarely strategy. It is the fortieth question about parental leave, an onboarding checklist across four departments and the reference letter that has waited three weeks. Necessary, repetitive, mostly text.",
+          "That is why agents fit. An agent can read your policies, look up a record with the asker's own permissions, draft in your house style and chase open onboarding tasks, then hand the result to a person for approval. Who decides does not change; the administration shrinks.",
+          "Why now: models handle long policy documents reliably, HR suites such as Personio, SAP SuccessFactors or Workday expose usable interfaces, and the rules are clearer. The EU AI Act treats AI in recruitment and employment decisions as high-risk; GDPR and German co-determination apply from day one. That tells you what to automate and what to leave to people."
+        ],
+        "facts": [
+          ["Typical starting points", "HR helpdesk, onboarding, drafting"],
+          ["Systems", "HRIS, ticketing, identity, e-signature, intranet"],
+          ["Human checkpoints", "Every decision about a person, every external document"],
+          ["Regulation", "GDPR, EU AI Act, § 87 BetrVG"]
+        ],
+        "link": { "label": "How we build governance in", "page": "services/ai-governance" }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases we build in HR",
+        "intro": "Each is a workflow with a system behind it and a person at the end, not a chatbot.",
+        "items": [
+          { "icon": "chat", "title": "HR helpdesk assistant", "text": "Employees ask about leave, working time or the travel policy in the chat tool they already use. The agent answers from current policies with a citation, reads personal data only with the asker's permissions and hands anything individual to a named HR contact." },
+          { "icon": "doc", "title": "Recruiting support, without selection", "text": "From a role profile and a call with the hiring manager, the agent drafts the posting in your tone with non-discriminatory wording, then handles acknowledgements, interview slots that fit the panel's calendars and courteous rejections once a decision is made. Recruiters decide who moves forward and review anything that is not a template." },
+          { "icon": "workflow", "title": "Onboarding orchestration", "text": "An accepted offer triggers a plan across IT, facilities, payroll and the team: accounts, laptop, badge, contract, first week. The agent opens tickets, chases overdue items and reports status. People approve access and sign contracts." },
+          { "icon": "compass", "title": "Internal mobility and skills mapping", "text": "Skills profiles from job history, project records and self-declared skills, with internal openings or learning paths suggested to employees who opt in. The agent suggests and never ranks people for a role; managers and HR decide, and employees see what is stored about them." },
+          { "icon": "chart", "title": "Surveys, documents and HR reporting", "text": "Open-text survey answers become themes with anonymised quotes. Reference letters and Arbeitszeugnisse are drafted in the correct form and always signed off by HR. Monthly headcount, absence and attrition summaries come from your HRIS, every number traceable." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Worked example",
+        "content": [
+          { "h2": "How an onboarding agent runs a new hire's first month" },
+          { "p": "A typical scenario: a mid-sized manufacturer hires eight to twelve people a month, and onboarding lives in a spreadsheet across four departments. With an agent it looks like this." },
+          { "ol": [
+            "Trigger. The signed contract in the HR system starts the workflow. The agent reads role, location, start date, manager and cost centre and picks the matching template.",
+            "Plan. It creates the task list: accounts and laptop, building access, payroll data, safety briefing, first-week meetings, each with an owner and a due date.",
+            "Requests. Tickets open in the IT service desk and the facilities system, pre-filled with the role profile. Access is requested, not granted: an IT administrator approves it. First human checkpoint.",
+            "Documents. The agent drafts the welcome message, first-week schedule and equipment handover form. The manager edits and confirms the schedule. Second checkpoint.",
+            "Follow-up. Each morning the agent checks open tasks, nudges owners of overdue items and escalates to HR after a defined delay. It never chases the new hire.",
+            "Day 30 and the log. The agent collects a short check-in from manager and employee for HR. Every action, request and approval has been recorded, so HR can show who approved which access and when."
+          ] },
+          { "p": "Building this takes weeks, not months, if your HRIS and ticketing systems have usable interfaces. The same pattern covers offboarding, where disciplined revocation of access matters more than the time saved. See [agentic workflows](page:services/agentic-workflows) and [knowledge assistants](page:services/knowledge-assistants) for how we build this." },
+          { "note": "Nothing here decides about a person. The agent coordinates, drafts and reminds. Approving access, signing contracts and assessing the new colleague stay with your people." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Guardrails and risks in HR",
+        "items": [
+          { "title": "Recruitment and selection are high-risk under the EU AI Act", "text": "AI that filters, ranks or evaluates candidates or employees is high-risk, with documentation, oversight and transparency duties. Our recruiting agents draft, schedule and inform; automated selection or ranking is off the table. Obligations phase in and timelines may shift, so check the current status with counsel." },
+          { "title": "Co-determination first, not last", "text": "Systems that could monitor performance or behaviour trigger the works council's rights under § 87 BetrVG. We involve the council early and document what the agent can and cannot see. An agent introduced over the council's head gets switched off." },
+          { "title": "Personal data on a need-to-know basis", "text": "The helpdesk answers with the permissions of the person asking: managers see their team, employees their own record, nobody a salary they are not entitled to. Special categories such as health data stay out of reach unless a documented purpose requires them." },
+          { "title": "Transparency towards employees", "text": "People know when they are talking to an agent, what it uses and how to reach a human. The AI Act's transparency duties and its AI-literacy requirement (Article 4) are part of the rollout, with short training for HR and managers." },
+          { "title": "Confident wrong answers about entitlements", "text": "A wrong answer on notice periods or leave does real damage. We ground answers in versioned policies with citations, test against a question bank before launch and monitor low-confidence answers in the first months, longer with [managed AI operations](page:services/managed-ai-operations)." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          { "title": "Assessment", "text": "We map HR processes, ticket volumes and question types, review your systems, and rank two or three use cases on value, data readiness and regulatory risk. See our [AI readiness assessment](page:services/ai-readiness-assessment).", "meta": "Weeks 1–3" },
+          { "title": "Design and alignment", "text": "Workflow design with your HR team, the works council and your data protection officer at the table: permissions, checkpoints, escalation rules and the metrics we measure against a baseline.", "meta": "Weeks 3–4" },
+          { "title": "Pilot", "text": "A production-grade pilot in six to eight weeks, integrated with your systems, tested on real questions and real onboardings and measured against the baseline, with an HR owner who can adjust policies and prompts without us.", "meta": "Weeks 5–12" },
+          { "title": "Scale", "text": "Further use cases follow the same pattern with the governance in place, plus training for HR and managers and, if you wish, managed operations as policies change.", "meta": "Afterwards" }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Is an HR helpdesk agent compatible with GDPR?", "a": "It can be, if designed that way. General policy questions are answered from documents without personal data; individual lookups use the asker's permissions, a documented legal basis and logging, with an impact assessment where required. We prefer EU hosting or on-premise models for HR data. Not legal advice; your DPO has the last word." },
+          { "q": "Do we need to involve the works council?", "a": "In Germany, almost always. Any system that could technically monitor performance or behaviour is subject to co-determination under § 87 BetrVG, and most HR agents touch that line. Early involvement tends to make projects faster: the council's questions are the ones a good design answers anyway." },
+          { "q": "Can the agent screen or rank applicants for us?", "a": "We advise against it and do not build automated selection: it is high-risk under the EU AI Act, and candidates have rights regarding automated decisions under GDPR. We build structured application summaries, scheduled interviews and courteous communication instead, so recruiters spend their time on judgement." },
+          { "q": "What happens to the jobs in our HR team?", "a": "Honestly: the administrative share of HR work shrinks and the share that needs judgement, conversation and presence grows. Most companies are understaffed for the second kind, so the effect is a shift, not a cut. Where roles change, we help HR plan the transition." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related pages",
+        "pages": ["services/knowledge-assistants", "services/agentic-workflows", "services/ai-governance", "insights/eu-ai-act-guide"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten in HR: Helpdesk, Onboarding & Personalanalysen",
+    "metaDescription": "KI-Agenten für HR: Helpdesk mit Berechtigungen, Onboarding-Orchestrierung, Entwürfe und Reporting – gestaltet nach DSGVO und EU AI Act, mit dem Betriebsrat.",
+    "cardTitle": "KI-Agenten in HR & Personal",
+    "cardText": "Ein HR-Helpdesk, der Berechtigungen respektiert, ein Onboarding, das sich über IT, Facility und HR selbst koordiniert, und Entwurfsagenten für den Papierkram – während jede Entscheidung über Menschen bei Menschen bleibt.",
+    "hero": {
+      "eyebrow": "Lösung · HR & Personal",
+      "title": "KI-Agenten in HR, die Ihrem Team Zeit geben",
+      "titleAccent": "für die Menschen.",
+      "standfirst": "HR-Teams beantworten jede Woche dieselben Fragen, jagen denselben Unterschriften hinterher und schreiben dieselben Dokumente. KI-Agenten können diese Last in Ihren HR-Systemen und mit den richtigen Berechtigungen tragen, während Entscheidungen über Menschen bei Menschen bleiben und der Betriebsrat an Bord ist.",
+      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
+      "cta2": { "label": "Lösungen nach Abteilung", "page": "solutions" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo sich Agenten in HR lohnen",
+        "lede": "Der Großteil der HR-Zeit geht in Beantworten, Koordinieren und Formulieren. Genau das können Agenten gut – und gerade in HR zählt Vertrauen am meisten.",
+        "body": [
+          "Fragen Sie ein HR-Team, wo die Woche bleibt, und die Antwort lautet selten „Strategie“. Es ist die vierzigste Frage zur Elternzeit, eine Onboarding-Checkliste über vier Abteilungen und das Arbeitszeugnis, das seit drei Wochen wartet. Notwendig, repetitiv, überwiegend Text.",
+          "Deshalb passen Agenten hierher. Ein Agent kann Ihre Richtlinien lesen, einen Datensatz mit den Berechtigungen der fragenden Person nachschlagen, im Stil Ihres Hauses formulieren und offene Onboarding-Aufgaben nachhalten – und übergibt das Ergebnis einem Menschen zur Freigabe. Wer entscheidet, ändert sich nicht; die Verwaltung schrumpft.",
+          "Warum jetzt: Die Modelle verarbeiten lange Richtlinien zuverlässig, HR-Suiten wie Personio, SAP SuccessFactors oder Workday bieten nutzbare Schnittstellen, und die Regeln sind klarer. Der EU AI Act stuft KI in Bewerbungsverfahren und Beschäftigungsentscheidungen als Hochrisiko ein; DSGVO und Mitbestimmung gelten vom ersten Tag an. Das sagt Ihnen, was Sie automatisieren und was Sie Menschen überlassen."
+        ],
+        "facts": [
+          ["Typische Einstiege", "HR-Helpdesk, Onboarding, Entwürfe"],
+          ["Systeme", "HRIS, Ticketsystem, Identity, E-Signatur, Intranet"],
+          ["Kontrollpunkte", "Jede Entscheidung über eine Person, jedes externe Dokument"],
+          ["Regulierung", "DSGVO, EU AI Act, § 87 BetrVG"]
+        ],
+        "link": { "label": "So bauen wir Governance ein", "page": "services/ai-governance" }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases, die wir in HR umsetzen",
+        "intro": "Jeder Punkt ist ein Workflow mit einem System dahinter und einem Menschen am Ende – kein Chatbot.",
+        "items": [
+          { "icon": "chat", "title": "HR-Helpdesk-Assistent", "text": "Beschäftigte fragen im gewohnten Chat-Tool nach Urlaub, Arbeitszeit oder der Reiserichtlinie. Der Agent antwortet aus den aktuellen Richtlinien mit Quellenangabe, liest Personaldaten nur mit den Berechtigungen der fragenden Person und übergibt alles Individuelle an eine benannte HR-Ansprechperson." },
+          { "icon": "doc", "title": "Recruiting-Unterstützung ohne Auswahl", "text": "Aus einem Rollenprofil und einem Gespräch mit der Führungskraft entwirft der Agent die Anzeige im Ton Ihres Hauses, diskriminierungsfrei formuliert, und übernimmt anschließend Eingangsbestätigungen, Interviewvorschläge passend zu den Kalendern des Panels und wertschätzende Absagen, sobald entschieden ist. Wer weiterkommt, entscheidet das Recruiting, das auch alles prüft, was keine Vorlage ist." },
+          { "icon": "workflow", "title": "Onboarding-Orchestrierung", "text": "Ein angenommenes Angebot löst einen Plan über IT, Facility, Gehaltsabrechnung und Team aus: Accounts, Laptop, Zugangskarte, Vertrag, erste Woche. Der Agent eröffnet Tickets, hakt Überfälliges nach und meldet den Stand. Zugänge genehmigen und Verträge unterschreiben Menschen." },
+          { "icon": "compass", "title": "Interne Mobilität und Skills-Mapping", "text": "Kompetenzprofile aus Werdegang, Projektdaten und selbst angegebenen Fähigkeiten; Beschäftigte, die zustimmen, erhalten Vorschläge für interne Stellen oder Lernpfade. Der Agent schlägt vor und reiht niemals Menschen für eine Stelle; Führungskräfte und HR entscheiden, und Beschäftigte sehen, was über sie gespeichert ist." },
+          { "icon": "chart", "title": "Umfragen, Dokumente und HR-Reporting", "text": "Freitextantworten aus Befragungen werden zu Themen mit anonymisierten Zitaten. Arbeitszeugnisse und Referenzen werden formgerecht entworfen und immer von HR freigegeben. Monatliche Zusammenfassungen zu Headcount, Abwesenheiten und Fluktuation kommen aus Ihrem HRIS, jede Zahl nachvollziehbar." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Beispiel aus der Praxis",
+        "content": [
+          { "h2": "Wie ein Onboarding-Agent den ersten Monat einer neuen Kollegin steuert" },
+          { "p": "Ein typisches Szenario: Ein mittelständischer Hersteller stellt acht bis zwölf Personen im Monat ein, und das Onboarding lebt in einer Tabelle über vier Abteilungen. Mit einem Agenten sieht es so aus." },
+          { "ol": [
+            "Auslöser. Der unterschriebene Vertrag im HR-System startet den Workflow. Der Agent liest Rolle, Standort, Startdatum, Führungskraft und Kostenstelle und wählt die passende Vorlage.",
+            "Plan. Er erstellt die Aufgabenliste: Accounts und Laptop, Gebäudezugang, Gehaltsdaten, Sicherheitsunterweisung, Termine der ersten Woche – jeweils mit verantwortlicher Person und Frist.",
+            "Anfragen. Tickets werden im IT-Servicedesk und im Facility-System eröffnet, vorausgefüllt mit dem Rollenprofil. Zugriff wird beantragt, nicht vergeben: Ein IT-Administrator genehmigt ihn. Erster menschlicher Kontrollpunkt.",
+            "Dokumente. Der Agent entwirft Willkommensnachricht, Ablauf der ersten Woche und Übergabeprotokoll für die Ausstattung. Die Führungskraft überarbeitet und bestätigt den Ablauf. Zweiter Kontrollpunkt.",
+            "Nachhalten. Jeden Morgen prüft der Agent offene Aufgaben, erinnert die Verantwortlichen überfälliger Punkte und eskaliert nach definierter Frist an HR. Die neue Kollegin behelligt er nie.",
+            "Tag 30 und Protokoll. Der Agent holt ein kurzes Feedback von Führungskraft und Mitarbeiterin für HR ein. Jede Aktion, Anfrage und Freigabe wurde aufgezeichnet, sodass HR zeigen kann, wer welchen Zugang wann genehmigt hat."
+          ] },
+          { "p": "Der Aufbau dauert Wochen, nicht Monate, sofern HRIS und Ticketsystem nutzbare Schnittstellen haben. Dasselbe Muster deckt das Offboarding ab, wo der disziplinierte Entzug von Zugängen mehr zählt als die gesparte Zeit. Wie wir so etwas bauen, lesen Sie unter [Agentische Workflows](page:services/agentic-workflows) und [Wissensassistenten](page:services/knowledge-assistants)." },
+          { "note": "Nichts hier entscheidet über einen Menschen. Der Agent koordiniert, formuliert und erinnert. Zugänge genehmigen, Verträge unterschreiben und die neue Kollegin beurteilen – das bleibt bei Ihren Leuten." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Leitplanken und Risiken in HR",
+        "items": [
+          { "title": "Recruiting und Auswahl sind Hochrisiko nach EU AI Act", "text": "KI, die Bewerbende oder Beschäftigte filtert, reiht oder bewertet, ist Hochrisiko mit Dokumentations-, Aufsichts- und Transparenzpflichten. Unsere Recruiting-Agenten entwerfen, terminieren und informieren; automatisierte Auswahl oder Rankings sind ausgeschlossen. Die Pflichten greifen gestaffelt, Zeitpläne können sich verschieben – klären Sie den Stand mit Ihrer Rechtsberatung." },
+          { "title": "Mitbestimmung zuerst, nicht zuletzt", "text": "Systeme, die Leistung oder Verhalten überwachen könnten, lösen die Rechte des Betriebsrats nach § 87 BetrVG aus. Wir beziehen ihn früh ein und dokumentieren, was der Agent sehen kann und was nicht. Ein am Betriebsrat vorbei eingeführter Agent wird abgeschaltet." },
+          { "title": "Personaldaten nur nach Erforderlichkeit", "text": "Der Helpdesk antwortet mit den Berechtigungen der fragenden Person: Führungskräfte sehen ihr Team, Beschäftigte den eigenen Datensatz, niemand ein Gehalt, das ihn nichts angeht. Besondere Kategorien wie Gesundheitsdaten bleiben außer Reichweite, sofern kein dokumentierter Zweck sie erfordert." },
+          { "title": "Transparenz gegenüber Beschäftigten", "text": "Menschen wissen, wann sie mit einem Agenten sprechen, was er nutzt und wie sie einen Menschen erreichen. Die Transparenzpflichten des AI Act und seine KI-Kompetenz-Anforderung (Artikel 4) sind Teil des Rollouts, mit kurzen Schulungen für HR und Führungskräfte." },
+          { "title": "Selbstbewusst falsche Antworten zu Ansprüchen", "text": "Eine falsche Auskunft zu Kündigungsfristen oder Urlaub richtet echten Schaden an. Wir verankern Antworten in versionierten Richtlinien mit Quellenangabe, testen vor dem Start gegen einen Fragenkatalog und beobachten in den ersten Monaten Antworten mit geringer Sicherheit – länger mit [Managed AI Operations](page:services/managed-ai-operations)." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          { "title": "Assessment", "text": "Wir erfassen HR-Prozesse, Ticketvolumen und Fragetypen, prüfen Ihre Systeme und bewerten zwei bis drei Use Cases nach Nutzen, Datenreife und regulatorischem Risiko. Siehe unser [KI-Readiness-Assessment](page:services/ai-readiness-assessment).", "meta": "Wochen 1–3" },
+          { "title": "Design und Abstimmung", "text": "Workflow-Design mit Ihrem HR-Team, dem Betriebsrat und der Datenschutzbeauftragten am Tisch: Berechtigungen, Kontrollpunkte, Eskalationsregeln und die Kennzahlen, die wir gegen eine Ausgangsbasis messen.", "meta": "Wochen 3–4" },
+          { "title": "Pilot", "text": "Ein produktionsreifer Pilot in sechs bis acht Wochen, in Ihre Systeme integriert, an echten Fragen und Onboardings getestet und gegen die Ausgangsbasis gemessen – mit einer HR-Verantwortlichen, die Richtlinien und Prompts ohne uns anpassen kann.", "meta": "Wochen 5–12" },
+          { "title": "Skalierung", "text": "Weitere Use Cases folgen demselben Muster, die Governance steht bereits – dazu Schulungen für HR und Führungskräfte und auf Wunsch der laufende Betrieb durch uns.", "meta": "Danach" }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Ist ein HR-Helpdesk-Agent mit der DSGVO vereinbar?", "a": "Ja, wenn er entsprechend gestaltet ist. Allgemeine Richtlinienfragen werden aus Dokumenten ohne Personenbezug beantwortet; individuelle Abfragen laufen mit den Berechtigungen der fragenden Person, auf dokumentierter Rechtsgrundlage und protokolliert, wo nötig nach einer Folgenabschätzung. Für HR-Daten bevorzugen wir EU-Hosting oder Modelle im eigenen Rechenzentrum. Keine Rechtsberatung; das letzte Wort hat Ihr Datenschutz." },
+          { "q": "Müssen wir den Betriebsrat einbeziehen?", "a": "In Deutschland fast immer. Jedes System, das technisch Leistung oder Verhalten von Beschäftigten überwachen könnte, unterliegt der Mitbestimmung nach § 87 BetrVG, und die meisten HR-Agenten berühren diese Grenze. Frühe Einbindung macht Projekte in der Regel schneller: Die Fragen des Betriebsrats sind genau die, die ein gutes Design ohnehin beantwortet." },
+          { "q": "Kann der Agent Bewerbungen für uns vorsortieren oder ranken?", "a": "Wir raten davon ab und bauen keine automatisierte Auswahl: Sie ist Hochrisiko nach dem EU AI Act, und Bewerbende haben nach der DSGVO Rechte gegenüber automatisierten Entscheidungen. Wir bauen stattdessen strukturierte Zusammenfassungen von Bewerbungen, terminierte Interviews und wertschätzende Kommunikation, damit Recruiting seine Zeit auf Urteilsvermögen verwendet." },
+          { "q": "Was passiert mit den Stellen in unserem HR-Team?", "a": "Ehrlich gesagt: Der administrative Anteil der HR-Arbeit schrumpft, der Anteil, der Urteilsvermögen, Gespräch und Präsenz braucht, wächst. Für die zweite Art sind die meisten Unternehmen unterbesetzt, der Effekt ist also eine Verschiebung, kein Abbau. Wo sich Rollen ändern, helfen wir HR bei der Planung des Übergangs." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Seiten",
+        "pages": ["services/knowledge-assistants", "services/agentic-workflows", "services/ai-governance", "insights/eu-ai-act-guide"]
+      }
+    ]
+  }
+}

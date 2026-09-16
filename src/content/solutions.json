@@ -1,0 +1,211 @@
+{
+  "id": "solutions",
+  "en": {
+    "metaTitle": "AI Agents by Department: Marketing, Sales, Service, Finance, HR & More",
+    "metaDescription": "Where AI agents pay off in each department: concrete workflows for marketing, sales, service, operations, finance, HR, legal, IT and procurement.",
+    "cardTitle": "Solutions by department",
+    "navLabel": "Solutions",
+    "cardText": "Concrete AI agent workflows for every function of the business, with the human checkpoints that make them approvable.",
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "AI agents for every department,",
+      "titleAccent": "one workflow at a time.",
+      "standfirst": "Agents are not a department of their own. They live inside marketing, sales, service, operations, finance, HR, legal, IT and procurement, doing the repetitive, document-heavy, communication-heavy work that keeps skilled people from their actual jobs. These pages show what that looks like in practice.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why by department",
+        "lede": "The best first agent is rarely the most impressive one. It is the one a process owner will fight for, because it removes work they hate.",
+        "body": [
+          "Every function has a handful of processes with the same profile: high volume, unstructured inputs (emails, PDFs, tickets, calls), a few clear rules with judgement in the middle, and a person who already checks the result. That is where agents earn trust and pay for themselves.",
+          "Each solution page describes five or six such workflows, walks through one of them step by step including where a human approves, names the guardrails that matter in that function, and explains how we start. Read the page for your department, then talk to us about which of those workflows fits your systems and your team."
+        ],
+        "link": {
+          "label": "How to choose the first use case",
+          "page": "insights/first-agent-use-case"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Departments",
+        "group": "solutions"
+      },
+      {
+        "type": "cards",
+        "heading": "What every deployment has in common",
+        "items": [
+          {
+            "icon": "target",
+            "title": "A baseline and a metric",
+            "text": "Hours per case, cycle time, error rate, first-contact resolution, days sales outstanding. We measure before, and we measure after."
+          },
+          {
+            "icon": "hand",
+            "title": "Humans where decisions are",
+            "text": "Agents draft, sort, look up, prepare and execute the routine. People approve payments, sign contracts, make hiring decisions and handle what the agent flags."
+          },
+          {
+            "icon": "lock",
+            "title": "Least-privilege access",
+            "text": "Each agent gets exactly the read and write rights the workflow needs, with logging that lets you reconstruct every action."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance from day one",
+            "text": "Risk classification, data-protection review and, in Germany, works-council involvement are handled inside the pilot, not after it."
+          },
+          {
+            "icon": "gauge",
+            "title": "Operations after go-live",
+            "text": "Monitoring, evaluations and model updates, so the workflow still works when the model provider ships a new version."
+          },
+          {
+            "icon": "people",
+            "title": "The team stays in charge",
+            "text": "We train the process owners to read the agent's logs, adjust its instructions and decide when it needs help."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services",
+        "pages": [
+          "services/agentic-workflows",
+          "services/ai-agent-development",
+          "services/ai-readiness-assessment",
+          "services/ai-governance"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Which department should a company start with?",
+            "a": "Usually the one with the most volume of repetitive work and the clearest metric: customer service, order processing, accounts payable or sales development. But the deciding factor is often the person: a department head who wants it and will own it beats a theoretically better use case. Our [readiness assessment](page:services/ai-readiness-assessment) ranks the candidates for your company."
+          },
+          {
+            "q": "Do agents replace employees?",
+            "a": "In practice they remove tasks, not roles. The typical outcome is that a team handles more volume with the same people, spends its time on exceptions and relationships, and stops doing evening overtime on data entry. Where headcount effects are expected, we say so early and plan the change with HR and the works council."
+          },
+          {
+            "q": "Can one agent serve several departments?",
+            "a": "Technically yes, and knowledge assistants often do. For workflow agents we recommend one clearly scoped agent per process at first. It is easier to evaluate, to permission and to explain. Shared components, such as connectors to your ERP via the Model Context Protocol, are reused across agents."
+          },
+          {
+            "q": "What if our department is not listed?",
+            "a": "The patterns transfer. Product management, R&D, facilities, quality, sustainability reporting and public-sector functions all have the same kind of document- and communication-heavy workflows. [Write to us](page:contact) and we will tell you what we have seen work."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten nach Abteilung: Marketing, Vertrieb, Service, Finanzen, HR",
+    "metaDescription": "Wo KI-Agenten sich in jeder Abteilung rechnen: konkrete Workflows für Marketing, Vertrieb, Service, Operations, Finanzen, HR, Recht, IT und Einkauf.",
+    "cardTitle": "Lösungen nach Abteilung",
+    "navLabel": "Lösungen",
+    "cardText": "Konkrete Workflows mit KI-Agenten für jeden Unternehmensbereich – mit den menschlichen Kontrollpunkten, die sie freigabefähig machen.",
+    "hero": {
+      "eyebrow": "Lösungen",
+      "title": "KI-Agenten für jede Abteilung,",
+      "titleAccent": "ein Workflow nach dem anderen.",
+      "standfirst": "Agenten sind keine eigene Abteilung. Sie leben in Marketing, Vertrieb, Service, Operations, Finanzen, HR, Recht, IT und Einkauf und erledigen die repetitive, dokumenten- und kommunikationslastige Arbeit, die qualifizierte Menschen von ihrer eigentlichen Aufgabe abhält. Diese Seiten zeigen, wie das in der Praxis aussieht.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum nach Abteilung",
+        "lede": "Der beste erste Agent ist selten der beeindruckendste. Es ist der, für den ein Prozessverantwortlicher kämpft, weil er Arbeit abnimmt, die niemand mag.",
+        "body": [
+          "Jeder Bereich hat eine Handvoll Prozesse mit demselben Profil: hohes Volumen, unstrukturierte Eingaben (E-Mails, PDFs, Tickets, Anrufe), ein paar klare Regeln mit Ermessen in der Mitte, und eine Person, die das Ergebnis ohnehin prüft. Genau dort verdienen Agenten Vertrauen und rechnen sich.",
+          "Jede Lösungsseite beschreibt fünf oder sechs solcher Workflows, geht einen davon Schritt für Schritt durch – inklusive der Stelle, an der ein Mensch freigibt –, benennt die Leitplanken, die in diesem Bereich zählen, und erklärt den Einstieg. Lesen Sie die Seite für Ihre Abteilung und sprechen Sie dann mit uns darüber, welcher dieser Workflows zu Ihren Systemen und Ihrem Team passt."
+        ],
+        "link": {
+          "label": "So wählen Sie den ersten Use Case",
+          "page": "insights/first-agent-use-case"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Abteilungen",
+        "group": "solutions"
+      },
+      {
+        "type": "cards",
+        "heading": "Was jede Einführung gemeinsam hat",
+        "items": [
+          {
+            "icon": "target",
+            "title": "Eine Ausgangsbasis und eine Kennzahl",
+            "text": "Stunden pro Vorgang, Durchlaufzeit, Fehlerquote, Erstlösungsquote, Forderungslaufzeit. Wir messen vorher, und wir messen nachher."
+          },
+          {
+            "icon": "hand",
+            "title": "Menschen dort, wo entschieden wird",
+            "text": "Agenten entwerfen, sortieren, schlagen nach, bereiten vor und erledigen Routine. Menschen geben Zahlungen frei, unterschreiben Verträge, treffen Personalentscheidungen und übernehmen, was der Agent markiert."
+          },
+          {
+            "icon": "lock",
+            "title": "Zugriff nach dem Minimalprinzip",
+            "text": "Jeder Agent bekommt genau die Lese- und Schreibrechte, die der Workflow braucht – mit Protokollierung, die jede Aktion nachvollziehbar macht."
+          },
+          {
+            "icon": "shield",
+            "title": "Governance ab Tag eins",
+            "text": "Risikoeinstufung, Datenschutzprüfung und in Deutschland die Beteiligung des Betriebsrats passieren innerhalb des Piloten, nicht danach."
+          },
+          {
+            "icon": "gauge",
+            "title": "Betrieb nach dem Go-live",
+            "text": "Monitoring, Evaluationen und Modell-Updates, damit der Workflow auch dann funktioniert, wenn der Modellanbieter eine neue Version ausliefert."
+          },
+          {
+            "icon": "people",
+            "title": "Das Team behält das Steuer",
+            "text": "Wir schulen die Prozessverantwortlichen darin, die Protokolle des Agenten zu lesen, seine Anweisungen anzupassen und zu entscheiden, wann er Hilfe braucht."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen",
+        "pages": [
+          "services/agentic-workflows",
+          "services/ai-agent-development",
+          "services/ai-readiness-assessment",
+          "services/ai-governance"
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Mit welcher Abteilung sollte ein Unternehmen anfangen?",
+            "a": "Meist mit der, die das größte Volumen an repetitiver Arbeit und die klarste Kennzahl hat: Kundenservice, Auftragsabwicklung, Kreditorenbuchhaltung oder Vertriebsvorbereitung. Oft entscheidet aber die Person: Eine Bereichsleitung, die es will und verantwortet, schlägt den theoretisch besseren Use Case. Unser [Readiness-Assessment](page:services/ai-readiness-assessment) bewertet die Kandidaten für Ihr Unternehmen."
+          },
+          {
+            "q": "Ersetzen Agenten Mitarbeitende?",
+            "a": "In der Praxis nehmen sie Aufgaben ab, keine Stellen. Das typische Ergebnis: Ein Team bewältigt mehr Volumen mit denselben Leuten, verbringt seine Zeit mit Ausnahmen und Beziehungen und macht keine Abendüberstunden mehr für Datenerfassung. Wo Personaleffekte zu erwarten sind, sagen wir das früh und planen die Veränderung mit HR und Betriebsrat."
+          },
+          {
+            "q": "Kann ein Agent mehrere Abteilungen bedienen?",
+            "a": "Technisch ja, und Wissensassistenten tun das oft. Für Workflow-Agenten empfehlen wir zunächst einen klar abgegrenzten Agenten pro Prozess. Er lässt sich leichter evaluieren, berechtigen und erklären. Gemeinsame Bausteine, etwa Anbindungen an Ihr ERP über das Model Context Protocol, werden über Agenten hinweg wiederverwendet."
+          },
+          {
+            "q": "Was, wenn unsere Abteilung nicht aufgeführt ist?",
+            "a": "Die Muster lassen sich übertragen. Produktmanagement, F&E, Facility Management, Qualität, Nachhaltigkeitsberichterstattung und Funktionen der öffentlichen Hand haben dieselbe Art dokumenten- und kommunikationslastiger Workflows. [Schreiben Sie uns](page:contact), und wir erzählen Ihnen, was wir funktionieren gesehen haben."
+          }
+        ]
+      }
+    ]
+  }
+}

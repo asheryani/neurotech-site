@@ -1,0 +1,214 @@
+{
+  "id": "insights/eu-ai-act-guide",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "EU AI Act for Companies: What to Do Now, in Plain Language",
+    "metaDescription": "EU AI Act explained for companies: who it applies to, risk tiers with everyday examples, the AI literacy duty, timeline, GDPR overlap and a seven-step plan.",
+    "cardTitle": "The EU AI Act for companies",
+    "cardText": "Who the regulation applies to, which risk tier your use cases fall into, what has applied since 2025, and a seven-step plan to get compliant without drama.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "The EU AI Act for companies: what to do now,",
+      "titleAccent": "in plain language.",
+      "standfirst": "The EU AI Act is the first comprehensive law on artificial intelligence, and it applies to almost every company that uses AI in the EU, not only to those who build it. This guide explains the roles, the risk tiers, the AI literacy duty and the timeline in plain language, and ends with a seven-step action plan for a typical company."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "The basics",
+        "content": [
+          { "note": "This article is general information, not legal advice. It simplifies a long regulation, and parts of the timeline have been subject to change. Verify the current status with your legal counsel or data protection officer before you plan against it." },
+          { "h2": "What the AI Act is" },
+          { "p": "The EU AI Act (Regulation (EU) 2024/1689) is a product-safety style regulation for artificial intelligence. It does not regulate AI as a technology; it regulates specific uses according to the risk they pose to people's health, safety and fundamental rights. Most uses carry few or no specific obligations. A defined set of practices is prohibited, another set is classified as high-risk with substantial duties, and some uses trigger transparency duties. As an EU regulation it applies directly in every member state, with national authorities responsible for supervision and enforcement." },
+          { "h2": "Who it applies to: providers, deployers and non-EU companies" },
+          { "p": "The regulation defines several roles, but two matter for most companies. A **provider** develops an AI system, or has it developed, and places it on the market or puts it into service under its own name. A **deployer** uses an AI system under its own authority in a professional context. The software company selling a recruiting tool with an AI ranking feature is a provider; the Mittelstand company using that tool to screen applicants is a deployer. Deployers have fewer duties than providers, but they are not exempt." },
+          { "p": "Two points surprise many companies. First, the regulation applies to companies outside the EU when they place AI systems on the EU market or when the output of their system is used in the EU, so a Swiss or US company serving EU customers is in scope. Second, a deployer can become a provider: if you put your own brand on a high-risk system, substantially modify it or change its intended purpose so that it becomes high-risk, the provider obligations move to you. Building your own AI agents does not automatically make you a provider, but you cannot point to a vendor for the system's behaviour." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Risk tiers",
+        "content": [
+          { "h2": "The risk tiers, with examples that matter to a normal company" },
+          { "p": "The tier depends on the use, not the technology. The same language model is minimal risk when it drafts marketing copy and high-risk when it ranks job applicants." },
+          { "table": {
+            "caption": "Risk tiers of the EU AI Act",
+            "columns": ["Tier", "What falls into it", "Examples in a typical company", "Your duties in short"],
+            "rows": [
+              ["Prohibited", "Practices considered unacceptable, such as manipulative techniques that cause harm, social scoring, and emotion recognition in the workplace and in education (with narrow exceptions)", "Analysing employees' emotions in video calls; scoring customers' trustworthiness from unrelated behaviour", "Do not use them. These bans have applied since February 2025"],
+              ["High-risk", "Uses listed in the regulation's high-risk annex: biometrics, critical infrastructure, education, employment and worker management, access to essential services such as credit and insurance, plus AI safety components in regulated products", "Screening or ranking applicants; monitoring performance to allocate tasks or decide promotions; assessing creditworthiness; grading exams", "Providers: risk management, data governance, documentation, conformity assessment, registration. Deployers: use as instructed, human oversight by trained people, monitoring, logs, informing workers and affected persons"],
+              ["Limited risk (transparency)", "Systems that interact with people or generate content", "Customer chatbots; AI-generated images, video and audio; AI-written texts on matters of public interest", "Tell people they are dealing with AI; label AI-generated or manipulated content; inform people when emotion recognition or biometric categorisation is used"],
+              ["Minimal risk", "Everything else", "Spam filters, internal drafting assistants, document summarisation, most process agents that support rather than decide", "No specific duties beyond AI literacy; voluntary codes of conduct"]
+            ]
+          } },
+          { "p": "For most companies the practical work sits in the second and third rows: find out whether anything you use touches employment decisions, credit, education or critical infrastructure, and make sure every chatbot and every published AI-generated asset carries the right disclosure." },
+          { "h2": "General-purpose AI models" },
+          { "p": "General-purpose AI models, the large models behind the products of OpenAI, Anthropic, Google, Mistral and others, have their own chapter. The obligations sit mainly with the model providers: technical documentation, information for downstream developers, a copyright policy, a summary of training content, and additional duties for models with systemic risk. These have applied since August 2025." },
+          { "p": "For a company building agents or products on such a model, the consequence is indirect but real: you rely on the provider's documentation for your own duties and remain responsible for the system you build. Ask vendors for their AI Act documentation." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Duties for everyone",
+        "content": [
+          { "h2": "The AI literacy duty applies to every organisation" },
+          { "p": "Article 4 is the part of the regulation most companies overlook. Since February 2025, providers and deployers must ensure a sufficient level of AI literacy among their staff and other people who operate or use AI systems on their behalf. The required level depends on the person's role, technical knowledge and the context in which the system is used, including the people it affects." },
+          { "p": "There is no prescribed certificate, and the duty is proportionate: an accountant who uses an AI assistant for drafting needs different training from the HR team that operates a screening tool. What you need is a role-based training concept, evidence that it was delivered and a way to keep it current. Our [AI training](page:services/ai-training) formats are built around this duty, from a leadership briefing to hands-on sessions for teams that work with agents every day." },
+          { "h2": "The timeline" },
+          { "table": {
+            "caption": "Phased application of the EU AI Act (original schedule; verify the current status)",
+            "columns": ["Date", "What applies"],
+            "rows": [
+              ["1 August 2024", "The regulation enters into force"],
+              ["2 February 2025", "Prohibited practices and the AI literacy duty apply"],
+              ["2 August 2025", "Obligations for general-purpose AI models; governance structures and penalty rules in place"],
+              ["2 August 2026", "Originally scheduled: most remaining obligations, including transparency duties and the high-risk rules for the annex use cases"],
+              ["2 August 2027", "Originally scheduled: high-risk rules for AI embedded in regulated products such as machinery and medical devices"]
+            ]
+          } },
+          { "p": "At the time of writing, proposals to postpone parts of the high-risk obligations have been under discussion at EU level. Treat the 2026 and 2027 dates as the original schedule, not as settled, and check the current status before you plan your compliance work against them. What is not in question: the prohibitions, the literacy duty and the general-purpose model rules already apply." },
+          { "h2": "How the AI Act and the GDPR fit together" },
+          { "p": "The GDPR applies whenever personal data is processed, regardless of the AI Act tier. In practice the two overlap on the same questions: is there a legal basis for the data, are people informed, is a data protection impact assessment needed, and are decisions with legal or similarly significant effects made solely by a machine. The AI Act adds the product view: is the system documented, tested, overseen and logged." },
+          { "p": "For companies in Germany a third layer matters: the works council has co-determination rights for technical systems that can monitor performance or behaviour, which covers many AI tools. The efficient approach is one intake process for every new AI use that answers the GDPR, AI Act and co-determination questions together, rather than three separate reviews that arrive in the wrong order." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Action plan",
+        "content": [
+          { "h2": "A seven-step action plan for a typical company" },
+          { "ol": [
+            "**Inventory.** List every AI system in use, including features inside SaaS products, employees' own tool use and internal agents. Record purpose, vendor, data involved, who uses it and who is affected.",
+            "**Classify.** For each entry, decide your role (provider or deployer) and the risk tier. Flag anything that touches employment, credit, education, biometrics or critical infrastructure for a closer look, and identify every chatbot and generated-content use for transparency duties.",
+            "**Write an AI policy.** Acceptable use, prohibited uses, how new use cases are requested and approved, who owns AI governance. Keep it to a few pages that people will actually read.",
+            "**Train by role.** Deliver AI literacy training proportionate to each role, document attendance and content, and repeat when systems or rules change.",
+            "**Fix the vendor contracts.** Ask for AI Act documentation, model information, data processing terms and notification of material changes. Clarify who is the provider of what.",
+            "**Design human oversight.** For every use that decides or acts, define who oversees it, what they can see, what authority they have to intervene and how their decisions are logged. Our guide on [guardrails for AI agents](page:insights/guardrails-for-agents) covers the technical side.",
+            "**Document and monitor.** Maintain the inventory as a living register, keep logs, define an incident process and review the whole set on a fixed cadence."
+          ] },
+          { "p": "None of this requires a large programme. For a mid-sized company the first pass through all seven steps typically takes a few weeks, and it produces something useful beyond compliance: a clear picture of where AI is already used and where it should be. Our [AI governance service](page:services/ai-governance) runs exactly this process and leaves you with the register, the policy and the oversight design." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Does the AI Act apply to a small company that only uses tools like Microsoft Copilot or ChatGPT?", "a": "Yes, as a deployer. For minimal-risk use the concrete duties are limited to AI literacy and, where a chatbot faces customers, transparency. The regulation is deliberately proportionate, but “we only use it a bit” is not an exemption, and an inventory is the only way to know that you really are in the minimal-risk tier." },
+          { "q": "Is our HR chatbot a high-risk system?", "a": "A chatbot that answers policy questions for employees is normally a transparency case, not high-risk. It becomes high-risk if it takes part in decisions about recruitment, promotion, task allocation, monitoring or termination. The line is drawn by the purpose, so document what the system is and is not used for." },
+          { "q": "What do we have to do about AI-generated content?", "a": "Content generated or manipulated by AI must be marked as such in machine-readable form by the provider, and deployers must disclose deepfakes and, with some exceptions, AI-generated text published to inform the public. Marketing copy revised by a person under editorial responsibility is generally treated differently from a synthetic video. When in doubt, disclose." },
+          { "q": "What are the penalties?", "a": "The regulation provides for fines calculated as a fixed amount or a share of global annual turnover, whichever is higher, with the highest tier reserved for prohibited practices. Enforcement sits with national authorities, and for most companies the more immediate risk is contractual: customers and partners increasingly ask for AI Act evidence." },
+          { "q": "Do we need an AI officer?", "a": "The regulation does not prescribe one. Someone must own the inventory, the policy and the oversight design, and that person needs enough seniority to say no. In smaller companies this is often the data protection officer or the head of IT; larger ones create a dedicated role. A [fractional Chief AI Officer](page:services/fractional-chief-ai-officer) is one way to cover it without a full-time hire." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related services and reading",
+        "pages": ["services/ai-governance", "services/ai-training", "insights/guardrails-for-agents", "solutions/legal-compliance"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "EU AI Act für Unternehmen: Was jetzt zu tun ist – ein Leitfaden",
+    "metaDescription": "EU AI Act verständlich erklärt: Wer betroffen ist, Risikoklassen mit Alltagsbeispielen, KI-Kompetenzpflicht, Zeitplan, DSGVO und ein 7-Schritte-Plan.",
+    "cardTitle": "EU AI Act für Unternehmen",
+    "cardText": "Für wen die KI-Verordnung gilt, in welche Risikoklasse Ihre Use Cases fallen, was seit 2025 gilt und ein Plan in sieben Schritten, ohne Drama.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "EU AI Act für Unternehmen: Was jetzt zu tun ist,",
+      "titleAccent": "verständlich erklärt.",
+      "standfirst": "Der EU AI Act, die KI-Verordnung, ist das erste umfassende Gesetz zu künstlicher Intelligenz – und er gilt für fast jedes Unternehmen, das KI in der EU einsetzt, nicht nur für die, die sie entwickeln. Dieser Leitfaden erklärt Rollen, Risikoklassen, die KI-Kompetenzpflicht und den Zeitplan in verständlicher Sprache und endet mit einem Aktionsplan in sieben Schritten für ein typisches Unternehmen."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Grundlagen",
+        "content": [
+          { "note": "Dieser Artikel ist eine allgemeine Information, keine Rechtsberatung. Er vereinfacht eine umfangreiche Verordnung, und Teile des Zeitplans waren zuletzt in Bewegung. Prüfen Sie den aktuellen Stand mit Ihrer Rechtsabteilung oder Ihrem Datenschutzbeauftragten, bevor Sie Ihre Planung darauf aufbauen." },
+          { "h2": "Was der EU AI Act ist" },
+          { "p": "Der EU AI Act (Verordnung (EU) 2024/1689, auf Deutsch KI-Verordnung) ist eine Regulierung nach dem Vorbild des Produktsicherheitsrechts. Er reguliert nicht KI als Technologie, sondern konkrete Einsatzzwecke, je nach dem Risiko, das sie für Gesundheit, Sicherheit und Grundrechte von Menschen bedeuten. Für die meisten Einsätze gelten wenige oder keine besonderen Pflichten. Eine definierte Gruppe von Praktiken ist verboten, eine weitere gilt als Hochrisiko mit erheblichen Pflichten, und manche Einsätze lösen Transparenzpflichten aus. Als EU-Verordnung gilt er unmittelbar in jedem Mitgliedstaat; nationale Behörden sind für Aufsicht und Durchsetzung zuständig." },
+          { "h2": "Für wen er gilt: Anbieter, Betreiber und Unternehmen außerhalb der EU" },
+          { "p": "Die Verordnung kennt mehrere Rollen, aber zwei sind für die meisten Unternehmen entscheidend. Ein **Anbieter** entwickelt ein KI-System oder lässt es entwickeln und bringt es unter eigenem Namen in Verkehr oder nimmt es in Betrieb. Ein **Betreiber** nutzt ein KI-System in eigener Verantwortung im beruflichen Kontext. Das Softwareunternehmen, das ein Recruiting-Tool mit KI-Ranking verkauft, ist Anbieter; der Mittelständler, der damit Bewerbungen vorsortiert, ist Betreiber. Betreiber haben weniger Pflichten als Anbieter, aber sie sind nicht ausgenommen." },
+          { "p": "Zwei Punkte überraschen viele Unternehmen. Erstens gilt die Verordnung auch für Unternehmen außerhalb der EU, wenn sie KI-Systeme auf dem EU-Markt anbieten oder wenn die Ergebnisse ihres Systems in der EU verwendet werden – ein Schweizer oder US-amerikanisches Unternehmen mit EU-Kunden fällt also darunter. Zweitens kann aus einem Betreiber ein Anbieter werden: Wer ein Hochrisiko-System unter eigener Marke einsetzt, es wesentlich verändert oder seinen Zweck so ändert, dass es zum Hochrisiko-System wird, übernimmt die Anbieterpflichten. Eigene KI-Agenten zu bauen macht Sie nicht automatisch zum Anbieter, aber Sie können für das Verhalten des Systems nicht auf einen Hersteller verweisen." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Risikoklassen",
+        "content": [
+          { "h2": "Die Risikoklassen, mit Beispielen, die für normale Unternehmen zählen" },
+          { "p": "Die Einstufung hängt vom Einsatzzweck ab, nicht von der Technologie. Dasselbe Sprachmodell ist minimales Risiko, wenn es Marketingtexte entwirft, und Hochrisiko, wenn es Bewerbungen bewertet." },
+          { "table": {
+            "caption": "Risikoklassen des EU AI Act",
+            "columns": ["Klasse", "Was hineinfällt", "Beispiele im typischen Unternehmen", "Ihre Pflichten in Kürze"],
+            "rows": [
+              ["Verboten", "Praktiken, die als inakzeptabel gelten, etwa manipulative Techniken, die Schaden verursachen, Social Scoring sowie Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen (mit engen Ausnahmen)", "Emotionen von Beschäftigten in Videocalls auswerten; Vertrauenswürdigkeit von Kunden aus sachfremdem Verhalten bewerten", "Nicht einsetzen. Diese Verbote gelten seit Februar 2025"],
+              ["Hochrisiko", "Einsätze aus dem Anhang der Verordnung zu Hochrisiko-Systemen, darunter Biometrie, kritische Infrastruktur, Bildung, Beschäftigung und Personalmanagement sowie Zugang zu wesentlichen Leistungen wie Kredit und Versicherung, dazu KI-Sicherheitskomponenten in regulierten Produkten", "Bewerbungen vorsortieren oder bewerten; Leistung überwachen, um Aufgaben zuzuteilen oder über Beförderungen zu entscheiden; Kreditwürdigkeit prüfen; Prüfungen benoten", "Anbieter: Risikomanagement, Daten-Governance, Dokumentation, Konformitätsbewertung, Registrierung. Betreiber: Nutzung gemäß Anleitung, menschliche Aufsicht durch geschulte Personen, Überwachung, Protokolle, Information von Beschäftigten und Betroffenen"],
+              ["Begrenztes Risiko (Transparenz)", "Systeme, die mit Menschen interagieren oder Inhalte erzeugen", "Kunden-Chatbots; KI-generierte Bilder, Videos und Stimmen; KI-geschriebene Texte zu Themen von öffentlichem Interesse", "Menschen darüber informieren, dass sie mit KI zu tun haben; KI-generierte oder manipulierte Inhalte kennzeichnen; über Emotionserkennung oder biometrische Kategorisierung informieren"],
+              ["Minimales Risiko", "Alles andere", "Spamfilter, interne Schreibassistenten, Zusammenfassung von Dokumenten, die meisten Prozessagenten, die unterstützen statt zu entscheiden", "Keine besonderen Pflichten außer KI-Kompetenz; freiwillige Verhaltenskodizes"]
+            ]
+          } },
+          { "p": "Für die meisten Unternehmen liegt die praktische Arbeit in der zweiten und dritten Zeile: prüfen, ob etwas im Einsatz Personalentscheidungen, Kredit, Bildung oder kritische Infrastruktur berührt, und sicherstellen, dass jeder Chatbot und jeder veröffentlichte KI-generierte Inhalt den richtigen Hinweis trägt." },
+          { "h2": "KI-Modelle mit allgemeinem Verwendungszweck" },
+          { "p": "KI-Modelle mit allgemeinem Verwendungszweck, die großen Modelle hinter den Produkten von OpenAI, Anthropic, Google, Mistral und anderen, haben ein eigenes Kapitel. Die Pflichten liegen vor allem bei den Modellanbietern: technische Dokumentation, Informationen für nachgelagerte Entwickler, eine Urheberrechts-Policy, eine Zusammenfassung der Trainingsinhalte und zusätzliche Pflichten für Modelle mit systemischem Risiko. Sie gelten seit August 2025." },
+          { "p": "Für ein Unternehmen, das Agenten oder Produkte auf einem solchen Modell aufbaut, ist die Folge indirekt, aber real: Sie stützen sich für Ihre eigenen Pflichten auf die Dokumentation des Anbieters und bleiben für das System verantwortlich, das Sie bauen. Fragen Sie Ihre Anbieter nach ihrer AI-Act-Dokumentation." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Pflichten für alle",
+        "content": [
+          { "h2": "Die KI-Kompetenzpflicht gilt für jede Organisation" },
+          { "p": "Artikel 4 ist der Teil der Verordnung, den die meisten Unternehmen übersehen. Seit Februar 2025 müssen Anbieter und Betreiber sicherstellen, dass ihre Beschäftigten und andere Personen, die in ihrem Auftrag KI-Systeme betreiben oder nutzen, über ein ausreichendes Maß an KI-Kompetenz verfügen. Das erforderliche Niveau richtet sich nach Rolle, technischem Vorwissen und Einsatzkontext, einschließlich der Menschen, auf die sich das System auswirkt." },
+          { "p": "Ein bestimmtes Zertifikat ist nicht vorgeschrieben, und die Pflicht ist verhältnismäßig: Eine Buchhalterin, die einen KI-Assistenten für Entwürfe nutzt, braucht eine andere Schulung als das HR-Team, das ein Vorauswahl-Tool betreibt. Was Sie brauchen, ist ein rollenbasiertes Schulungskonzept, ein Nachweis der Durchführung und ein Weg, es aktuell zu halten. Unsere [KI-Schulungen](page:services/ai-training) sind um diese Pflicht herum aufgebaut, vom Briefing für die Geschäftsführung bis zu praktischen Sessions für Teams, die täglich mit Agenten arbeiten." },
+          { "h2": "Der Zeitplan" },
+          { "table": {
+            "caption": "Gestaffelte Anwendung des EU AI Act (ursprünglicher Zeitplan; aktuellen Stand prüfen)",
+            "columns": ["Datum", "Was gilt"],
+            "rows": [
+              ["1. August 2024", "Die Verordnung tritt in Kraft"],
+              ["2. Februar 2025", "Verbotene Praktiken und KI-Kompetenzpflicht gelten"],
+              ["2. August 2025", "Pflichten für KI-Modelle mit allgemeinem Verwendungszweck; Governance-Strukturen und Sanktionsregeln stehen"],
+              ["2. August 2026", "Ursprünglich vorgesehen: die meisten übrigen Pflichten, darunter Transparenzpflichten und die Hochrisiko-Regeln für die Anwendungsfälle des Anhangs"],
+              ["2. August 2027", "Ursprünglich vorgesehen: Hochrisiko-Regeln für KI in regulierten Produkten wie Maschinen und Medizinprodukten"]
+            ]
+          } },
+          { "p": "Zum Zeitpunkt der Veröffentlichung wurden auf EU-Ebene Vorschläge diskutiert, Teile der Hochrisiko-Pflichten zu verschieben. Behandeln Sie die Termine 2026 und 2027 als ursprünglichen Zeitplan, nicht als gesichert, und prüfen Sie den aktuellen Stand, bevor Sie Ihre Compliance-Arbeit daran ausrichten. Unstrittig ist: Verbote, Kompetenzpflicht und die Regeln für Modelle mit allgemeinem Verwendungszweck gelten bereits." },
+          { "h2": "Wie EU AI Act und DSGVO zusammenspielen" },
+          { "p": "Die DSGVO gilt, sobald personenbezogene Daten verarbeitet werden, unabhängig von der Risikoklasse nach dem AI Act. In der Praxis überschneiden sich beide bei denselben Fragen: Gibt es eine Rechtsgrundlage für die Daten, sind die Betroffenen informiert, ist eine Datenschutz-Folgenabschätzung nötig, und werden Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung allein von einer Maschine getroffen? Der AI Act ergänzt die Produktsicht: Ist das System dokumentiert, getestet, beaufsichtigt und protokolliert?" },
+          { "p": "Für Unternehmen in Deutschland kommt eine dritte Ebene hinzu: Der Betriebsrat hat Mitbestimmungsrechte bei technischen Systemen, die Leistung oder Verhalten überwachen können – und das trifft auf viele KI-Werkzeuge zu. Effizient ist ein einziger Aufnahmeprozess für jeden neuen KI-Einsatz, der die Fragen zu DSGVO, AI Act und Mitbestimmung gemeinsam beantwortet, statt drei getrennter Prüfungen in der falschen Reihenfolge." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Aktionsplan",
+        "content": [
+          { "h2": "Ein Aktionsplan in sieben Schritten für ein typisches Unternehmen" },
+          { "ol": [
+            "**Inventar.** Erfassen Sie jedes eingesetzte KI-System, einschließlich Funktionen in SaaS-Produkten, der eigenständigen Tool-Nutzung durch Beschäftigte und interner Agenten. Halten Sie Zweck, Anbieter, betroffene Daten, Nutzer und Betroffene fest.",
+            "**Einstufen.** Bestimmen Sie für jeden Eintrag Ihre Rolle (Anbieter oder Betreiber) und die Risikoklasse. Markieren Sie alles, was Beschäftigung, Kredit, Bildung, Biometrie oder kritische Infrastruktur berührt, für eine genauere Prüfung, und identifizieren Sie jeden Chatbot und jeden Einsatz generierter Inhalte für die Transparenzpflichten.",
+            "**KI-Richtlinie schreiben.** Zulässige Nutzung, verbotene Nutzung, wie neue Use Cases beantragt und freigegeben werden, wer die KI-Governance verantwortet. Wenige Seiten, die tatsächlich gelesen werden.",
+            "**Rollenbasiert schulen.** Vermitteln Sie KI-Kompetenz angemessen zur jeweiligen Rolle, dokumentieren Sie Teilnahme und Inhalte und wiederholen Sie die Schulung, wenn sich Systeme oder Regeln ändern.",
+            "**Anbieterverträge nachziehen.** Fordern Sie AI-Act-Dokumentation, Modellinformationen, Auftragsverarbeitungsbedingungen und die Ankündigung wesentlicher Änderungen ein. Klären Sie, wer Anbieter wovon ist.",
+            "**Menschliche Aufsicht gestalten.** Legen Sie für jeden Einsatz, der entscheidet oder handelt, fest, wer ihn beaufsichtigt, was diese Person sieht, welche Befugnis sie zum Eingreifen hat und wie ihre Entscheidungen protokolliert werden. Die technische Seite behandelt unser Leitfaden zu [Guardrails für KI-Agenten](page:insights/guardrails-for-agents).",
+            "**Dokumentieren und überwachen.** Führen Sie das Inventar als lebendes Register, bewahren Sie Protokolle auf, definieren Sie einen Prozess für Vorfälle und überprüfen Sie das Ganze in festem Rhythmus."
+          ] },
+          { "p": "Nichts davon erfordert ein großes Programm. Für ein mittelständisches Unternehmen dauert der erste Durchlauf durch alle sieben Schritte in der Regel wenige Wochen und liefert etwas, das über Compliance hinaus nützlich ist: ein klares Bild davon, wo KI bereits eingesetzt wird und wo sie eingesetzt werden sollte. Unsere [KI-Governance-Beratung](page:services/ai-governance) führt genau diesen Prozess durch und hinterlässt Ihnen Register, Richtlinie und Aufsichtskonzept." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Gilt der EU AI Act für ein kleines Unternehmen, das nur Werkzeuge wie Microsoft Copilot oder ChatGPT nutzt?", "a": "Ja, als Betreiber. Bei minimalem Risiko beschränken sich die konkreten Pflichten auf KI-Kompetenz und, wo ein Chatbot Kunden gegenübertritt, auf Transparenz. Die Verordnung ist bewusst verhältnismäßig, aber „wir nutzen das nur ein bisschen“ ist keine Ausnahme – und nur ein Inventar zeigt Ihnen, dass Sie tatsächlich in der Klasse mit minimalem Risiko sind." },
+          { "q": "Ist unser HR-Chatbot ein Hochrisiko-System?", "a": "Ein Chatbot, der Beschäftigten Fragen zu Richtlinien beantwortet, ist normalerweise ein Transparenzfall, kein Hochrisiko. Er wird zum Hochrisiko-System, wenn er an Entscheidungen über Einstellung, Beförderung, Aufgabenzuteilung, Überwachung oder Kündigung beteiligt ist. Die Grenze zieht der Zweck – dokumentieren Sie also, wofür das System genutzt wird und wofür nicht." },
+          { "q": "Was müssen wir bei KI-generierten Inhalten beachten?", "a": "Inhalte, die von KI erzeugt oder verändert wurden, müssen vom Anbieter maschinenlesbar gekennzeichnet werden; Betreiber müssen Deepfakes offenlegen und, mit einigen Ausnahmen, KI-generierte Texte, die zur Information der Öffentlichkeit veröffentlicht werden. Ein Marketingtext, den ein Mensch redaktionell verantwortet und überarbeitet, wird in der Regel anders behandelt als ein synthetisches Video. Im Zweifel offenlegen." },
+          { "q": "Welche Sanktionen drohen?", "a": "Die Verordnung sieht Bußgelder vor, die als fester Betrag oder als Anteil des weltweiten Jahresumsatzes berechnet werden, je nachdem, was höher ist; die höchste Stufe ist verbotenen Praktiken vorbehalten. Die Durchsetzung liegt bei nationalen Behörden, und für die meisten Unternehmen ist das unmittelbarere Risiko vertraglich: Kunden und Partner fragen zunehmend nach AI-Act-Nachweisen." },
+          { "q": "Brauchen wir einen KI-Beauftragten?", "a": "Die Verordnung schreibt keinen vor. Jemand muss Inventar, Richtlinie und Aufsichtskonzept verantworten, und diese Person braucht genug Gewicht, um Nein zu sagen. In kleineren Unternehmen ist das oft der Datenschutzbeauftragte oder die IT-Leitung; größere schaffen eine eigene Rolle. Ein [Chief AI Officer auf Zeit](page:services/fractional-chief-ai-officer) ist ein Weg, das ohne Vollzeitstelle abzudecken." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Leistungen und Artikel",
+        "pages": ["services/ai-governance", "services/ai-training", "insights/guardrails-for-agents", "solutions/legal-compliance"]
+      }
+    ]
+  }
+}

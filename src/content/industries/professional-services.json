@@ -1,0 +1,369 @@
+{
+  "id": "industries/professional-services",
+  "en": {
+    "metaTitle": "AI for Professional Services: Law Firms, Tax Advisors, Consultancies",
+    "metaDescription": "AI agents for law firms, tax advisors, accountants, consultancies and agencies: proposals, research, document review and knowledge management, under secrecy.",
+    "cardTitle": "Professional services",
+    "cardText": "Proposals, research, document review and knowledge management for law firms, tax advisors, consultancies and agencies, under professional secrecy.",
+    "hero": {
+      "eyebrow": "Industries · Professional services",
+      "title": "When your product is expertise,",
+      "titleAccent": "AI changes the economics.",
+      "standfirst": "Law firms, tax advisors, accountants, consultancies, agencies and engineering offices sell judgement by the hour. AI agents take on the reading, drafting, searching and checking around that judgement, which raises the question of what to do with the hours saved. We help you deploy the agents under professional secrecy and answer that question deliberately.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Why professional services",
+        "lede": "No industry has more of its work in documents, and no industry has stricter rules about who may read them.",
+        "body": [
+          "A professional-services firm is a knowledge base with people attached. Engagement files, precedents, templates, research memos, working papers and client correspondence hold most of what the firm knows, and every new engagement starts by finding and adapting what already exists. Language models are built for exactly this kind of work: reading, comparing, summarising and drafting from prior material.",
+          "At the same time, the constraints are among the strictest anywhere. Professional secrecy obligations for lawyers, tax advisors and auditors, client confidentiality, liability for advice, and quality standards that require a qualified professional to sign off. Those constraints decide where the agent may run, what it may see and who releases its output. They do not decide whether the firm can use AI at all.",
+          "The second question is commercial. If a task that took four hours takes one, a firm billing by the hour has a pricing problem and a firm on fixed fees has a margin opportunity. We treat this as part of the engagement, because a deployment that works technically and hurts the business is not a success."
+        ],
+        "facts": [
+          [
+            "Typical starting point",
+            "Internal knowledge assistant or proposal drafting"
+          ],
+          [
+            "Human checkpoint",
+            "A qualified professional releases every client deliverable"
+          ],
+          [
+            "Systems",
+            "DMS, practice management, email, time and billing"
+          ],
+          [
+            "Constraint",
+            "Professional secrecy, confidentiality, data residency"
+          ]
+        ],
+        "link": {
+          "label": "Enterprise knowledge assistants (RAG)",
+          "page": "services/knowledge-assistants"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Seven workflows that pay off in firms of ten to several hundred professionals.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Proposal and pitch drafting",
+            "text": "From the RFP or the intake call, the agent assembles a first draft from your credentials, team profiles, prior proposals and rate structures, tailored to the client's situation. Partners edit and price; the agent handles formatting and consistency."
+          },
+          {
+            "icon": "search",
+            "title": "Research and document review",
+            "text": "First-pass review of contracts, financial statements, technical reports or discovery material against a checklist, with findings cited to the page. Research memos drafted from your knowledge base and permitted external sources, verified by the professional who signs."
+          },
+          {
+            "icon": "book",
+            "title": "Knowledge management across engagements",
+            "text": "A permission-aware assistant over engagement files, precedents and templates: \"how did we handle a similar clause last year?\" answered with citations, respecting information barriers between matters and clients."
+          },
+          {
+            "icon": "clock",
+            "title": "Time and billing narratives",
+            "text": "The agent drafts time-entry narratives from calendar, email and document activity for the professional to confirm, and prepares invoice descriptions in the client's required format. It improves billing accuracy without deciding what is billable."
+          },
+          {
+            "icon": "shield",
+            "title": "Client onboarding and KYC document checks",
+            "text": "Collecting and checking identification documents, beneficial-ownership information and engagement letters against your onboarding checklist and anti-money-laundering obligations, with the compliance officer deciding on flags."
+          },
+          {
+            "icon": "people",
+            "title": "Report and deliverable drafting",
+            "text": "Structured deliverables such as due-diligence reports, tax memos, audit documentation and consulting reports drafted from working papers and templates, in your house style, with every figure traced to its source and a partner review before release."
+          },
+          {
+            "icon": "chat",
+            "title": "Internal helpdesk",
+            "text": "Questions about firm policies, IT, HR, templates and procedures answered from your intranet with citations, so support staff and knowledge managers are not the search engine for everyone else."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Constraints specific to professional services",
+        "items": [
+          {
+            "title": "Professional secrecy and confidentiality",
+            "text": "Lawyers, tax advisors and auditors are bound by professional secrecy obligations that restrict who may process client material and under what contractual conditions. Hosting, provider contracts and access design have to satisfy them. In practice this points toward EU-hosted or on-premises models for client files and contractual no-training guarantees everywhere. This is a design constraint we take from your professional body's guidance; it is not legal advice."
+          },
+          {
+            "title": "Information barriers between matters",
+            "text": "A knowledge assistant that reaches across all engagements is a conflict-of-interest problem unless permissions follow the same barriers as your DMS. Permission-aware retrieval is a hard requirement, not a feature."
+          },
+          {
+            "title": "Liability and sign-off",
+            "text": "Advice carries liability, so every client deliverable is released by a qualified professional. The agent's role is to make that professional faster and better informed, and to document what it contributed."
+          },
+          {
+            "title": "Data residency and client contracts",
+            "text": "Many client engagement letters restrict where data may be processed. The hosting decision has to respect the most restrictive client, or the firm needs separate configurations per client class."
+          },
+          {
+            "title": "Billing-model implications",
+            "text": "Hours saved change the business. We help firms decide, engagement type by engagement type, whether to keep hourly billing with higher leverage, move to fixed fees, or productise services, before the agents make the decision for them."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks: engagement types and volumes, where professionals' hours go, the DMS and practice-management landscape, confidentiality obligations and client contract constraints. Output: ranked use cases, a hosting recommendation and a first view on billing implications.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Permission model mirroring your information barriers, provider and hosting selection that satisfies professional secrecy, review and sign-off workflow, and the evaluation set built from anonymised past work.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production assistant for one practice group or one workflow, used on live engagements by a pilot group, measured on hours per task and quality as judged by partners.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Roll out to further practice groups, add drafting and review workflows, train knowledge managers to maintain the corpus, and set up [managed AI operations](page:services/managed-ai-operations) or an internal owner.",
+            "meta": "From month 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Can we use AI on client files under professional secrecy?",
+            "a": "Firms do, with the right setup: models hosted in the EU or on your own infrastructure, provider contracts with confidentiality and no-training clauses, access controls that mirror your matter permissions, and documentation of all of it. The specific requirements depend on your profession and your bar or chamber's guidance, which we work through with your compliance partner. We provide the technical and process design, not legal advice."
+          },
+          {
+            "q": "Will clients accept that AI was used on their matter?",
+            "a": "Increasingly they expect it, and some ask for it in the engagement letter. Transparency helps: a clear description of what the agent does, what it does not see and who reviews its output. We help firms write that description and the corresponding clause."
+          },
+          {
+            "q": "How do we keep the quality of advice?",
+            "a": "The same way as today: a qualified professional reviews and signs. What changes is that the professional reviews a cited draft rather than starting from nothing. During the pilot we have partners blind-rate agent-assisted and conventional work, so the quality question is answered with evidence."
+          },
+          {
+            "q": "What about our hourly billing model?",
+            "a": "It is the most important commercial question in this industry and we treat it as part of the project. Options include higher leverage per professional, fixed-fee products for standardised work and value-based pricing for advice. The right answer differs by practice area, and the data from the pilot tells you where each applies."
+          },
+          {
+            "q": "Which systems do you integrate with?",
+            "a": "Document management systems such as iManage and NetDocuments, practice-management and time-and-billing tools, Microsoft 365 and email, and, for tax and accounting firms, DATEV and similar platforms, through APIs or the Model Context Protocol where available. We verify the concrete landscape during the assessment."
+          },
+          {
+            "q": "How large does a firm need to be?",
+            "a": "The workflows pay off from around ten professionals, because the knowledge base and the document volumes already exist. Larger firms benefit from the same patterns at scale and need more attention to information barriers and governance."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/knowledge-assistants",
+          "solutions/legal-compliance",
+          "services/ai-governance",
+          "insights/sovereign-ai-eu-hosting"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI für Professional Services: Kanzleien, Steuerberater, Beratungen",
+    "metaDescription": "KI-Agenten für Kanzleien, Steuerberater, Wirtschaftsprüfer, Beratungen und Agenturen: Angebote, Recherche, Dokumentenprüfung und Wissensmanagement.",
+    "cardTitle": "Beratung & Professional Services",
+    "cardText": "Angebote, Recherche, Dokumentenprüfung und Wissensmanagement für Kanzleien, Steuerberater, Beratungen und Agenturen – unter Berufsgeheimnis.",
+    "hero": {
+      "eyebrow": "Branchen · Professional Services",
+      "title": "Wenn Ihr Produkt Expertise ist,",
+      "titleAccent": "verändert KI die Rechnung.",
+      "standfirst": "Kanzleien, Steuerberater, Wirtschaftsprüfer, Beratungen, Agenturen und Ingenieurbüros verkaufen Urteilsvermögen nach Stunden. KI-Agenten übernehmen das Lesen, Entwerfen, Suchen und Prüfen rund um dieses Urteil – und werfen die Frage auf, was mit den eingesparten Stunden geschieht. Wir helfen Ihnen, die Agenten unter Berufsgeheimnis einzuführen und diese Frage bewusst zu beantworten.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Warum Professional Services",
+        "lede": "Keine Branche hat mehr ihrer Arbeit in Dokumenten, und keine Branche hat strengere Regeln dafür, wer sie lesen darf.",
+        "body": [
+          "Ein Dienstleistungsunternehmen für Professional Services ist eine Wissensbasis mit Menschen daran. Mandatsakten, Präzedenzfälle, Vorlagen, Rechercheberichte, Arbeitspapiere und Mandantenkorrespondenz enthalten das meiste von dem, was die Firma weiß, und jedes neue Mandat beginnt damit, zu finden und anzupassen, was bereits existiert. Sprachmodelle sind genau für diese Art von Arbeit gebaut: lesen, vergleichen, zusammenfassen und aus vorhandenem Material entwerfen.",
+          "Gleichzeitig gehören die Rahmenbedingungen zu den strengsten überhaupt. Berufsgeheimnis für Rechtsanwälte, Steuerberater und Wirtschaftsprüfer, Mandantenvertraulichkeit, Haftung für Beratung und Qualitätsstandards, die die Freigabe durch eine qualifizierte Fachkraft verlangen. Diese Rahmenbedingungen entscheiden, wo der Agent laufen darf, was er sehen darf und wer seine Ergebnisse freigibt. Sie entscheiden nicht darüber, ob die Firma KI überhaupt nutzen kann.",
+          "Die zweite Frage ist kaufmännisch. Wenn eine Aufgabe, die vier Stunden dauerte, in einer Stunde erledigt ist, hat eine Firma mit Stundenabrechnung ein Preisproblem und eine Firma mit Festpreisen eine Margenchance. Wir behandeln das als Teil des Projekts, denn eine Einführung, die technisch funktioniert und dem Geschäft schadet, ist kein Erfolg."
+        ],
+        "facts": [
+          [
+            "Typischer Einstieg",
+            "Interner Wissensassistent oder Angebotserstellung"
+          ],
+          [
+            "Menschlicher Kontrollpunkt",
+            "Eine qualifizierte Fachkraft gibt jedes Mandantenergebnis frei"
+          ],
+          [
+            "Systeme",
+            "DMS, Kanzlei-/Projektsoftware, E-Mail, Zeiterfassung und Abrechnung"
+          ],
+          [
+            "Rahmenbedingung",
+            "Berufsgeheimnis, Vertraulichkeit, Datenresidenz"
+          ]
+        ],
+        "link": {
+          "label": "Wissensassistenten für Unternehmen (RAG)",
+          "page": "services/knowledge-assistants"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Sieben Workflows, die sich in Firmen mit zehn bis mehreren hundert Fachkräften rechnen.",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Angebots- und Pitch-Erstellung",
+            "text": "Aus der Ausschreibung oder dem Erstgespräch stellt der Agent einen ersten Entwurf aus Ihren Referenzen, Teamprofilen, früheren Angeboten und Honorarstrukturen zusammen, zugeschnitten auf die Situation des Mandanten. Partner redigieren und kalkulieren; der Agent übernimmt Formatierung und Konsistenz."
+          },
+          {
+            "icon": "search",
+            "title": "Recherche und Dokumentenprüfung",
+            "text": "Erste Durchsicht von Verträgen, Jahresabschlüssen, technischen Berichten oder Beweismaterial gegen eine Checkliste, mit seitengenau zitierten Befunden. Recherchevermerke aus Ihrer Wissensbasis und zugelassenen externen Quellen, verifiziert von der Fachkraft, die unterschreibt."
+          },
+          {
+            "icon": "book",
+            "title": "Wissensmanagement über Mandate hinweg",
+            "text": "Ein berechtigungsbewusster Assistent über Mandatsakten, Präzedenzfälle und Vorlagen: „Wie haben wir eine ähnliche Klausel letztes Jahr gelöst?“ – beantwortet mit Quellenangaben und unter Wahrung der Informationsbarrieren zwischen Mandaten und Mandanten."
+          },
+          {
+            "icon": "clock",
+            "title": "Leistungserfassung und Rechnungstexte",
+            "text": "Der Agent entwirft Tätigkeitsbeschreibungen aus Kalender-, E-Mail- und Dokumentaktivität zur Bestätigung durch die Fachkraft und bereitet Rechnungspositionen im vom Mandanten geforderten Format vor. Er verbessert die Abrechnungsgenauigkeit, ohne zu entscheiden, was abrechenbar ist."
+          },
+          {
+            "icon": "shield",
+            "title": "Mandantenaufnahme und KYC-Dokumentenprüfung",
+            "text": "Sammeln und Prüfen von Ausweisdokumenten, Angaben zu wirtschaftlich Berechtigten und Mandatsvereinbarungen gegen Ihre Aufnahme-Checkliste und geldwäscherechtliche Pflichten – über Auffälligkeiten entscheidet der Compliance-Beauftragte."
+          },
+          {
+            "icon": "people",
+            "title": "Berichte und Ergebnisdokumente",
+            "text": "Strukturierte Ergebnisse wie Due-Diligence-Berichte, steuerliche Gutachten, Prüfungsdokumentation und Beratungsberichte, entworfen aus Arbeitspapieren und Vorlagen im Hausstil – jede Zahl auf ihre Quelle zurückführbar, Partnerprüfung vor Freigabe."
+          },
+          {
+            "icon": "chat",
+            "title": "Interner Helpdesk",
+            "text": "Fragen zu Richtlinien, IT, HR, Vorlagen und Abläufen der Firma werden aus dem Intranet mit Quellenangaben beantwortet – damit Assistenz und Wissensmanagement nicht die Suchmaschine für alle anderen sind."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Besonderheiten der Branche",
+        "items": [
+          {
+            "title": "Berufsgeheimnis und Vertraulichkeit",
+            "text": "Rechtsanwälte, Steuerberater und Wirtschaftsprüfer unterliegen Verschwiegenheitspflichten, die einschränken, wer Mandantenmaterial unter welchen vertraglichen Bedingungen verarbeiten darf. Hosting, Anbieterverträge und Zugriffskonzept müssen ihnen genügen. In der Praxis führt das zu EU-gehosteten oder On-Premises-Modellen für Mandatsakten und zu vertraglichen Garantien gegen Training überall. Diese Vorgabe entnehmen wir den Hinweisen Ihrer Berufskammer; sie ist keine Rechtsberatung."
+          },
+          {
+            "title": "Informationsbarrieren zwischen Mandaten",
+            "text": "Ein Wissensassistent, der über alle Mandate hinweg zugreift, ist ein Interessenkonflikt, sofern die Berechtigungen nicht denselben Barrieren folgen wie Ihr DMS. Berechtigungsbewusste Suche ist eine harte Anforderung, kein Feature."
+          },
+          {
+            "title": "Haftung und Freigabe",
+            "text": "Beratung trägt Haftung, deshalb wird jedes Mandantenergebnis von einer qualifizierten Fachkraft freigegeben. Die Rolle des Agenten ist, diese Fachkraft schneller und besser informiert zu machen – und zu dokumentieren, was er beigetragen hat."
+          },
+          {
+            "title": "Datenresidenz und Mandantenverträge",
+            "text": "Viele Mandatsvereinbarungen beschränken, wo Daten verarbeitet werden dürfen. Die Hosting-Entscheidung muss den restriktivsten Mandanten berücksichtigen – oder die Firma braucht getrennte Konfigurationen je Mandantenklasse."
+          },
+          {
+            "title": "Folgen für das Abrechnungsmodell",
+            "text": "Eingesparte Stunden verändern das Geschäft. Wir helfen Firmen, Mandatstyp für Mandatstyp zu entscheiden, ob sie bei Stundenabrechnung mit höherem Hebel bleiben, auf Festpreise umstellen oder Leistungen produktisieren – bevor die Agenten die Entscheidung für sie treffen."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen: Mandatstypen und -volumen, wohin die Stunden der Fachkräfte fließen, DMS- und Kanzleisoftware-Landschaft, Vertraulichkeitspflichten und Vorgaben aus Mandantenverträgen. Ergebnis: bewertete Use Cases, eine Hosting-Empfehlung und eine erste Einschätzung zu Abrechnungsfolgen.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Berechtigungsmodell, das Ihre Informationsbarrieren spiegelt, Anbieter- und Hosting-Auswahl nach den Anforderungen des Berufsgeheimnisses, Prüf- und Freigabe-Workflow sowie das Evaluationsset aus anonymisierten früheren Arbeiten.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem produktiven Assistenten für eine Praxisgruppe oder einen Workflow, von einer Pilotgruppe in laufenden Mandaten genutzt, gemessen an Stunden pro Aufgabe und an der Qualität nach Einschätzung der Partner.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Ausrollen auf weitere Praxisgruppen, Ergänzung von Entwurfs- und Prüf-Workflows, Schulung der Wissensmanager in der Pflege des Korpus und Aufbau von [Managed AI Operations](page:services/managed-ai-operations) oder einer internen Verantwortung.",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Dürfen wir KI unter Berufsgeheimnis auf Mandatsakten anwenden?",
+            "a": "Firmen tun das, mit dem richtigen Aufbau: Modelle in der EU oder auf eigener Infrastruktur gehostet, Anbieterverträge mit Vertraulichkeits- und No-Training-Klauseln, Zugriffskontrollen, die Ihre Mandatsberechtigungen spiegeln, und Dokumentation von alldem. Die konkreten Anforderungen hängen von Ihrem Beruf und den Hinweisen Ihrer Kammer ab, die wir mit Ihrem Compliance-Partner durchgehen. Wir liefern das technische und prozessuale Design, keine Rechtsberatung."
+          },
+          {
+            "q": "Akzeptieren Mandanten, dass KI in ihrem Mandat eingesetzt wurde?",
+            "a": "Zunehmend erwarten sie es, und manche verlangen es in der Mandatsvereinbarung. Transparenz hilft: eine klare Beschreibung, was der Agent tut, was er nicht sieht und wer seine Ergebnisse prüft. Wir helfen Firmen, diese Beschreibung und die entsprechende Klausel zu formulieren."
+          },
+          {
+            "q": "Wie erhalten wir die Qualität der Beratung?",
+            "a": "Genauso wie heute: Eine qualifizierte Fachkraft prüft und unterschreibt. Was sich ändert: Sie prüft einen Entwurf mit Quellenangaben, statt bei null anzufangen. Im Piloten lassen wir Partner KI-gestützte und konventionelle Arbeit verblindet bewerten, damit die Qualitätsfrage mit Belegen beantwortet wird."
+          },
+          {
+            "q": "Was wird aus unserem Stundenhonorar?",
+            "a": "Das ist die wichtigste kaufmännische Frage in dieser Branche, und wir behandeln sie als Teil des Projekts. Optionen sind ein höherer Hebel je Fachkraft, Festpreisprodukte für standardisierte Arbeit und wertbasierte Preise für Beratung. Die richtige Antwort ist je Praxisbereich verschieden, und die Daten aus dem Piloten zeigen, wo welche passt."
+          },
+          {
+            "q": "Mit welchen Systemen integrieren Sie?",
+            "a": "Dokumentenmanagementsysteme wie iManage und NetDocuments, Kanzlei- und Projektsoftware, Zeiterfassung und Abrechnung, Microsoft 365 und E-Mail sowie für Steuer- und Prüfungskanzleien DATEV und vergleichbare Plattformen – über APIs oder, wo verfügbar, das Model Context Protocol. Die konkrete Landschaft prüfen wir im Assessment."
+          },
+          {
+            "q": "Wie groß muss eine Firma sein?",
+            "a": "Die Workflows rechnen sich ab etwa zehn Fachkräften, weil Wissensbasis und Dokumentvolumen dann bereits existieren. Größere Firmen profitieren von denselben Mustern im Maßstab und brauchen mehr Aufmerksamkeit für Informationsbarrieren und Governance."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/knowledge-assistants",
+          "solutions/legal-compliance",
+          "services/ai-governance",
+          "insights/sovereign-ai-eu-hosting"
+        ]
+      }
+    ]
+  }
+}

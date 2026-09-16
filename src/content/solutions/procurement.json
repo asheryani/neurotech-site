@@ -1,0 +1,419 @@
+{
+  "id": "solutions/procurement",
+  "en": {
+    "metaTitle": "AI Agents for Procurement: RFQs, Quote Comparison, Supplier Onboarding",
+    "metaDescription": "AI agents for procurement: request intake, RFQ drafting, quote comparison from PDFs, supplier onboarding checks, spend analysis and follow-ups, with buyer approval.",
+    "cardTitle": "AI agents for procurement",
+    "cardText": "Request intake, RFQ drafting, quote comparison, supplier onboarding checks and spend analysis, with buyers approving every award and every order.",
+    "hero": {
+      "eyebrow": "Solutions · Procurement",
+      "title": "Procurement that spends its time",
+      "titleAccent": "negotiating, not retyping.",
+      "standfirst": "Buyers spend a surprising share of their week turning emails and PDFs into structured data: requests into requisitions, quotes into comparison tables, supplier documents into onboarding checklists. AI agents do that part. Buyers keep the decisions, the relationships and the negotiations, with four-eyes approval wherever money is committed.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where agents pay off in procurement",
+        "lede": "Every purchase runs through the same unstructured inputs: a request in an email, three quotes in three formats, a supplier's certificates as scans. Agents read all of it.",
+        "body": [
+          "Procurement departments are measured on savings, compliance and supplier performance, but much of the day goes to administration: classifying incoming requests, chasing missing information, drafting requests for quotation, normalising quotes that arrive as PDFs and spreadsheets, checking supplier documents and following up on order confirmations. The strategic part of the job, negotiating and managing the supply base, gets what is left.",
+          "AI agents are unusually well suited to this function because the inputs are unstructured and the rules are clear. A request either falls under an existing framework agreement or it does not; a quote either meets the specification or deviates; a supplier's certificate is either valid or expired. An agent can determine this from documents and emails, prepare the comparison and the recommendation, and leave the award to the buyer.",
+          "Compliance requirements, from four-eyes approval thresholds to supply-chain due-diligence obligations, are not an obstacle to this. They define exactly where the human checkpoints go, and an agent that logs every step makes them easier to demonstrate, not harder."
+        ],
+        "facts": [
+          [
+            "Typical starting point",
+            "RFQ drafting and quote comparison"
+          ],
+          [
+            "Human checkpoint",
+            "Buyer approves awards and orders above thresholds"
+          ],
+          [
+            "Systems",
+            "ERP, e-procurement, supplier portals, email, DMS"
+          ],
+          [
+            "Compliance",
+            "Four-eyes principle, audit trail, supplier data protection"
+          ]
+        ],
+        "link": {
+          "label": "Agentic workflow automation",
+          "page": "services/agentic-workflows"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Seven workflows we see procurement teams start with, from request intake to supplier communication.",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "Purchase-request intake and classification",
+            "text": "Requests arrive by email, chat or form in every possible shape. The agent extracts what is needed, checks it against catalogues and framework agreements, asks the requester for missing details and creates a complete requisition in the ERP. Buyers see clean requests instead of conversations."
+          },
+          {
+            "icon": "search",
+            "title": "Supplier discovery and RFQ drafting",
+            "text": "For requests without a contracted supplier, the agent shortlists candidates from your supplier base and approved sources, drafts the request for quotation from the specification and your templates, and sends it after the buyer's approval. Responses are tracked and reminders sent automatically."
+          },
+          {
+            "icon": "chart",
+            "title": "Quote comparison and normalisation",
+            "text": "Quotes come back as PDFs, spreadsheets and emails with different units, currencies, delivery terms and options. The agent extracts them into one comparison table, flags deviations from the specification and calculates total cost including freight and payment terms. The buyer decides the award."
+          },
+          {
+            "icon": "doc",
+            "title": "Supplier onboarding and document checks",
+            "text": "New suppliers submit registration forms, certificates, insurance and compliance declarations. The agent checks completeness and validity dates, screens against sanction and risk lists you subscribe to, and prepares the onboarding file including supply-chain due-diligence documentation. Procurement and compliance approve."
+          },
+          {
+            "icon": "eye",
+            "title": "Contract and price-list monitoring",
+            "text": "The agent monitors framework agreements for expiry and volume thresholds, compares invoiced prices with contracted prices, and watches supplier price-list updates for changes that affect your parts. Buyers receive exceptions, not reports."
+          },
+          {
+            "icon": "target",
+            "title": "Spend analysis and maverick-buying detection",
+            "text": "Across ERP, credit-card and invoice data, the agent classifies spend, identifies purchases outside contracts and channels, and prepares the quarterly spend review with savings hypotheses. Category managers validate and prioritise."
+          },
+          {
+            "icon": "truck",
+            "title": "Order confirmation and delivery follow-ups",
+            "text": "The agent reads order confirmations, compares quantities, prices and dates with the purchase order, updates the ERP where everything matches and flags deviations. Late or partial deliveries trigger a drafted follow-up to the supplier that the buyer releases."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "A worked example",
+        "content": [
+          {
+            "h2": "From requisition to award: the RFQ workflow"
+          },
+          {
+            "p": "This is the workflow most procurement teams choose first, because it combines high volume with a clear approval structure. It covers indirect and direct purchases below the threshold for a formal tender."
+          },
+          {
+            "ol": [
+              "A requester describes what they need in the request form or by email. The agent structures the request, checks whether a framework agreement or catalogue item applies, and, if not, confirms the specification and budget holder with the requester.",
+              "The agent proposes three to five suppliers from the approved supplier base, with their performance history and current documents. The buyer confirms or adjusts the shortlist.",
+              "The agent drafts the RFQ from the specification, the standard terms and the deadline, and sends it after the buyer's release. Replies, questions and clarifications are tracked in one thread per supplier.",
+              "As quotes arrive in different formats, the agent extracts prices, quantities, lead times, payment and delivery terms and options into a single comparison, normalised to total landed cost. Deviations from the specification are highlighted with the supplier's wording.",
+              "The agent prepares an award recommendation with the reasoning: price, lead time, supplier performance, risk. The buyer reviews and decides. Above the four-eyes threshold, a second approver signs off in the e-procurement or ERP workflow.",
+              "After the award, the agent creates the purchase order in the ERP, informs unsuccessful suppliers with a drafted message the buyer releases, and files the complete documentation, so any later audit can see who decided what and why."
+            ]
+          },
+          {
+            "note": "The buyer's involvement shrinks to four decisions: shortlist, release RFQ, award, release messages. Everything between those decisions is prepared, documented and logged by the agent."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Guardrails for procurement",
+        "items": [
+          {
+            "title": "No autonomous ordering above thresholds",
+            "text": "The agent creates requisitions, drafts orders and prepares awards. Commitments above your defined thresholds require buyer approval and, where your policy says so, a second approver. Thresholds are configured per category and enforced in the workflow, not in a prompt."
+          },
+          {
+            "title": "Four-eyes principle preserved",
+            "text": "Existing segregation of duties between requesting, approving and ordering stays intact. The agent never holds the rights to do all three, and its actions are attributed to it in the audit log, not to a human user."
+          },
+          {
+            "title": "Supplier data protection",
+            "text": "Supplier contacts and documents are personal and confidential data. Retention, access and hosting follow your data-protection rules, and the agent only stores what the process needs."
+          },
+          {
+            "title": "Sanction and compliance screening stays a human decision",
+            "text": "The agent screens and flags; a compliance officer decides on matches. Supply-chain due-diligence obligations are documented in the onboarding file for review, not concluded by the agent."
+          },
+          {
+            "title": "Full audit trail",
+            "text": "Every extraction, comparison and recommendation is logged with source documents and model version. Internal audit and external auditors can trace an award end to end."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks: purchase volumes by category and channel, request and RFQ processes, systems (ERP, e-procurement, supplier portals), approval thresholds and compliance obligations. Output: ranked use cases with a business case in buyer hours and cycle time.",
+            "meta": "Weeks 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Approval workflow, integration with ERP and e-procurement, document templates, data-protection review and the evaluation set: a sample of past RFQs and quotes with known outcomes.",
+            "meta": "Weeks 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production agent on one category or one workflow, used by buyers on live requests and measured against cycle time and hours per RFQ before the pilot.",
+            "meta": "Weeks 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Extend to further categories, supplier onboarding and spend analysis, train the team to adjust templates and rules, and hand over operations or move to [managed AI operations](page:services/managed-ai-operations).",
+            "meta": "From month 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Does the agent work with our ERP and e-procurement system?",
+            "a": "Most likely. SAP, Microsoft Dynamics, Oracle and the common e-procurement platforms expose APIs for requisitions, purchase orders and supplier master data, and supplier portals can usually be integrated by email or file exchange where no API exists. We verify the concrete systems during the assessment and tell you where integration is simple and where it needs work."
+          },
+          {
+            "q": "How does the agent handle quotes in different formats?",
+            "a": "It reads PDFs, spreadsheets, emails and scanned documents, extracts the line items and terms, and normalises units, currencies and delivery conditions into your comparison template. Where a quote is ambiguous, it asks the supplier or flags the item for the buyer rather than guessing. Extraction quality is measured on your own past quotes during the pilot."
+          },
+          {
+            "q": "Can the agent negotiate with suppliers?",
+            "a": "We do not recommend it in the first phases. The agent prepares negotiation briefs with price history, alternatives and target prices; the buyer negotiates. Automated messages to suppliers, such as reminders and confirmations, are drafted by the agent and released by the buyer until the team decides otherwise."
+          },
+          {
+            "q": "What about supply-chain due-diligence and other compliance duties?",
+            "a": "The agent helps collect, check and document supplier information, including the declarations and certificates your compliance programme requires, and flags gaps and expiries. The compliance assessment itself remains a human decision. This is process support, not legal advice."
+          },
+          {
+            "q": "How is supplier data protected?",
+            "a": "Supplier contacts, quotes and contracts are handled under your data-protection and confidentiality rules: scoped access, EU hosting where required, defined retention and a full log of what the agent accessed. Our [governance service](page:services/ai-governance) documents this for your DPO."
+          },
+          {
+            "q": "What happens to the buyers' jobs?",
+            "a": "The administrative share of the job shrinks and the strategic share grows: more categories actively managed, more negotiations prepared properly, more supplier development. Where the change is significant, we plan it with the team and HR rather than around them."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/agentic-workflows",
+          "solutions/finance",
+          "solutions/operations",
+          "industries/manufacturing"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten im Einkauf: Anfragen, Angebotsvergleich, Onboarding",
+    "metaDescription": "KI-Agenten für den Einkauf: Bedarfserfassung, Anfragen, Angebotsvergleich aus PDFs, Lieferanten-Onboarding, Ausgabenanalyse und Bestellverfolgung mit Freigabe.",
+    "cardTitle": "KI-Agenten im Einkauf",
+    "cardText": "Bedarfserfassung, Anfrageerstellung, Angebotsvergleich, Lieferantenprüfung und Ausgabenanalyse – mit Einkäufern, die jede Vergabe und jede Bestellung freigeben.",
+    "hero": {
+      "eyebrow": "Lösungen · Einkauf",
+      "title": "Ein Einkauf, der seine Zeit mit Verhandeln verbringt,",
+      "titleAccent": "nicht mit Abtippen.",
+      "standfirst": "Einkäufer verbringen einen erstaunlichen Teil ihrer Woche damit, E-Mails und PDFs in strukturierte Daten zu verwandeln: Bedarfe in Bestellanforderungen, Angebote in Vergleichstabellen, Lieferantendokumente in Onboarding-Checklisten. Diesen Teil übernehmen KI-Agenten. Einkäufer behalten Entscheidungen, Beziehungen und Verhandlungen – mit Vier-Augen-Freigabe überall dort, wo Geld gebunden wird.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo Agenten sich im Einkauf rechnen",
+        "lede": "Jede Beschaffung läuft über dieselben unstrukturierten Eingaben: ein Bedarf in einer E-Mail, drei Angebote in drei Formaten, die Zertifikate eines Lieferanten als Scan. Agenten lesen das alles.",
+        "body": [
+          "Einkaufsabteilungen werden an Einsparungen, Compliance und Lieferantenleistung gemessen, aber ein großer Teil des Tages geht für Verwaltung drauf: eingehende Bedarfe klassifizieren, fehlenden Informationen hinterherlaufen, Anfragen formulieren, Angebote normalisieren, die als PDF und Tabelle eintreffen, Lieferantendokumente prüfen und Auftragsbestätigungen nachverfolgen. Der strategische Teil der Arbeit – Verhandeln und die Lieferantenbasis entwickeln – bekommt, was übrig bleibt.",
+          "KI-Agenten eignen sich für diese Funktion ungewöhnlich gut, weil die Eingaben unstrukturiert und die Regeln klar sind. Ein Bedarf fällt entweder unter einen bestehenden Rahmenvertrag oder nicht; ein Angebot erfüllt die Spezifikation oder weicht ab; das Zertifikat eines Lieferanten ist gültig oder abgelaufen. Ein Agent kann das aus Dokumenten und E-Mails ermitteln, den Vergleich und die Empfehlung vorbereiten und die Vergabe dem Einkäufer überlassen.",
+          "Compliance-Anforderungen – von Vier-Augen-Schwellen bis zu Sorgfaltspflichten in der Lieferkette – stehen dem nicht im Weg. Sie legen genau fest, wo die menschlichen Kontrollpunkte liegen, und ein Agent, der jeden Schritt protokolliert, macht sie leichter nachweisbar, nicht schwerer."
+        ],
+        "facts": [
+          [
+            "Typischer Einstieg",
+            "Anfrageerstellung und Angebotsvergleich"
+          ],
+          [
+            "Menschlicher Kontrollpunkt",
+            "Einkäufer gibt Vergaben und Bestellungen über Schwellenwerten frei"
+          ],
+          [
+            "Systeme",
+            "ERP, E-Procurement, Lieferantenportale, E-Mail, DMS"
+          ],
+          [
+            "Compliance",
+            "Vier-Augen-Prinzip, Prüfpfad, Datenschutz für Lieferantendaten"
+          ]
+        ],
+        "link": {
+          "label": "Agentische Workflow-Automatisierung",
+          "page": "services/agentic-workflows"
+        }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Sieben Workflows, mit denen Einkaufsteams typischerweise beginnen – von der Bedarfserfassung bis zur Lieferantenkommunikation.",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "Bedarfserfassung und Klassifizierung",
+            "text": "Bedarfe kommen per E-Mail, Chat oder Formular in jeder denkbaren Form. Der Agent extrahiert das Nötige, prüft gegen Kataloge und Rahmenverträge, fragt fehlende Angaben beim Anforderer nach und legt eine vollständige Bestellanforderung im ERP an. Einkäufer sehen saubere Anforderungen statt Konversationen."
+          },
+          {
+            "icon": "search",
+            "title": "Lieferantensuche und Anfrageerstellung",
+            "text": "Für Bedarfe ohne vertraglich gebundenen Lieferanten erstellt der Agent eine Vorauswahl aus Ihrer Lieferantenbasis und freigegebenen Quellen, formuliert die Anfrage aus Spezifikation und Ihren Vorlagen und versendet sie nach Freigabe durch den Einkäufer. Rückläufe werden verfolgt, Erinnerungen automatisch versendet."
+          },
+          {
+            "icon": "chart",
+            "title": "Angebotsvergleich und Normalisierung",
+            "text": "Angebote kommen als PDF, Tabelle und E-Mail zurück, mit unterschiedlichen Einheiten, Währungen, Lieferbedingungen und Optionen. Der Agent extrahiert sie in eine Vergleichstabelle, markiert Abweichungen von der Spezifikation und berechnet die Gesamtkosten inklusive Fracht und Zahlungsbedingungen. Die Vergabe entscheidet der Einkäufer."
+          },
+          {
+            "icon": "doc",
+            "title": "Lieferanten-Onboarding und Dokumentenprüfung",
+            "text": "Neue Lieferanten reichen Registrierungsformulare, Zertifikate, Versicherungsnachweise und Compliance-Erklärungen ein. Der Agent prüft Vollständigkeit und Gültigkeitsdaten, gleicht mit Sanktions- und Risikolisten ab, die Sie abonnieren, und bereitet die Onboarding-Akte inklusive Dokumentation zu Sorgfaltspflichten in der Lieferkette vor. Einkauf und Compliance geben frei."
+          },
+          {
+            "icon": "eye",
+            "title": "Vertrags- und Preislistenüberwachung",
+            "text": "Der Agent überwacht Rahmenverträge auf Laufzeitende und Volumenschwellen, vergleicht fakturierte mit vereinbarten Preisen und beobachtet Preislisten-Updates der Lieferanten auf Änderungen, die Ihre Teile betreffen. Einkäufer erhalten Ausnahmen, keine Berichte."
+          },
+          {
+            "icon": "target",
+            "title": "Ausgabenanalyse und Erkennung von Maverick Buying",
+            "text": "Über ERP-, Kreditkarten- und Rechnungsdaten hinweg klassifiziert der Agent Ausgaben, identifiziert Käufe außerhalb von Verträgen und Kanälen und bereitet den vierteljährlichen Spend Review mit Einsparhypothesen vor. Warengruppenmanager validieren und priorisieren."
+          },
+          {
+            "icon": "truck",
+            "title": "Auftragsbestätigungen und Lieferverfolgung",
+            "text": "Der Agent liest Auftragsbestätigungen, vergleicht Mengen, Preise und Termine mit der Bestellung, aktualisiert das ERP, wo alles übereinstimmt, und markiert Abweichungen. Verspätete oder Teillieferungen lösen eine vorformulierte Nachfrage an den Lieferanten aus, die der Einkäufer freigibt."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Ein Beispiel im Detail",
+        "content": [
+          {
+            "h2": "Von der Bestellanforderung zur Vergabe: der Anfrage-Workflow"
+          },
+          {
+            "p": "Diesen Workflow wählen die meisten Einkaufsteams zuerst, weil er hohes Volumen mit einer klaren Freigabestruktur verbindet. Er deckt indirekte und direkte Beschaffungen unterhalb der Schwelle für eine förmliche Ausschreibung ab."
+          },
+          {
+            "ol": [
+              "Ein Anforderer beschreibt seinen Bedarf im Anfrageformular oder per E-Mail. Der Agent strukturiert die Anforderung, prüft, ob ein Rahmenvertrag oder Katalogartikel greift, und bestätigt andernfalls Spezifikation und Budgetverantwortlichen mit dem Anforderer.",
+              "Der Agent schlägt drei bis fünf Lieferanten aus der freigegebenen Lieferantenbasis vor, mit Leistungshistorie und aktuellen Dokumenten. Der Einkäufer bestätigt oder passt die Vorauswahl an.",
+              "Der Agent formuliert die Anfrage aus Spezifikation, Standardbedingungen und Frist und versendet sie nach Freigabe durch den Einkäufer. Antworten, Rückfragen und Klärungen werden in einem Thread je Lieferant verfolgt.",
+              "Wenn Angebote in unterschiedlichen Formaten eintreffen, extrahiert der Agent Preise, Mengen, Lieferzeiten, Zahlungs- und Lieferbedingungen und Optionen in einen einzigen Vergleich, normalisiert auf die Gesamtkosten frei Haus. Abweichungen von der Spezifikation werden mit dem Wortlaut des Lieferanten hervorgehoben.",
+              "Der Agent bereitet eine Vergabeempfehlung mit Begründung vor: Preis, Lieferzeit, Lieferantenleistung, Risiko. Der Einkäufer prüft und entscheidet. Oberhalb der Vier-Augen-Schwelle zeichnet ein zweiter Freigebender im E-Procurement- oder ERP-Workflow gegen.",
+              "Nach der Vergabe legt der Agent die Bestellung im ERP an, informiert die nicht berücksichtigten Lieferanten mit einer vorformulierten Nachricht, die der Einkäufer freigibt, und legt die vollständige Dokumentation ab – damit jede spätere Prüfung sehen kann, wer was warum entschieden hat."
+            ]
+          },
+          {
+            "note": "Die Beteiligung des Einkäufers schrumpft auf vier Entscheidungen: Vorauswahl, Freigabe der Anfrage, Vergabe, Freigabe der Nachrichten. Alles zwischen diesen Entscheidungen wird vom Agenten vorbereitet, dokumentiert und protokolliert."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Leitplanken für den Einkauf",
+        "items": [
+          {
+            "title": "Keine eigenständigen Bestellungen über Schwellenwerten",
+            "text": "Der Agent legt Bestellanforderungen an, entwirft Bestellungen und bereitet Vergaben vor. Bindungen über Ihren definierten Schwellen erfordern die Freigabe des Einkäufers und, wo Ihre Richtlinie es vorsieht, eines zweiten Freigebenden. Die Schwellen werden je Warengruppe konfiguriert und im Workflow durchgesetzt, nicht in einem Prompt."
+          },
+          {
+            "title": "Vier-Augen-Prinzip bleibt erhalten",
+            "text": "Die bestehende Funktionstrennung zwischen Anfordern, Freigeben und Bestellen bleibt intakt. Der Agent hält nie die Rechte für alle drei, und seine Aktionen werden im Prüfpfad ihm zugeordnet, nicht einem menschlichen Nutzer."
+          },
+          {
+            "title": "Datenschutz für Lieferantendaten",
+            "text": "Lieferantenkontakte und -dokumente sind personenbezogene und vertrauliche Daten. Aufbewahrung, Zugriff und Hosting folgen Ihren Datenschutzregeln, und der Agent speichert nur, was der Prozess braucht."
+          },
+          {
+            "title": "Sanktions- und Compliance-Prüfung bleibt eine menschliche Entscheidung",
+            "text": "Der Agent gleicht ab und markiert; über Treffer entscheidet ein Compliance-Beauftragter. Sorgfaltspflichten in der Lieferkette werden in der Onboarding-Akte zur Prüfung dokumentiert, nicht vom Agenten abschließend bewertet."
+          },
+          {
+            "title": "Vollständiger Prüfpfad",
+            "text": "Jede Extraktion, jeder Vergleich und jede Empfehlung wird mit Quelldokumenten und Modellversion protokolliert. Interne Revision und externe Prüfer können eine Vergabe von Anfang bis Ende nachvollziehen."
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen: Beschaffungsvolumen nach Warengruppe und Kanal, Anforderungs- und Anfrageprozesse, Systeme (ERP, E-Procurement, Lieferantenportale), Freigabeschwellen und Compliance-Pflichten. Ergebnis: bewertete Use Cases mit Business Case in Einkäuferstunden und Durchlaufzeit.",
+            "meta": "Wochen 1–3"
+          },
+          {
+            "title": "Design",
+            "text": "Freigabe-Workflow, Integration mit ERP und E-Procurement, Dokumentvorlagen, Datenschutzprüfung und das Evaluationsset: eine Stichprobe früherer Anfragen und Angebote mit bekanntem Ausgang.",
+            "meta": "Wochen 3–4"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zu einem produktiven Agenten für eine Warengruppe oder einen Workflow, von Einkäufern in laufenden Vorgängen genutzt und gegen Durchlaufzeit und Stunden je Anfrage vor dem Piloten gemessen.",
+            "meta": "Wochen 5–12"
+          },
+          {
+            "title": "Scale",
+            "text": "Ausweitung auf weitere Warengruppen, Lieferanten-Onboarding und Ausgabenanalyse, Schulung des Teams in der Anpassung von Vorlagen und Regeln, Übergabe des Betriebs oder Wechsel zu [Managed AI Operations](page:services/managed-ai-operations).",
+            "meta": "Ab Monat 4"
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Funktioniert der Agent mit unserem ERP und E-Procurement-System?",
+            "a": "Sehr wahrscheinlich. SAP, Microsoft Dynamics, Oracle und die gängigen E-Procurement-Plattformen bieten APIs für Bestellanforderungen, Bestellungen und Lieferantenstammdaten, und Lieferantenportale lassen sich meist per E-Mail oder Dateiaustausch anbinden, wo keine API existiert. Die konkreten Systeme prüfen wir im Assessment und sagen Ihnen, wo die Integration einfach ist und wo sie Arbeit braucht."
+          },
+          {
+            "q": "Wie geht der Agent mit Angeboten in unterschiedlichen Formaten um?",
+            "a": "Er liest PDFs, Tabellen, E-Mails und gescannte Dokumente, extrahiert Positionen und Bedingungen und normalisiert Einheiten, Währungen und Lieferkonditionen in Ihre Vergleichsvorlage. Ist ein Angebot mehrdeutig, fragt er beim Lieferanten nach oder markiert die Position für den Einkäufer, statt zu raten. Die Extraktionsqualität wird im Piloten an Ihren eigenen früheren Angeboten gemessen."
+          },
+          {
+            "q": "Kann der Agent mit Lieferanten verhandeln?",
+            "a": "In den ersten Phasen raten wir davon ab. Der Agent bereitet Verhandlungsbriefings mit Preishistorie, Alternativen und Zielpreisen vor; verhandeln tut der Einkäufer. Automatisierte Nachrichten an Lieferanten, etwa Erinnerungen und Bestätigungen, werden vom Agenten entworfen und vom Einkäufer freigegeben, bis das Team etwas anderes entscheidet."
+          },
+          {
+            "q": "Was ist mit Sorgfaltspflichten in der Lieferkette und anderen Compliance-Pflichten?",
+            "a": "Der Agent hilft, Lieferanteninformationen zu sammeln, zu prüfen und zu dokumentieren – einschließlich der Erklärungen und Zertifikate, die Ihr Compliance-Programm verlangt – und markiert Lücken und Ablaufdaten. Die Compliance-Bewertung selbst bleibt eine menschliche Entscheidung. Das ist Prozessunterstützung, keine Rechtsberatung."
+          },
+          {
+            "q": "Wie werden Lieferantendaten geschützt?",
+            "a": "Lieferantenkontakte, Angebote und Verträge werden nach Ihren Datenschutz- und Vertraulichkeitsregeln behandelt: eingeschränkter Zugriff, EU-Hosting wo erforderlich, definierte Aufbewahrung und ein vollständiges Protokoll dessen, worauf der Agent zugegriffen hat. Unsere [Governance-Beratung](page:services/ai-governance) dokumentiert das für Ihren Datenschutzbeauftragten."
+          },
+          {
+            "q": "Was passiert mit den Stellen der Einkäufer?",
+            "a": "Der administrative Anteil der Arbeit schrumpft, der strategische wächst: mehr aktiv gemanagte Warengruppen, mehr sauber vorbereitete Verhandlungen, mehr Lieferantenentwicklung. Wo die Veränderung erheblich ist, planen wir sie mit dem Team und HR statt um sie herum."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/agentic-workflows",
+          "solutions/finance",
+          "solutions/operations",
+          "industries/manufacturing"
+        ]
+      }
+    ]
+  }
+}

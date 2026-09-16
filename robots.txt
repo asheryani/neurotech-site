@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+
+Sitemap: https://neurotech-ai.de/sitemap.xml

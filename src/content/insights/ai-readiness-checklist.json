@@ -1,0 +1,238 @@
+{
+  "id": "insights/ai-readiness-checklist",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "AI Readiness Checklist: 30 Questions Before Your First Agent",
+    "metaDescription": "A practical AI readiness checklist: 30 yes/no questions on strategy, processes, data, systems, people and governance, with a scoring guide and how to close gaps.",
+    "cardTitle": "The AI readiness checklist",
+    "cardText": "Thirty yes/no questions across six dimensions, a scoring guide and the most common gaps to close before your first agent goes live.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "The AI readiness checklist:",
+      "titleAccent": "30 questions before your first agent.",
+      "standfirst": "Readiness is not about having a data science team. It is about whether an agent could do real work in your company next quarter without hitting a wall. Thirty yes/no questions across six dimensions tell you where you stand, and what to fix first."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "The checklist",
+        "content": [
+          { "h2": "How to use this checklist" },
+          { "p": "Answer each question with a plain yes or no. \"Partly\" counts as no; the point is to find the walls before an agent runs into them. Involve two or three people who see different parts of the company: a business leader, someone from IT and the person who runs the process you have in mind. Where the three disagree, you have found a gap worth talking about." },
+          { "p": "The checklist takes about thirty minutes. Count your yes answers per dimension and in total, then read the scoring guide below. If you would rather have an outside view, our [AI readiness assessment](page:services/ai-readiness-assessment) covers the same ground in two to three weeks, with evidence instead of self-assessment." },
+          { "h2": "The 30 questions" },
+          { "h3": "1. Strategy and leadership" },
+          { "p": "Agents succeed where leadership has decided what they are for. These questions test whether that decision exists." },
+          { "ol": [
+            "Has leadership named two or three business outcomes AI should improve in the next twelve months, in numbers?",
+            "Is there a named executive who owns AI results, not just AI experiments?",
+            "Do you have a written list of candidate use cases, ranked by value and feasibility, rather than a collection of ideas?",
+            "Is there a budget for the first production use case that includes operations after go-live, not only the pilot?",
+            "Would leadership accept an agent that handles 80 percent of cases well and routes the rest to people?"
+          ] },
+          { "h3": "2. Processes" },
+          { "p": "An agent automates a process. If the process only exists in people's heads, the agent inherits the ambiguity." },
+          { "ol": [
+            "Is the process you want to automate documented well enough that a new hire could follow it?",
+            "Do you know the volume: how many cases per week, and how long each one takes today?",
+            "Are the decision rules explicit, including the exceptions and who handles them?",
+            "Do you measure the quality of the process today, for example error rate, cycle time or rework?",
+            "Can the process be changed without a lengthy approval chain, so that the agent can be introduced in stages?"
+          ] },
+          { "h3": "3. Data" },
+          { "p": "Most agent use cases run on documents, emails and records you already have. The question is whether an agent can reach them and trust them." },
+          { "ol": [
+            "Are the inputs the process needs available digitally, rather than on paper or in personal mailboxes?",
+            "Do you know where the master data for customers, products and suppliers lives, and which system is the source of truth?",
+            "Is the data quality good enough that a careful colleague would rely on it without re-checking?",
+            "Do you have historical examples of completed cases that could serve as a test set?",
+            "Is it clear which data contains personal information and on which legal basis it may be processed?"
+          ] },
+          { "h3": "4. Systems and integration" },
+          { "p": "The agent has to read from and write into your systems. Integration is where most pilots discover their real scope." },
+          { "ol": [
+            "Do the core systems in the process (ERP, CRM, ticketing, document store) offer APIs or connectors an agent could use?",
+            "Can IT create a dedicated technical user with limited rights for an agent within days rather than months?",
+            "Do you have a place to run an agent that security has approved, whether a workflow platform, a cloud environment or a partner's infrastructure?",
+            "Is there a way to log what a system user did, so that an agent's actions can be traced?",
+            "Have you decided where AI models may run, for example EU-only, and which data may leave the company?"
+          ] },
+          { "h3": "5. People and skills" },
+          { "p": "Agents change jobs. Readiness means the people affected can shape that change instead of resisting it." },
+          { "ol": [
+            "Is there an internal person who could act as product owner for the agent, at least two days a week during the pilot?",
+            "Have the people who run the process today been involved in the discussion, not just informed?",
+            "Does your team have basic AI literacy: what a language model can and cannot do, and how to check its output?",
+            "Do you have, or can you access, engineering capacity to build and maintain integrations?",
+            "Is there a plan for what the freed-up time will be used for, so that the change has a positive story?"
+          ] },
+          { "h3": "6. Governance and compliance" },
+          { "p": "Governance is not a later phase. Under GDPR and the EU AI Act it shapes what you may build at all." },
+          { "ol": [
+            "Is your data protection officer, or an external adviser, involved before the design is fixed?",
+            "Have you assessed whether the use case could fall into a higher-risk category under the EU AI Act, and do you track the changing status of those obligations?",
+            "Do you have a policy on which AI tools employees may use, and with which data?",
+            "Is the works council, where you have one, informed early about planned AI use in the workplace?",
+            "Is there a defined way to switch an agent off and route its work back to people?"
+          ] },
+          { "h2": "How to score your answers" },
+          { "p": "Count your yes answers. The total tells you how far you are from a first production agent; the per-dimension counts tell you where to start." },
+          { "table": {
+            "caption": "Scoring guide: readiness by number of yes answers (out of 30)",
+            "columns": ["Score", "What it means", "What to do next"],
+            "rows": [
+              ["24–30", "Ready. The organisation can carry a production agent; the remaining gaps are specific and known.", "Pick the top use case and start a pilot with a production-grade plan. Close the remaining gaps inside the pilot."],
+              ["16–23", "Nearly ready. The foundations exist, but two or three dimensions would stall a pilot.", "Fix the weakest dimension first, usually process documentation, data access or a named owner. Four to eight weeks of focused work is typical."],
+              ["8–15", "Early. The ambition exists, but process, data or system foundations are missing.", "Run a readiness assessment, choose one narrow use case and build the foundations around it rather than company-wide."],
+              ["0–7", "Not yet. AI would add complexity to an organisation that is not ready to absorb it.", "Start with AI literacy and a process inventory. Revisit the checklist in three months."]
+            ]
+          } },
+          { "p": "One warning about the arithmetic. A dimension with zero or one yes answer is a blocker regardless of the total. A company can score 24 with a governance score of one, and that company is not ready to let an agent touch personal data." },
+          { "note": "Example: a mid-sized manufacturer scores 20 overall but only two in \"Systems and integration\", because the ERP has no usable API and there is no approved place to run an agent. Their fastest route is not a bigger strategy; it is an integration layer and a security-approved runtime, which can be done in weeks." },
+          { "h2": "The most common gaps, and how to close them in weeks" },
+          { "p": "Across the companies we talk to, the same four gaps come up most often. None of them takes a year to close." },
+          { "h3": "No owner" },
+          { "p": "The most frequent gap and the cheapest to fix. Name a department head who wants the outcome, give them a share of their time and a small budget, and let them choose the first use case. An owner without a use case is better than a use case without an owner." },
+          { "h3": "Undocumented processes" },
+          { "p": "You do not need a process-mining programme. Have the people who run the process walk through ten real cases while someone writes down the steps, the decision rules and the exceptions. Two afternoons produce a document good enough to design an agent against." },
+          { "h3": "Data that cannot be reached" },
+          { "p": "The data usually exists; it is locked in a system without an API or scattered across mailboxes. A narrow integration layer for the two or three systems that matter, plus a rule that the process runs through a shared inbox or ticket queue, is typically enough to start. Our [data foundations](page:services/data-foundations) work focuses on exactly this minimum, not on a data platform." },
+          { "h3": "Teams that have never worked with a model" },
+          { "p": "Low AI literacy shows up either as fear or as blind trust. A half-day of hands-on [AI training](page:services/ai-training) for the affected team, using their own documents, fixes most of it. The EU AI Act's AI literacy duty, which has applied since February 2025, is a further reason to do this early; check the current requirements with your advisers." },
+          { "p": "Close these four gaps and most organisations move from the middle band to ready within one quarter, and the first agent pilot can start while the last gaps are being closed. Our article on [why AI pilots fail](page:insights/why-ai-pilots-fail) shows what happens when they are skipped." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Do we need a data science team to be AI-ready?", "a": "No. Agentic use cases run on language models you rent or host, connected to your existing systems. You need a process owner, someone who can integrate systems, and people who can judge the output. Data science skills become relevant for forecasting and optimisation use cases, which are usually not the first step." },
+          { "q": "Is a self-assessment reliable enough?", "a": "It is reliable enough to find the obvious gaps and to start a conversation. It is not reliable for the questions where teams tend to be optimistic: data quality, API availability and process documentation. Those are the areas an external assessment verifies with evidence rather than opinion." },
+          { "q": "How often should we repeat the checklist?", "a": "Every six months, or after any major change: a new ERP, a reorganisation, a new regulatory obligation. Readiness is not a state you reach once; it moves with the organisation." },
+          { "q": "We scored low. Should we wait?", "a": "Waiting is rarely the answer. Choose one narrow, low-risk use case and build the foundations around it. A small agent that works teaches the organisation more than a year of preparation, as long as it has an owner and a plan for what happens after the pilot." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related reading and services",
+        "pages": ["services/ai-readiness-assessment", "services/data-foundations", "services/ai-training", "insights/why-ai-pilots-fail"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Readiness-Checkliste: 30 Fragen vor dem ersten KI-Agenten",
+    "metaDescription": "Praktische KI-Readiness-Checkliste: 30 Ja/Nein-Fragen zu Strategie, Prozessen, Daten, Systemen, Menschen und Governance, mit Bewertungsschema und Tipps zu Lücken.",
+    "cardTitle": "Die KI-Readiness-Checkliste",
+    "cardText": "Dreißig Ja/Nein-Fragen in sechs Dimensionen, ein Bewertungsschema und die häufigsten Lücken, die Sie vor dem ersten KI-Agenten schließen sollten.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "KI-Readiness-Checkliste:",
+      "titleAccent": "30 Fragen vor dem ersten KI-Agenten.",
+      "standfirst": "Readiness bedeutet nicht, ein Data-Science-Team zu haben. Es bedeutet, dass ein Agent im nächsten Quartal in Ihrem Unternehmen echte Arbeit erledigen könnte, ohne gegen eine Wand zu laufen. Dreißig Ja/Nein-Fragen in sechs Dimensionen zeigen, wo Sie stehen – und was Sie zuerst beheben sollten."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Die Checkliste",
+        "content": [
+          { "h2": "So nutzen Sie die Checkliste" },
+          { "p": "Beantworten Sie jede Frage mit einem klaren Ja oder Nein. „Teilweise“ zählt als Nein; es geht darum, die Wände zu finden, bevor ein Agent dagegen läuft. Beteiligen Sie zwei oder drei Personen, die unterschiedliche Teile des Unternehmens sehen: eine Führungskraft aus dem Fachbereich, jemanden aus der IT und die Person, die den gedachten Prozess heute betreibt. Wo die drei uneins sind, haben Sie eine Lücke gefunden, über die es sich zu sprechen lohnt." },
+          { "p": "Die Checkliste dauert etwa dreißig Minuten. Zählen Sie Ihre Ja-Antworten je Dimension und insgesamt und lesen Sie dann das Bewertungsschema weiter unten. Wenn Sie lieber einen Blick von außen möchten: Unser [KI-Readiness-Assessment](page:services/ai-readiness-assessment) deckt dieselben Themen in zwei bis drei Wochen ab – mit Belegen statt Selbsteinschätzung." },
+          { "h2": "Die 30 Fragen" },
+          { "h3": "1. Strategie und Führung" },
+          { "p": "Agenten sind dort erfolgreich, wo die Führung entschieden hat, wofür sie da sind. Diese Fragen prüfen, ob diese Entscheidung existiert." },
+          { "ol": [
+            "Hat die Geschäftsführung zwei oder drei Geschäftsergebnisse benannt, die KI in den nächsten zwölf Monaten verbessern soll – in Zahlen?",
+            "Gibt es eine benannte Führungskraft, die KI-Ergebnisse verantwortet, nicht nur KI-Experimente?",
+            "Haben Sie eine schriftliche Liste von Use-Case-Kandidaten, nach Nutzen und Machbarkeit geordnet, statt einer Ideensammlung?",
+            "Gibt es ein Budget für den ersten produktiven Use Case, das den Betrieb nach dem Go-live einschließt und nicht nur den Piloten?",
+            "Würde die Führung einen Agenten akzeptieren, der 80 Prozent der Fälle gut bearbeitet und den Rest an Menschen weiterleitet?"
+          ] },
+          { "h3": "2. Prozesse" },
+          { "p": "Ein Agent automatisiert einen Prozess. Existiert der Prozess nur in den Köpfen der Beteiligten, erbt der Agent die Unklarheit." },
+          { "ol": [
+            "Ist der Prozess, den Sie automatisieren wollen, so dokumentiert, dass ein neuer Mitarbeiter ihm folgen könnte?",
+            "Kennen Sie das Volumen: Wie viele Fälle pro Woche, und wie lange dauert jeder heute?",
+            "Sind die Entscheidungsregeln explizit, einschließlich der Ausnahmen und wer sie bearbeitet?",
+            "Messen Sie die Qualität des Prozesses heute, etwa Fehlerquote, Durchlaufzeit oder Nacharbeit?",
+            "Lässt sich der Prozess ohne lange Freigabekette ändern, sodass der Agent stufenweise eingeführt werden kann?"
+          ] },
+          { "h3": "3. Daten" },
+          { "p": "Die meisten Agenten-Use-Cases laufen auf Dokumenten, E-Mails und Datensätzen, die Sie bereits haben. Die Frage ist, ob ein Agent sie erreichen und ihnen vertrauen kann." },
+          { "ol": [
+            "Liegen die Eingaben, die der Prozess braucht, digital vor – statt auf Papier oder in persönlichen Postfächern?",
+            "Wissen Sie, wo die Stammdaten für Kunden, Produkte und Lieferanten liegen und welches System die führende Quelle ist?",
+            "Ist die Datenqualität gut genug, dass sich ein sorgfältiger Kollege ohne Nachprüfung darauf verlassen würde?",
+            "Haben Sie historische Beispiele abgeschlossener Fälle, die als Testset dienen könnten?",
+            "Ist klar, welche Daten personenbezogen sind und auf welcher Rechtsgrundlage sie verarbeitet werden dürfen?"
+          ] },
+          { "h3": "4. Systeme und Integration" },
+          { "p": "Der Agent muss aus Ihren Systemen lesen und in sie schreiben. Bei der Integration entdecken die meisten Piloten ihren wahren Umfang." },
+          { "ol": [
+            "Bieten die Kernsysteme im Prozess (ERP, CRM, Ticketsystem, Dokumentenablage) APIs oder Konnektoren, die ein Agent nutzen könnte?",
+            "Kann die IT innerhalb von Tagen statt Monaten einen eigenen technischen Benutzer mit eingeschränkten Rechten für einen Agenten anlegen?",
+            "Haben Sie einen von der IT-Sicherheit freigegebenen Ort, an dem ein Agent laufen kann – eine Workflow-Plattform, eine Cloud-Umgebung oder die Infrastruktur eines Partners?",
+            "Lässt sich nachvollziehen, was ein Systembenutzer getan hat, sodass sich die Aktionen eines Agenten zurückverfolgen lassen?",
+            "Haben Sie entschieden, wo KI-Modelle laufen dürfen, etwa nur in der EU, und welche Daten das Unternehmen verlassen dürfen?"
+          ] },
+          { "h3": "5. Menschen und Kompetenzen" },
+          { "p": "Agenten verändern Arbeitsplätze. Readiness heißt, dass die Betroffenen diese Veränderung mitgestalten können, statt sich ihr zu widersetzen." },
+          { "ol": [
+            "Gibt es intern eine Person, die als Product Owner für den Agenten auftreten könnte – während des Piloten mindestens zwei Tage pro Woche?",
+            "Wurden die Menschen, die den Prozess heute betreiben, in die Diskussion einbezogen und nicht nur informiert?",
+            "Verfügt Ihr Team über grundlegende KI-Kompetenz: was ein Sprachmodell kann und nicht kann, und wie man seine Ausgaben prüft?",
+            "Haben Sie Entwicklungskapazität für Aufbau und Pflege von Integrationen – intern oder über Partner?",
+            "Gibt es einen Plan, wofür die freiwerdende Zeit genutzt wird, damit die Veränderung eine positive Geschichte hat?"
+          ] },
+          { "h3": "6. Governance und Compliance" },
+          { "p": "Governance ist keine spätere Phase. Unter DSGVO und EU AI Act bestimmt sie, was Sie überhaupt bauen dürfen." },
+          { "ol": [
+            "Ist Ihr Datenschutzbeauftragter oder ein externer Berater eingebunden, bevor das Design feststeht?",
+            "Haben Sie geprüft, ob der Use Case unter dem EU AI Act in eine höhere Risikokategorie fallen könnte, und verfolgen Sie den sich ändernden Stand dieser Pflichten?",
+            "Haben Sie eine Richtlinie, welche KI-Werkzeuge Mitarbeitende mit welchen Daten nutzen dürfen?",
+            "Wird der Betriebsrat, sofern vorhanden, frühzeitig über geplanten KI-Einsatz am Arbeitsplatz informiert?",
+            "Gibt es einen definierten Weg, einen Agenten abzuschalten und seine Arbeit an Menschen zurückzugeben?"
+          ] },
+          { "h2": "So werten Sie Ihre Antworten aus" },
+          { "p": "Zählen Sie Ihre Ja-Antworten. Die Gesamtzahl zeigt, wie weit Sie von einem ersten produktiven Agenten entfernt sind; die Werte je Dimension zeigen, wo Sie anfangen sollten." },
+          { "table": {
+            "caption": "Bewertungsschema: Readiness nach Zahl der Ja-Antworten (von 30)",
+            "columns": ["Punkte", "Was es bedeutet", "Was als Nächstes zu tun ist"],
+            "rows": [
+              ["24–30", "Bereit. Die Organisation kann einen produktiven Agenten tragen; die verbleibenden Lücken sind konkret und bekannt.", "Den besten Use Case wählen und einen Piloten mit produktionsreifem Plan starten. Verbleibende Lücken innerhalb des Piloten schließen."],
+              ["16–23", "Fast bereit. Die Grundlagen sind da, aber zwei oder drei Dimensionen würden einen Piloten ausbremsen.", "Zuerst die schwächste Dimension beheben, meist Prozessdokumentation, Datenzugang oder ein benannter Verantwortlicher. Vier bis acht Wochen fokussierte Arbeit sind typisch."],
+              ["8–15", "Früh. Der Anspruch ist da, aber Prozess-, Daten- oder Systemgrundlagen fehlen.", "Ein Readiness-Assessment durchführen, einen engen Use Case wählen und die Grundlagen um ihn herum aufbauen statt unternehmensweit."],
+              ["0–7", "Noch nicht. KI würde einer Organisation Komplexität hinzufügen, die sie nicht aufnehmen kann.", "Mit KI-Kompetenz und einer Prozessinventur beginnen. Die Checkliste in drei Monaten wiederholen."]
+            ]
+          } },
+          { "p": "Eine Warnung zur Arithmetik: Eine Dimension mit null oder einer Ja-Antwort ist unabhängig von der Gesamtzahl ein Blocker. Ein Unternehmen kann 24 Punkte erreichen und bei Governance eine Eins haben – und dieses Unternehmen ist nicht bereit, einen Agenten an personenbezogene Daten zu lassen." },
+          { "note": "Beispiel: Ein mittelständischer Hersteller erreicht insgesamt 20 Punkte, aber nur zwei bei „Systeme und Integration“, weil das ERP keine nutzbare API hat und kein freigegebener Ort existiert, an dem ein Agent laufen könnte. Der schnellste Weg ist keine größere Strategie, sondern eine Integrationsschicht und eine von der IT-Sicherheit freigegebene Laufzeitumgebung – machbar in Wochen." },
+          { "h2": "Die häufigsten Lücken – und wie Sie sie in Wochen schließen" },
+          { "p": "In den Unternehmen, mit denen wir sprechen, tauchen dieselben vier Lücken am häufigsten auf. Keine davon braucht ein Jahr." },
+          { "h3": "Kein Verantwortlicher" },
+          { "p": "Die häufigste Lücke und die günstigste zu schließen. Benennen Sie eine Bereichsleitung, die das Ergebnis will, geben Sie ihr einen Teil ihrer Zeit und ein kleines Budget und lassen Sie sie den ersten Use Case wählen. Ein Verantwortlicher ohne Use Case ist besser als ein Use Case ohne Verantwortlichen." },
+          { "h3": "Undokumentierte Prozesse" },
+          { "p": "Sie brauchen kein Process-Mining-Programm. Lassen Sie die Menschen, die den Prozess betreiben, zehn echte Fälle durchgehen, während jemand Schritte, Entscheidungsregeln und Ausnahmen mitschreibt. Zwei Nachmittage ergeben ein Dokument, das gut genug ist, um einen Agenten daran zu entwerfen." },
+          { "h3": "Daten, die nicht erreichbar sind" },
+          { "p": "Die Daten existieren meist; sie sind nur in einem System ohne API eingeschlossen oder über Postfächer verstreut. Eine schmale Integrationsschicht für die zwei, drei entscheidenden Systeme plus die Regel, dass der Prozess über ein gemeinsames Postfach oder eine Ticket-Warteschlange läuft, reicht in der Regel für den Start. Unsere Arbeit an der [Datenbasis](page:services/data-foundations) konzentriert sich genau auf dieses Minimum, nicht auf eine Datenplattform." },
+          { "h3": "Teams, die noch nie mit einem Modell gearbeitet haben" },
+          { "p": "Geringe KI-Kompetenz zeigt sich entweder als Angst oder als blindes Vertrauen. Ein halber Tag praxisnaher [KI-Schulung](page:services/ai-training) für das betroffene Team, mit den eigenen Dokumenten, behebt das meiste. Die KI-Kompetenzpflicht des EU AI Act, die seit Februar 2025 gilt, ist ein weiterer Grund, das früh zu tun; prüfen Sie die aktuellen Anforderungen mit Ihren Beratern." },
+          { "p": "Wer diese vier Lücken schließt, bewegt sich in den meisten Fällen innerhalb eines Quartals vom mittleren Bereich zu „bereit“ – und der erste Agenten-Pilot kann starten, während die letzten Lücken geschlossen werden. Unser Beitrag [Warum KI-Pilotprojekte scheitern](page:insights/why-ai-pilots-fail) zeigt, was passiert, wenn man sie überspringt." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Brauchen wir ein Data-Science-Team, um KI-bereit zu sein?", "a": "Nein. Agentische Use Cases laufen auf Sprachmodellen, die Sie mieten oder selbst betreiben, verbunden mit Ihren bestehenden Systemen. Sie brauchen einen Prozessverantwortlichen, jemanden, der Systeme integrieren kann, und Menschen, die die Ausgaben beurteilen können. Data-Science-Kompetenzen werden für Prognose- und Optimierungs-Use-Cases relevant, die meist nicht der erste Schritt sind." },
+          { "q": "Ist eine Selbsteinschätzung verlässlich genug?", "a": "Verlässlich genug, um die offensichtlichen Lücken zu finden und ein Gespräch zu beginnen. Nicht verlässlich bei den Fragen, bei denen Teams zu Optimismus neigen: Datenqualität, API-Verfügbarkeit und Prozessdokumentation. Genau diese Bereiche prüft ein externes Assessment mit Belegen statt Meinungen." },
+          { "q": "Wie oft sollten wir die Checkliste wiederholen?", "a": "Alle sechs Monate oder nach jeder größeren Veränderung: ein neues ERP, eine Umstrukturierung, eine neue regulatorische Pflicht. Readiness ist kein Zustand, den man einmal erreicht; sie bewegt sich mit der Organisation." },
+          { "q": "Wir haben niedrig abgeschnitten. Sollten wir warten?", "a": "Warten ist selten die Antwort. Wählen Sie einen engen, risikoarmen Use Case und bauen Sie die Grundlagen um ihn herum auf. Ein kleiner Agent, der funktioniert, lehrt die Organisation mehr als ein Jahr Vorbereitung – solange er einen Verantwortlichen hat und einen Plan für die Zeit nach dem Piloten." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Weiterlesen und passende Leistungen",
+        "pages": ["services/ai-readiness-assessment", "services/data-foundations", "services/ai-training", "insights/why-ai-pilots-fail"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "id": "home",
+  "en": {
+    "metaTitle": "AI Consulting & Agentic Workflows | Neurotech AI Solutions, Berlin",
+    "metaDescription": "AI consultancy in Berlin for startups, Mittelstand and corporates: AI strategy, agentic workflow automation and AI agents for every department, production-ready.",
+    "cardTitle": "Home",
+    "cardText": "AI and agentic-workflow consultancy in Berlin.",
+    "hero": {
+      "eyebrow": "AI & agentic-workflow consultancy · Berlin",
+      "title": "AI agents that do real work",
+      "titleAccent": "in your company.",
+      "standfirst": "We help startups, Mittelstand companies and corporates put AI to work where it pays off: strategy, agentic workflows and custom AI agents for marketing, sales, service, operations, finance, HR, legal and IT. From the first use case to production and operations, with data protection and the EU AI Act built in.",
+      "cta": {
+        "label": "Book an intro call",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "Explore our services",
+        "page": "services"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "What we do",
+        "lede": "Most companies do not need more AI experiments. They need one workflow that runs reliably in production, then the next one.",
+        "body": [
+          "Neurotech AI Solutions is an independent consultancy for applied AI and agentic workflows. We find the processes where language models and AI agents create measurable value, design the systems and guardrails, build the first agents with your team, and keep them reliable after go-live.",
+          "We work across every function of the business, from [marketing](page:solutions/marketing) and [sales](page:solutions/sales) to [customer service](page:solutions/customer-service), [operations](page:solutions/operations), [finance](page:solutions/finance), [HR](page:solutions/hr), [legal](page:solutions/legal-compliance) and [IT](page:solutions/it-engineering). And we are vendor-neutral: the platform is chosen to fit your systems, your data and your risk appetite, not the other way round."
+        ],
+        "facts": [
+          [
+            "Based in",
+            "Berlin, Germany"
+          ],
+          [
+            "Working with",
+            "Startups, Mittelstand, corporates"
+          ],
+          [
+            "Languages",
+            "English and German"
+          ],
+          [
+            "Focus",
+            "AI strategy, agentic workflows, AI agents, governance"
+          ]
+        ],
+        "link": {
+          "label": "How we work",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Services",
+        "intro": "Six ways to start, from a two-week diagnostic to a senior AI leader on your team.",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/ai-strategy",
+          "services/agentic-workflows",
+          "services/ai-agent-development",
+          "services/knowledge-assistants",
+          "services/ai-governance"
+        ],
+        "morePage": "services",
+        "moreLabel": "All services, including training, data foundations and managed AI operations"
+      },
+      {
+        "type": "links",
+        "heading": "AI agents by department",
+        "intro": "Where agents already earn their keep, function by function. Each page describes concrete workflows, the human checkpoints and how we start.",
+        "group": "solutions"
+      },
+      {
+        "type": "steps",
+        "heading": "How we work",
+        "intro": "Five phases, each with a defined outcome. You can stop after any of them and keep everything we produced.",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Two to three weeks to understand your processes, data, systems and constraints, and to identify the first use cases with a rough business case.",
+            "meta": "Readiness assessment"
+          },
+          {
+            "title": "Design",
+            "text": "A prioritised roadmap, a target architecture that fits your IT landscape, and a governance model that satisfies data protection, the EU AI Act and your works council.",
+            "meta": "Strategy & roadmap"
+          },
+          {
+            "title": "Pilot",
+            "text": "Six to eight weeks to a production-grade pilot: integrated with your systems, evaluated against a baseline, with humans in the loop where it matters.",
+            "meta": "Agent pilot"
+          },
+          {
+            "title": "Scale",
+            "text": "Roll the pattern out to further workflows and teams, train the people who own them, and move from individual agents to an operating model.",
+            "meta": "Scale programme"
+          },
+          {
+            "title": "Operate",
+            "text": "Monitoring, evaluations, model updates and cost control, so an agent that works today still works when the model behind it changes.",
+            "meta": "Managed AI operations"
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Who we work with",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Why Neurotech",
+        "variant": "check",
+        "items": [
+          {
+            "title": "Production over pilots",
+            "text": "Every engagement is designed to end with something running in your business, with an owner, a metric and a plan for operations. Demos are a means, not the goal."
+          },
+          {
+            "title": "Senior people only",
+            "text": "You work directly with experienced consultants and engineers who have designed, built and operated AI systems. No hand-off to a junior bench after the kick-off."
+          },
+          {
+            "title": "Governance built in",
+            "text": "Data protection, the EU AI Act, information security and co-determination are part of the design from day one. That is how AI gets approved, not just prototyped. See our [AI governance service](page:services/ai-governance)."
+          },
+          {
+            "title": "Vendor-neutral, EU-aware",
+            "text": "We have no reseller agreements. We work with Microsoft, Google, AWS, OpenAI, Anthropic, Mistral and open-weight models, including EU-hosted and on-premises options when confidentiality demands it."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Insights",
+        "intro": "Guides for decision makers who want to understand the technology before they buy it.",
+        "pages": [
+          "insights/what-is-agentic-ai",
+          "insights/first-agent-use-case",
+          "insights/eu-ai-act-guide"
+        ],
+        "morePage": "insights",
+        "moreLabel": "All insights"
+      },
+      {
+        "type": "faq",
+        "heading": "Quick answers",
+        "items": [
+          {
+            "q": "What is an AI agent, in one paragraph?",
+            "a": "An AI agent is software that uses a language model to pursue a goal across several steps: it reads context, decides what to do next, uses tools such as your CRM, ERP or email, and hands over to a person when a decision needs one. Unlike a chatbot, it completes tasks rather than answering questions. Our guide [What is agentic AI?](page:insights/what-is-agentic-ai) goes deeper."
+          },
+          {
+            "q": "How long until something is actually running?",
+            "a": "Typically six to eight weeks from the start of a pilot to an agent working in production on a defined workflow, after a two- to three-week assessment. Pace depends mostly on system access and how quickly decisions are made on your side."
+          },
+          {
+            "q": "Do you work with companies outside Berlin?",
+            "a": "Yes. We work remotely across Germany, Austria, Switzerland and the rest of Europe, and on site where it helps, particularly during assessments and workshops."
+          },
+          {
+            "q": "How do you charge?",
+            "a": "In fixed-scope packages for assessments, strategy and pilots, and in monthly retainers for operations and fractional leadership. We quote after a short intro call, once we understand the scope. There are no licence resale margins in our pricing."
+          }
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Beratung & agentische Workflows | Neurotech AI Solutions, Berlin",
+    "metaDescription": "KI-Beratung aus Berlin für Startups, Mittelstand und Konzerne: KI-Strategie, agentische Workflow-Automatisierung und KI-Agenten für jede Abteilung, produktionsreif.",
+    "cardTitle": "Startseite",
+    "cardText": "Beratung für KI und agentische Workflows aus Berlin.",
+    "hero": {
+      "eyebrow": "Beratung für KI & agentische Workflows · Berlin",
+      "title": "KI-Agenten, die in Ihrem Unternehmen",
+      "titleAccent": "echte Arbeit leisten.",
+      "standfirst": "Wir helfen Startups, Mittelstand und Konzernen, KI dort einzusetzen, wo sie sich rechnet: Strategie, agentische Workflows und individuelle KI-Agenten für Marketing, Vertrieb, Service, Operations, Finanzen, HR, Recht und IT. Vom ersten Use Case bis in den Produktivbetrieb – mit Datenschutz und EU AI Act von Anfang an.",
+      "cta": {
+        "label": "Erstgespräch vereinbaren",
+        "page": "contact"
+      },
+      "cta2": {
+        "label": "Unsere Leistungen",
+        "page": "services"
+      }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Was wir tun",
+        "lede": "Die meisten Unternehmen brauchen nicht mehr KI-Experimente. Sie brauchen einen Workflow, der zuverlässig im Produktivbetrieb läuft – und dann den nächsten.",
+        "body": [
+          "Neurotech AI Solutions ist eine unabhängige Beratung für angewandte KI und agentische Workflows. Wir finden die Prozesse, in denen Sprachmodelle und KI-Agenten messbaren Nutzen stiften, entwerfen Systeme und Leitplanken, bauen die ersten Agenten gemeinsam mit Ihrem Team und halten sie nach dem Go-live zuverlässig am Laufen.",
+          "Wir arbeiten quer durch alle Unternehmensbereiche – von [Marketing](page:solutions/marketing) und [Vertrieb](page:solutions/sales) über [Kundenservice](page:solutions/customer-service), [Operations](page:solutions/operations), [Finanzen](page:solutions/finance) und [HR](page:solutions/hr) bis zu [Recht](page:solutions/legal-compliance) und [IT](page:solutions/it-engineering). Und wir sind herstellerneutral: Die Plattform richtet sich nach Ihren Systemen, Ihren Daten und Ihrer Risikobereitschaft, nicht umgekehrt."
+        ],
+        "facts": [
+          [
+            "Sitz",
+            "Berlin"
+          ],
+          [
+            "Kunden",
+            "Startups, Mittelstand, Konzerne"
+          ],
+          [
+            "Sprachen",
+            "Deutsch und Englisch"
+          ],
+          [
+            "Schwerpunkte",
+            "KI-Strategie, agentische Workflows, KI-Agenten, Governance"
+          ]
+        ],
+        "link": {
+          "label": "So arbeiten wir",
+          "page": "approach"
+        }
+      },
+      {
+        "type": "links",
+        "heading": "Leistungen",
+        "intro": "Sechs Wege zu starten – von der zweiwöchigen Diagnose bis zur erfahrenen KI-Führungskraft in Ihrem Team.",
+        "pages": [
+          "services/ai-readiness-assessment",
+          "services/ai-strategy",
+          "services/agentic-workflows",
+          "services/ai-agent-development",
+          "services/knowledge-assistants",
+          "services/ai-governance"
+        ],
+        "morePage": "services",
+        "moreLabel": "Alle Leistungen, inklusive Schulungen, Datenbasis und Managed AI Operations"
+      },
+      {
+        "type": "links",
+        "heading": "KI-Agenten nach Abteilung",
+        "intro": "Wo Agenten heute schon ihr Geld verdienen, Bereich für Bereich. Jede Seite beschreibt konkrete Workflows, die menschlichen Kontrollpunkte und den Einstieg.",
+        "group": "solutions"
+      },
+      {
+        "type": "steps",
+        "heading": "So arbeiten wir",
+        "intro": "Fünf Phasen mit jeweils klar definiertem Ergebnis. Sie können nach jeder Phase aufhören und behalten alles, was entstanden ist.",
+        "items": [
+          {
+            "title": "Assess",
+            "text": "Zwei bis drei Wochen, um Ihre Prozesse, Daten, Systeme und Rahmenbedingungen zu verstehen und die ersten Use Cases mit grobem Business Case zu identifizieren.",
+            "meta": "Readiness-Assessment"
+          },
+          {
+            "title": "Design",
+            "text": "Eine priorisierte Roadmap, eine Zielarchitektur, die zu Ihrer IT-Landschaft passt, und ein Governance-Modell, das Datenschutz, EU AI Act und Betriebsrat gerecht wird.",
+            "meta": "Strategie & Roadmap"
+          },
+          {
+            "title": "Pilot",
+            "text": "Sechs bis acht Wochen bis zum produktionsreifen Piloten: in Ihre Systeme integriert, gegen eine Ausgangsbasis gemessen, mit Menschen im Prozess, wo es darauf ankommt.",
+            "meta": "Agenten-Pilot"
+          },
+          {
+            "title": "Scale",
+            "text": "Das Muster auf weitere Workflows und Teams übertragen, die Verantwortlichen schulen und von einzelnen Agenten zu einem Betriebsmodell kommen.",
+            "meta": "Skalierungsprogramm"
+          },
+          {
+            "title": "Operate",
+            "text": "Monitoring, Evaluationen, Modell-Updates und Kostenkontrolle – damit ein Agent, der heute funktioniert, auch dann noch funktioniert, wenn sich das Modell dahinter ändert.",
+            "meta": "Managed AI Operations"
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Für wen wir arbeiten",
+        "pages": [
+          "for/startups",
+          "for/mittelstand",
+          "for/enterprise"
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Warum Neurotech",
+        "variant": "check",
+        "items": [
+          {
+            "title": "Produktivbetrieb statt Pilotprojekte",
+            "text": "Jedes Projekt ist darauf angelegt, mit etwas zu enden, das in Ihrem Unternehmen läuft – mit Verantwortlichem, Kennzahl und Betriebsplan. Demos sind Mittel, nicht Zweck."
+          },
+          {
+            "title": "Ausschließlich erfahrene Leute",
+            "text": "Sie arbeiten direkt mit erfahrenen Beratern und Entwicklern, die KI-Systeme entworfen, gebaut und betrieben haben. Keine Übergabe an eine Junior-Bank nach dem Kick-off."
+          },
+          {
+            "title": "Governance eingebaut",
+            "text": "Datenschutz, EU AI Act, Informationssicherheit und Mitbestimmung sind vom ersten Tag an Teil des Entwurfs. So wird KI freigegeben – und nicht nur prototypisch gebaut. Mehr zu unserer [KI-Governance-Beratung](page:services/ai-governance)."
+          },
+          {
+            "title": "Herstellerneutral, EU-bewusst",
+            "text": "Wir haben keine Reseller-Verträge. Wir arbeiten mit Microsoft, Google, AWS, OpenAI, Anthropic, Mistral und offenen Modellen – inklusive EU-Hosting und On-Premises, wenn Vertraulichkeit es verlangt."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Insights",
+        "intro": "Leitfäden für Entscheider, die die Technologie verstehen wollen, bevor sie kaufen.",
+        "pages": [
+          "insights/what-is-agentic-ai",
+          "insights/first-agent-use-case",
+          "insights/eu-ai-act-guide"
+        ],
+        "morePage": "insights",
+        "moreLabel": "Alle Insights"
+      },
+      {
+        "type": "faq",
+        "heading": "Kurz beantwortet",
+        "items": [
+          {
+            "q": "Was ist ein KI-Agent, in einem Absatz?",
+            "a": "Ein KI-Agent ist Software, die mit einem Sprachmodell ein Ziel über mehrere Schritte verfolgt: Sie liest den Kontext, entscheidet über den nächsten Schritt, nutzt Werkzeuge wie Ihr CRM, ERP oder E-Mail und übergibt an einen Menschen, wenn eine Entscheidung ansteht. Anders als ein Chatbot erledigt sie Aufgaben, statt nur Fragen zu beantworten. Unser Leitfaden [Was ist Agentic AI?](page:insights/what-is-agentic-ai) geht in die Tiefe."
+          },
+          {
+            "q": "Wie lange dauert es, bis wirklich etwas läuft?",
+            "a": "In der Regel sechs bis acht Wochen vom Start des Piloten bis zu einem Agenten, der in einem definierten Workflow produktiv arbeitet – nach einem zwei- bis dreiwöchigen Assessment. Das Tempo hängt vor allem vom Systemzugang und von der Entscheidungsgeschwindigkeit auf Ihrer Seite ab."
+          },
+          {
+            "q": "Arbeiten Sie auch mit Unternehmen außerhalb Berlins?",
+            "a": "Ja. Wir arbeiten remote in ganz Deutschland, Österreich, der Schweiz und dem übrigen Europa – und vor Ort, wo es hilft, vor allem bei Assessments und Workshops."
+          },
+          {
+            "q": "Wie rechnen Sie ab?",
+            "a": "In Festpreispaketen für Assessments, Strategie und Piloten sowie in monatlichen Retainern für Betrieb und Fractional Leadership. Ein Angebot erhalten Sie nach einem kurzen Erstgespräch, sobald wir den Umfang verstanden haben. Lizenz-Wiederverkaufsmargen gibt es in unserer Kalkulation nicht."
+          }
+        ]
+      }
+    ]
+  }
+}

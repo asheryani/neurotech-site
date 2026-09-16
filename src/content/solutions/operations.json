@@ -1,0 +1,209 @@
+{
+  "id": "solutions/operations",
+  "en": {
+    "metaTitle": "AI Agents for Operations & Supply Chain: Orders, Documents, ERP",
+    "metaDescription": "AI agents for operations & supply chain: order intake from email and PDF into ERP, document processing, supplier follow-ups, exception handling. Human-checked.",
+    "cardTitle": "AI agents for operations & supply chain",
+    "cardText": "Order intake from email and PDF into the ERP, document processing, supplier follow-ups and exception handling, with people deciding on every deviation.",
+    "hero": {
+      "eyebrow": "Solution · Operations & supply chain",
+      "title": "AI agents for operations and supply chain:",
+      "titleAccent": "less retyping, fewer surprises.",
+      "standfirst": "Orders arrive as emails and PDFs, delivery notes as scans, supplier confirmations as free text. Someone retypes all of it into the ERP and chases what is missing. AI agents read those documents, create validated transactions, follow up with suppliers and put the exceptions in front of the right person, with audit logs and four-eyes checks wherever money moves.",
+      "cta": { "label": "Book an intro call", "page": "contact" },
+      "cta2": { "label": "How we build agentic workflows", "page": "services/agentic-workflows" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Where agents pay off in operations",
+        "lede": "Operations runs on unstructured input: emails, PDFs, phone calls and spreadsheets that all have to become clean transactions in the ERP.",
+        "body": [
+          "The pattern is extract, validate, act. An agent reads an incoming document, matches it against master data (customers, articles, prices, suppliers, open purchase orders), creates a proposal in the ERP and routes whatever does not fit to a person. Unlike OCR templates or RPA scripts, agents cope with variation in layout, language and completeness, and they can ask the sender for what is missing.",
+          "Why now: document-understanding models handle real-world scans and messy emails at a usable level, ERP vendors from SAP and Microsoft Dynamics to Mittelstand systems expose interfaces, and EDI covers only the large trading partners. The long tail of small customers and suppliers still sends email, and the people who used to retype it are hard to hire.",
+          "We start with one high-volume, measurable document flow, order intake or delivery notes, design ERP writes as proposals before they become postings, and let people handle the exceptions. When agents beat scripts is explained in our article [agents vs RPA vs chatbots](page:insights/agents-vs-rpa-vs-chatbots)."
+        ],
+        "facts": [
+          ["Typical entry point", "Order intake from email and PDF; delivery-note processing"],
+          ["Systems", "ERP (SAP, Microsoft Dynamics, others), WMS, supplier portals, email, EDI, DMS"],
+          ["Human checkpoint", "Exceptions, price and quantity deviations, anything with financial impact"],
+          ["First pilot", "Typically 6–8 weeks"]
+        ],
+        "link": { "label": "Data foundations for reliable agents", "page": "services/data-foundations" }
+      },
+      {
+        "type": "cards",
+        "heading": "Use cases",
+        "intro": "Six workflows from the inbox to the shop floor. Each names the systems involved and where a person decides.",
+        "items": [
+          { "icon": "mail", "title": "Order intake into the ERP", "text": "The agent reads customer orders arriving as email text, PDF, spreadsheet or EDI, matches customer, article numbers, prices and delivery dates against master data and contracts, and creates the order proposal in the ERP. Complete, consistent orders are released under rules you define; every deviation goes to a clerk with the original document and a specific flag." },
+          { "icon": "doc", "title": "Intelligent document processing", "text": "Delivery notes, customs documents, certificates of origin and analysis, packing lists: the agent extracts the data, validates it against the purchase order or shipment, files the document in the DMS with the right metadata and flags missing or expired certificates. Disputes and unclear cases stay with people." },
+          { "icon": "truck", "title": "Supplier communication and confirmation follow-ups", "text": "After a purchase order goes out, the agent tracks the confirmation, reads it when it arrives, compares dates, quantities and prices with the order and chases missing confirmations with emails from approved templates. Deviations are escalated to the buyer with a proposed response. The agent renegotiates nothing." },
+          { "icon": "bolt", "title": "Exception handling", "text": "Late deliveries, quantity mismatches, damaged goods: the agent gathers the facts (order, confirmation, tracking, goods receipt, photos), proposes options such as partial delivery, substitution or customer notification, and drafts the communication. The planner or customer service decides, with a complete case file in front of them." },
+          { "icon": "chart", "title": "Demand and inventory signals for planners", "text": "Each morning the agent summarises open orders, forecast deviations, stock-outs, supplier lead-time changes and blocked shipments into a short briefing and answers planners' questions in plain language over ERP and WMS data. It places no orders itself; it makes the planner's first hour useful." },
+          { "icon": "book", "title": "Shop-floor knowledge, SOPs and reporting", "text": "A [knowledge assistant](page:services/knowledge-assistants) answers questions from machine manuals, maintenance history and SOPs with sources. The agent drafts SOP updates and quality documentation from change records and prepares the weekly operations report. People approve every document that becomes binding." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Worked example",
+        "content": [
+          { "h2": "An order-intake agent: from unstructured emails to a validated ERP order" },
+          { "p": "A typical scenario: a manufacturer or wholesaler receives several hundred orders a week at orders@, as email text, PDF attachments and the occasional spreadsheet, and three people retype them. This is how an agent takes over the routine while the team keeps the decisions." },
+          { "ol": [
+            "**Detection and extraction.** An email arrives. The agent decides whether it is an order, an enquiry or a complaint, then extracts the header (customer, order number, requested date, delivery address) and the line items from body and attachments.",
+            "**Customer identification.** It matches sender, company name and customer number against ERP master data. Ambiguous matches, such as a new contact at a known customer or a subsidiary, go to a person.",
+            "**Line matching.** Customer article numbers are mapped to your own through mapping tables and past orders. Unknown articles produce a suggestion with a confidence score and a decision for the clerk, never a silent guess.",
+            "**Validation.** Prices are checked against price lists and contracts, quantities against packaging units and minimums, requested dates against availability and lead times, and the credit limit is verified. Each check returns pass or flag.",
+            "**Clean orders.** If every check passes, the order is created in the ERP. During the pilot it is a draft the clerk releases with one click; later, orders from defined customers are released automatically.",
+            "**Exceptions (human gate).** Anything flagged becomes a task in the clerk's worklist with the original email, the extracted data, the specific issue and a proposed action, for example “price deviates by four percent, contract price applies, confirm?”",
+            "**Customer communication.** The order confirmation is generated from the ERP order, not from the email, and sent after release. Questions to the customer are drafted for the clerk to approve.",
+            "**Audit trail.** Every step is logged: source document, extraction, checks, who released what and when. Quality management and finance can trace any order back to its origin.",
+            "**Weekly review.** Touchless rate, exception reasons and errors found downstream are reviewed with the team, and mapping tables and rules are improved."
+          ] },
+          { "note": "The first weeks run in shadow mode: the agent proposes, the clerk compares with their own work, and we measure agreement before a single order is created by the agent. These flows are built through our [agentic workflow](page:services/agentic-workflows) service, often together with [data foundations](page:services/data-foundations) work on master data." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Guardrails and risks in operations",
+        "items": [
+          { "title": "ERP write access by design", "text": "The agent uses a dedicated technical user with the minimum rights for the transaction in question. It creates proposals or drafts before it is allowed to post directly, never changes master data, and every permission is reviewed with IT and the ERP owner." },
+          { "title": "Four-eyes checks on financial impact", "text": "Price deviations, credit notes, order values above a threshold, supplier changes and anything affecting an invoice require a second person. The thresholds are configurable and logged, so the control is visible to auditors." },
+          { "title": "Audit logs and traceability", "text": "Source documents, extracted data, checks and decisions are stored with timestamps and user identities. This supports quality management, ISO audits and customs reviews and is a precondition for extending autonomy later." },
+          { "title": "Master data quality", "text": "Agents expose bad master data quickly: duplicate customers, outdated prices, missing packaging units. We plan the clean-up alongside the pilot rather than letting the agent paper over it. See our [data foundations](page:services/data-foundations) service." },
+          { "title": "Resilience and fallback", "text": "When a model or interface is down, orders must still flow. Every workflow has a manual fallback, monitoring with alerts and a defined owner, and supplier and customer communication uses approved templates so tone and commitments stay under control." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "How we start",
+        "items": [
+          { "title": "Operations assessment", "text": "We map your document flows, volumes, formats and systems, measure time per order, error rates and backlog, and select the first flow with a clear baseline. IT security and works council questions are raised at this stage.", "meta": "2–3 weeks" },
+          { "title": "Design and integration plan", "text": "Extraction schema, validation rules, exception categories, the ERP integration approach and roles are designed with your order desk, IT and, where relevant, quality management." },
+          { "title": "Pilot", "text": "Built on your real documents. Shadow mode first, then draft mode with clerks releasing orders. We measure touchless rate, accuracy and time per order against the baseline.", "meta": "6–8 weeks" },
+          { "title": "Scale and operate", "text": "More customers, document types, plants and flows such as supplier follow-ups and exception handling, with [managed AI operations](page:services/managed-ai-operations) keeping rules, mappings and interfaces current." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "We already have EDI and OCR. Why would we need an agent?", "a": "EDI covers your large partners, OCR templates cover stable layouts. The agent is for everything else: the long tail of customers who email free text, the supplier who changes his PDF layout, the order with a missing article number. It complements EDI and OCR rather than replacing them, and it can ask the sender for what is missing, which neither can." },
+          { "q": "Will the agent write directly into SAP or Dynamics?", "a": "Eventually, in a limited way, if you decide so. We start with read access and proposals, then drafts that a clerk releases, and only then direct creation of orders for defined customers and value ranges. Every write uses a technical user with minimal rights and is logged. Master data is never changed by the agent." },
+          { "q": "How accurate is the extraction?", "a": "It depends on your documents, which is why the pilot measures it on your real data rather than on a vendor's demo set. Confidence thresholds route uncertain fields to a person, so accuracy is a question of how much lands in the exception queue, not of silent errors. We report field-level accuracy and touchless rate every week of the pilot." },
+          { "q": "What about data protection for supplier and customer documents?", "a": "Most of the content is business data, but contact names, signatures and phone numbers are personal data under the GDPR, and some documents are confidential. We define what the agent may read and store, keep processing in the EU where required and agree processor terms with model providers. Your data-protection officer reviews the design." },
+          { "q": "What happens to our order-processing team?", "a": "Agents remove tasks, not usually roles. Retyping disappears; exception handling, customer contact, master data quality and supplier coordination remain and become the core of the job. Many teams use the capacity to absorb growth or shorten lead times. We plan the change with the team lead and train the team on the new tools." },
+          { "q": "Does this work with an older or smaller ERP?", "a": "Usually yes. Where there is no API we work through interfaces, file exports, email or a controlled front-end automation, and we say clearly when a system needs groundwork first. The [readiness assessment](page:services/ai-readiness-assessment) answers this question for your specific landscape." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related pages",
+        "pages": ["services/agentic-workflows", "industries/manufacturing", "industries/logistics", "solutions/procurement"]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "KI-Agenten in Operations & Supply Chain: Aufträge, Belege, ERP",
+    "metaDescription": "KI-Agenten in Operations: Auftragserfassung aus E-Mail und PDF ins ERP, Belegverarbeitung, Lieferanten-Nachfassen, Ausnahmebearbeitung mit Vier-Augen-Prinzip.",
+    "cardTitle": "KI-Agenten in Operations & Supply Chain",
+    "cardText": "Auftragserfassung aus E-Mail und PDF ins ERP, Belegverarbeitung, Nachfassen bei Lieferanten und Ausnahmebearbeitung, mit Menschen, die bei jeder Abweichung entscheiden.",
+    "hero": {
+      "eyebrow": "Lösung · Operations & Supply Chain",
+      "title": "KI-Agenten in Operations und Supply Chain:",
+      "titleAccent": "weniger Abtippen, weniger Überraschungen.",
+      "standfirst": "Aufträge kommen als E-Mail und PDF, Lieferscheine als Scan, Auftragsbestätigungen als Fließtext. Jemand tippt alles ins ERP und fragt nach, was fehlt. KI-Agenten lesen diese Belege, erzeugen geprüfte Vorgänge, fassen bei Lieferanten nach und legen die Ausnahmen der richtigen Person vor – mit Protokoll und Vier-Augen-Prinzip überall dort, wo Geld bewegt wird.",
+      "cta": { "label": "Erstgespräch vereinbaren", "page": "contact" },
+      "cta2": { "label": "So bauen wir agentische Workflows", "page": "services/agentic-workflows" }
+    },
+    "sections": [
+      {
+        "type": "lede",
+        "heading": "Wo Agenten in Operations wirken",
+        "lede": "Operations lebt von unstrukturiertem Input: E-Mails, PDFs, Anrufe und Tabellen, die alle zu sauberen Vorgängen im ERP werden müssen.",
+        "body": [
+          "Das Muster heißt Auslesen, Prüfen, Handeln. Ein Agent liest einen eingehenden Beleg, gleicht ihn mit Stammdaten ab (Kunden, Artikel, Preise, Lieferanten, offene Bestellungen), legt einen Vorschlag im ERP an und leitet alles, was nicht passt, an einen Menschen. Anders als OCR-Vorlagen oder RPA-Skripte kommen Agenten mit Abweichungen in Layout, Sprache und Vollständigkeit zurecht und können den Absender nach dem Fehlenden fragen.",
+          "Warum jetzt: Modelle zum Dokumentenverständnis verarbeiten echte Scans und unordentliche E-Mails auf brauchbarem Niveau, ERP-Anbieter von SAP und Microsoft Dynamics bis zu Mittelstandssystemen bieten Schnittstellen, und EDI deckt nur die großen Handelspartner ab. Der lange Schwanz kleiner Kunden und Lieferanten schickt weiter E-Mails, und die Menschen, die das bisher abgetippt haben, sind schwer zu finden.",
+          "Wir beginnen mit einem volumenstarken, messbaren Belegfluss, Auftragserfassung oder Lieferscheine, entwerfen ERP-Schreibzugriffe als Vorschläge, bevor daraus Buchungen werden, und lassen Menschen die Ausnahmen bearbeiten. Wann Agenten Skripten überlegen sind, erklärt unser Beitrag [Agenten vs. RPA vs. Chatbots](page:insights/agents-vs-rpa-vs-chatbots)."
+        ],
+        "facts": [
+          ["Typischer Einstieg", "Auftragserfassung aus E-Mail und PDF; Lieferscheinverarbeitung"],
+          ["Systeme", "ERP (SAP, Microsoft Dynamics, weitere), WMS, Lieferantenportale, E-Mail, EDI, DMS"],
+          ["Kontrollpunkt", "Ausnahmen, Preis- und Mengenabweichungen, alles mit finanzieller Wirkung"],
+          ["Erster Pilot", "In der Regel 6–8 Wochen"]
+        ],
+        "link": { "label": "Datenbasis für zuverlässige Agenten", "page": "services/data-foundations" }
+      },
+      {
+        "type": "cards",
+        "heading": "Use Cases",
+        "intro": "Sechs Workflows vom Postfach bis zur Werkhalle. Jeder nennt die beteiligten Systeme und die Stelle, an der ein Mensch entscheidet.",
+        "items": [
+          { "icon": "mail", "title": "Auftragserfassung ins ERP", "text": "Der Agent liest Kundenaufträge, die als E-Mail-Text, PDF, Tabelle oder EDI eingehen, gleicht Kunde, Artikelnummern, Preise und Liefertermine mit Stammdaten und Verträgen ab und legt den Auftragsvorschlag im ERP an. Vollständige, widerspruchsfreie Aufträge werden nach Ihren Regeln freigegeben; jede Abweichung geht mit Originalbeleg und konkretem Hinweis an einen Sachbearbeiter." },
+          { "icon": "doc", "title": "Intelligente Belegverarbeitung", "text": "Lieferscheine, Zolldokumente, Ursprungs- und Analysezertifikate, Packlisten: Der Agent liest die Daten aus, prüft sie gegen Bestellung oder Sendung, legt den Beleg mit den richtigen Metadaten im DMS ab und meldet fehlende oder abgelaufene Zertifikate. Streitfälle und unklare Fälle bleiben bei Menschen." },
+          { "icon": "truck", "title": "Lieferantenkommunikation und Nachfassen bei Bestätigungen", "text": "Nach dem Versand einer Bestellung verfolgt der Agent die Auftragsbestätigung, liest sie bei Eingang, vergleicht Termine, Mengen und Preise mit der Bestellung und fasst bei fehlenden Bestätigungen mit E-Mails aus freigegebenen Vorlagen nach. Abweichungen gehen mit Antwortvorschlag an den Einkäufer. Nachverhandelt wird nichts vom Agenten." },
+          { "icon": "bolt", "title": "Ausnahmebearbeitung", "text": "Verspätete Lieferungen, Mengenabweichungen, beschädigte Ware: Der Agent sammelt die Fakten (Bestellung, Bestätigung, Sendungsverfolgung, Wareneingang, Fotos), schlägt Optionen wie Teillieferung, Ersatz oder Kundeninformation vor und entwirft die Kommunikation. Disponent oder Kundenservice entscheiden, mit vollständiger Akte vor Augen." },
+          { "icon": "chart", "title": "Bedarfs- und Bestandssignale für Planer", "text": "Jeden Morgen fasst der Agent offene Aufträge, Forecast-Abweichungen, Fehlbestände, veränderte Lieferzeiten und blockierte Sendungen zu einem kurzen Briefing zusammen und beantwortet Fragen der Planer in Alltagssprache über ERP- und WMS-Daten. Bestellen tut er nicht; er macht die erste Stunde des Planers nützlich." },
+          { "icon": "book", "title": "Shopfloor-Wissen, SOPs und Reporting", "text": "Ein [Wissensassistent](page:services/knowledge-assistants) beantwortet Fragen aus Maschinenhandbüchern, Wartungshistorie und SOPs mit Quellen. Der Agent entwirft SOP-Aktualisierungen und Qualitätsdokumentation aus Änderungsdaten und bereitet den wöchentlichen Operations-Report vor. Menschen geben jedes Dokument frei, das verbindlich wird." }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Beispiel-Workflow",
+        "content": [
+          { "h2": "Ein Auftragserfassungs-Agent: von unstrukturierten E-Mails zum geprüften ERP-Auftrag" },
+          { "p": "Beispiel: Ein Hersteller oder Großhändler erhält wöchentlich mehrere hundert Aufträge an auftrag@, als E-Mail-Text, PDF-Anhang und gelegentlich als Tabelle, und drei Personen tippen sie ab. So übernimmt ein Agent die Routine, während das Team die Entscheidungen behält." },
+          { "ol": [
+            "**Erkennung und Auslesen.** Eine E-Mail geht ein. Der Agent entscheidet, ob es ein Auftrag, eine Anfrage oder eine Reklamation ist, und liest dann Kopfdaten (Kunde, Bestellnummer, Wunschtermin, Lieferadresse) und Positionen aus Text und Anhängen aus.",
+            "**Kundenidentifikation.** Er gleicht Absender, Firmenname und Kundennummer mit den ERP-Stammdaten ab. Unklare Treffer, etwa ein neuer Ansprechpartner bei einem bekannten Kunden oder eine Tochtergesellschaft, gehen an einen Menschen.",
+            "**Positionsabgleich.** Kundenartikelnummern werden über Zuordnungstabellen und frühere Aufträge auf Ihre eigenen abgebildet. Unbekannte Artikel erzeugen einen Vorschlag mit Konfidenzwert und eine Entscheidung für den Sachbearbeiter, nie eine stille Vermutung.",
+            "**Prüfung.** Preise werden gegen Preislisten und Verträge geprüft, Mengen gegen Verpackungseinheiten und Mindestmengen, Wunschtermine gegen Verfügbarkeit und Lieferzeiten, dazu das Kreditlimit. Jede Prüfung liefert „bestanden“ oder einen Hinweis.",
+            "**Saubere Aufträge.** Bestehen alle Prüfungen, wird der Auftrag im ERP angelegt. Im Pilot als Entwurf, den der Sachbearbeiter mit einem Klick freigibt; später werden Aufträge definierter Kunden automatisch freigegeben.",
+            "**Ausnahmen (Freigabe durch Mensch).** Alles mit Hinweis wird zur Aufgabe in der Arbeitsliste des Sachbearbeiters, mit Original-E-Mail, ausgelesenen Daten, dem konkreten Problem und einem Vorschlag, etwa „Preis weicht um vier Prozent ab, Vertragspreis gilt, bestätigen?“",
+            "**Kundenkommunikation.** Die Auftragsbestätigung entsteht aus dem ERP-Auftrag, nicht aus der E-Mail, und geht nach der Freigabe hinaus. Rückfragen an den Kunden werden zur Freigabe entworfen.",
+            "**Protokoll.** Jeder Schritt wird festgehalten: Quellbeleg, Auslesung, Prüfungen, wer was wann freigegeben hat. Qualitätsmanagement und Finanzen können jeden Auftrag bis zum Ursprung zurückverfolgen.",
+            "**Wöchentliche Durchsicht.** Dunkelverarbeitungsquote, Ausnahmegründe und nachgelagert gefundene Fehler werden mit dem Team besprochen, Zuordnungstabellen und Regeln verbessert."
+          ] },
+          { "note": "Die ersten Wochen laufen im Schattenmodus: Der Agent schlägt vor, der Sachbearbeiter vergleicht mit seiner eigenen Arbeit, und wir messen die Übereinstimmung, bevor der Agent einen einzigen Auftrag anlegt. Solche Abläufe bauen wir im Rahmen unserer Leistung [Agentische Workflows](page:services/agentic-workflows), oft zusammen mit [Datenbasis-Arbeit](page:services/data-foundations) an den Stammdaten." }
+        ]
+      },
+      {
+        "type": "list",
+        "heading": "Leitplanken und Risiken in Operations",
+        "items": [
+          { "title": "ERP-Schreibzugriff mit Bedacht", "text": "Der Agent nutzt einen eigenen technischen Benutzer mit den minimalen Rechten für die jeweilige Transaktion. Er erzeugt Vorschläge oder Entwürfe, bevor er direkt buchen darf, ändert nie Stammdaten, und jede Berechtigung wird mit IT und ERP-Verantwortlichen abgestimmt." },
+          { "title": "Vier-Augen-Prinzip bei finanzieller Wirkung", "text": "Preisabweichungen, Gutschriften, Auftragswerte über einer Schwelle, Lieferantenwechsel und alles, was eine Rechnung berührt, brauchen eine zweite Person. Die Schwellen sind konfigurierbar und protokolliert, sodass die Kontrolle für Prüfer sichtbar ist." },
+          { "title": "Protokoll und Nachvollziehbarkeit", "text": "Quellbelege, ausgelesene Daten, Prüfungen und Entscheidungen werden mit Zeitstempel und Benutzerkennung gespeichert. Das stützt Qualitätsmanagement, ISO-Audits und Zollprüfungen und ist Voraussetzung, um Autonomie später auszuweiten." },
+          { "title": "Stammdatenqualität", "text": "Agenten legen schlechte Stammdaten schnell offen: doppelte Kunden, veraltete Preise, fehlende Verpackungseinheiten. Wir planen die Bereinigung parallel zum Pilot, statt den Agenten darüber hinwegtäuschen zu lassen. Mehr dazu unter [Datenbasis](page:services/data-foundations)." },
+          { "title": "Ausfallsicherheit und Rückfallebene", "text": "Fällt ein Modell oder eine Schnittstelle aus, müssen Aufträge trotzdem fließen. Jeder Workflow hat eine manuelle Rückfallebene, Monitoring mit Alarmen und einen Verantwortlichen, und die Kommunikation mit Lieferanten und Kunden nutzt freigegebene Vorlagen, damit Ton und Zusagen unter Kontrolle bleiben." }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": "So starten wir",
+        "items": [
+          { "title": "Operations-Assessment", "text": "Wir kartieren Belegflüsse, Volumina, Formate und Systeme, messen Zeit je Auftrag, Fehlerquoten und Rückstand und wählen den ersten Fluss mit klarem Ausgangswert. IT-Sicherheit und Betriebsratsfragen kommen in dieser Phase auf den Tisch.", "meta": "2–3 Wochen" },
+          { "title": "Design und Integrationsplan", "text": "Auslese-Schema, Prüfregeln, Ausnahmekategorien, den Weg der ERP-Anbindung und die Rollen entwerfen wir mit Ihrer Auftragsabwicklung, der IT und, wo relevant, dem Qualitätsmanagement." },
+          { "title": "Pilot", "text": "Gebaut auf Ihren echten Belegen. Zuerst Schattenmodus, dann Entwurfsmodus, in dem Sachbearbeiter Aufträge freigeben. Wir messen Dunkelverarbeitungsquote, Genauigkeit und Zeit je Auftrag gegen den Ausgangswert.", "meta": "6–8 Wochen" },
+          { "title": "Skalieren und betreiben", "text": "Mehr Kunden, Belegarten, Werke und Flüsse wie Lieferanten-Nachfassen und Ausnahmebearbeitung, mit [Managed AI Operations](page:services/managed-ai-operations), damit Regeln, Zuordnungen und Schnittstellen aktuell bleiben." }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          { "q": "Wir haben schon EDI und OCR. Wozu ein Agent?", "a": "EDI deckt Ihre großen Partner ab, OCR-Vorlagen stabile Layouts. Der Agent ist für alles andere da: den langen Schwanz an Kunden, die Freitext mailen, den Lieferanten, der sein PDF-Layout ändert, den Auftrag mit fehlender Artikelnummer. Er ergänzt EDI und OCR, statt sie zu ersetzen, und kann den Absender nach dem Fehlenden fragen, was beide nicht können." },
+          { "q": "Schreibt der Agent direkt in SAP oder Dynamics?", "a": "Irgendwann, in begrenztem Umfang, wenn Sie das entscheiden. Wir beginnen mit Lesezugriff und Vorschlägen, dann Entwürfen, die ein Sachbearbeiter freigibt, und erst danach mit dem direkten Anlegen von Aufträgen für definierte Kunden und Wertbereiche. Jeder Schreibzugriff läuft über einen technischen Benutzer mit minimalen Rechten und wird protokolliert. Stammdaten ändert der Agent nie." },
+          { "q": "Wie genau ist das Auslesen?", "a": "Das hängt von Ihren Belegen ab, weshalb der Pilot es auf Ihren echten Daten misst statt auf dem Demo-Set eines Anbieters. Konfidenzschwellen leiten unsichere Felder an einen Menschen, sodass Genauigkeit eine Frage der Ausnahmequote ist, nicht stiller Fehler. Wir berichten Genauigkeit je Feld und Dunkelverarbeitungsquote in jeder Pilotwoche." },
+          { "q": "Wie steht es um den Datenschutz bei Lieferanten- und Kundenbelegen?", "a": "Der Inhalt ist überwiegend geschäftlich, aber Ansprechpartner, Unterschriften und Telefonnummern sind personenbezogene Daten nach DSGVO, und manche Belege sind vertraulich. Wir legen fest, was der Agent lesen und speichern darf, verarbeiten wo nötig in der EU und vereinbaren Auftragsverarbeitung mit den Modellanbietern. Ihr Datenschutzbeauftragter prüft das Design." },
+          { "q": "Was passiert mit unserer Auftragsabwicklung?", "a": "Agenten nehmen Aufgaben ab, in der Regel keine Stellen. Das Abtippen verschwindet; Ausnahmebearbeitung, Kundenkontakt, Stammdatenqualität und Lieferantenkoordination bleiben und werden zum Kern der Arbeit. Viele Teams nutzen die Kapazität, um Wachstum aufzufangen oder Durchlaufzeiten zu verkürzen. Wir planen den Wandel mit der Teamleitung und schulen das Team auf den neuen Werkzeugen." },
+          { "q": "Funktioniert das mit einem älteren oder kleineren ERP?", "a": "Meistens ja. Wo es keine API gibt, arbeiten wir über Schnittstellen, Dateiexporte, E-Mail oder eine kontrollierte Oberflächenautomatisierung, und wir sagen klar, wenn ein System zuerst Vorarbeit braucht. Das [Readiness-Assessment](page:services/ai-readiness-assessment) beantwortet diese Frage für Ihre konkrete Landschaft." }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passende Seiten",
+        "pages": ["services/agentic-workflows", "industries/manufacturing", "industries/logistics", "solutions/procurement"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "id": "insights/sovereign-ai-eu-hosting",
+  "date": "2026-09-16",
+  "en": {
+    "metaTitle": "Sovereign AI: Your Options for EU-Hosted Language Models",
+    "metaDescription": "A decision guide to EU-hosted LLMs: US providers with safeguards, hyperscaler EU regions, European providers and self-hosted open-weight models, compared honestly.",
+    "cardTitle": "Sovereign AI: options for EU-hosted language models",
+    "cardText": "US providers with safeguards, hyperscaler EU regions, European providers or self-hosted open-weight models: how to choose by data sensitivity and use case.",
+    "hero": {
+      "eyebrow": "Insights · Guide",
+      "title": "Sovereign AI: your options for",
+      "titleAccent": "EU-hosted language models.",
+      "standfirst": "\"Where does our data go?\" is the first question most European companies ask about AI, and it deserves a better answer than \"the cloud\". This guide lays out the realistic options, from US model providers with contractual safeguards to models running in your own data centre, and shows how to choose by data sensitivity rather than by ideology."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Why it matters",
+        "content": [
+          {
+            "h2": "Five reasons the hosting question is not academic"
+          },
+          {
+            "p": "Sovereignty in AI means being able to decide, and prove, where your data is processed, who can access it, under which law, and what happens if a provider changes terms or disappears. For European companies that concern is driven by concrete obligations rather than abstract principle."
+          },
+          {
+            "ul": [
+              "**GDPR.** Personal data in prompts, documents and outputs needs a legal basis, a processor agreement and, for transfers outside the EU, a valid transfer mechanism. Data-protection officers ask about this before anything else.",
+              "**Confidentiality.** Contracts, product designs, M&A material and source code are valuable regardless of whether they contain personal data. Provider terms on training, retention and access decide whether they may be sent at all.",
+              "**Sector regulation.** Financial services, healthcare, public bodies and critical infrastructure face outsourcing and ICT-risk rules that require documented control over providers and locations.",
+              "**Procurement and client contracts.** Many client agreements and public tenders specify EU processing. A non-compliant AI stack disqualifies you from work you already have.",
+              "**Dependency risk.** Pricing, model deprecation and export controls are outside your control. Being able to switch providers is worth something even if you never do."
+            ]
+          },
+          {
+            "p": "None of this means everything must run in Europe. It means the decision should be made per data class and use case, with the trade-offs understood. Read our [AI governance service](page:services/ai-governance) page for how the decision is documented."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "The option spectrum",
+        "content": [
+          {
+            "h2": "Four ways to run a language model for European work"
+          },
+          {
+            "p": "Options are presented from least to most control. Product names are examples of what exists at the time of writing, not recommendations or claims about specific certifications; check each provider's current terms."
+          },
+          {
+            "h3": "1. US model providers via API, with EU safeguards"
+          },
+          {
+            "p": "OpenAI, Anthropic and Google offer their models through APIs with enterprise terms that typically include no training on customer data, defined retention periods, data-processing agreements and, increasingly, options for EU-based processing. Capability is the strongest, integration is the easiest, and the compliance story rests on contracts plus transfer mechanisms."
+          },
+          {
+            "h3": "2. Hyperscaler EU regions"
+          },
+          {
+            "p": "The same or comparable models are available inside the large clouds: Azure OpenAI Service in EU regions, Amazon Bedrock in EU regions, Google Vertex AI in EU regions. Data stays in the chosen region under the cloud provider's existing contracts, security certifications and identity systems your IT already manages. The providers remain US-headquartered, which matters to some regulators and clients and not to others."
+          },
+          {
+            "h3": "3. European providers and clouds"
+          },
+          {
+            "p": "European model developers such as Mistral and Aleph Alpha, and European infrastructure providers such as IONOS, STACKIT, Open Telekom Cloud and OVHcloud, offer models and hosting under EU jurisdiction. Capability of the top European models is competitive for many business tasks, though the frontier tends to be set elsewhere; the ecosystem of tools and integrations is smaller but growing."
+          },
+          {
+            "h3": "4. Self-hosted open-weight models"
+          },
+          {
+            "p": "Model families with openly available weights, such as Llama, Mistral, Qwen and Gemma, can run on your own servers or on rented EU GPU capacity. Nothing leaves your environment, you control versions and updates, and there is no per-token dependency. The price is operational: hardware or GPU rental, MLOps skills, security patching and the fact that you are now the one responsible for the model's behaviour."
+          },
+          {
+            "table": {
+              "caption": "Comparing the four options",
+              "columns": [
+                "",
+                "US provider API",
+                "Hyperscaler EU region",
+                "European provider",
+                "Self-hosted open weights"
+              ],
+              "rows": [
+                [
+                  "Capability",
+                  "Highest",
+                  "Highest to high",
+                  "High for most business tasks",
+                  "Good to high, depends on model size"
+                ],
+                [
+                  "Data location",
+                  "Provider-dependent, EU options emerging",
+                  "Chosen EU region",
+                  "EU",
+                  "Your infrastructure"
+                ],
+                [
+                  "Jurisdiction of provider",
+                  "US",
+                  "US (EU entity contracts)",
+                  "EU",
+                  "You"
+                ],
+                [
+                  "Integration effort",
+                  "Low",
+                  "Low to medium",
+                  "Medium",
+                  "High"
+                ],
+                [
+                  "Cost profile",
+                  "Per token, low fixed",
+                  "Per token, low fixed",
+                  "Per token or licence",
+                  "High fixed, low marginal"
+                ],
+                [
+                  "Operations burden",
+                  "None",
+                  "Low",
+                  "Low to medium",
+                  "High"
+                ],
+                [
+                  "Compliance evidence",
+                  "Contracts, transfer mechanism",
+                  "Cloud certifications, region",
+                  "EU jurisdiction",
+                  "Your own audit"
+                ],
+                [
+                  "Lock-in",
+                  "Medium",
+                  "Medium to high",
+                  "Medium",
+                  "Low"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "How to decide",
+        "content": [
+          {
+            "h2": "Route by data sensitivity, not by slogan"
+          },
+          {
+            "p": "The mistake we see most often is a company-wide decision in either direction: \"everything on the US frontier model\" or \"nothing leaves our data centre\". Both waste money or capability. The workable approach is a classification of data and use cases, and a routing rule for each class."
+          },
+          {
+            "table": {
+              "caption": "A decision matrix by data class",
+              "columns": [
+                "Data class",
+                "Examples",
+                "Typical routing"
+              ],
+              "rows": [
+                [
+                  "Public or non-sensitive",
+                  "Marketing copy, public documentation, generic research",
+                  "Any option; choose by capability and cost"
+                ],
+                [
+                  "Internal, low personal data",
+                  "Process documents, tickets without customer identifiers, code without secrets",
+                  "US provider with enterprise terms or hyperscaler EU region"
+                ],
+                [
+                  "Confidential or personal data",
+                  "Customer records, HR data, contracts, financials",
+                  "Hyperscaler EU region or European provider, with DPA and no-training terms"
+                ],
+                [
+                  "Highly sensitive or regulated",
+                  "Privileged legal material, health data, trade secrets, regulated sector data",
+                  "European provider under EU jurisdiction or self-hosted open weights"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Most companies end up with two or three of the four options in use at the same time, which is fine as long as the routing is enforced in the architecture rather than left to individual users."
+          },
+          {
+            "h2": "A practical architecture"
+          },
+          {
+            "ul": [
+              "**An abstraction layer.** Applications and agents call models through a gateway that applies the routing rule, logs usage and can swap the provider behind a use case without code changes.",
+              "**Classification at the source.** Documents and data sources carry a sensitivity label; the gateway refuses to send a highly sensitive document to a route not cleared for it.",
+              "**Evaluation per route.** Every model behind the gateway is tested against the same evaluation set for each use case, so you know the capability cost of a more sovereign route before choosing it.",
+              "**Exit options.** Prompts, evaluation sets and fine-tuning data are kept in provider-neutral formats. Switching should be a configuration change and a regression test, not a project."
+            ]
+          },
+          {
+            "note": "The cost of sovereignty is rarely the token price. It is evaluation, operations and integration effort. Budget for those when comparing options, and compare on the specific use case rather than on benchmark leaderboards."
+          },
+          {
+            "h2": "What to do now"
+          },
+          {
+            "ol": [
+              "Inventory the data classes your first AI use cases will touch and label them.",
+              "Agree the routing rule per class with your data protection officer and IT security, and write it down.",
+              "Set up a model gateway, even a simple one, so the rule is enforced and usage is logged.",
+              "Run the same evaluation set on at least two routes for each use case before committing.",
+              "Review the decision every six months. The market moves fast, and a route that was not viable last year may be the right one now."
+            ]
+          },
+          {
+            "p": "Our [agent development](page:services/ai-agent-development) and [data foundations](page:services/data-foundations) services build this architecture; the [governance service](page:services/ai-governance) documents it for auditors and clients."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Is EU hosting required by law?",
+            "a": "Not as a blanket rule. The GDPR requires a lawful basis for transferring personal data outside the EU and permits transfers under mechanisms such as adequacy decisions or standard contractual clauses. Sector regulation and client contracts can impose stricter requirements. The answer depends on your data, your sector and your contracts, which is why the decision is made per data class. This is not legal advice."
+          },
+          {
+            "q": "Are European models good enough?",
+            "a": "For many business tasks, such as summarisation, classification, extraction, drafting in German and other European languages and retrieval-augmented question answering, yes. For the most demanding reasoning and coding tasks the frontier is usually set by US providers. The only reliable answer is your own evaluation set run on both."
+          },
+          {
+            "q": "How expensive is self-hosting?",
+            "a": "The token cost can be very low at volume, but the fixed costs are significant: GPU hardware or rental, people who can operate models, security and updates, and the evaluation work that a provider would otherwise do. It pays off for high volumes of sensitive work, and rarely for a first pilot."
+          },
+          {
+            "q": "Can we start with a US provider and move later?",
+            "a": "Yes, if you plan for it: an abstraction layer, provider-neutral prompts and evaluation sets, and no dependence on provider-specific features you cannot replace. Most of our clients start with the most capable option for non-sensitive use cases and add more sovereign routes as sensitive use cases follow."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Related",
+        "pages": [
+          "services/ai-governance",
+          "services/ai-agent-development",
+          "services/data-foundations",
+          "insights/eu-ai-act-guide"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "metaTitle": "Souveräne KI: Ihre Optionen für Sprachmodelle mit EU-Hosting",
+    "metaDescription": "Entscheidungsleitfaden für LLMs mit EU-Hosting: US-Anbieter mit Schutzmaßnahmen, EU-Regionen der Hyperscaler, europäische Anbieter, selbst gehostete Modelle.",
+    "cardTitle": "Souveräne KI: Optionen für Sprachmodelle mit EU-Hosting",
+    "cardText": "US-Anbieter mit Schutzmaßnahmen, EU-Regionen der Hyperscaler, europäische Anbieter oder selbst gehostete offene Modelle: wie Sie nach Datensensibilität und Use Case entscheiden.",
+    "hero": {
+      "eyebrow": "Insights · Leitfaden",
+      "title": "Souveräne KI: Ihre Optionen für",
+      "titleAccent": "Sprachmodelle mit EU-Hosting.",
+      "standfirst": "„Wo landen unsere Daten?“ ist die erste Frage, die die meisten europäischen Unternehmen zu KI stellen – und sie verdient eine bessere Antwort als „in der Cloud“. Dieser Leitfaden zeigt die realistischen Optionen, von US-Modellanbietern mit vertraglichen Schutzmaßnahmen bis zu Modellen im eigenen Rechenzentrum, und wie Sie nach Datensensibilität statt nach Ideologie entscheiden."
+    },
+    "sections": [
+      {
+        "type": "prose",
+        "heading": "Warum es darauf ankommt",
+        "content": [
+          {
+            "h2": "Fünf Gründe, warum die Hosting-Frage nicht akademisch ist"
+          },
+          {
+            "p": "Souveränität bei KI bedeutet, entscheiden und nachweisen zu können, wo Ihre Daten verarbeitet werden, wer darauf zugreifen kann, unter welchem Recht – und was passiert, wenn ein Anbieter seine Bedingungen ändert oder verschwindet. Für europäische Unternehmen wird diese Sorge von konkreten Pflichten getrieben, nicht von abstrakten Prinzipien."
+          },
+          {
+            "ul": [
+              "**DSGVO.** Personenbezogene Daten in Prompts, Dokumenten und Ausgaben brauchen eine Rechtsgrundlage, einen Auftragsverarbeitungsvertrag und für Übermittlungen außerhalb der EU einen gültigen Übermittlungsmechanismus. Datenschutzbeauftragte fragen danach vor allem anderen.",
+              "**Vertraulichkeit.** Verträge, Produktentwürfe, M&A-Unterlagen und Quellcode sind wertvoll, ob sie personenbezogene Daten enthalten oder nicht. Die Anbieterbedingungen zu Training, Aufbewahrung und Zugriff entscheiden, ob sie überhaupt gesendet werden dürfen.",
+              "**Branchenregulierung.** Finanzdienstleister, Gesundheitswesen, öffentliche Stellen und kritische Infrastrukturen unterliegen Auslagerungs- und IKT-Risikoregeln, die dokumentierte Kontrolle über Anbieter und Standorte verlangen.",
+              "**Vergabe und Kundenverträge.** Viele Kundenvereinbarungen und öffentliche Ausschreibungen schreiben EU-Verarbeitung vor. Ein nicht konformer KI-Stack disqualifiziert Sie von Aufträgen, die Sie bereits haben.",
+              "**Abhängigkeitsrisiko.** Preise, Modellabkündigungen und Exportkontrollen liegen außerhalb Ihrer Kontrolle. Anbieter wechseln zu können ist etwas wert, auch wenn Sie es nie tun."
+            ]
+          },
+          {
+            "p": "Nichts davon bedeutet, dass alles in Europa laufen muss. Es bedeutet, dass die Entscheidung je Datenklasse und Use Case getroffen werden sollte, mit verstandenen Abwägungen. Wie die Entscheidung dokumentiert wird, beschreibt unsere [KI-Governance-Beratung](page:services/ai-governance)."
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Das Spektrum der Optionen",
+        "content": [
+          {
+            "h2": "Vier Wege, ein Sprachmodell für europäische Arbeit zu betreiben"
+          },
+          {
+            "p": "Die Optionen sind von der geringsten zur größten Kontrolle geordnet. Produktnamen sind Beispiele für das, was zum Zeitpunkt des Schreibens existiert – keine Empfehlungen und keine Aussagen über bestimmte Zertifizierungen; prüfen Sie die aktuellen Bedingungen jedes Anbieters."
+          },
+          {
+            "h3": "1. US-Modellanbieter per API, mit EU-Schutzmaßnahmen"
+          },
+          {
+            "p": "OpenAI, Anthropic und Google bieten ihre Modelle über APIs mit Unternehmensbedingungen an, die in der Regel kein Training auf Kundendaten, definierte Aufbewahrungsfristen, Auftragsverarbeitungsverträge und zunehmend Optionen für EU-basierte Verarbeitung umfassen. Die Leistung ist am stärksten, die Integration am einfachsten, und die Compliance-Argumentation stützt sich auf Verträge plus Übermittlungsmechanismen."
+          },
+          {
+            "h3": "2. EU-Regionen der Hyperscaler"
+          },
+          {
+            "p": "Dieselben oder vergleichbare Modelle sind innerhalb der großen Clouds verfügbar: Azure OpenAI Service in EU-Regionen, Amazon Bedrock in EU-Regionen, Google Vertex AI in EU-Regionen. Die Daten bleiben in der gewählten Region unter den bestehenden Verträgen, Sicherheitszertifizierungen und Identitätssystemen des Cloud-Anbieters, die Ihre IT ohnehin verwaltet. Die Anbieter bleiben Unternehmen mit US-Hauptsitz – für manche Aufsichtsbehörden und Kunden relevant, für andere nicht."
+          },
+          {
+            "h3": "3. Europäische Anbieter und Clouds"
+          },
+          {
+            "p": "Europäische Modellentwickler wie Mistral und Aleph Alpha sowie europäische Infrastrukturanbieter wie IONOS, STACKIT, Open Telekom Cloud und OVHcloud bieten Modelle und Hosting unter EU-Recht. Die Leistung der besten europäischen Modelle ist für viele Geschäftsaufgaben wettbewerbsfähig, auch wenn die Spitze meist anderswo gesetzt wird; das Ökosystem an Werkzeugen und Integrationen ist kleiner, wächst aber."
+          },
+          {
+            "h3": "4. Selbst gehostete Modelle mit offenen Gewichten"
+          },
+          {
+            "p": "Modellfamilien mit frei verfügbaren Gewichten wie Llama, Mistral, Qwen und Gemma können auf eigenen Servern oder gemieteter EU-GPU-Kapazität laufen. Nichts verlässt Ihre Umgebung, Sie kontrollieren Versionen und Updates, und es gibt keine Abhängigkeit pro Token. Der Preis ist operativ: Hardware oder GPU-Miete, MLOps-Kompetenz, Sicherheitsupdates – und die Tatsache, dass Sie nun selbst für das Verhalten des Modells verantwortlich sind."
+          },
+          {
+            "table": {
+              "caption": "Die vier Optionen im Vergleich",
+              "columns": [
+                "",
+                "US-Anbieter per API",
+                "Hyperscaler EU-Region",
+                "Europäischer Anbieter",
+                "Selbst gehostet, offene Gewichte"
+              ],
+              "rows": [
+                [
+                  "Leistung",
+                  "Am höchsten",
+                  "Am höchsten bis hoch",
+                  "Hoch für die meisten Geschäftsaufgaben",
+                  "Gut bis hoch, je nach Modellgröße"
+                ],
+                [
+                  "Datenstandort",
+                  "Anbieterabhängig, EU-Optionen im Kommen",
+                  "Gewählte EU-Region",
+                  "EU",
+                  "Ihre Infrastruktur"
+                ],
+                [
+                  "Rechtsraum des Anbieters",
+                  "USA",
+                  "USA (Verträge mit EU-Gesellschaft)",
+                  "EU",
+                  "Sie selbst"
+                ],
+                [
+                  "Integrationsaufwand",
+                  "Gering",
+                  "Gering bis mittel",
+                  "Mittel",
+                  "Hoch"
+                ],
+                [
+                  "Kostenprofil",
+                  "Pro Token, geringe Fixkosten",
+                  "Pro Token, geringe Fixkosten",
+                  "Pro Token oder Lizenz",
+                  "Hohe Fixkosten, geringe Grenzkosten"
+                ],
+                [
+                  "Betriebsaufwand",
+                  "Keiner",
+                  "Gering",
+                  "Gering bis mittel",
+                  "Hoch"
+                ],
+                [
+                  "Compliance-Nachweis",
+                  "Verträge, Übermittlungsmechanismus",
+                  "Cloud-Zertifizierungen, Region",
+                  "EU-Rechtsraum",
+                  "Eigenes Audit"
+                ],
+                [
+                  "Lock-in",
+                  "Mittel",
+                  "Mittel bis hoch",
+                  "Mittel",
+                  "Gering"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "heading": "Wie Sie entscheiden",
+        "content": [
+          {
+            "h2": "Nach Datensensibilität routen, nicht nach Parole"
+          },
+          {
+            "p": "Der häufigste Fehler ist eine unternehmensweite Entscheidung in die eine oder andere Richtung: „alles auf das US-Spitzenmodell“ oder „nichts verlässt unser Rechenzentrum“. Beides verschwendet Geld oder Leistung. Der gangbare Weg ist eine Klassifizierung von Daten und Use Cases und eine Routing-Regel je Klasse."
+          },
+          {
+            "table": {
+              "caption": "Entscheidungsmatrix nach Datenklasse",
+              "columns": [
+                "Datenklasse",
+                "Beispiele",
+                "Typisches Routing"
+              ],
+              "rows": [
+                [
+                  "Öffentlich oder unkritisch",
+                  "Marketingtexte, öffentliche Dokumentation, allgemeine Recherche",
+                  "Jede Option; Wahl nach Leistung und Kosten"
+                ],
+                [
+                  "Intern, wenige personenbezogene Daten",
+                  "Prozessdokumente, Tickets ohne Kundenkennungen, Code ohne Geheimnisse",
+                  "US-Anbieter mit Unternehmensbedingungen oder Hyperscaler-EU-Region"
+                ],
+                [
+                  "Vertraulich oder personenbezogen",
+                  "Kundendaten, HR-Daten, Verträge, Finanzzahlen",
+                  "Hyperscaler-EU-Region oder europäischer Anbieter, mit AVV und No-Training-Klausel"
+                ],
+                [
+                  "Hochsensibel oder reguliert",
+                  "Privilegierte Rechtsunterlagen, Gesundheitsdaten, Geschäftsgeheimnisse, Daten regulierter Branchen",
+                  "Europäischer Anbieter unter EU-Recht oder selbst gehostete offene Modelle"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Die meisten Unternehmen nutzen am Ende zwei oder drei der vier Optionen gleichzeitig – was in Ordnung ist, solange das Routing in der Architektur durchgesetzt wird und nicht einzelnen Nutzern überlassen bleibt."
+          },
+          {
+            "h2": "Eine praktikable Architektur"
+          },
+          {
+            "ul": [
+              "**Eine Abstraktionsschicht.** Anwendungen und Agenten rufen Modelle über ein Gateway auf, das die Routing-Regel anwendet, die Nutzung protokolliert und den Anbieter hinter einem Use Case ohne Codeänderung austauschen kann.",
+              "**Klassifizierung an der Quelle.** Dokumente und Datenquellen tragen ein Sensibilitätslabel; das Gateway weigert sich, ein hochsensibles Dokument an eine dafür nicht freigegebene Route zu senden.",
+              "**Evaluation je Route.** Jedes Modell hinter dem Gateway wird je Use Case gegen dasselbe Evaluationsset getestet, damit Sie die Leistungskosten einer souveräneren Route kennen, bevor Sie sie wählen.",
+              "**Ausstiegsoptionen.** Prompts, Evaluationssets und Feinabstimmungsdaten werden in anbieterneutralen Formaten gehalten. Ein Wechsel sollte eine Konfigurationsänderung und ein Regressionstest sein, kein Projekt."
+            ]
+          },
+          {
+            "note": "Die Kosten der Souveränität sind selten der Tokenpreis. Es sind Evaluation, Betrieb und Integrationsaufwand. Planen Sie diese ein, wenn Sie Optionen vergleichen – und vergleichen Sie am konkreten Use Case statt an Benchmark-Ranglisten."
+          },
+          {
+            "h2": "Was jetzt zu tun ist"
+          },
+          {
+            "ol": [
+              "Erfassen Sie die Datenklassen, die Ihre ersten KI-Use-Cases berühren, und kennzeichnen Sie sie.",
+              "Vereinbaren Sie die Routing-Regel je Klasse mit Datenschutzbeauftragtem und IT-Sicherheit und schreiben Sie sie auf.",
+              "Richten Sie ein Modell-Gateway ein, auch ein einfaches, damit die Regel durchgesetzt und die Nutzung protokolliert wird.",
+              "Lassen Sie je Use Case dasselbe Evaluationsset auf mindestens zwei Routen laufen, bevor Sie sich festlegen.",
+              "Überprüfen Sie die Entscheidung alle sechs Monate. Der Markt bewegt sich schnell, und eine Route, die letztes Jahr nicht tragfähig war, kann heute die richtige sein."
+            ]
+          },
+          {
+            "p": "Unsere Leistungen [KI-Agenten-Entwicklung](page:services/ai-agent-development) und [Datenbasis für KI](page:services/data-foundations) bauen diese Architektur; die [Governance-Beratung](page:services/ai-governance) dokumentiert sie für Prüfer und Kunden."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "items": [
+          {
+            "q": "Ist EU-Hosting gesetzlich vorgeschrieben?",
+            "a": "Nicht pauschal. Die DSGVO verlangt eine Rechtsgrundlage für die Übermittlung personenbezogener Daten außerhalb der EU und erlaubt Übermittlungen unter Mechanismen wie Angemessenheitsbeschlüssen oder Standardvertragsklauseln. Branchenregulierung und Kundenverträge können strengere Anforderungen stellen. Die Antwort hängt von Ihren Daten, Ihrer Branche und Ihren Verträgen ab – deshalb wird je Datenklasse entschieden. Das ist keine Rechtsberatung."
+          },
+          {
+            "q": "Sind europäische Modelle gut genug?",
+            "a": "Für viele Geschäftsaufgaben – Zusammenfassen, Klassifizieren, Extrahieren, Textentwürfe auf Deutsch und in anderen europäischen Sprachen sowie Fragenbeantwortung mit Retrieval – ja. Bei den anspruchsvollsten Reasoning- und Programmieraufgaben wird die Spitze meist von US-Anbietern gesetzt. Die einzig verlässliche Antwort ist Ihr eigenes Evaluationsset auf beiden."
+          },
+          {
+            "q": "Wie teuer ist Selbsthosting?",
+            "a": "Die Tokenkosten können bei Volumen sehr niedrig sein, aber die Fixkosten sind erheblich: GPU-Hardware oder -Miete, Leute, die Modelle betreiben können, Sicherheit und Updates sowie die Evaluationsarbeit, die sonst ein Anbieter übernimmt. Es rechnet sich bei hohen Volumina sensibler Arbeit und selten für einen ersten Piloten."
+          },
+          {
+            "q": "Können wir mit einem US-Anbieter starten und später wechseln?",
+            "a": "Ja, wenn Sie es einplanen: eine Abstraktionsschicht, anbieterneutrale Prompts und Evaluationssets und keine Abhängigkeit von anbieterspezifischen Funktionen, die Sie nicht ersetzen können. Die meisten unserer Kunden starten mit der leistungsfähigsten Option für unkritische Use Cases und ergänzen souveränere Routen, sobald sensible Use Cases folgen."
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "heading": "Passend dazu",
+        "pages": [
+          "services/ai-governance",
+          "services/ai-agent-development",
+          "services/data-foundations",
+          "insights/eu-ai-act-guide"
+        ]
+      }
+    ]
+  }
+}
