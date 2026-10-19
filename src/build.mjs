@@ -474,7 +474,7 @@ function headerHtml(page, lang) {
   return `<a class="skip-link" href="#main">${esc(ui.skip)}</a>
 <header class="site-header">
   <a class="brand" href="${pathFor("home", lang)}" aria-label="${attr(SITE.shortName)}">NEUROTECH <em>AI</em> SOLUTIONS</a>
-  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-label-open="${attr(ui.menu)}" data-label-close="${attr(ui.close)}">${esc(ui.menu)}</button>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-label-open="${attr(ui.menu)}" data-label-close="${attr(ui.close)}"><span class="nav-toggle-icon" aria-hidden="true"></span><span class="nav-toggle-label">${esc(ui.menu)}</span></button>
   <nav id="site-nav" class="site-nav" aria-label="Main">
     ${navItems}
     <a class="lang-switch" href="${pathFor(page.id, otherLang)}" hreflang="${otherLang}" lang="${otherLang}" title="${attr(ui.switchTitle)}">${esc(ui.switchLabel)}</a>

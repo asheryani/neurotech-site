@@ -28,7 +28,7 @@ if (toggle && nav) {
   toggle.addEventListener("click", () => {
     const open = nav.classList.toggle("open");
     toggle.setAttribute("aria-expanded", String(open));
-    toggle.textContent = open ? toggle.dataset.labelClose : toggle.dataset.labelOpen;
+    (toggle.querySelector(".nav-toggle-label") || toggle).textContent = open ? toggle.dataset.labelClose : toggle.dataset.labelOpen;
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && nav.classList.contains("open")) toggle.click();
