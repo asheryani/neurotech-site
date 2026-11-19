@@ -402,7 +402,8 @@
     "imprint": {
       "type": "legal",
       "en": "imprint",
-      "de": "impressum"
+      "de": "impressum",
+      "noindex": true
     },
     "privacy": {
       "type": "legal",

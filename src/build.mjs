@@ -454,7 +454,7 @@ ${alternates}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="robots" content="${reg.noindex ? "noindex, nofollow, noarchive" : "index, follow, max-snippet:-1, max-image-preview:large"}">
 <link rel="icon" href="${FAVICON}">
 <link rel="sitemap" type="application/xml" href="${ORIGIN}/sitemap.xml">
 <link rel="preload" href="/assets/fonts/instrument-serif-400-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -483,9 +483,11 @@ function headerHtml(page, lang) {
 </header>`;
 }
 
+const relFor = (id) => (SITE.pages[id] && SITE.pages[id].noindex ? ' rel="nofollow"' : "");
+
 function footerHtml(page, lang) {
   const ui = SITE.ui[lang];
-  const col = (heading, ids) => `<div class="footer-col"><h2>${esc(heading)}</h2><ul>${ids.map((id) => `<li><a href="${pathFor(id, lang)}">${esc(CONTENT.get(id)[lang].navLabel || CONTENT.get(id)[lang].cardTitle)}</a></li>`).join("")}</ul></div>`;
+  const col = (heading, ids) => `<div class="footer-col"><h2>${esc(heading)}</h2><ul>${ids.map((id) => `<li><a href="${pathFor(id, lang)}"${relFor(id)}>${esc(CONTENT.get(id)[lang].navLabel || CONTENT.get(id)[lang].cardTitle)}</a></li>`).join("")}</ul></div>`;
   const otherLang = LANGS.find((l) => l !== lang);
   return `<footer class="site-footer">
   <div class="footer-top">
@@ -510,7 +512,7 @@ function footerHtml(page, lang) {
   </div>
   <div class="footer-bottom">
     <span>© 2026 ${esc(SITE.name)}, Berlin</span>
-    <span class="foot-links"><a href="${pathFor(page.id, otherLang)}" hreflang="${otherLang}" lang="${otherLang}">${esc(ui.switchLabel)}</a>${SITE.groups.legal.map((id) => `<a href="${pathFor(id, lang)}">${esc(CONTENT.get(id)[lang].cardTitle)}</a>`).join("")}</span>
+    <span class="foot-links"><a href="${pathFor(page.id, otherLang)}" hreflang="${otherLang}" lang="${otherLang}">${esc(ui.switchLabel)}</a>${SITE.groups.legal.map((id) => `<a href="${pathFor(id, lang)}"${relFor(id)}>${esc(CONTENT.get(id)[lang].cardTitle)}</a>`).join("")}</span>
   </div>
 </footer>`;
 }
@@ -703,7 +705,7 @@ for (const page of CONTENT.values()) {
     const html = renderPage(page, lang);
     const rel = pathFor(page.id, lang).replace(/^\//, "") + "index.html";
     outputs.set(rel, html);
-    sitemapEntries.push({ id: page.id, lang, lastmod: page.updated || page.date || SITE.launchDate });
+    if (!SITE.pages[page.id].noindex) sitemapEntries.push({ id: page.id, lang, lastmod: page.updated || page.date || SITE.launchDate });
   }
 }
 
